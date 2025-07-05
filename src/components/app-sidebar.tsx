@@ -36,46 +36,46 @@ const data = {
   },
   navMain: [
     {
-      title: "Playground",
+      title: "古诗文",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
-          title: "History",
+          title: "概览",
           url: "#",
         },
         {
-          title: "Starred",
+          title: "预习",
           url: "#",
         },
         {
-          title: "Settings",
+          title: "复习",
           url: "#",
         },
       ],
     },
     {
-      title: "Models",
+      title: "积累",
       url: "#",
       icon: Bot,
       items: [
         {
-          title: "Genesis",
+          title: "古诗文积累",
           url: "#",
         },
         {
-          title: "Explorer",
+          title: "每日积累",
           url: "#",
         },
         {
-          title: "Quantum",
+          title: "文常积累",
           url: "#",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "作者",
       url: "#",
       icon: BookOpen,
       items: [
@@ -98,7 +98,7 @@ const data = {
       ],
     },
     {
-      title: "Settings",
+      title: "游戏",
       url: "#",
       icon: Settings2,
       items: [
@@ -167,8 +167,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <Command className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-medium">Acme Inc</span>
-                  <span className="truncate text-xs">Enterprise</span>
+                  <span className="truncate font-medium">广学古诗文</span>
+                  <span className="truncate text-xs">高中版</span>
                 </div>
               </a>
             </SidebarMenuButton>
