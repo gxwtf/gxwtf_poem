@@ -34,12 +34,12 @@ export function SiteHeader() {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink href="#">
-                Building Your Application
+                广学古诗文
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>Data Fetching</BreadcrumbPage>
+              <BreadcrumbPage>古诗文</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
