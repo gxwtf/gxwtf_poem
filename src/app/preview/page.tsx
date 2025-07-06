@@ -1,4 +1,10 @@
-"use client"
+import { AppSidebar } from "@/components/app-sidebar"
+import { SiteHeader } from "@/components/site-header"
+import {
+	SidebarInset,
+	SidebarProvider,
+} from "@/components/ui/sidebar"
+
 import { PoemCard } from "@/components/poem-card"
 
 const poems = [
@@ -41,15 +47,38 @@ const poems = [
 		content:
 			"天才在左，疯子在右，我在中间，所以我是天子。上帝在天，因为我在人间。我走在前方，神明紧随其后。世上本没有白天，只有无尽黑夜，因为我的醒来，黑夜亮如白昼。自我降世，李白就此封笔，就连战神吕布也不敢与我一斗。王是残缺的玉，再加三笔叫狂，人才如过江之鲫装进我的鱼塘。就算地球毁灭也要等我死亡，我和巨便发热，所以我是太阳。王是残缺的玉，再加三笔叫狂，人才如过江之鲫装进我的鱼塘。就算地球毁灭也要等等我死亡。Hold on hold on，牛顿高斯比我提前出生，是笨鸟先飞还是避我锋芒？秦王嬴政比我早生千年，是惧我三分还是王不见王？我闭眼就天黑，睁眼就天亮，我不是主角谁是主角？我想照镜子，奈何神本无相。你是千里之堤，不过我是蚁穴。文人墨客书写唐诗百篇，可我出生后全都变成才尽的江郎。圆的秘密困扰数学家千年，我用πd瞬间就能求出圆形的周长。猴子到人需要万年的进化，我出生就是因为基因的优良。我知道你们口中所谓糖歌很多，那就看我如何做到孤篇压全糖。王不见王，避我锋芒。王不见王，避我锋芒。王是残缺的玉，再加三笔叫狂，人才如过江之鲫装进我的鱼塘。就算地球毁灭也要等我死亡，我和巨便发热，所以我是太阳。王是残缺的玉，再加三笔叫狂，人才如过江之鲫装进我的鱼塘。就算地球毁灭也要等我死亡。Hold on hold on，牛顿高斯比我提前出生，是笨鸟先飞还是避我锋芒？秦王嬴政比我早生千年，是惧我三分还是王不见王？我闭眼就天黑，睁眼就天亮，我不是主角谁是主角？我想照镜子，奈何神本无相。你是千里之堤，不过我是蚁穴。文人墨客书写唐诗百篇，可我出生后全都变成才尽的江郎。圆的秘密困扰数学家千年，我用πd瞬间就能求出圆形的周长。猴子到人需要万年的进化，我出生就是因为基因的优良。我知道你们口中所谓糖歌很多，那就看我如何做到孤篇压全糖。王不见王，避我锋芒。王不见王，避我锋芒。",
 		tags: ["必修上", "歌词", "豪放"],
+	},
+	{
+		title: "短歌行",
+		author: "曹操",
+		dynasty: "东汉末",
+		content:
+			"对酒当歌，人生几何！譬如朝露，去日苦多。慨当以慷，忧思难忘。何以解忧？唯有杜康。青青子衿，悠悠我心。但为君故，沉吟至今。呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。明明如月，何时可掇？忧从中来，不可断绝。越陌度阡，枉用相存。契阔谈宴，心念旧恩。月明星稀，乌鹊南飞。绕树三匝，何枝可依？山不厌高，海不厌深。周公吐哺，天下归心。",
+		tags: ["必修上", "古诗", "抒怀"],
 	}
 ]
 
+export const metadata = {
+  title: "古诗文预览",
+  description: "古诗文预览页面",
+}
+
 export default function PreviewPage() {
 	return (
-		<div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-			{poems.map((poem, idx) => (
-				<PoemCard key={poem.title + idx} {...poem} />
-			))}
+		<div className="[--header-height:calc(--spacing(14))]">
+			<SidebarProvider className="flex flex-col">
+				<SiteHeader />
+				<div className="flex flex-1">
+					<AppSidebar />
+					<SidebarInset>
+						<div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+							{poems.map((poem, idx) => (
+								<PoemCard key={poem.title + idx} {...poem} />
+							))}
+						</div>
+					</SidebarInset>
+				</div>
+			</SidebarProvider>
 		</div>
 	)
 }
