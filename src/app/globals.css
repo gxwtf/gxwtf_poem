@@ -50,6 +50,7 @@
   --foreground: rgb(163, 31, 36);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
+  --card-title: rgb(163, 31, 36);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
@@ -119,5 +120,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Songti SC', 'SimSun', '宋体', serif;
+  }
+  .card-title {
+    color: var(--card-title);
   }
 }
