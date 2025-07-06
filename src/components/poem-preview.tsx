@@ -136,7 +136,7 @@ function PoemChar({
       {showPinyin && (
         <span className="text-xs text-gray-500 mb-0.5 leading-none">{data.pinyin || ""}</span>
       )}
-      <span>
+      <span className="text-black">
         {data.char}
       </span>
     </span>
@@ -153,7 +153,7 @@ function NotePopover({
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <span className="border-b border-[#a31f24] cursor-pointer hover:text-[#a31f24]">
+        <span className="border-b border-[#a31f24] cursor-pointer hover:text-[#a31f24] flex gap-1">
           {children}
         </span>
       </PopoverTrigger>
