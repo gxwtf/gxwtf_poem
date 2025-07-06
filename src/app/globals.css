@@ -78,6 +78,9 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --poem-note-underline-color: #a31f24;
+  --poem-note-underline-width: 2px;
+  --poem-title-color: #a31f24;
 }
 
 .dark {
@@ -112,17 +115,35 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  --poem-note-underline-color: #a31f24;
+  --poem-note-underline-width: 2px;
+  --poem-title-color: #a31f24;
+}
+
+.poem-note-underline {
+  border-bottom: var(--poem-note-underline-width) solid var(--poem-note-underline-color);
+  transition: color 0.2s;
+}
+
+.poem-note-underline:hover {
+  color: var(--poem-note-underline-color);
+}
+
+.poem-title {
+  color: var(--poem-title-color);
+}
+
+.card-title {
+  color: var(--card-title);
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: 'Songti SC', 'SimSun', '宋体', serif;
-  }
-  .card-title {
-    color: var(--card-title);
   }
 }

@@ -46,8 +46,8 @@ export function PoemPreview({
   return (
     <div className="max-w-3xl mx-auto py-8">
       <div className="text-center mb-2">
-        <div className="text-3xl font-bold text-[#a31f24]">{title}</div>
-        <div className="mt-1 text-lg text-gray-700">
+        <div className="text-3xl font-bold poem-title">{title}</div>
+        <div className="mt-6 text-lg text-gray-700">
           {dynasty ? `【${dynasty}】` : ""}{author}
         </div>
       </div>
@@ -61,13 +61,13 @@ export function PoemPreview({
       </div>
       <div className={mode === "poem" ? "text-center" : "text-left"}>
         {lines.map((line, lineIdx) => (
-          <div key={lineIdx} className="mb-2">
+          <div key={lineIdx} className="mb-6">
             <PoemLine
               line={line}
               showPinyin={showPinyin}
             />
             {showTranslation && translations?.[lineIdx] && (
-              <div className="text-base text-gray-500 mt-1">
+              <div className="text-xl text-gray-500 mt-2">
                 {translations[lineIdx]}
               </div>
             )}
@@ -118,7 +118,7 @@ function PoemLine({
   }
 
   return (
-    <div className="flex justify-center gap-1">
+    <div className="flex justify-center gap-1 text-2xl leading-10">
       {result}
     </div>
   )
@@ -131,11 +131,10 @@ function PoemChar({
   data: PoemCharData
   showPinyin: boolean
 }) {
-  // 所有字符都用inline-flex包裹，保证对齐
   return (
     <span className="inline-flex flex-col items-center mx-0.5 min-w-[1.5em]">
       {showPinyin && (
-        <span className="text-xs text-gray-500 mb-0.5 leading-none">{data.pinyin || ""}</span>
+        <span className="text-base text-gray-500 mb-0.5 leading-none">{data.pinyin || ""}</span>
       )}
       <span className="text-black">
         {data.char}
@@ -154,7 +153,7 @@ function NotePopover({
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <span className="border-b border-[#a31f24] cursor-pointer hover:text-[#a31f24] flex gap-1">
+        <span className="poem-note-underline cursor-pointer flex gap-1">
           {children}
         </span>
       </PopoverTrigger>
