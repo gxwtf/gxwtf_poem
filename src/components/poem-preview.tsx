@@ -94,22 +94,24 @@ function PoemLine({
       result.push(
         <NotePopover key={i} note={note.note}>
           {Array.from({ length: note.length }).map((_, j) => (
-            <PoemChar
-              key={i + j}
-              data={chars[i + j]}
-              showPinyin={showPinyin}
-            />
+            <div key={i + j}>
+              <PoemChar
+                data={chars[i + j]}
+                showPinyin={showPinyin}
+              />
+            </div>
           ))}
         </NotePopover>
       )
       i += note.length
     } else {
       result.push(
-        <PoemChar
-          key={i}
-          data={chars[i]}
-          showPinyin={showPinyin}
-        />
+        <div key={i}>
+          <PoemChar
+            data={chars[i]}
+            showPinyin={showPinyin}
+          />
+        </div>
       )
       i++
     }
