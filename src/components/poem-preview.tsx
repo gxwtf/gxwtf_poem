@@ -105,11 +105,13 @@ function PoemLine({
       i += note.length
     } else {
       result.push(
-        <PoemChar
-          key={i}
-          data={chars[i]}
-          showPinyin={showPinyin}
-        />
+        <div>
+          <PoemChar
+            key={i}
+            data={chars[i]}
+            showPinyin={showPinyin}
+          />
+        </div>
       )
       i++
     }
