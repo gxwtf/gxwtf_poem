@@ -47,10 +47,10 @@
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   /* --foreground: oklch(0.145 0 0); */
+  --title: rgb(163, 31, 36);
   --foreground: rgb(163, 31, 36);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
-  --card-title: rgb(163, 31, 36);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
@@ -80,7 +80,7 @@
   --sidebar-ring: oklch(0.708 0 0);
   --poem-note-underline-color: #a31f24;
   --poem-note-underline-width: 2px;
-  --poem-title-color: #a31f24;
+  --highlight-color: #a31f24;
 }
 
 .dark {
@@ -117,7 +117,7 @@
   --sidebar-ring: oklch(0.556 0 0);
   --poem-note-underline-color: #a31f24;
   --poem-note-underline-width: 2px;
-  --poem-title-color: #a31f24;
+  --highlight-color: #a31f24;
 }
 
 .poem-note-underline {
@@ -130,12 +130,14 @@
 }
 
 .poem-title {
-  color: var(--poem-title-color);
+  color: var(--title);
 }
 
 .card-title {
-  color: var(--card-title);
+  color: var(--title);
 }
+
+
 
 @layer base {
   * {

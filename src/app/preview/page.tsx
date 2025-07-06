@@ -1,103 +1,231 @@
 import { PoemPreview, PoemCharData, NoteBlock } from "@/components/poem-preview"
 
-const poemLines = [
+const paragraphs = [
   {
-    chars: [
-      { char: "风", pinyin: "fēng"},
-      { char: "急", pinyin: "jí" },
-      { char: "天", pinyin: "tiān" },
-      { char: "高", pinyin: "gāo" },
-      { char: "猿", pinyin: "yuán" },
-      { char: "啸", pinyin: "xiào" },
-      { char: "哀", pinyin: "āi" },
-      { char: "，" },
-      { char: "渚", pinyin: "zhǔ" },
-      { char: "清", pinyin: "qīng" },
-      { char: "沙", pinyin: "shā" },
-      { char: "白", pinyin: "bái" },
-      { char: "鸟", pinyin: "niǎo" },
-      { char: "飞", pinyin: "fēi" },
-      { char: "回", pinyin: "huí" },
-      { char: "。" },
-    ],
-    notes: [
-      { start: 4, length: 3, note: "猿啸哀：猿猴的哀鸣。" },
-      { start: 8, length: 2, note: "渚清：水中的小洲清澈。" },
+    sentences: [
+      {
+        chars: [
+          { char: "风", pinyin: "fēng"},
+          { char: "风", pinyin: "fēng"},
+          { char: "风", pinyin: "fēng"},
+          { char: "风", pinyin: "fēng"},
+          { char: "风", pinyin: "fēng"},
+          { char: "风", pinyin: "fēng"},
+          { char: "急", pinyin: "jí" },
+          { char: "天", pinyin: "tiān" },
+          { char: "高", pinyin: "gāo" },
+          { char: "猿", pinyin: "yuán" },
+          { char: "啸", pinyin: "xiào" },
+          { char: "哀", pinyin: "āi" },
+          { char: "，" },
+          { char: "渚", pinyin: "zhǔ" },
+          { char: "清", pinyin: "qīng" },
+          { char: "沙", pinyin: "shā" },
+          { char: "白", pinyin: "bái" },
+          { char: "鸟", pinyin: "niǎo" },
+          { char: "飞", pinyin: "fēi" },
+          { char: "回", pinyin: "huí" },
+          { char: "。" },
+        ],
+        notes: [
+          { start: 4, length: 3, note: "猿啸哀：猿猴的哀鸣。" },
+          { start: 8, length: 2, note: "渚清：水中的小洲清澈。" },
+        ],
+        translation: "秋风急骤，天高气爽，猿声哀鸣。沙洲清澈，白沙滩上鸟儿盘旋。",
+      },
+      {
+        chars: [
+          { char: "无", pinyin: "wú" },
+          { char: "边", pinyin: "biān" },
+          { char: "落", pinyin: "luò" },
+          { char: "木", pinyin: "mù" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "下", pinyin: "xià" },
+          { char: "，" },
+          { char: "不", pinyin: "bù" },
+          { char: "尽", pinyin: "jìn" },
+          { char: "长", pinyin: "cháng" },
+          { char: "江", pinyin: "jiāng" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "来", pinyin: "lái" },
+          { char: "。" },
+        ],
+        notes: [],
+        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
+      },
+      {
+        chars: [
+          { char: "无", pinyin: "wú" },
+          { char: "边", pinyin: "biān" },
+          { char: "落", pinyin: "luò" },
+          { char: "木", pinyin: "mù" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "下", pinyin: "xià" },
+          { char: "，" },
+          { char: "不", pinyin: "bù" },
+          { char: "尽", pinyin: "jìn" },
+          { char: "长", pinyin: "cháng" },
+          { char: "江", pinyin: "jiāng" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "来", pinyin: "lái" },
+          { char: "。" },
+        ],
+        notes: [],
+        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
+      }
     ]
   },
   {
-    chars: [
-      { char: "无", pinyin: "wú" },
-      { char: "边", pinyin: "biān" },
-      { char: "落", pinyin: "luò" },
-      { char: "木", pinyin: "mù" },
-      { char: "萧", pinyin: "xiāo" },
-      { char: "萧", pinyin: "xiāo" },
-      { char: "下", pinyin: "xià" },
-      { char: "，" },
-      { char: "不", pinyin: "bù" },
-      { char: "尽", pinyin: "jìn" },
-      { char: "长", pinyin: "cháng" },
-      { char: "江", pinyin: "jiāng" },
-      { char: "滚", pinyin: "gǔn" },
-      { char: "滚", pinyin: "gǔn" },
-      { char: "来", pinyin: "lái" },
-      { char: "。" },
-    ],
-    notes: []
-  },
-  {
-    chars: [
-      { char: "万", pinyin: "wàn" },
-      { char: "里", pinyin: "lǐ" },
-      { char: "悲", pinyin: "bēi" },
-      { char: "秋", pinyin: "qiū" },
-      { char: "常", pinyin: "cháng" },
-      { char: "作", pinyin: "zuò" },
-      { char: "客", pinyin: "kè" },
-      { char: "，" },
-      { char: "百", pinyin: "bǎi" },
-      { char: "年", pinyin: "nián" },
-      { char: "多", pinyin: "duō" },
-      { char: "病", pinyin: "bìng" },
-      { char: "独", pinyin: "dú" },
-      { char: "登", pinyin: "dēng" },
-      { char: "台", pinyin: "tái" },
-      { char: "。" },
-    ],
-    notes: []
-  },
-  {
-    chars: [
-      { char: "艰", pinyin: "jiān" },
-      { char: "难", pinyin: "nán" },
-      { char: "苦", pinyin: "kǔ" },
-      { char: "恨", pinyin: "hèn" },
-      { char: "繁", pinyin: "fán" },
-      { char: "霜", pinyin: "shuāng" },
-      { char: "鬓", pinyin: "bìn" },
-      { char: "，" },
-      { char: "潦", pinyin: "liáo" },
-      { char: "倒", pinyin: "dǎo" },
-      { char: "新", pinyin: "xīn" },
-      { char: "停", pinyin: "tíng" },
-      { char: "浊", pinyin: "zhuó" },
-      { char: "酒", pinyin: "jiǔ" },
-      { char: "杯", pinyin: "bēi" },
-      { char: "。" },
-    ],
-    notes: [
-      { start: 6, length: 1, note: "鬓：两鬓斑白。" },
-      { start: 12, length: 3, note: "浊酒杯：浊酒，指低度酒，借指饮酒。" },
+    sentences: [
+      {
+        chars: [
+          { char: "无", pinyin: "wú" },
+          { char: "边", pinyin: "biān" },
+          { char: "落", pinyin: "luò" },
+          { char: "木", pinyin: "mù" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "下", pinyin: "xià" },
+          { char: "，" },
+          { char: "不", pinyin: "bù" },
+          { char: "尽", pinyin: "jìn" },
+          { char: "长", pinyin: "cháng" },
+          { char: "江", pinyin: "jiāng" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "来", pinyin: "lái" },
+          { char: "。" },
+        ],
+        notes: [],
+        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
+      },
+            {
+        chars: [
+          { char: "无", pinyin: "wú" },
+          { char: "边", pinyin: "biān" },
+          { char: "落", pinyin: "luò" },
+          { char: "木", pinyin: "mù" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "下", pinyin: "xià" },
+          { char: "，" },
+          { char: "不", pinyin: "bù" },
+          { char: "尽", pinyin: "jìn" },
+          { char: "长", pinyin: "cháng" },
+          { char: "江", pinyin: "jiāng" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "来", pinyin: "lái" },
+          { char: "。" },
+        ],
+        notes: [],
+        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
+      },
+            {
+        chars: [
+          { char: "无", pinyin: "wú" },
+          { char: "边", pinyin: "biān" },
+          { char: "落", pinyin: "luò" },
+          { char: "木", pinyin: "mù" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "下", pinyin: "xià" },
+          { char: "，" },
+          { char: "不", pinyin: "bù" },
+          { char: "尽", pinyin: "jìn" },
+          { char: "长", pinyin: "cháng" },
+          { char: "江", pinyin: "jiāng" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "来", pinyin: "lái" },
+          { char: "。" },
+        ],
+        notes: [],
+        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
+      },
+            {
+        chars: [
+          { char: "无", pinyin: "wú" },
+          { char: "边", pinyin: "biān" },
+          { char: "落", pinyin: "luò" },
+          { char: "木", pinyin: "mù" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "萧", pinyin: "xiāo" },
+          { char: "下", pinyin: "xià" },
+          { char: "，" },
+          { char: "不", pinyin: "bù" },
+          { char: "尽", pinyin: "jìn" },
+          { char: "长", pinyin: "cháng" },
+          { char: "江", pinyin: "jiāng" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "滚", pinyin: "gǔn" },
+          { char: "来", pinyin: "lái" },
+          { char: "。" },
+        ],
+        notes: [],
+        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
+      }
     ]
   },
-]
-
-const translations = [
-  "秋风急骤，天高气爽，猿声哀鸣。沙洲清澈，白沙滩上鸟儿盘旋。",
-  "无边的落叶萧萧而下，无尽的长江滚滚东流。",
-  "万里漂泊，常为异乡之客；百年多病，独自登台远望。",
-  "艰难困苦，愁恨两鬓早生华发；潦倒失意，新近才戒掉浊酒。",
+  {
+    sentences: [
+      {
+        chars: [
+          { char: "万", pinyin: "wàn" },
+          { char: "里", pinyin: "lǐ" },
+          { char: "悲", pinyin: "bēi" },
+          { char: "秋", pinyin: "qiū" },
+          { char: "常", pinyin: "cháng" },
+          { char: "作", pinyin: "zuò" },
+          { char: "客", pinyin: "kè" },
+          { char: "，" },
+          { char: "百", pinyin: "bǎi" },
+          { char: "年", pinyin: "nián" },
+          { char: "多", pinyin: "duō" },
+          { char: "病", pinyin: "bìng" },
+          { char: "独", pinyin: "dú" },
+          { char: "登", pinyin: "dēng" },
+          { char: "台", pinyin: "tái" },
+          { char: "。" },
+        ],
+        notes: [],
+        translation: "万里漂泊，常为异乡之客；百年多病，独自登台远望。",
+      }
+    ]
+  },
+  {
+    sentences: [
+      {
+        chars: [
+          { char: "艰", pinyin: "jiān" },
+          { char: "难", pinyin: "nán" },
+          { char: "苦", pinyin: "kǔ" },
+          { char: "恨", pinyin: "hèn" },
+          { char: "繁", pinyin: "fán" },
+          { char: "霜", pinyin: "shuāng" },
+          { char: "鬓", pinyin: "bìn" },
+          { char: "，" },
+          { char: "潦", pinyin: "liáo" },
+          { char: "倒", pinyin: "dǎo" },
+          { char: "新", pinyin: "xīn" },
+          { char: "停", pinyin: "tíng" },
+          { char: "浊", pinyin: "zhuó" },
+          { char: "酒", pinyin: "jiǔ" },
+          { char: "杯", pinyin: "bēi" },
+          { char: "。" },
+        ],
+        notes: [
+          { start: 6, length: 1, note: "鬓：两鬓斑白。" },
+          { start: 12, length: 3, note: "浊酒杯：浊酒，指低度酒，借指饮酒。" },
+        ],
+        translation: "艰难困苦，愁恨两鬓早生华发；潦倒失意，新近才戒掉浊酒。",
+      }
+    ]
+  },
 ]
 
 export const metadata = {
@@ -112,8 +240,7 @@ export default function PreviewPage() {
       author="杜甫"
       dynasty="唐"
       mode="poem"
-      lines={poemLines}
-      translations={translations}
+      paragraphs={paragraphs}
     />
   )
 }

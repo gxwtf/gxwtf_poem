@@ -7,6 +7,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover"
 
+
 export type PoemCharData = {
   char: string
   pinyin?: string
@@ -28,8 +29,14 @@ export interface PoemPreviewProps {
   author: string
   dynasty?: string
   mode: "poem" | "paragraph"
-  lines: PoemLineData[]
-  translations?: string[]
+  paragraphs: {
+    sentences: {
+      chars: PoemCharData[]
+      notes?: NoteBlock[]
+      translation?: string
+    }[]
+  }[]
+  // translations removed
 }
 
 export function PoemPreview({
@@ -37,11 +44,11 @@ export function PoemPreview({
   author,
   dynasty,
   mode,
-  lines,
-  translations,
+  paragraphs,
 }: PoemPreviewProps) {
   const [showPinyin, setShowPinyin] = useState(false)
   const [showTranslation, setShowTranslation] = useState(false)
+  const [highlighted, setHighlighted] = useState<[number, number] | null>(null)
 
   return (
     <div className="max-w-3xl mx-auto py-8">
@@ -60,17 +67,67 @@ export function PoemPreview({
         </Button>
       </div>
       <div className={mode === "poem" ? "text-center" : "text-left"}>
-        {lines.map((line, lineIdx) => (
-          <div key={lineIdx} className="mb-6">
-            <PoemLine
-              line={line}
-              showPinyin={showPinyin}
-            />
-            {showTranslation && translations?.[lineIdx] && (
-              <div className="text-xl text-gray-500 mt-2">
-                {translations[lineIdx]}
-              </div>
-            )}
+        {paragraphs.map((paragraph, pIdx) => (
+          <div
+            key={pIdx}
+            className={mode === "paragraph" ? "mt-8" : ""}
+          >
+            {paragraph.sentences.map((sentence, sIdx) => {
+              const isHighlighted = highlighted?.[0] === pIdx && highlighted?.[1] === sIdx
+              if (mode === "poem") {
+                return (
+                  <div
+                    key={sIdx}
+                    className="mb-6"
+                    onMouseEnter={() => showTranslation && setHighlighted([pIdx, sIdx])}
+                    onMouseLeave={() => setHighlighted(null)}
+                  >
+                    <PoemLine
+                      line={{ chars: sentence.chars, notes: sentence.notes }}
+                      showPinyin={showPinyin}
+                      highlight={isHighlighted}
+                    />
+                    {showTranslation && sentence.translation && (
+                      <div
+                        className={`text-xl text-gray-500 mt-2 ${
+                          isHighlighted
+                            ? "bg-yellow-100 px-1 rounded-sm"
+                            : ""
+                        }`}
+                      >
+                        {sentence.translation}
+                      </div>
+                    )}
+                  </div>
+                )
+              } else {
+                return (
+                  <div
+                    key={sIdx}
+                    className="flex flex-col"
+                    onMouseEnter={() => showTranslation && setHighlighted([pIdx, sIdx])}
+                    onMouseLeave={() => setHighlighted(null)}
+                  >
+                    <PoemLine
+                      line={{ chars: sentence.chars, notes: sentence.notes }}
+                      showPinyin={showPinyin}
+                      highlight={isHighlighted}
+                    />
+                    {showTranslation && sentence.translation && (
+                      <div
+                        className={`text-sm text-gray-400 leading-tight ${
+                          isHighlighted
+                            ? "bg-yellow-100 px-1 rounded-sm"
+                            : ""
+                        }`}
+                      >
+                        {sentence.translation}
+                      </div>
+                    )}
+                  </div>
+                )
+              }
+            })}
           </div>
         ))}
       </div>
@@ -81,9 +138,11 @@ export function PoemPreview({
 function PoemLine({
   line,
   showPinyin,
+  highlight,
 }: {
   line: PoemLineData
   showPinyin: boolean
+  highlight: boolean
 }) {
   const { chars, notes } = line
   const result: React.ReactNode[] = []
@@ -94,24 +153,24 @@ function PoemLine({
       result.push(
         <NotePopover key={i} note={note.note}>
           {Array.from({ length: note.length }).map((_, j) => (
-            <div key={i + j}>
-              <PoemChar
-                data={chars[i + j]}
-                showPinyin={showPinyin}
-              />
-            </div>
+            <PoemChar
+              key={i + j}
+              data={chars[i + j]}
+              showPinyin={showPinyin}
+              highlight={highlight}
+            />
           ))}
         </NotePopover>
       )
       i += note.length
     } else {
       result.push(
-        <div key={i}>
-          <PoemChar
-            data={chars[i]}
-            showPinyin={showPinyin}
-          />
-        </div>
+        <PoemChar
+          key={i}
+          data={chars[i]}
+          showPinyin={showPinyin}
+          highlight={highlight}
+        />
       )
       i++
     }
@@ -127,16 +186,24 @@ function PoemLine({
 function PoemChar({
   data,
   showPinyin,
+  highlight,
 }: {
   data: PoemCharData
   showPinyin: boolean
+  highlight: boolean
 }) {
   return (
     <span className="inline-flex flex-col items-center mx-0.5 min-w-[1.5em]">
       {showPinyin && (
         <span className="text-base text-gray-500 mb-0.5 leading-none">{data.pinyin || ""}</span>
       )}
-      <span className="text-black">
+      <span
+        className={
+          highlight
+            ? "bg-yellow-200 rounded-sm px-1"
+            : "text-black"
+        }
+      >
         {data.char}
       </span>
     </span>
