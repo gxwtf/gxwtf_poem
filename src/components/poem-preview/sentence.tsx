@@ -54,11 +54,9 @@ export function Translation({
     highlight: boolean
 }) {
     return (
-        <div className="mt-2">
-            <span className={`text-xl text-gray-500 ${highlight ? "bg-yellow-100 px-1" : ""}`}>
-                {translation}
-            </span>
-        </div>
+        <span className={`text-xl text-gray-500 ${highlight ? "bg-yellow-100 px-1" : ""}`}>
+            {translation}
+        </span>
     );
 }
 

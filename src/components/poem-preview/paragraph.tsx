@@ -41,7 +41,7 @@ export function Paragraph({
                     </span>
                 ))}
             </div>
-            <div className="translations leading-relaxed break-words">
+            <div className="translations">
                 {mode === "paragraph" && <span style={{ width: "2em", display: "inline-block" }}></span>}
                 {para.paragraph.map((s, index) =>
                     s.translation ? (
@@ -49,7 +49,8 @@ export function Paragraph({
                             key={index}
                             onMouseEnter={() => handleMouseEnter(index)}
                             onMouseLeave={handleMouseLeave}
-                            className={`inline ${highlightId === index ? "highlight" : ""}`}
+                            style={{ display: "inline" }}
+                            className={highlightId === index ? "highlight" : ""}
                         >
                             <Translation 
                                 translation={s.translation.translation} 
