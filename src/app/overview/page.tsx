@@ -59,7 +59,7 @@ const poems = [
 ]
 
 export const metadata = {
-  title: "古诗文预概览",
+  title: "古诗文概览 - 广学古诗文",
   description: "古诗文概览页面",
 }
 
@@ -67,7 +67,7 @@ export default function OverviewPage() {
 	return (
 		<div className="[--header-height:calc(--spacing(14))]">
 			<SidebarProvider className="flex flex-col">
-				<SiteHeader now="所有古诗文" />
+				<SiteHeader now="概览" />
 				<div className="flex flex-1">
 					<AppSidebar />
 					<SidebarInset>

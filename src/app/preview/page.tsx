@@ -82,7 +82,7 @@ export default function PreviewPage() {
         <SiteHeader data={[{
           name:"登高",
           href:"/preview"
-          }]} now="概览" />
+          }]} now="预览" />
         <div className="flex flex-1">
           <AppSidebar />
           <SidebarInset>
