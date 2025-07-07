@@ -1,231 +1,54 @@
-import { PoemPreview, PoemCharData, NoteBlock } from "@/components/poem-preview"
+import { PoemPreview } from "@/components/poem-preview"
 
 const content = [
-  {
-    paragraph: [
-      {
-        sentence: [
-          { char: "风", pinyin: "fēng"},
-          { char: "风", pinyin: "fēng"},
-          { char: "风", pinyin: "fēng"},
-          { char: "风", pinyin: "fēng"},
-          { char: "风", pinyin: "fēng"},
-          { char: "风", pinyin: "fēng"},
-          { char: "急", pinyin: "jí" },
-          { char: "天", pinyin: "tiān" },
-          { char: "高", pinyin: "gāo" },
-          { char: "猿", pinyin: "yuán" },
-          { char: "啸", pinyin: "xiào" },
-          { char: "哀", pinyin: "āi" },
-          { char: "，", pinyin: "　" },
-          { char: "渚", pinyin: "zhǔ" },
-          { char: "清", pinyin: "qīng" },
-          { char: "沙", pinyin: "shā" },
-          { char: "白", pinyin: "bái" },
-          { char: "鸟", pinyin: "niǎo" },
-          { char: "飞", pinyin: "fēi" },
-          { char: "回", pinyin: "huí" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [
-          { start: 4, end: 6, note: "猿啸哀：猿猴的哀鸣。" },
-          { start: 8, end: 9, note: "渚清：水中的小洲清澈。" },
-        ],
-        translation: "秋风急骤，天高气爽，猿声哀鸣。沙洲清澈，白沙滩上鸟儿盘旋。",
-      },
-      {
-        sentence: [
-          { char: "无", pinyin: "wú" },
-          { char: "边", pinyin: "biān" },
-          { char: "落", pinyin: "luò" },
-          { char: "木", pinyin: "mù" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "下", pinyin: "xià" },
-          { char: "，", pinyin: "　" },
-          { char: "不", pinyin: "bù" },
-          { char: "尽", pinyin: "jìn" },
-          { char: "长", pinyin: "cháng" },
-          { char: "江", pinyin: "jiāng" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "来", pinyin: "lái" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [],
-        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
-      },
-      {
-        sentence: [
-          { char: "无", pinyin: "wú" },
-          { char: "边", pinyin: "biān" },
-          { char: "落", pinyin: "luò" },
-          { char: "木", pinyin: "mù" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "下", pinyin: "xià" },
-          { char: "，", pinyin: "　" },
-          { char: "不", pinyin: "bù" },
-          { char: "尽", pinyin: "jìn" },
-          { char: "长", pinyin: "cháng" },
-          { char: "江", pinyin: "jiāng" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "来", pinyin: "lái" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [],
-        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
-      }
-    ]
-  },
-  {
-    paragraph: [
-      {
-        sentence: [
-          { char: "无", pinyin: "wú" },
-          { char: "边", pinyin: "biān" },
-          { char: "落", pinyin: "luò" },
-          { char: "木", pinyin: "mù" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "下", pinyin: "xià" },
-          { char: "，", pinyin: "　" },
-          { char: "不", pinyin: "bù" },
-          { char: "尽", pinyin: "jìn" },
-          { char: "长", pinyin: "cháng" },
-          { char: "江", pinyin: "jiāng" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "来", pinyin: "lái" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [],
-        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
-      },
-            {
-        sentence: [
-          { char: "无", pinyin: "wú" },
-          { char: "边", pinyin: "biān" },
-          { char: "落", pinyin: "luò" },
-          { char: "木", pinyin: "mù" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "下", pinyin: "xià" },
-          { char: "，", pinyin: "　" },
-          { char: "不", pinyin: "bù" },
-          { char: "尽", pinyin: "jìn" },
-          { char: "长", pinyin: "cháng" },
-          { char: "江", pinyin: "jiāng" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "来", pinyin: "lái" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [],
-        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
-      },
-            {
-        sentence: [
-          { char: "无", pinyin: "wú" },
-          { char: "边", pinyin: "biān" },
-          { char: "落", pinyin: "luò" },
-          { char: "木", pinyin: "mù" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "下", pinyin: "xià" },
-          { char: "，", pinyin: "　" },
-          { char: "不", pinyin: "bù" },
-          { char: "尽", pinyin: "jìn" },
-          { char: "长", pinyin: "cháng" },
-          { char: "江", pinyin: "jiāng" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "来", pinyin: "lái" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [],
-        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
-      },
-            {
-        sentence: [
-          { char: "无", pinyin: "wú" },
-          { char: "边", pinyin: "biān" },
-          { char: "落", pinyin: "luò" },
-          { char: "木", pinyin: "mù" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "萧", pinyin: "xiāo" },
-          { char: "下", pinyin: "xià" },
-          { char: "，", pinyin: "　" },
-          { char: "不", pinyin: "bù" },
-          { char: "尽", pinyin: "jìn" },
-          { char: "长", pinyin: "cháng" },
-          { char: "江", pinyin: "jiāng" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "滚", pinyin: "gǔn" },
-          { char: "来", pinyin: "lái" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [],
-        translation: "无边的落叶萧萧而下，无尽的长江滚滚东流。",
-      }
-    ]
-  },
-  {
-    paragraph: [
-      {
-        sentence: [
-          { char: "万", pinyin: "wàn" },
-          { char: "里", pinyin: "lǐ" },
-          { char: "悲", pinyin: "bēi" },
-          { char: "秋", pinyin: "qiū" },
-          { char: "常", pinyin: "cháng" },
-          { char: "作", pinyin: "zuò" },
-          { char: "客", pinyin: "kè" },
-          { char: "，", pinyin: "　" },
-          { char: "百", pinyin: "bǎi" },
-          { char: "年", pinyin: "nián" },
-          { char: "多", pinyin: "duō" },
-          { char: "病", pinyin: "bìng" },
-          { char: "独", pinyin: "dú" },
-          { char: "登", pinyin: "dēng" },
-          { char: "台", pinyin: "tái" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [],
-        translation: "万里漂泊，常为异乡之客；百年多病，独自登台远望。",
-      }
-    ]
-  },
-  {
-    paragraph: [
-      {
-        sentence: [
-          { char: "艰", pinyin: "jiān" },
-          { char: "难", pinyin: "nán" },
-          { char: "苦", pinyin: "kǔ" },
-          { char: "恨", pinyin: "hèn" },
-          { char: "繁", pinyin: "fán" },
-          { char: "霜", pinyin: "shuāng" },
-          { char: "鬓", pinyin: "bìn" },
-          { char: "，", pinyin: "　" },
-          { char: "潦", pinyin: "liáo" },
-          { char: "倒", pinyin: "dǎo" },
-          { char: "新", pinyin: "xīn" },
-          { char: "停", pinyin: "tíng" },
-          { char: "浊", pinyin: "zhuó" },
-          { char: "酒", pinyin: "jiǔ" },
-          { char: "杯", pinyin: "bēi" },
-          { char: "。", pinyin: "　" },
-        ],
-        notes: [
-          { start: 6, end: 6, note: "鬓：两鬓斑白。" },
-          { start: 12, end: 14, note: "浊酒杯：浊酒，指低度酒，借指饮酒。" },
-        ],
-        translation: "艰难困苦，愁恨两鬓早生华发；潦倒失意，新近才戒掉浊酒。",
-      }
-    ]
-  },
+  [
+    {
+      "sentence": [
+        { "char": "前", "pinyin": "qián", "write": false, "read": false },
+        { "char": "不", "pinyin": "bù", "write": false, "read": false },
+        { "char": "见", "pinyin": "jiàn", "write": false, "read": true },
+        { "char": "古", "pinyin": "gǔ", "write": false, "read": false },
+        { "char": "人", "pinyin": "rén", "write": false, "read": false },
+        { "char": "后", "pinyin": "hòu", "write": false, "read": false },
+        { "char": "不", "pinyin": "bù", "write": false, "read": false },
+        { "char": "见", "pinyin": "jiàn", "write": false, "read": true },
+        { "char": "来", "pinyin": "lái", "write": false, "read": false },
+        { "char": "者", "pinyin": "zhě", "write": false, "read": true }
+      ],
+      "translation": "向前看不见古代的贤明君主，向后看不见未来的杰出人才。",
+      "notes": [
+        { "start": "4", "end": "5", "note": "指古代的贤人，如尧舜禹汤等圣君，表达对先贤的追慕。" },
+        { "start": "9", "end": "10", "note": "指未来的明主或知音，引申为能赏识人才的君主。" },
+        { "start": "1", "end": "1", "note": "表示时间或方向上的往前，强调历史纵深感。" },
+        { "start": "6", "end": "6", "note": "表示时间或方向上的往后，与“前”形成对比，突出时间流逝。" }
+      ],
+    },
+    {
+      "sentence": [
+        { "char": "念", "pinyin": "niàn", "write": false, "read": false },
+        { "char": "天", "pinyin": "tiān", "write": false, "read": false },
+        { "char": "地", "pinyin": "dì", "write": false, "read": false },
+        { "char": "之", "pinyin": "zhī", "write": false, "read": false },
+        { "char": "悠", "pinyin": "yōu", "write": false, "read": false },
+        { "char": "悠", "pinyin": "yōu", "write": false, "read": false },
+        { "char": "独", "pinyin": "dú", "write": false, "read": false },
+        { "char": "怆", "pinyin": "chuàng", "write": true, "read": true },
+        { "char": "然", "pinyin": "rán", "write": false, "read": false },
+        { "char": "而", "pinyin": "ér", "write": false, "read": false },
+        { "char": "涕", "pinyin": "tì", "write": false, "read": true },
+        { "char": "下", "pinyin": "xià", "write": false, "read": false }
+      ],
+      "translation": "想到天地的广阔无边与永恒，我独自悲伤地流下眼泪。",
+      "notes": [
+        { "start": "5", "end": "6", "note": "形容天地辽阔、时间久远，表达宇宙的无限与人生的短暂。" },
+        { "start": "8", "end": "9", "note": "悲伤、凄凉的样子，“怆”易误写为“沧”或“创”，读音易误为“chuāng”。" },
+        { "start": "11", "end": "11", "note": "指眼泪，非鼻涕，古汉语中常指泪水，读音易误为“bì”。" },
+        { "start": "1", "end": "1", "note": "思考、感念之意，奠定全句抒情基调。" },
+        { "start": "2", "end": "3", "note": "指宇宙或自然，强调空间的浩瀚。" },
+        { "start": "4", "end": "4", "note": "结构助词，连接定语“悠悠”与中心语“天地”。" }
+      ]
+    }
+  ]
 ]
 
 export const metadata = {
@@ -240,7 +63,7 @@ export default function PreviewPage() {
       author="杜甫"
       dynasty="唐"
       mode="poem"
-      content={content} 
+      content={content}
     />
   )
 }
