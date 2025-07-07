@@ -28,8 +28,8 @@ export function Paragraph({
 
     return (
         <div>
-            <div className="sentences leading-relaxed break-words">
-                {mode === "paragraph" && <span style={{ width: "2em", display: "inline-block" }}></span>}
+            <div className="sentences">
+                {mode === "paragraph" && <span style={{ width: "3em", display: "inline-block" }}></span>}
                 {para.paragraph.map((s, index) => (
                     <span
                         key={index}
