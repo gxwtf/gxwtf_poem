@@ -1,3 +1,9 @@
+import { AppSidebar } from "@/components/app-sidebar"
+import { SiteHeader } from "@/components/site-header"
+import {
+  SidebarInset,
+  SidebarProvider,
+} from "@/components/ui/sidebar"
 import { PoemPreview } from "@/components/poem-preview"
 
 const content = [
@@ -71,12 +77,25 @@ export const metadata = {
 
 export default function PreviewPage() {
   return (
-    <PoemPreview
-      title="登高"
-      author="杜甫"
-      dynasty="唐"
-      mode="poem"
-      content={content}
-    />
+    <div className="[--header-height:calc(--spacing(14))]">
+      <SidebarProvider className="flex flex-col">
+        <SiteHeader data={[{
+          name:"登高",
+          href:"/preview"
+          }]} now="概览" />
+        <div className="flex flex-1">
+          <AppSidebar />
+          <SidebarInset>
+            <PoemPreview
+              title="登高"
+              author="杜甫"
+              dynasty="唐"
+              mode="poem"
+              content={content}
+            />
+          </SidebarInset>
+        </div>
+      </SidebarProvider>
+    </div>
   )
 }

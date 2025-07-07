@@ -15,8 +15,20 @@ import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { useSidebar } from "@/components/ui/sidebar"
 import { ModeToggle } from "@/components/mode-toggle"
+import React from 'react'
 
-export function SiteHeader() {
+export type SiteHeaderData = {
+  name: string
+  href: string
+}
+
+export function SiteHeader({
+  data,
+  now
+}: {
+  data?: SiteHeaderData[]
+  now: string
+}) {
   const { toggleSidebar } = useSidebar()
 
   return (
@@ -34,13 +46,23 @@ export function SiteHeader() {
         <Breadcrumb className="hidden sm:block">
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="#">
+              <BreadcrumbLink href="/overview">
                 广学古诗文
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
+            {data?.map((cur) => (
+              <React.Fragment key={cur.name}>
+                <BreadcrumbItem>
+                  <BreadcrumbLink href={cur.href}>
+                    {cur.name}
+                  </BreadcrumbLink>
+                </BreadcrumbItem>
+                <BreadcrumbSeparator />
+              </React.Fragment>
+            ))}
             <BreadcrumbItem>
-              <BreadcrumbPage>古诗文</BreadcrumbPage>
+              <BreadcrumbPage>{now}</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

@@ -67,7 +67,7 @@ export default function OverviewPage() {
 	return (
 		<div className="[--header-height:calc(--spacing(14))]">
 			<SidebarProvider className="flex flex-col">
-				<SiteHeader />
+				<SiteHeader now="所有古诗文" />
 				<div className="flex flex-1">
 					<AppSidebar />
 					<SidebarInset>
