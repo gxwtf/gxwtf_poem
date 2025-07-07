@@ -28,7 +28,7 @@ export function PoemCard({
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="card-title text-xl">{title}</CardTitle>
+        <CardTitle className="card-title font-bold text-xl">{title}</CardTitle>
         <CardDescription>
           {dynasty ? `【${dynasty}】` : ""}{author}
         </CardDescription>

@@ -129,10 +129,6 @@
   color: var(--poem-note-underline-color);
 }
 
-.poem-title {
-  color: var(--title);
-}
-
 .card-title {
   color: var(--title);
 }

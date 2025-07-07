@@ -2,7 +2,8 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Meta } from "./poem-preview/meta"
-import { Paragraph, ParagraphData} from "./poem-preview/paragraph";
+import { Paragraph, ParagraphData } from "./poem-preview/paragraph";
+import Section from "./section";
 
 function ControlButtons({
     showTranslation,
@@ -33,6 +34,8 @@ export interface PoemPreviewProps {
     dynasty?: string
     mode: "poem" | "paragraph"
     content: ParagraphData[]
+    background?: string
+    appreciation?: string
 }
 
 export function PoemPreview({
@@ -41,31 +44,39 @@ export function PoemPreview({
     dynasty,
     mode,
     content,
+    background,
+    appreciation,
 }: PoemPreviewProps) {
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
     const [highlighted, setHighlighted] = useState<[number, number] | null>(null)
 
     return (
-        <div className="max-w-3xl mx-auto py-8">
-            <Meta title={title} author={author} dynasty={dynasty} />
-            <ControlButtons
-                showTranslation={showTranslation}
-                setShowTranslation={setShowTranslation}
-                showPinyin={showPinyin}
-                setShowPinyin={setShowPinyin}
-            />
-            <div className={mode === "poem" ? "text-center" : "text-left"}>
-                {content.map((paragraph, pIdx) => (
-                    <div key={pIdx} className={mode === "paragraph" ? "mt-8" : ""}>
-                        <Paragraph
-                            para={paragraph}
-                            showPinyin={showPinyin}
-                            mode={mode}
-                        />
-                    </div>
-                ))}
+        <>
+            <div className="max-w-3xl mx-auto py-8">
+                <Meta title={title} author={author} dynasty={dynasty} />
+                <ControlButtons
+                    showTranslation={showTranslation}
+                    setShowTranslation={setShowTranslation}
+                    showPinyin={showPinyin}
+                    setShowPinyin={setShowPinyin}
+                />
+                <div className={mode === "poem" ? "text-center" : "text-left"}>
+                    {content.map((paragraph, pIdx) => (
+                        <div key={pIdx} className={mode === "paragraph" ? "mt-8" : ""}>
+                            <Paragraph
+                                para={paragraph}
+                                showPinyin={showPinyin}
+                                showTranslation={showTranslation}
+                                mode={mode}
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
+
+            <Section title="写作背景" content={background || "暂无相关背景信息"}/>
+            <Section title="内容赏析" content={appreciation || "暂无相关背景信息"}/>
+        </>
     )
 }
