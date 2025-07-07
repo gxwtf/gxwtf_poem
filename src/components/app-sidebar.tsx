@@ -43,7 +43,7 @@ const data = {
       items: [
         {
           title: "概览",
-          url: "/preview",
+          url: "/overview",
         },
         {
           title: "预习",
