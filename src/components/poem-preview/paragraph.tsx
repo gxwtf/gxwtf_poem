@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react";
-import {Sentence,SentenceData} from "./sentence";
+import {Sentence, SentenceData} from "./sentence";
 
 export type ParagraphData = {
     sentences: SentenceData[]
@@ -30,26 +30,26 @@ export function Paragraph({
         <div className={`paragraph ${mode}`}>
             <div className="original-line">
                 {mode === "paragraph" && <span style={{ width: "2em", display: "inline-block" }}></span>}
-                {para.sentences.map((s) => (
+                {para.sentences.map((s, index) => (
                     <span
-                        key={s.id}
-                        onMouseEnter={() => handleMouseEnter(s.id)}
+                        key={index}
+                        onMouseEnter={() => handleMouseEnter(index)}
                         onMouseLeave={handleMouseLeave}
-                        className={highlightId === s.id ? "highlight" : ""}
+                        className={highlightId === index ? "highlight" : ""}
                     >
-                        <Sentence sent={s} showPinyin={showPinyin} highlight={highlightId === s.id} />
+                        <Sentence sent={s} showPinyin={showPinyin} highlight={highlightId === index} />
                     </span>
                 ))}
             </div>
             <div className="translation-line">
                 {mode === "paragraph" && <span style={{ width: "2em", display: "inline-block" }}></span>}
-                {para.sentences.map((s) =>
+                {para.sentences.map((s, index) =>
                     s.translation ? (
                         <span
-                            key={s.id}
-                            onMouseEnter={() => handleMouseEnter(s.id)}
+                            key={index}
+                            onMouseEnter={() => handleMouseEnter(index)}
                             onMouseLeave={handleMouseLeave}
-                            className={highlightId === s.id ? "highlight" : ""}
+                            className={highlightId === index ? "highlight" : ""}
                         >
                             {s.translation.translation}
                         </span>

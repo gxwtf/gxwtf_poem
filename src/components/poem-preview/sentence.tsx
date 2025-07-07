@@ -15,13 +15,11 @@ type NoteBlock = {
 }
 
 export type TranslationData = {
-    id: number;
     translation: string
     highlight?: boolean
 }
 
 export type SentenceData = {
-    id: number;
     sentence: CharData[]
     notes?: NoteBlock[]
     translation?: TranslationData
