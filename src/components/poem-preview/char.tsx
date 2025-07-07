@@ -14,7 +14,7 @@ export function Char({
     showPinyin: boolean
     highlight: boolean
 }) {
-    console.log(data)
+    // console.log(data)
     return (
         <div className={`flex justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""}`}>
             <span className="inline-flex flex-col items-center min-w-[1.5em]">

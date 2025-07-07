@@ -2,7 +2,7 @@ import { PoemPreview } from "@/components/poem-preview"
 
 const content = [
   {
-    sentences: [
+    paragraph: [
       {
         "sentence": [
           { "char": "前", "pinyin": "qián", "write": false, "read": false },
@@ -58,7 +58,7 @@ const content = [
         ]
       }
     ]
-}
+  }
 ]
 
 export const metadata = {

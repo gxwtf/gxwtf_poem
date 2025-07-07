@@ -104,6 +104,6 @@ export function Sentence({
         charList.push(unit);
     }
     return (
-        <span className="text-2xl leading-10">{charList}</span>
+        <span className="inline-flex text-2xl leading-10">{charList}</span>
     );
 }

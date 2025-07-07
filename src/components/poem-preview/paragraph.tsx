@@ -1,10 +1,10 @@
 "use client"
 
 import { useState } from "react";
-import {Sentence, SentenceData} from "./sentence";
+import {Sentence, SentenceData, Translation} from "./sentence";
 
 export type ParagraphData = {
-    sentences: SentenceData[]
+    paragraph: SentenceData[]
 }
 
 export function Paragraph({
@@ -30,12 +30,12 @@ export function Paragraph({
         <div className={`paragraph ${mode}`}>
             <div className="original-line">
                 {mode === "paragraph" && <span style={{ width: "2em", display: "inline-block" }}></span>}
-                {para.sentences.map((s, index) => (
+                {para.paragraph.map((s, index) => (
                     <span
                         key={index}
                         onMouseEnter={() => handleMouseEnter(index)}
                         onMouseLeave={handleMouseLeave}
-                        className={highlightId === index ? "highlight" : ""}
+                        className={`inline-block ${highlightId === index ? "highlight" : ""}`}
                     >
                         <Sentence sent={s} showPinyin={showPinyin} highlight={highlightId === index} />
                     </span>
@@ -43,15 +43,18 @@ export function Paragraph({
             </div>
             <div className="translation-line">
                 {mode === "paragraph" && <span style={{ width: "2em", display: "inline-block" }}></span>}
-                {para.sentences.map((s, index) =>
+                {para.paragraph.map((s, index) =>
                     s.translation ? (
                         <span
                             key={index}
                             onMouseEnter={() => handleMouseEnter(index)}
                             onMouseLeave={handleMouseLeave}
-                            className={highlightId === index ? "highlight" : ""}
+                            className={`inline-block ${highlightId === index ? "highlight" : ""}`}
                         >
-                            {s.translation.translation}
+                            <Translation 
+                                translation={s.translation.translation} 
+                                highlight={highlightId === index} 
+                            />
                         </span>
                     ) : null
                 )}
