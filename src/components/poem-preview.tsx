@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Meta } from "./poem-preview/meta"
 import { Paragraph, ParagraphData } from "./poem-preview/paragraph";
-import Section from "./section";
+import { Section, SectionTitle, SectionContent } from "./section";
 
 function ControlButtons({
     showTranslation,
@@ -49,8 +49,7 @@ export function PoemPreview({
 }: PoemPreviewProps) {
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
-    const [highlighted, setHighlighted] = useState<[number, number] | null>(null)
-
+    
     return (
         <>
             <div className="max-w-3xl mx-auto py-8">
@@ -75,8 +74,14 @@ export function PoemPreview({
                 </div>
             </div>
 
-            <Section title="写作背景" content={background || "暂无相关背景信息"}/>
-            <Section title="内容赏析" content={appreciation || "暂无相关背景信息"}/>
+            <Section>
+                <SectionTitle val="写作背景" />
+                <SectionContent val={background || "暂无相关背景信息"} />
+            </Section>
+            <Section>
+                <SectionTitle val="内容赏析" />
+                <SectionContent val={appreciation || "暂无相关背景信息"} />
+            </Section>
         </>
     )
 }

@@ -35,7 +35,7 @@ function NotePopover({
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <span className="poem-note-underline cursor-pointer inline-flex flex-wrap items-center">
+                <span className="border-b-2 border-[var(--theme-color)] cursor-pointer inline-flex flex-wrap items-center">
                     {children}
                 </span>
             </PopoverTrigger>
