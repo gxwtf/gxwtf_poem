@@ -16,7 +16,7 @@ export function Char({
 }) {
     // console.log(data)
     return (
-        <div className={`flex justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""}`}>
+        <div className={`inline-block justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""}`}>
             <span className="inline-flex flex-col items-center min-w-[1.5em]">
                 {showPinyin && (
                     <span className="text-base text-gray-500 mt-1 mb-0.5 leading-none">{data.pinyin || ""}</span>

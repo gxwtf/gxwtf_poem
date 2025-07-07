@@ -10,13 +10,13 @@ const content = [
           { "char": "见", "pinyin": "jiàn", "write": false, "read": true },
           { "char": "古", "pinyin": "gǔ", "write": false, "read": false },
           { "char": "人", "pinyin": "rén", "write": false, "read": false },
-          { "char": "，", "pinyin": "zhě", "write": false, "read": false },
+          { "char": "，", "pinyin": "　", "write": false, "read": false },
           { "char": "后", "pinyin": "hòu", "write": false, "read": false },
           { "char": "不", "pinyin": "bù", "write": false, "read": false },
           { "char": "见", "pinyin": "jiàn", "write": false, "read": true },
           { "char": "来", "pinyin": "lái", "write": false, "read": false },
           { "char": "者", "pinyin": "zhě", "write": false, "read": true },
-          { "char": "。", "pinyin": "zhě", "write": false, "read": false }
+          { "char": "。", "pinyin": "　", "write": false, "read": false }
         ],
         "translation": {
           "translation": "向前看不见古代的贤明君主，向后看不见未来的杰出人才。"
@@ -36,14 +36,17 @@ const content = [
           { "char": "之", "pinyin": "zhī", "write": false, "read": false },
           { "char": "悠", "pinyin": "yōu", "write": false, "read": false },
           { "char": "悠", "pinyin": "yōu", "write": false, "read": false },
-          { "char": "，", "pinyin": "zhě", "write": false, "read": false },
+          { "char": "悠", "pinyin": "yōu", "write": false, "read": false },
+          { "char": "悠", "pinyin": "yōu", "write": false, "read": false },
+          { "char": "悠", "pinyin": "yōu", "write": false, "read": false },
+          { "char": "，", "pinyin": "　", "write": false, "read": false },
           { "char": "独", "pinyin": "dú", "write": false, "read": false },
           { "char": "怆", "pinyin": "chuàng", "write": true, "read": true },
           { "char": "然", "pinyin": "rán", "write": false, "read": false },
           { "char": "而", "pinyin": "ér", "write": false, "read": false },
           { "char": "涕", "pinyin": "tì", "write": false, "read": true },
           { "char": "下", "pinyin": "xià", "write": false, "read": false },
-          { "char": "。", "pinyin": "zhě", "write": false, "read": false }
+          { "char": "。", "pinyin": "　", "write": false, "read": false }
         ],
         "translation": {
           "translation": "想到天地的广阔无边与永恒，我独自悲伤地流下眼泪。"

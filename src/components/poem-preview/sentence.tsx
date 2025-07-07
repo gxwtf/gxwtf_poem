@@ -35,11 +35,11 @@ function NotePopover({
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <span className="poem-note-underline cursor-pointer flex">
+                <span className="poem-note-underline cursor-pointer inline-flex flex-wrap items-center">
                     {children}
                 </span>
             </PopoverTrigger>
-            <PopoverContent side="top" className="text-xs max-w-xs">
+            <PopoverContent className="text-xs max-w-xs">
                 {note}
             </PopoverContent>
         </Popover>
@@ -49,10 +49,10 @@ function NotePopover({
 export function Translation({
     translation,
     highlight
-}:{
+}: {
     translation: string
     highlight: boolean
-}){
+}) {
     return (
         <div className="mt-2">
             <span className={`text-xl text-gray-500 ${highlight ? "bg-yellow-100 px-1" : ""}`}>
@@ -89,7 +89,7 @@ export function Sentence({
                     ))}
                 </NotePopover>
             );
-            i=note.end;
+            i = note.end;
         }
         else {
             unit = (
@@ -104,6 +104,6 @@ export function Sentence({
         charList.push(unit);
     }
     return (
-        <span className="inline-flex text-2xl leading-10">{charList}</span>
-    );
+        <span className="text-2xl leading-10">{charList}</span>
+    )
 }
