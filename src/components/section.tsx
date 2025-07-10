@@ -11,10 +11,13 @@ export const SectionTitle: React.FC<{ val: string; primaryColor?: string }> = ({
     </div>
 );
 
-export const SectionContent: React.FC<{ val: string }> = ({ val }) => {
+export const SectionContent: React.FC<{ val: string; indent?: boolean }> = ({ val, indent = false }) => {
     const formattedContent = val.split('\n').map((paragraph, index) => (
-        <p key={index} className="text-black indent-8 mb-4">
-            {paragraph.trim()}
+        <p
+            key={index}
+            className={`text-black mb-4 whitespace-pre-line ${indent ? 'indent-8' : ''}`}
+        >
+            {paragraph}
         </p>
     ));
     return <div className="space-y-4 text-lg">{formattedContent}</div>;
