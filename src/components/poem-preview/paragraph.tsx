@@ -29,9 +29,9 @@ export function Paragraph({
     };
 
     return (
-        <div>
+        <div className="leading-13">
             <div className="sentences">
-                {mode === "paragraph" && <span style={{ width: "3em", display: "inline-block" }}></span>}
+                {mode === "paragraph" && <span className="inline-block w-[3em]"></span>}
                 {para.paragraph.map((s, index) => (
                     <span
                         key={index}
@@ -44,16 +44,15 @@ export function Paragraph({
                 ))}
             </div>
             {showTranslation && (
-                <div className="translations">
-                    {mode === "paragraph" && <span style={{ width: "2em", display: "inline-block" }}></span>}
+                <div className="translations mt-4">
+                    {mode === "paragraph" && <span className="inline-block w-[2em]"></span>}
                     {para.paragraph.map((s, index) =>
                         s.translation ? (
                             <span
                                 key={index}
                                 onMouseEnter={() => showTranslation && handleMouseEnter(index)}
                                 onMouseLeave={() => showTranslation && handleMouseLeave()}
-                                style={{ display: "inline" }}
-                                className={highlightId === index ? "highlight" : ""}
+                                className={`${highlightId === index ? "highlight" : ""} inline`}
                             >
                                 <Translation 
                                     translation={s.translation.translation} 

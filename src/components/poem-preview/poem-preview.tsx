@@ -1,9 +1,9 @@
 "use client"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Meta } from "./poem-preview/meta"
-import { Paragraph, ParagraphData } from "./poem-preview/paragraph";
-import { Section, SectionTitle, SectionContent } from "./section";
+import { Meta } from "./meta"
+import { Paragraph, ParagraphData } from "./paragraph";
+import { Section, SectionTitle, SectionContent } from "../section";
 
 function ControlButtons({
     showTranslation,

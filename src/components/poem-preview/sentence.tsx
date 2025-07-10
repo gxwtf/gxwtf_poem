@@ -35,7 +35,7 @@ function NotePopover({
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <span className="border-b-2 border-[var(--theme-color)] cursor-pointer inline-flex flex-wrap items-center">
+                <span className="border-b-2 border-[var(--theme-color)] cursor-pointer inline-flex flex-wrap items-center align-baseline pb-1">
                     {children}
                 </span>
             </PopoverTrigger>
@@ -75,18 +75,15 @@ export function Sentence({
         const note = notes?.find(n => n.start == i);
         let unit: React.ReactNode;
         if (note) {
-            unit = (
-                <NotePopover key={i} note={note.note}>
-                    {Array.from({ length: (note.end - note.start + 1) }).map((_, j) => (
-                        <Char
-                            key={i + j}
-                            data={sentence[i + j]}
-                            showPinyin={showPinyin}
-                            highlight={highlight}
-                        />
-                    ))}
+            unit = Array.from({ length: (note.end - note.start + 1) }).map((_, j) => (
+                <NotePopover key={i + j} note={note.note}>
+                    <Char
+                        data={sentence[i + j]}
+                        showPinyin={showPinyin}
+                        highlight={highlight}
+                    />
                 </NotePopover>
-            );
+            ));
             i = note.end;
         }
         else {
@@ -99,7 +96,11 @@ export function Sentence({
                 />
             );
         }
-        charList.push(unit);
+        if (Array.isArray(unit)) {
+            charList.push(...unit);
+        } else {
+            charList.push(unit);
+        }
     }
     return (
         <span className="text-2xl leading-10">{charList}</span>

@@ -3,7 +3,7 @@ import React from "react";
 export const SectionTitle: React.FC<{ val: string; primaryColor?: string }> = ({ val, primaryColor = "var(--primary-color)" }) => (
     <div
         className="text-xl font-bold border-b-2 pb-1 mb-4 inline-block"
-        style={{ color: primaryColor, borderColor: primaryColor }}
+        style={{ '--tw-border-opacity': '1', '--tw-text-opacity': '1', color: primaryColor, borderColor: primaryColor } as React.CSSProperties}
     >
         {val}
     </div>
