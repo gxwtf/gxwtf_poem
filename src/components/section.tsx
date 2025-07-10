@@ -1,3 +1,5 @@
+// section 组件
+
 import React from "react";
 
 export const SectionTitle: React.FC<{ val: string; primaryColor?: string }> = ({ val, primaryColor = "var(--primary-color)" }) => (

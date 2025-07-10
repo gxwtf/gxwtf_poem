@@ -1,3 +1,5 @@
+// 广学五题坊的主页，主页包含了一个侧边栏和一个顶部导航栏。
+
 import { AppSidebar } from "@/components/app-sidebar"
 import { SiteHeader } from "@/components/site-header"
 import {

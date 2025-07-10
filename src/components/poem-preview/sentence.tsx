@@ -1,3 +1,5 @@
+// 古诗文句子组件
+
 "use client"
 
 import { Char, CharData } from "./char"

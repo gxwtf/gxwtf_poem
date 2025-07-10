@@ -1,3 +1,5 @@
+// 古诗文基本信息组件
+
 export function Meta({
     title,
     author,

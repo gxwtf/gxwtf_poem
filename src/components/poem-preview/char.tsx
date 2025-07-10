@@ -1,3 +1,5 @@
+// 古诗文汉字组件
+
 "use client"
 
 export type CharData = {
