@@ -10,7 +10,7 @@
  * 示例用法：
  * ```tsx
  * <Section padding="px-6 pt-3 pb-3">
- *   <SectionTitle val="注释" />
+ *   <SectionHeading val="注释" level={1} />
  *   <SectionContent val="此处为注释内容" indent />
  * </Section>
  * ```
@@ -18,14 +18,35 @@
 
 import React from "react";
 
-export const SectionTitle: React.FC<{ val: string; primaryColor?: string }> = ({ val, primaryColor = "var(--theme-color)" }) => (
-    <div
-        className="text-xl font-bold border-b-2 pb-1 mb-4 inline-block"
-        style={{ '--tw-border-opacity': '1', '--tw-text-opacity': '1', color: primaryColor, borderColor: primaryColor } as React.CSSProperties}
-    >
-        {val}
-    </div>
-);
+export const SectionHeading: React.FC<{ val: string; level?: 1 | 2 | 3; primaryColor?: string }> = ({
+    val,
+    level = 1,
+    primaryColor = "var(--theme-color)",
+}) => {
+    const styles = {
+        1: "text-xl font-bold border-b-2 pb-1 mb-4",
+        2: "text-lg font-bold border-b pb-1 mb-3",
+        3: "text-base mb-2",
+    };
+
+    const style = styles[level] + " inline-block";
+
+    return (
+        <div
+            className={style}
+            style={
+                {
+                    "--tw-border-opacity": "1",
+                    "--tw-text-opacity": "1",
+                    color: primaryColor,
+                    borderColor: level ==1 ? primaryColor : undefined,
+                } as React.CSSProperties
+            }
+        >
+            {val}
+        </div>
+    );
+};
 
 export const SectionContent: React.FC<{ val: string; indent?: boolean; lineHeight?: string; paragraphSpacing?: string }> = ({ val, indent = false, lineHeight = "leading-7", paragraphSpacing = "mb-4" }) => {
     const formattedContent = val.split('\n').map((paragraph, index) => (
