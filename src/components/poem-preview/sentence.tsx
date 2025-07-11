@@ -30,14 +30,25 @@ export type SentenceData = {
 function NotePopover({
     note,
     children,
+    left,
+    right,
 }: {
     note: string
     children: React.ReactNode
+    left: boolean
+    right: boolean
 }) {
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <span className="border-b-2 border-[var(--theme-color)] cursor-pointer inline-flex flex-wrap items-center align-baseline pb-1">
+                <span className={
+                    `relative cursor-pointer inline-flex flex-wrap items-center align-baseline pb-1
+                    after:content-[''] after:absolute
+                    ${left?"after:left-[1px]":"after:left-0"}
+                    ${right?"after:right-[1px]":"after:right-0"}
+                    after:bottom-0
+                    after:h-[2px] after:bg-[var(--theme-color)]`
+                }>
                     {children}
                 </span>
             </PopoverTrigger>
@@ -77,8 +88,9 @@ export function Sentence({
         const note = notes?.find(n => n.start == i);
         let unit: React.ReactNode;
         if (note) {
+            let length=note.end-note.start+1;
             unit = Array.from({ length: (note.end - note.start + 1) }).map((_, j) => (
-                <NotePopover key={i + j} note={note.note}>
+                <NotePopover key={i + j} note={note.note} left={j==0} right={j==length-1}>
                     <Char
                         data={sentence[i + j]}
                         showPinyin={showPinyin}
