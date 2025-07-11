@@ -1,5 +1,7 @@
 // 古诗文基本信息组件
 
+"use client"
+
 export function Meta({
     title,
     author,

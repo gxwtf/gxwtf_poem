@@ -32,7 +32,7 @@ export default function CombPage() {
 
             <Section>
               <SectionTitle val="重点词语解释" />
-              <SectionContent val={`兀：蜀山兀 \u00A0\u00A0 光秃 \n 辞：辞楼下殿，辇来于秦 不复一一自辨 \u00A0\u00A0 辞别`} />
+              <SectionContent val={`兀：蜀山兀 \u00A0\u00A0 光秃 \n 辞：辞楼下殿，辇来于秦 \u00A0\u00A0 辞别`} />
             </Section>
 
             <Section>
