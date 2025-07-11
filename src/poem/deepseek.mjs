@@ -13,7 +13,7 @@ import https from 'https';
 const apiKey = 'sk-17499a3e94614994bf54c6ffe63bc4a0';
 const baseUrl = 'api.deepseek.com';
 const apiPath = '/v1/chat/completions';
-const model = 'deepseek-reasoner';
+const model = 'deepseek-chat';
 
 /**
  * 调用 DeepSeek API 的简化函数

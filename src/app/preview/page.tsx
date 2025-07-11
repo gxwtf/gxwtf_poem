@@ -121,7 +121,13 @@ const content = [
         "sentence": [
           { "char": "元", "pinyin": "yuán" },
           { "char": "嘉", "pinyin": "jiā" },
-          { "char": "草", "pinyin": "cǎo" },
+          { "char": "草", "pinyin": "cǎo", 
+            "note": [
+              { "title": "词类活用", "content": "名词活用作形容词"},
+              { "title": "古今异义", "content": "古义：草率\n今义：一种植物"},
+            ],
+            "frequency": 114,
+          },
           { "char": "草", "pinyin": "cǎo" },
           { "char": "，", "pinyin": "　" },
           { "char": "封", "pinyin": "fēng" },

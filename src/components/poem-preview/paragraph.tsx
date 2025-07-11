@@ -1,6 +1,6 @@
-// 古诗文段落组件
-
 "use client"
+
+// 古诗文段落组件
 
 import { useState } from "react";
 import {Sentence, SentenceData, Translation} from "./sentence";

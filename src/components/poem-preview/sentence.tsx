@@ -1,13 +1,9 @@
-// 古诗文句子组件
-
 "use client"
 
+// 古诗文句子组件
+
 import { Char, CharData } from "./char"
-import {
-    Popover,
-    PopoverContent,
-    PopoverTrigger,
-} from "@/components/ui/popover"
+import { WordNotePopover } from "./word-note"
 
 
 type NoteBlock = {
@@ -25,38 +21,6 @@ export type SentenceData = {
     sentence: CharData[]
     notes?: NoteBlock[]
     translation?: TranslationData
-}
-
-function NotePopover({
-    note,
-    children,
-    left,
-    right,
-}: {
-    note: string
-    children: React.ReactNode
-    left: boolean
-    right: boolean
-}) {
-    return (
-        <Popover>
-            <PopoverTrigger asChild>
-                <span className={
-                    `relative cursor-pointer inline-flex flex-wrap items-center align-baseline pb-1
-                    after:content-[''] after:absolute
-                    ${left?"after:left-[1px]":"after:left-0"}
-                    ${right?"after:right-[1px]":"after:right-0"}
-                    after:bottom-0
-                    after:h-[2px] after:bg-[var(--theme-color)]`
-                }>
-                    {children}
-                </span>
-            </PopoverTrigger>
-            <PopoverContent className="text-xs max-w-xs">
-                {note}
-            </PopoverContent>
-        </Popover>
-    )
 }
 
 export function Translation({
@@ -90,13 +54,13 @@ export function Sentence({
         if (note) {
             let length=note.end-note.start+1;
             unit = Array.from({ length: (note.end - note.start + 1) }).map((_, j) => (
-                <NotePopover key={i + j} note={note.note} left={j==0} right={j==length-1}>
+                <WordNotePopover key={i + j} note={note.note} left={j==0} right={j==length-1}>
                     <Char
                         data={sentence[i + j]}
                         showPinyin={showPinyin}
                         highlight={highlight}
                     />
-                </NotePopover>
+                </WordNotePopover>
             ));
             i = note.end;
         }

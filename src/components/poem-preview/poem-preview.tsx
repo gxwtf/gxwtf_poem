@@ -1,6 +1,7 @@
 // 古诗文预览组件
 
 "use client"
+
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Meta } from "./meta"
@@ -78,11 +79,11 @@ export function PoemPreview({
 
             <Section>
                 <SectionTitle val="写作背景" />
-                <SectionContent val={background || "暂无相关背景信息"} />
+                <SectionContent val={background || "暂无相关背景信息"} indent />
             </Section>
             <Section>
                 <SectionTitle val="内容赏析" />
-                <SectionContent val={appreciation || "暂无相关背景信息"} />
+                <SectionContent val={appreciation || "暂无相关背景信息"} indent />
             </Section>
         </>
     )
