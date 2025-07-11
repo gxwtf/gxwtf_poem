@@ -1,13 +1,9 @@
-// 古诗文句子组件
-
 "use client"
 
+// 古诗文句子组件
+
 import { Char, CharData } from "./char"
-import {
-    Popover,
-    PopoverContent,
-    PopoverTrigger,
-} from "@/components/ui/popover"
+import { WordNotePopover } from "./word-note"
 
 
 type NoteBlock = {
@@ -25,27 +21,6 @@ export type SentenceData = {
     sentence: CharData[]
     notes?: NoteBlock[]
     translation?: TranslationData
-}
-
-function NotePopover({
-    note,
-    children,
-}: {
-    note: string
-    children: React.ReactNode
-}) {
-    return (
-        <Popover>
-            <PopoverTrigger asChild>
-                <span className="border-b-2 border-[var(--theme-color)] cursor-pointer inline-flex flex-wrap items-center align-baseline pb-1">
-                    {children}
-                </span>
-            </PopoverTrigger>
-            <PopoverContent className="text-xs max-w-xs">
-                {note}
-            </PopoverContent>
-        </Popover>
-    )
 }
 
 export function Translation({
@@ -78,13 +53,13 @@ export function Sentence({
         let unit: React.ReactNode;
         if (note) {
             unit = Array.from({ length: (note.end - note.start + 1) }).map((_, j) => (
-                <NotePopover key={i + j} note={note.note}>
+                <WordNotePopover key={i + j} note={note.note}>
                     <Char
                         data={sentence[i + j]}
                         showPinyin={showPinyin}
                         highlight={highlight}
                     />
-                </NotePopover>
+                </WordNotePopover>
             ));
             i = note.end;
         }
