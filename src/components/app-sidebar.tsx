@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { useVersion } from "@/components/version-provider";
 import {
   BookOpen,
   Bot,
@@ -153,6 +154,7 @@ const data = {
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const { version } = useVersion();
   return (
     <Sidebar
       className="top-(--header-height) h-[calc(100svh-var(--header-height))]!"
@@ -168,7 +170,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
                   <span className="truncate font-medium">广学古诗文</span>
-                  <span className="truncate text-xs">高中版</span>
+                  {version === 'senior' ? (
+                    <span className="truncate text-xs">高中版</span>
+                  ) : (
+                    <span className="truncate text-xs">初中版</span>
+                  )}
                 </div>
               </a>
             </SidebarMenuButton>
