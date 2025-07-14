@@ -66,12 +66,12 @@ const prompt = `
 `;
 
 (async function(){
-    const files = fs.readdirSync(path.join(__dirname, 'junior'));
+    const files = fs.readdirSync(path.join(__dirname, 'senior'));
     for (let i = 0;i <= files.length - 1;i ++){
         const file = files[i];
         console.log(file);
         if (!file.endsWith('.txt'))continue;
-        const filePath = path.join(__dirname, `junior/${file}`);
+        const filePath = path.join(__dirname, `senior/${file}`);
         // const file = '14登幽州台歌.txt'
         let JSONfile = filePath.replace('.txt', '.json');
         // 如果已经存在JSON文件，则跳过

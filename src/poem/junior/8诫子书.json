@@ -1,0 +1,359 @@
+{
+    "title": "诫子书",
+    "author": "诸葛亮",
+    "dynasty": "三国",
+    "text-align": "center",
+    "content": "夫君子之行，/静以修身，/俭以养德。/非淡泊无以明志，/非宁静无以致远。/夫学须静也，/才须学也，/非学无以广才，/非志无以成学。/淫慢则不能励精，/险躁则不能治性。/年与时驰，/意与日去，/遂成枯落，/多不接世，/悲守穷庐，/将复何及！",
+    "translation": "君子的行为操守，/以宁静修养身心，/以俭朴培养品德。/不恬淡寡欲无法明确志向，/不安定清静不能实现远大目标。/求学必须静心专一，/才干需要学习积累，/不学习无法增长才干，/不立志难以学有所成。/放纵懈怠就不能振奋精神，/轻薄浮躁就无法修养性情。/年华随时光疾驰，/意志随岁月消磨，/最终如枯叶凋落，/大多不能有益社会，/悲伤困守简陋屋舍，/到时悔恨哪里还来得及！",
+    "pinyin": "fū jūn zǐ zhī xíng/jìng yǐ xiū shēn/jiǎn yǐ yǎng dé/fēi dàn bó wú yǐ míng zhì/fēi níng jìng wú yǐ zhì yuǎn/fū xué xū jìng yě/cái xū xué yě/fēi xué wú yǐ guǎng cái/fēi zhì wú yǐ chéng xué/yín màn zé bù néng lì jīng/xiǎn zào zé bù néng zhì xìng/nián yǔ shí chí/yì yǔ rì qù/suì chéng kū luò/duō bù jiē shì/bēi shǒu qióng lú/jiāng fù hé jí",
+    "comment": [
+        {
+            "start": 0,
+            "end": 5,
+            "content": "夫：发语词，表示要发议论"
+        },
+        {
+            "start": 6,
+            "end": 11,
+            "content": "君子：指品德高尚的人"
+        },
+        {
+            "start": 12,
+            "end": 15,
+            "content": "之：结构助词，的"
+        },
+        {
+            "start": 16,
+            "end": 17,
+            "content": "行：行为操守"
+        },
+        {
+            "start": 19,
+            "end": 20,
+            "content": "静：宁静"
+        },
+        {
+            "start": 21,
+            "end": 22,
+            "content": "以：用来"
+        },
+        {
+            "start": 23,
+            "end": 27,
+            "content": "修身：修养身心"
+        },
+        {
+            "start": 29,
+            "end": 30,
+            "content": "俭：节俭"
+        },
+        {
+            "start": 31,
+            "end": 32,
+            "content": "以：用来"
+        },
+        {
+            "start": 33,
+            "end": 37,
+            "content": "养德：培养品德"
+        },
+        {
+            "start": 39,
+            "end": 40,
+            "content": "非：不"
+        },
+        {
+            "start": 41,
+            "end": 43,
+            "content": "淡泊：恬淡寡欲"
+        },
+        {
+            "start": 44,
+            "end": 45,
+            "content": "无：没有"
+        },
+        {
+            "start": 46,
+            "end": 47,
+            "content": "以：用来"
+        },
+        {
+            "start": 48,
+            "end": 52,
+            "content": "明志：明确志向"
+        },
+        {
+            "start": 54,
+            "end": 55,
+            "content": "非：不"
+        },
+        {
+            "start": 56,
+            "end": 58,
+            "content": "宁静：安定清静"
+        },
+        {
+            "start": 59,
+            "end": 60,
+            "content": "无：没有"
+        },
+        {
+            "start": 61,
+            "end": 62,
+            "content": "以：用来"
+        },
+        {
+            "start": 63,
+            "end": 67,
+            "content": "致远：实现远大目标"
+        },
+        {
+            "start": 69,
+            "end": 70,
+            "content": "夫：发语词"
+        },
+        {
+            "start": 71,
+            "end": 72,
+            "content": "学：学习"
+        },
+        {
+            "start": 73,
+            "end": 75,
+            "content": "须：必须"
+        },
+        {
+            "start": 76,
+            "end": 77,
+            "content": "静：静心"
+        },
+        {
+            "start": 78,
+            "end": 79,
+            "content": "也：句末语气词"
+        },
+        {
+            "start": 81,
+            "end": 82,
+            "content": "才：才干"
+        },
+        {
+            "start": 83,
+            "end": 85,
+            "content": "须：需要"
+        },
+        {
+            "start": 86,
+            "end": 87,
+            "content": "学：学习"
+        },
+        {
+            "start": 88,
+            "end": 89,
+            "content": "也：句末语气词"
+        },
+        {
+            "start": 91,
+            "end": 92,
+            "content": "非：不"
+        },
+        {
+            "start": 93,
+            "end": 94,
+            "content": "学：学习"
+        },
+        {
+            "start": 95,
+            "end": 96,
+            "content": "无：无法"
+        },
+        {
+            "start": 97,
+            "end": 98,
+            "content": "以：用来"
+        },
+        {
+            "start": 99,
+            "end": 103,
+            "content": "广才：增长才干"
+        },
+        {
+            "start": 105,
+            "end": 106,
+            "content": "非：不"
+        },
+        {
+            "start": 107,
+            "end": 109,
+            "content": "志：立志"
+        },
+        {
+            "start": 110,
+            "end": 111,
+            "content": "无：难以"
+        },
+        {
+            "start": 112,
+            "end": 113,
+            "content": "以：用来"
+        },
+        {
+            "start": 114,
+            "end": 118,
+            "content": "成学：学有所成"
+        },
+        {
+            "start": 120,
+            "end": 121,
+            "content": "淫：放纵"
+        },
+        {
+            "start": 122,
+            "end": 123,
+            "content": "慢：懈怠"
+        },
+        {
+            "start": 124,
+            "end": 125,
+            "content": "则：就"
+        },
+        {
+            "start": 126,
+            "end": 128,
+            "content": "不能：无法"
+        },
+        {
+            "start": 129,
+            "end": 132,
+            "content": "励精：振奋精神"
+        },
+        {
+            "start": 134,
+            "end": 135,
+            "content": "险：轻薄"
+        },
+        {
+            "start": 136,
+            "end": 137,
+            "content": "躁：浮躁"
+        },
+        {
+            "start": 138,
+            "end": 139,
+            "content": "则：就"
+        },
+        {
+            "start": 140,
+            "end": 142,
+            "content": "不能：无法"
+        },
+        {
+            "start": 143,
+            "end": 146,
+            "content": "治性：修养性情"
+        },
+        {
+            "start": 148,
+            "end": 149,
+            "content": "年：年华"
+        },
+        {
+            "start": 150,
+            "end": 151,
+            "content": "与：随"
+        },
+        {
+            "start": 152,
+            "end": 153,
+            "content": "时：时光"
+        },
+        {
+            "start": 154,
+            "end": 155,
+            "content": "驰：疾驰"
+        },
+        {
+            "start": 157,
+            "end": 158,
+            "content": "意：意志"
+        },
+        {
+            "start": 159,
+            "end": 160,
+            "content": "与：随"
+        },
+        {
+            "start": 161,
+            "end": 162,
+            "content": "日：岁月"
+        },
+        {
+            "start": 163,
+            "end": 164,
+            "content": "去：消磨"
+        },
+        {
+            "start": 166,
+            "end": 167,
+            "content": "遂：最终"
+        },
+        {
+            "start": 168,
+            "end": 170,
+            "content": "成：成为"
+        },
+        {
+            "start": 171,
+            "end": 174,
+            "content": "枯落：枯叶凋落"
+        },
+        {
+            "start": 176,
+            "end": 177,
+            "content": "多：大多"
+        },
+        {
+            "start": 178,
+            "end": 180,
+            "content": "不：不能"
+        },
+        {
+            "start": 181,
+            "end": 184,
+            "content": "接世：有益社会"
+        },
+        {
+            "start": 186,
+            "end": 187,
+            "content": "悲：悲伤"
+        },
+        {
+            "start": 188,
+            "end": 191,
+            "content": "守：困守"
+        },
+        {
+            "start": 192,
+            "end": 196,
+            "content": "穷庐：简陋屋舍"
+        },
+        {
+            "start": 198,
+            "end": 199,
+            "content": "将：到时"
+        },
+        {
+            "start": 200,
+            "end": 201,
+            "content": "复：还"
+        },
+        {
+            "start": 202,
+            "end": 204,
+            "content": "何及：哪里来得及"
+        }
+    ],
+    "background": "建兴十二年（234年）诸葛亮北伐前夕，病逝五丈原军营前所作。其时诸葛亮54岁，其子诸葛瞻年仅8岁。蜀汉国力衰微，诸葛亮自知时日无多，将毕生智慧浓缩为这封86字的家书，既是教子遗训，亦是人生绝唱。",
+    "appreciation": "全文以'静'字贯穿始终。开篇双璧联珠：'静以修身'与'俭以养德'对仗，'淡泊明志'与'宁静致远'互文，形成思想漩涡。中段逻辑缜密环环相扣：静→学→才→志，构建修身四重境界。结尾'年与时驰'的比喻如警钟长鸣，'悲守穷庐'的预言更显深长。通篇用否定递进句式，层层推进中见哲思光芒。",
+    "tags": ["七上", "文言", "家训", "修身", "励志", "诸葛亮", "三国", "必背"]
+}
