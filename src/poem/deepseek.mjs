@@ -4,16 +4,16 @@
 import https from 'https';
 
 // openrouter.ai 
-// const apiKey = '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';
-// const baseUrl = 'openrouter.ai';
-// const apiPath = '/api/v1/chat/completions';
-// const model = 'deepseek/deepseek-r1-0528:free';
+const apiKey = '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';
+const baseUrl = 'openrouter.ai';
+const apiPath = '/api/v1/chat/completions';
+const model = 'deepseek/deepseek-r1-0528:free';
 
 // deepseek
-const apiKey = 'sk-17499a3e94614994bf54c6ffe63bc4a0';
-const baseUrl = 'api.deepseek.com';
-const apiPath = '/v1/chat/completions';
-const model = 'deepseek-chat';
+// const apiKey = 'sk-17499a3e94614994bf54c6ffe63bc4a0';
+// const baseUrl = 'api.deepseek.com';
+// const apiPath = '/v1/chat/completions';
+// const model = 'deepseek-chat';
 
 /**
  * 调用 DeepSeek API 的简化函数
@@ -27,9 +27,9 @@ export default function deepseekChat(userPrompt, systemPrompt = '你是一个有
     // 构建请求体 [3,5](@ref)
     const requestBody = JSON.stringify({
       model: options.model || model,
+      temperature: 0.0,
       messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user', content: userPrompt }
+        { role: 'user', content: systemPrompt + '\n\n' + userPrompt }
       ],
       ...options
     });

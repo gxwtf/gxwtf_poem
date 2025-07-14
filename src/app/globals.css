@@ -114,7 +114,9 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-
+.bold {
+  font-weight: bold;
+}
 
 @layer base {
   * {

@@ -2,8 +2,9 @@
 
 "use client"
 
-import { useState, useRef } from "react";
+import { useState, useRef, useContext, useEffect, memo } from "react";
 import CharNote from "./char-note";
+import { MemorizeContext } from "./memorize-context";
 
 export type CharData = {
     char: string
@@ -25,6 +26,13 @@ export function Char({
 }) {
     const [showNote, setShowNote] = useState(false);
     const hoverTimer = useRef<number | null>(null);
+    const { memorize } = useContext(MemorizeContext);
+    const [ memorizeMode, setMemorizeMode ] = useState(false);
+
+    useEffect(() => {
+        if (!isNaN(memorize))setMemorizeMode(Math.random() < memorize);
+        else setMemorizeMode(false);
+    }, [memorize]);
 
     const clearHoverTimer = () => {
         if (hoverTimer.current !== null) {
@@ -46,8 +54,7 @@ export function Char({
             suppressNote?.(false);
         }, 200);
     };
-
-    return (
+    if (!memorizeMode) return (
         <div
             className={`inline-block justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
             onMouseEnter={handleMouseEnter}
@@ -73,4 +80,27 @@ export function Char({
             )}
         </div>
     );
+    
+    return (
+        <div
+            className={`inline-block justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
+        >
+            <span className="inline-flex flex-col items-center min-w-[1.5em] cursor-pointer">
+                {showPinyin && (
+                    <span className="text-base text-gray-500 leading-none">{data.pinyin || ""}</span>
+                )}
+                <span>
+                    __
+                </span>
+            </span>
+
+            {showNote && data.note && (
+                <div
+                    className="absolute z-10 left-1/2 -translate-x-1/2 mt-2"
+                >
+                    <CharNote char={data.char} pinyin={data.pinyin} note={data.note} frequency={data.frequency} />
+                </div>
+            )}
+        </div>
+    )
 }
