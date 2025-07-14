@@ -22,7 +22,7 @@
 
 "use client"
 import React from "react";
-import { Section, SectionTitle, SectionContent } from "../section";
+import { Section, SectionHeading, SectionContent } from "../section";
 import { Star, ThumbsUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -51,7 +51,7 @@ const CharNote: React.FC<CharNoteProps> = ({ char, pinyin, note, frequency }) =>
             </div>
             {sections.map((sec, idx) => (
                 <Section key={idx} padding="px-6 py-1">
-                    <SectionTitle val={sec.title} />
+                    <SectionHeading val={sec.title} level={1} />
                     <SectionContent val={sec.content} />
                 </Section>
             ))}

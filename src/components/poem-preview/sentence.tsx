@@ -52,8 +52,9 @@ export function Sentence({
         const note = notes?.find(n => n.start == i);
         let unit: React.ReactNode;
         if (note) {
+            let length=note.end-note.start+1;
             unit = Array.from({ length: (note.end - note.start + 1) }).map((_, j) => (
-                <WordNotePopover key={i + j} note={note.note}>
+                <WordNotePopover key={i + j} note={note.note} left={j==0} right={j==length-1}>
                     <Char
                         data={sentence[i + j]}
                         showPinyin={showPinyin}

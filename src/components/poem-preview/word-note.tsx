@@ -25,14 +25,25 @@ import { Section, SectionContent } from "../section"
 export function WordNotePopover({
     note,
     children,
+    left,
+    right,
 }: {
     note: string
     children: React.ReactNode
+    left: boolean
+    right: boolean
 }) {
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <span className="inline-flex items-center border-b-2 border-[var(--theme-color)] cursor-pointer pb-1">
+                <span className={
+                    `relative cursor-pointer inline-flex flex-wrap items-center align-baseline pb-1
+                    after:content-[''] after:absolute
+                    ${left?"after:left-[1px]":"after:left-0"}
+                    ${right?"after:right-[1px]":"after:right-0"}
+                    after:bottom-0
+                    after:h-[2px] after:bg-[var(--theme-color)]`
+                }>
                     {children}
                 </span>
             </PopoverTrigger>
