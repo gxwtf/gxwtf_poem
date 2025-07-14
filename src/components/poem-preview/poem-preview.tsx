@@ -2,12 +2,12 @@
 
 "use client"
 
-import { useState } from "react"
+import { useState, useContext } from "react"
 import { Button } from "@/components/ui/button"
 import { Meta } from "./meta"
 import { Paragraph, ParagraphData } from "./paragraph";
 import { Memorize } from "./memorize"; 
-import { MemorizeContextProvider } from "./memorize-context";
+import { MemorizeContext, MemorizeContextProvider } from "./memorize-context";
 import { Section, SectionHeading, SectionContent } from "../section";
 
 function ControlButtons({
@@ -21,14 +21,18 @@ function ControlButtons({
     showPinyin: boolean
     setShowPinyin: React.Dispatch<React.SetStateAction<boolean>>
 }) {
+    const { memorize } = useContext(MemorizeContext);
+
     return (
         <div className="flex justify-center gap-4 my-4">
             <Button variant="outline" onClick={() => setShowTranslation(v => !v)}>
                 {showTranslation ? "隐藏翻译" : "显示翻译"}
             </Button>
-            <Button variant="outline" onClick={() => setShowPinyin(v => !v)}>
-                {showPinyin ? "隐藏拼音" : "显示拼音"}
-            </Button>
+            {isNaN(memorize) ? (
+                <Button variant="outline" onClick={() => setShowPinyin(v => !v)}>
+                    {showPinyin ? "隐藏拼音" : "显示拼音"}
+                </Button>
+            ) : null}
             <Memorize></Memorize>
         </div>
     )

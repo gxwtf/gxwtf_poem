@@ -62,7 +62,7 @@ export function Memorize() {
 
     return (
         <>
-            <Button variant="destructive" onClick={quitMemorizeMode}>结束背诵</Button>
+            <Button variant="outline" onClick={quitMemorizeMode}>结束背诵</Button>
         </>
     )
 }

@@ -13,6 +13,12 @@ export type CharData = {
     frequency?: number
 }
 
+enum CharMode{
+    Read = 0,
+    Memorize = 1,
+    ShowAnswer = 2
+};
+
 export function Char({
     data,
     showPinyin,
@@ -27,11 +33,11 @@ export function Char({
     const [showNote, setShowNote] = useState(false);
     const hoverTimer = useRef<number | null>(null);
     const { memorize } = useContext(MemorizeContext);
-    const [ memorizeMode, setMemorizeMode ] = useState(false);
+    const [ memorizeMode, setMemorizeMode ] = useState(CharMode.Read);
 
     useEffect(() => {
-        if (!isNaN(memorize))setMemorizeMode(Math.random() < memorize);
-        else setMemorizeMode(false);
+        if (!isNaN(memorize))setMemorizeMode(Math.random() < memorize ? CharMode.Memorize : CharMode.Read);
+        else setMemorizeMode(CharMode.Read);
     }, [memorize]);
 
     const clearHoverTimer = () => {
@@ -54,9 +60,15 @@ export function Char({
             suppressNote?.(false);
         }, 200);
     };
-    if (!memorizeMode) return (
+
+    function handleClick() {
+        if (memorizeMode === CharMode.Memorize)
+            setMemorizeMode(CharMode.ShowAnswer);
+    }
+
+    if (memorizeMode !== CharMode.Memorize) return (
         <div
-            className={`inline-block justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
+            className={`inline-block justify-center ${memorizeMode === CharMode.Read ? "text-black" : null} pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
@@ -84,6 +96,7 @@ export function Char({
     return (
         <div
             className={`inline-block justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
+            onClick={handleClick}
         >
             <span className="inline-flex flex-col items-center min-w-[1.5em] cursor-pointer">
                 {showPinyin && (
