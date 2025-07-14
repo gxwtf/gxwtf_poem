@@ -7,11 +7,6 @@ import {
   SidebarProvider,
 } from "@/components/ui/sidebar"
 
-export const metadata = {
-  title: "广学古诗文",
-  description: "广学古诗文主页",
-}
-
 export default function Page() {
   return (
     <div className="[--header-height:calc(--spacing(14))]">

@@ -48,7 +48,7 @@ export function SiteHeader({
         <Breadcrumb className="hidden sm:block">
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="/overview">
+              <BreadcrumbLink href="/">
                 广学古诗文
               </BreadcrumbLink>
             </BreadcrumbItem>
