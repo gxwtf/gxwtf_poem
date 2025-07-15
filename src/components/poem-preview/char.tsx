@@ -38,9 +38,14 @@ export function Char({
     const [ memorizeMode, setMemorizeMode ] = useState(CharMode.Read);
 
     useEffect(() => {
-        if (!isNaN(memorize))setMemorizeMode(Math.random() < memorize ? CharMode.Memorize : CharMode.Read);
+        if ("。，、；：？！“”‘’（）【】《》…—·～".includes(data.char))setMemorizeMode(CharMode.Read);
+        else if (!isNaN(memorize))setMemorizeMode(Math.random() < memorize ? CharMode.Memorize : CharMode.Read);
         else setMemorizeMode(CharMode.Read);
     }, [memorize]);
+
+    // useEffect(() => {
+    //     console.log('ShowNotes:', showNotes);
+    // }, [showNotes]);
 
     const clearHoverTimer = () => {
         if (hoverTimer.current !== null) {
@@ -85,7 +90,7 @@ export function Char({
                 </span>
             </span>
 
-            {showNote && data.note && showNotes && (
+            {showNote && data.note && showNotes ? (
                 <div
                     className="absolute z-10 left-1/2 -translate-x-1/2 mt-2"
                     onMouseEnter={handleMouseEnter}
@@ -93,7 +98,7 @@ export function Char({
                 >
                     <CharNote char={data.char} pinyin={data.pinyin} note={data.note} frequency={data.frequency} />
                 </div>
-            )}
+            ) : null}
         </div>
     );
     

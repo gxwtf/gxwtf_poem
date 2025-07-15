@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { CircleQuestionMark } from "lucide-react";
+import { CircleQuestionMark, Brain } from "lucide-react";
 import { MemorizeContext } from "./memorize-context";
 
 export function Memorize() {
@@ -52,7 +52,10 @@ export function Memorize() {
                             <Input type="number" id="difficulty" min="0" max="1" defaultValue={isNaN(difficulty) ? '' : difficulty} onInput={(e) => {
                                 setDifficulty(parseFloat(e.target.value))
                             }} />
-                            <Button onClick={enterMemorizeMode}>开始背诵</Button>
+                            <Button onClick={enterMemorizeMode}>
+                                <Brain />
+                                开始背诵
+                            </Button>
                         </div>
                     </PopoverContent>
                 </Popover>
@@ -62,7 +65,9 @@ export function Memorize() {
 
     return (
         <>
-            <Button variant="outline" onClick={quitMemorizeMode}>结束背诵</Button>
+            <Button variant="destructive" onClick={quitMemorizeMode} style={{
+                backgroundColor: 'var(--foreground)'
+            }}>结束背诵</Button>
         </>
     )
 }

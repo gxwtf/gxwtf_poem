@@ -7,6 +7,7 @@ import {
   SidebarProvider,
 } from "@/components/ui/sidebar"
 import { PoemPreview } from "@/components/poem-preview/poem-preview"
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context"
 
 
 const content = [
@@ -246,27 +247,29 @@ export const metadata = {
 
 export default function PreviewPage() {
   return (
-    <div className="[--header-height:calc(--spacing(14))]">
-      <SidebarProvider className="flex flex-col">
-        <SiteHeader data={[{
-          name: "登高",
-          href: "/preview"
-        }]} now="预览" />
-        <div className="flex flex-1">
-          <AppSidebar />
-          <SidebarInset>
-            <PoemPreview
-              title="永遇乐·京口北固亭怀古"
-              author="辛弃疾"
-              dynasty="宋"
-              mode="paragraph"
-              content={content}
-              background="北宋政治上的专制腐败、军事上的骄惰无能，带来外交上的极端软弱。其每年要向辽和西夏上贡大量银两以及商品。这样贿赂的结果，助长了辽、西夏的气焰，加重了人民的负担，极大地损伤了国力，带来了无穷的祸患。也就是说当时的北宋四周环伺，政策上求和，积贫积弱，而苏洵正是针对这样的现实撰写《六国论》的。"
-              appreciation="这首诗表达了诗人对历史的感慨和对未来的忧虑，同时也流露出对天地的敬畏和对人生短暂的感伤。"
-            />
-          </SidebarInset>
-        </div>
-      </SidebarProvider>
-    </div>
+    <MemorizeContextProvider>
+      <div className="[--header-height:calc(--spacing(14))]">
+        <SidebarProvider className="flex flex-col">
+          <SiteHeader data={[{
+            name: "登高",
+            href: "/preview"
+          }]} now="预览" />
+          <div className="flex flex-1">
+            <AppSidebar />
+            <SidebarInset>
+              <PoemPreview
+                title="永遇乐·京口北固亭怀古"
+                author="辛弃疾"
+                dynasty="宋"
+                mode="paragraph"
+                content={content}
+                background="北宋政治上的专制腐败、军事上的骄惰无能，带来外交上的极端软弱。其每年要向辽和西夏上贡大量银两以及商品。这样贿赂的结果，助长了辽、西夏的气焰，加重了人民的负担，极大地损伤了国力，带来了无穷的祸患。也就是说当时的北宋四周环伺，政策上求和，积贫积弱，而苏洵正是针对这样的现实撰写《六国论》的。"
+                appreciation="这首诗表达了诗人对历史的感慨和对未来的忧虑，同时也流露出对天地的敬畏和对人生短暂的感伤。"
+              />
+            </SidebarInset>
+          </div>
+        </SidebarProvider>
+      </div>
+    </MemorizeContextProvider>
   )
 }

@@ -2,7 +2,7 @@
 
 "use client"
 
-import { useState, useContext } from "react"
+import { useState, useContext, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Meta } from "./meta"
 import { Paragraph, ParagraphData } from "./paragraph";
@@ -69,9 +69,16 @@ export function PoemPreview({
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
     const [showNotes, setShowNotes] = useState(true)  // 默认显示注释
+    const { memorize } = useContext(MemorizeContext);
+
+    useEffect(() => {
+        console.log('XC',memorize);
+        if (isNaN(memorize))setShowNotes(true);
+        else setShowNotes(false);
+    }, [memorize]);
     
     return (
-        <MemorizeContextProvider>
+        <>
             <div className="max-w-3xl mx-auto py-8">
                 <Meta title={title} author={author} dynasty={dynasty} />
                 <ControlButtons
@@ -105,6 +112,6 @@ export function PoemPreview({
                 <SectionHeading val="内容赏析" level={1} />
                 <SectionContent val={appreciation || "暂无相关背景信息"} indent />
             </Section>
-        </MemorizeContextProvider>
+        </>
     )
 }

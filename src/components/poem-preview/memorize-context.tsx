@@ -6,6 +6,8 @@
 Author: wchengk09
 */
 
+"use client";
+
 import React, { createContext, useState } from "react";
 
 export const MemorizeContext = createContext({
