@@ -50,6 +50,10 @@ const data = {
           url: "/preview",
         },
         {
+          title: "知识梳理(Example)",
+          url: "/comb",
+        },
+        {
           title: "预习",
           url: "#",
         },
