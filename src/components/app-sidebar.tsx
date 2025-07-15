@@ -4,11 +4,14 @@ import * as React from "react"
 import { useVersion } from "@/components/version-provider";
 import {
   BookOpen,
-  Bot,
+  CircleUserRound,
   Command,
+  Cpu,
   Frame,
+  Gamepad2,
   LifeBuoy,
   Map,
+  Megaphone,
   PieChart,
   Send,
   Settings2,
@@ -39,7 +42,7 @@ const data = {
     {
       title: "古诗文",
       url: "#",
-      icon: SquareTerminal,
+      icon: BookOpen,
       items: [
         {
           title: "概览",
@@ -54,11 +57,7 @@ const data = {
           url: "/comb",
         },
         {
-          title: "预习",
-          url: "#",
-        },
-        {
-          title: "复习",
+          title: "学习",
           url: "#",
         },
       ],
@@ -66,7 +65,7 @@ const data = {
     {
       title: "积累",
       url: "#",
-      icon: Bot,
+      icon: Cpu,
       items: [
         {
           title: "古诗文积累",
@@ -85,7 +84,7 @@ const data = {
     {
       title: "作者",
       url: "#",
-      icon: BookOpen,
+      icon: CircleUserRound,
       items: [
         {
           title: "概览",
@@ -96,7 +95,7 @@ const data = {
           url: "/apreview",
         },
         {
-          title: "文常测试",
+          title: "文常学习",
           url: "#",
         },
       ],
@@ -104,7 +103,7 @@ const data = {
     {
       title: "游戏",
       url: "#",
-      icon: Settings2,
+      icon: Gamepad2,
       items: [
         {
           title: "句读知不知",
@@ -127,30 +126,35 @@ const data = {
   ],
   navSecondary: [
     {
-      title: "Support",
+      title: "帮助",
       url: "#",
       icon: LifeBuoy,
     },
     {
-      title: "Feedback",
+      title: "反馈",
       url: "#",
       icon: Send,
     },
   ],
   projects: [
     {
-      name: "Design Engineering",
-      url: "#",
+      name: "前端设计",
+      url: "https://op.gxwtf.cn/projects/gxwtf-poem/",
       icon: Frame,
     },
     {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: PieChart,
+      name: "后端开发",
+      url: "https://op.gxwtf.cn/projects/gxwtf-poem/",
+      icon: SquareTerminal,
     },
     {
-      name: "Travel",
-      url: "#",
+      name: "网站推广",
+      url: "https://op.gxwtf.cn/projects/gxwtf/",
+      icon: Megaphone,
+    },
+    {
+      name: "行万里路",
+      url: "https://op.gxwtf.cn/projects/gxwtf-tools/",
       icon: Map,
     },
   ],
