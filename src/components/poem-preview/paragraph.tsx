@@ -13,12 +13,14 @@ export function Paragraph({
     para,
     showPinyin,
     showTranslation,
-    mode
+    mode,
+    showNotes
 }: {
     para: ParagraphData
     showPinyin: boolean
     showTranslation: boolean
     mode: "poem" | "paragraph"
+    showNotes: boolean
 }) {
     const [highlightId, setHighlightId] = useState<number | null>(null);
 
@@ -41,7 +43,12 @@ export function Paragraph({
                         onMouseLeave={() => showTranslation && handleMouseLeave()}
                         className={`inline ${highlightId === index ? "highlight" : ""}`}
                     >
-                        <Sentence sent={s} showPinyin={showPinyin} highlight={highlightId === index} />
+                        <Sentence 
+                            sent={s} 
+                            showPinyin={showPinyin} 
+                            highlight={highlightId === index} 
+                            showNotes={showNotes}
+                        />
                     </span>
                 ))}
             </div>

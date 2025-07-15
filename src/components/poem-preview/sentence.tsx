@@ -40,18 +40,20 @@ export function Translation({
 export function Sentence({
     sent,
     showPinyin,
-    highlight
+    highlight,
+    showNotes
 }: {
     sent: SentenceData,
     showPinyin: boolean,
-    highlight: boolean
+    highlight: boolean,
+    showNotes: boolean
 }) {
     const { sentence, notes } = sent;
     let charList: React.ReactNode[] = [];
     for (let i = 0; i < sentence.length; i++) {
         const note = notes?.find(n => n.start == i);
         let unit: React.ReactNode;
-        if (note) {
+        if (note && showNotes) {  // 仅在显示注释时才渲染词语注释
             let length=note.end-note.start+1;
             unit = Array.from({ length: (note.end - note.start + 1) }).map((_, j) => (
                 <WordNotePopover key={i + j} note={note.note} left={j==0} right={j==length-1}>
@@ -59,6 +61,7 @@ export function Sentence({
                         data={sentence[i + j]}
                         showPinyin={showPinyin}
                         highlight={highlight}
+                        showNotes={showNotes}
                     />
                 </WordNotePopover>
             ));
@@ -71,6 +74,7 @@ export function Sentence({
                     data={sentence[i]}
                     showPinyin={showPinyin}
                     highlight={highlight}
+                    showNotes={showNotes}
                 />
             );
         }

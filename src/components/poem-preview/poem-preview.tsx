@@ -15,11 +15,15 @@ function ControlButtons({
     setShowTranslation,
     showPinyin,
     setShowPinyin,
+    showNotes,
+    setShowNotes
 }: {
     showTranslation: boolean
     setShowTranslation: React.Dispatch<React.SetStateAction<boolean>>
     showPinyin: boolean
     setShowPinyin: React.Dispatch<React.SetStateAction<boolean>>
+    showNotes: boolean
+    setShowNotes: React.Dispatch<React.SetStateAction<boolean>>
 }) {
     const { memorize } = useContext(MemorizeContext);
 
@@ -31,6 +35,11 @@ function ControlButtons({
             {isNaN(memorize) ? (
                 <Button variant="outline" onClick={() => setShowPinyin(v => !v)}>
                     {showPinyin ? "隐藏拼音" : "显示拼音"}
+                </Button>
+            ) : null}
+            {isNaN(memorize) ? (
+                <Button variant="outline" onClick={() => setShowNotes(v => !v)}>
+                    {showNotes ? "隐藏注释" : "显示注释"}
                 </Button>
             ) : null}
             <Memorize></Memorize>
@@ -59,6 +68,7 @@ export function PoemPreview({
 }: PoemPreviewProps) {
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
+    const [showNotes, setShowNotes] = useState(true)  // 默认显示注释
     
     return (
         <MemorizeContextProvider>
@@ -69,6 +79,8 @@ export function PoemPreview({
                     setShowTranslation={setShowTranslation}
                     showPinyin={showPinyin}
                     setShowPinyin={setShowPinyin}
+                    showNotes={showNotes}
+                    setShowNotes={setShowNotes}
                 />
                 <div className={mode === "poem" ? "text-center" : "text-left"}>
                     {content.map((paragraph, pIdx) => (
@@ -78,6 +90,7 @@ export function PoemPreview({
                                 showPinyin={showPinyin}
                                 showTranslation={showTranslation}
                                 mode={mode}
+                                showNotes={showNotes}
                             />
                         </div>
                     ))}

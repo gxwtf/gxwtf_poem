@@ -23,12 +23,14 @@ export function Char({
     data,
     showPinyin,
     highlight,
-    suppressNote
+    suppressNote,
+    showNotes
 }: {
     data: CharData
     showPinyin: boolean
     highlight: boolean
     suppressNote?: (suppress: boolean) => void
+    showNotes: boolean
 }) {
     const [showNote, setShowNote] = useState(false);
     const hoverTimer = useRef<number | null>(null);
@@ -48,12 +50,14 @@ export function Char({
     };
 
     const handleMouseEnter = () => {
+        if (!showNotes) return; // 新增：隐藏注释时不触发
         clearHoverTimer();
         setShowNote(true);
         suppressNote?.(true);
     };
 
     const handleMouseLeave = () => {
+        if (!showNotes) return; // 新增：隐藏注释时不触发
         clearHoverTimer();
         hoverTimer.current = window.setTimeout(() => {
             setShowNote(false);
@@ -77,11 +81,11 @@ export function Char({
                     <span className="text-base text-gray-500 leading-none">{data.pinyin || ""}</span>
                 )}
                 <span>
-                    {data.note ? <strong>{data.char}</strong> : data.char}
+                    {data.note && showNotes ? <strong>{data.char}</strong> : data.char}
                 </span>
             </span>
 
-            {showNote && data.note && (
+            {showNote && data.note && showNotes && (
                 <div
                     className="absolute z-10 left-1/2 -translate-x-1/2 mt-2"
                     onMouseEnter={handleMouseEnter}
