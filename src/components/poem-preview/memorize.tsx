@@ -36,7 +36,7 @@ export function Memorize() {
                     </PopoverTrigger>
                     <PopoverContent>
                         <h4 className="bold">背诵古诗文</h4>
-                        <div className="grid grid-cols-2 gap-1">
+                        <div className="grid grid-cols-2 gap-x-1 gap-y-3">
                             <Label htmlFor="difficulty">
                                 <Popover>
                                     <PopoverTrigger className="flex items-center gap-1">
