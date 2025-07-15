@@ -31,20 +31,23 @@ import {
 
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    name: "小广",
+    email: "gxwtf@gxwtf.cn",
+    avatar: "https://gxwtf.cn/gytb.png",
   },
   navMain: [
     {
       title: "古诗文",
       url: "#",
       icon: SquareTerminal,
-      isActive: true,
       items: [
         {
           title: "概览",
           url: "/overview",
+        },
+        {
+          title: "预览(Example)",
+          url: "/preview",
         },
         {
           title: "预习",
@@ -81,19 +84,15 @@ const data = {
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
+          title: "概览",
           url: "#",
         },
         {
-          title: "Get Started",
-          url: "#",
+          title: "简介(Example)",
+          url: "/apreview",
         },
         {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
+          title: "文常测试",
           url: "#",
         },
       ],
@@ -104,19 +103,19 @@ const data = {
       icon: Settings2,
       items: [
         {
-          title: "General",
+          title: "句读知不知",
           url: "#",
         },
         {
-          title: "Team",
+          title: "不背文言",
           url: "#",
         },
         {
-          title: "Billing",
+          title: "诗词九宫格",
           url: "#",
         },
         {
-          title: "Limits",
+          title: "诗文连句",
           url: "#",
         },
       ],

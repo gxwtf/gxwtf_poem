@@ -39,7 +39,7 @@ export const SectionHeading: React.FC<{ val: string; level?: 1 | 2 | 3; primaryC
                     "--tw-border-opacity": "1",
                     "--tw-text-opacity": "1",
                     color: primaryColor,
-                    borderColor: level ==1 ? primaryColor : undefined,
+                    borderColor: level == 1 ? primaryColor : undefined,
                 } as React.CSSProperties
             }
         >
@@ -52,7 +52,7 @@ export const SectionContent: React.FC<{ val: string; indent?: boolean; lineHeigh
     const formattedContent = val.split('\n').map((paragraph, index) => (
         <p
             key={index}
-            className={`text-black ${paragraphSpacing} whitespace-pre-line ${indent ? 'indent-8' : ''} ${lineHeight}`}
+            className={`text-primary ${paragraphSpacing} whitespace-pre-line ${indent ? 'indent-8' : ''} ${lineHeight}`}
         >
             {paragraph}
         </p>
@@ -65,7 +65,7 @@ interface SectionProps {
     padding?: string;
 }
 
-const Section: React.FC<SectionProps> = ({ children, padding = "p-6" }) => {
+export const Section: React.FC<SectionProps> = ({ children, padding = "p-6" }) => {
     return (
         <div className={`${padding} text-left`}>
             {children}
@@ -73,4 +73,13 @@ const Section: React.FC<SectionProps> = ({ children, padding = "p-6" }) => {
     );
 }
 
-export { Section };
+export const TinySection: React.FC<SectionProps> = ({ children, padding = "p-6" }) => {
+    return (
+        <div className={`${padding}`}>
+        <div className="relative p-6 bg-gray-50 rounded-lg text-primary leading-relaxed 
+                                  border-l-4 pl-8 border-[var(--theme-color)]">
+            {children}
+        </div >
+        </div>
+    );
+}

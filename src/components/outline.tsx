@@ -30,7 +30,7 @@ export function Outline({content,activeId,setActiveId}:{
         );
     }
     return (<>
-        <p className={`${activeId==content.id?"":"text-black"} cursor-pointer`} onClick={()=>{setActiveId(content.id)}}>
+        <p className={`${activeId==content.id?"":"text-primary"} cursor-pointer`} onClick={()=>{setActiveId(content.id)}}>
             {content.title}
         </p>
         {chs}

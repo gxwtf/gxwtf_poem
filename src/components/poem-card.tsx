@@ -46,3 +46,18 @@ export function PoemCard({
     </Card>
   )
 }
+
+export function PoemTinyCard({
+  title
+}:
+{
+  title: string
+}) {
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+    </Card>
+  )
+}
