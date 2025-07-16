@@ -2,9 +2,8 @@
 
 "use client"
 
-import { useState, useContext } from "react"
 import { Meta } from "./meta"
-import { Section, SectionHeading, SectionContent, TinySection } from "../section";
+import { Section, SectionHeading, TinySection } from "../section";
 import { PoemTinyCard } from "../poem-card";
 
 export interface PoemPreviewProps {

@@ -12,9 +12,7 @@ import {
   LifeBuoy,
   Map,
   Megaphone,
-  PieChart,
   Send,
-  Settings2,
   SquareTerminal,
 } from "lucide-react"
 

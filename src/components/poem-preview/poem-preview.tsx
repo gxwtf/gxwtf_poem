@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Meta } from "./meta"
 import { Paragraph, ParagraphData } from "./paragraph";
 import { Memorize } from "./memorize"; 
-import { MemorizeContext, MemorizeContextProvider } from "./memorize-context";
+import { MemorizeContext } from "./memorize-context";
 import { Section, SectionHeading, SectionContent } from "../section";
 
 function ControlButtons({

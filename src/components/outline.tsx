@@ -8,29 +8,29 @@ import React from "react";
 import { useState } from "react";
 export type OutlineContent = {
     title: string,
-    id: Number,
+    id: number,
     children?: Array<OutlineContent>
 };
-export function Outline({content,activeId,setActiveId}:{
-    content:OutlineContent
-    activeId?:Number,
-    setActiveId?:React.Dispatch<React.SetStateAction<Number>>
-}){
-    if(!setActiveId){
-        [activeId,setActiveId]=useState(content.id);
+export function Outline({ content, activeId, setActiveId }: {
+    content: OutlineContent
+    activeId?: number,
+    setActiveId?: React.Dispatch<React.SetStateAction<number>>
+}) {
+    if (!setActiveId) {
+        [activeId, setActiveId] = useState(content.id);
     }
-    let chs=(<></>);
-    if(content.children){
-        chs=(
+    let chs = (<></>);
+    if (content.children) {
+        chs = (
             <div className="pl-4">
-                {content.children.map((ch,index)=>(
-                    <Outline key={index} content={ch} activeId={activeId} setActiveId={setActiveId}/>
+                {content.children.map((ch, index) => (
+                    <Outline key={index} content={ch} activeId={activeId} setActiveId={setActiveId} />
                 ))}
             </div>
         );
     }
     return (<>
-        <p className={`${activeId==content.id?"":"text-primary"} cursor-pointer`} onClick={()=>{setActiveId(content.id)}}>
+        <p className={`${activeId == content.id ? "" : "text-primary"} cursor-pointer`} onClick={() => { setActiveId(content.id) }}>
             {content.title}
         </p>
         {chs}

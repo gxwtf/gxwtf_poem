@@ -7,7 +7,6 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { Tag } from "@/components/tag"
 
 interface PoemCardProps {

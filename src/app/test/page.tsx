@@ -1,4 +1,4 @@
-import { Outline, OutlineContent } from "@/components/outline";
+import { Outline } from "@/components/outline";
 export default function Page(){
     return (
         <Outline

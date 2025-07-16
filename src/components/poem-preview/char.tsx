@@ -2,7 +2,7 @@
 
 "use client"
 
-import { useState, useRef, useContext, useEffect, memo } from "react";
+import { useState, useRef, useContext, useEffect } from "react";
 import CharNote from "./char-note";
 import { MemorizeContext } from "./memorize-context";
 

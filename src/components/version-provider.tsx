@@ -43,12 +43,12 @@ export function VersionProvider({
         type: 'normal',
         title: `成功切换为${newVersion === 'senior' ? '高中' : '初中'}版`
       });
-    } catch (error) {
+    } catch (e) {
       setAlert({
         visible: true,
         type: 'destructive',
         title: '无法切换版本',
-        description: '系统错误'
+        description: `系统错误：${e}`
       });
     }
   };
