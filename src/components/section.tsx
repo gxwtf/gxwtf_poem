@@ -18,6 +18,8 @@
 
 import React from "react";
 
+import { Quote } from "lucide-react";
+
 export const SectionHeading: React.FC<{ val: string; level?: 1 | 2 | 3; primaryColor?: string }> = ({
     val,
     level = 1,
@@ -78,6 +80,7 @@ export const TinySection: React.FC<SectionProps> = ({ children, padding = "p-6" 
         <div className={`${padding}`}>
         <div className="relative p-6 bg-gray-50 rounded-lg text-primary leading-relaxed 
                                   border-l-4 pl-8 border-[var(--theme-color)]">
+            <Quote className="absolute top-1 left-1 text-[var(--theme-color)] w-6 h-6 opacity-80" strokeWidth={2} />
             {children}
         </div >
         </div>
