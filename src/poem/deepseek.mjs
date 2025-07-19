@@ -22,51 +22,65 @@ const model = 'deepseek/deepseek-r1-0528:free';
  * @param {Object} [options={}] - 可选参数
  * @returns {Promise<string>} - AI 生成的回复
  */
-export default function deepseekChat(userPrompt, systemPrompt = '你是一个有帮助的助手', options = {}) {
-  return new Promise((resolve, reject) => {
-    // 构建请求体 [3,5](@ref)
-    const requestBody = JSON.stringify({
-      model: options.model || model,
-      temperature: 0.0,
-      messages: [
-        { role: 'user', content: systemPrompt + '\n\n' + userPrompt }
-      ],
-      ...options
-    });
+export default function deepseekChat(userPrompt, systemPrompt = '你是一个有帮助的助手', chatHistory = [], options = {}) {
+	return new Promise((resolve, reject) => {
+		// 构建请求体 [3,5](@ref)
+		const requestJSON = {
+			model: options.model || model,
+			temperature: 0.0,
+			messages: [
+				...chatHistory,
+				{ role: 'user', content: systemPrompt + '\n\n' + userPrompt }
+			],
+			...options
+		};
+		const requestBody = JSON.stringify(requestJSON);
 
-    // 配置请求选项 [6,8](@ref)
-    const requestOptions = {
-      hostname: baseUrl,
-      path: apiPath,
-      method: 'POST',
+		// 配置请求选项 [6,8](@ref)
+		const requestOptions = {
+			hostname: baseUrl,
+			path: apiPath,
+			method: 'POST',
 
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Length': Buffer.byteLength(requestBody)
-      }
-    };
+			headers: {
+				'Content-Type': 'application/json',
+				'Authorization': `Bearer ${apiKey}`,
+				'Content-Length': Buffer.byteLength(requestBody)
+			}
+		};
 
-    // 发送请求 [7](@ref)
-    const req = https.request(requestOptions, (res) => {
-      let data = '';
-      
-      res.on('data', (chunk) => data += chunk);
-      
-      res.on('end', () => {
-        try {
-          const response = JSON.parse(data);
-          resolve(response);
-        } catch (e) {
-          reject(`解析响应失败: ${e.message}`);
-        }
-      });
-    });
+		// 发送请求 [7](@ref)
+		const req = https.request(requestOptions, (res) => {
+			let data = '';
 
-    req.on('error', (e) => reject(`API 请求失败: ${e.message}`));
-    req.write(requestBody);
-    req.end();
-  });
+			res.on('data', (chunk) => data += chunk);
+
+			res.on('end', () => {
+				try {
+					const response = JSON.parse(data);
+					if (!response.choices || response.choices.length === 0)
+						reject('API 未返回有效回复');
+					const content = response.choices[0].message.content;
+					try {
+						JSON.parse(content);
+						resolve(content);
+        			} catch (e) {
+						console.log('Content is incomplete. Continuing...');
+						const history = [
+							...chatHistory,
+							{ role: 'user', content: systemPrompt + '\n\n' + userPrompt },
+							{ role: 'assistant', content: content }
+						];
+						deepseekChat('请继续生成', '', history, options).then(resolve).catch(reject);
+					}
+				}catch (e){reject(`解析响应失败: ${e.message}`);}
+			});
+		});
+
+		req.on('error', (e) => reject(`API 请求失败: ${e.message}`));
+		req.write(requestBody);
+		req.end();
+	});
 }
 
 /* 响应示例：
@@ -76,20 +90,20 @@ export default function deepseekChat(userPrompt, systemPrompt = '你是一个有
   created: 1749267546,
   model: 'deepseek-chat',
   choices: [
-    {
-      index: 0,
-      message: { role: 'assistant', content: 'XC2236' },
-      logprobs: null,
-      finish_reason: 'stop'
-    }
+	{
+	  index: 0,
+	  message: { role: 'assistant', content: 'XC2236' },
+	  logprobs: null,
+	  finish_reason: 'stop'
+	}
   ],
   usage: {
-    prompt_tokens: 19,
-    completion_tokens: 3,
-    total_tokens: 22,
-    prompt_tokens_details: { cached_tokens: 0 },
-    prompt_cache_hit_tokens: 0,
-    prompt_cache_miss_tokens: 19
+	prompt_tokens: 19,
+	completion_tokens: 3,
+	total_tokens: 22,
+	prompt_tokens_details: { cached_tokens: 0 },
+	prompt_cache_hit_tokens: 0,
+	prompt_cache_miss_tokens: 19
   },
   system_fingerprint: 'fp_8802369eaa_prod0425fp8'
 }

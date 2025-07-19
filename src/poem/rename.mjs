@@ -1,43 +1,47 @@
-// 临时脚本，可随时删除
+const fs = require('fs');
+const path = require('path');
 
-import path from 'path';
-import fs from 'fs';
-import { fileURLToPath } from 'url'
-import { dirname } from 'path'
-import { isLeftHandSideExpression } from 'typescript';
+// 获取当前目录下的所有JSON文件
+const files = fs.readdirSync(process.cwd())
+  .filter(file => file.endsWith('.json') && /^\d+.*\.json$/.test(file));
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+// 按数字前缀排序
+const sortedFiles = files
+  .map(file => ({
+    original: file,
+    prefix: parseInt(file.match(/^(\d+)/)[0]),
+    newName: file.replace(/^\d+/, '')  // 移除数字前缀
+  }))
+  .sort((a, b) => a.prefix - b.prefix);
 
-(async function(){
-    const files = fs.readdirSync(path.join(__dirname, 'junior'));
-    for (let i = 0;i <= files.length - 1;i ++){
-        const file = files[i];
-        console.log(file);
-        if (!file.endsWith('.json'))continue;
-        // 以JSON格式读取文件内容
-        try{
-            const content = JSON.parse(fs.readFileSync(path.join(__dirname, 'junior', file), 'utf-8'));
-            // 询问用户
-            console.log(content.title);
+// 创建顺序映射表
+const orderMap = {};
+const fileNamesOnly = [];
 
-            // 等待用户输入（从stdin）
-            const input = await new Promise(resolve => {
-                process.stdin.once('data', data => {
-                    resolve(data.toString().trim());
-                });
-            });
+sortedFiles.forEach(item => {
+  // 检查是否会发生名称冲突
+  if (fs.existsSync(item.newName) && item.original !== item.newName) {
+    throw new Error(`名称冲突：${item.newName} 已存在`);
+  }
+  
+  orderMap[item.newName] = item.prefix;
+  fileNamesOnly.push(item.newName);
+});
 
-            console.log(input);
+// 写入order.json
+fs.writeFileSync('order.json', JSON.stringify({
+  originalOrder: sortedFiles.map(item => item.original),
+  renamedFiles: fileNamesOnly,
+  prefixMapping: orderMap
+}, null, 2));
 
-            if (input == 1)content["text-align"] = "center";
-            else content["text-align"] = "paragraph";
+// 执行文件重命名
+sortedFiles.forEach(item => {
+  if (item.original !== item.newName) {
+    fs.renameSync(item.original, item.newName);
+    console.log(`重命名: ${item.original} -> ${item.newName}`);
+  }
+});
 
-            console.log(content);
-
-            // 写入文件
-            fs.writeFileSync(path.join(__dirname, 'junior', file), JSON.stringify(content, null, 2), 'utf-8');
-
-        }catch (e){console.error(e);}
-    }
-})();
+console.log(`操作完成! ${sortedFiles.length}个文件已处理`);
+console.log('生成的顺序文件: order.json');
