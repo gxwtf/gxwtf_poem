@@ -29,30 +29,31 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
+import Link from "next/link";
 
 const data = {
   user: {
     name: "小广",
     email: "gxwtf@gxwtf.cn",
-    avatar: "https://gxwtf.cn/gytb.png",
+    avatar: "https://test.gxwtf.cn/gytb.png",
   },
   navMain: [
     {
       title: "古诗文",
-      url: "#",
+      url: "/web",
       icon: BookOpen,
       items: [
         {
           title: "概览",
-          url: "/overview",
+          url: "/web/overview",
         },
         {
           title: "预览(Example)",
-          url: "/preview",
+          url: "/web/preview",
         },
         {
           title: "知识梳理(Example)",
-          url: "/comb",
+          url: "/web/comb",
         },
         {
           title: "学习",
@@ -90,7 +91,7 @@ const data = {
         },
         {
           title: "简介(Example)",
-          url: "/apreview",
+          url: "/web/apreview",
         },
         {
           title: "文常学习",
@@ -169,7 +170,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <a href="/dashboard">
+              <Link href="/web">
                 <div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
                   <Command className="size-4" />
                 </div>
@@ -181,7 +182,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     <span className="truncate text-xs">初中版</span>
                   )}
                 </div>
-              </a>
+              </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
