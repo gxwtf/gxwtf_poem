@@ -55,7 +55,7 @@ export function PoemTinyCard({
   return (
     <div
       className="
-        p-4 rounded-md bg-white border border-gray-200 
+        p-4 rounded-md border
         transition-all duration-300 ease-in-out 
         cursor-pointer no-underline
         hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--primary-color)]
