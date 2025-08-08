@@ -37,7 +37,7 @@ const CharNote: React.FC<CharNoteProps> = ({ char, pinyin, note, frequency }) =>
     const sections = note.map(n => ({ ...n, indent: true }));
 
     return (
-        <div className="w-88 max-h-120 overflow-auto border shadow-lg rounded-lg bg-white">
+        <div className="w-88 max-h-120 overflow-auto border shadow-lg rounded-lg bg-background">
             <div className="px-6 pb-1 text-left relative">
                 {frequency !== undefined && (
                     <div className="absolute top-1 right-1 text-base text-gray-600 pr-4 pt-2">
