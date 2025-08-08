@@ -36,7 +36,13 @@ export function PoemCard({
         <div className="line-clamp-4">{content}</div>
       </CardContent>
       <CardFooter>
-        <div className="flex flex-wrap gap-2">
+        <div
+          className="flex gap-2 overflow-x-auto"
+          style={{
+            scrollbarWidth: "none",
+            msOverflowStyle: "none",
+          }}
+        >
           {tags?.map(tag => (
             <Tag key={tag} text={tag} />
           ))}
@@ -61,7 +67,7 @@ export function PoemTinyCard({
         hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--primary-color)]
       "
     >
-    <CardTitle className="text-primary">{title}</CardTitle>
+      <CardTitle className="text-primary">{title}</CardTitle>
     </div>
   )
 }
