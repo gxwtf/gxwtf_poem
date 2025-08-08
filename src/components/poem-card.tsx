@@ -49,14 +49,19 @@ export function PoemCard({
 export function PoemTinyCard({
   title
 }:
-{
-  title: string
-}) {
+  {
+    title: string
+  }) {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
-      </CardHeader>
-    </Card>
+    <div
+      className="
+        p-4 rounded-md bg-white border border-gray-200 
+        transition-all duration-300 ease-in-out 
+        cursor-pointer no-underline
+        hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--primary-color)]
+      "
+    >
+    <CardTitle className="text-primary">{title}</CardTitle>
+    </div>
   )
 }
