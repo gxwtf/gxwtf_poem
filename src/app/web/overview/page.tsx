@@ -13,11 +13,6 @@ type PoemMeta = {
   tags?: string[]
 }
 
-// export const metadata = {
-//     title: "古诗文概览 - 广学古诗文",
-//     description: "古诗文概览页面",
-// }
-
 export default function OverviewPage() {
   const { version } = useVersion()
   const [poems, setPoems] = useState<PoemMeta[]>([])
