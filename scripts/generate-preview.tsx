@@ -25,17 +25,31 @@ const processPoem = (inputPath: string) => {
                     const charCode = char.charCodeAt(0);
                     const isPunctuation = !(charCode >= 0x4e00 && charCode <= 0x9fa5);
                     
-                    chars.push({
+                    // 匹配当前字符的注释
+                    const charNote = rawData.notes.find((n: any) => 
+                        n.start === globalIndex && n.end === globalIndex
+                    );
+
+                    const charObj: any = {
                         char,
                         pinyin: isPunctuation 
                             ? '　'
                             : pinyinArray[pinyinIndex++] || '　',
-                    });
-                    globalIndex++; // 恢复全局索引递增
+                    };
+
+                    // 合并字符级注释
+                    if (charNote) {
+                        const { start, end, ...rest } = charNote;
+                        Object.assign(charObj, rest);
+                    }
+
+                    chars.push(charObj);
+                    globalIndex++;
                 }
 
-                // 转换注释下标
+                // 过滤掉单字符注释
                 const sentenceNotes = rawData.notes
+                    .filter((note: any) => note.start !== note.end)
                     .filter((note: any) => {
                         return note.start >= sentenceStartIndex && 
                                note.end <= sentenceStartIndex + sentence.length;
@@ -59,7 +73,7 @@ const processPoem = (inputPath: string) => {
     const outputPath = path.join(
         path.dirname(inputPath),
         'preview',
-        path.basename(inputPath).replace(/\.json$/, '.json')
+        path.basename(inputPath)
     );
 
     // 确保预览目录存在
