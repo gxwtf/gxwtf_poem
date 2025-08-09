@@ -32,7 +32,7 @@ const content = [
             {
                 "sentence": [
                     {"char": "舞", "pinyin": "wǔ"},
-                    {"char": "榭", "pinyin": "xiè", "write": true, "read": true},
+                    {"char": "榭", "pinyin": "xiè"},
                     {"char": "歌", "pinyin": "gē"},
                     {"char": "台", "pinyin": "tái"},
                     {"char": "，", "pinyin": "　"},
@@ -62,7 +62,7 @@ const content = [
                     {"char": "寻", "pinyin": "xún"},
                     {"char": "常", "pinyin": "cháng"},
                     {"char": "巷", "pinyin": "xiàng"},
-                    {"char": "陌", "pinyin": "mò", "write": true, "read": true},
+                    {"char": "陌", "pinyin": "mò"},
                     {"char": "，", "pinyin": "　"},
                     {"char": "人", "pinyin": "rén"},
                     {"char": "道", "pinyin": "dào"},

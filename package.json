@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "tsx scripts/generate-overview.tsx",
-    "prestart": "tsx scripts/generate-overview.tsx",
-    "predev": "tsx scripts/generate-overview.tsx",
+    "prebuild": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx",
+    "prestart": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx",
+    "predev": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
