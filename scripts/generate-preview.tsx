@@ -62,7 +62,9 @@ const processPoem = (inputPath: string) => {
 
                 return {
                     sentence: chars,
-                    translation: translations[sentenceIndex] || '',
+                    translation: {
+                        translation: translations[sentenceIndex] || ''
+                    },
                     notes: sentenceNotes
                 };
             })
