@@ -15,6 +15,7 @@ interface PoemCardProps {
   dynasty?: string
   content: string
   tags?: string[]
+  url: string
 }
 
 export function PoemCard({
@@ -23,9 +24,14 @@ export function PoemCard({
   dynasty,
   content,
   tags,
+  url
 }: PoemCardProps) {
   return (
-    <Card>
+    <Card onClick={(e) => {
+      if (!(e.target as HTMLElement).closest('.no-navigate')) {
+        window.location.href = url;
+      }
+    }}>
       <CardHeader>
         <CardTitle className="text-[var(--theme-color)] font-bold text-xl">{title}</CardTitle>
         <CardDescription>
