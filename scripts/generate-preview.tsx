@@ -3,64 +3,53 @@ import path from 'path';
 
 const processPoem = (inputPath: string) => {
     const rawData = JSON.parse(fs.readFileSync(inputPath, 'utf-8'));
+    let pinyinIndex = 0;
+    let globalIndex = 0;
 
-    // 分离单字符注释和区间注释
-    const [charNotes, sentenceNotes] = rawData.notes.reduce(
-        (acc: any[], note: any) => {
-            note.start === note.end ? acc[0].push(note) : acc[1].push(note);
-            return acc;
-        },
-        [[], []]
-    );
-
+    // 处理内容分段
     const paragraphs = rawData.content.split('/').map((para: string, paraIndex: number) => {
         const translations = rawData.translation.split('/')[paraIndex]?.split('#') || [];
         return {
             paragraph: para.split('#').map((sentence: string, sentenceIndex: number) => {
-                let globalIndex = 0;
+                // 记录句子起始位置
+                const sentenceStartIndex = globalIndex;
                 const chars = [];
 
-                // 按句子处理拼音数组
-                const sentencePinyin = rawData.pinyin
-                    .split(/\s+|#|\//)
-                    .filter((p: string) => p.trim() !== '')
-                    .slice(0, sentence.length);
+                // 预处理拼音数据
+                const pinyinArray = rawData.pinyin
+                    .split(/\s+|#\//)
+                    .filter((p: string) => p.trim() !== '');
 
-                let pinyinIndex = 0;
-
+                // 处理每个字符
                 for (const char of sentence) {
                     const charCode = char.charCodeAt(0);
                     const isPunctuation = !(charCode >= 0x4e00 && charCode <= 0x9fa5);
-
-                    // 附加单字符注释
-                    const note = charNotes.find((n: any) => n.start === globalIndex);
-
+                    
                     chars.push({
                         char,
-                        pinyin: isPunctuation ? '　' : sentencePinyin[pinyinIndex++] || '　',
-                        globalIndex: globalIndex++,
-                        ...(note && {
-                            note: note.note,
-                            frequency: note.frequency
-                        })
+                        pinyin: isPunctuation 
+                            ? '　'
+                            : pinyinArray[pinyinIndex++] || '　',
                     });
+                    globalIndex++; // 恢复全局索引递增
                 }
 
-                // 处理区间注释
-                const processedNotes = sentenceNotes
+                // 转换注释下标
+                const sentenceNotes = rawData.notes
                     .filter((note: any) => {
-                        return globalIndex - sentence.length <= note.start && note.end <= globalIndex;
+                        return note.start >= sentenceStartIndex && 
+                               note.end <= sentenceStartIndex + sentence.length;
                     })
                     .map((note: any) => ({
                         ...note,
-                        start: note.start - (globalIndex - sentence.length),
-                        end: note.end - (globalIndex - sentence.length)
+                        start: note.start - sentenceStartIndex,
+                        end: note.end - sentenceStartIndex
                     }));
 
                 return {
                     sentence: chars,
                     translation: translations[sentenceIndex] || '',
-                    notes: processedNotes
+                    notes: sentenceNotes
                 };
             })
         };
