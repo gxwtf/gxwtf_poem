@@ -47,25 +47,30 @@ function ControlButtons({
     )
 }
 
-export interface PoemPreviewProps {
-    title: string
-    author: string
-    dynasty?: string
-    mode: "poem" | "paragraph"
-    content: ParagraphData[]
-    background?: string
-    appreciation?: string
+export interface PoemData {
+  title: string;
+  author: string;
+  dynasty?: string;
+  mode: "poem" | "paragraph";
+  content: ParagraphData[];
+  background?: string;
+  appreciation?: string;
 }
 
-export function PoemPreview({
+export interface PoemPreviewProps {
+  data: PoemData;
+}
+
+export function PoemPreview({ data }: PoemPreviewProps) {
+  const { 
     title,
     author,
     dynasty,
     mode,
     content,
     background,
-    appreciation,
-}: PoemPreviewProps) {
+    appreciation
+  } = data;
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
     const [showNotes, setShowNotes] = useState(true)  // 默认显示注释

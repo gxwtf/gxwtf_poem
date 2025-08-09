@@ -24,15 +24,15 @@ const processPoem = (inputPath: string) => {
                 for (const char of sentence) {
                     const charCode = char.charCodeAt(0);
                     const isPunctuation = !(charCode >= 0x4e00 && charCode <= 0x9fa5);
-                    
+
                     // 匹配当前字符的注释
-                    const charNote = rawData.notes.find((n: any) => 
+                    const charNote = rawData.notes.find((n: any) =>
                         n.start === globalIndex && n.end === globalIndex
                     );
 
                     const charObj: any = {
                         char,
-                        pinyin: isPunctuation 
+                        pinyin: isPunctuation
                             ? '　'
                             : pinyinArray[pinyinIndex++] || '　',
                     };
@@ -51,8 +51,8 @@ const processPoem = (inputPath: string) => {
                 const sentenceNotes = rawData.notes
                     .filter((note: any) => note.start !== note.end)
                     .filter((note: any) => {
-                        return note.start >= sentenceStartIndex && 
-                               note.end <= sentenceStartIndex + sentence.length;
+                        return note.start >= sentenceStartIndex &&
+                            note.end <= sentenceStartIndex + sentence.length;
                     })
                     .map((note: any) => ({
                         ...note,
@@ -73,7 +73,7 @@ const processPoem = (inputPath: string) => {
     const outputPath = path.join(
         path.dirname(inputPath),
         'preview',
-        path.basename(inputPath)
+        `${encodeURIComponent(path.basename(inputPath, '.json'))}.json`
     );
 
     // 确保预览目录存在
