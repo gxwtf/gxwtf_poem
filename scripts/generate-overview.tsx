@@ -1,3 +1,5 @@
+// 运行前会生成overview.json
+
 import fs from "fs"
 import path from "path"
 
