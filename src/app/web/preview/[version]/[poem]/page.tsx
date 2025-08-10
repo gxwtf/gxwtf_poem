@@ -12,16 +12,18 @@ interface Params {
   };
 }
 
-// export async function metadata({ params }: Params) {
-//   const { poem } = params;
-//   return {
-//     title: `诗词预览 - ${poem}`,
-//     description: '诗词预览页面',
-//   };
-// }
+export async function generateMetadata({ params }: Params) {
+  const { poem } = await params;
+  const decodedPoem = decodeURIComponent(poem);
+  return {
+    title: `古诗文预览 - ${decodedPoem}`,
+    description: '古诗文预览页面',
+  };
+}
 
 export default async function PoemPreviewPage({ params }: Params) {
   const { version, poem } = await params;
+  const decodedPoem = decodeURIComponent(poem);
   
   // 参数有效性验证
   if (!version || !poem) {
