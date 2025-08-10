@@ -54,7 +54,7 @@ export const SectionContent: React.FC<{ val: string; indent?: boolean; lineHeigh
     const formattedContent = val.split('\n').map((paragraph, index) => (
         <p
             key={index}
-            className={`text-primary ${paragraphSpacing} whitespace-pre-line ${indent ? 'indent-8' : ''} ${lineHeight}`}
+            className={`text-primary ${paragraphSpacing} whitespace-pre-line ${indent ? 'indent-9' : ''} ${lineHeight}`}
         >
             {paragraph}
         </p>
