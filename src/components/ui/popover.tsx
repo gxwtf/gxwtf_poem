@@ -34,6 +34,8 @@ function PopoverContent({
           className
         )}
         {...props}
+        onOpenAutoFocus={(e) => e.preventDefault()}
+        onCloseAutoFocus={(e) => e.preventDefault()}
       />
     </PopoverPrimitive.Portal>
   )
