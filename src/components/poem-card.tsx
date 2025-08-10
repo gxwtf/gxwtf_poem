@@ -1,79 +1,81 @@
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
 } from "@/components/ui/card"
 
-import { Tag } from "@/components/tag"
+import {Tag} from "@/components/tag"
+import {useRouter} from "next/navigation";
 
 interface PoemCardProps {
-  title: string
-  author: string
-  dynasty?: string
-  content: string
-  tags?: string[]
-  url: string
+    title: string
+    author: string
+    dynasty?: string
+    content: string
+    tags?: string[]
+    url: string
 }
 
 export function PoemCard({
-  title,
-  author,
-  dynasty,
-  content,
-  tags,
-  url
-}: PoemCardProps) {
-  return (
-    <Card onClick={(e) => {
-      if (!(e.target as HTMLElement).closest('.no-navigate')) {
-        window.location.href = url;
-      }
-    }}>
-      <CardHeader>
-        <CardTitle className="text-[var(--theme-color)] font-bold text-xl">{title}</CardTitle>
-        <CardDescription>
-          {dynasty ? `【${dynasty}】` : ""}{author}
-        </CardDescription>
-      </CardHeader>
-      <CardContent>
-        <div className="line-clamp-4">{content}</div>
-      </CardContent>
-      <CardFooter>
-        <div
-          className="flex gap-2 overflow-x-auto"
-          style={{
-            scrollbarWidth: "none",
-            msOverflowStyle: "none",
-          }}
-        >
-          {tags?.map(tag => (
-            <Tag key={tag} text={tag} />
-          ))}
-        </div>
-      </CardFooter>
-    </Card>
-  )
+                             title,
+                             author,
+                             dynasty,
+                             content,
+                             tags,
+                             url
+                         }: PoemCardProps) {
+    const router = useRouter()
+    return (
+        <Card onClick={(e) => {
+            if (!(e.target as HTMLElement).closest('.no-navigate')) {
+                router.push(url)
+            }
+        }}>
+            <CardHeader>
+                <CardTitle className="text-[var(--theme-color)] font-bold text-xl">{title}</CardTitle>
+                <CardDescription>
+                    {dynasty ? `【${dynasty}】` : ""}{author}
+                </CardDescription>
+            </CardHeader>
+            <CardContent>
+                <div className="line-clamp-4">{content}</div>
+            </CardContent>
+            <CardFooter>
+                <div
+                    className="flex gap-2 overflow-x-auto"
+                    style={{
+                        scrollbarWidth: "none",
+                        msOverflowStyle: "none",
+                    }}
+                >
+                    {tags?.map(tag => (
+                        <Tag key={tag} text={tag}/>
+                    ))}
+                </div>
+            </CardFooter>
+        </Card>
+    )
 }
 
 export function PoemTinyCard({
-  title
-}:
-  {
-    title: string
-  }) {
-  return (
-    <div
-      className="
+                                 title
+                             }:
+                             {
+                                 title: string
+                             }) {
+    return (
+        <div
+            className="
         p-4 rounded-md border
         transition-all duration-300 ease-in-out 
         cursor-pointer no-underline
         hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--primary-color)]
       "
-    >
-      <CardTitle className="text-primary">{title}</CardTitle>
-    </div>
-  )
+        >
+            <CardTitle className="text-primary">{title}</CardTitle>
+        </div>
+    )
 }
