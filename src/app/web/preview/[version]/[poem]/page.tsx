@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Params) {
 
 export default async function PoemPreviewPage({ params }: Params) {
   const { version, poem } = await params;
-  const decodedPoem = decodeURIComponent(poem);
+  // const decodedPoem = decodeURIComponent(poem);
   
   // 参数有效性验证
   if (!version || !poem) {
