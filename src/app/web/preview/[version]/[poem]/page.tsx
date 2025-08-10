@@ -45,7 +45,7 @@ export default async function PoemPreviewPage({ params }: Params) {
     const poemData = JSON.parse(readFileSync(filePath, 'utf-8'));
     return (
       <MemorizeContextProvider>
-        <PoemPreview data={{...poemData, mode: version === 'junior' ? 'poem' : 'paragraph'}} />
+        <PoemPreview data={{...poemData}} />
       </MemorizeContextProvider>
     );
   } catch (error) {
