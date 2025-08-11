@@ -16,21 +16,21 @@ export function Outline({ content, activeId, setActiveId }: {
     activeId?: number,
     setActiveId?: React.Dispatch<React.SetStateAction<number>>
 }) {
-    if (!setActiveId) {
-        [activeId, setActiveId] = useState(content.id);
-    }
+    const [internalActiveId, internalSetActiveId] = useState(content.id);
+    const currentActiveId = setActiveId ? activeId : internalActiveId;
+    const currentSetActiveId = setActiveId ? setActiveId : internalSetActiveId;
     let chs = (<></>);
     if (content.children) {
         chs = (
             <div className="pl-4">
                 {content.children.map((ch, index) => (
-                    <Outline key={index} content={ch} activeId={activeId} setActiveId={setActiveId} />
+                    <Outline key={index} content={ch} activeId={currentActiveId} setActiveId={currentSetActiveId} />
                 ))}
             </div>
         );
     }
     return (<>
-        <p className={`${activeId == content.id ? "" : "text-primary"} cursor-pointer`} onClick={() => { setActiveId(content.id) }}>
+        <p className={`${currentActiveId == content.id ? "" : "text-primary"} cursor-pointer`} onClick={() => { currentSetActiveId(content.id) }}>
             {content.title}
         </p>
         {chs}

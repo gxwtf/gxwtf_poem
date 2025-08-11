@@ -41,7 +41,7 @@ export function Char({
         if ("。，、；：？！“”‘’（）【】《》…—·～".includes(data.char))setMemorizeMode(CharMode.Read);
         else if (!isNaN(memorize))setMemorizeMode(Math.random() < memorize ? CharMode.Memorize : CharMode.Read);
         else setMemorizeMode(CharMode.Read);
-    }, [memorize]);
+    }, [memorize, data.char]);
 
     // useEffect(() => {
     //     console.log('ShowNotes:', showNotes);

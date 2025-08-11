@@ -35,7 +35,7 @@ const data = {
   user: {
     name: "小广",
     email: "gxwtf@gxwtf.cn",
-    avatar: "https://test.gxwtf.cn/gytb.png",
+    avatar: "https://gxwtf.cn/gytb.png",
   },
   navMain: [
     {
@@ -48,8 +48,8 @@ const data = {
           url: "/web/overview",
         },
         {
-          title: "预览(Example)",
-          url: "/web/preview",
+          title: "预览",
+          url: "#",
         },
         {
           title: "知识梳理(Example)",
@@ -126,12 +126,12 @@ const data = {
   navSecondary: [
     {
       title: "帮助",
-      url: "#",
+      url: "https://github.com/gxwtf/gxwtf-poem-react/blob/main/README.md",
       icon: LifeBuoy,
     },
     {
       title: "反馈",
-      url: "#",
+      url: "https://github.com/gxwtf/gxwtf-poem-react/issues",
       icon: Send,
     },
   ],
@@ -153,7 +153,7 @@ const data = {
     },
     {
       name: "行万里路",
-      url: "https://op.gxwtf.cn/projects/gxwtf-tools/",
+      url: "https://github.gxwtf.cn/",
       icon: Map,
     },
   ],

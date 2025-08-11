@@ -12,13 +12,13 @@ import React, { createContext, useState } from "react";
 
 export const MemorizeContext = createContext({
     memorize: NaN,
-    setMemorize: (memorize: number) => {}
+    setMemorize: (_memorize: number) => {}
 });
 
 // 用法：const { memorize, setMemorize } = useContext(MemorizeContext);
 // 前提是你必须在父组件中使用了下文的MemorizeContextProvider
 
-export function MemorizeContextProvider(props: any) {
+export function MemorizeContextProvider(props: { children: React.ReactNode }) {
     const [memorize, setMemorize] = useState(NaN);
     return (
         <MemorizeContext.Provider value={{ memorize, setMemorize }}>
