@@ -17,7 +17,7 @@ enum CharMode{
     Read = 0,
     Memorize = 1,
     ShowAnswer = 2
-};
+}
 
 export function Char({
     data,
