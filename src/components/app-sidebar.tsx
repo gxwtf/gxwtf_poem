@@ -40,12 +40,12 @@ const data = {
   navMain: [
     {
       title: "古诗文",
-      url: "/web",
+      url: "/dashboard",
       icon: BookOpen,
       items: [
         {
           title: "概览",
-          url: "/web/overview",
+          url: "/overview",
         },
         {
           title: "预览",
@@ -53,7 +53,7 @@ const data = {
         },
         {
           title: "知识梳理(Example)",
-          url: "/web/comb",
+          url: "/comb",
         },
         {
           title: "学习",
@@ -91,7 +91,7 @@ const data = {
         },
         {
           title: "简介(Example)",
-          url: "/web/apreview",
+          url: "/apreview",
         },
         {
           title: "文常学习",
@@ -170,7 +170,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <Link href="/web">
+              <Link href="/dashboard">
                 <div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
                   <Command className="size-4" />
                 </div>

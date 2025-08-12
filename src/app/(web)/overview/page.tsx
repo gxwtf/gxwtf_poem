@@ -28,7 +28,7 @@ export default function OverviewPage() {
   return (
     <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       {poems.map((poem, idx) => (
-        <PoemCard key={poem.title + idx} {...poem} url={`/web/preview/${version}/${poem.title}`}/>
+        <PoemCard key={poem.title + idx} {...poem} url={`/preview/${version}/${poem.title}`}/>
       ))}
     </div>
   )
