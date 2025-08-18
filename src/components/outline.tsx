@@ -1,38 +1,75 @@
 "use client"
-/**
- * @description generate a outline
- * @param {Array<any>} content content of outline, keys must be ["1","2","3",...]
- * @return {React.ReactElement} outline component
- */
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
+
 export type OutlineContent = {
     title: string,
-    id: number,
+    id: string,
     children?: Array<OutlineContent>
 };
-export function Outline({ content, activeId, setActiveId }: {
+
+/**
+ * recursive component to build an outline
+ * @param {Object} props
+ * @param {OutlineContent} [props.content] outline content
+ * @param {string} [props.activeId] index of active section
+ * @param {React.Dispatch<React.SetStateAction<string>>} [props.setActiveId]
+ * @returns outline component
+ */
+function BasicOutline({ content, activeId, setActiveId }: {
     content: OutlineContent
-    activeId?: number,
-    setActiveId?: React.Dispatch<React.SetStateAction<number>>
+    activeId: string,
+    setActiveId: React.Dispatch<React.SetStateAction<string>>
 }) {
-    const [internalActiveId, internalSetActiveId] = useState(content.id);
-    const currentActiveId = setActiveId ? activeId : internalActiveId;
-    const currentSetActiveId = setActiveId ? setActiveId : internalSetActiveId;
+    const router = useRouter();
     let chs = (<></>);
     if (content.children) {
         chs = (
-            <div className="pl-4">
+            <div className="pl-4 flex flex-col">
                 {content.children.map((ch, index) => (
-                    <Outline key={index} content={ch} activeId={currentActiveId} setActiveId={currentSetActiveId} />
+                    <BasicOutline key={index} content={ch} activeId={activeId} setActiveId={setActiveId} />
                 ))}
             </div>
         );
     }
     return (<>
-        <p className={`${currentActiveId == content.id ? "" : "text-primary"} cursor-pointer`} onClick={() => { currentSetActiveId(content.id) }}>
+        <Link className={`${activeId == content.id ? "" : "text-primary"} cursor-pointer`}
+            href={"#" + content.id}
+        >
             {content.title}
-        </p>
+        </Link>
         {chs}
     </>);
+}
+
+/**
+ * outline component
+ * @param {Object} props
+ * @param {OutlineContent} [props.content] content of outline
+ * @return {React.JSX.Element} outline component
+ */
+export function Outline({ content }: {
+    content: OutlineContent
+}): React.JSX.Element {
+    const [activeId, setActiveId] = useState<string>(content.id);
+    const pathname = usePathname();
+    const searchParams = useSearchParams();
+
+    function calcActiveId() {
+        if (window.location.hash) {
+            setActiveId(window.location.hash.substring(1));
+        }
+    }
+    useEffect(() => {
+        console.log("fuck");
+        calcActiveId();
+        window.addEventListener("hashchange", calcActiveId);
+    }, []);
+    useEffect(() => {
+        calcActiveId();
+    }, [pathname, searchParams]);
+
+    return (<BasicOutline content={content} activeId={activeId} setActiveId={setActiveId} />);
 }
