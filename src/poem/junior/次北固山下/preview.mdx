@@ -1,7 +1,7 @@
 import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
 import previewData from './preview.json';
-import {MemorizeContextProvider} from "@/components/poem-preview/memorize-context"
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context"
 
 export const mode = 'poem';
 
@@ -13,8 +13,8 @@ export const mode = 'poem';
 
 <MemorizeContextProvider>
   <PoemPreview 
-    mode={mode}
     data={{
+      mode: mode,
       preview: previewData.preview
     }}
   />
