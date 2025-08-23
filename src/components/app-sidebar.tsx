@@ -49,11 +49,11 @@ const data = {
         },
         {
           title: "预览",
-          url: "#",
+          url: "/poem-preview/junior/次北固山下",
         },
         {
-          title: "知识梳理(Example)",
-          url: "/comb",
+          title: "知识梳理",
+          url: "/comb/junior/次北固山下",
         },
         {
           title: "学习",
@@ -90,8 +90,8 @@ const data = {
           url: "#",
         },
         {
-          title: "简介(Example)",
-          url: "/apreview",
+          title: "简介",
+          url: "/author-preview/李白",
         },
         {
           title: "文常学习",
