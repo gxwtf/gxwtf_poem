@@ -4,11 +4,9 @@
 
 import { useState, useContext, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Meta } from "./meta"
 import { Paragraph, ParagraphData } from "./paragraph";
 import { Memorize } from "./memorize"; 
 import { MemorizeContext } from "./memorize-context";
-import { Section, SectionHeading, SectionContent } from "../section";
 
 function ControlButtons({
     showTranslation,
@@ -47,29 +45,19 @@ function ControlButtons({
     )
 }
 
-export interface PoemData {
-  title: string;
-  author: string;
-  dynasty?: string;
+export interface PreviewData {
   mode: "poem" | "paragraph";
-  content: ParagraphData[];
-  background?: string;
-  appreciation?: string;
+  preview: ParagraphData[];
 }
 
 export interface PoemPreviewProps {
-  data: PoemData;
+  data: PreviewData;
 }
 
 export function PoemPreview({ data }: PoemPreviewProps) {
   const { 
-    title,
-    author,
-    dynasty,
     mode,
-    content,
-    background,
-    appreciation
+    preview,
   } = data;
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
@@ -85,7 +73,6 @@ export function PoemPreview({ data }: PoemPreviewProps) {
     return (
         <>
             <div className="max-w-3xl mx-auto py-8">
-                <Meta title={title} author={author} dynasty={dynasty} />
                 <ControlButtons
                     showTranslation={showTranslation}
                     setShowTranslation={setShowTranslation}
@@ -95,7 +82,7 @@ export function PoemPreview({ data }: PoemPreviewProps) {
                     setShowNotes={setShowNotes}
                 />
                 <div className={mode === "poem" ? "text-center" : "text-left"}>
-                    {content.map((paragraph, pIdx) => (
+                    {preview.map((paragraph, pIdx) => (
                         <div key={pIdx} className={mode === "paragraph" ? "mt-8" : ""}>
                             <Paragraph
                                 para={paragraph}
@@ -108,15 +95,6 @@ export function PoemPreview({ data }: PoemPreviewProps) {
                     ))}
                 </div>
             </div>
-
-            <Section>
-                <SectionHeading val="写作背景" level={1} />
-                <SectionContent val={background || "暂无相关背景信息"} indent />
-            </Section>
-            <Section>
-                <SectionHeading val="内容赏析" level={1} />
-                <SectionContent val={appreciation || "暂无相关背景信息"} indent />
-            </Section>
         </>
     )
 }

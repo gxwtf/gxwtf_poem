@@ -73,9 +73,8 @@ const processPoem = (inputPath: string) => {
 
     // 生成预览文件
     const outputPath = path.join(
-        path.dirname(inputPath),
-        'preview',
-        `${encodeURIComponent(path.basename(inputPath, '.json'))}.json`
+        path.dirname(inputPath), // 直接在诗文目录下
+        'preview.json'
     );
 
     // 确保预览目录存在
@@ -83,8 +82,7 @@ const processPoem = (inputPath: string) => {
 
     // 添加文件写入操作
     fs.writeFileSync(outputPath, JSON.stringify({
-        ...rawData,
-        content: paragraphs
+        preview: paragraphs  // 移除了...rawData展开
     }, null, 2));
 };
 
@@ -92,7 +90,13 @@ const processPoem = (inputPath: string) => {
 const root = path.resolve(__dirname, '../src/poem');
 ['junior', 'senior'].forEach(version => {
     const versionDir = path.join(root, version);
-    fs.readdirSync(versionDir)
-        .filter(f => f.endsWith('.json') && !f.includes('overview'))
-        .forEach(f => processPoem(path.join(versionDir, f)));
+    fs.readdirSync(versionDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .forEach(dirent => {
+            const poemDir = path.join(versionDir, dirent.name);
+            const indexPath = path.join(poemDir, 'index.json');
+            if (fs.existsSync(indexPath)) {
+                processPoem(indexPath);
+            }
+        });
 });
