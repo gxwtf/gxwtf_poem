@@ -2,7 +2,6 @@
 
 "use client"
 
-import { Meta } from "./meta"
 import { Section, SectionHeading, TinySection } from "../section";
 import { PoemTinyCard } from "../poem-card";
 
@@ -23,8 +22,6 @@ export function AuthorPreview({
 }: PoemPreviewProps) {
     return (
         <>
-            <Meta name={name} avatar={avatar ? avatar : `https://gxwtf.cn/gytb.png`} dynasty={dynasty} />
-
             <TinySection>
                 {content || "暂无简介"}
             </TinySection>

@@ -7,8 +7,8 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 
-import {Tag} from "@/components/tag"
-import {useRouter} from "next/navigation";
+import { Tag } from "@/components/tag"
+import { useRouter } from "next/navigation";
 
 interface PoemCardProps {
     title: string
@@ -20,13 +20,13 @@ interface PoemCardProps {
 }
 
 export function PoemCard({
-                             title,
-                             author,
-                             dynasty,
-                             content,
-                             tags,
-                             url
-                         }: PoemCardProps) {
+    title,
+    author,
+    dynasty,
+    content,
+    tags,
+    url
+}: PoemCardProps) {
     const router = useRouter()
     return (
         <Card onClick={(e) => {
@@ -52,7 +52,7 @@ export function PoemCard({
                     }}
                 >
                     {tags?.map(tag => (
-                        <Tag key={tag} text={tag}/>
+                        <Tag key={tag} text={tag} />
                     ))}
                 </div>
             </CardFooter>
@@ -60,22 +60,3 @@ export function PoemCard({
     )
 }
 
-export function PoemTinyCard({
-                                 title
-                             }:
-                             {
-                                 title: string
-                             }) {
-    return (
-        <div
-            className="
-        p-4 rounded-md border
-        transition-all duration-300 ease-in-out 
-        cursor-pointer no-underline
-        hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--primary-color)]
-      "
-        >
-            <CardTitle className="text-primary">{title}</CardTitle>
-        </div>
-    )
-}
