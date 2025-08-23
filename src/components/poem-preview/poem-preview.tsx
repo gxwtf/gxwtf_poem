@@ -5,7 +5,7 @@
 import { useState, useContext, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Paragraph, ParagraphData } from "./paragraph";
-import { Memorize } from "./memorize"; 
+import { Memorize } from "./memorize";
 import { MemorizeContext } from "./memorize-context";
 
 function ControlButtons({
@@ -46,30 +46,30 @@ function ControlButtons({
 }
 
 export interface PreviewData {
-  mode: "poem" | "paragraph";
-  preview: ParagraphData[];
+    mode: "poem" | "paragraph";
+    preview: ParagraphData[];
 }
 
 export interface PoemPreviewProps {
-  data: PreviewData;
+    data: PreviewData;
 }
 
 export function PoemPreview({ data }: PoemPreviewProps) {
-  const { 
-    mode,
-    preview,
-  } = data;
+    const {
+        mode,
+        preview,
+    } = data;
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
     const [showNotes, setShowNotes] = useState(true)  // 默认显示注释
     const { memorize } = useContext(MemorizeContext);
 
     useEffect(() => {
-        console.log('XC',memorize);
-        if (isNaN(memorize))setShowNotes(true);
+        console.log('XC', memorize);
+        if (isNaN(memorize)) setShowNotes(true);
         else setShowNotes(false);
     }, [memorize]);
-    
+
     return (
         <>
             <div className="max-w-3xl mx-auto py-8">

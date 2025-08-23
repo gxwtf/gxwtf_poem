@@ -1,0 +1,29 @@
+import { Meta } from '@/components/meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import {MemorizeContextProvider} from "@/components/poem-preview/memorize-context"
+
+export const mode = 'paragraph';
+
+<Meta 
+  title="虞美人·春花秋月何时了"
+  author="李煜"
+  dynasty="五代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview 
+    mode={mode}
+    data={{
+      preview: previewData.preview
+    }}
+  />
+</MemorizeContextProvider>
+
+## 写作背景
+
+这里用Markdown编写诗歌的创作背景...
+
+## 作品赏析
+
+这里用Markdown编写诗歌的赏析内容...

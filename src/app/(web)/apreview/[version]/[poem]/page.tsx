@@ -27,9 +27,7 @@ export default async function Page({ params }: Params) {
     );
     
     return (
-      <article className="prose max-w-none">
         <PreviewMDX />
-      </article>
     );
   } catch (error) {
     console.error('MDX文件加载失败:', error);
