@@ -11,6 +11,7 @@ import axios from "axios";
 export async function GET(request: NextRequest) {
     const session = await getIronSession<SessionData>(await cookies(), sessionOptions);
     const url = new URL(request.url);
+    const host = request.headers.get('host');
     const queryParams = Object.fromEntries(url.searchParams.entries());
     const { token, back } = queryParams;
 
@@ -31,13 +32,13 @@ export async function GET(request: NextRequest) {
             session.version = session.grade >= 10 ? 'senior' : 'junior';
             await session.save();
 
-            return NextResponse.redirect(new URL(back, request.url), 302);
+            return NextResponse.redirect(new URL(back, 'http://'+host), 302);
         }
         else {
-            return NextResponse.redirect(new URL('/login?back='+back, request.url), 302);
+            return NextResponse.redirect(new URL('/login?back='+back, 'http://'+host), 302);
         }
     } catch (e) {
         console.error(e);
-        return NextResponse.redirect(new URL('/login?back='+back, request.url), 302);
+        return NextResponse.redirect(new URL('/login?back='+back, 'http://'+host), 302);
     }
 }
