@@ -44,7 +44,7 @@ export default async function Page({ params }: Params) {
                     <div className="flex-1 p-8">
                         <PreviewMDX />
                     </div>
-                    <aside className="w-64 p-6 border-l sticky top-20 h-screen overflow-auto">
+                    <aside className="hidden md:inline-block w-64 p-6 border-l sticky top-20 h-screen overflow-auto">
                         <TableOfContents toc={toc.items} />
                     </aside>
                 </div>
