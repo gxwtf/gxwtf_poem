@@ -25,7 +25,9 @@ export default async function Page({ params }: Params) {
         );
 
         return (
-            <PreviewMDX />
+            <div className="p-8">
+                <PreviewMDX />
+            </div>
         );
     } catch (error) {
         console.error('MDX文件加载失败:', error);
