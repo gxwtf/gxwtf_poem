@@ -1,25 +1,35 @@
 // src/mdx-components.tsx
 import type { MDXComponents } from 'mdx/types';
 import Image, { ImageProps } from 'next/image';
+import { generateIdFromText } from '@/lib/toc';
 
 const components = {
-	h1: ({ children }) => (
-		<h1 className="text-3xl font-bold text-[var(--theme-color)] text-center my-8">
-			{children}
-		</h1>
-	),
+	h1: ({ children }) => {
+		const id = generateIdFromText(children?.toString() || '');
+		return (
+			<h1 id={id} className="text-3xl font-bold text-[var(--theme-color)] text-center my-8">
+				{children}
+			</h1>
+		);
+	},
 
-	h2: ({ children }) => (
-		<h2 className="text-2xl font-bold text-[var(--theme-color)] my-6">
-			{children}
-		</h2>
-	),
+	h2: ({ children }) => {
+		const id = generateIdFromText(children?.toString() || '');
+		return (
+			<h2 id={id} className="text-2xl font-bold text-[var(--theme-color)] my-6">
+				{children}
+			</h2>
+		);
+	},
 
-	h3: ({ children }) => (
-		<h3 className="text-xl font-semibold text-[var(--theme-color)] my-4">
-			{children}
-		</h3>
-	),
+	h3: ({ children }) => {
+		const id = generateIdFromText(children?.toString() || '');
+		return (
+			<h3 id={id} className="text-xl font-semibold text-[var(--theme-color)] my-4">
+				{children}
+			</h3>
+		);
+	},
 
 	p: ({ children }) => (
 		<p className="text-primary text-lg leading-relaxed my-4">
