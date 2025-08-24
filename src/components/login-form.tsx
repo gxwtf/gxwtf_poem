@@ -7,12 +7,13 @@ import { Label } from "@/components/ui/label"
 import Link from "next/link"
 import Image from "next/image"
 import useSession from "@/lib/use-session"
-import { useSearchParams } from "next/navigation"
+import {useRouter, useSearchParams} from "next/navigation"
 
 export function LoginForm({
   className,
   ...props
 }: React.ComponentProps<"form">) {
+    const router = useRouter()
     const { session, login } = useSession()
   const searchParams = useSearchParams()
   const back = searchParams.get("back") || "/dashboard"
@@ -30,8 +31,7 @@ export function LoginForm({
             ...session
           },
         }).then(() => {
-          // 登录成功后重定向到back参数指定的页面
-          window.location.href = back
+            router.push(back)
         })
       }}
       method="POST"
