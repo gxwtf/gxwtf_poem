@@ -2,6 +2,11 @@ import { LoginForm } from "@/components/login-form"
 import Image from "next/image"
 import Link from "next/link"
 
+export const metadata = {
+    title: "登录 - 广学古诗文",
+    description: "用户登录页面",
+}
+
 export default function LoginPage() {
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
