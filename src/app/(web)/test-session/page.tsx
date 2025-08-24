@@ -7,7 +7,8 @@ import {SiteHeader} from "@/components/site-header";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "🛠 iron-session examples: Client components, route handlers and SWR",
+    title: "登录测试 - 广学古诗文",
+    description: "测试登录功能",
 };
 
 export default function AppRouterSWR() {
