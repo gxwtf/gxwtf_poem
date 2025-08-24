@@ -30,13 +30,9 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 import Link from "next/link";
+import useSession from "@/lib/use-session";
 
 const data = {
-  user: {
-    name: "小广",
-    email: "gxwtf@gxwtf.cn",
-    avatar: "https://gxwtf.cn/gytb.png",
-  },
   navMain: [
     {
       title: "古诗文",
@@ -126,12 +122,12 @@ const data = {
   navSecondary: [
     {
       title: "帮助",
-      url: "https://github.com/gxwtf/gxwtf-poem-react/blob/main/README.md",
+      url: "https://gxwtf.42web.io/docs/#/poem/",
       icon: LifeBuoy,
     },
     {
       title: "反馈",
-      url: "https://github.com/gxwtf/gxwtf-poem-react/issues",
+      url: "https://gxwtf.42web.io/docs/#/community/",
       icon: Send,
     },
   ],
@@ -161,6 +157,7 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { version } = useVersion();
+  const { session }= useSession();
   return (
     <Sidebar collapsible="icon"
       {...props}
@@ -192,7 +189,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={data.user} />
+          {session?.isLoggedIn && (
+              <NavUser user={{name: session?.username, email: session?.email, avatar: `https://gxwtf.cn/avatar?userId=${session?.userid}`}} />
+          )}
+          {!session?.isLoggedIn && (
+              <NavUser user={{name: "游客", email: "", avatar: "#"}} />
+          )}
       </SidebarFooter>
     </Sidebar>
   )
