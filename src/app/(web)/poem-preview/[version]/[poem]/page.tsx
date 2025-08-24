@@ -31,7 +31,6 @@ export default async function Page({ params }: Params) {
             `@/poem/${version}/${Poem}/preview.mdx`
         );
 
-        // 正确读取MDX文件的原始内容
         const poemPath = path.join(process.cwd(), 'src', 'poem', version, Poem, 'preview.mdx');
         const mdxContent = fs.readFileSync(poemPath, 'utf-8');
 

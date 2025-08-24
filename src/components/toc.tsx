@@ -27,7 +27,7 @@ export function TableOfContents({ toc }: TableOfContentsProps) {
     return (
         <div className="space-y-4">
             <h4 className="text-xl font-semibold text-foreground mb-4">目录</h4>
-            <ul className="flex flex-col space-y-4">
+            <ul className="flex flex-col">
                 {toc.map((item) => (
                     <TocNode
                         key={item.url}

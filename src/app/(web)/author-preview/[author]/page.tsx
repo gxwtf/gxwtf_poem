@@ -1,7 +1,12 @@
 // 作者介绍页面
 import { notFound } from 'next/navigation'
-import {SiteHeader} from "@/components/site-header";
+import { TableOfContents } from '@/components/toc'
+import { generateTableOfContents } from '@/lib/toc'
+import fs from 'fs'
+import path from 'path'
+import { SiteHeader } from "@/components/site-header";
 import React from "react";
+
 
 interface Params {
     params: {
@@ -26,11 +31,21 @@ export default async function Page({ params }: Params) {
             `@/author/${Author}/intro.mdx`
         );
 
+        const poemPath = path.join(process.cwd(), 'src', 'author', Author, 'intro.mdx');
+        const mdxContent = fs.readFileSync(poemPath, 'utf-8');
+
+        const toc = await generateTableOfContents(mdxContent);
+
         return (
             <>
-                <SiteHeader data={[{name: "作者", href: "/authors"}]} now={Author} />
-                <div className="p-8">
-                    <PreviewMDX />
+                <SiteHeader data={[{ name: "作者", href: "/authors" }]} now={Author} />
+                <div className="flex">
+                    <div className="flex-1 p-8">
+                        <PreviewMDX />
+                    </div>
+                    <aside className="hidden md:inline-block w-64 p-6 sticky top-20 h-screen overflow-auto">
+                        <TableOfContents toc={toc.items} />
+                    </aside>
                 </div>
             </>
         );
