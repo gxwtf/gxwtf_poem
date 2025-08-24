@@ -95,9 +95,6 @@ function TocNode({ item, level }: TocNodeProps) {
                     className={cn(
                         "text-sm transition-colors py-1 flex-1 text-primary hover:text-[var(--theme-color)]",
                         "break-words min-w-0",
-                        level === 1 && "pl-0",
-                        level === 2 && "pl-4",
-                        level === 3 && "pl-8",
                     )}
                     onClick={handleClick}
                 >
