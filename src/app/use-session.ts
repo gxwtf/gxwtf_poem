@@ -11,19 +11,25 @@ async function fetchJson<JSON = unknown>(
     input: RequestInfo,
     init?: RequestInit,
 ): Promise<JSON> {
-    return fetch(input, {
+    const response = await fetch(input, {
         headers: {
             accept: "application/json",
             "content-type": "application/json",
         },
         ...init,
-    }).then((res) => res.json());
+    });
+    
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    return response.json();
 }
 
-function doLogin(url: string, { arg }: { arg: string }) {
+function doLogin(url: string, { arg }: { arg: {username: string, password: string} }) {
     return fetchJson<SessionData>(url, {
         method: "POST",
-        body: JSON.stringify({ username: arg }),
+        body: JSON.stringify(arg),
     });
 }
 
@@ -49,8 +55,8 @@ export default function useSession() {
     );
 
     const { trigger: login } = useSWRMutation(sessionApiRoute, doLogin, {
-        // the login route already provides the updated information, no need to revalidate
-        revalidate: false,
+        // 登录失败时需要重新验证以恢复正确状态
+        revalidate: true,
     });
     const { trigger: logout } = useSWRMutation(sessionApiRoute, doLogout);
     const { trigger: increment } = useSWRMutation(sessionApiRoute, doIncrement);

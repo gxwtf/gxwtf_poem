@@ -49,10 +49,16 @@ function LoginForm() {
                 event.preventDefault();
                 const formData = new FormData(event.currentTarget);
                 const username = formData.get("username") as string;
-                login(username, {
+                const password = formData.get("password") as string;
+                login({username, password}, {
                     optimisticData: {
                         isLoggedIn: true,
                         username,
+                        email: "",
+                        userid: 0,
+                        admin: false,
+                        real_name: "",
+                        grade: 0,
                         counter: 0,
                     },
                 });
@@ -68,6 +74,20 @@ function LoginForm() {
                     className={css.input}
                     placeholder=""
                     defaultValue="Alison"
+                    required
+                    // for demo purposes, disabling autocomplete 1password here
+                    autoComplete="off"
+                    data-1p-ignore
+                />
+            </label>
+            <label className="block text-lg">
+                <span className={css.label}>Password</span>
+                <input
+                    type="password"
+                    name="password"
+                    className={css.input}
+                    placeholder=""
+                    defaultValue="123456"
                     required
                     // for demo purposes, disabling autocomplete 1password here
                     autoComplete="off"
