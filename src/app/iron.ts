@@ -6,21 +6,29 @@ export interface SessionData {
     username: string;
     isLoggedIn: boolean;
     counter: number;
+    email: string;
+    userid: number;
+    admin: boolean;
+    real_name: string;
+    grade: number;
 }
 
 export const defaultSession: SessionData = {
     username: "",
     isLoggedIn: false,
     counter: 0,
+    email: "",
+    userid: 0,
+    admin: false,
+    real_name: "",
+    grade: 0,
 };
 
 export const sessionOptions: SessionOptions = {
-    password: "complex_password_at_least_32_characters_long",
-    cookieName: "iron-examples-app-router-client-component-route-handler-swr",
+    password: process.env.SES_SECRET as string,
+    cookieName: "gxpoem_session",
     cookieOptions: {
-        // secure only works in `https` environments
-        // if your localhost is not on `https`, then use: `secure: process.env.NODE_ENV === "production"`
-        secure: true,
+        secure: process.env.NODE_ENV === "production",
     },
 };
 
