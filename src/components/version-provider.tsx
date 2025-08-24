@@ -58,7 +58,7 @@ export function VersionProvider({
     return () => {
       window.removeEventListener('versionSync', handleVersionSync);
     };
-  }, []);
+  });
   const [alert, setAlert] = useState<AlertState>({ // 新增alert状态
     visible: false,
     type: 'normal',
