@@ -122,7 +122,7 @@ export function NavUser({
                   <DropdownMenuItem
                       onClick={(e) => {
                           e.preventDefault()
-                          router.push('/test-session')
+                          router.push('/login?back=' + window.location.pathname)
                       }}
                   >
                       <LogIn />

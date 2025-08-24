@@ -29,6 +29,12 @@ const nextConfig: NextConfig = {
                 hostname: 'account.gxwtf.cn',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'ai.gxwtf.cn',
+                port: '',
+                pathname: '/**',
             }
         ],
     },
