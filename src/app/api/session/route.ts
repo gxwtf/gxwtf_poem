@@ -3,8 +3,8 @@
 import { NextRequest } from "next/server";
 import { cookies } from "next/headers";
 import { getIronSession } from "iron-session";
-import { defaultSession, sessionOptions } from "../../iron";
-import { sleep, SessionData } from "../../iron";
+import { defaultSession, sessionOptions } from "@/lib/iron";
+import { SessionData } from "@/lib/iron";
 import axios from "axios";
 
 // login
@@ -31,9 +31,13 @@ export async function POST(request: NextRequest) {
             session.email = res.data.userEmail;
             session.grade = 10;
             session.counter = 0;
+            session.version = session.grade >= 10 ? 'senior' : 'junior';
             await session.save();
 
-            return Response.json(session);
+            // 在响应头中添加版本信息，客户端可以在登录后同步到localStorage
+            const response = Response.json(session);
+            response.headers.set('X-Session-Version', session.version);
+            return response;
         }
         else {
             // 登录失败，不保存session，直接返回默认session

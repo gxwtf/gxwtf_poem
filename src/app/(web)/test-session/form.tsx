@@ -1,8 +1,8 @@
 "use client";
 
 import * as css from "./css";
-import useSession from "../../use-session";
-import { defaultSession } from "../../iron";
+import useSession from "@/lib/use-session";
+import { defaultSession } from "@/lib/iron";
 
 export function Form() {
     const { session, isLoading, increment } = useSession();
@@ -41,7 +41,7 @@ export function Form() {
 }
 
 function LoginForm() {
-    const { login } = useSession();
+    const { session, login } = useSession();
 
     return (
         <form
@@ -50,16 +50,9 @@ function LoginForm() {
                 const formData = new FormData(event.currentTarget);
                 const username = formData.get("username") as string;
                 const password = formData.get("password") as string;
-                login({username, password}, {
+                login({ username, password }, {
                     optimisticData: {
-                        isLoggedIn: true,
-                        username,
-                        email: "",
-                        userid: 0,
-                        admin: false,
-                        real_name: "",
-                        grade: 0,
-                        counter: 0,
+                        ...session
                     },
                 });
             }}
@@ -73,7 +66,7 @@ function LoginForm() {
                     name="username"
                     className={css.input}
                     placeholder=""
-                    defaultValue="Alison"
+                    defaultValue="小广"
                     required
                     // for demo purposes, disabling autocomplete 1password here
                     autoComplete="off"
@@ -87,7 +80,7 @@ function LoginForm() {
                     name="password"
                     className={css.input}
                     placeholder=""
-                    defaultValue="123456"
+                    defaultValue="gxwtf_2714"
                     required
                     // for demo purposes, disabling autocomplete 1password here
                     autoComplete="off"

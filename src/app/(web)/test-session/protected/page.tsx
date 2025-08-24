@@ -1,6 +1,6 @@
 "use client";
 
-import useSession from "../../../use-session";
+import useSession from "../../../../lib/use-session";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import * as css from "../css";

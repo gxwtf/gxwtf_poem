@@ -11,6 +11,7 @@ export interface SessionData {
     admin: boolean;
     real_name: string;
     grade: number;
+    version: string;
 }
 
 export const defaultSession: SessionData = {
@@ -22,6 +23,7 @@ export const defaultSession: SessionData = {
     admin: false,
     real_name: "",
     grade: 0,
+    version: "senior",
 };
 
 export const sessionOptions: SessionOptions = {
@@ -31,7 +33,3 @@ export const sessionOptions: SessionOptions = {
         secure: process.env.NODE_ENV === "production",
     },
 };
-
-export function sleep(ms: number) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-}
