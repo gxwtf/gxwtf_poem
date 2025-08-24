@@ -68,7 +68,9 @@ export function LoginForm({
             或者通过以下方式继续
           </span>
         </div>
-        <Button variant="outline" className="text-primary w-full">
+        <Button variant="outline" className="text-primary w-full" onClick={() => {
+            router.push(`/sso/login?system=${location.host}&back=${back}`)
+        }}>
           <Image src="https://ai.gxwtf.cn/favicon.ico" alt="广学账号" width={20} height={20} />
           使用广学账号登录
         </Button>
