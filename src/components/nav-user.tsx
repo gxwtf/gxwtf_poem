@@ -1,11 +1,11 @@
 "use client"
 
 import {
-  BadgeCheck,
-  Bell,
-  ChevronsUpDown,
-  CreditCard,
-  LogOut,
+    BadgeCheck,
+    Bell,
+    ChevronsUpDown,
+    CreditCard, LogIn,
+    LogOut,
 } from "lucide-react"
 
 import {
@@ -30,6 +30,7 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
+import {useRouter} from "next/navigation";
 
 export function NavUser({
   user,
@@ -40,8 +41,9 @@ export function NavUser({
     avatar: string
   }
 }) {
-  const { isMobile } = useSidebar()
-  const { logout } = useSession()
+    const router = useRouter()
+    const { isMobile } = useSidebar()
+    const { logout } = useSession()
 
   return (
     <SidebarMenu>
@@ -81,33 +83,52 @@ export function NavUser({
                 </div>
               </div>
             </DropdownMenuLabel>
-            <DropdownMenuSeparator />
-            <DropdownMenuGroup>
-              <DropdownMenuItem>
-                <BadgeCheck />
-                账号中心
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <CreditCard />
-                商店账单
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Bell />
-                通知中心
-              </DropdownMenuItem>
-            </DropdownMenuGroup>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem
-              onClick={(event) => {
-                event.preventDefault()
-                logout(null, {
-                  optimisticData: defaultSession,
-                })
-              }}
-            >
-              <LogOut />
-              登出
-            </DropdownMenuItem>
+              {user.avatar != "#" && (<>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuGroup>
+                      <DropdownMenuItem onClick={(e) => {
+                          e.preventDefault()
+                          router.push("https://gxwtf.cn/account")
+                      }}>
+                          <BadgeCheck />账号中心
+                      </DropdownMenuItem>
+                      <DropdownMenuItem onClick={(e) => {
+                          e.preventDefault()
+                          router.push("https://gxwtf.cn/shop/record")
+                      }}>
+                          <CreditCard />
+                          商店账单
+                      </DropdownMenuItem>
+                      <DropdownMenuItem>
+                          <Bell />
+                          通知中心
+                      </DropdownMenuItem>
+                  </DropdownMenuGroup>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem
+                      onClick={(e) => {
+                          e.preventDefault()
+                          logout(null, {
+                              optimisticData: defaultSession,
+                          })
+                      }}
+                  >
+                      <LogOut />
+                      登出
+                  </DropdownMenuItem>
+              </>)}
+              {user.avatar == "#" && (<>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem
+                      onClick={(e) => {
+                          e.preventDefault()
+                          router.push('/test-session')
+                      }}
+                  >
+                      <LogIn />
+                      登录
+                  </DropdownMenuItem>
+              </>)}
           </DropdownMenuContent>
         </DropdownMenu>
       </SidebarMenuItem>

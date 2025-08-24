@@ -157,7 +157,7 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { version } = useVersion();
-  const { session }= useSession();
+  const { session } = useSession();
   return (
     <Sidebar collapsible="icon"
       {...props}
