@@ -2,7 +2,6 @@
 import type { NextConfig } from "next";
 import createMDX from '@next/mdx';
 
-// 正确配置 MDX 选项
 const withMDX = createMDX({
     extension: /\.(md|mdx)$/,
     options: {
@@ -12,10 +11,25 @@ const withMDX = createMDX({
 
 const nextConfig: NextConfig = {
     images: {
-        domains: [
-            'guwen-1252396323.cos.ap-chengdu.myqcloud.com',
-            'gxwtf.cn',
-            'account.gxwtf.cn'
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'guwen-1252396323.cos.ap-chengdu.myqcloud.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'gxwtf.cn',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'account.gxwtf.cn',
+                port: '',
+                pathname: '/**',
+            }
         ],
     },
     pageExtensions: ['ts', 'tsx', 'md', 'mdx', 'js', 'jsx'],
