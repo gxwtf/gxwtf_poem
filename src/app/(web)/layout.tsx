@@ -1,7 +1,6 @@
 // 包含了一个侧边栏和一个顶部导航栏的layout
 
 import { AppSidebar } from "@/components/app-sidebar"
-import { SiteHeader } from "@/components/site-header"
 import {
     SidebarInset,
     SidebarProvider,

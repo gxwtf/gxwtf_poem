@@ -15,7 +15,7 @@ interface Params {
 }
 
 export async function generateMetadata({ params }: Params) {
-    const { version, poem } = await params;
+    const { poem } = await params;
     const Poem = decodeURIComponent(poem);
     return {
         title: `古诗文预览 - ${Poem}`,
