@@ -14,7 +14,7 @@ export function Meta({
     return (
         <div className="text-center">
             <h1 className="text-3xl font-bold">{title}</h1>
-            <div className="mt-6 text-lg text-gray-700">
+            <div className="mt-6 text-lg text-muted-foreground">
                 {dynasty ? `【${dynasty}】` : ""}{author}
             </div>
         </div>
