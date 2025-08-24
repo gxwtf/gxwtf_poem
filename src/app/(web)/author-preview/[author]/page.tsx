@@ -1,5 +1,7 @@
 // 作者介绍页面
 import { notFound } from 'next/navigation'
+import {SiteHeader} from "@/components/site-header";
+import React from "react";
 
 interface Params {
     params: {
@@ -25,9 +27,12 @@ export default async function Page({ params }: Params) {
         );
 
         return (
-            <div className="p-8">
-                <PreviewMDX />
-            </div>
+            <>
+                <SiteHeader data={[{name: "作者", href: "/authors"}]} now={Author} />
+                <div className="p-8">
+                    <PreviewMDX />
+                </div>
+            </>
         );
     } catch (error) {
         console.error('MDX文件加载失败:', error);

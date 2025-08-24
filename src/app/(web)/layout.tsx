@@ -14,16 +14,11 @@ export default function SidebarLayout({
     children: React.ReactNode
 }) {
     return (
-        <div className="[--header-height:calc(--spacing(14))]">
-            <SidebarProvider className="flex flex-col">
-                <SiteHeader now="网页版" />
-                <div className="flex flex-1">
-                    <AppSidebar />
-                    <SidebarInset>
-                        {children}
-                    </SidebarInset>
-                </div>
-            </SidebarProvider>
-        </div>
+        <SidebarProvider className="[--header-height:calc(--spacing(12))]">
+            <AppSidebar />
+            <SidebarInset>
+                {children}
+            </SidebarInset>
+        </SidebarProvider>
     )
 }

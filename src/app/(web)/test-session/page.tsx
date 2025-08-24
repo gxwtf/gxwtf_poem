@@ -3,6 +3,8 @@ import * as css from "./css";
 
 import { Metadata } from "next";
 import { Form } from "./form";
+import {SiteHeader} from "@/components/site-header";
+import React from "react";
 
 export const metadata: Metadata = {
     title: "🛠 iron-session examples: Client components, route handlers and SWR",
@@ -10,6 +12,8 @@ export const metadata: Metadata = {
 
 export default function AppRouterSWR() {
     return (
+    <>
+        <SiteHeader now="登录测试" />
         <main className="p-10 space-y-5">
             <p className="italic max-w-xl">
                 <u>How to test</u>: Login and refresh the page to see iron-session in
@@ -41,6 +45,7 @@ export default function AppRouterSWR() {
 
             <HowItWorks />
         </main>
+    </>
     );
 }
 

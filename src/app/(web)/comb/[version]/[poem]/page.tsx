@@ -4,6 +4,8 @@ import { TableOfContents } from '@/components/toc'
 import { generateTableOfContents } from '@/lib/toc'
 import fs from 'fs'
 import path from 'path'
+import {SiteHeader} from "@/components/site-header";
+import React from "react";
 
 interface Params {
     params: {
@@ -36,14 +38,17 @@ export default async function Page({ params }: Params) {
         const toc = await generateTableOfContents(mdxContent);
 
         return (
-            <div className="flex">
-                <div className="flex-1 p-8">
-                    <PreviewMDX />
+            <>
+                <SiteHeader data={[{name: "古诗文", href: "/overview"}, {name: Poem, href: `/poem-preview/${version}/${Poem}`}]} now="知识梳理" />
+                <div className="flex">
+                    <div className="flex-1 p-8">
+                        <PreviewMDX />
+                    </div>
+                    <aside className="w-64 p-6 border-l sticky top-20 h-screen overflow-auto">
+                        <TableOfContents toc={toc.items} />
+                    </aside>
                 </div>
-                <aside className="w-64 p-6 border-l sticky top-20 h-screen overflow-auto">
-                    <TableOfContents toc={toc.items} />
-                </aside>
-            </div>
+            </>
         );
     } catch (error) {
         console.error('MDX文件加载失败:', error);

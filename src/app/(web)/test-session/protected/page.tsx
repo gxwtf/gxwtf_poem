@@ -1,13 +1,16 @@
 "use client";
 
 import useSession from "../../../../lib/use-session";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import * as css from "../css";
 import Link from "next/link";
+import {SiteHeader} from "@/components/site-header";
 
 export default function ProtectedClient() {
     return (
+    <>
+        <SiteHeader data={[{name: "登录测试", href: "/test-session"}]} now="受保护的页面" />
         <main className="p-10 space-y-5">
             <Content />
             <p>
@@ -19,6 +22,7 @@ export default function ProtectedClient() {
                 </Link>
             </p>
         </main>
+    </>
     );
 }
 

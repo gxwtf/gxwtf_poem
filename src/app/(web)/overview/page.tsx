@@ -1,9 +1,10 @@
 // 古诗文概览页面
 
 "use client"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { PoemCard } from "@/components/poem-card"
 import { useVersion } from "@/components/version-provider"
+import {SiteHeader} from "@/components/site-header";
 
 type PoemMeta = {
   title: string
@@ -26,10 +27,13 @@ export default function OverviewPage() {
 }, [version]);
 
   return (
-    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      {poems.map((poem, idx) => (
-        <PoemCard key={poem.title + idx} {...poem} url={`/poem-preview/${version}/${poem.title}`}/>
-      ))}
-    </div>
+      <>
+          <SiteHeader now="古诗文" />
+          <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {poems.map((poem, idx) => (
+                  <PoemCard key={poem.title + idx} {...poem} url={`/poem-preview/${version}/${poem.title}`}/>
+              ))}
+          </div>
+      </>
   )
 }

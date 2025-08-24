@@ -18,6 +18,7 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { VersionToggle } from "@/components/version-toggle";
 
 import React from 'react'
+import Link from "next/link";
 
 export type SiteHeaderData = {
   name: string
@@ -48,16 +49,16 @@ export function SiteHeader({
         <Breadcrumb className="hidden sm:block">
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="/">
-                广学古诗文
+              <BreadcrumbLink asChild>
+                  <Link href="/">广学古诗文</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             {data?.map((cur) => (
               <React.Fragment key={cur.name}>
                 <BreadcrumbItem>
-                  <BreadcrumbLink href={cur.href}>
-                    {cur.name}
+                  <BreadcrumbLink asChild>
+                      <Link href={cur.href}>{cur.name}</Link>
                   </BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />
