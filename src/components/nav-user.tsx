@@ -13,6 +13,8 @@ import {
   AvatarFallback,
   AvatarImage,
 } from "@/components/ui/avatar"
+import useSession from "@/lib/use-session"
+import { defaultSession } from "@/lib/iron"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -39,6 +41,7 @@ export function NavUser({
   }
 }) {
   const { isMobile } = useSidebar()
+  const { logout } = useSession()
 
   return (
     <SidebarMenu>
@@ -51,7 +54,7 @@ export function NavUser({
             >
               <Avatar className="h-8 w-8 rounded-lg">
                 <AvatarImage src={user.avatar} alt={user.name} />
-                <AvatarFallback className="rounded-lg">CN</AvatarFallback>
+                <AvatarFallback className="rounded-lg">广</AvatarFallback>
               </Avatar>
               <div className="grid flex-1 text-left text-sm leading-tight">
                 <span className="truncate font-medium">{user.name}</span>
@@ -94,7 +97,14 @@ export function NavUser({
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
-            <DropdownMenuItem>
+            <DropdownMenuItem
+              onClick={(event) => {
+                event.preventDefault()
+                logout(null, {
+                  optimisticData: defaultSession,
+                })
+              }}
+            >
               <LogOut />
               登出
             </DropdownMenuItem>
