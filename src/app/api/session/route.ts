@@ -41,7 +41,7 @@ export async function GET() {
     // simulate looking up the user in db
     await sleep(250);
 
-    if (session.isLoggedIn !== true) {
+    if (!session.isLoggedIn) {
         return Response.json(defaultSession);
     }
 
