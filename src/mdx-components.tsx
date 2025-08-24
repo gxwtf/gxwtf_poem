@@ -4,53 +4,51 @@ import Image, { ImageProps } from 'next/image';
 
 const components = {
 	h1: ({ children }) => (
-		<h1 className="text-3xl font-bold text-[var(--theme-color)] text-center mt-10 mb-8">
+		<h1 className="text-3xl font-bold text-[var(--theme-color)] text-center my-8">
 			{children}
 		</h1>
 	),
 
 	h2: ({ children }) => (
-		<h2 className="text-2xl font-bold text-[var(--theme-color)] mt-8 mb-6">
+		<h2 className="text-2xl font-bold text-[var(--theme-color)] my-6">
 			{children}
 		</h2>
 	),
 
 	h3: ({ children }) => (
-		<h3 className="text-xl font-semibold text-[var(--theme-color)] mt-6 mb-4">
+		<h3 className="text-xl font-semibold text-[var(--theme-color)] my-4">
 			{children}
 		</h3>
 	),
 
 	p: ({ children }) => (
-		<p className="text-primary text-lg leading-relaxed mb-4">
+		<p className="text-primary text-lg leading-relaxed my-4">
 			{children}
 		</p>
 	),
 
 	strong: ({ children }) => (
-		<strong className="font-bold text-[var(--theme-color)]">
+		<strong className="text-[var(--theme-color)]">
 			{children}
 		</strong>
 	),
 
-	// 斜体文本
 	em: ({ children }) => (
-		<em className="italic text-[var(--theme-color)]">
+		<em className="text-[var(--theme-color)]">
 			{children}
 		</em>
 	),
 
-	// 引用块 - 古诗文风格
+	del: ({ children }) => (
+		<del className="text-[var(--theme-color)]">
+			{children}
+		</del>
+	),
+
 	blockquote: ({ children }) => (
 		<blockquote className="text-primary text-lg border-l-4 border-[var(--theme-color)] p-4 mb-4 leading-relaxed [&>p]:my-0 [&>p:not(:last-child)]:mb-2">
 			{children}
 		</blockquote>
-	),
-
-	del: ({ children }) => (
-		<del className="text-gray-500 line-through">
-			{children}
-		</del>
 	),
 
 	// 无序列表
@@ -65,13 +63,6 @@ const components = {
 		<ol className="text-primary text-lg leading-relaxed list-decimal pl-8 mb-4">
 			{children}
 		</ol>
-	),
-
-	// 列表项
-	li: ({ children }) => (
-		<li className="pl-2 mb-1">
-			{children}
-		</li>
 	),
 
 	// 链接
@@ -110,6 +101,34 @@ const components = {
 	// 水平分割线
 	hr: () => (
 		<hr className="my-8 border-t border-[var(--theme-color)]" />
+	),
+
+	// 表格
+	table: ({ children }) => (
+		<table className="min-w-full my-6 border-collapse">
+			{children}
+		</table>
+	),
+
+	// 表格行
+	tr: ({ children }) => (
+		<tr className="border-b border-[var(--border)]">
+			{children}
+		</tr>
+	),
+
+	// 表头单元格
+	th: ({ children }) => (
+		<th className="text-xl py-4 text-center font-bold text-[var(--theme-color)]">
+			{children}
+		</th>
+	),
+
+	// 表格单元格
+	td: ({ children }) => (
+		<td className="text-lg py-4 text-center text-primary">
+			{children}
+		</td>
 	),
 } satisfies MDXComponents;
 
