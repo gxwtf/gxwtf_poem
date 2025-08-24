@@ -77,7 +77,7 @@ export function Char({
 
     if (memorizeMode !== CharMode.Memorize) return (
         <div
-            className={`inline-block justify-center ${memorizeMode === CharMode.Read ? "text-primary" : null} pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
+            className={`inline-block justify-center ${memorizeMode === CharMode.Read ? "text-primary" : "text-[var(--theme-color)]"} pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >

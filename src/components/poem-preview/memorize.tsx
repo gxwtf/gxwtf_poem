@@ -66,7 +66,7 @@ export function Memorize() {
     return (
         <>
             <Button variant="destructive" onClick={quitMemorizeMode} style={{
-                backgroundColor: 'var(--foreground)'
+                backgroundColor: 'var(--theme-color)'
             }}>结束背诵</Button>
         </>
     )
