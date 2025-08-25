@@ -37,7 +37,7 @@ export function PoemCard({
             }
         }}>
             <CardHeader>
-                <CardTitle className="text-[var(--theme-color)] font-bold text-xl">{title}</CardTitle>
+                <CardTitle className="text-[var(--theme-color)] font-bold text-xl cursor-pointer">{title}</CardTitle>
                 <CardDescription>
                     {dynasty ? `【${dynasty}】` : ""}
                     <Link
@@ -53,15 +53,9 @@ export function PoemCard({
             <CardContent>
                 <div className="line-clamp-4">{content}</div>
             </CardContent>
-            <CardFooter>
-                <div
-                    className="flex gap-2 overflow-x-auto"
-                    style={{
-                        scrollbarWidth: "none",
-                        msOverflowStyle: "none",
-                    }}
-                >
-                    {tags?.map(tag => (
+            <CardFooter className="mt-auto">
+                <div className="flex gap-2 overflow-x-hidden">
+                    {tags?.slice(0, 3).map(tag => (
                         <Tag key={tag} text={tag} />
                     ))}
                 </div>
