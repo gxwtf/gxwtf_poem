@@ -2,6 +2,8 @@
 
 "use client"
 
+import Link from "next/link"
+
 export function Meta({
     title,
     author,
@@ -15,7 +17,15 @@ export function Meta({
         <div className="text-center">
             <h1 className="text-3xl font-bold">{title}</h1>
             <div className="mt-6 text-lg text-muted-foreground">
-                {dynasty ? `【${dynasty}】` : ""}{author}
+                {dynasty ? `【${dynasty}】` : ""}
+                <Link
+                    href={`/author-preview/${author}`}
+                    className="hover:underline underline-offset-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {author}
+                </Link>
             </div>
         </div>
     )

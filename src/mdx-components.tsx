@@ -79,7 +79,7 @@ const components = {
 	a: ({ href, children }) => (
 		<a
 			href={href}
-			className="text-[var(--theme-color)] hover:underline underline-offset-2"
+			className="text-[var(--theme-color)] hover:underline underline-offset-4"
 			target="_blank"
 			rel="noopener noreferrer"
 		>

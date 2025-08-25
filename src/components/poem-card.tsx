@@ -9,6 +9,8 @@ import {
 
 import { Tag } from "@/components/tag"
 import { useRouter } from "next/navigation";
+import Link from "next/link"
+
 
 interface PoemCardProps {
     title: string
@@ -37,7 +39,15 @@ export function PoemCard({
             <CardHeader>
                 <CardTitle className="text-[var(--theme-color)] font-bold text-xl">{title}</CardTitle>
                 <CardDescription>
-                    {dynasty ? `【${dynasty}】` : ""}{author}
+                    {dynasty ? `【${dynasty}】` : ""}
+                    <Link
+                        href={`/author-preview/${author}`}
+                        className="hover:underline underline-offset-4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {author}
+                    </Link>
                 </CardDescription>
             </CardHeader>
             <CardContent>

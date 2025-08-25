@@ -49,7 +49,6 @@ export default async function Page(props: Props) {
             </>
         );
     } catch (error) {
-        console.error('MDX文件加载失败:', error);
         notFound();
     }
 }
