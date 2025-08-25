@@ -2,6 +2,7 @@
 import type { MDXComponents } from 'mdx/types';
 import Image from 'next/image';
 import { generateIdFromText } from '@/lib/toc';
+import Link from 'next/link';
 
 const components = {
 	h1: ({ children }) => {
@@ -61,6 +62,7 @@ const components = {
 		</blockquote>
 	),
 
+
 	// 无序列表
 	ul: ({ children }) => (
 		<ul className="text-primary text-lg leading-relaxed list-disc pl-8 mb-4">
@@ -77,14 +79,14 @@ const components = {
 
 	// 链接
 	a: ({ href, children }) => (
-		<a
+		<Link
 			href={href}
 			className="text-[var(--theme-color)] hover:underline underline-offset-4"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
 			{children}
-		</a>
+		</Link>
 	),
 
 	// 图片
