@@ -2,6 +2,8 @@ import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
 import previewData from './preview.json';
 import {MemorizeContextProvider} from "@/components/poem-preview/memorize-context"
+import indexData from "./index.json"
+import { Tags } from "@/components/tag"
 
 export const mode = 'paragraph';
 
@@ -19,6 +21,10 @@ export const mode = 'paragraph';
     }}
   />
 </MemorizeContextProvider>
+
+## 标签
+
+<Tags tags={indexData.tags} className="my-4" />
 
 ## 写作背景
 
