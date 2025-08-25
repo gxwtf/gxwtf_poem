@@ -23,7 +23,13 @@ for (const version of versions) {
         .map(s => s.replace(/["'`]/g, "").trim())
         .filter(Boolean)
 
-    const poems = []
+    const poems: {
+        title: string;
+        author: string;
+        dynasty: string;
+        content: string;
+        tags: string[];
+    }[] = []
     for (const title of orderArr) {
         const poemDir = path.join(dir, title);
         const jsonPath = path.join(poemDir, 'index.json');

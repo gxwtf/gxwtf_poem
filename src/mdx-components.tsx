@@ -1,6 +1,6 @@
 // src/mdx-components.tsx
 import type { MDXComponents } from 'mdx/types';
-import Image, { ImageProps } from 'next/image';
+import Image from 'next/image';
 import { generateIdFromText } from '@/lib/toc';
 
 const components = {
@@ -89,21 +89,15 @@ const components = {
 
 	// 图片
 	img: (props) => {
-		if (props.src.startsWith('http')) {
-			return (
-				<img
-					src={props.src}
-					alt={props.alt}
-					className="max-w-full h-auto"
-				/>
-			);
-		}
-
 		return (
 			<Image
 				sizes="100vw"
+                width={1920}
+                height={1080}
 				style={{ width: '100%', height: 'auto' }}
-				{...(props as ImageProps)}
+                src={props.src}
+                alt={props.alt}
+                className="max-w-full h-auto"
 			/>
 		);
 	},

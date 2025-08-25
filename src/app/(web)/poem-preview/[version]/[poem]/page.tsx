@@ -7,15 +7,13 @@ import path from 'path'
 import { SiteHeader } from "@/components/site-header";
 import React from "react";
 
-interface Params {
-    params: {
-        version: 'junior' | 'senior';
-        poem: string;
-    };
+interface Props {
+    params: Promise<{ version: 'junior' | 'senior'; poem: string; }>;
+    searchParams: Promise<{ sortOrder: string }>;
 }
 
-export async function generateMetadata({ params }: Params) {
-    const { poem } = await params;
+export async function generateMetadata(props: Props) {
+    const { poem } = await props.params;
     const Poem = decodeURIComponent(poem);
     return {
         title: `古诗文预览 - ${Poem}`,
@@ -23,8 +21,8 @@ export async function generateMetadata({ params }: Params) {
     };
 }
 
-export default async function Page({ params }: Params) {
-    const { version, poem } = await params;
+export default async function Page(props: Props) {
+    const { version, poem } = await props.params;
     const Poem = decodeURIComponent(poem);
     try {
         const { default: PreviewMDX } = await import(

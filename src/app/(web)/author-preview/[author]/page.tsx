@@ -7,15 +7,13 @@ import path from 'path'
 import { SiteHeader } from "@/components/site-header";
 import React from "react";
 
-
-interface Params {
-    params: {
-        author: string;
-    };
+interface Props {
+    params: Promise<{ author: string }>;
+    searchParams: Promise<{ sortOrder: string }>;
 }
 
-export async function generateMetadata({ params }: Params) {
-    const { author } = await params;
+export async function generateMetadata(props: Props) {
+    const { author } = await props.params;
     const Author = decodeURIComponent(author);
     return {
         title: `作者介绍 - ${Author}`,
@@ -23,8 +21,8 @@ export async function generateMetadata({ params }: Params) {
     };
 }
 
-export default async function Page({ params }: Params) {
-    const { author } = await params;
+export default async function Page(props: Props) {
+    const { author } = await props.params;
     const Author = decodeURIComponent(author);
     try {
         const { default: PreviewMDX } = await import(

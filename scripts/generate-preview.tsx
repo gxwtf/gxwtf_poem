@@ -13,7 +13,10 @@ const processPoem = (inputPath: string) => {
             paragraph: para.split('#').map((sentence: string, sentenceIndex: number) => {
                 // 记录句子起始位置
                 const sentenceStartIndex = globalIndex;
-                const chars = [];
+                const chars: {
+                    char: string;
+                    pinyin: string;
+                }[] = [];
 
                 // 预处理拼音数据
                 const pinyinArray = rawData.pinyin

@@ -25,11 +25,9 @@ type AlertState = {
 export const VersionContext = createContext<{
   version: 'junior' | 'senior';
   toggleVersion: () => void;
-  syncVersion: () => void;
 }>({
   version: 'senior',
   toggleVersion: () => {},
-  syncVersion: () => {},
 });
 
 export function VersionProvider({
@@ -49,7 +47,9 @@ export function VersionProvider({
       const { version } = event.detail;
       if (version === 'junior' || version === 'senior') {
         setVersion(version);
-        syncVersion();
+        if (typeof window !== 'undefined') {
+            localStorage.setItem('poemVersion', version);
+        }
       }
     };
     
@@ -58,7 +58,8 @@ export function VersionProvider({
     return () => {
       window.removeEventListener('versionSync', handleVersionSync);
     };
-  });
+  }, []);
+
   const [alert, setAlert] = useState<AlertState>({ // 新增alert状态
     visible: false,
     type: 'normal',
@@ -87,14 +88,8 @@ export function VersionProvider({
     }
   };
 
-  const syncVersion = () => {
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('poemVersion', version);
-    }
-  };
-
   return (
-    <VersionContext.Provider value={{ version, toggleVersion, syncVersion }}>
+    <VersionContext.Provider value={{ version, toggleVersion }}>
       {children}
       <CustomAlert
         type={alert.type}

@@ -12,7 +12,7 @@ import React, { createContext, useState } from "react";
 
 export const MemorizeContext = createContext({
     memorize: NaN,
-    setMemorize: (_memorize: number) => {}
+    setMemorize: (memorize: number) => { if(memorize){} }
 });
 
 // 用法：const { memorize, setMemorize } = useContext(MemorizeContext);

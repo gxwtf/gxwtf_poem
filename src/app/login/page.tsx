@@ -1,6 +1,7 @@
 import { LoginForm } from "@/components/login-form"
 import Image from "next/image"
 import Link from "next/link"
+import { Suspense } from 'react'
 
 export const metadata = {
     title: "登录 - 广学古诗文",
@@ -19,7 +20,9 @@ export default function LoginPage() {
         </div>
         <div className="flex flex-1 items-center justify-center">
           <div className="w-full max-w-xs">
-            <LoginForm />
+              <Suspense>
+                  <LoginForm />
+              </Suspense>
           </div>
         </div>
       </div>
