@@ -42,7 +42,7 @@ export function PoemCard({
                     {dynasty ? `【${dynasty}】` : ""}
                     <Link
                         href={`/author-preview/${author}`}
-                        className="hover:underline underline-offset-4"
+                        className="hover:underline underline-offset-4 no-navigate"
                     >
                         {author}
                     </Link>
