@@ -40,9 +40,6 @@ const nextConfig: NextConfig = {
         ],
     },
     pageExtensions: ['ts', 'tsx', 'md', 'mdx', 'js', 'jsx'],
-    turbopack: {
-        root: path.join(__dirname),
-    },
 };
 
 export default withMDX(nextConfig);
