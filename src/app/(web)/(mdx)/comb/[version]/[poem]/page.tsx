@@ -36,7 +36,7 @@ export default async function Page(props: Props) {
 
         return (
             <>
-                <SiteHeader data={[{ name: "古诗文", href: "/overview" }, { name: Poem, href: `/poem-preview/${version}/${Poem}` }]} now="知识梳理" />
+                <SiteHeader data={[{ name: "古诗文", href: "/overview" }, { name: Poem, href: `/poem/${version}/${Poem}` }]} now="知识梳理" />
                 <div className="flex">
                     <div className="flex-1 p-8">
                         <PreviewMDX />

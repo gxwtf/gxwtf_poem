@@ -45,7 +45,7 @@ const data = {
         },
         {
           title: "预览",
-          url: "/poem-preview/junior/次北固山下",
+          url: "/poem/junior/次北固山下",
         },
         {
           title: "知识梳理",
@@ -87,7 +87,7 @@ const data = {
         },
         {
           title: "简介",
-          url: "/author-preview/李白",
+          url: "/author/李白",
         },
         {
           title: "文常学习",

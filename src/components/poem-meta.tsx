@@ -19,7 +19,7 @@ export function Meta({
             <div className="mt-6 text-lg text-muted-foreground">
                 {dynasty ? `【${dynasty}】` : ""}
                 <Link
-                    href={`/author-preview/${author}`}
+                    href={`/author/${author}`}
                     className="hover:underline underline-offset-4"
                 >
                     {author}

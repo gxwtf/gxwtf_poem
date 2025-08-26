@@ -22,6 +22,7 @@ export async function generateMetadata(props: Props) {
 
 export default async function Page(props: Props) {
     const { version, poem } = await props.params;
+    console.log(props);
     const Poem = decodeURIComponent(poem);
     try {
         const { default: PreviewMDX } = await import(
@@ -47,6 +48,7 @@ export default async function Page(props: Props) {
             </>
         );
     } catch (error) {
+        console.log(version, Poem);
         notFound();
     }
 }

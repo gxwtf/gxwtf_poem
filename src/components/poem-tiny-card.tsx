@@ -16,16 +16,16 @@ export function PoemTinyCard({
     return (
         <div
             className="
+        text-primary
         p-4 rounded-md border
         transition-all duration-300 ease-in-out 
         cursor-pointer no-underline
-        hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--primary-color)]
+        hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--theme-color)]
       "
         >
-            <CardTitle className="text-primary">
+            <CardTitle>
                 <Link
-                    href={`/poem-preview/${version}/${title}`}
-                    className="hover:text-[var(--theme-color)]"
+                    href={`/poem/${version}/${title}`}
                 >
                     {title}
                 </Link>
