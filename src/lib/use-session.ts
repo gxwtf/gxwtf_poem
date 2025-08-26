@@ -1,5 +1,7 @@
 // Iron Session Client Component with SWR
 
+"use client"
+
 import useSWR from "swr";
 import { SessionData, defaultSession } from "./iron";
 import useSWRMutation from "swr/mutation";
