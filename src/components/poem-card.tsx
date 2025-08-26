@@ -43,8 +43,6 @@ export function PoemCard({
                     <Link
                         href={`/author-preview/${author}`}
                         className="hover:underline underline-offset-4"
-                        target="_blank"
-                        rel="noopener noreferrer"
                     >
                         {author}
                     </Link>

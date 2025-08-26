@@ -26,8 +26,6 @@ export function PoemTinyCard({
                 <Link
                     href={`/poem-preview/${version}/${title}`}
                     className="hover:text-[var(--theme-color)]"
-                    target="_blank"
-                    rel="noopener noreferrer"
                 >
                     {title}
                 </Link>
