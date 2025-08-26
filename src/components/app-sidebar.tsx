@@ -122,34 +122,34 @@ const data = {
   navSecondary: [
     {
       title: "帮助",
-      url: "https://gxwtf.42web.io/docs/#/poem/",
+      url: "https://docs.gxwtf.cn/",
       icon: LifeBuoy,
     },
     {
       title: "反馈",
-      url: "https://gxwtf.42web.io/docs/#/community/",
+      url: "https://docs.gxwtf.cn/#/community/",
       icon: Send,
     },
   ],
   projects: [
     {
       name: "前端设计",
-      url: "https://op.gxwtf.cn/projects/gxwtf-poem/",
+      url: "https://ui.shadcn.com/",
       icon: Frame,
     },
     {
       name: "后端开发",
-      url: "https://op.gxwtf.cn/projects/gxwtf-poem/",
+      url: "https://docs.gxwtf.cn/#/poem/",
       icon: SquareTerminal,
     },
     {
       name: "网站推广",
-      url: "https://op.gxwtf.cn/projects/gxwtf/",
+      url: "https://ad.weixin.qq.com/",
       icon: Megaphone,
     },
     {
       name: "行万里路",
-      url: "https://github.gxwtf.cn/",
+      url: "https://ctrip.com/",
       icon: Map,
     },
   ],
