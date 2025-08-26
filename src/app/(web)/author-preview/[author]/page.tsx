@@ -9,7 +9,6 @@ import React from "react";
 
 interface Props {
     params: Promise<{ author: string }>;
-    searchParams: Promise<{ sortOrder: string }>;
 }
 
 export async function generateMetadata(props: Props) {

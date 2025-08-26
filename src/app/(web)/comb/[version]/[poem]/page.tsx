@@ -9,7 +9,6 @@ import React from "react";
 
 interface Props {
     params: Promise<{ version: 'junior' | 'senior'; poem: string; }>;
-    searchParams: Promise<{ sortOrder: string }>;
 }
 
 export async function generateMetadata(props: Props) {
