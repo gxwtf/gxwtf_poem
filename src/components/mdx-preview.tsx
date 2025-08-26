@@ -21,17 +21,21 @@ export function MDXPreview({
     title
 }: MDXPreviewProps) {
     return (
-        <>
+        <div className="flex flex-col min-h-screen">
             <SiteHeader data={headerData} now={now} />
             {title && <h1 className="text-3xl font-bold text-center p-8">{title}</h1>}
-            <div className="flex">
+            <div className="flex flex-1">
                 <div className="flex-1 p-8">
                     {mdxContent}
                 </div>
-                <aside className="hidden md:inline-block w-64 p-6 sticky top-20 h-screen overflow-auto">
-                    <TableOfContents toc={toc.items} />
-                </aside>
+                {toc.items.length > 0 && (
+                    <aside className="hidden md:block w-64 p-6">
+                        <div className="sticky top-30">
+                            <TableOfContents toc={toc.items} />
+                        </div>
+                    </aside>
+                )}
             </div>
-        </>
-    )
+        </div>
+    );
 }

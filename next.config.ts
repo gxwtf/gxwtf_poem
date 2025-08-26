@@ -21,6 +21,12 @@ const nextConfig: NextConfig = {
             },
             {
                 protocol: 'https',
+                hostname: 'img.redocn.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
                 hostname: 'gxwtf.cn',
                 port: '',
                 pathname: '/**',

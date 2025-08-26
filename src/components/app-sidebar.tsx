@@ -78,12 +78,12 @@ const data = {
     },
     {
       title: "作者",
-      url: "#",
+      url: "/authors",
       icon: CircleUserRound,
       items: [
         {
           title: "概览",
-          url: "#",
+          url: "/authors",
         },
         {
           title: "简介",

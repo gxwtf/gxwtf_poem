@@ -3,10 +3,30 @@ import type { MDXComponents } from 'mdx/types';
 import Image from 'next/image';
 import { generateIdFromText } from '@/lib/toc';
 import Link from 'next/link';
+import React from 'react';
+
+// 用于跟踪渲染过程中已使用的ID
+const existingIds = new Set<string>();
+
+// 辅助函数：从React子元素中提取纯文本
+function extractTextFromChildren(children: React.ReactNode): string {
+    if (typeof children === 'string') {
+        return children;
+    }
+    if (React.isValidElement(children)) {
+        const element = children as React.ReactElement<any>;
+        return extractTextFromChildren(element.props.children);
+    }
+    if (Array.isArray(children)) {
+        return children.map(child => extractTextFromChildren(child)).join('');
+    }
+    return '';
+}
 
 const components = {
 	h1: ({ children }) => {
-		const id = generateIdFromText(children?.toString() || '');
+		const text = extractTextFromChildren(children);
+		const id = generateIdFromText(text, existingIds);
 		return (
 			<h1 id={id} className="text-3xl font-bold text-[var(--theme-color)] text-center my-8">
 				{children}
@@ -15,7 +35,8 @@ const components = {
 	},
 
 	h2: ({ children }) => {
-		const id = generateIdFromText(children?.toString() || '');
+		const text = extractTextFromChildren(children);
+		const id = generateIdFromText(text, existingIds);
 		return (
 			<h2 id={id} className="text-2xl font-bold text-[var(--theme-color)] my-6">
 				{children}
@@ -24,7 +45,8 @@ const components = {
 	},
 
 	h3: ({ children }) => {
-		const id = generateIdFromText(children?.toString() || '');
+		const text = extractTextFromChildren(children);
+		const id = generateIdFromText(text, existingIds);
 		return (
 			<h3 id={id} className="text-xl font-semibold text-[var(--theme-color)] my-4">
 				{children}
@@ -139,5 +161,7 @@ const components = {
 } satisfies MDXComponents;
 
 export function useMDXComponents(): MDXComponents {
+	// 每次调用时重置existingIds，确保每个页面/组件渲染时都是全新的
+	existingIds.clear();
 	return components;
 }

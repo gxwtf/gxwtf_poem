@@ -46,7 +46,7 @@ function TocNode({ item, level }: TocNodeProps) {
 
     const handleClick = (e: React.MouseEvent) => {
         e.preventDefault();
-        const targetElement = document.querySelector(item.url);
+        const targetElement = document.getElementById(item.url.slice(1));
         if (targetElement) {
             const elementTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
             window.scrollTo({
@@ -94,9 +94,11 @@ function TocNode({ item, level }: TocNodeProps) {
                     href={item.url}
                     className={cn(
                         "text-sm transition-colors py-1 flex-1 text-primary hover:text-[var(--theme-color)]",
-                        "break-words min-w-0",
+                        "break-words min-w-0 truncate",
+                        "whitespace-nowrap overflow-hidden" 
                     )}
                     onClick={handleClick}
+                    title={item.title}
                 >
                     {item.title}
                 </a>
