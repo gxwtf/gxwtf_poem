@@ -20,7 +20,7 @@ export default function OverviewPage() {
 
     useEffect(() => {
         async function loadPoems() {
-            const overviewData = await import(`@/poem/${version}/overview.json`);
+            const overviewData = await import(`@/data/poem/${version}/overview.json`);
             setPoems(overviewData.default);
         }
         loadPoems();

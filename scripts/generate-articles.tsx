@@ -3,7 +3,7 @@
 import fs from "fs"
 import path from "path"
 
-const root = path.resolve(__dirname, "../src/article")
+const root = path.resolve(__dirname, "../src/data/article")
 const orderPath = path.join(root, "order.tsx")
 
 // 读取 order.tsx

@@ -8,8 +8,8 @@ export async function loadMDXWithTOC(Path: string): Promise<{
     content: string
 }> {
     try {
-        const { default: mdxComponent } = await import(`../${Path}`);
-        const mdxContent = fs.readFileSync(path.join(process.cwd(), 'src', Path), 'utf-8');
+        const { default: mdxComponent } = await import(`../data/${Path}`);
+        const mdxContent = fs.readFileSync(path.join(process.cwd(), 'src', 'data', Path), 'utf-8');
         const toc = await generateTableOfContents(mdxContent);
         return { mdxComponent, toc, content: mdxContent };
     } catch (error) {

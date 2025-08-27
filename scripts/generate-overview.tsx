@@ -3,7 +3,7 @@
 import fs from "fs"
 import path from "path"
 
-const root = path.resolve(__dirname, "../src/poem")
+const root = path.resolve(__dirname, "../src/data/poem")
 const versions = ["junior", "senior"]
 
 function cleanContent(content: string) {

@@ -21,7 +21,7 @@ export default function ArticlesPage() {
     useEffect(() => {
         async function loadArticles() {
             try {
-                const articlesData = await import(`@/article/articles.json`);
+                const articlesData = await import(`@/data/article/articles.json`);
                 setArticles(articlesData.default);
             } catch (error) {
                 console.error("加载文章数据失败:", error)

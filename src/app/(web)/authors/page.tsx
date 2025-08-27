@@ -20,7 +20,7 @@ export default function AuthorsPage() {
     useEffect(() => {
         async function loadAuthors() {
             try {
-                const authorsData = await import(`@/author/authors.json`);
+                const authorsData = await import(`@/data/author/authors.json`);
                 setAuthors(authorsData.default);
             } catch (error) {
                 console.error("加载作者数据失败:", error)

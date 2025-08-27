@@ -90,7 +90,7 @@ const processPoem = (inputPath: string) => {
 };
 
 // 遍历所有版本
-const root = path.resolve(__dirname, '../src/poem');
+const root = path.resolve(__dirname, '../src/data/poem');
 ['junior', 'senior'].forEach(version => {
     const versionDir = path.join(root, version);
     fs.readdirSync(versionDir, { withFileTypes: true })
