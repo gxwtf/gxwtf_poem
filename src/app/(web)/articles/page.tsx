@@ -13,7 +13,6 @@ type ArticleMeta = {
     abstract?: string
     img?: string
     tags?: string[]
-    url: string
 }
 
 export default function ArticlesPage() {
