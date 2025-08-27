@@ -52,8 +52,8 @@ const data = {
           url: "/comb/junior/次北固山下",
         },
         {
-          title: "学习",
-          url: "#",
+          title: "读书课",
+          url: "/articles",
         },
       ],
     },

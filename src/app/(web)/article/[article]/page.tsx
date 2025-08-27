@@ -20,7 +20,7 @@ export default async function Page(props: Props) {
     const { article } = await props.params;
     const Article = decodeURIComponent(article);
     try {
-        const { mdxComponent: IntroMDX, toc } = await loadMDXWithTOC(`article/${Article}.mdx`);
+        const { mdxComponent: IntroMDX, toc } = await loadMDXWithTOC(`article/${Article}/preview.mdx`);
         return (
             <MDXPreview
                 mdxContent={<IntroMDX />}

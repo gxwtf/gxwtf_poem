@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx && tsx scripts/generate-authors.tsx",
-    "prestart": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx && tsx scripts/generate-authors.tsx",
-    "predev": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx && tsx scripts/generate-authors.tsx",
+    "prebuild": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx && tsx scripts/generate-authors.tsx && tsx scripts/generate-articles.tsx",
+    "prestart": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx && tsx scripts/generate-authors.tsx && tsx scripts/generate-articles.tsx",
+    "predev": "tsx scripts/generate-overview.tsx && tsx scripts/generate-preview.tsx && tsx scripts/generate-authors.tsx && tsx scripts/generate-articles.tsx",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

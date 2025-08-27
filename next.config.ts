@@ -42,6 +42,12 @@ const nextConfig: NextConfig = {
                 hostname: 'ai.gxwtf.cn',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'upload.wikimedia.org',
+                port: '',
+                pathname: '/**',
             }
         ],
     },
