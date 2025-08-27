@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 export interface TocItem {
     title: string;
@@ -90,7 +91,7 @@ function TocNode({ item, level }: TocNodeProps) {
                     </button>
                 )}
                 {!hasChildren && level > 1 && <div className="w-4" />}
-                <a
+                <Link
                     href={item.url}
                     className={cn(
                         "text-sm transition-colors py-1 flex-1 text-primary hover:text-[var(--theme-color)]",
@@ -101,7 +102,7 @@ function TocNode({ item, level }: TocNodeProps) {
                     title={item.title}
                 >
                     {item.title}
-                </a>
+                </Link>
             </div>
             {hasChildren && isExpanded && (
                 <ul className="ml-2 border-l border-muted pl-2">
