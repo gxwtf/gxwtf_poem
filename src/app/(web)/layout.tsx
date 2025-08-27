@@ -13,7 +13,7 @@ export default function SidebarLayout({
     children: React.ReactNode
 }) {
     return (
-        <SidebarProvider className="[--header-height:calc(--spacing(12))]">
+        <SidebarProvider>
             <AppSidebar />
             <SidebarInset>
                 {children}
