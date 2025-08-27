@@ -25,6 +25,14 @@ export function TableOfContents({ toc }: TableOfContentsProps) {
         return null;
     }
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+        window.history.pushState(null, '', window.location.pathname);
+    };
+
     return (
         <div className="space-y-4">
             <h4 className="text-xl font-semibold text-foreground mb-4">目录</h4>
@@ -37,6 +45,25 @@ export function TableOfContents({ toc }: TableOfContentsProps) {
                     />
                 ))}
             </ul>
+            <button
+                onClick={scrollToTop}
+                className="flex text-muted-foreground items-center text-sm hover:text-[var(--theme-color)] mt-4"
+            >
+                <svg
+                    className="w-4 h-4 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 10l7-7m0 0l7 7m-7-7v18"
+                    />
+                </svg>
+                回到顶部
+            </button>
         </div>
     );
 }
@@ -54,6 +81,7 @@ function TocNode({ item, level }: TocNodeProps) {
                 top: elementTop - 80,
                 behavior: "smooth"
             });
+            window.history.pushState(null, '', item.url);
         }
     };
 
