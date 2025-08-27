@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/card"
 
 import { useRouter } from "next/navigation";
-import Link from "next/link"
 
 interface AuthorCardProps {
     name: string

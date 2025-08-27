@@ -36,7 +36,7 @@ const data = {
   navMain: [
     {
       title: "古诗文",
-      url: "/dashboard",
+      url: "/overview",
       icon: BookOpen,
       items: [
         {

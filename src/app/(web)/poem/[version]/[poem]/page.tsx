@@ -30,6 +30,7 @@ export default async function Page(props: Props) {
             />
         );
     } catch (error) {
+        console.error(error);
         notFound();
     }
 }

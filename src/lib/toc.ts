@@ -91,7 +91,7 @@ function extractTextFromNode(node: any): string {
  * 从文本生成ID，处理重复标题
  */
 export function generateIdFromText(text: string, existingIds: Set<string> = new Set()): string {
-    let baseId = text
+    const baseId = text
         .toLowerCase()
         // 将中文标点符号和特殊符号转换为英文等效符号或连字符
         .replace(/[。，、；：？！（）【】「」《》]/g, '-')
