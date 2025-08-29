@@ -43,3 +43,5 @@ next-env.d.ts
 # tools
 .vscode
 .idea
+
+/src/generated/prisma
