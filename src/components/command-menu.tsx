@@ -21,11 +21,8 @@ import {
     CommandShortcut,
 } from "@/components/ui/command"
 import { DialogTitle } from "@/components/ui/dialog"
-
-import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { useDebounce } from "@react-hook/debounce"
-import { CommandLoading } from "cmdk"
 
 interface SearchResult {
     title: string
@@ -41,7 +38,6 @@ export function CommandMenu() {
     const [searchQuery, setSearchQuery] = useDebounce(searchValue, 500)
     const [searchResults, setSearchResults] = React.useState<SearchResult[]>([])
     const [isSearching, setIsSearching] = React.useState(false)
-    const router = useRouter()
 
     React.useEffect(() => {
         const down = (e: KeyboardEvent) => {
@@ -86,7 +82,6 @@ export function CommandMenu() {
                 setIsSearching(false)
             }
         }
-
         searchPoems()
     }, [searchQuery])
 
@@ -104,38 +99,83 @@ export function CommandMenu() {
             <DialogTitle className="sr-only">命令菜单</DialogTitle>
             <CommandInput
                 placeholder="搜索古诗文..."
-                value={searchValue} 
+                value={searchValue}
                 onValueChange={setSearchValue}
             />
             <CommandList>
-                {isSearching ? <CommandEmpty>搜索中...</CommandEmpty>
-                : searchResults.length === 0 ? <CommandEmpty>找不到相关古诗文</CommandEmpty>
-                : <CommandGroup heading="古诗文搜索结果">
-                    {console.log('fuck',searchResults.length === 0)}
-                    {
-                        searchResults.map((result, index) => {
-                            // Only include title, author, snippet (no version)
-                            const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
-                            console.log(displayText)
-                            return (
-                                <CommandItem key={index}>
-                                    <Link
-                                        href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
-                                        className="flex items-center w-full"
-                                        onClick={() => setOpen(false)}
-                                    >
-                                        <Search className="mr-2 h-4 w-4" />
-                                        <span
-                                            dangerouslySetInnerHTML={{
-                                                __html: highlightHTML(displayText, searchQuery)
-                                            }}
-                                        />
-                                    </Link>
-                                </CommandItem>
-                            )
-                        })
-                    }
-                </CommandGroup>}
+                {searchValue ? (
+                    <>
+                        {isSearching ? (
+                            <CommandEmpty>搜索中...</CommandEmpty>
+                        ) : searchResults.length > 0 ? (
+                            <CommandGroup
+                                forceMount = {true}
+                                heading ="古诗文搜索结果"
+                                className="text-primary"
+                                >
+                                {
+                                    searchResults.map((result, index) => {
+                                        const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
+                                        console.log(displayText)
+                                        return (
+                                            <CommandItem key={index}>
+                                                <Link
+                                                    href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
+                                                    className="flex items-center w-full"
+                                                    onClick={() => setOpen(false)}
+                                                >
+                                                    <Search className="mr-2 h-4 w-4" />
+                                                    <span
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: highlightHTML(displayText, searchQuery)
+                                                        }}
+                                                    />
+                                                </Link>
+                                            </CommandItem>
+                                        )
+                                    })}
+                            </CommandGroup>
+                        ) : (
+                            <CommandEmpty>找不到相关古诗文</CommandEmpty>
+                        )}
+                    </>
+                ) : (
+                    <>
+                        <CommandEmpty>找不到结果。</CommandEmpty>
+                        <CommandGroup heading="建议">
+                            <CommandItem>
+                                <Calendar className="r-2 h-4 w-4" />
+                                <span>日历</span>
+                            </CommandItem>
+                            <CommandItem>
+                                <Smile className="mr-2 h-4 w-4" />
+                                <span>搜索表情</span>
+                            </CommandItem>
+                            <CommandItem>
+                                <Calculator className="mr-2 h-4 w-4" />
+                                <span>计算器</span>
+                            </CommandItem>
+                        </CommandGroup>
+                        <CommandSeparator />
+                        <CommandGroup heading="设置">
+                            <CommandItem>
+                                <User className="mr-2 h-4 w-4" />
+                                <span>个人资料</span>
+                                <CommandShortcut>⌘P</CommandShortcut>
+                            </CommandItem>
+                            <CommandItem>
+                                <CreditCard className="mr-2 h-4 w-4" />
+                                <span>账单</span>
+                                <CommandShortcut>⌘B</CommandShortcut>
+                            </CommandItem>
+                            <CommandItem>
+                                <Settings className="mr-2 h-4 w-4" />
+                                <span>设置</span>
+                                <CommandShortcut>⌘S</CommandShortcut>
+                            </CommandItem>
+                        </CommandGroup>
+                    </>
+                )}
             </CommandList>
         </CommandDialog>
     )
