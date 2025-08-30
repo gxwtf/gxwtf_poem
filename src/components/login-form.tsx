@@ -17,7 +17,11 @@ export function LoginForm({
     const { session, login } = useSession()
   const searchParams = useSearchParams()
   const back = searchParams.get("back") || "/dashboard"
-  
+  let host = "localhost:3000";
+    if (typeof window !== "undefined") {
+      host = window.location.host;
+    }
+
   return (
     <form 
       className={cn("flex flex-col gap-6", className)} 
@@ -68,7 +72,7 @@ export function LoginForm({
             或者通过以下方式继续
           </span>
         </div>
-        <Link className={buttonVariants({ variant: "outline" }) + " text-primary w-full"} href={`/sso/login?system=${location.host}&back=${back}`}>
+        <Link className={buttonVariants({ variant: "outline" }) + " text-primary w-full"} href={`/sso/login?system=${host}&back=${back}`}>
           <Image src="https://ai.gxwtf.cn/favicon.ico" alt="广学账号" width={20} height={20} />
           使用广学账号登录
         </Link>
