@@ -131,6 +131,16 @@ exports.Prisma.PoemScalarFieldEnum = {
   content: 'content'
 };
 
+exports.Prisma.UserScalarFieldEnum = {
+  id: 'id'
+};
+
+exports.Prisma.StarScalarFieldEnum = {
+  id: 'id',
+  userId: 'userId',
+  poemId: 'poemId'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -143,7 +153,9 @@ exports.Prisma.QueryMode = {
 
 
 exports.Prisma.ModelName = {
-  Poem: 'Poem'
+  Poem: 'Poem',
+  User: 'User',
+  Star: 'Star'
 };
 
 /**
