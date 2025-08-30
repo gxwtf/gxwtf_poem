@@ -31,6 +31,7 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar"
 import {useRouter} from "next/navigation";
+import Link from "next/link";
 
 export function NavUser({
   user,
@@ -44,6 +45,10 @@ export function NavUser({
     const router = useRouter()
     const { isMobile } = useSidebar()
     const { logout } = useSession()
+    let pathname = '/dashboard';
+    if (typeof window !== "undefined") {
+        pathname = window.location.pathname;
+    }
 
   return (
     <SidebarMenu>
@@ -86,18 +91,16 @@ export function NavUser({
               {user.avatar != "#" && (<>
                   <DropdownMenuSeparator />
                   <DropdownMenuGroup>
-                      <DropdownMenuItem onClick={(e) => {
-                          e.preventDefault()
-                          router.push("https://gxwtf.cn/account")
-                      }}>
-                          <BadgeCheck />账号中心
+                      <DropdownMenuItem asChild>
+                          <Link href="https://gxwtf.cn/account">
+                              <BadgeCheck />账号中心
+                          </Link>
                       </DropdownMenuItem>
-                      <DropdownMenuItem onClick={(e) => {
-                          e.preventDefault()
-                          router.push("https://gxwtf.cn/shop/record")
-                      }}>
-                          <CreditCard />
-                          商店账单
+                      <DropdownMenuItem asChild>
+                          <Link href="https://gxwtf.cn/shop/record">
+                              <CreditCard />
+                              商店账单
+                          </Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
                           <Bell />
@@ -119,14 +122,11 @@ export function NavUser({
               </>)}
               {user.avatar == "#" && (<>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem
-                      onClick={(e) => {
-                          e.preventDefault()
-                          router.push('/login?back=' + window.location.pathname)
-                      }}
-                  >
-                      <LogIn />
-                      登录
+                  <DropdownMenuItem asChild>
+                      <Link href={`/login?back=${pathname}`}>
+                          <LogIn />
+                          登录
+                      </Link>
                   </DropdownMenuItem>
               </>)}
           </DropdownMenuContent>
