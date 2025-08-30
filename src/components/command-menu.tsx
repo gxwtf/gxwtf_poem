@@ -86,11 +86,26 @@ export function CommandMenu() {
     }, [searchQuery])
 
     // HTML 内联高亮函数
-    const highlightHTML = (text: string, query: string) => {
-        if (!query) return text
+    const HighlightedText = ({ text, query }: { text: string; query: string }) => {
+        if (!query) return <span>{text}</span>
+        
         const regex = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')
-        return text.replace(regex, (match) =>
-            `<span style="color: var(--theme-color); font-weight: bold">${match}</span>`
+        const parts = text.split(regex)
+        const matches = text.match(regex) || []
+        
+        return (
+            <span>
+              {parts.map((part, index) => (
+                <React.Fragment key={index}>
+                  {part}
+                  {matches[index] && (
+                    <span className="text-[var(--theme-color)]">
+                      {matches[index]}
+                    </span>
+                  )}
+                </React.Fragment>
+              ))}
+            </span>
         )
     }
 
@@ -98,7 +113,7 @@ export function CommandMenu() {
         <CommandDialog open={open} onOpenChange={setOpen}>
             <DialogTitle className="sr-only">命令菜单</DialogTitle>
             <CommandInput
-                placeholder="搜索古诗文..."
+                placeholder="搜索古诗文、作者、文章、标签..."
                 value={searchValue}
                 onValueChange={setSearchValue}
             />
@@ -109,10 +124,9 @@ export function CommandMenu() {
                             <CommandEmpty>搜索中...</CommandEmpty>
                         ) : searchResults.length > 0 ? (
                             <CommandGroup
-                                forceMount = {true}
-                                heading ="古诗文搜索结果"
-                                className="text-primary"
-                                >
+                                forceMount={true}
+                                heading="古诗文搜索结果"
+                            >
                                 {
                                     searchResults.map((result, index) => {
                                         const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
@@ -125,10 +139,9 @@ export function CommandMenu() {
                                                     onClick={() => setOpen(false)}
                                                 >
                                                     <Search className="mr-2 h-4 w-4" />
-                                                    <span
-                                                        dangerouslySetInnerHTML={{
-                                                            __html: highlightHTML(displayText, searchQuery)
-                                                        }}
+                                                    <HighlightedText 
+                                                      text={displayText} 
+                                                      query={searchQuery} 
                                                     />
                                                 </Link>
                                             </CommandItem>
@@ -144,7 +157,7 @@ export function CommandMenu() {
                         <CommandEmpty>找不到结果。</CommandEmpty>
                         <CommandGroup heading="建议">
                             <CommandItem>
-                                <Calendar className="r-2 h-4 w-4" />
+                                <Calendar className="mr-2 h-4 w-4" />
                                 <span>日历</span>
                             </CommandItem>
                             <CommandItem>
