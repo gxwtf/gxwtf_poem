@@ -23,6 +23,27 @@ model Poem {
     dynasty   String
     mode      String   // "poem" or "paragraph"
     content   String
+    starredBy Star[]
 
     @@map("poems")
+}
+
+model User {
+    id   Int    @id
+    star Star[]
+
+    @@map("users")
+}
+
+model Star {
+    id      Int      @id @default(autoincrement())
+    user    User     @relation(fields: [userId], references: [id])
+    userId  Int
+    poem    Poem     @relation(fields: [poemId], references: [id])
+    poemId  String
+
+    @@map("stars")
+    @@unique([userId, poemId])
+    @@index([userId])
+    @@index([poemId])
 }

@@ -1,7 +1,7 @@
 "use client"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
+import { Button, buttonVariants } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
@@ -68,12 +68,10 @@ export function LoginForm({
             或者通过以下方式继续
           </span>
         </div>
-        <Button variant="outline" className="text-primary w-full" onClick={() => {
-            router.push(`/sso/login?system=${location.host}&back=${back}`)
-        }}>
+        <Link className={buttonVariants({ variant: "outline" }) + " text-primary w-full"} href={`/sso/login?system=${location.host}&back=${back}`}>
           <Image src="https://ai.gxwtf.cn/favicon.ico" alt="广学账号" width={20} height={20} />
           使用广学账号登录
-        </Button>
+        </Link>
       </div>
       <div className="text-primary text-center text-sm">
         没有账号？{" "}
