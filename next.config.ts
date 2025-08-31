@@ -1,8 +1,57 @@
+// next.config.ts
 import type { NextConfig } from "next";
+import createMDX from '@next/mdx';
+import path from 'path';
+
+const withMDX = createMDX({
+    extension: /\.(md|mdx)$/,
+    options: {
+        remarkPlugins: ['remark-gfm'],
+    }
+});
 
 const nextConfig: NextConfig = {
-  // devIndicators: false
-  /* config options here */
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'guwen-1252396323.cos.ap-chengdu.myqcloud.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'img.redocn.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'gxwtf.cn',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'account.gxwtf.cn',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'ai.gxwtf.cn',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'upload.wikimedia.org',
+                port: '',
+                pathname: '/**',
+            }
+        ],
+    },
+    pageExtensions: ['ts', 'tsx', 'md', 'mdx', 'js', 'jsx'],
 };
 
-export default nextConfig;
+export default withMDX(nextConfig);

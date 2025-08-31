@@ -1,7 +1,14 @@
 'use client';
 
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useContext, useEffect } from "react";
 import { CustomAlert } from './alert'; // 修改引入
+
+// 自定义事件类型定义
+declare global {
+  interface WindowEventMap {
+    versionSync: CustomEvent<{ version: string }>;
+  }
+}
 
 type VersionProviderProps = {
   defaultVersion?: 'junior' | 'senior';
@@ -28,6 +35,31 @@ export function VersionProvider({
   children
 }: VersionProviderProps) {
   const [version, setVersion] = useState<'junior' | 'senior'>(defaultVersion);
+  
+  useEffect(() => {
+    const savedVersion = localStorage.getItem('poemVersion');
+    if (savedVersion === 'junior' || savedVersion === 'senior') {
+      setVersion(savedVersion);
+    }
+    
+    // 监听versionSync事件来自动同步版本
+    const handleVersionSync = (event: CustomEvent<{ version: string }>) => {
+      const { version } = event.detail;
+      if (version === 'junior' || version === 'senior') {
+        setVersion(version);
+        if (typeof window !== 'undefined') {
+            localStorage.setItem('poemVersion', version);
+        }
+      }
+    };
+    
+    window.addEventListener('versionSync', handleVersionSync);
+    
+    return () => {
+      window.removeEventListener('versionSync', handleVersionSync);
+    };
+  }, []);
+
   const [alert, setAlert] = useState<AlertState>({ // 新增alert状态
     visible: false,
     type: 'normal',
@@ -38,17 +70,20 @@ export function VersionProvider({
     try {
       const newVersion = version === 'senior' ? 'junior' : 'senior';
       setVersion(newVersion);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('poemVersion', newVersion);
+      }
       setAlert({
         visible: true,
         type: 'normal',
         title: `成功切换为${newVersion === 'senior' ? '高中' : '初中'}版`
       });
-    } catch (error) {
+    } catch (e) {
       setAlert({
         visible: true,
         type: 'destructive',
         title: '无法切换版本',
-        description: '系统错误'
+        description: `系统错误：${e}`
       });
     }
   };

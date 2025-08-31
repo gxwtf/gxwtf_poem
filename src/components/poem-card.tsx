@@ -1,48 +1,65 @@
+"use client"
+
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
 } from "@/components/ui/card"
 
-import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { Tag } from "@/components/tag"
+import { useRouter } from "next/navigation";
+import Link from "next/link"
+
 
 interface PoemCardProps {
-  title: string
-  author: string
-  dynasty?: string
-  content: string
-  tags?: string[]
+    title: string
+    author: string
+    dynasty?: string
+    content: string
+    tags?: string[]
+    url: string
 }
 
 export function PoemCard({
-  title,
-  author,
-  dynasty,
-  content,
-  tags,
+    title,
+    author,
+    dynasty,
+    content,
+    tags,
+    url
 }: PoemCardProps) {
-  return (
-    <Card>
-      <CardHeader>
-        <CardTitle className="text-[var(--theme-color)] font-bold text-xl">{title}</CardTitle>
-        <CardDescription>
-          {dynasty ? `【${dynasty}】` : ""}{author}
-        </CardDescription>
-      </CardHeader>
-      <CardContent>
-        <div className="line-clamp-4">{content}</div>
-      </CardContent>
-      <CardFooter>
-        <div className="flex flex-wrap gap-2">
-          {tags?.map(tag => (
-            <Tag key={tag} text={tag} />
-          ))}
-        </div>
-      </CardFooter>
-    </Card>
-  )
+    const router = useRouter()
+    return (
+        <Card onClick={(e) => {
+            if (!(e.target as HTMLElement).closest('.no-navigate')) {
+                router.push(url)
+            }
+        }}>
+            <CardHeader>
+                <CardTitle className="text-[var(--theme-color)] font-bold text-xl cursor-pointer">{title}</CardTitle>
+                <CardDescription>
+                    {dynasty ? `【${dynasty}】` : ""}
+                    <Link
+                        href={`/author/${author}`}
+                        className="hover:underline underline-offset-4 no-navigate"
+                    >
+                        {author}
+                    </Link>
+                </CardDescription>
+            </CardHeader>
+            <CardContent>
+                <div className="line-clamp-4">{content}</div>
+            </CardContent>
+            <CardFooter className="mt-auto">
+                <div className="flex gap-2 overflow-x-hidden">
+                    {tags?.slice(0, 3).map(tag => (
+                        <Tag key={tag} text={tag} />
+                    ))}
+                </div>
+            </CardFooter>
+        </Card>
+    )
 }

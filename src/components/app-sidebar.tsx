@@ -4,14 +4,15 @@ import * as React from "react"
 import { useVersion } from "@/components/version-provider";
 import {
   BookOpen,
-  Bot,
+  CircleUserRound,
   Command,
+  Cpu,
   Frame,
+  Gamepad2,
   LifeBuoy,
   Map,
-  PieChart,
+  Megaphone,
   Send,
-  Settings2,
   SquareTerminal,
 } from "lucide-react"
 
@@ -28,38 +29,38 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
+import Link from "next/link";
+import useSession from "@/lib/use-session";
 
 const data = {
-  user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
-  },
   navMain: [
     {
       title: "古诗文",
-      url: "#",
-      icon: SquareTerminal,
-      isActive: true,
+      url: "/overview",
+      icon: BookOpen,
       items: [
         {
           title: "概览",
           url: "/overview",
         },
         {
-          title: "预习",
-          url: "#",
+          title: "预览",
+          url: "/poem/junior/次北固山下",
         },
         {
-          title: "复习",
-          url: "#",
+          title: "知识梳理",
+          url: "/comb/junior/次北固山下",
+        },
+        {
+          title: "读书课",
+          url: "/articles",
         },
       ],
     },
     {
       title: "积累",
       url: "#",
-      icon: Bot,
+      icon: Cpu,
       items: [
         {
           title: "古诗文积累",
@@ -77,23 +78,19 @@ const data = {
     },
     {
       title: "作者",
-      url: "#",
-      icon: BookOpen,
+      url: "/authors",
+      icon: CircleUserRound,
       items: [
         {
-          title: "Introduction",
-          url: "#",
+          title: "概览",
+          url: "/authors",
         },
         {
-          title: "Get Started",
-          url: "#",
+          title: "简介",
+          url: "/author/李白",
         },
         {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
+          title: "文常学习",
           url: "#",
         },
       ],
@@ -101,22 +98,22 @@ const data = {
     {
       title: "游戏",
       url: "#",
-      icon: Settings2,
+      icon: Gamepad2,
       items: [
         {
-          title: "General",
+          title: "句读知不知",
           url: "#",
         },
         {
-          title: "Team",
+          title: "不背文言",
           url: "#",
         },
         {
-          title: "Billing",
+          title: "诗词九宫格",
           url: "#",
         },
         {
-          title: "Limits",
+          title: "诗文连句",
           url: "#",
         },
       ],
@@ -124,30 +121,35 @@ const data = {
   ],
   navSecondary: [
     {
-      title: "Support",
-      url: "#",
+      title: "帮助",
+      url: "https://docs.gxwtf.cn/",
       icon: LifeBuoy,
     },
     {
-      title: "Feedback",
-      url: "#",
+      title: "反馈",
+      url: "https://docs.gxwtf.cn/#/community/",
       icon: Send,
     },
   ],
   projects: [
     {
-      name: "Design Engineering",
-      url: "#",
+      name: "前端设计",
+      url: "https://ui.shadcn.com/",
       icon: Frame,
     },
     {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: PieChart,
+      name: "后端开发",
+      url: "https://docs.gxwtf.cn/#/poem/",
+      icon: SquareTerminal,
     },
     {
-      name: "Travel",
-      url: "#",
+      name: "网站推广",
+      url: "https://ad.weixin.qq.com/",
+      icon: Megaphone,
+    },
+    {
+      name: "行万里路",
+      url: "https://ctrip.com/",
       icon: Map,
     },
   ],
@@ -155,16 +157,16 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { version } = useVersion();
+  const { session } = useSession();
   return (
-    <Sidebar
-      className="top-(--header-height) h-[calc(100svh-var(--header-height))]!"
+    <Sidebar collapsible="icon"
       {...props}
     >
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <a href="/dashboard">
+              <Link href="/dashboard">
                 <div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
                   <Command className="size-4" />
                 </div>
@@ -176,18 +178,25 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     <span className="truncate text-xs">初中版</span>
                   )}
                 </div>
-              </a>
+              </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={data.navMain} />
-        <NavProjects projects={data.projects} />
-        <NavSecondary items={data.navSecondary} className="mt-auto" />
+          <NavMain items={data.navMain} />
+          {session?.isLoggedIn && (
+              <NavProjects projects={data.projects} />
+          )}
+          <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={data.user} />
+          {session?.isLoggedIn && (
+              <NavUser user={{name: session?.username, email: session?.email, avatar: `https://gxwtf.cn/avatar?userId=${session?.userid}`}} />
+          )}
+          {!session?.isLoggedIn && (
+              <NavUser user={{name: "游客", email: "", avatar: "#"}} />
+          )}
       </SidebarFooter>
     </Sidebar>
   )

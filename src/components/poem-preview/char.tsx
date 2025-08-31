@@ -2,7 +2,7 @@
 
 "use client"
 
-import { useState, useRef, useContext, useEffect, memo } from "react";
+import { useState, useRef, useContext, useEffect } from "react";
 import CharNote from "./char-note";
 import { MemorizeContext } from "./memorize-context";
 
@@ -17,7 +17,7 @@ enum CharMode{
     Read = 0,
     Memorize = 1,
     ShowAnswer = 2
-};
+}
 
 export function Char({
     data,
@@ -41,7 +41,7 @@ export function Char({
         if ("。，、；：？！“”‘’（）【】《》…—·～".includes(data.char))setMemorizeMode(CharMode.Read);
         else if (!isNaN(memorize))setMemorizeMode(Math.random() < memorize ? CharMode.Memorize : CharMode.Read);
         else setMemorizeMode(CharMode.Read);
-    }, [memorize]);
+    }, [memorize, data.char]);
 
     // useEffect(() => {
     //     console.log('ShowNotes:', showNotes);
@@ -77,7 +77,7 @@ export function Char({
 
     if (memorizeMode !== CharMode.Memorize) return (
         <div
-            className={`inline-block justify-center ${memorizeMode === CharMode.Read ? "text-black" : null} pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
+            className={`inline-block justify-center ${memorizeMode === CharMode.Read ? "text-primary" : "text-[var(--theme-color)]"} pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
@@ -104,7 +104,7 @@ export function Char({
     
     return (
         <div
-            className={`inline-block justify-center text-black pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
+            className={`inline-block justify-center text-primary pr-1 ${highlight ? "bg-yellow-100" : ""} relative`}
             onClick={handleClick}
         >
             <span className="inline-flex flex-col items-center min-w-[1.5em] cursor-pointer">

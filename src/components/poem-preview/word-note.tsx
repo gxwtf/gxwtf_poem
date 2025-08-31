@@ -47,7 +47,7 @@ export function WordNotePopover({
                     {children}
                 </span>
             </PopoverTrigger>
-            <PopoverContent className="w-100 max-h-80 overflow-auto border shadow-lg rounded-lg bg-white">
+            <PopoverContent className="w-100 max-h-80 overflow-auto border shadow-lg rounded-lg bg-background">
                 <Section padding="p-2">
                     <SectionContent val={note} indent />
                 </Section>

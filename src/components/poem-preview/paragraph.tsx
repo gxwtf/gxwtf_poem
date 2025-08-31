@@ -35,7 +35,7 @@ export function Paragraph({
     return (
         <div className="leading-13">
             <div className="sentences">
-                {mode === "paragraph" && <span className="inline-block w-[3em]"></span>}
+                {mode === "paragraph" && <span className="inline-block w-[5em]"></span>}
                 {para.paragraph.map((s, index) => (
                     <span
                         key={index}
@@ -54,7 +54,7 @@ export function Paragraph({
             </div>
             {showTranslation && (
                 <div className="translations mt-4">
-                    {mode === "paragraph" && <span className="inline-block w-[2em]"></span>}
+                    {mode === "paragraph" && <span className="inline-block w-[2.5em]"></span>}
                     {para.paragraph.map((s, index) =>
                         s.translation ? (
                             <span

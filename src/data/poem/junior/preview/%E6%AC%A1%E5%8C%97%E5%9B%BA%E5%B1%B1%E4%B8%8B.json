@@ -1,0 +1,313 @@
+{
+  "title": "次北固山下",
+  "author": "王湾",
+  "dynasty": "唐",
+  "mode": "poem",
+  "content": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "客",
+              "pinyin": "kè"
+            },
+            {
+              "char": "路",
+              "pinyin": "lù"
+            },
+            {
+              "char": "青",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "外",
+              "pinyin": "wài"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng"
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "绿",
+              "pinyin": "lǜ"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "前",
+              "pinyin": "qián"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "旅途延伸在青翠北固山外，行船漂浮在碧绿江水之前。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "客路：旅途，指诗人行旅的道路"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "note": "青山：指北固山"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "潮",
+              "pinyin": "cháo"
+            },
+            {
+              "char": "平",
+              "pinyin": "píng"
+            },
+            {
+              "char": "两",
+              "pinyin": "liǎng"
+            },
+            {
+              "char": "岸",
+              "pinyin": "àn"
+            },
+            {
+              "char": "阔",
+              "pinyin": "kuò",
+              "note": [
+                {
+                  "title": "词类活用",
+                  "content": "名词活用作形容词"
+                },
+                {
+                  "title": "古今异义",
+                  "content": "古义：草率\n今义：一种植物"
+                }
+              ],
+              "frequency": 114
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng"
+            },
+            {
+              "char": "一",
+              "pinyin": "yī"
+            },
+            {
+              "char": "帆",
+              "pinyin": "fān"
+            },
+            {
+              "char": "悬",
+              "pinyin": "xuán"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "潮涨江平两岸更显宽阔，顺风吹拂孤帆高高悬垂。"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "海",
+              "pinyin": "hǎi"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "残",
+              "pinyin": "cán"
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn"
+            },
+            {
+              "char": "入",
+              "pinyin": "rù"
+            },
+            {
+              "char": "旧",
+              "pinyin": "jiù"
+            },
+            {
+              "char": "年",
+              "pinyin": "nián"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "黑夜将尽海上旭日初升，旧年未过江上春意已至。"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "乡",
+              "pinyin": "xiāng"
+            },
+            {
+              "char": "书",
+              "pinyin": "shū"
+            },
+            {
+              "char": "何",
+              "pinyin": "hé"
+            },
+            {
+              "char": "处",
+              "pinyin": "chù"
+            },
+            {
+              "char": "达",
+              "pinyin": "dá"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            },
+            {
+              "char": "归",
+              "pinyin": "guī"
+            },
+            {
+              "char": "雁",
+              "pinyin": "yàn"
+            },
+            {
+              "char": "洛",
+              "pinyin": "luò"
+            },
+            {
+              "char": "阳",
+              "pinyin": "yáng"
+            },
+            {
+              "char": "边",
+              "pinyin": "biān"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "家书该寄往何处才能到达？托北归鸿雁捎去洛阳城边。"
+          },
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "translation": "旅途延伸在青翠北固山外，行船漂浮在碧绿江水之前。/潮涨江平两岸更显宽阔，顺风吹拂孤帆高高悬垂。/黑夜将尽海上旭日初升，旧年未过江上春意已至。/家书该寄往何处才能到达？托北归鸿雁捎去洛阳城边。",
+  "pinyin": "kè lù qīng shān wài xíng zhōu lǜ shuǐ qián cháo píng liǎng àn kuò fēng zhèng yī fān xuán hǎi rì shēng cán yè jiāng chūn rù jiù nián xiāng shū hé chù dá guī yàn luò yáng biān",
+  "notes": [
+    {
+      "start": 0,
+      "end": 1,
+      "note": "客路：旅途，指诗人行旅的道路"
+    },
+    {
+      "start": 2,
+      "end": 3,
+      "note": "青山：指北固山"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "note": [
+        {
+          "title": "词类活用",
+          "content": "名词活用作形容词"
+        },
+        {
+          "title": "古今异义",
+          "content": "古义：草率\n今义：一种植物"
+        }
+      ],
+      "frequency": 114
+    }
+  ],
+  "background": "此诗作于唐代先天年间（712-713年），王湾游历江南途经北固山（今江苏镇江）时所作。当时诗人宦游他乡，行船长江，恰逢冬春交替之时。大唐盛世初显气象，但诗人面对壮丽河山，仍涌起思乡愁绪，遂将旅途见闻化作此千古名篇。北固山位于长江南岸，地势险要，风景秀丽，是历代文人墨客吟咏的胜地。",
+  "appreciation": "本诗是唐代五言律诗中的佳作，最妙在'海日生残夜，江春入旧年'一联。诗人以'生''入'二字赋予自然现象生命动感，展现新旧交替的哲学意味：残夜未消而红日已升，旧年尚在而春意已临。这两句不仅描绘了江上日出的壮丽景象，更蕴含着深刻的哲理，暗示着时光流逝、新旧更替的自然规律。颈联'潮平两岸阔，风正一帆悬'以宏阔画卷暗喻人生坦途，描绘了长江潮平岸阔的壮阔景象和顺风行船的畅快感受。尾联则借鸿雁传书回归游子乡愁，表达了诗人对家乡的深切思念。全诗气象壮阔而不失细腻，对仗工整如天衣无缝，语言凝练而意境深远，充分展现了唐代诗歌的艺术魅力。诗人将旅途所见所感与思乡之情完美融合，创造出一幅意境深远的长江行旅图。",
+  "tags": [
+    "七上",
+    "五言律诗",
+    "山水诗",
+    "思乡诗",
+    "唐诗三百首",
+    "必背古诗",
+    "长江",
+    "北固山",
+    "王湾",
+    "唐代诗歌"
+  ]
+}

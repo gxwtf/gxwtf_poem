@@ -1,0 +1,49 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+    provider = "prisma-client-js"
+    output   = "../src/app/generated/prisma"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model Poem {
+    id        String   @id @default(cuid())
+    title     String
+    version   String   // "junior" or "senior"
+    tags      String[]
+    author    String
+    dynasty   String
+    mode      String   // "poem" or "paragraph"
+    content   String
+    starredBy Star[]
+
+    @@map("poems")
+}
+
+model User {
+    id   Int    @id
+    star Star[]
+
+    @@map("users")
+}
+
+model Star {
+    id      Int      @id @default(autoincrement())
+    user    User     @relation(fields: [userId], references: [id])
+    userId  Int
+    poem    Poem     @relation(fields: [poemId], references: [id])
+    poemId  String
+
+    @@map("stars")
+    @@unique([userId, poemId])
+    @@index([userId])
+    @@index([poemId])
+}

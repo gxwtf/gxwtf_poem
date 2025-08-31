@@ -1,0 +1,136 @@
+import { Meta } from '@/components/poem-meta';
+
+<Meta 
+  title="次北固山下"
+  author="王湾"
+  dynasty="唐"
+/>
+
+# 古诗文信息概览
+
+## 古诗文
+ 
+### 目录结构
+
+```
+poem/
+├── [poem_name]/
+│   ├── index.json
+│   ├── preview.json
+│   ├── preview.mdx
+│   └── comb.mdx
+├── overview.json
+└── order.tsx
+```
+
+### index.json
+
+**古诗文的主要信息**
+
+- title ``string`` "永遇乐·京口北固亭怀古" 
+- author ``string`` "辛弃疾"
+- dynasty ``string`` "宋"
+- mode ``string`` "paragraph" / "poem"
+- content ``string`` 原文
+- translation ``string`` 翻译
+- pinyin ``string`` 拼音
+- notes ``json`` 注释
+- tags ``json`` "七上"
+
+**注意事项**
+
+1. ``content`` & ``translation`` 用 ``#`` 分隔句子；``/`` 分隔段落
+2. ``pinyin`` 用空格分隔
+3. 使用全局下标（标点也拥有下标，从0开始）
+
+**[示例](https://gxwtf.cn/markdown/preview?file=uploads%2F%E5%B9%BF%E5%AD%A6%E5%8F%A4%E8%AF%97%E6%96%87%E5%8F%A4%E8%AF%97%E6%96%87index.json%E7%A4%BA%E4%BE%8B.md)**
+
+### preview.json
+
+**解析后的古诗文预览信息**
+
+
+- preview
+  - parapgraph
+    - sentence
+      - char
+        - note
+      - pinyin
+      - translation
+      - notes
+        - start
+        - end
+        - note
+
+
+**注意事项**
+
+1. 解析前 ``start==end`` 的 ``note`` 被视为 ``char-note``，否则被视为 ``word-note``
+2. 拼音中标点符号用一个中文空格作为占位字符
+3. 下标按句为单位（标点也拥有下标，从0开始）
+
+**[示例](https://gxwtf.cn/markdown/preview?file=uploads%2F%E5%B9%BF%E5%AD%A6%E5%8F%A4%E8%AF%97%E6%96%87%E5%8F%A4%E8%AF%97%E6%96%87preview.json%E7%A4%BA%E4%BE%8B.md)**
+
+### preview.mdx
+
+**古诗文预览的显示页面**
+
+可使用自定义组件和传统 markdown 组件
+
+```tsx
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import {MemorizeContextProvider} from "@/components/poem-preview/memorize-context"
+
+<Meta 
+  title="虞美人·春花秋月何时了"
+  author="李煜"
+  dynasty="五代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{mode: "paragraph",preview: previewData.preview}}
+  />
+</MemorizeContextProvider>
+
+## 写作背景
+
+这里用Markdown编写诗歌的创作背景...
+
+## 作品赏析
+
+这里用Markdown编写诗歌的赏析内容...
+
+## 添加更多组件
+```
+
+## comb.mdx
+
+**古诗文文言知识梳理**
+
+文言知识梳理页面，可以直接使用 markdown 编辑即可。
+
+## 作者
+
+### 目录结构
+
+```
+author/
+├── [author_name]/
+│   ├── index.json
+│   ├── intro.mdx
+│   └── comb.mdx
+├── overview.json
+└── order.tsx
+```
+
+## 流程
+
+每次编译前会调用
+1. ``scripts/generate-preview.tsx`` 在对应古诗文目录下生成 ``preview.json``
+2. ``scripts/generate-overview.tsx`` 在 ``src/poem/[version]`` 目录下生成 ``order.tsx``
+
+
+
+

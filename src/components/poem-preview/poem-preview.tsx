@@ -4,11 +4,9 @@
 
 import { useState, useContext, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Meta } from "./meta"
 import { Paragraph, ParagraphData } from "./paragraph";
-import { Memorize } from "./memorize"; 
-import { MemorizeContext, MemorizeContextProvider } from "./memorize-context";
-import { Section, SectionHeading, SectionContent } from "../section";
+import { Memorize } from "./memorize";
+import { MemorizeContext } from "./memorize-context";
 
 function ControlButtons({
     showTranslation,
@@ -47,40 +45,34 @@ function ControlButtons({
     )
 }
 
-export interface PoemPreviewProps {
-    title: string
-    author: string
-    dynasty?: string
-    mode: "poem" | "paragraph"
-    content: ParagraphData[]
-    background?: string
-    appreciation?: string
+export interface PreviewData {
+    mode: "poem" | "paragraph";
+    preview: ParagraphData[];
 }
 
-export function PoemPreview({
-    title,
-    author,
-    dynasty,
-    mode,
-    content,
-    background,
-    appreciation,
-}: PoemPreviewProps) {
+export interface PoemPreviewProps {
+    data: PreviewData;
+}
+
+export function PoemPreview({ data }: PoemPreviewProps) {
+    const {
+        mode,
+        preview,
+    } = data;
     const [showPinyin, setShowPinyin] = useState(false)
     const [showTranslation, setShowTranslation] = useState(false)
     const [showNotes, setShowNotes] = useState(true)  // 默认显示注释
     const { memorize } = useContext(MemorizeContext);
 
     useEffect(() => {
-        console.log('XC',memorize);
-        if (isNaN(memorize))setShowNotes(true);
+        console.log('XC', memorize);
+        if (isNaN(memorize)) setShowNotes(true);
         else setShowNotes(false);
     }, [memorize]);
-    
+
     return (
         <>
             <div className="max-w-3xl mx-auto py-8">
-                <Meta title={title} author={author} dynasty={dynasty} />
                 <ControlButtons
                     showTranslation={showTranslation}
                     setShowTranslation={setShowTranslation}
@@ -90,7 +82,7 @@ export function PoemPreview({
                     setShowNotes={setShowNotes}
                 />
                 <div className={mode === "poem" ? "text-center" : "text-left"}>
-                    {content.map((paragraph, pIdx) => (
+                    {preview.map((paragraph, pIdx) => (
                         <div key={pIdx} className={mode === "paragraph" ? "mt-8" : ""}>
                             <Paragraph
                                 para={paragraph}
@@ -103,15 +95,6 @@ export function PoemPreview({
                     ))}
                 </div>
             </div>
-
-            <Section>
-                <SectionHeading val="写作背景" level={1} />
-                <SectionContent val={background || "暂无相关背景信息"} indent />
-            </Section>
-            <Section>
-                <SectionHeading val="内容赏析" level={1} />
-                <SectionContent val={appreciation || "暂无相关背景信息"} indent />
-            </Section>
         </>
     )
 }

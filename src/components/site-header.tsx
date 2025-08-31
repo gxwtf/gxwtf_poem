@@ -18,6 +18,7 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { VersionToggle } from "@/components/version-toggle";
 
 import React from 'react'
+import Link from "next/link";
 
 export type SiteHeaderData = {
   name: string
@@ -34,30 +35,33 @@ export function SiteHeader({
   const { toggleSidebar } = useSidebar()
 
   return (
-    <header className="bg-background sticky top-0 z-50 flex w-full items-center border-b">
-      <div className="flex h-(--header-height) w-full items-center gap-2 px-4">
+    <header className="bg-background sticky top-0 z-50 flex w-full h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12">
+      <div className="flex w-full items-center gap-2 px-4">
         <Button
-          className="h-8 w-8"
+          className="h-8 w-8 -ml-1"
           variant="ghost"
           size="icon"
           onClick={toggleSidebar}
         >
           <SidebarIcon />
         </Button>
-        <Separator orientation="vertical" className="mr-2 h-4" />
-        <Breadcrumb className="hidden sm:block">
+        <Separator
+            orientation="vertical"
+            className="mr-2 data-[orientation=vertical]:h-4"
+        />
+        <Breadcrumb className="hidden md:block">
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="/">
-                广学古诗文
+              <BreadcrumbLink asChild>
+                  <Link href="/">广学古诗文</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             {data?.map((cur) => (
               <React.Fragment key={cur.name}>
                 <BreadcrumbItem>
-                  <BreadcrumbLink href={cur.href}>
-                    {cur.name}
+                  <BreadcrumbLink asChild>
+                      <Link href={cur.href}>{cur.name}</Link>
                   </BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />

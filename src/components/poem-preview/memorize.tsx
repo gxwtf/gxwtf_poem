@@ -49,7 +49,7 @@ export function Memorize() {
                                     </PopoverContent>
                                 </Popover>
                             </Label>
-                            <Input type="number" id="difficulty" min="0" max="1" defaultValue={isNaN(difficulty) ? '' : difficulty} onInput={(e) => {
+                            <Input type="number" id="difficulty" min="0" max="1" defaultValue={isNaN(difficulty) ? '' : difficulty} onInput={(e: React.ChangeEvent<HTMLInputElement>) => {
                                 setDifficulty(parseFloat(e.target.value))
                             }} />
                             <Button onClick={enterMemorizeMode}>
@@ -66,7 +66,7 @@ export function Memorize() {
     return (
         <>
             <Button variant="destructive" onClick={quitMemorizeMode} style={{
-                backgroundColor: 'var(--foreground)'
+                backgroundColor: 'var(--theme-color)'
             }}>结束背诵</Button>
         </>
     )
