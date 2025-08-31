@@ -23,15 +23,13 @@ const model = 'deepseek/deepseek-r1-0528:free';
  * @returns {Promise<string>} - AI 生成的回复
  */
 export default function deepseekChat(userPrompt, systemPrompt = '你是一个有帮助的助手', chatHistory = [], options = {}) {
+	console.log('DeepSeek Chat:', userPrompt, systemPrompt, chatHistory, options);
 	return new Promise((resolve, reject) => {
 		// 构建请求体 [3,5](@ref)
 		const requestJSON = {
 			model: options.model || model,
 			temperature: 0.0,
-			messages: [
-				...chatHistory,
-				{ role: 'user', content: systemPrompt + '\n\n' + userPrompt }
-			],
+			messages: chatHistory.concat({ role: 'user', content: systemPrompt + '\n\n' + userPrompt }),
 			...options
 		};
 		const requestBody = JSON.stringify(requestJSON);
