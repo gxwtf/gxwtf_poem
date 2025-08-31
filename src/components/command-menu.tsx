@@ -38,6 +38,7 @@ interface AuthorSearchResult {
     epithet: string
     tags: string[]
     matchType: 'name' | 'dynasty' | 'epithet' | 'tags'
+    avatar?: string // 新增头像字段
 }
 
 interface ArticleSearchResult {
@@ -175,7 +176,15 @@ export function CommandMenu() {
                                                         className="flex items-center w-full"
                                                         onClick={() => setOpen(false)}
                                                     >
-                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        {result.avatar ? (
+                                                            <img 
+                                                                src={result.avatar} 
+                                                                alt={result.name}
+                                                                className="mr-2 h-4 w-4 rounded-full object-cover"
+                                                            />
+                                                        ) : (
+                                                            <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        )}
                                                         <span className="truncate">
                                                             <HighlightedText
                                                                 text={displayText}

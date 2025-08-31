@@ -9,6 +9,7 @@ interface SearchResult {
 	epithet: string
 	tags: string[]
 	matchType: 'name' | 'dynasty' | 'epithet' | 'tags'
+	avatar?: string // 新增头像字段
 }
 
 export async function GET(request: NextRequest) {
@@ -97,7 +98,8 @@ export async function GET(request: NextRequest) {
 			dynasty: author.dynasty || '',
 			epithet: author.epithet || '',
 			tags: author.tags,
-			matchType: author.matchType
+			matchType: author.matchType,
+			avatar: author.avatar || undefined // 添加头像字段
 		}))
 
 		return Response.json({ results: formattedResults })
