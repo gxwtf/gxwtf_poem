@@ -9,7 +9,7 @@ interface SearchResult {
     abstract: string
     content: string
     matchType: 'title' | 'author' | 'abstract' | 'content'
-    snippet?: string // 新增字段用于存储智能片段
+    snippet?: string
 }
 
 // 智能片段提取函数 - 找到关键词第一个出现位置，从前面的标点符号开始截取50个字符
@@ -106,6 +106,6 @@ export async function GET(request: NextRequest) {
         return Response.json({ results: formattedResults })
     } catch (error) {
         console.error('Article search error:', error)
-        return Response.json({ error: '文章搜索失败' }, { status: 500 })
+        return Response.json({ error: '读书课搜索失败' }, { status: 500 })
     }
 }

@@ -9,7 +9,7 @@ interface SearchResult {
 	epithet: string
 	tags: string[]
 	matchType: 'name' | 'dynasty' | 'epithet' | 'tags'
-	avatar?: string // 新增头像字段
+	avatar?: string
 }
 
 export async function GET(request: NextRequest) {

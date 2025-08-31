@@ -2,11 +2,11 @@
 
 import * as React from "react"
 import {
-    Calculator,
-    Calendar,
+    BookOpenText,
+    ScrollText,
     CreditCard,
     Settings,
-    Smile,
+    UserPen,
     User,
     Search,
 } from "lucide-react"
@@ -38,7 +38,7 @@ interface AuthorSearchResult {
     epithet: string
     tags: string[]
     matchType: 'name' | 'dynasty' | 'epithet' | 'tags'
-    avatar?: string // 新增头像字段
+    avatar?: string
 }
 
 interface ArticleSearchResult {
@@ -77,7 +77,7 @@ export function CommandMenu() {
         console.log('isSearching:', isSearching)
     }, [isSearching])
 
-    // 搜索古诗文、作者和文章
+    // 搜索古诗文、作者和读书课
     React.useEffect(() => {
         const searchAll = async () => {
             if (!searchQuery.trim()) {
@@ -90,7 +90,7 @@ export function CommandMenu() {
 
             setIsSearching(true)
             try {
-                // 并行搜索古诗文、作者和文章
+                // 并行搜索古诗文、作者和读书课
                 const [poemResponse, authorResponse, articleResponse] = await Promise.all([
                     fetch(`/api/search/poem?q=${encodeURIComponent(searchQuery)}`),
                     fetch(`/api/search/author?q=${encodeURIComponent(searchQuery)}`),
@@ -150,7 +150,7 @@ export function CommandMenu() {
     return (
         <CommandDialog open={open} onOpenChange={setOpen}>
             <CommandInput
-                placeholder="搜索古诗文、作者、文章、标签..."
+                placeholder="搜索古诗文、作者、读书课、标签..."
                 value={searchValue}
                 onValueChange={setSearchValue}
             />
@@ -227,14 +227,14 @@ export function CommandMenu() {
                                     </CommandGroup>
                                 )}
 
-                                {/* 文章搜索结果 */}
+                                {/* 读书课搜索结果 */}
                                 {articleResults.length > 0 && (
                                     <CommandGroup
                                         forceMount={true}
-                                        heading="文章搜索结果"
+                                        heading="读书课搜索结果"
                                     >
                                         {articleResults.map((result, index) => {
-                                            const displayText = `${result.title}｜${result.author}｜${result.snippet}`
+                                            const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
                                             return (
                                                 <CommandItem key={index} className="text-primary">
                                                     <Link
@@ -267,7 +267,7 @@ export function CommandMenu() {
                         <CommandEmpty>找不到结果。</CommandEmpty>
                         <CommandGroup heading="建议">
                             <CommandItem className="text-primary">
-                                <Calendar className="mr-2 h-4 w-4" />
+                                <ScrollText className="mr-2 h-4 w-4" />
                                 <Link
                                     href={`/overview`}
                                     className="flex items-center w-full"
@@ -277,7 +277,7 @@ export function CommandMenu() {
                                 </Link>
                             </CommandItem>
                             <CommandItem className="text-primary">
-                                <Smile className="mr-2 h-4 w-4" />
+                                <UserPen className="mr-2 h-4 w-4" />
                                 <Link
                                     href={`/authors`}
                                     className="flex items-center w-full"
@@ -287,7 +287,7 @@ export function CommandMenu() {
                                 </Link>
                             </CommandItem>
                             <CommandItem className="text-primary">
-                                <Calculator className="mr-2 h-4 w-4" />
+                                <BookOpenText className="mr-2 h-4 w-4" />
                                 <Link
                                     href={`/articles`}
                                     className="flex items-center w-full"
