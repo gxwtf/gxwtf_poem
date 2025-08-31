@@ -10,6 +10,7 @@ import {
     User,
     Search,
 } from "lucide-react"
+import { Icon } from "@/components/icon"
 import {
     CommandDialog,
     CommandEmpty,
@@ -177,8 +178,8 @@ export function CommandMenu() {
                                                         onClick={() => setOpen(false)}
                                                     >
                                                         {result.avatar ? (
-                                                            <img 
-                                                                src={result.avatar} 
+                                                            <img
+                                                                src={result.avatar}
                                                                 alt={result.name}
                                                                 className="mr-2 h-4 w-4 rounded-full object-cover"
                                                             />
@@ -267,7 +268,7 @@ export function CommandMenu() {
                         <CommandEmpty>找不到结果。</CommandEmpty>
                         <CommandGroup heading="建议">
                             <CommandItem className="text-primary">
-                                <ScrollText className="mr-2 h-4 w-4" />
+                                <Icon className="mr-2 h-4 w-4" />
                                 <Link
                                     href={`/overview`}
                                     className="flex items-center w-full"
