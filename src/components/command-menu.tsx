@@ -20,9 +20,9 @@ import {
     CommandSeparator,
     CommandShortcut,
 } from "@/components/ui/command"
-import { DialogTitle } from "@/components/ui/dialog"
 import Link from "next/link"
 import { useDebounce } from "@react-hook/debounce"
+import { useIsMac } from "@/hooks/use-is-mac"
 
 interface SearchResult {
     title: string
@@ -38,10 +38,11 @@ export function CommandMenu() {
     const [searchQuery, setSearchQuery] = useDebounce(searchValue, 500)
     const [searchResults, setSearchResults] = React.useState<SearchResult[]>([])
     const [isSearching, setIsSearching] = React.useState(false)
+    const isMac = useIsMac()
 
     React.useEffect(() => {
         const down = (e: KeyboardEvent) => {
-            if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+            if (e.key === "k" && (isMac && e.metaKey || !isMac && e.ctrlKey)) {
                 e.preventDefault()
                 setOpen((open) => !open)
             }
@@ -88,30 +89,29 @@ export function CommandMenu() {
     // HTML 内联高亮函数
     const HighlightedText = ({ text, query }: { text: string; query: string }) => {
         if (!query) return <span>{text}</span>
-        
+
         const regex = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')
         const parts = text.split(regex)
         const matches = text.match(regex) || []
-        
+
         return (
             <span>
-              {parts.map((part, index) => (
-                <React.Fragment key={index}>
-                  {part}
-                  {matches[index] && (
-                    <span className="text-[var(--theme-color)]">
-                      {matches[index]}
-                    </span>
-                  )}
-                </React.Fragment>
-              ))}
+                {parts.map((part, index) => (
+                    <React.Fragment key={index}>
+                        {part}
+                        {matches[index] && (
+                            <span className="text-[var(--theme-color)]">
+                                {matches[index]}
+                            </span>
+                        )}
+                    </React.Fragment>
+                ))}
             </span>
         )
     }
 
     return (
         <CommandDialog open={open} onOpenChange={setOpen}>
-            <DialogTitle className="sr-only">命令菜单</DialogTitle>
             <CommandInput
                 placeholder="搜索古诗文、作者、文章、标签..."
                 value={searchValue}
@@ -132,16 +132,16 @@ export function CommandMenu() {
                                         const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
                                         console.log(displayText)
                                         return (
-                                            <CommandItem key={index}>
+                                            <CommandItem key={index} className="text-primary">
                                                 <Link
                                                     href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
                                                     className="flex items-center w-full"
                                                     onClick={() => setOpen(false)}
                                                 >
-                                                    <Search className="mr-2 h-4 w-4" />
-                                                    <HighlightedText 
-                                                      text={displayText} 
-                                                      query={searchQuery} 
+                                                    <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                    <HighlightedText
+                                                        text={displayText}
+                                                        query={searchQuery}
                                                     />
                                                 </Link>
                                             </CommandItem>
@@ -156,17 +156,35 @@ export function CommandMenu() {
                     <>
                         <CommandEmpty>找不到结果。</CommandEmpty>
                         <CommandGroup heading="建议">
-                            <CommandItem>
+                            <CommandItem className="text-primary">
                                 <Calendar className="mr-2 h-4 w-4" />
-                                <span>日历</span>
+                                <Link
+                                    href={`/overview`}
+                                    className="flex items-center w-full"
+                                    onClick={() => setOpen(false)}
+                                >
+                                    古诗文
+                                </Link>
                             </CommandItem>
-                            <CommandItem>
+                            <CommandItem className="text-primary">
                                 <Smile className="mr-2 h-4 w-4" />
-                                <span>搜索表情</span>
+                                <Link
+                                    href={`/authors`}
+                                    className="flex items-center w-full"
+                                    onClick={() => setOpen(false)}
+                                >
+                                    作者
+                                </Link>
                             </CommandItem>
-                            <CommandItem>
+                            <CommandItem className="text-primary">
                                 <Calculator className="mr-2 h-4 w-4" />
-                                <span>计算器</span>
+                                <Link
+                                    href={`/articles`}
+                                    className="flex items-center w-full"
+                                    onClick={() => setOpen(false)}
+                                >
+                                    读书课
+                                </Link>
                             </CommandItem>
                         </CommandGroup>
                         <CommandSeparator />
