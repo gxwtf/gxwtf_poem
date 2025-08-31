@@ -32,11 +32,28 @@ interface SearchResult {
     matchType: 'title' | 'author' | 'content' | 'tags'
 }
 
+interface AuthorSearchResult {
+    name: string
+    dynasty: string
+    epithet: string
+    tags: string[]
+    matchType: 'name' | 'dynasty' | 'epithet' | 'tags'
+}
+
+interface ArticleSearchResult {
+    title: string
+    author: string
+    snippet: string
+    matchType: 'title' | 'author' | 'abstract' | 'content'
+}
+
 export function CommandMenu() {
     const [open, setOpen] = React.useState(false)
     const [searchValue, setSearchValue] = React.useState('')
     const [searchQuery, setSearchQuery] = useDebounce(searchValue, 500)
     const [searchResults, setSearchResults] = React.useState<SearchResult[]>([])
+    const [authorResults, setAuthorResults] = React.useState<AuthorSearchResult[]>([])
+    const [articleResults, setArticleResults] = React.useState<ArticleSearchResult[]>([])
     const [isSearching, setIsSearching] = React.useState(false)
     const isMac = useIsMac()
 
@@ -59,31 +76,50 @@ export function CommandMenu() {
         console.log('isSearching:', isSearching)
     }, [isSearching])
 
-    // 搜索古诗文
+    // 搜索古诗文、作者和文章
     React.useEffect(() => {
-        const searchPoems = async () => {
+        const searchAll = async () => {
             if (!searchQuery.trim()) {
                 setSearchResults([])
+                setAuthorResults([])
+                setArticleResults([])
                 setIsSearching(false)
                 return
             }
 
             setIsSearching(true)
             try {
-                const response = await fetch(`/api/search/poem?q=${encodeURIComponent(searchQuery)}`)
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`)
+                // 并行搜索古诗文、作者和文章
+                const [poemResponse, authorResponse, articleResponse] = await Promise.all([
+                    fetch(`/api/search/poem?q=${encodeURIComponent(searchQuery)}`),
+                    fetch(`/api/search/author?q=${encodeURIComponent(searchQuery)}`),
+                    fetch(`/api/search/article?q=${encodeURIComponent(searchQuery)}`)
+                ])
+
+                if (poemResponse.ok) {
+                    const poemData = await poemResponse.json()
+                    setSearchResults(poemData.results)
                 }
-                const data = await response.json()
-                setSearchResults(data.results)
+
+                if (authorResponse.ok) {
+                    const authorData = await authorResponse.json()
+                    setAuthorResults(authorData.results)
+                }
+
+                if (articleResponse.ok) {
+                    const articleData = await articleResponse.json()
+                    setArticleResults(articleData.results)
+                }
             } catch (error) {
                 console.error('搜索失败:', error)
                 setSearchResults([])
+                setAuthorResults([])
+                setArticleResults([])
             } finally {
                 setIsSearching(false)
             }
         }
-        searchPoems()
+        searchAll()
     }, [searchQuery])
 
     // HTML 内联高亮函数
@@ -122,34 +158,99 @@ export function CommandMenu() {
                     <>
                         {isSearching ? (
                             <CommandEmpty>搜索中...</CommandEmpty>
-                        ) : searchResults.length > 0 ? (
-                            <CommandGroup
-                                forceMount={true}
-                                heading="古诗文搜索结果"
-                            >
-                                {
-                                    searchResults.map((result, index) => {
-                                        const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
-                                        console.log(displayText)
-                                        return (
-                                            <CommandItem key={index} className="text-primary">
-                                                <Link
-                                                    href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
-                                                    className="flex items-center w-full"
-                                                    onClick={() => setOpen(false)}
-                                                >
-                                                    <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
-                                                    <HighlightedText
-                                                        text={displayText}
-                                                        query={searchQuery}
-                                                    />
-                                                </Link>
-                                            </CommandItem>
-                                        )
-                                    })}
-                            </CommandGroup>
                         ) : (
-                            <CommandEmpty>找不到相关古诗文</CommandEmpty>
+                            <>
+                                {/* 作者搜索结果 */}
+                                {authorResults.length > 0 && (
+                                    <CommandGroup
+                                        forceMount={true}
+                                        heading="作者搜索结果"
+                                    >
+                                        {authorResults.map((result, index) => {
+                                            const displayText = `${result.name}｜${result.dynasty}｜${result.epithet}`
+                                            return (
+                                                <CommandItem key={index} className="text-primary">
+                                                    <Link
+                                                        href={`/author/${encodeURIComponent(result.name)}`}
+                                                        className="flex items-center w-full"
+                                                        onClick={() => setOpen(false)}
+                                                    >
+                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        <span className="truncate">
+                                                            <HighlightedText
+                                                                text={displayText}
+                                                                query={searchQuery}
+                                                            />
+                                                        </span>
+                                                    </Link>
+                                                </CommandItem>
+                                            )
+                                        })}
+                                    </CommandGroup>
+                                )}
+
+                                {/* 古诗文搜索结果 */}
+                                {searchResults.length > 0 && (
+                                    <CommandGroup
+                                        forceMount={true}
+                                        heading="古诗文搜索结果"
+                                    >
+                                        {searchResults.map((result, index) => {
+                                            const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
+                                            return (
+                                                <CommandItem key={index} className="text-primary">
+                                                    <Link
+                                                        href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
+                                                        className="flex items-center w-full"
+                                                        onClick={() => setOpen(false)}
+                                                    >
+                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        <span className="truncate">
+                                                            <HighlightedText
+                                                                text={displayText}
+                                                                query={searchQuery}
+                                                            />
+                                                        </span>
+                                                    </Link>
+                                                </CommandItem>
+                                            )
+                                        })}
+                                    </CommandGroup>
+                                )}
+
+                                {/* 文章搜索结果 */}
+                                {articleResults.length > 0 && (
+                                    <CommandGroup
+                                        forceMount={true}
+                                        heading="文章搜索结果"
+                                    >
+                                        {articleResults.map((result, index) => {
+                                            const displayText = `${result.title}｜${result.author}｜${result.snippet}`
+                                            return (
+                                                <CommandItem key={index} className="text-primary">
+                                                    <Link
+                                                        href={`/article/${encodeURIComponent(result.title)}`}
+                                                        className="flex items-center w-full"
+                                                        onClick={() => setOpen(false)}
+                                                    >
+                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        <span className="truncate">
+                                                            <HighlightedText
+                                                                text={displayText}
+                                                                query={searchQuery}
+                                                            />
+                                                        </span>
+                                                    </Link>
+                                                </CommandItem>
+                                            )
+                                        })}
+                                    </CommandGroup>
+                                )}
+
+                                {searchResults.length === 0 && authorResults.length === 0 && articleResults.length === 0 && (
+                                    <CommandEmpty>找不到相关结果</CommandEmpty>
+                                )}
+                            </>
                         )}
                     </>
                 ) : (

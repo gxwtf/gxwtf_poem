@@ -131,6 +131,29 @@ exports.Prisma.PoemScalarFieldEnum = {
   content: 'content'
 };
 
+exports.Prisma.AuthorScalarFieldEnum = {
+  id: 'id',
+  name: 'name',
+  dynasty: 'dynasty',
+  epithet: 'epithet',
+  quote: 'quote',
+  avatar: 'avatar',
+  intro: 'intro',
+  tags: 'tags'
+};
+
+exports.Prisma.ArticleScalarFieldEnum = {
+  id: 'id',
+  title: 'title',
+  author: 'author',
+  dynasty: 'dynasty',
+  views: 'views',
+  abstract: 'abstract',
+  content: 'content',
+  img: 'img',
+  tags: 'tags'
+};
+
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -141,9 +164,16 @@ exports.Prisma.QueryMode = {
   insensitive: 'insensitive'
 };
 
+exports.Prisma.NullsOrder = {
+  first: 'first',
+  last: 'last'
+};
+
 
 exports.Prisma.ModelName = {
-  Poem: 'Poem'
+  Poem: 'Poem',
+  Author: 'Author',
+  Article: 'Article'
 };
 
 /**
