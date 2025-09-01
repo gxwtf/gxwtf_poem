@@ -6,14 +6,12 @@ const prisma = new PrismaClient()
 interface SearchResult {
     title: string
     author: string
-    abstract: string
-    content: string
     matchType: 'title' | 'author' | 'abstract' | 'content'
-    snippet?: string
+    snippet: string
 }
 
-// 智能片段提取函数 - 找到关键词第一个出现位置，从前面的标点符号开始截取50个字符
-function extractContextSnippet(content: string, query: string) {
+// 智能片段提取函数 - 找到关键词第一个出现位置，从前面的标点符号开始截取指定长度的字符
+function extractContextSnippet(content: string, query: string, snippetLength: number = 50) {
     const queryIndex = content.toLowerCase().indexOf(query.toLowerCase())
 
     if (queryIndex === -1) {
@@ -29,16 +27,16 @@ function extractContextSnippet(content: string, query: string) {
         lastPunctuationIndex = match.index
     }
 
-    // 如果没有找到标点符号，从关键词位置开始
-    const startIndex = lastPunctuationIndex !== -1 ? lastPunctuationIndex + 1 : queryIndex
+    // 如果没有找到标点符号，说明关键词在字符串的第一句话中，从头开始即可
+    const startIndex = lastPunctuationIndex !== -1 ? lastPunctuationIndex + 1 : 0
 
-    // 截取50个字符
-    const endIndex = Math.min(content.length, startIndex + 50)
+    // 截取指定长度的字符
+    const endIndex = Math.min(content.length, startIndex + snippetLength)
     let snippet = content.slice(startIndex, endIndex)
 
     // 如果截取的内容不包含完整的关键词，调整起始位置
     if (!snippet.includes(query)) {
-        snippet = content.slice(queryIndex, Math.min(content.length, queryIndex + 50))
+        snippet = content.slice(queryIndex, Math.min(content.length, queryIndex + snippetLength))
     }
 
     return snippet
@@ -69,37 +67,58 @@ export async function GET(request: NextRequest) {
         // 确定匹配类型并排序
         const formattedResults: SearchResult[] = results.map(article => {
             let matchType: 'title' | 'author' | 'abstract' | 'content' = 'content'
+            let snippet = ''
 
             if (article.title.toLowerCase().includes(query.toLowerCase())) {
                 matchType = 'title'
+                snippet = article.title
             } else if (article.author?.toLowerCase().includes(query.toLowerCase())) {
                 matchType = 'author'
+                snippet = article.author || ''
             } else if (article.abstract?.toLowerCase().includes(query.toLowerCase())) {
                 matchType = 'abstract'
-            }
-
-            // 为内容匹配的结果提取智能片段
-            let snippet: string | undefined = undefined
-            if (matchType === 'content') {
-                const extractedSnippet = extractContextSnippet(article.content || '', query)
+                const extractedSnippet = extractContextSnippet(article.abstract || '', query, 50)
                 if (extractedSnippet) {
                     snippet = extractedSnippet
+                } else {
+                    return null
+                }
+            } else {
+                matchType = 'content'
+                const extractedSnippet = extractContextSnippet(article.content || '', query, 50)
+                if (extractedSnippet) {
+                    snippet = extractedSnippet
+                } else {
+                    return null
+                }
+            }
+
+            // 内容匹配优先级处理：如果同时匹配到内容和摘要，优先返回内容snippet
+            const contentMatch = article.content?.toLowerCase().includes(query.toLowerCase())
+            const abstractMatch = article.abstract?.toLowerCase().includes(query.toLowerCase())
+            
+            if (contentMatch && abstractMatch) {
+                // 同时匹配到内容和摘要，优先返回内容snippet
+                const contentSnippet = extractContextSnippet(article.content || '', query, 50)
+                if (contentSnippet) {
+                    snippet = contentSnippet
+                    matchType = 'content'
                 }
             }
 
             return {
                 title: article.title,
                 author: article.author || '',
-                abstract: article.abstract || '',
-                content: article.content || '',
                 matchType,
                 snippet
             }
         })
 
-        // 按优先级排序（标题 > 作者 > 摘要 > 内容）
+        .filter((result): result is SearchResult => result !== null)
+
+        // 按优先级排序（标题 > 作者 > 内容 > 摘要）
         formattedResults.sort((a, b) => {
-            const priority = { title: 1, author: 2, abstract: 3, content: 4 }
+            const priority = { title: 1, author: 2, content: 3, abstract: 4 }
             return priority[a.matchType] - priority[b.matchType]
         })
 
