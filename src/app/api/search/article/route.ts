@@ -11,7 +11,7 @@ interface SearchResult {
 }
 
 // 智能片段提取函数 - 找到关键词第一个出现位置，从前面的标点符号开始截取指定长度的字符
-function extractContextSnippet(content: string, query: string, snippetLength: number = 50) {
+function extractContextSnippet(content: string, query: string, snippetLength: number = 30) {
     const queryIndex = content.toLowerCase().indexOf(query.toLowerCase())
 
     if (queryIndex === -1) {
