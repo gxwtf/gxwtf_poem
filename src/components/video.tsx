@@ -80,7 +80,6 @@ export function BilibiliVideos({ videos }: { videos: Array<{ title: string; url:
           key={index}
           url={video.url}
           title={video.title}
-          // 移除border类名，不再添加边框
           className=""
         />
       ))}
