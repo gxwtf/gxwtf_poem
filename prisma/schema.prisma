@@ -19,8 +19,8 @@ model Poem {
     title     String
     version   String   // "junior" or "senior"
     tags      String[]
-    author    String
-    dynasty   String
+    author    String?
+    dynasty   String?
     mode      String   // "poem" or "paragraph"
     content   String
     starredBy Star[]
@@ -46,4 +46,30 @@ model Star {
     @@unique([userId, poemId])
     @@index([userId])
     @@index([poemId])
+}
+model Author {
+    id      String   @id @default(cuid())
+    name    String   @unique
+    dynasty String?
+    epithet String?
+    quote   String?
+    avatar  String?
+    intro   String?
+    tags    String[]
+
+    @@map("authors")
+}
+
+model Article {
+    id       String   @id @default(cuid())
+    title    String   @unique
+    author   String?
+    dynasty  String?
+    views    Int      @default(0)
+    abstract String?
+    content  String?
+    img      String?
+    tags     String[]
+
+    @@map("articles")
 }
