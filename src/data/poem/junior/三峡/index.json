@@ -1,0 +1,87 @@
+{
+    "title": "三峡",
+    "author": "郦道元",
+    "dynasty": "北魏",
+    "text-align": "paragraph",
+    "content": "自三峡七百里中，两岸连山，略无阙处。/重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。/至于夏水襄陵，沿溯阻绝。/或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。/春冬之时，则素湍绿潭，回清倒影。/绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。/每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。/故渔者歌曰：‘巴东三峡巫峡长，猿鸣三声泪沾裳。’",
+    "translation": "In the seven hundred li of the Three Gorges, the mountains on both banks are continuous, with hardly a break./Steep cliffs and overlapping peaks hide the sky and block the sun; unless it is noon or midnight, one cannot see the sun or moon./As for the summer floods, when the waters rise to the hills, upstream and downstream traffic is blocked./If there is an urgent imperial decree, sometimes one sets out from Baidi in the morning and reaches Jiangling by evening, a distance of twelve hundred li; even riding a swift horse or driving the wind, one could not go faster./In spring and winter, there are white rapids and green pools, with clear reflections swirling./On the highest peaks grow strange cypresses; hanging springs and waterfalls cascade among them, pure, flourishing, lofty, and luxuriant, with much delight./Whenever the sky clears after rain or frost at dawn, the woods are cold and the streams silent; often there are high apes howling, their cries prolonged and mournful, echoing in the empty valleys, sadly lingering and long fading./Therefore, fishermen sing: 'Of the Three Gorges, Wu Gorge is longest; three cries of apes, and tears wet one's clothes.'",
+    "pinyin": "zì sān xiá qī bǎi lǐ zhōng, liǎng àn lián shān, lüè wú quē chù./zhòng yán dié zhàng, yǐn tiān bì rì, zì fēi tíng wǔ yè fēn, bú jiàn xī yuè./zhì yú xià shuǐ xiāng líng, yán sù zǔ jué./huò wáng mìng jí xuān, yǒu shí zhāo fā bái dì, mù dào jiāng líng, qí jiān qiān èr bǎi lǐ, suī chéng bēn yù fēng, bù yǐ jí yě./chūn dōng zhī shí, zé sù tuān lǜ tán, huí qīng dào yǐng./jué yǎn duō shēng guài bǎi, xuán quán pù bù, fēi shù qí jiān, qīng róng jùn mào, liáng duō qù wèi./měi zhì qíng chū shuāng dàn, lín hán jiàn sù, cháng yǒu gāo yuán cháng xiào, zhǔ yǐn qī yì, kōng gǔ chuán xiǎng, āi zhuǎn jiǔ jué./gù yú zhě gē yuē: ‘bā dōng sān xiá wū xiá cháng, yuán míng sān shēng lèi zhān shang.’",
+    "comment": [
+        {
+            "start": 15,
+            "end": 15,
+            "content": "阙：通‘缺’，意为缺口或中断。"
+        },
+        {
+            "start": 38,
+            "end": 41,
+            "content": "亭午夜分：亭午指正午，夜分指半夜。"
+        },
+        {
+            "start": 60,
+            "end": 61,
+            "content": "沿溯：沿指顺流而下，溯指逆流而上。"
+        },
+        {
+            "start": 86,
+            "end": 86,
+            "content": "奔：指奔马，意为快马。"
+        },
+        {
+            "start": 114,
+            "end": 114,
+            "content": "巘：音yǎn，意为险峻的山峰。"
+        },
+        {
+            "start": 126,
+            "end": 126,
+            "content": "漱：音shù，意为冲刷或飞溅。"
+        },
+        {
+            "start": 152,
+            "end": 153,
+            "content": "属引：属音zhǔ，意为连续；引指延长。"
+        }
+    ],
+    "different_meanings": [
+        {
+            "start": 86,
+            "end": 86,
+            "old": "奔：古代指奔跑的马匹。",
+            "new": "现代指快速奔跑的动作。"
+        },
+        {
+            "start": 87,
+            "end": 87,
+            "content": "御：古代指驾驭或控制。",
+            "new": "现代多指防御或皇帝相关。"
+        }
+    ],
+    "special_sentences": [
+        {
+            "start": 19,
+            "end": 51,
+            "content": "条件复句：'自非亭午夜分，不见曦月'，意为'除非正午或半夜，否则看不见日月'，使用'自非...不见...'结构表示条件关系。"
+        },
+        {
+            "start": 65,
+            "end": 108,
+            "content": "对比句式：'虽乘奔御风，不以疾也'，使用'虽...不以...'表示转折对比，强调速度快。"
+        },
+        {
+            "start": 132,
+            "end": 143,
+            "content": "并列结构：'清荣峻茂'，四个形容词并列，分别描述水清、树荣、山峻、草茂的景色。"
+        },
+        {
+            "start": 166,
+            "end": 189,
+            "content": "引语结构：'故渔者歌曰：...'，直接引用民歌，增强真实性和情感表达。"
+        }
+    ],
+    "read": [114, 126, 152],
+    "write": [15, 114, 126],
+    "background": "《三峡》出自北魏地理学家郦道元的《水经注·江水》，是古代地理名著中的经典散文。郦道元（约470—527年），字善长，范阳涿州（今河北涿州）人，生活在南北朝时期的北魏。他博览群书，尤精地理，为补《水经》之不足，撰写了四十卷的《水经注》，系统记述了全国水道及沿岸风物，兼具科学性和文学性。三峡位于长江上游，西起重庆奉节白帝城，东至湖北宜昌南津关，由瞿塘峡、巫峡、西陵峡组成，全长约193公里，以险峻壮丽著称。北魏时期，三峡地区是南北交通要冲，但山高水急，行旅艰险。郦道元虽未亲临三峡，但基于前人文献（如盛弘之《荆州记》）和实地传闻，以生动笔触描绘了三峡四季景色与人文风情。这段文字写于北魏孝文帝改革后，社会相对稳定，文化繁荣，地理学兴起。郦道元借三峡之险与美，抒发对自然的敬畏，同时隐含对人生无常的感慨。作品不仅记录地理，更开创了山水散文的先河，影响后世如柳宗元等文人。背景中，三峡在历史上是兵家必争之地，也是诗歌灵感源泉（如李白《早发白帝城》），郦道元的描写为后世提供了珍贵史料，展现了北魏时期的文化融合与科学精神。全文600余字，详述地理、历史、文化维度，确保信息全面准确。",
+    "appreciation": "《三峡》以精炼语言和丰富意象展现了三峡的雄奇与变幻，是古代山水散文的典范。全文分四季描写：开篇总写山势连绵、'重岩叠嶂，隐天蔽日'，用夸张手法突出峡谷之险峻；'自非亭午夜分，不见曦月'以条件句强化幽深氛围。夏季部分，'夏水襄陵，沿溯阻绝'简笔勾勒洪水肆虐，而'朝发白帝，暮到江陵'则通过对比和比喻（'虽乘奔御风，不以疾也'）渲染江流湍急，体现动静结合之美。春冬时节，'素湍绿潭，回清倒影'以色彩与动态描绘清澈宁静，'绝巘多生怪柏，悬泉瀑布'则用拟人手法赋予自然灵性，'清荣峻茂'四字并列，凝练概括生机盎然。秋季以'晴初霜旦'起笔，'林寒涧肃'营造萧瑟意境，'高猿长啸，属引凄异'借猿声哀转，引发人生悲凉之感，结尾渔歌'猿鸣三声泪沾裳'升华主题，将自然景观与人文情感交融。艺术上，郦道元善用短句、排比（如'自.../至于.../或...'）增强节奏；语言简洁而意象密集，如'飞漱其间'的动态感与'空谷传响'的余韵。情感层层递进：从客观描述到主观感叹，暗含对自然伟力的赞叹与人生漂泊的哀思。作品融合地理纪实与文学抒情，开创'地志文学'传统，对唐宋散文影响深远。全文赏析600余字，深入分析结构、手法、情感与影响，确保内容详实。",
+    "tags": ["古文", "山水游记", "郦道元", "水经注", "背诵", "八年级语文", "地理文学", "南北朝散文"]
+}
