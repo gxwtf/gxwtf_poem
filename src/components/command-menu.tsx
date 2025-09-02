@@ -2,14 +2,15 @@
 
 import * as React from "react"
 import {
-    Calculator,
-    Calendar,
+    BookOpenText,
+    ScrollText,
     CreditCard,
     Settings,
-    Smile,
+    UserPen,
     User,
     Search,
 } from "lucide-react"
+import { Icon } from "@/components/icon"
 import {
     CommandDialog,
     CommandEmpty,
@@ -20,9 +21,9 @@ import {
     CommandSeparator,
     CommandShortcut,
 } from "@/components/ui/command"
-import { DialogTitle } from "@/components/ui/dialog"
 import Link from "next/link"
 import { useDebounce } from "@react-hook/debounce"
+import { useIsMac } from "@/hooks/use-is-mac"
 
 interface SearchResult {
     title: string
@@ -32,16 +33,35 @@ interface SearchResult {
     matchType: 'title' | 'author' | 'content' | 'tags'
 }
 
+interface AuthorSearchResult {
+    name: string
+    dynasty: string
+    epithet: string
+    tags: string[]
+    matchType: 'name' | 'dynasty' | 'epithet' | 'tags'
+    avatar?: string
+}
+
+interface ArticleSearchResult {
+    title: string
+    author: string
+    snippet: string
+    matchType: 'title' | 'author' | 'abstract' | 'content'
+}
+
 export function CommandMenu() {
     const [open, setOpen] = React.useState(false)
     const [searchValue, setSearchValue] = React.useState('')
     const [searchQuery, setSearchQuery] = useDebounce(searchValue, 500)
     const [searchResults, setSearchResults] = React.useState<SearchResult[]>([])
+    const [authorResults, setAuthorResults] = React.useState<AuthorSearchResult[]>([])
+    const [articleResults, setArticleResults] = React.useState<ArticleSearchResult[]>([])
     const [isSearching, setIsSearching] = React.useState(false)
+    const isMac = useIsMac()
 
     React.useEffect(() => {
         const down = (e: KeyboardEvent) => {
-            if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+            if (e.key === "k" && (isMac && e.metaKey || !isMac && e.ctrlKey)) {
                 e.preventDefault()
                 setOpen((open) => !open)
             }
@@ -58,62 +78,80 @@ export function CommandMenu() {
         console.log('isSearching:', isSearching)
     }, [isSearching])
 
-    // 搜索古诗文
+    // 搜索古诗文、作者和读书课
     React.useEffect(() => {
-        const searchPoems = async () => {
+        const searchAll = async () => {
             if (!searchQuery.trim()) {
                 setSearchResults([])
+                setAuthorResults([])
+                setArticleResults([])
                 setIsSearching(false)
                 return
             }
 
             setIsSearching(true)
             try {
-                const response = await fetch(`/api/search/poem?q=${encodeURIComponent(searchQuery)}`)
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`)
+                // 并行搜索古诗文、作者和读书课
+                const [poemResponse, authorResponse, articleResponse] = await Promise.all([
+                    fetch(`/api/search/poem?q=${encodeURIComponent(searchQuery)}`),
+                    fetch(`/api/search/author?q=${encodeURIComponent(searchQuery)}`),
+                    fetch(`/api/search/article?q=${encodeURIComponent(searchQuery)}`)
+                ])
+
+                if (poemResponse.ok) {
+                    const poemData = await poemResponse.json()
+                    setSearchResults(poemData.results)
                 }
-                const data = await response.json()
-                setSearchResults(data.results)
+
+                if (authorResponse.ok) {
+                    const authorData = await authorResponse.json()
+                    setAuthorResults(authorData.results)
+                }
+
+                if (articleResponse.ok) {
+                    const articleData = await articleResponse.json()
+                    setArticleResults(articleData.results)
+                }
             } catch (error) {
                 console.error('搜索失败:', error)
                 setSearchResults([])
+                setAuthorResults([])
+                setArticleResults([])
             } finally {
                 setIsSearching(false)
             }
         }
-        searchPoems()
+        searchAll()
     }, [searchQuery])
 
     // HTML 内联高亮函数
     const HighlightedText = ({ text, query }: { text: string; query: string }) => {
         if (!query) return <span>{text}</span>
-        
+
         const regex = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')
         const parts = text.split(regex)
         const matches = text.match(regex) || []
-        
+
         return (
             <span>
-              {parts.map((part, index) => (
-                <React.Fragment key={index}>
-                  {part}
-                  {matches[index] && (
-                    <span className="text-[var(--theme-color)]">
-                      {matches[index]}
-                    </span>
-                  )}
-                </React.Fragment>
-              ))}
+                {parts.map((part, index) => (
+                    <React.Fragment key={index}>
+                        {part}
+                        {matches[index] && (
+                            <span className="text-[var(--theme-color)]">
+                                {matches[index]}
+                            </span>
+                        )}
+                    </React.Fragment>
+                ))}
             </span>
         )
     }
 
     return (
         <CommandDialog open={open} onOpenChange={setOpen}>
-            <DialogTitle className="sr-only">命令菜单</DialogTitle>
             <CommandInput
-                placeholder="搜索古诗文、作者、文章、标签..."
+                placeholder="搜索古诗文、作者、读书课、标签..."
                 value={searchValue}
                 onValueChange={setSearchValue}
             />
@@ -122,51 +160,142 @@ export function CommandMenu() {
                     <>
                         {isSearching ? (
                             <CommandEmpty>搜索中...</CommandEmpty>
-                        ) : searchResults.length > 0 ? (
-                            <CommandGroup
-                                forceMount={true}
-                                heading="古诗文搜索结果"
-                            >
-                                {
-                                    searchResults.map((result, index) => {
-                                        const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
-                                        console.log(displayText)
-                                        return (
-                                            <CommandItem key={index}>
-                                                <Link
-                                                    href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
-                                                    className="flex items-center w-full"
-                                                    onClick={() => setOpen(false)}
-                                                >
-                                                    <Search className="mr-2 h-4 w-4" />
-                                                    <HighlightedText 
-                                                      text={displayText} 
-                                                      query={searchQuery} 
-                                                    />
-                                                </Link>
-                                            </CommandItem>
-                                        )
-                                    })}
-                            </CommandGroup>
                         ) : (
-                            <CommandEmpty>找不到相关古诗文</CommandEmpty>
+                            <>
+                                {/* 作者搜索结果 */}
+                                {authorResults.length > 0 && (
+                                    <CommandGroup
+                                        forceMount={true}
+                                        heading="作者搜索结果"
+                                    >
+                                        {authorResults.map((result, index) => {
+                                            const displayText = `${result.name}｜${result.dynasty}｜${result.epithet}`
+                                            return (
+                                                <CommandItem key={index} className="text-primary">
+                                                    <Link
+                                                        href={`/author/${encodeURIComponent(result.name)}`}
+                                                        className="flex items-center w-full"
+                                                        onClick={() => setOpen(false)}
+                                                    >
+                                                        {result.avatar ? (
+                                                            <img
+                                                                src={result.avatar}
+                                                                alt={result.name}
+                                                                className="mr-2 h-4 w-4 rounded-full object-cover"
+                                                            />
+                                                        ) : (
+                                                            <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        )}
+                                                        <span className="truncate">
+                                                            <HighlightedText
+                                                                text={displayText}
+                                                                query={searchQuery}
+                                                            />
+                                                        </span>
+                                                    </Link>
+                                                </CommandItem>
+                                            )
+                                        })}
+                                    </CommandGroup>
+                                )}
+
+                                {/* 古诗文搜索结果 */}
+                                {searchResults.length > 0 && (
+                                    <CommandGroup
+                                        forceMount={true}
+                                        heading="古诗文搜索结果"
+                                    >
+                                        {searchResults.map((result, index) => {
+                                            const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
+                                            return (
+                                                <CommandItem key={index} className="text-primary">
+                                                    <Link
+                                                        href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
+                                                        className="flex items-center w-full"
+                                                        onClick={() => setOpen(false)}
+                                                    >
+                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        <span className="truncate">
+                                                            <HighlightedText
+                                                                text={displayText}
+                                                                query={searchQuery}
+                                                            />
+                                                        </span>
+                                                    </Link>
+                                                </CommandItem>
+                                            )
+                                        })}
+                                    </CommandGroup>
+                                )}
+
+                                {/* 读书课搜索结果 */}
+                                {articleResults.length > 0 && (
+                                    <CommandGroup
+                                        forceMount={true}
+                                        heading="读书课搜索结果"
+                                    >
+                                        {articleResults.map((result, index) => {
+                                            const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
+                                            return (
+                                                <CommandItem key={index} className="text-primary">
+                                                    <Link
+                                                        href={`/article/${encodeURIComponent(result.title)}`}
+                                                        className="flex items-center w-full"
+                                                        onClick={() => setOpen(false)}
+                                                    >
+                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                        <span className="truncate">
+                                                            <HighlightedText
+                                                                text={displayText}
+                                                                query={searchQuery}
+                                                            />
+                                                        </span>
+                                                    </Link>
+                                                </CommandItem>
+                                            )
+                                        })}
+                                    </CommandGroup>
+                                )}
+
+                                {searchResults.length === 0 && authorResults.length === 0 && articleResults.length === 0 && (
+                                    <CommandEmpty>找不到相关结果</CommandEmpty>
+                                )}
+                            </>
                         )}
                     </>
                 ) : (
                     <>
                         <CommandEmpty>找不到结果。</CommandEmpty>
                         <CommandGroup heading="建议">
-                            <CommandItem>
-                                <Calendar className="mr-2 h-4 w-4" />
-                                <span>日历</span>
+                            <CommandItem className="text-primary">
+                                <Icon className="mr-2 h-4 w-4" />
+                                <Link
+                                    href={`/overview`}
+                                    className="flex items-center w-full"
+                                    onClick={() => setOpen(false)}
+                                >
+                                    古诗文
+                                </Link>
                             </CommandItem>
-                            <CommandItem>
-                                <Smile className="mr-2 h-4 w-4" />
-                                <span>搜索表情</span>
+                            <CommandItem className="text-primary">
+                                <UserPen className="mr-2 h-4 w-4" />
+                                <Link
+                                    href={`/authors`}
+                                    className="flex items-center w-full"
+                                    onClick={() => setOpen(false)}
+                                >
+                                    作者
+                                </Link>
                             </CommandItem>
-                            <CommandItem>
-                                <Calculator className="mr-2 h-4 w-4" />
-                                <span>计算器</span>
+                            <CommandItem className="text-primary">
+                                <BookOpenText className="mr-2 h-4 w-4" />
+                                <Link
+                                    href={`/articles`}
+                                    className="flex items-center w-full"
+                                    onClick={() => setOpen(false)}
+                                >
+                                    读书课
+                                </Link>
                             </CommandItem>
                         </CommandGroup>
                         <CommandSeparator />
