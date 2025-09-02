@@ -31,6 +31,7 @@ import {
 } from "@/components/ui/sidebar"
 import Link from "next/link";
 import useSession from "@/lib/use-session";
+import { Icon } from "@/components/icon";
 
 const data = {
   navMain: [
@@ -168,7 +169,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             <SidebarMenuButton size="lg" asChild>
               <Link href="/dashboard">
                 <div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
-                  <Command className="size-4" />
+                  <Icon className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
                   <span className="truncate font-medium">广学古诗文</span>
