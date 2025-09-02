@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(web)/markdown/page.mdx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(web)/markdown/page.mdx", "src/data/tag/poem.mdx", "src/data/tag/author.mdx", "src/data/tag/article.mdx"],
   "exclude": ["node_modules"]
 }

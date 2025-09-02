@@ -59,21 +59,21 @@ const data = {
       ],
     },
     {
-      title: "积累",
+      title: "标签",
       url: "#",
       icon: Cpu,
       items: [
         {
-          title: "古诗文积累",
-          url: "#",
+          title: "古诗文标签",
+          url: "/tag/poem",
         },
         {
-          title: "每日积累",
-          url: "#",
+          title: "作者标签",
+          url: "/tag/author",
         },
         {
-          title: "文常积累",
-          url: "#",
+          title: "读书课标签",
+          url: "/tag/article",
         },
       ],
     },
