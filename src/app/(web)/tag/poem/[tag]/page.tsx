@@ -1,10 +1,11 @@
-// 古诗文概览页面
-
 "use client"
+
 import React, { useEffect, useState } from "react"
+import { useParams } from "next/navigation"
+import { notFound } from "next/navigation"
 import { PoemCard, SkeletonPoemCard } from "@/components/poem-card"
-import { useVersion } from "@/components/version-provider"
 import { SiteHeader } from "@/components/site-header"
+import { useVersion } from "@/components/version-provider"
 
 type PoemMeta = {
     id: string
@@ -16,38 +17,40 @@ type PoemMeta = {
     version: string
 }
 
-export default function OverviewPage() {
+export default function Page() {
+    const params = useParams()
+    const tag = decodeURIComponent(params.tag as string)
     const { version } = useVersion()
     const [poems, setPoems] = useState<PoemMeta[]>([])
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        async function loadPoems() {
+        async function loadPoemsByTag() {
             setLoading(true)
             try {
-                const response = await fetch(`/api/poems?version=${version}`)
+                const response = await fetch(`/api/poems?version=${version}&tag=${tag}`)
                 if (response.ok) {
                     const data = await response.json()
+                    console.log("data",data)
                     setPoems(data)
                 } else {
-                    console.error('Failed to fetch poems:', response.statusText)
+                    console.error('Failed to fetch poems by tag:', response.statusText)
                 }
             } catch (error) {
-                console.error('Error fetching poems:', error)
+                console.error('Error fetching poems by tag:', error)
             } finally {
                 setLoading(false)
             }
         }
-        loadPoems()
-    }, [version])
+        loadPoemsByTag()
+    }, [version, tag])
 
-    // 生成骨架屏数组
     const skeletonCount = 8
 
     if (loading) {
         return (
             <>
-                <SiteHeader now="古诗文" />
+                <SiteHeader now={`标签: ${tag}`} />
                 <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {Array.from({ length: skeletonCount }).map((_, index) => (
                         <SkeletonPoemCard key={index} />
@@ -59,7 +62,10 @@ export default function OverviewPage() {
 
     return (
         <>
-            <SiteHeader now="古诗文" />
+            <SiteHeader 
+                now={`${tag}`}
+                data={[ { name: "古诗文", href: "/overview" }, { name: "古诗文标签", href: "/tag/poem" }]}
+            />
             <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {poems.map((poem) => (
                     <PoemCard 

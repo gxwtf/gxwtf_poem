@@ -6,18 +6,19 @@ import { loadMDXWithTOC } from '@/lib/mdx-utils'
 export async function generateMetadata() {
     return {
         title: `古诗文标签`,
-        description: '古诗文标签概览页面',
+        description: `古诗文标签概览页面`,
     };
 }
 
 export default async function Page() {
     try {
-        const { mdxComponent: PreviewMDX, toc } = await loadMDXWithTOC(`tag/poem.mdx`);
+        const { mdxComponent: PreviewMDX, toc } = await loadMDXWithTOC(`tag/poem/preview.mdx`);
         return (
             <MDXPreview
                 mdxContent={<PreviewMDX />}
                 toc={toc}
-                headerData={[{ name: "古诗文标签", href: "/tag/poem" }]}
+                now={"古诗文标签"}
+                headerData={[{ name: "古诗文", href: "/overview" }]}
             />
         );
     } catch (error) {
