@@ -42,7 +42,7 @@ export async function main() {
     await prisma.author.deleteMany()
     await prisma.poem.deleteMany()
     
-    // 处理诗歌数据（junior版本）
+    // 处理古诗文数据（junior版本）
     const juniorOrder = getOrderFromFile(path.join(basePath, 'poem/junior/order.tsx'))
     for (const poemName of juniorOrder) {
         const poemPath = path.join(basePath, 'poem/junior', poemName, 'index.json')
