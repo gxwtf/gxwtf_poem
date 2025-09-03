@@ -59,10 +59,6 @@ export default function Page() {
         )
     }
 
-    if (authors.length === 0) {
-        notFound()
-    }
-
     return (
         <>
             <SiteHeader 

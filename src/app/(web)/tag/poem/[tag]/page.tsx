@@ -31,6 +31,7 @@ export default function Page() {
                 const response = await fetch(`/api/poems?version=${version}&tag=${tag}`)
                 if (response.ok) {
                     const data = await response.json()
+                    console.log("data",data)
                     setPoems(data)
                 } else {
                     console.error('Failed to fetch poems by tag:', response.statusText)
@@ -57,10 +58,6 @@ export default function Page() {
                 </div>
             </>
         )
-    }
-
-    if (poems.length === 0) {
-        notFound()
     }
 
     return (

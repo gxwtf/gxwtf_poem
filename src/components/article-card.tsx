@@ -53,9 +53,12 @@ export function ArticleCard({
                     className="object-cover"
                 />
                 {tags && tags.length > 0 && (
-                    <span className="absolute top-4 right-4 bg-[var(--theme-color)] text-white text-bold px-2 py-1 rounded text-base">
-                        {tags[0]}
-                    </span>
+                    <div className="absolute top-4 right-4 no-navigate">
+                        <Tag
+                            text={tags[0]}
+                            href={`/tag/article/${encodeURIComponent(tags[0])}`}
+                        />
+                    </div>
                 )}
             </div>
 

@@ -58,10 +58,6 @@ export default function Page() {
         )
     }
 
-    if (articles.length === 0) {
-        notFound()
-    }
-
     return (
         <>
             <SiteHeader 
