@@ -4,8 +4,19 @@ import { PrismaClient } from "@/app/generated/prisma"
 const prisma = new PrismaClient()
 
 export async function GET(request: NextRequest) {
+    const { searchParams } = new URL(request.url)
+    const tag = searchParams.get('tag')
+
     try {
-        const authors = await prisma.author.findMany()
+        const authors = await prisma.author.findMany({
+            where: {
+                ...(tag && {
+                    tags: {
+                        has: tag
+                    }
+                })
+            }
+        })
         return Response.json(authors)
     } catch (error) {
         console.error('Error fetching authors:', error)
