@@ -47,6 +47,7 @@ model Star {
     @@index([userId])
     @@index([poemId])
 }
+
 model Author {
     id      String   @id @default(cuid())
     name    String   @unique

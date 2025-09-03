@@ -1,7 +1,12 @@
 "use client"
 
 import {
+    Star
+} from "lucide-react";
+
+import {
     Card,
+    CardAction,
     CardContent,
     CardDescription,
     CardFooter,
@@ -12,6 +17,7 @@ import {
 import { Tag } from "@/components/tag"
 import { useRouter } from "next/navigation";
 import Link from "next/link"
+import prisma from "@/lib/prisma";
 
 
 interface PoemCardProps {
@@ -31,7 +37,7 @@ export function PoemCard({
     tags,
     url
 }: PoemCardProps) {
-    const router = useRouter()
+    const router = useRouter();
     return (
         <Card onClick={(e) => {
             if (!(e.target as HTMLElement).closest('.no-navigate')) {
@@ -49,6 +55,11 @@ export function PoemCard({
                         {author}
                     </Link>
                 </CardDescription>
+                <CardAction>
+                    <button>
+                        <Star fill={false?"var(--muted-foreground)":"#969696"} strokeWidth={0} />
+                    </button>
+                </CardAction>
             </CardHeader>
             <CardContent>
                 <div className="line-clamp-4">{content}</div>
