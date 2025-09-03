@@ -2,10 +2,11 @@
 
 "use client"
 import React, { useEffect, useState } from "react"
-import { AuthorCard } from "@/components/author-card"
+import { AuthorCard, SkeletonAuthorCard } from "@/components/author-card"
 import { SiteHeader } from "@/components/site-header"
 
 type AuthorMeta = {
+    id: string
     name: string
     dynasty?: string
     epithet?: string
@@ -16,28 +17,56 @@ type AuthorMeta = {
 
 export default function AuthorsPage() {
     const [authors, setAuthors] = useState<AuthorMeta[]>([])
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         async function loadAuthors() {
+            setLoading(true)
             try {
-                const authorsData = await import(`@/data/author/authors.json`);
-                setAuthors(authorsData.default);
+                const response = await fetch('/api/authors')
+                if (response.ok) {
+                    const data = await response.json()
+                    setAuthors(data)
+                } else {
+                    console.error('Failed to fetch authors:', response.statusText)
+                }
             } catch (error) {
-                console.error("加载作者数据失败:", error)
+                console.error('Error fetching authors:', error)
+            } finally {
+                setLoading(false)
             }
         }
-        loadAuthors();
-    })
+        loadAuthors()
+    }, [])
+
+    const skeletonCount = 6
+
+    if (loading) {
+        return (
+            <>
+                <SiteHeader now="作者" />
+                <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    {Array.from({ length: skeletonCount }).map((_, index) => (
+                        <SkeletonAuthorCard key={index} />
+                    ))}
+                </div>
+            </>
+        )
+    }
 
     return (
         <>
             <SiteHeader now="作者" />
             <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                {authors.map((author, idx) => (
-                    <AuthorCard
-                        key={author.name + idx}
-                        {...author}
-                        url={`/author/${author.name}`}
+                {authors.map((author) => (
+                    <AuthorCard 
+                        key={author.id}
+                        name={author.name}
+                        epithet={author.epithet}
+                        intro={author.intro}
+                        quote={author.quote}
+                        tags={author.tags}
+                        url={`/author/${author.name}`} 
                     />
                 ))}
             </div>
