@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
+import { notFound } from "next/navigation"
 import { PoemCard, SkeletonPoemCard } from "@/components/poem-card"
 import { SiteHeader } from "@/components/site-header"
 import { useVersion } from "@/components/version-provider"
@@ -56,6 +57,10 @@ export default function Page() {
                 </div>
             </>
         )
+    }
+
+    if (poems.length === 0) {
+        notFound()
     }
 
     return (
