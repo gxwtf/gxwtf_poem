@@ -43,9 +43,10 @@ model Star {
     poemId  String
 
     @@map("stars")
-    @@unique([userId, poemId])
+    @@unique(name: "compoundId",[userId, poemId])
     @@index([userId])
     @@index([poemId])
+    @@index([userId,poemId])
 }
 
 model Author {

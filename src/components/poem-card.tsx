@@ -17,8 +17,10 @@ import {
 import { Tag } from "@/components/tag"
 import { useRouter } from "next/navigation";
 import Link from "next/link"
-import prisma from "@/lib/prisma";
 import { Skeleton } from "@/components/ui/skeleton"
+import { updateStar, queryStar } from "@/lib/star";
+import useSession from "@/lib/use-session";
+import { useEffect, useState } from "react";
 
 
 interface PoemCardProps {
@@ -28,6 +30,7 @@ interface PoemCardProps {
     content: string
     tags?: string[]
     url: string
+    id: string
 }
 
 export function PoemCard({
@@ -36,9 +39,20 @@ export function PoemCard({
     dynasty,
     content,
     tags,
-    url
+    url,
+    id
 }: PoemCardProps) {
     const router = useRouter();
+    const { session } = useSession();
+    const userId = session.userid;
+    const [ starStat, setStarStat ] = useState<Boolean>(false);
+    useEffect(() => {
+        queryStar(userId,id)
+        .then((res)=>{
+            console.log(userId,id,res);
+            setStarStat(res);
+        });
+    }, [userId, id]);
     return (
         <Card onClick={(e) => {
             if (!(e.target as HTMLElement).closest('.no-navigate')) {
@@ -57,8 +71,11 @@ export function PoemCard({
                     </Link>
                 </CardDescription>
                 <CardAction>
-                    <button>
-                        <Star fill={false?"var(--muted-foreground)":"#969696"} strokeWidth={0} />
+                    <button onClick={async (event)=>{
+                        event.stopPropagation();
+                        setStarStat(await updateStar(userId, id))
+                    }}>
+                        <Star fill={starStat?"var(--theme-color)":"var(--muted-foreground)"} strokeWidth={0} />
                     </button>
                 </CardAction>
             </CardHeader>

@@ -69,7 +69,8 @@ export default function OverviewPage() {
                         dynasty={poem.dynasty}
                         content={poem.content}
                         tags={poem.tags}
-                        url={`/poem/${version}/${poem.title}`} 
+                        url={`/poem/${version}/${poem.title}`}
+                        id={poem.id}
                     />
                 ))}
             </div>
