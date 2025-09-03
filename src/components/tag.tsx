@@ -32,18 +32,19 @@ export function Tag({ text, href, size="sm"}: TagProps) {
 
 interface TagsProps {
     tags: string[]
+    type: "poem" | "author" | "article"
     className?: string
     size?: string
 }
 
-export function Tags({ tags, className = "", size="sm" }: TagsProps) {
+export function Tags({ tags, type, className = "", size="sm" }: TagsProps) {
     return (
         <div className={`text-primary flex flex-wrap gap-2`+className}>
             {tags.map((tag, index) => (
                 <Tag
                     key={index}
                     text={tag}
-                    href={`/tag/${tag}`}
+                    href={`/tag/${type}/${tag}`}
                     size={size}
                 />
             ))}
@@ -61,11 +62,11 @@ export function GradeTags({className="", size="sm" }: GradeTagsProps) {
 
     if (version === 'junior') {
         return (
-            <Tags className={className} size={size} tags={["七上", "七下", "八上", "八下", "九上", "九下"]} />
+            <Tags type="poem" className={className} size={size} tags={["七上", "七下", "八上", "八下", "九上", "九下"]} />
         )
     } else {
         return (
-            <Tags  className={className} size={size} tags={["必修上", "必修下", "选必上", "选必中", "选必下"]} />
+            <Tags type="poem" className={className} size={size} tags={["必修上", "必修下", "选必上", "选必中", "选必下"]} />
         )
     }
 }

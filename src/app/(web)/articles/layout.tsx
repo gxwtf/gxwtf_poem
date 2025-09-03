@@ -3,7 +3,7 @@ export const metadata = {
     description: "读书课页面",
 }
 
-export default function OverviewLayout({
+export default function Layout({
     children,
 }: {
     children: React.ReactNode
