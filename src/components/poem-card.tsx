@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card"
 
 import { Tag } from "@/components/tag"
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { Skeleton } from "@/components/ui/skeleton"
 
