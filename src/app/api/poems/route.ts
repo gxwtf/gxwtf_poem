@@ -20,7 +20,13 @@ export async function GET(request: NextRequest) {
             }
         })
 
-        return Response.json(poems)
+        // 处理content字段，去除所有的"#"和"/"字符
+        const Poems = poems.map(poem => ({
+            ...poem,
+            content: poem.content ? poem.content.replace(/[#\/]/g, '') : poem.content
+        }))
+
+        return Response.json(Poems)
     } catch (error) {
         console.error('Error fetching poems:', error)
         return Response.json(
