@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react"
 import { PoemCard, SkeletonPoemCard } from "@/components/poem-card"
 import { AuthorCard, SkeletonAuthorCard } from "@/components/author-card"
 import { ArticleCard, SkeletonArticleCard } from "@/components/article-card"
-import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible"
 import { useVersion } from "@/components/version-provider"
 import Link from "next/link"
 
@@ -37,7 +36,7 @@ export default function Recommends() {
             }
         }
         loadRecommends()
-    }, [version]) // 添加版本依赖
+    }, [version])
 
     if (loading) {
         return (
@@ -46,7 +45,12 @@ export default function Recommends() {
                 <div>
                     <div className="flex justify-between items-center my-4">
                         <h2 className="text-2xl font-bold">古诗文推荐</h2>
-                        <div className="h-8 w-20 bg-muted rounded-md animate-pulse" />
+                        <Link
+                            href={`/overview`}
+                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            查看全部
+                        </Link>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         {Array.from({ length: 4 }).map((_, index) => (
@@ -59,7 +63,12 @@ export default function Recommends() {
                 <div>
                     <div className="flex justify-between items-center my-4">
                         <h2 className="text-2xl font-bold">作者推荐</h2>
-                        <div className="h-8 w-20 bg-muted rounded-md animate-pulse" />
+                        <Link
+                            href="/authors"
+                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            查看全部
+                        </Link>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                         {Array.from({ length: 3 }).map((_, index) => (
@@ -72,7 +81,12 @@ export default function Recommends() {
                 <div>
                     <div className="flex justify-between items-center my-4">
                         <h2 className="text-2xl font-bold">读书课推荐</h2>
-                        <div className="h-8 w-20 bg-muted rounded-md animate-pulse" />
+                        <Link
+                            href="/articles"
+                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            查看全部
+                        </Link>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                         {Array.from({ length: 3 }).map((_, index) => (
@@ -91,96 +105,84 @@ export default function Recommends() {
     return (
         <div className="space-y-8">
             {/* 古诗文推荐 */}
-            <Collapsible defaultOpen={true}>
+            <div>
                 <div className="flex justify-between items-center my-4">
                     <h2 className="text-2xl font-bold">古诗文推荐</h2>
-                    <CollapsibleTrigger asChild>
-                        <Link
-                            href={`/overview`}
-                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                        >
-                            查看全部
-                        </Link>
-                    </CollapsibleTrigger>
+                    <Link
+                        href={`/overview`}
+                        className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                        查看全部
+                    </Link>
                 </div>
-                <CollapsibleContent>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                        {data.poems.slice(0, 4).map((poem) => (
-                            <PoemCard
-                                key={poem.id}
-                                title={poem.title}
-                                author={poem.author}
-                                dynasty={poem.dynasty}
-                                content={poem.content}
-                                tags={poem.tags}
-                                url={`/poem/${poem.version}/${poem.title}`}
-                            />
-                        ))}
-                    </div>
-                </CollapsibleContent>
-            </Collapsible>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    {data.poems.slice(0, 4).map((poem) => (
+                        <PoemCard
+                            key={poem.id}
+                            title={poem.title}
+                            author={poem.author}
+                            dynasty={poem.dynasty}
+                            content={poem.content}
+                            tags={poem.tags}
+                            url={`/poem/${poem.version}/${poem.title}`}
+                        />
+                    ))}
+                </div>
+            </div>
 
             {/* 作者推荐 */}
-            <Collapsible defaultOpen={true}>
+            <div>
                 <div className="flex justify-between items-center my-4">
                     <h2 className="text-2xl font-bold">作者推荐</h2>
-                    <CollapsibleTrigger asChild>
-                        <Link
-                            href="/authors"
-                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                        >
-                            查看全部
-                        </Link>
-                    </CollapsibleTrigger>
+                    <Link
+                        href="/authors"
+                        className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                        查看全部
+                    </Link>
                 </div>
-                <CollapsibleContent>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        {data.authors.slice(0, 3).map((author) => (
-                            <AuthorCard
-                                key={author.id}
-                                name={author.name}
-                                epithet={author.epithet}
-                                intro={author.intro}
-                                quote={author.quote}
-                                tags={author.tags}
-                                url={`/author/${author.name}`}
-                            />
-                        ))}
-                    </div>
-                </CollapsibleContent>
-            </Collapsible>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    {data.authors.slice(0, 3).map((author) => (
+                        <AuthorCard
+                            key={author.id}
+                            name={author.name}
+                            epithet={author.epithet}
+                            intro={author.intro}
+                            quote={author.quote}
+                            tags={author.tags}
+                            url={`/author/${author.name}`}
+                        />
+                    ))}
+                </div>
+            </div>
 
             {/* 读书课推荐 */}
-            <Collapsible defaultOpen={true}>
+            <div>
                 <div className="flex justify-between items-center my-4">
                     <h2 className="text-2xl font-bold">读书课推荐</h2>
-                    <CollapsibleTrigger asChild>
-                        <Link
-                            href="/articles"
-                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                        >
-                            查看全部
-                        </Link>
-                    </CollapsibleTrigger>
+                    <Link
+                        href="/articles"
+                        className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                        查看全部
+                    </Link>
                 </div>
-                <CollapsibleContent>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        {data.articles.slice(0, 3).map((article) => (
-                            <ArticleCard
-                                key={article.id}
-                                title={article.title}
-                                author={article.author}
-                                dynasty={article.dynasty}
-                                views={article.views}
-                                abstract={article.abstract}
-                                img={article.img}
-                                tags={article.tags}
-                                url={`/article/${encodeURIComponent(article.title)}`}
-                            />
-                        ))}
-                    </div>
-                </CollapsibleContent>
-            </Collapsible>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    {data.articles.slice(0, 3).map((article) => (
+                        <ArticleCard
+                            key={article.id}
+                            title={article.title}
+                            author={article.author}
+                            dynasty={article.dynasty}
+                            views={article.views}
+                            abstract={article.abstract}
+                            img={article.img}
+                            tags={article.tags}
+                            url={`/article/${encodeURIComponent(article.title)}`}
+                        />
+                    ))}
+                </div>
+            </div>
         </div>
     )
 }
