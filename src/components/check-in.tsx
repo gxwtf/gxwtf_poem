@@ -5,6 +5,7 @@ import useSession from "@/lib/use-session"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
+const { Lunar } = require('lunar-javascript')
 
 interface CheckInData {
     streak: number
@@ -73,7 +74,6 @@ export function CheckIn() {
         }
     }
 
-    // 简化加载判断：只要session或数据在加载中就显示骨架屏
     if (isLoading || isDataLoading) {
         return (
             <Card className="h-full">
@@ -88,18 +88,35 @@ export function CheckIn() {
         )
     }
 
+    const getLunarDate = () => {
+        const d = Lunar.fromDate(new Date())
+        const year = d.getYearInGanZhi() + '年'
+        const month = d.getMonthInChinese() + '月'
+
+        let day = d.getJieQi()
+        if (!day) {
+            const yueXiang = d.getYueXiang()
+            if (["朔", "既朔", "望", "既望", "晦"].includes(yueXiang)) {
+                day = yueXiang + '日'
+            } else {
+                day = d.getDayInChinese()
+            }
+        }
+
+        return { year, month, day }
+    }
+
     return (
         <Card className="h-full">
             <CardContent className="h-full flex flex-col items-center justify-center text-center space-y-4">
-                {/* 日期显示 */}
                 <div>
-                    <div className="text-sm text-muted-foreground">
-                        甲辰年 腊月
+                    <div className="text-sm text-muted-foreground mb-2">
+                        {getLunarDate().year} {getLunarDate().month}
                     </div>
-                    <div className="text-2xl font-bold">
-                        十五
+                    <div className="text-2xl font-bold text-[var(--theme-color)]">
+                        {getLunarDate().day}
                     </div>
-                    <div className="text-xs text-muted-foreground">
+                    <div className="text-sm text-muted-foreground mt-2">
                         {new Date().toLocaleDateString('zh-CN')}
                     </div>
                 </div>
@@ -128,15 +145,12 @@ export function CheckIn() {
                         {hasCheckedInToday && checkInData && (
                             <>
                                 {/* 今日赠言 - 简化样式 */}
-                                <div>
-                                    {/* <h4 className="text-sm font-medium mb-2">今日赠言：</h4> */}
-                                    <div className="leading-relaxed">
-                                        <p className="text-lg mb-4 truncate">{checkInData.todayQuote.quote}</p>
-                                        <p className="text-sm text-muted-foreground text-right mt-2 truncate">
-                                            ——{checkInData.todayQuote.dynasty ? `【${checkInData.todayQuote.dynasty}】` :
-                                                checkInData.todayQuote.author}《{checkInData.todayQuote.title}》
-                                        </p>
-                                    </div>
+                                <div className="leading-relaxed">
+                                    <p className="text-lg mb-4 truncate text-[var(--theme-color)]">{checkInData.todayQuote.quote}</p>
+                                    <p className="text-sm text-muted-foreground text-right mt-2 truncate">
+                                        ———{checkInData.todayQuote.dynasty ? `【${checkInData.todayQuote.dynasty}】` : ""}
+                                            {checkInData.todayQuote.author}《{checkInData.todayQuote.title}》`
+                                    </p>
                                 </div>
 
                                 {/* 连续画卯天数 */}
