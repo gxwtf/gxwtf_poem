@@ -57,7 +57,12 @@ export function PoemCard({
             <CardFooter className="mt-auto">
                 <div className="flex gap-2 overflow-x-hidden">
                     {tags?.slice(0, 3).map(tag => (
-                        <Tag key={tag} text={tag} href={`/tag/poem/${tag}`} />
+                        <Tag 
+                            key={tag} 
+                            text={tag} 
+                            href={`/tag/poem/${tag}`}
+                            className="no-navigate"
+                        />
                     ))}
                 </div>
             </CardFooter>

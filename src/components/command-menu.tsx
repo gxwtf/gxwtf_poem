@@ -9,6 +9,7 @@ import {
     UserPen,
     User,
     Search,
+    Tag
 } from "lucide-react"
 import { Icon } from "@/components/icon"
 import {
@@ -295,6 +296,16 @@ export function CommandMenu() {
                                     onClick={() => setOpen(false)}
                                 >
                                     读书课
+                                </Link>
+                            </CommandItem>
+                            <CommandItem className="text-primary">
+                                <Tag className="mr-2 h-4 w-4" />
+                                <Link
+                                    href={`/tag/poem`}
+                                    className="flex items-center w-full"
+                                    onClick={() => setOpen(false)}
+                                >
+                                    标签
                                 </Link>
                             </CommandItem>
                         </CommandGroup>
