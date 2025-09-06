@@ -41,6 +41,25 @@ export async function main() {
     await prisma.article.deleteMany()
     await prisma.author.deleteMany()
     await prisma.poem.deleteMany()
+    await prisma.quote.deleteMany()
+    await prisma.checkIn.deleteMany()
+    
+    // 处理名句数据
+    const quotePath = path.join(basePath, 'quote', 'index.json')
+    const quoteData = readJsonFile(quotePath)
+    
+    if (quoteData && Array.isArray(quoteData)) {
+        for (const quote of quoteData) {
+            await prisma.quote.create({
+                data: {
+                    title: quote.title,
+                    quote: quote.quote,
+                    author: quote.author,
+                    dynasty: quote.dynasty
+                }
+            })
+        }
+    }
     
     // 处理古诗文数据（junior版本）
     const juniorOrder = getOrderFromFile(path.join(basePath, 'poem/junior/order.tsx'))

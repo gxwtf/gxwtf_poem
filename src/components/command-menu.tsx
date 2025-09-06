@@ -75,9 +75,9 @@ export function CommandMenu() {
         setSearchQuery(searchValue)
     }, [searchValue])
 
-    React.useEffect(() => {
-        console.log('isSearching:', isSearching)
-    }, [isSearching])
+    // React.useEffect(() => {
+    //     console.log('isSearching:', isSearching)
+    // }, [isSearching])
 
     // 搜索古诗文、作者和读书课
     React.useEffect(() => {
