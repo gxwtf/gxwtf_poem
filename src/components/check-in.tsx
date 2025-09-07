@@ -25,32 +25,30 @@ export function CheckIn() {
     const [isDataLoading, setIsDataLoading] = useState(true)
 
     useEffect(() => {
-        // 只有当session加载完成且用户已登录时才获取签到数据
         if (!isLoading && session?.isLoggedIn) {
             fetchCheckInData()
         } else if (!isLoading) {
-            // session加载完成但用户未登录，设置数据加载完成
             setIsDataLoading(false)
         }
     }, [session, isLoading])
 
     const fetchCheckInData = async () => {
         try {
-            console.log('开始获取签到数据')
             const response = await fetch('/api/check-in')
-            console.log('API响应状态:', response.status)
-            const data = await response.json()
-            console.log('获取到的数据:', data)
-            setCheckInData(data)
-            setHasCheckedInToday(data.hasCheckedIn)
+            if (response.ok) {
+                const data = await response.json()
+                setCheckInData(data)
+                setHasCheckedInToday(data.hasCheckedIn)
+            } else {
+                console.error('Failed to fetch check-in data:', response.statusText)
+            }
         } catch (error) {
-            console.error('获取签到数据失败:', error)
+            console.error('Error fetching check-in data:', error)
         } finally {
             setIsDataLoading(false)
         }
     }
 
-    // 添加缺失的handleCheckIn函数
     const handleCheckIn = async () => {
         try {
             const response = await fetch('/api/check-in', {
@@ -59,18 +57,15 @@ export function CheckIn() {
                     'Content-Type': 'application/json',
                 },
             })
-
             if (response.ok) {
-                const result = await response.json()
-                console.log('签到成功:', result)
                 setHasCheckedInToday(true)
                 fetchCheckInData()
             } else {
                 const error = await response.json()
-                console.error('签到失败:', error)
+                console.error('Failed to check in:', error)
             }
         } catch (error) {
-            console.error('签到请求失败:', error)
+            console.error('Error checking in', error)
         }
     }
 
