@@ -79,7 +79,7 @@ export function TodayInHistory() {
 								<div className="mt-0.5">
 									{getEventIcon(event.type)}
 								</div>
-								<span className="text-left whitespace-normal break-words ml-2">{event.data}</span>
+								<span className="text-left whitespace-normal break-words">{event.data}</span>
 							</div>
 						))}
 					</div>
