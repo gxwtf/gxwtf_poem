@@ -2,11 +2,11 @@
     "title": "陋室铭",
     "author": "刘禹锡",
     "dynasty": "唐",
-    "text-align": "paragraph",
+    "mode": "paragraph",
     "content": "山不在高，有仙则名。/水不在深，有龙则灵。/斯是陋室，惟吾德馨。/苔痕上阶绿，草色入帘青。/谈笑有鸿儒，往来无白丁。/可以调素琴，阅金经。/无丝竹之乱耳，无案牍之劳形。/南阳诸葛庐，西蜀子云亭。/孔子云：何陋之有？",
     "translation": "山不在于高，有了仙人就成了名山。/水不在于深，有了龙就成为灵异的水。/这是简陋的屋子，只是我的品德高尚（就不感到简陋了）。/苔痕碧绿，长到阶上；草色青葱，映入帘里。/谈笑的是学问渊博的学者，往来的没有浅薄的人。/可以用来弹奏朴素的古琴，阅读珍贵的佛经。/没有嘈杂的音乐扰乱耳朵，没有官府的公文劳累身心。/（它好比）南阳诸葛亮的草庐，西蜀扬子云的玄亭。/孔子说：有什么简陋的呢？",
     "pinyin": "shān bù zài gāo , yǒu xiān zé míng . / shuǐ bù zài shēn , yǒu lóng zé líng . / sī shì lòu shì , wéi wú dé xīn . / tái hén shàng jiē lǜ , cǎo sè rù lián qīng . / tán xiào yǒu hóng rú , wǎng lái wú bái dīng . / kě yǐ tiáo sù qín , yuè jīn jīng . / wú sī zhú zhī luàn ěr , wú àn dú zhī láo xíng . / nán yáng zhū gě lú , xī shǔ zǐ yún tíng . / kǒng zǐ yún : hé lòu zhī yǒu ?",
-    "comment": [
+    "notes": [
         {"start": 29, "end": 30, "content": "品德高尚"},
         {"start": 49, "end": 50, "content": "博学的人"},
         {"start": 55, "end": 56, "content": "没有学问的人"},
