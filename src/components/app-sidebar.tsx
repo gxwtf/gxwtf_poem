@@ -39,12 +39,42 @@ const data = {
                     url: "/overview",
                 },
                 {
-                    title: "预览",
-                    url: "/poem/junior/次北固山下",
+                    title: "知识梳理[Demo]",
+                    url: "/comb/junior/次北固山下",
                 },
                 {
-                    title: "知识梳理",
-                    url: "/comb/junior/次北固山下",
+                    title: "标签",
+                    url: "/tag/poem",
+                },
+            ],
+        },
+        {
+            title: "作者",
+            url: "/authors",
+            icon: UserPen,
+            items: [
+                {
+                    title: "概览",
+                    url: "/authors",
+                },
+                {
+                    title: "标签",
+                    url: "/tag/author",
+                },
+            ],
+        },
+        {
+            title: "读书课",
+            url: "/articles",
+            icon: BookOpenText,
+            items: [
+                {
+                    title: "概览",
+                    url: "/articles",
+                },
+                {
+                    title: "标签",
+                    url: "/tag/article",
                 },
             ],
         },
@@ -66,30 +96,6 @@ const data = {
                     url: "/tag/article",
                 },
             ],
-        },
-        {
-            title: "作者",
-            url: "/authors",
-            icon: UserPen,
-            items: [
-                {
-                    title: "概览",
-                    url: "/authors",
-                },
-                {
-                    title: "简介",
-                    url: "/author/李白",
-                },
-                {
-                    title: "文常学习",
-                    url: "#",
-                },
-            ],
-        },
-        {
-            title: "读书课",
-            url: "/articles",
-            icon: BookOpenText,
         },
         {
             title: "游戏",

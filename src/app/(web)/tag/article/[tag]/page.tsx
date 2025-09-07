@@ -47,7 +47,10 @@ export default function Page() {
     if (loading) {
         return (
             <>
-                <SiteHeader now={`标签: ${tag}`} />
+                <SiteHeader
+                    now={`${tag}`}
+                    data={[ { name: "读书课", href: "/articles" }, { name: "标签", href: "/tag/article" }]}
+                />
                 <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {Array.from({ length: skeletonCount }).map((_, index) => (
                         <SkeletonArticleCard key={index} />
@@ -59,9 +62,9 @@ export default function Page() {
 
     return (
         <>
-            <SiteHeader 
+            <SiteHeader
                 now={`${tag}`}
-                data={[ { name: "读书课", href: "/articles" }, { name: "文章标签", href: "/tag/article" }]}
+                data={[ { name: "读书课", href: "/articles" }, { name: "标签", href: "/tag/article" }]}
             />
             <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {articles.map((article) => (
