@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { Cake, PillBottle, CalendarDays } from "lucide-react"
 
 interface EventData {

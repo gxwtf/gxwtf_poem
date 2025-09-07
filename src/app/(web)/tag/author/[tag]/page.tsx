@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
-import { notFound } from "next/navigation"
 import { AuthorCard, SkeletonAuthorCard } from "@/components/author-card"
 import { SiteHeader } from "@/components/site-header"
 import { useVersion } from "@/components/version-provider"

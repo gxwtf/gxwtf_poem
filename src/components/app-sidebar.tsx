@@ -3,24 +3,15 @@
 import * as React from "react"
 import { useVersion } from "@/components/version-provider";
 import {
-    BookOpen,
-    CircleUserRound,
-    Command,
-    Cpu,
-    Frame,
     Gamepad2,
     LifeBuoy,
-    Map,
-    Megaphone,
     Send,
-    SquareTerminal,
     Tag,
     UserPen,
 	BookOpenText
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
-import { NavProjects } from "@/components/nav-projects"
 import { NavSecondary } from "@/components/nav-secondary"
 import { NavUser } from "@/components/nav-user"
 import {
@@ -136,31 +127,7 @@ const data = {
             icon: Send,
         },
     ],
-	projects: [
-
-	]
-    // projects: [
-    //     {
-    //         name: "前端设计",
-    //         url: "https://ui.shadcn.com/",
-    //         icon: Frame,
-    //     },
-    //     {
-    //         name: "后端开发",
-    //         url: "https://docs.gxwtf.cn/#/poem/",
-    //         icon: SquareTerminal,
-    //     },
-    //     {
-    //         name: "网站推广",
-    //         url: "https://ad.weixin.qq.com/",
-    //         icon: Megaphone,
-    //     },
-    //     {
-    //         name: "行万里路",
-    //         url: "https://ctrip.com/",
-    //         icon: Map,
-    //     },
-    // ],
+	projects: []
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {

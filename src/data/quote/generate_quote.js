@@ -1,5 +1,4 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs'
 
 // 读取sentence文件
 const sentenceData = fs.readFileSync('./sentence/sentence1-10000.json', 'utf8');

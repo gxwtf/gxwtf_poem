@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
-import { notFound } from "next/navigation"
 import { ArticleCard, SkeletonArticleCard } from "@/components/article-card"
 import { SiteHeader } from "@/components/site-header"
 

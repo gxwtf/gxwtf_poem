@@ -53,9 +53,9 @@ export async function GET(request: NextRequest) {
             now = new Date()
         }
         
-        let year = now.getFullYear()
-        let month = now.getMonth() + 1
-        let day = now.getDate()
+        const year = now.getFullYear()
+        const month = now.getMonth() + 1
+        const day = now.getDate()
         
         // 查询数据库中的事件
         const events = await prisma.event.findMany({

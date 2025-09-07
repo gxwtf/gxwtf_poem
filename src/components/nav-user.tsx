@@ -30,7 +30,6 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
-import {useRouter} from "next/navigation";
 import Link from "next/link";
 
 export function NavUser({
@@ -42,7 +41,6 @@ export function NavUser({
     avatar: string
   }
 }) {
-    const router = useRouter()
     const { isMobile } = useSidebar()
     const { logout } = useSession()
     let pathname = '/dashboard';

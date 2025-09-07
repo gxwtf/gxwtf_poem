@@ -3,7 +3,6 @@
 import * as React from "react"
 import {
     BookOpenText,
-    ScrollText,
     CreditCard,
     Settings,
     UserPen,
@@ -25,6 +24,7 @@ import {
 import Link from "next/link"
 import { useDebounce } from "@react-hook/debounce"
 import { useIsMac } from "@/hooks/use-is-mac"
+import Image from "next/image"
 
 interface SearchResult {
     title: string
@@ -69,15 +69,11 @@ export function CommandMenu() {
         }
         document.addEventListener("keydown", down)
         return () => document.removeEventListener("keydown", down)
-    }, [])
+    })
 
     React.useEffect(() => {
         setSearchQuery(searchValue)
-    }, [searchValue])
-
-    // React.useEffect(() => {
-    //     console.log('isSearching:', isSearching)
-    // }, [isSearching])
+    })
 
     // 搜索古诗文、作者和读书课
     React.useEffect(() => {
@@ -179,9 +175,11 @@ export function CommandMenu() {
                                                         onClick={() => setOpen(false)}
                                                     >
                                                         {result.avatar ? (
-                                                            <img
+                                                            <Image
                                                                 src={result.avatar}
                                                                 alt={result.name}
+                                                                height={64}
+                                                                width={64}
                                                                 className="mr-2 h-4 w-4 rounded-full object-cover"
                                                             />
                                                         ) : (

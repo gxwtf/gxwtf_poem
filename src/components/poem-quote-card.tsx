@@ -3,13 +3,9 @@
 import {
     Card,
     CardContent,
-    CardDescription,
     CardFooter,
-    CardHeader,
-    CardTitle,
 } from "@/components/ui/card"
 import { useRouter } from "next/navigation";
-import Link from "next/link"
 
 interface PoemQuoteCardProps {
     title: string

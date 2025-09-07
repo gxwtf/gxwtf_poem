@@ -1,10 +1,10 @@
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { cookies } from 'next/headers'
 import { getIronSession } from 'iron-session'
 import { SessionData, sessionOptions } from '@/lib/iron'
 import prisma from '@/lib/prisma'
 
-export async function GET(request: NextRequest) {
+export async function GET() {
     const session = await getIronSession<SessionData>(await cookies(), sessionOptions)
 
     if (!session?.isLoggedIn) {
@@ -85,13 +85,13 @@ export async function GET(request: NextRequest) {
         })
     } catch (error) {
         return NextResponse.json(
-            { error: '获取签到数据失败' },
+            { error: '获取签到数据失败', message: error },
             { status: 500 }
         )
     }
 }
 
-export async function POST(request: NextRequest) {
+export async function POST() {
     const session = await getIronSession<SessionData>(await cookies(), sessionOptions)
 
     if (!session?.isLoggedIn) {
@@ -126,7 +126,7 @@ export async function POST(request: NextRequest) {
         const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
 
         // 创建签到记录
-        const checkIn = await prisma.checkIn.create({
+        await prisma.checkIn.create({
             data: {
                 userId: session.userid,
                 date: new Date(),
