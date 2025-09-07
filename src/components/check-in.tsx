@@ -149,7 +149,7 @@ export function CheckIn() {
                                     <p className="text-lg mb-4 truncate text-[var(--theme-color)]">{checkInData.todayQuote.quote}</p>
                                     <p className="text-sm text-muted-foreground text-right mt-2 truncate">
                                         ———{checkInData.todayQuote.dynasty ? `【${checkInData.todayQuote.dynasty}】` : ""}
-                                            {checkInData.todayQuote.author}《{checkInData.todayQuote.title}》`
+                                        {checkInData.todayQuote.author}《{checkInData.todayQuote.title}》`
                                     </p>
                                 </div>
 
