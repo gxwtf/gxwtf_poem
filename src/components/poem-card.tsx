@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/card"
 
 import { Tag } from "@/components/tag"
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { Skeleton } from "@/components/ui/skeleton"
 import { updateStar, queryStar } from "@/lib/star";
@@ -85,7 +85,12 @@ export function PoemCard({
             <CardFooter className="mt-auto">
                 <div className="flex gap-2 overflow-x-hidden">
                     {tags?.slice(0, 3).map(tag => (
-                        <Tag key={tag} text={tag} href={`/tag/poem/${tag}`} />
+                        <Tag 
+                            key={tag} 
+                            text={tag} 
+                            href={`/tag/poem/${tag}`}
+                            className="no-navigate"
+                        />
                     ))}
                 </div>
             </CardFooter>

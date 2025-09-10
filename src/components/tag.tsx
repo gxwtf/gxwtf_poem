@@ -7,7 +7,7 @@ interface TagProps {
     text: string
     href?: string
     className?: string
-    size?: string
+    size?: "default" | "icon" | "sm" | "lg" | null | undefined
 }
 
 export function Tag({ text, href, size="sm", className = "" }: TagProps) {
@@ -16,8 +16,6 @@ export function Tag({ text, href, size="sm", className = "" }: TagProps) {
             <Button size={size} asChild variant="outline" className={className}>
                 <Link
                     href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
                 >{text}
                 </Link>
             </Button>
@@ -34,7 +32,7 @@ interface TagsProps {
     tags: string[]
     type: "poem" | "author" | "article"
     className?: string
-    size?: string
+    size?: "default" | "icon" | "sm" | "lg" | null | undefined
 }
 
 export function Tags({ tags, type, className = "", size="sm" }: TagsProps) {
@@ -54,7 +52,7 @@ export function Tags({ tags, type, className = "", size="sm" }: TagsProps) {
 
 interface GradeTagsProps {
     className?: string
-    size?: string
+    size?: "default" | "icon" | "sm" | "lg" | null | undefined
 }
 
 export function GradeTags({className="", size="sm" }: GradeTagsProps) {

@@ -46,13 +46,13 @@ export async function GET(request: NextRequest) {
             session.version = session.grade >= 10 ? 'senior' : 'junior';
             await session.save();
 
-            return NextResponse.redirect(new URL(back, 'http://'+host), 302);
+            return NextResponse.redirect(new URL(back + '?alert=登录成功&alerttype=normal&alertsec=欢迎回来！', 'http://'+host), 302);
         }
         else {
-            return NextResponse.redirect(new URL('/login?back='+back, 'http://'+host), 302);
+            return NextResponse.redirect(new URL('/login?back='+back + '&alert=单点登录失败&alerttype=destructive&alertsec=请尝试重新登录或使用用户名和密码登录', 'http://'+host), 302);
         }
     } catch (e) {
         console.error(e);
-        return NextResponse.redirect(new URL('/login?back='+back, 'http://'+host), 302);
+        return NextResponse.redirect(new URL('/login?back='+back + '&alert=单点登录失败&alerttype=destructive&alertsec=请尝试重新登录或使用用户名和密码登录。错误信息：'+e, 'http://'+host), 302);
     }
 }

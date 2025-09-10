@@ -8,6 +8,7 @@ import Link from "next/link"
 import Image from "next/image"
 import useSession from "@/lib/use-session"
 import {useRouter, useSearchParams} from "next/navigation"
+import { useAlertContext } from "@/components/alert-provider"
 
 export function LoginForm({
   className,
@@ -15,6 +16,7 @@ export function LoginForm({
 }: React.ComponentProps<"form">) {
     const router = useRouter()
     const { session, login } = useSession()
+    const { showAlert } = useAlertContext()
   const searchParams = useSearchParams()
   const back = searchParams.get("back") || "/dashboard"
   let host = "localhost:3000";
@@ -35,7 +37,18 @@ export function LoginForm({
             ...session
           },
         }).then(() => {
+            showAlert({
+              type: 'normal',
+              title: '登录成功',
+              description: '欢迎回来！'
+            })
             router.push(back)
+        }).catch((error) => {
+            showAlert({
+              type: 'destructive',
+              title: '登录失败',
+              description: `请检查用户名和密码后重试。错误信息：${error.message}`
+            })
         })
       }}
       method="POST"

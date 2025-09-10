@@ -46,7 +46,7 @@ export default function ArticlesPage() {
         return (
             <>
                 <SiteHeader now="读书课" />
-                <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {Array.from({ length: skeletonCount }).map((_, index) => (
                         <SkeletonArticleCard key={index} />
                     ))}
@@ -58,7 +58,7 @@ export default function ArticlesPage() {
     return (
         <>
             <SiteHeader now="读书课" />
-            <div className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {articles.map((article) => (
                     <ArticleCard 
                         key={article.id}

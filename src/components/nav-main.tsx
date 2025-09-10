@@ -19,6 +19,7 @@ import {
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
 import Link from "next/link";
+import React from "react";
 
 export function NavMain({
   items,
@@ -26,7 +27,7 @@ export function NavMain({
   items: {
     title: string
     url: string
-    icon: LucideIcon
+    icon: LucideIcon | React.FC
     isActive?: boolean
     items?: {
       title: string

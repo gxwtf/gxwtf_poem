@@ -2,12 +2,11 @@
 import { notFound } from 'next/navigation'
 import { MDXPreview } from '@/components/mdx-preview'
 import { loadMDXWithTOC } from '@/lib/mdx-utils'
+import {MetaData} from "fumadocs-core/source";
 
-export async function generateMetadata() {
-    return {
-        title: `古诗文标签`,
-        description: `古诗文标签概览页面`,
-    };
+export const metadata: MetaData = {
+    title: `古诗文标签 - 广学古诗文`,
+    description: `古诗文标签概览页面`,
 }
 
 export default async function Page() {
@@ -17,7 +16,7 @@ export default async function Page() {
             <MDXPreview
                 mdxContent={<PreviewMDX />}
                 toc={toc}
-                now={"古诗文标签"}
+                now={"标签"}
                 headerData={[{ name: "古诗文", href: "/overview" }]}
             />
         );

@@ -1,4 +1,4 @@
-import { PrismaClient } from '../src/app/generated/prisma'
+import { PrismaClient } from '@prisma/client'
 import fs from 'fs'
 import path from 'path'
 
@@ -38,9 +38,40 @@ export async function main() {
     const basePath = path.join(__dirname, '../src/data')
     
     // 清空现有数据
+    // await prisma.checkIn.deleteMany() 
+    // await prisma.quote.deleteMany()
     await prisma.article.deleteMany()
     await prisma.author.deleteMany()
     await prisma.poem.deleteMany()
+    await prisma.event.deleteMany()
+    
+    // 处理名句数据 - 只添加新的quote记录
+    const quotePath = path.join(basePath, 'quote', 'index.json')
+    const quoteData = readJsonFile(quotePath)
+    
+    if (quoteData && Array.isArray(quoteData)) {
+        for (const quote of quoteData) {
+            // 检查quote是否已存在
+            const existingQuote = await prisma.quote.findFirst({
+                where: {
+                    quote: quote.quote,
+                    author: quote.author
+                }
+            })
+            
+            // 如果不存在，则创建新记录
+            if (!existingQuote) {
+                await prisma.quote.create({
+                    data: {
+                        title: quote.title,
+                        quote: quote.quote,
+                        author: quote.author,
+                        dynasty: quote.dynasty
+                    }
+                })
+            }
+        }
+    }
     
     // 处理古诗文数据（junior版本）
     const juniorOrder = getOrderFromFile(path.join(basePath, 'poem/junior/order.tsx'))
@@ -122,6 +153,26 @@ export async function main() {
                     avatar: authorData.avatar,
                     intro: authorData.intro,
                     tags: authorData.tags || []
+                }
+            })
+        }
+    }
+    
+    // 处理历史事件数据
+    const eventPath = path.join(basePath, 'event', 'index.json')
+    const eventData = readJsonFile(eventPath)
+    
+    if (eventData && Array.isArray(eventData)) {
+        for (const event of eventData) {
+            await prisma.event.create({
+                data: {
+                    year: event.year,
+                    month: event.month,
+                    day: event.day,
+                    type: event.type,
+                    figure: event.figure,
+                    importance: event.importance,
+                    data: event.data
                 }
             })
         }

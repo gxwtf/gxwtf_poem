@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
-import { notFound } from "next/navigation"
 import { AuthorCard, SkeletonAuthorCard } from "@/components/author-card"
 import { SiteHeader } from "@/components/site-header"
 import { useVersion } from "@/components/version-provider"
@@ -49,7 +48,10 @@ export default function Page() {
     if (loading) {
         return (
             <>
-                <SiteHeader now={`标签: ${tag}`} />
+                <SiteHeader
+                    now={`${tag}`}
+                    data={[ { name: "作者", href: "/authors" }, { name: "标签", href: "/tag/author" }]}
+                />
                 <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {Array.from({ length: skeletonCount }).map((_, index) => (
                         <SkeletonAuthorCard key={index} />
@@ -63,7 +65,7 @@ export default function Page() {
         <>
             <SiteHeader 
                 now={`${tag}`}
-                data={[ { name: "作者", href: "/authors" }, { name: "作者标签", href: "/tag/author" }]}
+                data={[ { name: "作者", href: "/authors" }, { name: "标签", href: "/tag/author" }]}
             />
             <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {authors.map((author) => (

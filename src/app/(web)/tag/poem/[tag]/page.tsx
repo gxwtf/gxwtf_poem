@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
-import { notFound } from "next/navigation"
 import { PoemCard, SkeletonPoemCard } from "@/components/poem-card"
 import { SiteHeader } from "@/components/site-header"
 import { useVersion } from "@/components/version-provider"
@@ -50,7 +49,10 @@ export default function Page() {
     if (loading) {
         return (
             <>
-                <SiteHeader now={`标签: ${tag}`} />
+                <SiteHeader
+                    now={`${tag}`}
+                    data={[ { name: "古诗文", href: "/overview" }, { name: "标签", href: "/tag/poem" }]}
+                />
                 <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {Array.from({ length: skeletonCount }).map((_, index) => (
                         <SkeletonPoemCard key={index} />
@@ -64,7 +66,7 @@ export default function Page() {
         <>
             <SiteHeader 
                 now={`${tag}`}
-                data={[ { name: "古诗文", href: "/overview" }, { name: "古诗文标签", href: "/tag/poem" }]}
+                data={[ { name: "古诗文", href: "/overview" }, { name: "标签", href: "/tag/poem" }]}
             />
             <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {poems.map((poem) => (
