@@ -42,7 +42,7 @@ export function TodayInHistory() {
 	if (loading) {
 		return (
 			<Card className="h-full">
-				<CardContent className="h-full flex flex-col items-center justify-center text-center">
+				<CardContent className="h-full flex flex-col items-center justify-center text-center min-h-[256px]">
 					<div className="animate-pulse">
 						<div className="h-4 bg-muted rounded w-1/2 mb-4 mx-auto" />
 						<div className="h-20 bg-muted rounded mb-4" />

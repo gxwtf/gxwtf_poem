@@ -72,7 +72,7 @@ export function CheckIn() {
     if (isLoading || isDataLoading) {
         return (
             <Card className="h-full">
-                <CardContent className="h-full flex flex-col items-center justify-center text-center">
+                <CardContent className="h-full flex flex-col items-center justify-center text-center min-h-[256px]">
                     <div className="animate-pulse">
                         <div className="h-4 bg-muted rounded w-1/2 mb-4 mx-auto" />
                         <div className="h-20 bg-muted rounded mb-4" />
@@ -103,7 +103,7 @@ export function CheckIn() {
 
     return (
         <Card className="h-full">
-            <CardContent className="h-full flex flex-col items-center justify-center text-center space-y-4">
+            <CardContent className="h-full flex flex-col items-center justify-center text-center space-y-4 min-h-[256px]">
                 <div>
                     <div className="text-sm text-muted-foreground mb-2">
                         {getLunarDate().year} {getLunarDate().month}
