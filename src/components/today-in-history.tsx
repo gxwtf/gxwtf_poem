@@ -66,7 +66,7 @@ export function TodayInHistory() {
 
 	return (
 		<Card className="h-full">
-			<CardContent className="h-full flex flex-col items-center justify-center text-center space-y-4">
+			<CardContent className="h-full flex flex-col items-center justify-center text-center space-y-4 min-h-[256px]">
 				<div className="text-lg font-bold text-[var(--theme-color)] flex items-center justify-center">
 					{events.length === 0 ? '兹日波澜不惊，诸事平宁' : events[0].data}
 				</div>
