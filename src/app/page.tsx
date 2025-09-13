@@ -1,104 +1,70 @@
-import Image from "next/image";
+"use client"
+
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import useSession from "@/lib/use-session";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)] text-primary">
-          <li className="mb-2 tracking-[-.01em]">
-            广学古诗文前端设计
-          </li>
-          <li className="mb-2 tracking-[-.01em]">
-            广学古诗文后端开发
-          </li>
-          <li className="mb-2 tracking-[-.01em]">
-            广学古诗文网站推广
-          </li>
-          <li className="tracking-[-.01em]">
-            徐徐渐进、广见洽闻、业精于勤
-          </li>
-        </ol>
+  const { session, isLoading } = useSession();
+  const router = useRouter();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Link
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="/dashboard"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
+  useEffect(() => {
+    if (!isLoading && session?.isLoggedIn) {
+      router.replace("/dashboard");
+    }
+  }, [session, isLoading, router]);
+
+  if (isLoading) {
+    return (
+      <section className="dark relative flex h-svh max-h-[1400px] w-svw overflow-hidden bg-[url('/huoban.png')] bg-cover bg-center bg-no-repeat font-sans after:absolute after:left-0 after:top-0 after:z-10 after:h-full after:w-full after:bg-black/20 after:content-[''] md:h-svh">
+        <div className="relative z-30 m-auto flex max-w-[46.25rem] flex-col items-center justify-center gap-6 px-5">
+          <div className="text-foreground text-center font-serif text-4xl leading-tight md:text-6xl xl:text-[4.4rem]">
+            广学古诗文
+          </div>
+          <p className="text-foreground text-center text-base">
+            正在加载中...
+          </p>
+        </div>
+        <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-[url('/noise.png')] bg-repeat opacity-15" />
+      </section>
+    );
+  }
+
+  if (session?.isLoggedIn) {
+    return null; // 跳转中，不渲染内容
+  }
+
+  return (
+    <section className="dark relative flex h-svh max-h-[1400px] w-svw overflow-hidden bg-[url('/huoban.png')] bg-cover bg-center bg-no-repeat font-sans after:absolute after:left-0 after:top-0 after:z-10 after:h-full after:w-full after:bg-black/20 after:content-[''] md:h-svh">
+      <div className="relative z-30 m-auto flex max-w-[46.25rem] flex-col items-center justify-center gap-6 px-5">
+        <h1 className="text-foreground text-center font-serif text-4xl leading-tight md:text-6xl xl:text-[4.4rem]">
+          广学古诗文
+        </h1>
+        <p className="text-foreground text-center text-base">
+          中学语文一站式学习平台，在玩中领略诗词之美。
+        </p>
+        <Button className="h-fit w-fit rounded-full px-7 py-4 text-sm font-medium leading-tight" asChild>
+          <Link href="/dashboard">
             进入广学古诗文
           </Link>
-          <Link
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px] text-primary"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Next.js 文档
+        </Button>
+      </div>
+      <div className="pointer-events-none absolute inset-0 z-20 h-full w-full bg-[url('/noise.png')] bg-repeat opacity-15" />
+      
+      {/* 备案信息 */}
+      <div className="absolute bottom-4 left-0 right-0 z-30 flex justify-center">
+        <div className="text-foreground/70 text-xs">
+          <Link href="/about" className="hover:text-foreground transition-colors">
+            关于我们
+          </Link>
+          <span className="mx-2">|</span>
+          <Link href="https://beian.miit.gov.cn/" className="hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
+            京ICP备2025107534号-1
           </Link>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center text-primary">
-        <Link
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          学习 Next.js
-        </Link>
-        <Link
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          看看大佬们是怎么写的
-        </Link>
-        <Link
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          打开 Next.js 官网 →
-        </Link>
-      </footer>
-    </div>
+      </div>
+    </section>
   );
 }

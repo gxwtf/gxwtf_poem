@@ -3,12 +3,13 @@
 import * as React from "react"
 import { useVersion } from "@/components/version-provider";
 import {
-    Gamepad2,
+    // Gamepad2,
     LifeBuoy,
     Send,
     Tag,
     UserPen,
-	BookOpenText
+	BookOpenText,
+    Info
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
@@ -97,28 +98,33 @@ const data = {
                 },
             ],
         },
+        // {
+        //     title: "游戏",
+        //     url: "#",
+        //     icon: Gamepad2,
+        //     items: [
+        //         {
+        //             title: "句读知不知",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "不背文言",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "诗词九宫格",
+        //             url: "#",
+        //         },
+        //         {
+        //             title: "诗文连句",
+        //             url: "#",
+        //         },
+        //     ],
+        // },
         {
-            title: "游戏",
-            url: "#",
-            icon: Gamepad2,
-            items: [
-                {
-                    title: "句读知不知",
-                    url: "#",
-                },
-                {
-                    title: "不背文言",
-                    url: "#",
-                },
-                {
-                    title: "诗词九宫格",
-                    url: "#",
-                },
-                {
-                    title: "诗文连句",
-                    url: "#",
-                },
-            ],
+            title: "关于",
+            url: "/about",
+            icon: Info,
         },
     ],
     navSecondary: [
