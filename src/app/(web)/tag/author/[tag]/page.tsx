@@ -52,7 +52,7 @@ export default function Page() {
                     now={`${tag}`}
                     data={[ { name: "作者", href: "/authors" }, { name: "标签", href: "/tag/author" }]}
                 />
-                <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div className="p-2 sm:p-4 md:p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4 md:gap-6">
                     {Array.from({ length: skeletonCount }).map((_, index) => (
                         <SkeletonAuthorCard key={index} />
                     ))}
@@ -67,7 +67,7 @@ export default function Page() {
                 now={`${tag}`}
                 data={[ { name: "作者", href: "/authors" }, { name: "标签", href: "/tag/author" }]}
             />
-            <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="p-2 sm:p-4 md:p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4 md:gap-6">
                 {authors.map((author) => (
                     <AuthorCard 
                         key={author.id}

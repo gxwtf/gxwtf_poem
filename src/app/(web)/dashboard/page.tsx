@@ -10,13 +10,13 @@ export default function Page() {
     return (
         <>
             <SiteHeader />
-            <div className="flex flex-1 flex-col gap-4 p-4">
-                <div className="grid auto-rows-min gap-4 md:grid-cols-3 p-6">
+            <div className="flex flex-1 flex-col gap-4 p-2 sm:p-4 md:p-6">
+                <div className="grid auto-rows-min gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     <CheckIn />
                     <div className="bg-muted/50 aspect-video rounded-xl" />
                     <TodayInHistory />
                 </div>
-                <div className="min-h-[100vh] flex-1 rounded-xl md:min-h-min p-6">
+                <div className="min-h-[100vh] flex-1 rounded-xl md:min-h-min">
                     <Recommends />
                 </div>
             </div>

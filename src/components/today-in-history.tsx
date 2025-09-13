@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
+import { Skeleton } from "@/components/ui/skeleton"
 import { Cake, PillBottle, CalendarDays } from "lucide-react"
 
 interface EventData {
@@ -42,11 +43,13 @@ export function TodayInHistory() {
 	if (loading) {
 		return (
 			<Card className="h-full">
-				<CardContent className="h-full flex flex-col items-center justify-center text-center min-h-[256px]">
-					<div className="animate-pulse">
-						<div className="h-4 bg-muted rounded w-1/2 mb-4 mx-auto" />
-						<div className="h-20 bg-muted rounded mb-4" />
-						<div className="h-8 bg-muted rounded w-1/3 mx-auto" />
+				<CardContent className="h-full flex flex-col items-center justify-center text-center space-y-4 min-h-[256px]">
+					<Skeleton className="h-6 w-3/4 mb-4" />
+					<div className="space-y-2 w-full">
+						<Skeleton className="h-4 w-full" />
+						<Skeleton className="h-4 w-5/6" />
+						<Skeleton className="h-4 w-4/6" />
+						<Skeleton className="h-4 w-3/6" />
 					</div>
 				</CardContent>
 			</Card>
@@ -72,7 +75,7 @@ export function TodayInHistory() {
 				</div>
 
 				{events.length > 0 && (
-					<div className="space-y-2 overflow-y-auto max-h-52 w-full">
+					<div className="space-y-2 overflow-y-auto max-h-52 w-full max-w-full">
 						{events.slice(1).map((event, index) => (
 							<div key={index} className="flex items-start text-sm text-muted-foreground w-full">
 								<div className="mt-0.5">
