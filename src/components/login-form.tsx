@@ -9,6 +9,7 @@ import Image from "next/image"
 import useSession from "@/lib/use-session"
 import {useRouter, useSearchParams} from "next/navigation"
 import { useAlertContext } from "@/components/alert-provider"
+import { useEffect, useState } from "react"
 
 export function LoginForm({
   className,
@@ -19,10 +20,12 @@ export function LoginForm({
     const { showAlert } = useAlertContext()
   const searchParams = useSearchParams()
   const back = searchParams.get("back") || "/dashboard"
-  let host = "localhost:3000";
+  const [host,setHost] = useState<string>('localhost:3000')
+  useEffect(() => {
     if (typeof window !== "undefined") {
-      host = window.location.host;
+      setHost(window.location.host);
     }
+  }, [])
 
   return (
     <form 
@@ -85,14 +88,14 @@ export function LoginForm({
             或者通过以下方式继续
           </span>
         </div>
-        <Link className={buttonVariants({ variant: "outline" }) + " text-primary w-full"} href={`/sso/login?system=${host}&back=${back}`}>
-          <Image src="https://ai.gxwtf.cn/favicon.ico" alt="广学账号" width={20} height={20} />
+        <a className={buttonVariants({ variant: "outline" }) + " text-primary w-full"} href={`/sso/login?system=${host}&back=${back}`}>
+          <Image src="https://account.gxwtf.cn/favicon.ico" alt="广学账号" width={20} height={20} />
           使用广学账号登录
-        </Link>
+        </a>
       </div>
       <div className="text-primary text-center text-sm">
         没有账号？{" "}
-        <Link href="https://ai.gxwtf.cn/register?back=http://localhost:3000/login" className="underline underline-offset-4">
+        <Link href="https://account.gxwtf.cn/register?back=http://localhost:3000/login" className="underline underline-offset-4">
           立即注册
         </Link>
       </div>
