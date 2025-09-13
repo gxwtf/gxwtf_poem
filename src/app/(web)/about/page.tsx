@@ -28,13 +28,13 @@ export default async function AboutPage() {
                 alt="广学古诗文"
                 width={80}
                 height={80}
-                className="rounded-lg"
+                className="rounded-lg w-40px h-40px md:w-80px md:h-80px"
               />
             </div>
             
             {/* 中间标题 */}
             <div className="text-center">
-              <h1 className="text-5xl font-bold bg-primary bg-clip-text text-transparent">
+              <h1 className="text-4xl font-bold bg-primary bg-clip-text text-transparent md:text-5xl">
                 广学古诗文
               </h1>
             </div>
@@ -110,7 +110,7 @@ export default async function AboutPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    https://github.com/gxwtf/gxwtf_poem_react
+                    gxwtf/gxwtf_poem_react
                   </Link>
                 </p>
               </div>
