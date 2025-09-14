@@ -12,7 +12,7 @@ import {
 
 export function CarouselPlugin() {
     const plugin = React.useRef(
-        Autoplay({ delay: 3000, stopOnInteraction: false })
+        Autoplay({ delay: 5000, stopOnInteraction: false })
     )
 
     const imageUrls = [
@@ -44,62 +44,64 @@ export function CarouselPlugin() {
     // DotButton 组件
     const DotButton = ({ selected, onClick }: { selected: boolean; onClick: () => void }) => (
         <button
-            className={`w-4 h-4 rounded-full mx-1 border transition-all ${
-                selected ? "bg-[var(--theme-color)] border-[var(--theme-color)]" : "bg-gray-300 border-gray-400"
-            }`}
+            className={`w-3 h-3 rounded-full mx-1 transition-all ${selected
+                    ? "border-2 border-[var(--theme-color)]"
+                    : "border-2 border-muted-foreground"
+                }`}
             onClick={onClick}
             aria-label="跳转到该图片"
         />
     )
 
     return (
-        <div className="w-full h-full flex flex-col items-center justify-center min-h-[256px]">
-            <Carousel
-                plugins={[plugin.current]}
-                opts={{
-                    align: "center",
-                    loop: true,
-                }}
-                className="w-full h-full"
-                setApi={setEmblaApi}
-                onMouseEnter={plugin.current.stop}
-                onMouseLeave={plugin.current.reset}
-            >
-                <CarouselContent>
-                    {imageUrls.map((url, index) => (
-                        <CarouselItem key={index}>
-                            <div className="p-1 h-full">
-                                <div className="min-h-[256px] relative w-full h-full rounded-xl overflow-hidden">
-                                    <img
-                                        src={url}
-                                        alt={`Carousel image ${index + 1}`}
-                                        className="object-cover w-full h-full"
-                                        onError={(e) => {
-                                            e.currentTarget.src = "https://via.placeholder.com/300x256/cccccc/999999?text=Image+Not+Found"
-                                        }}
-                                    />
-                                </div>
-                            </div>
-                        </CarouselItem>
-                    ))}
-                </CarouselContent>
-                {/* 控制按钮和 DotButton 放在图片下方 */}
-                <div className="flex flex-col items-center w-full mt-2">
-                    <div className="flex items-center gap-2 mb-2">
-                        <CarouselPrevious />
-                        <CarouselNext />
-                    </div>
-                    <div className="flex items-center justify-center">
-                        {scrollSnaps.map((_, idx) => (
-                            <DotButton
-                                key={idx}
-                                selected={selectedIndex === idx}
-                                onClick={() => emblaApi?.scrollTo(idx)}
-                            />
-                        ))}
-                    </div>
+        <div className="w-full flex flex-col items-center justify-center">
+            <div className="w-full h-full flex flex-col">
+                {/* 轮播内容区域 */}
+                <div className="flex-1 relative">
+                    <Carousel
+                        plugins={[plugin.current]}
+                        opts={{
+                            align: "center",
+                            loop: true,
+                        }}
+                        className="w-full h-full"
+                        setApi={setEmblaApi}
+                        onMouseEnter={plugin.current.stop}
+                        onMouseLeave={plugin.current.reset}
+                    >
+                        {/* 控制按钮放在轮播框内部 */}
+                        <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-black/30 text-white p-2 rounded-full hover:bg-black/50 border-transparent" />
+                        <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-black/30 text-white p-2 rounded-full hover:bg-black/50 border-transparent" />
+                        
+                        <CarouselContent className="h-full">
+                            {imageUrls.map((url, index) => (
+                                <CarouselItem key={index} className="h-full">
+                                    <div className="relative w-full h-full rounded-xl overflow-hidden">
+                                        <img
+                                            src={url}
+                                            alt={`Carousel image ${index + 1}`}
+                                            className="object-cover w-full h-full object-center"
+                                            onError={(e) => {
+                                                e.currentTarget.src = "https://via.placeholder.com/300x256/cccccc/999999?text=Image+Not+Found"
+                                            }}
+                                        />
+                                    </div>
+                                </CarouselItem>
+                            ))}
+                        </CarouselContent>
+                    </Carousel>
                 </div>
-            </Carousel>
+                
+                <div className="py-4 flex justify-center items-center gap-1">
+                    {scrollSnaps.map((_, idx) => (
+                        <DotButton
+                            key={idx}
+                            selected={selectedIndex === idx}
+                            onClick={() => emblaApi?.scrollTo(idx)}
+                        />
+                    ))}
+                </div>
+            </div>
         </div>
     )
 }
