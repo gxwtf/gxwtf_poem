@@ -16,6 +16,7 @@ export function CarouselPlugin() {
     )
 
     const imageUrls = [
+        // "https://gxwtf.cn/uploads/1757832037922-367099821.png",
         "https://gxwtf.cn/uploads/1744971261038-878773378.png",
         "https://gxwtf.cn/uploads/1744981865272-425518259.JPG",
         "https://gxwtf.cn/uploads/1745031933882-670128608.JPG",

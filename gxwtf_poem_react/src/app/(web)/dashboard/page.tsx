@@ -12,7 +12,7 @@ export default function Page() {
             <div className="flex flex-1 flex-col gap-4 p-2 sm:p-4 md:p-6">
                 <div className="grid auto-rows-min gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     <CheckIn />
-                    <div className="min-h-[256px]">
+                    <div className="max-h-[256px]">
                         <Carousel2 />
                     </div>
                     <TodayInHistory />
