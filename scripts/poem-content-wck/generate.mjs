@@ -279,6 +279,8 @@ async function generate(poemdata){
 // console.log(prompt2);
 // process.exit(0);
 
+let array = [];
+
 (async function(){
     const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/');
     for (let i = 0;i <= files.length - 1;i ++){
@@ -286,9 +288,17 @@ async function generate(poemdata){
         // console.log(file);
 
         if (!file.endsWith('.txt'))continue;
-        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/', file), 'utf8');
 
+        let id = parseInt(file);
+        // console.log(id);
+
+
+        // const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/', file), 'utf8');
+        
         let poemname = removeDigits(file.replace('.txt', ''));
+        array[id] = poemname;
+
+        continue;
         // console.log(poemname);
 
         const dir = path.join('/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/senior/', poemname);
@@ -314,5 +324,7 @@ async function generate(poemdata){
             continue;
         }
     }
+
+    console.log(JSON.stringify(array, null, 2));
 })();
 // generate('登幽州台歌');
