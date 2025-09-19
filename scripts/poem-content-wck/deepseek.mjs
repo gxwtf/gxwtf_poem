@@ -14,13 +14,15 @@ function removeThinkTags(input) {
 }
 
 
-export default async function deepseekChat(prompt) {
+export default async function deepseekChat(prompt, model = "deepseek/deepseek-r1-0528:free") {
 	console.log('DeepSeek Chat: ' + prompt);
 
 	try {
 		const stream = await openai.chat.completions.create({
-			model: "qwen/qwen3-235b-a22b:free",
+			// model: "qwen/qwen3-235b-a22b:free",
 			// model: "deepseek/deepseek-r1-0528:free",
+			// model: "deepseek/deepseek-chat-v3.1:free",
+			model: model,
 			messages: [{ role: "user", content: prompt }],
 			stream: true
 		});

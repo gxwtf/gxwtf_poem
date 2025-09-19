@@ -30,7 +30,7 @@ const __dirname = dirname(__filename)
 }
 */
 
-const example = `{
+const example = {
     "name": "登幽州台歌",
     "author": "陈子昂",
     "dynasty": "唐代",
@@ -39,94 +39,97 @@ const example = `{
         {
             "sentences": [
                 {
-                    "content": "前不见古人",
-                    "translation": "向前看不见古代的贤君",
-                    "pinyin": "qián bù jiàn gǔ rén"
+                    "content": "前不见古人，后不见来者。",
+                    "translation": "向前看不见古代的贤君，向后看不见未来的才俊。",
+                    "pinyin": "qián bù jiàn gǔ rén ， hòu bù jiàn lái zhě。"
                 }
             ]
         },
         {
             "sentences": [
                 {
-                    "content": "后不见来者",
-                    "translation": "往后看不见未来的才俊",
-                    "pinyin": "hòu bù jiàn lái zhě"
-                }
-            ]
-        },
-        {
-            "sentences": [
-                {
-                    "content": "念天地之悠悠",
-                    "translation": "想天地浩渺悠远",
-                    "pinyin": "niàn tiān dì zhī yōu yōu"
-                }
-            ]
-        },
-        {
-            "sentences": [
-                {
-                    "content": "独怆然而涕下",
-                    "translation": "独自悲伤流下眼泪",
-                    "pinyin": "dú chuàng rán ér tì xià"
+                    "content": "念天地之悠悠，独怆然而涕下！",
+                    "translation": "想天地浩渺悠远，独自悲伤流下眼泪！",
+                    "pinyin": "niàn tiān dì zhī yōu yōu ，dú chuàng rán ér tì xià ！"
                 }
             ]
         }
     ]
-}`
+}
+const example2 = {
+  notes: [
+    { start: 3, end: 4, content: '古人：古代贤人，此处特指像燕昭王那样的明君。' },
+    { start: 5, end: 5, content: '后：未来、后来，指时间上的相继。' },
+    { start: 8, end: 9, content: '来者：未来的人，即后继的贤才。者，与‘来’构成复合代词。' },
+    { start: 10, end: 10, content: '念：想到、思念，此处引申为感慨宇宙人生的无尽。' },
+    {
+      start: 13,
+      end: 13,
+      content: '之：结构助词，取消句子独立性，使‘天地悠悠’成为名词性短语作宾语。'
+    },
+    { start: 14, end: 15, content: '悠悠：同叠词，形容天地辽阔、时光绵长。' },
+    { start: 17, end: 18, content: '怆然：表示悲伤的样子。怆，伤感；然，状态形容词后缀。' },
+    { start: 20, end: 21, content: '涕下：落泪。‘涕’现代多指鼻涕，古文特指泪水，‘下’表动作。' }
+  ],
+  different_meanings: [ { start: 20, end: 20, old: '眼泪', new: '鼻涕' } ],
+  special_sentences: [
+    {
+      start: 20,
+      end: 20,
+      content: '‘涕下’中的‘下’为动词，结构上与现代汉语的‘流泪’异于文言细微表达。'
+    }
+  ],
+  read: [ 17, 20 ],
+  write: [ 17, 20 ]
+};
 
-const prompt1 = `你是一个 AI 格式生成器，用户每次会提供一首诗歌的名称。
+const prompt1 = `你是一个高效的AI格式生成器，专门处理诗歌信息。用户提供诗歌名称、作者、朝代、内容、译文等输入。你的任务是根据输入直接生成一个严格的JSON格式输出，无需额外解释或思考过程。
 
-
-你的任务是对其 **生成一个 JSON**。格式如下：
+输出格式（必须严格遵守）：
 
 {
-    name: '古诗名称',
-    author: '作者',
-    dynasty: '朝代',
-    mode: 'center|paragraph', // 对于古诗，该值为 center，其余一律为 paragraph
-    paragraphs: [
+  "name": "诗歌名称",
+  "author": "作者",
+  "dynasty": "朝代",
+  "mode": "center|paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
         {
-            sentences: [
-                {
-                    content: '第一段第一句的内容（包含标点符号）。',
-                    translation: '第一段第一句的翻译（翻译成现代汉语，包含标点符号）。',
-                    pinyin: '第一段第一句的拼音，包含标点符号。'
-                },
-                {
-                    content: '第一段第二句的内容',
-                    translation: '第一段第二句的翻译（翻译成现代汉语）',
-                    pinyin: '第一段第二句的拼音'
-                },
-                ...
-            ],
-        },
-        {
-            sentences: [
-                {
-                    content: '第二段第一句的内容',
-                    translation: '第二段第一句的翻译（翻译成现代汉语）',
-                    pinyin: '第二段第一句的拼音'
-                },
-                {
-                    content: '第二段第二句的内容',
-                    translation: '第二段第二句的翻译（翻译成现代汉语）',
-                    pinyin: '第二段第二句的拼音'
-                },
-                ...
-            ],
-        },
-        ...
-    ]
+          "content": "句子内容（含标点）",
+          "translation": "现代汉语翻译（含标点，拼音中无空格）",
+          "pinyin": "拼音（标点符号前后有空格）"
+        }
+      ]
+    }
+  ]
 }
 
-注意：
 
-1. 合理断句。以 **句号（或者感叹号、问号）** 作为一句话的结尾。
-2. 合理分段。对于古诗而言，**一个句子就是一段**（也就是说，paragraphs 数组的每一个元素都只有一个 sentence）；对于古文，**按照原文分段**。
-3. 内容必须绝对准确，不得编造。
-4. 以纯文本格式输出，不得出现 \`\`\`json 等标记。
-`;
+关键规则：
+
+1.  模式与分段： 
+    ◦ 判断诗歌类型：古诗（如唐诗宋词）使用 mode: "center"，每个句子独立成段（即每个paragraphs项仅含一个sentence）。
+
+    ◦ 古文（如文言文）使用 mode: "paragraph"，按原文自然分段。
+
+2.  断句：以句号、感叹号、问号作为句子分隔符。
+3.  拼音格式：标点符号前后必须加空格（例如：wǒ ài nǐ 。）。
+4.  内容与翻译：整段无空格，直接使用输入提供的参考信息，但需校正格式。
+5.  输出：仅输出纯文本JSON，无任何额外标记（如 \`\`\`json）。
+
+推理步骤（高效执行，无需冗长思考）：
+
+1.  识别类型：根据输入快速判断是古诗还是古文。
+2.  解析句子：直接以标点（。！？）分割内容为句子。
+3.  构建结构：按分段规则填充paragraphs和sentences。
+4.  生成JSON：直接映射输入数据到JSON字段，确保格式准确。
+
+示例参考（用于格式对齐）：
+
+${JSON.stringify(example, null, 2)}
+
+立即基于输入生成JSON，无需确认或重复思考。`;
 const prompt2 = `你是一个 AI 数据生成器，用户将会提供一个字符串，这个字符串是 **标注了下标** 的古诗文数据。你需要生成以下内容(JSON)：
 
 {
@@ -156,17 +159,50 @@ const prompt2 = `你是一个 AI 数据生成器，用户将会提供一个字�
 注意事项：
 
 1. 以纯文本格式输出，不得出现 \`\`\`json 等特殊标记。
-2. 注释要尽可能全面，需要标注出所有可能出错的地方，不宜过少，也不宜过多
-`
+2. 注释要尽可能全面，需要标注出所有可能出错的地方，不宜过少，也不宜过多（对于一些比较简单的词，无需添加注释）。
+3. 内容必须绝对准确，不得编造。
+4. 你需要默认用户为高中水平，对于一些简单的字词，无需添加注释。（如“之”等）这一点非常重要哦！！！
+5. 要尽可能缩小注释的范围，如果要给一个词打注释，只需要将 start 和 end 设置为这个词的起始/结束下标即可，无需把整句话都打上注释。
+
+**请认真学习格式示例后再生成内容。**
+**请认真学习格式示例后再生成内容。**
+**请认真学习格式示例后再生成内容。**
+
+格式示例：${JSON.stringify(example2, null, 2)}`
 
 function removeDigits(str) {
     return str.replace(/\d/g, '');
 }
 
+function addKey(response1, l, r, key1, key2, value){
+    for (let i in response1.paragraphs){
+        for (let j in response1.paragraphs[i].sentences){
+            if (l < 0 && r >= 0)throw new Error(`Invalid range ${l} ${r} ${key1} ${key2} ${value}`);
+            let obj = response1.paragraphs[i].sentences[j];
+            console.log(obj.content.length, l, r);
+            if (obj.content.length > r){
+                if (!obj[key1])response1.paragraphs[i].sentences[j][key1] = new Array();
+                response1.paragraphs[i].sentences[j][key1].push({
+                    start: l,
+                    end: r,
+                    [key2]: value
+                });
+                return response1;
+            }else l -= obj.content.length, r -= obj.content.length;
+        }
+    }
+    throw new Error('not found');
+}
+
 async function generate(poemdata){
-    // let response1 = JSON.parse(await ds(prompt1 + '\n\n' + poemdata));
-    let response1 = JSON.parse(example);
-    // console.log(response1);
+    let response1;
+    while (1){
+        try{
+            response1 = JSON.parse(await ds(prompt1 + '\n\n' + poemdata, 'deepseek/deepseek-chat-v3.1:free'));
+            break;
+        }catch (error){console.error(error);}
+    }
+    console.log(response1);
     let merged = '';
     let cnt = 0;
     for (let i in response1.paragraphs){
@@ -178,8 +214,70 @@ async function generate(poemdata){
                 merged += `${cnt ++}${obj.content[k]}`;
         }
     }
-    console.log(merged);
+
+    // console.log(prompt2 + '\n\n' + merged);
+    // process.exit(0);
+
+    let response2;
+    while (1){
+        try{
+            response2 = JSON.parse(await ds(prompt2 + '\n\n' + merged, 'deepseek/deepseek-chat-v3.1:free'));
+
+            // console.log(response2);
+            // let response2 = example2;
+
+            for (let i in response2.notes)
+                response1 = addKey(response1, response2.notes[i].start, response2.notes[i].end, 'notes', 'content', response2.notes[i].content);
+
+            for (let i in response2.different_meanings){
+                response1 = addKey(response1, response2.different_meanings[i].start, response2.different_meanings[i].end, 'different_meanings', 'old', response2.different_meanings[i].old);
+                response1 = addKey(response1, response2.different_meanings[i].start, response2.different_meanings[i].end, 'different_meanings', 'new', response2.different_meanings[i].new);
+            }
+
+            for (let i in response2.special_sentences)
+                response1 = addKey(response1, response2.special_sentences[i].start, response2.special_sentences[i].end,'special_sentences', 'content', response2.special_sentences[i].content);
+                    break;
+        }catch (error){console.error(error);}
+    }
+
+
+    console.log(JSON.stringify(response1, null, 2));
+
+    let read = new Set(), write = new Set();
+    for (let i in response2.read)
+        read.add(response2.read[i]);
+    for (let i in response2.write)
+        write.add(response2.write[i]);
+    
+    cnt = 0;
+    for (let i in response1.paragraphs)
+        for (let j in response1.paragraphs[i].sentences){
+            let obj = response1.paragraphs[i].sentences[j];
+            if (!obj.tmp_content)obj.tmp_content = new Array();
+            for (let k = 0;k < obj.content.length;k ++){
+                obj.tmp_content.push({
+                    char: obj.content[k],
+                    pinyin: obj.pinyin.split(' ')[k],
+                    index: cnt,
+                    read: read.has(cnt),
+                    write: write.has(cnt)
+                });
+                cnt ++;
+            }
+        }
+    // rename tmp_content to content
+    for (let i in response1.paragraphs)
+        for (let j in response1.paragraphs[i].sentences){
+            response1.paragraphs[i].sentences[j].content = response1.paragraphs[i].sentences[j].tmp_content;
+            delete response1.paragraphs[i].sentences[j].tmp_content;
+        }
+    console.log(JSON.stringify(response1, null, 2));
+    return response1;
 }
+
+// console.log(prompt1);
+// console.log(prompt2);
+// process.exit(0);
 
 (async function(){
     const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/');
@@ -188,6 +286,7 @@ async function generate(poemdata){
         // console.log(file);
 
         if (!file.endsWith('.txt'))continue;
+        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/', file), 'utf8');
 
         let poemname = removeDigits(file.replace('.txt', ''));
         // console.log(poemname);
@@ -206,12 +305,14 @@ async function generate(poemdata){
         console.log(poemname);
 
         try{
-            await generate(poemname);
+            fs.writeFileSync(JSONfile, JSON.stringify(await generate(fileContent), null, 2));
+            // process.exit(0);
+            // console.log('success');
         }catch (error){
             console.error(error);
             i --;
             continue;
         }
     }
-});
-generate('登幽州台歌');
+})();
+// generate('登幽州台歌');
