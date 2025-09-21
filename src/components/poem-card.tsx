@@ -23,7 +23,6 @@ interface PoemCardProps {
     content: string
     tags?: string[]
     url: string
-    id: string
 }
 
 export function PoemCard({
@@ -32,8 +31,7 @@ export function PoemCard({
     dynasty,
     content,
     tags,
-    url,
-    id
+    url
 }: PoemCardProps) {
     const router = useRouter();
     return (
@@ -53,9 +51,6 @@ export function PoemCard({
                         {author}
                     </Link>
                 </CardDescription>
-                <CardAction>
-                    <StarButton poemId={id}></StarButton>
-                </CardAction>
             </CardHeader>
             <CardContent>
                 <div className="line-clamp-4">{content}</div>

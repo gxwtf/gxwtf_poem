@@ -25,6 +25,7 @@ model Poem {
     starredBy Star[]
 
     @@map("poems")
+    @@unique(name: "compoundId",[version, title])
 }
 
 model User {

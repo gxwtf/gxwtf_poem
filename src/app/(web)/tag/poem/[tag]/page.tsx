@@ -78,7 +78,6 @@ export default function Page() {
                         content={poem.content}
                         tags={poem.tags}
                         url={`/poem/${version}/${poem.title}`}
-                        id={poem.id}
                     />
                 ))}
             </div>

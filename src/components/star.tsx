@@ -1,21 +1,29 @@
+"use client"
+
 import {
     Star
 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { queryStar, updateStar, queryStarNum } from "@/lib/star";
+import { queryStar, updateStar, queryStarNum, queryPoemId } from "@/lib/star";
 import useSession from "@/lib/use-session";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 export function StarButton({
-    poemId
+    version,
+    title
 }: {
-    poemId: string
+    version: string
+    title: string
 }){
     const { session } = useSession();
     const userId = session.userid;
     const [ starStat, setStarStat ] = useState<Boolean>(false);
     const [ starNum, setStarNum ] = useState<number>(0);
+    const [ poemId, setPoemId ] = useState<string>("");
     useEffect(() => {
+        queryPoemId(version,title)
+        .then((res)=>{setPoemId(res);});
         queryStarNum(poemId)
         .then((res)=>{setStarNum(res);});
         if(session.isLoggedIn){
@@ -24,16 +32,25 @@ export function StarButton({
         }
     }, [userId, poemId]);
     return (
-        <Button onClick={async (event)=>{
-            event.stopPropagation();
-            if(session.isLoggedIn){
-                setStarStat(await updateStar(userId, poemId));
-                queryStarNum(poemId)
-                .then((res)=>{setStarNum(res);});
-            }
-        }}>
-            <Star fill={starStat?"var(--theme-color)":"var(--muted-foreground)"} strokeWidth={1} />
-            {starNum}
+        <Button
+            onClick={async (event) => {
+                event.stopPropagation();
+                if (session.isLoggedIn) {
+                    setStarStat(await updateStar(userId, poemId));
+                    queryStarNum(poemId).then((res) => setStarNum(res));
+                }
+            }}
+            variant="outline"
+        >
+            <Star
+                className="w-4 h-4"
+                fill={starStat?"#eac54f":"var(--muted-foreground)"}
+                color={starStat?"#eac54f":"var(--muted-foreground)"}
+                strokeWidth={2}
+            />
+            <span className="text-primary">{starStat ? "Starred" : "Star"}</span>
+            <Badge variant="secondary">{starNum}</Badge>
         </Button>
+
     );
 }

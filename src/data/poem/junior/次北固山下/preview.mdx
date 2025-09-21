@@ -4,6 +4,7 @@ import previewData from './preview.json';
 import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context"
 import indexData from "./index.json"
 import { Tags } from "@/components/tag"
+import { StarButton } from "@/components/star";
 
 export const mode = 'poem';
 
@@ -22,6 +23,10 @@ export const mode = 'poem';
     }}
   />
 </MemorizeContextProvider>
+<div className={`text-primary flex flex-wrap gap-2`}>
+  <StarButton version="junior" title="次北固山下"/>
+  <StarButton version="junior" title="次北固山下"/>
+</div>
 
 # 一级标题
 

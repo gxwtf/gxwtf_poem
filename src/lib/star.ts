@@ -47,3 +47,16 @@ export const queryStarNum = async (poemId: string): Promise<number> => {
     });
     return res.length;
 }
+
+export const queryPoemId = async (version: string, title: string): Promise<string> => {
+    const res = await prisma.poem.findUnique({
+        where: {
+            compoundId: {
+                version: version,
+                title: title
+            }
+        }
+    });
+    if(!res) throw 'poem is not found';
+    return res.id;
+}
