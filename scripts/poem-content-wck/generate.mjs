@@ -300,7 +300,7 @@ async function generate(poemdata){
 let array = [];
 
 (async function(){
-    const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/');
+    const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/');
     for (let i = 0;i <= files.length - 1;i ++){
         const file = files[i];
         // console.log(file);
@@ -311,7 +311,7 @@ let array = [];
         // console.log(id);
 
 
-        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/', file), 'utf8');
+        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/', file), 'utf8');
         
         let poemname = removeDigits(file.replace('.txt', ''));
         // array[id] = poemname;
@@ -319,12 +319,12 @@ let array = [];
         // continue;
         console.log(poemname);
 
-        const dir = path.join('/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/junior/', poemname);
+        const dir = path.join('/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/senior/', poemname);
         
         // create directory dir
         fs.mkdirSync(dir, { recursive: true });
 
-        let JSONfile = path.join(dir, 'index.json');
+        let JSONfile = path.join(dir, 'preview.json');
         // console.log(JSONfile);
 
         // 如果已经存在JSON文件，则跳过

@@ -1,0 +1,5598 @@
+{
+  "name": "归去来兮辞并序",
+  "author": "陶渊明",
+  "dynasty": "东晋",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贫",
+              "pinyin": "pín",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耕",
+              "pinyin": "gēng",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "植",
+              "pinyin": "zhí",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "足",
+              "pinyin": "zú",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "给",
+              "pinyin": "gěi",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 11,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我家贫穷，耕田植桑不足以供自己生活。",
+          "pinyin": "yú jiā pín ， gēng zhí bù zú yǐ zì gěi 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "余：我，第一人称代词。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "content": "家贫：家境贫困。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "耕植：耕种种植，泛指农事。"
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "content": "自给：供给自己生活所需。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "幼",
+              "pinyin": "yòu",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "稚",
+              "pinyin": "zhì",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "盈",
+              "pinyin": "yíng",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "室",
+              "pinyin": "shì",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "瓶",
+              "pinyin": "píng",
+              "index": 17,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 18,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "储",
+              "pinyin": "chǔ",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "粟",
+              "pinyin": "sù",
+              "index": 20,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "资",
+              "pinyin": "zī",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "术",
+              "pinyin": "shù",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "孩子很多，米缸里没有存粮，维持生活所需的一切，没有办法解决。",
+          "pinyin": "yòu zhì yíng shì ， píng wú chǔ sù ， shēng shēng suǒ zī ， wèi jiàn qí shù 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "幼稚：小孩子。"
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "content": "瓶无储粟：盛粮食的器皿中没有储存的谷物，形容极度贫困。"
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "content": "生生所资：维持生活所需要的物资。"
+            },
+            {
+              "start": 15,
+              "end": 19,
+              "content": "未见其术：没有找到维持生计的方法。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 3,
+              "old": "小孩子"
+            },
+            {
+              "start": 0,
+              "end": 3,
+              "new": "形容头脑简单或缺乏经验"
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "old": "瓶指盛粮食的器皿，粟指谷物"
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "new": "瓶多指瓶子，粟多指小米"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "劝",
+              "pinyin": "quàn",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "长",
+              "pinyin": "zhǎng",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吏",
+              "pinyin": "lì",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "脱",
+              "pinyin": "tuō",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怀",
+              "pinyin": "huái",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "求",
+              "pinyin": "qiú",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "靡",
+              "pinyin": "mí",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "途",
+              "pinyin": "tú",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 50,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "亲友大都劝我去做官，我心里也有这个念头，可是求官缺少门路。",
+          "pinyin": "qīn gù duō quàn yú wéi zhǎng lì ， tuō rán yǒu huái ， qiú zhī mí tú 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "content": "亲故多劝余为长吏：亲戚朋友大多劝我去做官。长吏，指地位较高的官员。"
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "content": "脱然有怀：豁然有所动心。脱然，舒畅的样子。"
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "content": "求之靡途：寻求做官却没有门路。靡，无。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "会",
+              "pinyin": "huì",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "四",
+              "pinyin": "sì",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "方",
+              "pinyin": "fāng",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诸",
+              "pinyin": "zhū",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "侯",
+              "pinyin": "hóu",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惠",
+              "pinyin": "huì",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "爱",
+              "pinyin": "ài",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "德",
+              "pinyin": "dé",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "叔",
+              "pinyin": "shū",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贫",
+              "pinyin": "pín",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "苦",
+              "pinyin": "kǔ",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遂",
+              "pinyin": "suì",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "邑",
+              "pinyin": "yì",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 79,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "正赶上有奉使外出的官吏，地方大吏以爱惜人才为美德，叔父也因为我家境贫苦（替我设法），我就被委任到小县做官。",
+          "pinyin": "huì yǒu sì fāng zhī shì ， zhū hóu yǐ huì ài wéi dé ， jiā shū yǐ yú pín kǔ ， suì jiàn yòng yú xiǎo yì 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "四方之事：指当时军阀之间的战事。"
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "content": "诸侯以惠爱为德：地方长官以爱惜人才为美德。诸侯，此处指地方军政长官。"
+            },
+            {
+              "start": 15,
+              "end": 21,
+              "content": "家叔以余贫苦：叔父因为我贫苦（而加以推荐）。家叔，指作者的叔父陶夔。"
+            },
+            {
+              "start": 22,
+              "end": 28,
+              "content": "遂见用于小邑：于是被任用为小县的官吏。邑，县。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 6,
+              "old": "指战事"
+            },
+            {
+              "start": 0,
+              "end": 6,
+              "new": "指各个方面的事情"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "old": "指地方军政长官"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "new": "指古代分封的各国君主"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 22,
+              "end": 28,
+              "content": "被动句，‘见’表被动"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "波",
+              "pinyin": "bō",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "静",
+              "pinyin": "jìng",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惮",
+              "pinyin": "dàn",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 89,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "役",
+              "pinyin": "yì",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "彭",
+              "pinyin": "péng",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "泽",
+              "pinyin": "zé",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ",
+              "index": 97,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "公",
+              "pinyin": "gōng",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "田",
+              "pinyin": "tián",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "利",
+              "pinyin": "lì",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "足",
+              "pinyin": "zú",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酒",
+              "pinyin": "jiǔ",
+              "index": 107,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 108,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "那时社会上动荡不安，心里惧怕到远地当官。",
+          "pinyin": "yú shí fēng bō wèi jìng ， xīn dàn yuǎn yì ， péng zé qù jiā bǎi lǐ ， gōng tián zhī lì ， zú yǐ wéi jiǔ 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "风波未静：指战事未停息。"
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "content": "心惮远役：心里害怕到远方服役。"
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "content": "彭泽去家百里：彭泽县距离家乡有一百里路。彭泽，在今江西湖口县东。"
+            },
+            {
+              "start": 19,
+              "end": 23,
+              "content": "公田之利：公家田地的收益。"
+            },
+            {
+              "start": 24,
+              "end": 28,
+              "content": "足以为酒：足够用来酿酒。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 109,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "便",
+              "pinyin": "biàn",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "求",
+              "pinyin": "qiú",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 112,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 113,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "所以就请求去那里。",
+          "pinyin": "gù biàn qiú zhī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "故便求之：所以就请求担任这个职务。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "少",
+              "pinyin": "shǎo",
+              "index": 115,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 116,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 117,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "眷",
+              "pinyin": "juàn",
+              "index": 118,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 119,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 120,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 121,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欤",
+              "pinyin": "yú",
+              "index": 122,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 123,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "情",
+              "pinyin": "qíng",
+              "index": 124,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 125,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "等到过了一些日子，便产生了留恋故园的怀乡感情。",
+          "pinyin": "jí shǎo rì ， juàn rán yǒu guī yú zhī qíng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "及少日：过了不久。"
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "content": "眷然有归欤之情：有思念家乡想要归去的心情。眷然，思恋的样子。归欤，回去吧。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 4,
+              "end": 11,
+              "old": "思念家乡想要归去的心情"
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "new": "眷恋的样子"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 126,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 127,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 128,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "那是为什么？",
+          "pinyin": "hé zé ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 2,
+              "content": "何则：为什么呢？"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "质",
+              "pinyin": "zhì",
+              "index": 129,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "性",
+              "pinyin": "xìng",
+              "index": 130,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 131,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 132,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 133,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 134,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矫",
+              "pinyin": "jiǎo",
+              "index": 135,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "厉",
+              "pinyin": "lì",
+              "index": 136,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 137,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "得",
+              "pinyin": "dé",
+              "index": 138,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 139,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "本性任其自然，这是勉强不得的；",
+          "pinyin": "zhì xìng zì rán ， fēi jiǎo lì suǒ dé 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "质性自然：本性率真。"
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "content": "非矫厉所得：不是勉强自己所能做到的。矫厉，造作勉强。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "饥",
+              "pinyin": "jī",
+              "index": 140,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "冻",
+              "pinyin": "dòng",
+              "index": 141,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "虽",
+              "pinyin": "suī",
+              "index": 142,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "切",
+              "pinyin": "qiē",
+              "index": 143,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 144,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "违",
+              "pinyin": "wéi",
+              "index": 145,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "己",
+              "pinyin": "jǐ",
+              "index": 146,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "交",
+              "pinyin": "jiāo",
+              "index": 147,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "病",
+              "pinyin": "bìng",
+              "index": 148,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 149,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "饥寒虽然来得急迫，但是违背本意去做官，身心都感痛苦。",
+          "pinyin": "jī dòng suī qiē ， wéi jǐ jiāo bìng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "饥冻虽切：饥饿寒冷虽然迫切。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "content": "违己交病：违反本心会使身心都感到痛苦。交病，产生痛苦。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "尝",
+              "pinyin": "cháng",
+              "index": 150,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 151,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 152,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 153,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 154,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē",
+              "index": 155,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "口",
+              "pinyin": "kǒu",
+              "index": 156,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "腹",
+              "pinyin": "fù",
+              "index": 157,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 158,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "役",
+              "pinyin": "yì",
+              "index": 159,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 160,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "过去为官做事，都是为了吃饭而役使自己。",
+          "pinyin": "cháng cóng rén shì ， jiē kǒu fù zì yì 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "尝从人事：曾经出仕。人事，指做官。"
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "content": "皆口腹自役：都是为了谋生而役使自己。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 161,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 162,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怅",
+              "pinyin": "chàng",
+              "index": 163,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 164,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "慷",
+              "pinyin": "kāng",
+              "index": 165,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "慨",
+              "pinyin": "kǎi",
+              "index": 166,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 167,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "深",
+              "pinyin": "shēn",
+              "index": 168,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愧",
+              "pinyin": "kuì",
+              "index": 169,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "平",
+              "pinyin": "píng",
+              "index": 170,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 171,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 172,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "志",
+              "pinyin": "zhì",
+              "index": 173,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 174,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "于是惆怅感慨，深深有愧于平生的志愿。",
+          "pinyin": "yú shì chàng rán kāng kǎi ， shēn kuì píng shēng zhī zhì 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "怅然慷慨：失意而情绪激动。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "深愧平生之志：深深感到有愧于平生的志向。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "犹",
+              "pinyin": "yóu",
+              "index": 175,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "望",
+              "pinyin": "wàng",
+              "index": 176,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 177,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "稔",
+              "pinyin": "rěn",
+              "index": 178,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 179,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 180,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "敛",
+              "pinyin": "liǎn",
+              "index": 181,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "裳",
+              "pinyin": "cháng",
+              "index": 182,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宵",
+              "pinyin": "xiāo",
+              "index": 183,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "逝",
+              "pinyin": "shì",
+              "index": 184,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 185,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "只再等上一年，便收拾行装连夜离去。",
+          "pinyin": "yóu wàng yī rěn ， dāng liǎn cháng xiāo shì 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "犹望一稔：仍然希望等到一次收成。稔，谷物成熟。"
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "content": "当敛裳宵逝：应当收拾行装连夜离去。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "寻",
+              "pinyin": "xún",
+              "index": 186,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "程",
+              "pinyin": "chéng",
+              "index": 187,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "氏",
+              "pinyin": "shì",
+              "index": 188,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妹",
+              "pinyin": "mèi",
+              "index": 189,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "丧",
+              "pinyin": "sàng",
+              "index": 190,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 191,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "武",
+              "pinyin": "wǔ",
+              "index": 192,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "昌",
+              "pinyin": "chāng",
+              "index": 193,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 194,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "情",
+              "pinyin": "qíng",
+              "index": 195,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 196,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "骏",
+              "pinyin": "jùn",
+              "index": 197,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奔",
+              "pinyin": "bēn",
+              "index": 198,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 199,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 200,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "免",
+              "pinyin": "miǎn",
+              "index": 201,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 202,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "职",
+              "pinyin": "zhí",
+              "index": 203,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 204,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "不久，嫁到程家的妹妹在武昌去世，去吊丧的心情像骏马奔驰一样急迫，自己请求免去官职。",
+          "pinyin": "xún chéng shì mèi sàng yú wǔ chāng ， qíng zài jùn bēn ， zì miǎn qù zhí 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "content": "寻程氏妹丧于武昌：不久嫁给程家的妹妹在武昌去世。寻，不久。"
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "content": "情在骏奔：心情急于奔丧。骏奔，急速前往。"
+            },
+            {
+              "start": 14,
+              "end": 18,
+              "content": "自免去职：自行辞去官职。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "仲",
+              "pinyin": "zhòng",
+              "index": 205,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "秋",
+              "pinyin": "qiū",
+              "index": 206,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 207,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "冬",
+              "pinyin": "dōng",
+              "index": 208,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 209,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 210,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "官",
+              "pinyin": "guān",
+              "index": 211,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "八",
+              "pinyin": "bā",
+              "index": 212,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 213,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 214,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 215,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 216,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "自立秋第二个月到冬天，在职共80多天。",
+          "pinyin": "zhòng qiū zhì dōng ， zài guān bā shí yú rì 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 11,
+              "content": "仲秋至冬，在官八十余日：从八月到冬天，在任八十多天。仲秋，农历八月。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "因",
+              "pinyin": "yīn",
+              "index": 217,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 218,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "顺",
+              "pinyin": "shùn",
+              "index": 219,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 220,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 221,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "命",
+              "pinyin": "mìng",
+              "index": 222,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "篇",
+              "pinyin": "piān",
+              "index": 223,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē",
+              "index": 224,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "《",
+              "pinyin": "《",
+              "index": 225,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 226,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 227,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 228,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兮",
+              "pinyin": "xī",
+              "index": 229,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "》",
+              "pinyin": "》",
+              "index": 230,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 231,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "因辞官而顺遂了心愿，写了一篇文章，题目叫《归去来兮》。",
+          "pinyin": "yīn shì shùn xīn ， mìng piān yuē 《 guī qù lái xī 》 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "因事顺心：就着这件事抒发心意。"
+            },
+            {
+              "start": 5,
+              "end": 14,
+              "content": "命篇曰《归去来兮》：给这篇文章命名为《归去来兮》。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "乙",
+              "pinyin": "yǐ",
+              "index": 232,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "巳",
+              "pinyin": "sì",
+              "index": 233,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "岁",
+              "pinyin": "suì",
+              "index": 234,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 235,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 236,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè",
+              "index": 237,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 238,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 239,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "这时候正是乙巳年（晋安帝义熙元年）十一月。",
+          "pinyin": "yǐ sì suì shí yī yuè yě 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "乙巳岁十一月也：时间是乙巳年十一月。乙巳，公元405年。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 240,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 241,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 242,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兮",
+              "pinyin": "xī",
+              "index": 243,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 244,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "田",
+              "pinyin": "tián",
+              "index": 245,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "园",
+              "pinyin": "yuán",
+              "index": 246,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 247,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "芜",
+              "pinyin": "wú",
+              "index": 248,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "胡",
+              "pinyin": "hú",
+              "index": 249,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 250,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 251,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 252,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "回家去吧！田园快要荒芜了，为什么不回去呢？",
+          "pinyin": "guī qù lái xī ， tián yuán jiāng wú hú bù guī ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "归去来兮：回去吧。来、兮都是语气助词。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "content": "田园将芜：家乡的田园将要荒芜了。"
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "content": "胡不归：为什么还不回去？胡，何。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "既",
+              "pinyin": "jì",
+              "index": 253,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 254,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 255,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 256,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 257,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "形",
+              "pinyin": "xíng",
+              "index": 258,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "役",
+              "pinyin": "yì",
+              "index": 259,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 260,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奚",
+              "pinyin": "xī",
+              "index": 261,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惆",
+              "pinyin": "chóu",
+              "index": 262,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怅",
+              "pinyin": "chàng",
+              "index": 263,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 264,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "独",
+              "pinyin": "dú",
+              "index": 265,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "悲",
+              "pinyin": "bēi",
+              "index": 266,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 267,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "既然自己的心灵为形体所役使，为什么如此失意而独自伤悲？",
+          "pinyin": "jì zì yǐ xīn wéi xíng yì ， xī chóu chàng ér dú bēi ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "既自以心为形役：既然让内心被形体所役使。指本心不愿做官，但为了生计不得不做。"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "content": "奚惆怅而独悲：为什么还要惆怅而独自悲伤呢？奚，何。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "被动句，‘为’表被动，心被形役"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "悟",
+              "pinyin": "wù",
+              "index": 268,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 269,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "往",
+              "pinyin": "wǎng",
+              "index": 270,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 271,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 272,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谏",
+              "pinyin": "jiàn",
+              "index": 273,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 274,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 275,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 276,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 277,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 278,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 279,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "追",
+              "pinyin": "zhuī",
+              "index": 280,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 281,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "认识到过去的错误已经不可挽回，觉悟到今天的做法正确，之前的错误确实走入了迷途大概还不远，觉悟到今天的做法正确，之前的错误。",
+          "pinyin": "wù yǐ wǎng zhī bù jiàn ， zhī lái zhě zhī kě zhuī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "悟已往之不谏：认识到过去的错误已经不可挽回。谏，纠正。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "知来者之可追：知道未来的事还来得及补救。追，补救。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "实",
+              "pinyin": "shí",
+              "index": 282,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "迷",
+              "pinyin": "mí",
+              "index": 283,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "途",
+              "pinyin": "tú",
+              "index": 284,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 285,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 286,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 287,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 288,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "觉",
+              "pinyin": "jué",
+              "index": 289,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 290,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 291,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 292,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "昨",
+              "pinyin": "zuó",
+              "index": 293,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 294,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 295,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "船在水上轻轻飘荡，微风吹拂着衣裳。",
+          "pinyin": "shí mí tú qí wèi yuǎn ， jué jīn shì ér zuó fēi 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "实迷途其未远：确实走入迷途还不算远。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "觉今是而昨非：觉悟到今天正确而昨天错误。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "舟",
+              "pinyin": "zhōu",
+              "index": 296,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遥",
+              "pinyin": "yáo",
+              "index": 297,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遥",
+              "pinyin": "yáo",
+              "index": 298,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 299,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "轻",
+              "pinyin": "qīng",
+              "index": 300,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飏",
+              "pinyin": "yáng",
+              "index": 301,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 302,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 303,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飘",
+              "pinyin": "piāo",
+              "index": 304,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飘",
+              "pinyin": "piāo",
+              "index": 305,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 306,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吹",
+              "pinyin": "chuī",
+              "index": 307,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "衣",
+              "pinyin": "yī",
+              "index": 308,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 309,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "向行人打听前面的路，遗憾的是天亮得太慢。",
+          "pinyin": "zhōu yáo yáo yǐ qīng yáng ， fēng piāo piāo ér chuī yī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "舟遥遥以轻飏：船在水面上轻轻地飘荡前进。遥遥，漂荡的样子。飏，飞扬。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "风飘飘而吹衣：微风飘拂吹动着衣裳。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 310,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "征",
+              "pinyin": "zhēng",
+              "index": 311,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夫",
+              "pinyin": "fū",
+              "index": 312,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 313,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "前",
+              "pinyin": "qián",
+              "index": 314,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 315,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 316,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "恨",
+              "pinyin": "hèn",
+              "index": 317,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "晨",
+              "pinyin": "chén",
+              "index": 318,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "光",
+              "pinyin": "guāng",
+              "index": 319,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 320,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "熹",
+              "pinyin": "xī",
+              "index": 321,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "微",
+              "pinyin": "wēi",
+              "index": 322,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 323,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "刚刚看到自己简陋的家门，我心中欣喜，奔跑过去。",
+          "pinyin": "wèn zhēng fū yǐ qián lù ， hèn chén guāng zhī xī wēi 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "问征夫以前路：向行人询问前面的路程。征夫，行人。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "恨晨光之熹微：怨恨晨光朦胧天色未明。熹微，天色微明。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 7,
+              "end": 13,
+              "old": "天色微明"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "new": "光明、明亮"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "状语后置句，正常语序为‘以前路问征夫’"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "乃",
+              "pinyin": "nǎi",
+              "index": 324,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "瞻",
+              "pinyin": "zhān",
+              "index": 325,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "衡",
+              "pinyin": "héng",
+              "index": 326,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宇",
+              "pinyin": "yǔ",
+              "index": 327,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 328,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "载",
+              "pinyin": "zài",
+              "index": 329,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欣",
+              "pinyin": "xīn",
+              "index": 330,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "载",
+              "pinyin": "zài",
+              "index": 331,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奔",
+              "pinyin": "bēn",
+              "index": 332,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 333,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "家僮欢快地迎接我，幼儿们守候在门庭等待。",
+          "pinyin": "nǎi zhān héng yǔ ， zài xīn zài bēn 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "乃瞻衡宇：终于看到了自家简陋的房子。衡宇，横木为门的房屋，指贫贱者的居处。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "content": "载欣载奔：一边高兴一边奔跑。载，且。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 4,
+              "old": "横木为门的简陋房屋"
+            },
+            {
+              "start": 0,
+              "end": 4,
+              "new": "泛指房屋"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "僮",
+              "pinyin": "tóng",
+              "index": 334,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "仆",
+              "pinyin": "pú",
+              "index": 335,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欢",
+              "pinyin": "huān",
+              "index": 336,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "迎",
+              "pinyin": "yíng",
+              "index": 337,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 338,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "稚",
+              "pinyin": "zhì",
+              "index": 339,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 340,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "候",
+              "pinyin": "hòu",
+              "index": 341,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "门",
+              "pinyin": "mén",
+              "index": 342,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 343,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "院子里的小路快要荒芜了，松树菊花还长在那里；带着孩子们进了屋，美酒已经盛满了酒樽。",
+          "pinyin": "tóng pú huān yíng ， zhì zǐ hòu mén 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "僮仆欢迎：仆人们高兴地前来迎接。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "content": "稚子候门：小孩子在门口等候。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 344,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "径",
+              "pinyin": "jìng",
+              "index": 345,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "就",
+              "pinyin": "jiù",
+              "index": 346,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "荒",
+              "pinyin": "huāng",
+              "index": 347,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 348,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "松",
+              "pinyin": "sōng",
+              "index": 349,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "菊",
+              "pinyin": "jú",
+              "index": 350,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "犹",
+              "pinyin": "yóu",
+              "index": 351,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "存",
+              "pinyin": "cún",
+              "index": 352,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 353,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我端起酒壶酒杯自斟自饮，观赏着庭树（使我）露出愉快的神色；倚着南窗寄托我的傲世之情，深知这狭小之地容易使我心安。",
+          "pinyin": "sān jìng jiù huāng ， sōng jú yóu cún 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "三径就荒：院子里的小路已经荒芜。三径，指隐士居住的庭院。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "content": "松菊犹存：松树和菊花还长在那里。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "携",
+              "pinyin": "xié",
+              "index": 354,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "幼",
+              "pinyin": "yòu",
+              "index": 355,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "入",
+              "pinyin": "rù",
+              "index": 356,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "室",
+              "pinyin": "shì",
+              "index": 357,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 358,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 359,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酒",
+              "pinyin": "jiǔ",
+              "index": 360,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "盈",
+              "pinyin": "yíng",
+              "index": 361,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "樽",
+              "pinyin": "zūn",
+              "index": 362,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 363,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "每天（独自）在园中散步，成为乐趣，小园的门经常地关闭着；拄着拐杖走走歇歇，时时抬头望着远方（的天空）。",
+          "pinyin": "xié yòu rù shì ， yǒu jiǔ yíng zūn 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "携幼入室：拉着孩子的手走进屋内。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "content": "有酒盈樽：酒杯里盛满了酒。樽，酒器。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "引",
+              "pinyin": "yǐn",
+              "index": 364,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "壶",
+              "pinyin": "hú",
+              "index": 365,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "觞",
+              "pinyin": "shāng",
+              "index": 366,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 367,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 368,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酌",
+              "pinyin": "zhuó",
+              "index": 369,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 370,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "眄",
+              "pinyin": "miǎn",
+              "index": 371,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "庭",
+              "pinyin": "tíng",
+              "index": 372,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "柯",
+              "pinyin": "kē",
+              "index": 373,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 374,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怡",
+              "pinyin": "yí",
+              "index": 375,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "颜",
+              "pinyin": "yán",
+              "index": 376,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 377,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "白云自然而然地从山峰飘浮而出，倦飞的小鸟也知道飞回巢中；日光暗淡，即将落山，我流连不忍离去，手抚着孤松徘徊不已。",
+          "pinyin": "yǐn hú shāng yǐ zì zhuó ， miǎn tíng kē yǐ yí yán 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "引壶觞以自酌：拿起酒壶酒杯自斟自饮。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "眄庭柯以怡颜：看着院子里的树木露出愉快的笑容。眄，斜视，这里是浏览的意思。柯，树枝。怡颜，使容颜愉快。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "倚",
+              "pinyin": "yǐ",
+              "index": 378,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 379,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "窗",
+              "pinyin": "chuāng",
+              "index": 380,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 381,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寄",
+              "pinyin": "jì",
+              "index": 382,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "傲",
+              "pinyin": "ào",
+              "index": 383,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 384,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "审",
+              "pinyin": "shěn",
+              "index": 385,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "容",
+              "pinyin": "róng",
+              "index": 386,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "膝",
+              "pinyin": "xī",
+              "index": 387,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 388,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "易",
+              "pinyin": "yì",
+              "index": 389,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "安",
+              "pinyin": "ān",
+              "index": 390,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 391,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "回家去吧！让我同外界断绝交游。",
+          "pinyin": "yǐ nán chuāng yǐ jì ào ， shěn róng xī zhī yì ān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "倚南窗以寄傲：靠着南窗来寄托傲世之情。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "审容膝之易安：深知住在仅能容膝的小屋里也很容易安适。审，明白。容膝，形容居室狭小。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 7,
+              "end": 13,
+              "old": "形容居室狭小"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "new": "膝盖"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "园",
+              "pinyin": "yuán",
+              "index": 392,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 393,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涉",
+              "pinyin": "shè",
+              "index": 394,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 395,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng",
+              "index": 396,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "趣",
+              "pinyin": "qù",
+              "index": 397,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 398,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "门",
+              "pinyin": "mén",
+              "index": 399,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "虽",
+              "pinyin": "suī",
+              "index": 400,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "设",
+              "pinyin": "shè",
+              "index": 401,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 402,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "常",
+              "pinyin": "cháng",
+              "index": 403,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "关",
+              "pinyin": "guān",
+              "index": 404,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 405,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "他们的一切都跟我的志趣不合，还要驾车出去追求什么？",
+          "pinyin": "yuán rì shè yǐ chéng qù ， mén suī shè ér cháng guān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "园日涉以成趣：每天在园中散步自成乐趣。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "门虽设而常关：大门虽然设置了却常常关闭。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "策",
+              "pinyin": "cè",
+              "index": 406,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "扶",
+              "pinyin": "fú",
+              "index": 407,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "老",
+              "pinyin": "lǎo",
+              "index": 408,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 409,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 410,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "憩",
+              "pinyin": "qì",
+              "index": 411,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 412,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 413,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矫",
+              "pinyin": "jiǎo",
+              "index": 414,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "首",
+              "pinyin": "shǒu",
+              "index": 415,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 416,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遐",
+              "pinyin": "xiá",
+              "index": 417,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "观",
+              "pinyin": "guān",
+              "index": 418,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 419,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "跟亲戚朋友谈心使我愉悦，弹琴读书能使我忘记忧愁；农夫把春天到了的消息告诉了我，将要去西边的田地耕作。",
+          "pinyin": "cè fú lǎo yǐ liú qì ， shí jiǎo shǒu ér xiá guān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "策扶老以流憩：拄着拐杖出去走走，随时随地休息。策，拄着。扶老，手杖。流憩，游息。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "时矫首而遐观：时常抬起头向远处眺望。矫首，抬头。遐观，远望。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 3,
+              "old": "手杖"
+            },
+            {
+              "start": 0,
+              "end": 3,
+              "new": "搀扶老人"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "云",
+              "pinyin": "yún",
+              "index": 420,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 421,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 422,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 423,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "出",
+              "pinyin": "chū",
+              "index": 424,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "岫",
+              "pinyin": "xiù",
+              "index": 425,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 426,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "鸟",
+              "pinyin": "niǎo",
+              "index": 427,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "倦",
+              "pinyin": "juàn",
+              "index": 428,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飞",
+              "pinyin": "fēi",
+              "index": 429,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 430,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 431,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "还",
+              "pinyin": "hái",
+              "index": 432,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 433,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "有时驾着有布篷的小车，有时划着一条小船，既要探寻那幽深的沟壑，又要走过那高低不平的山丘。",
+          "pinyin": "yún wú xīn yǐ chū xiù ， niǎo juàn fēi ér zhī hái 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "云无心以出岫：云气自然而然地从山峰间飘出。岫，山峰。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "鸟倦飞而知还：鸟儿飞累了也知道回巢。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 6,
+              "old": "山峰"
+            },
+            {
+              "start": 0,
+              "end": 6,
+              "new": "山洞"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "景",
+              "pinyin": "jǐng",
+              "index": 434,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "翳",
+              "pinyin": "yì",
+              "index": 435,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "翳",
+              "pinyin": "yì",
+              "index": 436,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 437,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 438,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "入",
+              "pinyin": "rù",
+              "index": 439,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 440,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "抚",
+              "pinyin": "fǔ",
+              "index": 441,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孤",
+              "pinyin": "gū",
+              "index": 442,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "松",
+              "pinyin": "sōng",
+              "index": 443,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 444,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "盘",
+              "pinyin": "pán",
+              "index": 445,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "桓",
+              "pinyin": "huán",
+              "index": 446,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 447,
+              "read": true,
+              "write": true
+            }
+          ],
+          "translation": "树木欣欣向荣，泉水缓缓流动，（我）羡慕万物恰逢繁荣滋长的季节，感叹自己一生行将告终。",
+          "pinyin": "jǐng yì yì yǐ jiāng rù ， fǔ gū sōng ér pán huán 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "景翳翳以将入：阳光暗淡太阳快要落山了。景，日光。翳翳，阴暗的样子。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "抚孤松而盘桓：抚摸着孤松而徘徊。盘桓，徘徊。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 1,
+              "old": "日光"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "new": "景色、风景"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 448,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 449,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 450,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兮",
+              "pinyin": "xī",
+              "index": 451,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 452,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "请",
+              "pinyin": "qǐng",
+              "index": 453,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "息",
+              "pinyin": "xī",
+              "index": 454,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "交",
+              "pinyin": "jiāo",
+              "index": 455,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 456,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "绝",
+              "pinyin": "jué",
+              "index": 457,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "游",
+              "pinyin": "yóu",
+              "index": 458,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 459,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "算了吧！活在世上还能有多久？为什么不随心所欲，听凭自然的生死？",
+          "pinyin": "guī qù lái xī ， qǐng xī jiāo yǐ jué yóu 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "归去来兮：回去吧。"
+            },
+            {
+              "start": 5,
+              "end": 11,
+              "content": "请息交以绝游：让我同外人停止交游断绝往来。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "世",
+              "pinyin": "shì",
+              "index": 460,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 461,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 462,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 463,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 464,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "违",
+              "pinyin": "wéi",
+              "index": 465,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 466,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 467,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "驾",
+              "pinyin": "jià",
+              "index": 468,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "言",
+              "pinyin": "yán",
+              "index": 469,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兮",
+              "pinyin": "xī",
+              "index": 470,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān",
+              "index": 471,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "求",
+              "pinyin": "qiú",
+              "index": 472,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 473,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "为什么心神不定，还想去什么地方？富贵不是我所求，升入仙界也没有希望。",
+          "pinyin": "shì yǔ wǒ ér xiāng wéi ， fù jià yán xī yān qiú ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "世与我而相违：人世与我已经互相背离。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "复驾言兮焉求：我还要驾车出去追求什么呢？言，语助词。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 7,
+              "end": 13,
+              "content": "宾语前置句，疑问代词‘焉’作宾语前置"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "悦",
+              "pinyin": "yuè",
+              "index": 474,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "index": 475,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "戚",
+              "pinyin": "qī",
+              "index": 476,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 477,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "情",
+              "pinyin": "qíng",
+              "index": 478,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "话",
+              "pinyin": "huà",
+              "index": 479,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 480,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乐",
+              "pinyin": "lè",
+              "index": 481,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "琴",
+              "pinyin": "qín",
+              "index": 482,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "书",
+              "pinyin": "shū",
+              "index": 483,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 484,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "消",
+              "pinyin": "xiāo",
+              "index": 485,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忧",
+              "pinyin": "yōu",
+              "index": 486,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 487,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "爱惜那良辰美景我独自去欣赏，有时扶着拐杖除草培苗。",
+          "pinyin": "yuè qīn qī zhī qíng huà ， lè qín shū yǐ xiāo yōu 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "悦亲戚之情话：喜欢同亲戚们谈谈知心话。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "乐琴书以消忧：乐于弹琴读书来消除忧愁。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "农",
+              "pinyin": "nóng",
+              "index": 488,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 489,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "告",
+              "pinyin": "gào",
+              "index": 490,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 491,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 492,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn",
+              "index": 493,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 494,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 495,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 496,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 497,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 498,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 499,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "西",
+              "pinyin": "xī",
+              "index": 500,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "畴",
+              "pinyin": "chóu",
+              "index": 501,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 502,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "登上东边山坡我放声长啸，傍着清清的溪流把诗歌吟唱；姑且顺随自然的变化，度到生命的尽头。",
+          "pinyin": "nóng rén gào yú yǐ chūn jí ， jiāng yǒu shì yú xī chóu 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "农人告余以春及：农人告诉我春天到了。"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "content": "将有事于西畴：将要到西边的田里去耕种了。事，指农事。畴，田地。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "状语后置句，正常语序为‘农人以春及告余’"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "content": "状语后置句，正常语序为‘将于西畴有事’"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "或",
+              "pinyin": "huò",
+              "index": 503,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "命",
+              "pinyin": "mìng",
+              "index": 504,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "巾",
+              "pinyin": "jīn",
+              "index": 505,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "车",
+              "pinyin": "chē",
+              "index": 506,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 507,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "或",
+              "pinyin": "huò",
+              "index": 508,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "棹",
+              "pinyin": "zhào",
+              "index": 509,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孤",
+              "pinyin": "gū",
+              "index": 510,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu",
+              "index": 511,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 512,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "抱定乐安天命的主意，还有什么可犹疑的呢！",
+          "pinyin": "huò mìng jīn chē ， huò zhào gū zhōu 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "或命巾车：有时驾着有帷幕的小车。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "content": "或棹孤舟：有时划着一只小船。棹，划船。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "既",
+              "pinyin": "jì",
+              "index": 513,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "窈",
+              "pinyin": "yǎo",
+              "index": 514,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "窕",
+              "pinyin": "tiǎo",
+              "index": 515,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 516,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寻",
+              "pinyin": "xún",
+              "index": 517,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "壑",
+              "pinyin": "hè",
+              "index": 518,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 519,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亦",
+              "pinyin": "yì",
+              "index": 520,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "崎",
+              "pinyin": "qí",
+              "index": 521,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "岖",
+              "pinyin": "qū",
+              "index": 522,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 523,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "经",
+              "pinyin": "jīng",
+              "index": 524,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "丘",
+              "pinyin": "qiū",
+              "index": 525,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 526,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "树木欣欣向荣，泉水缓缓流动，（我）羡慕万物恰逢繁荣滋长的季节，感叹自己一生行将告终。",
+          "pinyin": "jì yǎo tiǎo yǐ xún hè ， yì qí qū ér jīng qiū 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "既窈窕以寻壑：既可以经过幽深曲折的山谷。窈窕，深远曲折的样子。壑，山沟。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "亦崎岖而经丘：又可以经过高低不平的山丘。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 3,
+              "old": "深远曲折的样子"
+            },
+            {
+              "start": 0,
+              "end": 3,
+              "new": "女子文静美好"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "木",
+              "pinyin": "mù",
+              "index": 527,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欣",
+              "pinyin": "xīn",
+              "index": 528,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欣",
+              "pinyin": "xīn",
+              "index": 529,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 530,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "向",
+              "pinyin": "xiàng",
+              "index": 531,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "荣",
+              "pinyin": "róng",
+              "index": 532,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 533,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "泉",
+              "pinyin": "quán",
+              "index": 534,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涓",
+              "pinyin": "juān",
+              "index": 535,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涓",
+              "pinyin": "juān",
+              "index": 536,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 537,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "始",
+              "pinyin": "shǐ",
+              "index": 538,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 539,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 540,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "算了吧！活在世上还能有多久？为什么不随心所欲，听凭自然的生死？",
+          "pinyin": "mù xīn xīn yǐ xiàng róng ， quán juān juān ér shǐ liú 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "木欣欣以向荣：树木生机勃勃非常茂盛。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "泉涓涓而始流：泉水细细地开始流淌。涓涓，细水慢流的样子。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "善",
+              "pinyin": "shàn",
+              "index": 541,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 542,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "物",
+              "pinyin": "wù",
+              "index": 543,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 544,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "得",
+              "pinyin": "dé",
+              "index": 545,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 546,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 547,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "感",
+              "pinyin": "gǎn",
+              "index": 548,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú",
+              "index": 549,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 550,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 551,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 552,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "休",
+              "pinyin": "xiū",
+              "index": 553,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 554,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "为什么心神不定，还想去什么地方？富贵不是我所求，升入仙界也没有希望。",
+          "pinyin": "shàn wàn wù zhī dé shí ， gǎn wú shēng zhī xíng xiū 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "善万物之得时：羡慕万物恰逢繁荣滋长的时节。善，喜好、羡慕。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "感吾生之行休：感叹我的一生将要结束。行休，将要结束。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 555,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 556,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū",
+              "index": 557,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 558,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寓",
+              "pinyin": "yù",
+              "index": 559,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "形",
+              "pinyin": "xíng",
+              "index": 560,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宇",
+              "pinyin": "yǔ",
+              "index": 561,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "内",
+              "pinyin": "nèi",
+              "index": 562,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 563,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "几",
+              "pinyin": "jǐ",
+              "index": 564,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 565,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 566,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "爱惜那良辰美景我独自去欣赏，有时扶着拐杖除草培苗。",
+          "pinyin": "yǐ yǐ hū ！ yù xíng yǔ nèi fù jǐ shí ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "已矣乎：算了吧。"
+            },
+            {
+              "start": 4,
+              "end": 11,
+              "content": "寓形宇内复几时：寄身于天地之间还能有多久呢？"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "曷",
+              "pinyin": "hé",
+              "index": 567,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 568,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "委",
+              "pinyin": "wěi",
+              "index": 569,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 570,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "任",
+              "pinyin": "rèn",
+              "index": 571,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 572,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "留",
+              "pinyin": "liú",
+              "index": 573,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 574,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "登上东边山坡我放声长啸，傍着清清的溪流把诗歌吟唱；姑且顺随自然的变化，度到生命的尽头。",
+          "pinyin": "hé bù wěi xīn rèn qù liú ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "曷不委心任去留：为什么不随心所欲地决定自己的行止呢？曷，何。委心，随心。去留，指生死。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "胡",
+              "pinyin": "hú",
+              "index": 575,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 576,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū",
+              "index": 577,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遑",
+              "pinyin": "huáng",
+              "index": 578,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遑",
+              "pinyin": "huáng",
+              "index": 579,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 580,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 581,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 582,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 583,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "抱定乐安天命的主意，还有什么可犹疑的呢！",
+          "pinyin": "hú wéi hū huáng huáng yù hé zhī ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "content": "胡为乎遑遑欲何之：为什么还要心神不定地想要到哪里去呢？遑遑，心神不定的样子。之，往。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 8,
+              "content": "宾语前置句，疑问代词‘何’作宾语前置"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "富",
+              "pinyin": "fù",
+              "index": 584,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贵",
+              "pinyin": "guì",
+              "index": 585,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 586,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú",
+              "index": 587,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愿",
+              "pinyin": "yuàn",
+              "index": 588,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 589,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 590,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乡",
+              "pinyin": "xiāng",
+              "index": 591,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 592,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 593,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "期",
+              "pinyin": "qī",
+              "index": 594,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 595,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "算了吧！活在世上还能有多久？为什么不随心所欲，听凭自然的生死？",
+          "pinyin": "fù guì fēi wú yuàn ， dì xiāng bù kě qī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "富贵非吾愿：富贵不是我的愿望。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "帝乡不可期：神仙居住的地方无法期望。帝乡，天帝所居之处，指仙境。期，期望。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 8,
+              "old": "天帝所居之处，指仙境"
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "new": "皇帝故乡"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "怀",
+              "pinyin": "huái",
+              "index": 596,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "良",
+              "pinyin": "liáng",
+              "index": 597,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "辰",
+              "pinyin": "chén",
+              "index": 598,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 599,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孤",
+              "pinyin": "gū",
+              "index": 600,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "往",
+              "pinyin": "wǎng",
+              "index": 601,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 602,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "或",
+              "pinyin": "huò",
+              "index": 603,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "植",
+              "pinyin": "zhí",
+              "index": 604,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "杖",
+              "pinyin": "zhàng",
+              "index": 605,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 606,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耘",
+              "pinyin": "yún",
+              "index": 607,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耔",
+              "pinyin": "zǐ",
+              "index": 608,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 609,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "为什么心神不定，还想去什么地方？富贵不是我所求，升入仙界也没有希望。",
+          "pinyin": "huái liáng chén yǐ gū wǎng ， huò zhí zhàng ér yún zǐ 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "怀良辰以孤往：爱惜美好的时光独自外出。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "或植杖而耘耔：有时扶着拐杖除草培苗。耘，除草。耔，培苗。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "登",
+              "pinyin": "dēng",
+              "index": 610,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 611,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "皋",
+              "pinyin": "gāo",
+              "index": 612,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 613,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "舒",
+              "pinyin": "shū",
+              "index": 614,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "啸",
+              "pinyin": "xiào",
+              "index": 615,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 616,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "临",
+              "pinyin": "lín",
+              "index": 617,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "清",
+              "pinyin": "qīng",
+              "index": 618,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 619,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 620,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "赋",
+              "pinyin": "fù",
+              "index": 621,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诗",
+              "pinyin": "shī",
+              "index": 622,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 623,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "爱惜那良辰美景我独自去欣赏，有时扶着拐杖除草培苗。",
+          "pinyin": "dēng dōng gāo yǐ shū xiào ， lín qīng liú ér fù shī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "登东皋以舒啸：登上东边的高地放声长啸。皋，高地。舒啸，放声长啸。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "临清流而赋诗：面对清澈的流水吟咏诗歌。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "聊",
+              "pinyin": "liáo",
+              "index": 624,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乘",
+              "pinyin": "chéng",
+              "index": 625,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "化",
+              "pinyin": "huà",
+              "index": 626,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 627,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 628,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尽",
+              "pinyin": "jìn",
+              "index": 629,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 630,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乐",
+              "pinyin": "lè",
+              "index": 631,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夫",
+              "pinyin": "fū",
+              "index": 632,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 633,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "命",
+              "pinyin": "mìng",
+              "index": 634,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 635,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奚",
+              "pinyin": "xī",
+              "index": 636,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "疑",
+              "pinyin": "yí",
+              "index": 637,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 638,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "登上东边山坡我放声长啸，傍着清清的溪流把诗歌吟唱；姑且顺随自然的变化，度到生命的尽头。",
+          "pinyin": "liáo chéng huà yǐ guī jìn ， lè fū tiān mìng fù xī yí ！",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "聊乘化以归尽：姑且顺应自然的变化度过余生直到生命尽头。乘化，顺应自然的变化。归尽，直到死亡。"
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "content": "乐夫天命复奚疑：乐于顺从天命还有什么可疑虑的呢？"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "选必下",
+    "文言文"
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "name": "临安春雨初霁",
+  "author": "陆游",
+  "dynasty": "南宋",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "世",
+              "pinyin": "shì",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "味",
+              "pinyin": "wèi",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "薄",
+              "pinyin": "báo",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "似",
+              "pinyin": "sì",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "纱",
+              "pinyin": "shā",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谁",
+              "pinyin": "shuí",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "令",
+              "pinyin": "lìng",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "骑",
+              "pinyin": "qí",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ",
+              "index": 11,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "客",
+              "pinyin": "kè",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "京",
+              "pinyin": "jīng",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "华",
+              "pinyin": "huá",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 15,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "近年来，人情世故越来越淡薄，像薄纱一样，是谁让我骑马来到京城呢？",
+          "pinyin": "shì wèi nián lái báo sì shā ， shuí lìng qí mǎ kè jīng huá 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "世味：人世间的滋味，此处指世俗的功名利禄和人情世故。"
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "content": "骑马客京华：骑着马在京城作客。客，名词作动词，客居、作客。京华，京城，指南宋都城临安（今杭州）。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 8,
+              "end": 11,
+              "content": "‘骑马客京华’中‘客’为名词活用为动词，意为‘作客’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "楼",
+              "pinyin": "lóu",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "听",
+              "pinyin": "tīng",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雨",
+              "pinyin": "yǔ",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "深",
+              "pinyin": "shēn",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "巷",
+              "pinyin": "xiàng",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "朝",
+              "pinyin": "cháo",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卖",
+              "pinyin": "mài",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "杏",
+              "pinyin": "xìng",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "花",
+              "pinyin": "huā",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "在小楼里听了一夜的春雨，想必明天清晨，深巷里就会传来叫卖杏花的声音。",
+          "pinyin": "xiǎo lóu yī yè tīng chūn yǔ ， shēn xiàng míng cháo mài xìng huā 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "小楼一夜听春雨：在小楼中整夜倾听春雨。听，聆听。"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "content": "深巷明朝卖杏花：深巷里明天早晨会有人叫卖杏花。明朝，明天早晨。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 11,
+              "end": 12,
+              "old": "早晨"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "new": "朝代名"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "矮",
+              "pinyin": "ǎi",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "纸",
+              "pinyin": "zhǐ",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "斜",
+              "pinyin": "xié",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "háng",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闲",
+              "pinyin": "xián",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "作",
+              "pinyin": "zuò",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "草",
+              "pinyin": "cǎo",
+              "index": 38,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "晴",
+              "pinyin": "qíng",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "窗",
+              "pinyin": "chuāng",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "细",
+              "pinyin": "xì",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乳",
+              "pinyin": "rǔ",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "戏",
+              "pinyin": "xì",
+              "index": 44,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "分",
+              "pinyin": "fēn",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "茶",
+              "pinyin": "chá",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "铺开小纸，随意地写写草书，打发这悠闲的时光，在晴朗的窗下，煮水泡茶，细细品味。",
+          "pinyin": "ǎi zhǐ xié háng xián zuò cǎo ， qíng chuāng xì rǔ xì fēn chá 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "矮纸斜行闲作草：在短纸上歪歪斜斜地随意写着草书。矮纸，短纸。斜行，歪斜的行列。闲，悠闲地。作草，写草书。"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "content": "晴窗细乳戏分茶：在晴日的窗前，看着细小的茶沫，游戏般地分茶。细乳，沏茶时水面浮起的细小泡沫。分茶，宋代流行的一种茶道技艺。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 12,
+              "end": 12,
+              "old": "茶沫"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "new": "乳汁"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "素",
+              "pinyin": "sù",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "衣",
+              "pinyin": "yī",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "莫",
+              "pinyin": "mò",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尘",
+              "pinyin": "chén",
+              "index": 53,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "叹",
+              "pinyin": "tàn",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "犹",
+              "pinyin": "yóu",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "清",
+              "pinyin": "qīng",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "到",
+              "pinyin": "dào",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 63,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "不要感叹这洁白的衣衫将要沾染上风尘，幸好还赶得上清明节回到家乡。",
+          "pinyin": "sù yī mò qǐ fēng chén tàn ， yóu jí qīng míng kě dào jiā 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "素衣莫起风尘叹：不要感叹白衣会被京城的尘土弄脏。素衣，白衣，亦喻高洁的品格。风尘叹，感叹风尘玷污白衣，暗指官场污浊。"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "content": "犹及清明可到家：还来得及在清明节前回到家乡。犹及，还来得及。清明，清明节。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "‘素衣莫起风尘叹’为省略句和倒装句，省略主语‘你’（诗人自指），‘风尘叹’为宾语前置，正常语序为‘叹风尘’。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "选必下"
+  ]
+}
