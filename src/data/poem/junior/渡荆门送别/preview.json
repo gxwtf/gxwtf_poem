@@ -1,6 +1,6 @@
 {
-  "name": "次北固山下",
-  "author": "王湾",
+  "name": "渡荆门送别",
+  "author": "李白",
   "dynasty": "唐代",
   "mode": "center",
   "paragraphs": [
@@ -9,29 +9,29 @@
         {
           "content": [
             {
-              "char": "客",
-              "pinyin": "kè",
+              "char": "渡",
+              "pinyin": "dù",
               "index": 0,
               "read": false,
               "write": false
             },
             {
-              "char": "路",
-              "pinyin": "lù",
+              "char": "远",
+              "pinyin": "yuǎn",
               "index": 1,
               "read": false,
               "write": false
             },
             {
-              "char": "青",
-              "pinyin": "qīng",
+              "char": "荆",
+              "pinyin": "jīng",
               "index": 2,
-              "read": false,
-              "write": false
+              "read": true,
+              "write": true
             },
             {
-              "char": "山",
-              "pinyin": "shān",
+              "char": "门",
+              "pinyin": "mén",
               "index": 3,
               "read": false,
               "write": false
@@ -51,36 +51,36 @@
               "write": false
             },
             {
-              "char": "行",
-              "pinyin": "xíng",
+              "char": "来",
+              "pinyin": "lái",
               "index": 6,
               "read": false,
               "write": false
             },
             {
-              "char": "舟",
-              "pinyin": "zhōu",
+              "char": "从",
+              "pinyin": "cóng",
               "index": 7,
               "read": false,
               "write": false
             },
             {
-              "char": "绿",
-              "pinyin": "lǜ",
+              "char": "楚",
+              "pinyin": "chǔ",
               "index": 8,
               "read": false,
               "write": false
             },
             {
-              "char": "水",
-              "pinyin": "shuǐ",
+              "char": "国",
+              "pinyin": "guó",
               "index": 9,
               "read": false,
               "write": false
             },
             {
-              "char": "前",
-              "pinyin": "qián",
+              "char": "游",
+              "pinyin": "yóu",
               "index": 10,
               "read": false,
               "write": false
@@ -93,35 +93,45 @@
               "write": false
             }
           ],
-          "translation": "旅途延伸在青翠北固山外，行船漂浮在碧绿江水之前。",
-          "pinyin": "kè lù qīng shān wài ， xíng zhōu lǜ shuǐ qián 。",
+          "translation": "乘舟远渡荆门关外，来到楚国故地漫游。",
+          "pinyin": "dù yuǎn jīng mén wài ， lái cóng chǔ guó yóu 。",
           "notes": [
             {
               "start": 0,
               "end": 1,
-              "content": "客路：指游子在外的旅程，非字面‘客人之路’。"
+              "content": "渡远：远行渡水，指诗人离开蜀地远赴楚地。"
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "content": "荆门：山名，位于今湖北宜都西北，为巴蜀与荆楚交界处。"
             },
             {
               "start": 5,
               "end": 5,
-              "content": "外：在……外面，此处为‘于青山外’的省略，表空间方位。"
+              "content": "外：指离开荆门，进入楚地，表示行程的起点。"
             },
             {
-              "start": 11,
-              "end": 11,
-              "content": "前：在……前面，即‘于绿水前’，状语后置结构。"
+              "start": 7,
+              "end": 7,
+              "content": "从：到、往，此处指前往楚国游览，古义与今义不同。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "楚国：先秦诸侯国，此指长江中游地区，今湖北湖南一带。"
             }
           ],
-          "special_sentences": [
+          "different_meanings": [
             {
-              "start": 5,
-              "end": 5,
-              "content": "状语后置：‘外’即‘于青山外’，介词结构后置表地点。"
+              "start": 7,
+              "end": 7,
+              "old": "到、往"
             },
             {
-              "start": 11,
-              "end": 11,
-              "content": "状语后置：‘前’即‘于绿水前’，介词结构后置表位置。"
+              "start": 7,
+              "end": 7,
+              "new": "跟随"
             }
           ]
         }
@@ -132,36 +142,36 @@
         {
           "content": [
             {
-              "char": "潮",
-              "pinyin": "cháo",
+              "char": "山",
+              "pinyin": "shān",
               "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "随",
+              "pinyin": "suí",
+              "index": 13,
               "read": false,
               "write": false
             },
             {
               "char": "平",
               "pinyin": "píng",
-              "index": 13,
-              "read": false,
-              "write": false
-            },
-            {
-              "char": "两",
-              "pinyin": "liǎng",
               "index": 14,
               "read": false,
               "write": false
             },
             {
-              "char": "岸",
-              "pinyin": "àn",
+              "char": "野",
+              "pinyin": "yě",
               "index": 15,
               "read": false,
               "write": false
             },
             {
-              "char": "阔",
-              "pinyin": "kuò",
+              "char": "尽",
+              "pinyin": "jìn",
               "index": 16,
               "read": false,
               "write": false
@@ -174,39 +184,39 @@
               "write": false
             },
             {
-              "char": "风",
-              "pinyin": "fēng",
+              "char": "江",
+              "pinyin": "jiāng",
               "index": 18,
               "read": false,
               "write": false
             },
             {
-              "char": "正",
-              "pinyin": "zhèng",
+              "char": "入",
+              "pinyin": "rù",
               "index": 19,
               "read": false,
               "write": false
             },
             {
-              "char": "一",
-              "pinyin": "yī",
+              "char": "大",
+              "pinyin": "dà",
               "index": 20,
               "read": false,
               "write": false
             },
             {
-              "char": "帆",
-              "pinyin": "fān",
+              "char": "荒",
+              "pinyin": "huāng",
               "index": 21,
-              "read": false,
-              "write": false
-            },
-            {
-              "char": "悬",
-              "pinyin": "xuán",
-              "index": 22,
               "read": true,
               "write": true
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 22,
+              "read": false,
+              "write": false
             },
             {
               "char": "。",
@@ -216,8 +226,25 @@
               "write": false
             }
           ],
-          "translation": "潮涨江平两岸更显宽阔，顺风吹拂孤帆高高悬垂。",
-          "pinyin": "cháo píng liǎng àn kuò ， fēng zhèng yī fān xuán 。"
+          "translation": "高山随着平野的展开而消失，长江涌入辽阔荒原奔流。",
+          "pinyin": "shān suí píng yě jìn ， jiāng rù dà huāng liú 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "平野：平坦广阔的原野，形容进入楚地后的地形变化。"
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "content": "尽：消失，指山脉逐渐消失在平原尽头。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "大荒：荒远空旷的原野，古语，非现代‘荒废土地’之意。"
+            }
+          ]
         }
       ]
     },
@@ -226,36 +253,36 @@
         {
           "content": [
             {
-              "char": "海",
-              "pinyin": "hǎi",
+              "char": "月",
+              "pinyin": "yuè",
               "index": 24,
               "read": false,
               "write": false
             },
             {
-              "char": "日",
-              "pinyin": "rì",
+              "char": "下",
+              "pinyin": "xià",
               "index": 25,
               "read": false,
               "write": false
             },
             {
-              "char": "生",
-              "pinyin": "shēng",
+              "char": "飞",
+              "pinyin": "fēi",
               "index": 26,
               "read": false,
               "write": false
             },
             {
-              "char": "残",
-              "pinyin": "cán",
+              "char": "天",
+              "pinyin": "tiān",
               "index": 27,
               "read": false,
-              "write": true
+              "write": false
             },
             {
-              "char": "夜",
-              "pinyin": "yè",
+              "char": "镜",
+              "pinyin": "jìng",
               "index": 28,
               "read": false,
               "write": false
@@ -268,36 +295,36 @@
               "write": false
             },
             {
-              "char": "江",
-              "pinyin": "jiāng",
+              "char": "云",
+              "pinyin": "yún",
               "index": 30,
               "read": false,
               "write": false
             },
             {
-              "char": "春",
-              "pinyin": "chūn",
+              "char": "生",
+              "pinyin": "shēng",
               "index": 31,
               "read": false,
               "write": false
             },
             {
-              "char": "入",
-              "pinyin": "rù",
+              "char": "结",
+              "pinyin": "jié",
               "index": 32,
               "read": false,
               "write": false
             },
             {
-              "char": "旧",
-              "pinyin": "jiù",
+              "char": "海",
+              "pinyin": "hǎi",
               "index": 33,
               "read": false,
               "write": false
             },
             {
-              "char": "年",
-              "pinyin": "nián",
+              "char": "楼",
+              "pinyin": "lóu",
               "index": 34,
               "read": false,
               "write": false
@@ -310,28 +337,25 @@
               "write": false
             }
           ],
-          "translation": "黑夜将尽海上旭日初升，旧年未过江上春意已至。",
-          "pinyin": "hǎi rì shēng cán yè ， jiāng chūn rù jiù nián 。",
+          "translation": "月影如天上飞来的明镜，云霞结成海市蜃楼。",
+          "pinyin": "yuè xià fēi tiān jìng ， yún shēng jié hǎi lóu 。",
           "notes": [
             {
               "start": 0,
-              "end": 1,
-              "content": "海日：指从辽阔江面（如海）上升起的太阳，并非真正大海上的日出。"
+              "end": 5,
+              "content": "月下飞天镜：月亮倒映江中，宛如从天上飞下的明镜，比喻月影之美。"
             },
             {
-              "start": 2,
-              "end": 2,
-              "content": "生：升起、诞生，此处用拟人手法描写红日破晓而出的动态景象。"
-            },
+              "start": 6,
+              "end": 11,
+              "content": "云生结海楼：云霞升腾，形成海市蜃楼般的壮丽景象。海楼，即海市蜃楼。"
+            }
+          ],
+          "special_sentences": [
             {
-              "start": 3,
-              "end": 4,
-              "content": "残夜：将尽的夜晚，指黎明前最后的黑暗时段。"
-            },
-            {
-              "start": 8,
-              "end": 8,
-              "content": "入：进入，此处拟人化表达新春气息悄然融入旧年尾声。"
+              "start": 0,
+              "end": 5,
+              "content": "倒装与比喻句式，‘月下飞天镜’实为‘月亮如飞下的天镜’，语序倒置以增强诗意。"
             }
           ]
         }
@@ -342,78 +366,78 @@
         {
           "content": [
             {
-              "char": "乡",
-              "pinyin": "xiāng",
+              "char": "仍",
+              "pinyin": "réng",
               "index": 36,
               "read": false,
               "write": false
             },
             {
-              "char": "书",
-              "pinyin": "shū",
+              "char": "怜",
+              "pinyin": "lián",
               "index": 37,
-              "read": false,
-              "write": false
+              "read": true,
+              "write": true
             },
             {
-              "char": "何",
-              "pinyin": "hé",
+              "char": "故",
+              "pinyin": "gù",
               "index": 38,
               "read": false,
               "write": false
             },
             {
-              "char": "处",
-              "pinyin": "chù",
+              "char": "乡",
+              "pinyin": "xiāng",
               "index": 39,
               "read": false,
               "write": false
             },
             {
-              "char": "达",
-              "pinyin": "dá",
+              "char": "水",
+              "pinyin": "shuǐ",
               "index": 40,
               "read": false,
               "write": false
             },
             {
-              "char": "？",
-              "pinyin": "？",
+              "char": "，",
+              "pinyin": "，",
               "index": 41,
               "read": false,
               "write": false
             },
             {
-              "char": "归",
-              "pinyin": "guī",
+              "char": "万",
+              "pinyin": "wàn",
               "index": 42,
               "read": false,
               "write": false
             },
             {
-              "char": "雁",
-              "pinyin": "yàn",
+              "char": "里",
+              "pinyin": "lǐ",
               "index": 43,
               "read": false,
               "write": false
             },
             {
-              "char": "洛",
-              "pinyin": "luò",
+              "char": "送",
+              "pinyin": "sòng",
               "index": 44,
-              "read": true,
-              "write": true
-            },
-            {
-              "char": "阳",
-              "pinyin": "yáng",
-              "index": 45,
               "read": false,
               "write": false
             },
             {
-              "char": "边",
-              "pinyin": "biān",
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 45,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu",
               "index": 46,
               "read": false,
               "write": false
@@ -426,52 +450,42 @@
               "write": false
             }
           ],
-          "translation": "家书该寄往何处才能到达？托北归鸿雁捎去洛阳城边。",
-          "pinyin": "xiāng shū hé chù dá ？ guī yàn luò yáng biān 。",
+          "translation": "依然眷念故乡的江水，不远万里相送行舟。",
+          "pinyin": "réng lián gù xiāng shuǐ ， wàn lǐ sòng xíng zhōu 。",
           "notes": [
             {
-              "start": 0,
+              "start": 1,
               "end": 1,
-              "content": "乡书：家信。‘书’古义为书信，与现代‘书籍’义不同。"
+              "content": "怜：喜爱、爱惜，古义与今义‘同情’不同，此处表达对故乡水的深情。"
             },
             {
               "start": 2,
-              "end": 2,
-              "content": "何：哪里，疑问代词，在句中作宾语前置，正常语序为‘达何处’。"
+              "end": 4,
+              "content": "故乡水：指长江上游来自蜀地的江水，寄托思乡之情。"
             },
             {
-              "start": 6,
-              "end": 7,
-              "content": "归雁：北飞的大雁，古人认为大雁可传书，暗含托雁传书之意。"
-            },
-            {
-              "start": 11,
-              "end": 11,
-              "content": "边：旁边、边缘，相当于‘于洛阳边’，属状语后置结构。"
+              "start": 9,
+              "end": 10,
+              "content": "行舟：远行之舟，点明离乡主题。"
             }
           ],
           "different_meanings": [
             {
               "start": 1,
               "end": 1,
-              "old": "书信"
+              "old": "喜爱"
             },
             {
               "start": 1,
               "end": 1,
-              "new": "书籍"
+              "new": "同情"
             }
           ],
           "special_sentences": [
             {
-              "start": 2,
-              "end": 2,
-              "content": "宾语前置：‘何’为疑问代词作宾语，置于动词‘达’之前，正常语序为‘达何处’。"
-            },
-            {
-              "start": 11,
+              "start": 6,
               "end": 11,
-              "content": "状语后置：‘边’即‘于洛阳边’，介词结构省略‘于’后置表方位。"
+              "content": "拟人句式，‘万里送行舟’将故乡之水拟人化，表达依依惜别之情。"
             }
           ]
         }
