@@ -125,6 +125,7 @@ export default function Recommends() {
                             content={poem.content}
                             tags={poem.tags}
                             url={`/poem/${poem.version}/${poem.title}`}
+                            id={poem.id}
                         />
                     ))}
                 </div>

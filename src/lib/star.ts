@@ -28,6 +28,7 @@ export const updateStar = async (userId: number, poemId: string): Promise<Boolea
         });
     }
     else{
+        console.log(userId, poemId);
         await prisma.star.create({
             data: {
                 userId: userId,
@@ -37,3 +38,12 @@ export const updateStar = async (userId: number, poemId: string): Promise<Boolea
     }
     return !type;
 };
+
+export const queryStarNum = async (poemId: string): Promise<number> => {
+    const res = await prisma.star.findMany({
+        where: {
+            poemId: poemId
+        }
+    });
+    return res.length;
+}

@@ -1,21 +1,16 @@
-/*
-  Warnings:
+-- CreateTable
+CREATE TABLE "public"."poems" (
+    "id" TEXT NOT NULL,
+    "title" TEXT NOT NULL,
+    "version" TEXT NOT NULL,
+    "tags" TEXT[],
+    "author" TEXT,
+    "dynasty" TEXT,
+    "mode" TEXT NOT NULL,
+    "content" TEXT NOT NULL,
 
-  - You are about to drop the `Star` table. If the table is not empty, all the data it contains will be lost.
-  - You are about to drop the `User` table. If the table is not empty, all the data it contains will be lost.
-
-*/
--- DropForeignKey
-ALTER TABLE "public"."Star" DROP CONSTRAINT "Star_poemId_fkey";
-
--- DropForeignKey
-ALTER TABLE "public"."Star" DROP CONSTRAINT "Star_userId_fkey";
-
--- DropTable
-DROP TABLE "public"."Star";
-
--- DropTable
-DROP TABLE "public"."User";
+    CONSTRAINT "poems_pkey" PRIMARY KEY ("id")
+);
 
 -- CreateTable
 CREATE TABLE "public"."users" (
@@ -44,6 +39,35 @@ CREATE TABLE "public"."stars" (
 );
 
 -- CreateTable
+CREATE TABLE "public"."authors" (
+    "id" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
+    "dynasty" TEXT,
+    "epithet" TEXT,
+    "quote" TEXT,
+    "avatar" TEXT,
+    "intro" TEXT,
+    "tags" TEXT[],
+
+    CONSTRAINT "authors_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "public"."articles" (
+    "id" TEXT NOT NULL,
+    "title" TEXT NOT NULL,
+    "author" TEXT,
+    "dynasty" TEXT,
+    "views" INTEGER NOT NULL DEFAULT 0,
+    "abstract" TEXT,
+    "content" TEXT,
+    "img" TEXT,
+    "tags" TEXT[],
+
+    CONSTRAINT "articles_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
 CREATE TABLE "public"."quotes" (
     "id" TEXT NOT NULL,
     "title" TEXT NOT NULL,
@@ -52,6 +76,20 @@ CREATE TABLE "public"."quotes" (
     "dynasty" TEXT,
 
     CONSTRAINT "quotes_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "public"."events" (
+    "id" TEXT NOT NULL,
+    "year" INTEGER NOT NULL,
+    "month" INTEGER NOT NULL,
+    "day" INTEGER NOT NULL,
+    "type" TEXT NOT NULL,
+    "figure" TEXT,
+    "importance" INTEGER NOT NULL DEFAULT 0,
+    "data" TEXT NOT NULL,
+
+    CONSTRAINT "events_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
@@ -70,7 +108,16 @@ CREATE INDEX "stars_userId_idx" ON "public"."stars"("userId");
 CREATE INDEX "stars_poemId_idx" ON "public"."stars"("poemId");
 
 -- CreateIndex
+CREATE INDEX "stars_userId_poemId_idx" ON "public"."stars"("userId", "poemId");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "stars_userId_poemId_key" ON "public"."stars"("userId", "poemId");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "authors_name_key" ON "public"."authors"("name");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "articles_title_key" ON "public"."articles"("title");
 
 -- AddForeignKey
 ALTER TABLE "public"."check_ins" ADD CONSTRAINT "check_ins_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

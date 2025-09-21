@@ -1,10 +1,6 @@
 "use client"
 
 import {
-    Star
-} from "lucide-react";
-
-import {
     Card,
     CardAction,
     CardContent,
@@ -18,10 +14,7 @@ import { Tag } from "@/components/tag"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { Skeleton } from "@/components/ui/skeleton"
-import { updateStar, queryStar } from "@/lib/star";
-import useSession from "@/lib/use-session";
-import { useEffect, useState } from "react";
-
+import { StarButton } from "./star"
 
 interface PoemCardProps {
     title: string
@@ -43,16 +36,6 @@ export function PoemCard({
     id
 }: PoemCardProps) {
     const router = useRouter();
-    const { session } = useSession();
-    const userId = session.userid;
-    const [ starStat, setStarStat ] = useState<Boolean>(false);
-    useEffect(() => {
-        queryStar(userId,id)
-        .then((res)=>{
-            console.log(userId,id,res);
-            setStarStat(res);
-        });
-    }, [userId, id]);
     return (
         <Card onClick={(e) => {
             if (!(e.target as HTMLElement).closest('.no-navigate')) {
@@ -71,12 +54,7 @@ export function PoemCard({
                     </Link>
                 </CardDescription>
                 <CardAction>
-                    <button onClick={async (event)=>{
-                        event.stopPropagation();
-                        setStarStat(await updateStar(userId, id))
-                    }}>
-                        <Star fill={starStat?"var(--theme-color)":"var(--muted-foreground)"} strokeWidth={0} />
-                    </button>
+                    <StarButton poemId={id}></StarButton>
                 </CardAction>
             </CardHeader>
             <CardContent>
