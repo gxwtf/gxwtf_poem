@@ -2,36 +2,75 @@
 
 "use client"
 import React, { useEffect, useState } from "react"
-import { PoemCard } from "@/components/poem-card"
+import { PoemCard, SkeletonPoemCard } from "@/components/poem-card"
 import { useVersion } from "@/components/version-provider"
-import { SiteHeader } from "@/components/site-header";
+import { SiteHeader } from "@/components/site-header"
 
 type PoemMeta = {
+    id: string
     title: string
     author: string
     dynasty: string
     content: string
     tags?: string[]
+    version: string
 }
 
 export default function OverviewPage() {
     const { version } = useVersion()
     const [poems, setPoems] = useState<PoemMeta[]>([])
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         async function loadPoems() {
-            const overviewData = await import(`@/data/poem/${version}/overview.json`);
-            setPoems(overviewData.default);
+            setLoading(true)
+            try {
+                const response = await fetch(`/api/poems?version=${version}`)
+                if (response.ok) {
+                    const data = await response.json()
+                    setPoems(data)
+                } else {
+                    console.error('Failed to fetch poems:', response.statusText)
+                }
+            } catch (error) {
+                console.error('Error fetching poems:', error)
+            } finally {
+                setLoading(false)
+            }
         }
-        loadPoems();
-    }, [version]);
+        loadPoems()
+    }, [version])
+
+    // 生成骨架屏数组
+    const skeletonCount = 8
+
+    if (loading) {
+        return (
+            <>
+                <SiteHeader now="古诗文" />
+                <div className="p-2 sm:p-4 md:p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 md:gap-6">
+                    {Array.from({ length: skeletonCount }).map((_, index) => (
+                        <SkeletonPoemCard key={index} />
+                    ))}
+                </div>
+            </>
+        )
+    }
 
     return (
         <>
             <SiteHeader now="古诗文" />
-            <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {poems.map((poem, idx) => (
-                    <PoemCard key={poem.title + idx} {...poem} url={`/poem/${version}/${poem.title}`} />
+            <div className="p-2 sm:p-4 md:p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 md:gap-6">
+                {poems.map((poem) => (
+                    <PoemCard 
+                        key={poem.id} 
+                        title={poem.title}
+                        author={poem.author}
+                        dynasty={poem.dynasty}
+                        content={poem.content}
+                        tags={poem.tags}
+                        url={`/poem/${version}/${poem.title}`} 
+                    />
                 ))}
             </div>
         </>

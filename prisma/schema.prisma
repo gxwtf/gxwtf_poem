@@ -6,7 +6,6 @@
 
 generator client {
     provider = "prisma-client-js"
-    output   = "../src/app/generated/prisma"
 }
 
 datasource db {
@@ -17,11 +16,11 @@ datasource db {
 model Poem {
     id        String   @id @default(cuid())
     title     String
-    version   String   // "junior" or "senior"
+    version   String // "junior" or "senior"
     tags      String[]
     author    String?
     dynasty   String?
-    mode      String   // "poem" or "paragraph"
+    mode      String // "poem" or "paragraph"
     content   String
     starredBy Star[]
 
@@ -29,24 +28,40 @@ model Poem {
 }
 
 model User {
-    id   Int    @id
-    star Star[]
+    id       Int       @id
+    star     Star[]
+    checkIns CheckIn[]
 
     @@map("users")
 }
 
-model Star {
-    id      Int      @id @default(autoincrement())
+model CheckIn {
+    id      String   @id @default(cuid())
     user    User     @relation(fields: [userId], references: [id])
     userId  Int
-    poem    Poem     @relation(fields: [poemId], references: [id])
-    poemId  String
+    date    DateTime @default(now())
+    quote   Quote    @relation(fields: [quoteId], references: [id])
+    quoteId String
 
-    @@map("stars")
+    @@unique([userId, date])
+    @@index([userId])
+    @@index([date])
+    @@map("check_ins")
+}
+
+model Star {
+    id     Int    @id @default(autoincrement())
+    user   User   @relation(fields: [userId], references: [id])
+    userId Int
+    poem   Poem   @relation(fields: [poemId], references: [id])
+    poemId String
+
     @@unique([userId, poemId])
     @@index([userId])
     @@index([poemId])
+    @@map("stars")
 }
+
 model Author {
     id      String   @id @default(cuid())
     name    String   @unique
@@ -72,4 +87,28 @@ model Article {
     tags     String[]
 
     @@map("articles")
+}
+
+model Quote {
+    id       String    @id @default(cuid())
+    title    String
+    quote    String
+    author   String
+    dynasty  String?
+    checkIns CheckIn[]
+
+    @@map("quotes")
+}
+
+model Event {
+    id         String  @id @default(cuid())
+    year       Int
+    month      Int
+    day        Int
+    type       String // "event", "birth", or "death"
+    figure     String?
+    importance Int     @default(0)
+    data       String
+
+    @@map("events")
 }
