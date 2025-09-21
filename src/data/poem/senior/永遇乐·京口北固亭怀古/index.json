@@ -1,0 +1,1141 @@
+{
+  "name": "永遇乐·京口北固亭怀古",
+  "author": "辛弃疾",
+  "dynasty": "宋代",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "英",
+              "pinyin": "yīng",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雄",
+              "pinyin": "xióng",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "觅",
+              "pinyin": "mì",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孙",
+              "pinyin": "sūn",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "仲",
+              "pinyin": "zhòng",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谋",
+              "pinyin": "móu",
+              "index": 12,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "处",
+              "pinyin": "chù",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 14,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "历经千古的江山，再也难以寻觅到像孙权那样的英雄。",
+          "pinyin": "qiān gǔ jiāng shān ， yīng xióng wú mì ， sūn zhòng móu chù 。",
+          "notes": [
+            {
+              "start": 1,
+              "end": 2,
+              "content": "千古：形容时间久远，自古以来的意思。"
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "content": "孙仲谋：即孙权，字仲谋，三国时期吴国的建立者。此处借指英雄人物。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 8,
+              "end": 9,
+              "content": "无觅：无处寻找，宾语前置结构，正常语序为‘觅无’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "舞",
+              "pinyin": "wǔ",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "榭",
+              "pinyin": "xiè",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "歌",
+              "pinyin": "gē",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "台",
+              "pinyin": "tái",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "总",
+              "pinyin": "zǒng",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "被",
+              "pinyin": "bèi",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雨",
+              "pinyin": "yǔ",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "打",
+              "pinyin": "dǎ",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吹",
+              "pinyin": "chuī",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 30,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "当年的舞榭歌台还在，英雄人物却早已随着岁月的流逝不复存在了。",
+          "pinyin": "wǔ xiè gē tái ， fēng liú zǒng bèi ， yǔ dǎ fēng chuī qù 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "舞榭歌台：指歌舞的台榭，榭是建在高台上的木屋，泛指歌舞场所。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "content": "风流：指英雄的业绩和流风余韵。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 5,
+              "end": 6,
+              "old": "英雄的业绩和流风余韵"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "new": "风度翩翩、有才华的人"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 8,
+              "end": 9,
+              "content": "总被雨打风吹去：被动句式，‘被’表示被动。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "斜",
+              "pinyin": "xié",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阳",
+              "pinyin": "yáng",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "草",
+              "pinyin": "cǎo",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "树",
+              "pinyin": "shù",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寻",
+              "pinyin": "xún",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "常",
+              "pinyin": "cháng",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "巷",
+              "pinyin": "xiàng",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陌",
+              "pinyin": "mò",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寄",
+              "pinyin": "jì",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奴",
+              "pinyin": "nú",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曾",
+              "pinyin": "céng",
+              "index": 45,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "住",
+              "pinyin": "zhù",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "斜阳照着长满草树的普通街道，人们说那里是刘裕曾经住过的地方。",
+          "pinyin": "xié yáng cǎo shù ， xún cháng xiàng mò ， rén dào jì nú céng zhù 。",
+          "notes": [
+            {
+              "start": 13,
+              "end": 14,
+              "content": "寄奴：南朝宋武帝刘裕的小名，他曾在此居住。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 7,
+              "end": 8,
+              "old": "寻常：普通、平常"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "new": "一般、常见"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 11,
+              "end": 16,
+              "content": "人道寄奴曾住：宾语前置，‘寄奴’是‘住’的宾语，正常语序为‘道寄奴曾住’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "想",
+              "pinyin": "xiǎng",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "戈",
+              "pinyin": "gē",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "铁",
+              "pinyin": "tiě",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "气",
+              "pinyin": "qì",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吞",
+              "pinyin": "tūn",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "虎",
+              "pinyin": "hǔ",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 63,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "遥想当年，他指挥着强劲精良的兵马，气吞骄虏一如猛虎！",
+          "pinyin": "xiǎng dāng nián ， jīn gē tiě mǎ ， qì tūn wàn lǐ rú hǔ 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 7,
+              "content": "金戈铁马：形容武器精锐，战马强壮，指代刘裕的北伐军队。"
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "content": "气吞万里如虎：形容气势雄壮，如同猛虎吞食万里山河。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "想当年：状语后置，正常语序为‘当年想’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "元",
+              "pinyin": "yuán",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "嘉",
+              "pinyin": "jiā",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "草",
+              "pinyin": "cǎo",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "草",
+              "pinyin": "cǎo",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "封",
+              "pinyin": "fēng",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "狼",
+              "pinyin": "láng",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "居",
+              "pinyin": "jū",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "胥",
+              "pinyin": "xū",
+              "index": 72,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "赢",
+              "pinyin": "yíng",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "得",
+              "pinyin": "dé",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "仓",
+              "pinyin": "cāng",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "皇",
+              "pinyin": "huáng",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "北",
+              "pinyin": "běi",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "顾",
+              "pinyin": "gù",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 80,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "宋文帝兴兵北伐多么轻率鲁莽，想建立不朽战功封狼居胥，却落得仓皇逃命，北望追兵泪下无数的结果。",
+          "pinyin": "yuán jiā cǎo cǎo ， fēng láng jū xū ， yíng dé cāng huáng běi gù 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "元嘉草草：元嘉是南朝宋文帝的年号，草草指草率、仓促。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "content": "封狼居胥：指汉代霍去病追击匈奴至狼居胥山，封山而还。此处借指北伐的雄心。"
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "content": "赢得仓皇北顾：指北伐失败，仓皇南逃，回头北望追兵。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "四",
+              "pinyin": "sì",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "望",
+              "pinyin": "wàng",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "犹",
+              "pinyin": "yóu",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "记",
+              "pinyin": "jì",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "烽",
+              "pinyin": "fēng",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "火",
+              "pinyin": "huǒ",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "扬",
+              "pinyin": "yáng",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "州",
+              "pinyin": "zhōu",
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 96,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "四十三年过去了，如今瞭望长江北岸，仍然记得当年扬州到处是金兵南侵的战火烽烟的情景。",
+          "pinyin": "sì shí sān nián ， wàng zhōng yóu jì ， fēng huǒ yáng zhōu lù 。",
+          "notes": [
+            {
+              "start": 10,
+              "end": 14,
+              "content": "烽火扬州路：指当年扬州一带战火纷飞的情景。路，宋代行政区域名。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 14,
+              "end": 14,
+              "old": "路：宋代行政区域名，相当于现在的省"
+            },
+            {
+              "start": 14,
+              "end": 14,
+              "new": "道路"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 5,
+              "end": 9,
+              "content": "望中犹记：状语后置，正常语序为‘犹记望中’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 97,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "堪",
+              "pinyin": "kān",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "回",
+              "pinyin": "huí",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "首",
+              "pinyin": "shǒu",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "佛",
+              "pinyin": "bì",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "狸",
+              "pinyin": "lí",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "祠",
+              "pinyin": "cí",
+              "index": 104,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 107,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "片",
+              "pinyin": "piàn",
+              "index": 108,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "神",
+              "pinyin": "shén",
+              "index": 109,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鸦",
+              "pinyin": "yā",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "社",
+              "pinyin": "shè",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鼓",
+              "pinyin": "gǔ",
+              "index": 112,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 113,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "不堪回首，拓跋焘的行宫下，神鸦叫声应和着喧闹的社鼓。",
+          "pinyin": "kě kān huí shǒu ， bì lí cí xià ， yī piàn shén yā shè gǔ 。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "content": "佛狸祠：北魏太武帝拓跋焘的小名佛狸，他曾在长江北岸建立行宫，后人称佛狸祠。"
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "content": "神鸦社鼓：神鸦指祭祀时吃祭品的乌鸦，社鼓指社日祭神的鼓声。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 3,
+              "end": 4,
+              "old": "回首：回头望，回忆"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "new": "回头"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "凭",
+              "pinyin": "píng",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谁",
+              "pinyin": "shuí",
+              "index": 115,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 116,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "：",
+              "index": 117,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "廉",
+              "pinyin": "lián",
+              "index": 118,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "颇",
+              "pinyin": "pō",
+              "index": 119,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "老",
+              "pinyin": "lǎo",
+              "index": 120,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 121,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 122,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尚",
+              "pinyin": "shàng",
+              "index": 123,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 124,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "饭",
+              "pinyin": "fàn",
+              "index": 125,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "否",
+              "pinyin": "fǒu",
+              "index": 126,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 127,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "还有谁会询问，廉颇将军已老，他的身体是否强健如故？",
+          "pinyin": "píng shuí wèn ： lián pō lǎo yǐ ， shàng néng fàn fǒu ？",
+          "notes": [
+            {
+              "start": 4,
+              "end": 6,
+              "content": "廉颇：战国时赵国名将，晚年被弃用，此处借以自比。"
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "content": "尚能饭否：还能吃饭吗？指廉颇年老时，赵王派人看他是否还能打仗，他吃了一斗米、十斤肉，但被人诬陷。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "凭谁问：宾语前置，正常语序为‘凭问谁’。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
