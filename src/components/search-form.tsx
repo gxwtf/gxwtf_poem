@@ -35,7 +35,7 @@ export function SearchForm({ ...props }: React.ComponentProps<"form">) {
 					<SidebarInput
 						id="search"
 						placeholder="搜索古诗文、作者..."
-						className="h-8 pl-7 pr-20 cursor-pointer hover:bg-accent/100 focus:border-input focus:ring-0 focus-visible:border-input focus-visible:ring-0"
+						className="h-8 pl-7 lg:pr-20 cursor-pointer hover:bg-accent/100 focus:border-input focus:ring-0 focus-visible:border-input focus-visible:ring-0"
 						onClick={handleClick}
 						readOnly
 					/>

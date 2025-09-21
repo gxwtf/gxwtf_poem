@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import useSession from "@/lib/use-session"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { Skeleton } from "@/components/ui/skeleton"
 import Link from "next/link"
 import { Lunar } from "lunar-typescript"
 
@@ -71,13 +72,14 @@ export function CheckIn() {
 
     if (isLoading || isDataLoading) {
         return (
-            <Card className="h-full">
-                <CardContent className="h-full flex flex-col items-center justify-center text-center">
-                    <div className="animate-pulse">
-                        <div className="h-4 bg-muted rounded w-1/2 mb-4 mx-auto" />
-                        <div className="h-20 bg-muted rounded mb-4" />
-                        <div className="h-8 bg-muted rounded w-1/3 mx-auto" />
+            <Card>
+                <CardContent className="flex flex-col items-center justify-center text-center space-y-4 min-h-[256px]">
+                    <div className="w-full">
+                        <Skeleton className="h-4 w-1/2 mb-2 mx-auto" />
+                        <Skeleton className="h-8 w-3/4 mb-2 mx-auto" />
+                        <Skeleton className="h-4 w-1/3 mx-auto" />
                     </div>
+                    <Skeleton className="h-10 w-32" />
                 </CardContent>
             </Card>
         )
@@ -102,8 +104,8 @@ export function CheckIn() {
     }
 
     return (
-        <Card className="h-full">
-            <CardContent className="h-full flex flex-col items-center justify-center text-center space-y-4">
+        <Card>
+            <CardContent className="flex flex-col items-center justify-center text-center space-y-4 min-h-[256px]">
                 <div>
                     <div className="text-sm text-muted-foreground mb-2">
                         {getLunarDate().year} {getLunarDate().month}
@@ -140,7 +142,7 @@ export function CheckIn() {
                         {hasCheckedInToday && checkInData && (
                             <>
                                 {/* 今日赠言 - 简化样式 */}
-                                <div className="leading-relaxed">
+                                <div className="leading-relaxed w-full max-w-full">
                                     <p className="text-lg mb-4 truncate text-[var(--theme-color)]">{checkInData.todayQuote.quote}</p>
                                     <p className="text-sm text-muted-foreground text-right mt-2 truncate">
                                         ———{checkInData.todayQuote.dynasty ? `【${checkInData.todayQuote.dynasty}】` : ""}
