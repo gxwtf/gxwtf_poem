@@ -1,0 +1,3534 @@
+{
+  "name": "木兰诗",
+  "author": "郭茂倩编",
+  "dynasty": "北宋",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "唧",
+              "pinyin": "jī",
+              "index": 0,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "唧",
+              "pinyin": "jī",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "唧",
+              "pinyin": "jī",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "唧",
+              "pinyin": "jī",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "木",
+              "pinyin": "mù",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兰",
+              "pinyin": "lán",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "户",
+              "pinyin": "hù",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "织",
+              "pinyin": "zhī",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 11,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "叹息声一声接着一声，木兰姑娘当门在织布。",
+          "pinyin": "jī jī fù jī jī ， mù lán dāng hù zhī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "唧唧：叹息声，模拟织布机声或叹息声。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "木兰当户织：木兰对着门织布。当，对着；户，门。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "机",
+              "pinyin": "jī",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "杼",
+              "pinyin": "zhù",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "声",
+              "pinyin": "shēng",
+              "index": 16,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "唯",
+              "pinyin": "wéi",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "叹",
+              "pinyin": "tàn",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "息",
+              "pinyin": "xī",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 23,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "听不到织布机的声音，只听到姑娘的叹息。",
+          "pinyin": "bù wén jī zhù shēng ， wéi wén nǚ tàn xī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "机杼声：织布机的声音。杼，织布的梭子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "思",
+              "pinyin": "sī",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忆",
+              "pinyin": "yì",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 35,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "问姑娘在想什么？问姑娘在思念什么？",
+          "pinyin": "wèn nǚ hé suǒ sī ？ wèn nǚ hé suǒ yì ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "何所思：想的是什么。何，什么；所思，所想的事情。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "何所忆：思念的是什么。忆，思念。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "宾语前置：'何所思'即'所思何'，疑问代词'何'前置"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "宾语前置：'何所忆'即'所忆何'，疑问代词'何'前置"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亦",
+              "pinyin": "yì",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "思",
+              "pinyin": "sī",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亦",
+              "pinyin": "yì",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忆",
+              "pinyin": "yì",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "姑娘并没有想什么，姑娘并没有思念什么。",
+          "pinyin": "nǚ yì wú suǒ sī ， nǚ yì wú suǒ yì 。",
+          "special_sentences": [
+            {
+              "start": 1,
+              "end": 4,
+              "content": "宾语前置：'无所思'即'无所思之事'"
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "content": "宾语前置：'无所忆'即'无所忆之事'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "昨",
+              "pinyin": "zuó",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帖",
+              "pinyin": "tiě",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "可",
+              "pinyin": "kè",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汗",
+              "pinyin": "hán",
+              "index": 55,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "点",
+              "pinyin": "diǎn",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兵",
+              "pinyin": "bīng",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 59,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "昨夜看见征兵文书，可汗大规模征兵。",
+          "pinyin": "zuó yè jiàn jūn tiě ， kè hán dà diǎn bīng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "军帖：军中的文告，征兵的名册。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "content": "可汗：古代西北地区民族对君主的称呼。"
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "content": "点兵：征兵。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 7,
+              "old": "古代西北地区民族对君主的称呼"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "new": "蒙古等民族对君主的称呼"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "书",
+              "pinyin": "shū",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卷",
+              "pinyin": "juàn",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卷",
+              "pinyin": "juàn",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卷",
+              "pinyin": "juàn",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "爷",
+              "pinyin": "yé",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "名",
+              "pinyin": "míng",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 71,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "征兵文书十二卷，每卷都有父亲的名字。",
+          "pinyin": "jūn shū shí èr juàn ， juàn juàn yǒu yé míng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "十二卷：表示数量多，非确指。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "爷名：父亲的名字。爷，父亲。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 9,
+              "end": 9,
+              "old": "父亲"
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "new": "祖父或尊称"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "阿",
+              "pinyin": "ā",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "爷",
+              "pinyin": "yé",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "儿",
+              "pinyin": "ér",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "木",
+              "pinyin": "mù",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兰",
+              "pinyin": "lán",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "长",
+              "pinyin": "zhǎng",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兄",
+              "pinyin": "xiōng",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 83,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "父亲没有大儿子，木兰没有大哥。",
+          "pinyin": "ā yé wú dà ér ， mù lán wú zhǎng xiōng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "阿爷：父亲。阿，前缀，无实义。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 1,
+              "old": "父亲"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "new": "祖父或尊称"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "愿",
+              "pinyin": "yuàn",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "市",
+              "pinyin": "shì",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鞍",
+              "pinyin": "ān",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "替",
+              "pinyin": "tì",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "爷",
+              "pinyin": "yé",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "征",
+              "pinyin": "zhēng",
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 95,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "愿意为此买马具，从此代替父亲出征。",
+          "pinyin": "yuàn wéi shì ān mǎ ， cóng cǐ tì yé zhēng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "市鞍马：购买马鞍和马匹。市，买。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "替爷征：代替父亲出征。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 2,
+              "end": 2,
+              "old": "购买"
+            },
+            {
+              "start": 2,
+              "end": 2,
+              "new": "城市、市场"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "市",
+              "pinyin": "shì",
+              "index": 97,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "买",
+              "pinyin": "mǎi",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "骏",
+              "pinyin": "jùn",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "西",
+              "pinyin": "xī",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "市",
+              "pinyin": "shì",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "买",
+              "pinyin": "mǎi",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鞍",
+              "pinyin": "ān",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鞯",
+              "pinyin": "jiān",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 107,
+              "read": true,
+              "write": true
+            }
+          ],
+          "translation": "在东市买骏马，西市买马鞍垫。",
+          "pinyin": "dōng shì mǎi jùn mǎ ， xī shì mǎi ān jiān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "东市买骏马：在东市买好马。市，市场。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "西市买鞍鞯：在西市买马鞍和垫子。鞯，马鞍下的垫子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 108,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "市",
+              "pinyin": "shì",
+              "index": 109,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "买",
+              "pinyin": "mǎi",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "辔",
+              "pinyin": "pèi",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "头",
+              "pinyin": "tóu",
+              "index": 112,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 113,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "北",
+              "pinyin": "běi",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "市",
+              "pinyin": "shì",
+              "index": 115,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "买",
+              "pinyin": "mǎi",
+              "index": 116,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 117,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鞭",
+              "pinyin": "biān",
+              "index": 118,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 119,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "南市买马辔头，北市买长鞭。",
+          "pinyin": "nán shì mǎi pèi tóu ， běi shì mǎi cháng biān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "南市买辔头：在南市买马笼头和缰绳。辔头，驾驭马的嚼子、笼头和缰绳。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "北市买长鞭：在北市买长鞭。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "旦",
+              "pinyin": "dàn",
+              "index": 120,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "辞",
+              "pinyin": "cí",
+              "index": 121,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "爷",
+              "pinyin": "yé",
+              "index": 122,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "娘",
+              "pinyin": "niáng",
+              "index": 123,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 124,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 125,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "暮",
+              "pinyin": "mù",
+              "index": 126,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宿",
+              "pinyin": "sù",
+              "index": 127,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 128,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 129,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "边",
+              "pinyin": "biān",
+              "index": 130,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 131,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "早晨告别爹娘离开，傍晚宿营在黄河边。",
+          "pinyin": "dàn cí yé niáng qù ， mù sù huáng hé biān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "旦辞爷娘去：早晨告别父母离去。旦，早晨；辞，告别；爷娘，父母。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "暮宿黄河边：晚上宿营在黄河边。暮，晚上；宿，住宿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 132,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 133,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "爷",
+              "pinyin": "yé",
+              "index": 134,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "娘",
+              "pinyin": "niáng",
+              "index": 135,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "唤",
+              "pinyin": "huàn",
+              "index": 136,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 137,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "声",
+              "pinyin": "shēng",
+              "index": 138,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 139,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "但",
+              "pinyin": "dàn",
+              "index": 140,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 141,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 142,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 143,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 144,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ",
+              "index": 145,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鸣",
+              "pinyin": "míng",
+              "index": 146,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "溅",
+              "pinyin": "jiàn",
+              "index": 147,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "溅",
+              "pinyin": "jiàn",
+              "index": 148,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 149,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "听不到爹娘呼唤女儿的声音，只听到黄河流水声溅溅。",
+          "pinyin": "bù wén yé niáng huàn nǚ shēng ， dàn wén huáng hé liú shuǐ míng jiàn jiàn 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "不闻爷娘唤女声：听不到父母呼唤女儿的声音。"
+            },
+            {
+              "start": 8,
+              "end": 17,
+              "content": "但闻黄河流水鸣溅溅：只听到黄河流水声溅溅。但，只；溅溅，水流声。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 8,
+              "end": 8,
+              "old": "只"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "new": "但是"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "旦",
+              "pinyin": "dàn",
+              "index": 150,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "辞",
+              "pinyin": "cí",
+              "index": 151,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 152,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 153,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 154,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 155,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "暮",
+              "pinyin": "mù",
+              "index": 156,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 157,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黑",
+              "pinyin": "hēi",
+              "index": 158,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 159,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "头",
+              "pinyin": "tóu",
+              "index": 160,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 161,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "早晨告别黄河出发，傍晚到达黑山头。",
+          "pinyin": "dàn cí huáng hé qù ， mù zhì hēi shān tóu 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 11,
+              "content": "暮至黑山头：晚上到达黑山脚下。黑山，山名；头，山脚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 162,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 163,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "爷",
+              "pinyin": "yé",
+              "index": 164,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "娘",
+              "pinyin": "niáng",
+              "index": 165,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "唤",
+              "pinyin": "huàn",
+              "index": 166,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 167,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "声",
+              "pinyin": "shēng",
+              "index": 168,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 169,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "但",
+              "pinyin": "dàn",
+              "index": 170,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 171,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "燕",
+              "pinyin": "yān",
+              "index": 172,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 173,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "胡",
+              "pinyin": "hú",
+              "index": 174,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "骑",
+              "pinyin": "jì",
+              "index": 175,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鸣",
+              "pinyin": "míng",
+              "index": 176,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "啾",
+              "pinyin": "jiū",
+              "index": 177,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "啾",
+              "pinyin": "jiū",
+              "index": 178,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 179,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "听不到爹娘呼唤女儿的声音，只听到燕山胡兵战马啾啾鸣叫。",
+          "pinyin": "bù wén yé niáng huàn nǚ shēng ， dàn wén yān shān hú jì míng jiū jiū 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "不闻爷娘唤女声：听不到父母呼唤女儿的声音。"
+            },
+            {
+              "start": 8,
+              "end": 17,
+              "content": "但闻燕山胡骑鸣啾啾：只听到燕山胡人战马嘶鸣声。胡骑，胡人的战马；啾啾，马叫声。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 8,
+              "end": 8,
+              "old": "只"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "new": "但是"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 180,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ",
+              "index": 181,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "赴",
+              "pinyin": "fù",
+              "index": 182,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "戎",
+              "pinyin": "róng",
+              "index": 183,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "机",
+              "pinyin": "jī",
+              "index": 184,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 185,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "关",
+              "pinyin": "guān",
+              "index": 186,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 187,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "度",
+              "pinyin": "dù",
+              "index": 188,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò",
+              "index": 189,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飞",
+              "pinyin": "fēi",
+              "index": 190,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 191,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "万里迢迢奔赴战场，飞越关隘山岭。",
+          "pinyin": "wàn lǐ fù róng jī ， guān shān dù ruò fēi 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "万里赴戎机：不远万里奔赴战场。戎机，军机，指战场。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "关山度若飞：像飞一样越过关隘山岭。度，越过。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "朔",
+              "pinyin": "shuò",
+              "index": 192,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "气",
+              "pinyin": "qì",
+              "index": 193,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "传",
+              "pinyin": "chuán",
+              "index": 194,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 195,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "柝",
+              "pinyin": "tuò",
+              "index": 196,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 197,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "寒",
+              "pinyin": "hán",
+              "index": 198,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "光",
+              "pinyin": "guāng",
+              "index": 199,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "照",
+              "pinyin": "zhào",
+              "index": 200,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "铁",
+              "pinyin": "tiě",
+              "index": 201,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "衣",
+              "pinyin": "yī",
+              "index": 202,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 203,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "北风传来打更声，冷月照着铁铠甲。",
+          "pinyin": "shuò qì chuán jīn tuò ， hán guāng zhào tiě yī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "朔气传金柝：北方的寒气传送着打更的声音。朔气，北方的寒气；金柝，古时军中打更用的器具。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "寒光照铁衣：寒冷的月光照着战士的铠甲。铁衣，铠甲。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 204,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 205,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 206,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "战",
+              "pinyin": "zhàn",
+              "index": 207,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "死",
+              "pinyin": "sǐ",
+              "index": 208,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 209,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "壮",
+              "pinyin": "zhuàng",
+              "index": 210,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 211,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 212,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 213,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 214,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 215,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "将军百战壮烈牺牲，壮士十年凯旋归来。",
+          "pinyin": "jiāng jūn bǎi zhàn sǐ ， zhuàng shì shí nián guī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "将军百战死：将军身经百战牺牲。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "壮士十年归：壮士多年后归来。十年，多年，非确指。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 216,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 217,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn",
+              "index": 218,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 219,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 220,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 221,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 222,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 223,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "坐",
+              "pinyin": "zuò",
+              "index": 224,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 225,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "堂",
+              "pinyin": "táng",
+              "index": 226,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 227,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "归来朝见天子，天子坐在明堂。",
+          "pinyin": "guī lái jiàn tiān zǐ ， tiān zǐ zuò míng táng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "归来见天子：归来拜见天子。天子，指可汗。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "天子坐明堂：天子坐在明堂。明堂，古代帝王举行大典的朝堂。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "策",
+              "pinyin": "cè",
+              "index": 228,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "勋",
+              "pinyin": "xūn",
+              "index": 229,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 230,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 231,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "转",
+              "pinyin": "zhuǎn",
+              "index": 232,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 233,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "赏",
+              "pinyin": "shǎng",
+              "index": 234,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "赐",
+              "pinyin": "cì",
+              "index": 235,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 236,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 237,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "强",
+              "pinyin": "qiáng",
+              "index": 238,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 239,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "记功最高十二转，赏赐千百金以上。",
+          "pinyin": "cè xūn shí èr zhuǎn ， shǎng cì bǎi qiān qiáng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "策勋十二转：记功很多次。策勋，记功；转，勋级每升一级叫一转。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "赏赐百千强：赏赐很多财物。强，有余。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "可",
+              "pinyin": "kè",
+              "index": 240,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汗",
+              "pinyin": "hán",
+              "index": 241,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 242,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 243,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 244,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 245,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "木",
+              "pinyin": "mù",
+              "index": 246,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兰",
+              "pinyin": "lán",
+              "index": 247,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 248,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng",
+              "index": 249,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尚",
+              "pinyin": "shàng",
+              "index": 250,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "书",
+              "pinyin": "shū",
+              "index": 251,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng",
+              "index": 252,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 253,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "可汗问想要什么，木兰不愿做尚书郎，",
+          "pinyin": "kè hán wèn suǒ yù ， mù lán bù yòng shàng shū láng ，",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "问所欲：问（木兰）想要什么。所欲，想要的东西。"
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "content": "不用尚书郎：不愿做尚书省的官。尚书郎，尚书省的官员。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "宾语前置：'问所欲'即'问所欲之事'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "愿",
+              "pinyin": "yuàn",
+              "index": 254,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "驰",
+              "pinyin": "chí",
+              "index": 255,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 256,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ",
+              "index": 257,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "足",
+              "pinyin": "zú",
+              "index": 258,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 259,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "送",
+              "pinyin": "sòng",
+              "index": 260,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "儿",
+              "pinyin": "ér",
+              "index": 261,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "还",
+              "pinyin": "hái",
+              "index": 262,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 263,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乡",
+              "pinyin": "xiāng",
+              "index": 264,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 265,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "只愿骑千里马，快快送我回家乡。",
+          "pinyin": "yuàn chí qiān lǐ zú ， sòng ér hái gù xiāng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "愿驰千里足：希望骑上千里马。千里足，千里马。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "送儿还故乡：送我回故乡。儿，木兰自称。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "爷",
+              "pinyin": "yé",
+              "index": 266,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "娘",
+              "pinyin": "niáng",
+              "index": 267,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 268,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 269,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 270,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 271,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "出",
+              "pinyin": "chū",
+              "index": 272,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郭",
+              "pinyin": "guō",
+              "index": 273,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 274,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "扶",
+              "pinyin": "fú",
+              "index": 275,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 276,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 277,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "爹娘听说女儿回来，互相搀扶出城迎接。",
+          "pinyin": "yé niáng wén nǚ lái ， chū guō xiāng fú jiāng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "爷娘闻女来：父母听说女儿回来了。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "出郭相扶将：互相搀扶着出城迎接。郭，外城；扶将，搀扶。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "阿",
+              "pinyin": "ā",
+              "index": 278,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "姊",
+              "pinyin": "zǐ",
+              "index": 279,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 280,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妹",
+              "pinyin": "mèi",
+              "index": 281,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 282,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 283,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 284,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "户",
+              "pinyin": "hù",
+              "index": 285,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "理",
+              "pinyin": "lǐ",
+              "index": 286,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "红",
+              "pinyin": "hóng",
+              "index": 287,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妆",
+              "pinyin": "zhuāng",
+              "index": 288,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 289,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "姐姐听说妹妹回来，对门梳妆打扮。",
+          "pinyin": "ā zǐ wén mèi lái ， dāng hù lǐ hóng zhuāng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "阿姊闻妹来：姐姐听说妹妹回来了。阿姊，姐姐。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "当户理红妆：对着门梳妆打扮。红妆，女子的艳丽妆饰。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 290,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弟",
+              "pinyin": "dì",
+              "index": 291,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 292,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "姊",
+              "pinyin": "zǐ",
+              "index": 293,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 294,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 295,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "磨",
+              "pinyin": "mó",
+              "index": 296,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "刀",
+              "pinyin": "dāo",
+              "index": 297,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "霍",
+              "pinyin": "huò",
+              "index": 298,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "霍",
+              "pinyin": "huò",
+              "index": 299,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "向",
+              "pinyin": "xiàng",
+              "index": 300,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "猪",
+              "pinyin": "zhū",
+              "index": 301,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "羊",
+              "pinyin": "yáng",
+              "index": 302,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 303,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "弟弟听说姐姐回来，霍霍磨刀杀猪宰羊。",
+          "pinyin": "xiǎo dì wén zǐ lái ， mó dāo huò huò xiàng zhū yáng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "小弟闻姊来：弟弟听说姐姐回来了。"
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "content": "磨刀霍霍向猪羊：磨刀霍霍准备杀猪宰羊。霍霍，磨刀声。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "开",
+              "pinyin": "kāi",
+              "index": 304,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 305,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 306,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阁",
+              "pinyin": "gé",
+              "index": 307,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "门",
+              "pinyin": "mén",
+              "index": 308,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 309,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "坐",
+              "pinyin": "zuò",
+              "index": 310,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 311,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "西",
+              "pinyin": "xī",
+              "index": 312,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阁",
+              "pinyin": "gé",
+              "index": 313,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "床",
+              "pinyin": "chuáng",
+              "index": 314,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 315,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "打开我东阁门，坐上我西阁床。",
+          "pinyin": "kāi wǒ dōng gé mén ， zuò wǒ xī gé chuáng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 11,
+              "content": "开我东阁门，坐我西阁床：打开我东阁的门，坐上我西阁的床。阁，古代女子的卧房。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "脱",
+              "pinyin": "tuō",
+              "index": 316,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 317,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "战",
+              "pinyin": "zhàn",
+              "index": 318,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 319,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "袍",
+              "pinyin": "páo",
+              "index": 320,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 321,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "著",
+              "pinyin": "zhuó",
+              "index": 322,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 323,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "旧",
+              "pinyin": "jiù",
+              "index": 324,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 325,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "裳",
+              "pinyin": "cháng",
+              "index": 326,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 327,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "脱下战时战袍，穿上旧时衣裳。",
+          "pinyin": "tuō wǒ zhàn shí páo ， zhuó wǒ jiù shí cháng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "脱我战时袍：脱下我战时的袍子。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "著我旧时裳：穿上我旧时的衣裳。著，穿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 328,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "窗",
+              "pinyin": "chuāng",
+              "index": 329,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "理",
+              "pinyin": "lǐ",
+              "index": 330,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "云",
+              "pinyin": "yún",
+              "index": 331,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鬓",
+              "pinyin": "bìn",
+              "index": 332,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 333,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "对",
+              "pinyin": "duì",
+              "index": 334,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "镜",
+              "pinyin": "jìng",
+              "index": 335,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帖",
+              "pinyin": "tiē",
+              "index": 336,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "花",
+              "pinyin": "huā",
+              "index": 337,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 338,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 339,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "对着窗户梳理云鬓，对着镜子贴上花黄。",
+          "pinyin": "dāng chuāng lǐ yún bìn ， duì jìng tiē huā huáng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "当窗理云鬓：对着窗户梳理如云的鬓发。云鬓，形容女子鬓发美丽。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "对镜帖花黄：对着镜子贴上花黄。帖，同“贴”；花黄，古代女子面饰。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 6,
+              "old": "同“贴”，粘贴"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "new": "文书、标签"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "出",
+              "pinyin": "chū",
+              "index": 340,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "门",
+              "pinyin": "mén",
+              "index": 341,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "看",
+              "pinyin": "kàn",
+              "index": 342,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "火",
+              "pinyin": "huǒ",
+              "index": 343,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "伴",
+              "pinyin": "bàn",
+              "index": 344,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 345,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "火",
+              "pinyin": "huǒ",
+              "index": 346,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "伴",
+              "pinyin": "bàn",
+              "index": 347,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē",
+              "index": 348,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惊",
+              "pinyin": "jīng",
+              "index": 349,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忙",
+              "pinyin": "máng",
+              "index": 350,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "：",
+              "index": 351,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "出门看同伍士兵，同伴全都惊慌：",
+          "pinyin": "chū mén kàn huǒ bàn ， huǒ bàn jiē jīng máng ：",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "出门看火伴：出门看同伍的士兵。火伴，同伙的士兵；火，同“伙”。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "火伴皆惊忙：伙伴们都惊讶忙乱。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 1,
+              "old": "同“伙”，同伴"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "new": "火焰"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "同",
+              "pinyin": "tóng",
+              "index": 352,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "háng",
+              "index": 353,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 354,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 355,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 356,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 357,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 358,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 359,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "木",
+              "pinyin": "mù",
+              "index": 360,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兰",
+              "pinyin": "lán",
+              "index": 361,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 362,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 363,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng",
+              "index": 364,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 365,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "同行作战十二年，竟不知木兰是女郎。",
+          "pinyin": "tóng háng shí èr nián ， bù zhī mù lán shì nǚ láng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "同行十二年：一起行军作战多年。十二年，多年，非确指。"
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "content": "不知木兰是女郎：不知道木兰是女子。女郎，年轻女子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "雄",
+              "pinyin": "xióng",
+              "index": 366,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兔",
+              "pinyin": "tù",
+              "index": 367,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "脚",
+              "pinyin": "jiǎo",
+              "index": 368,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "扑",
+              "pinyin": "pū",
+              "index": 369,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "朔",
+              "pinyin": "shuò",
+              "index": 370,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 371,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雌",
+              "pinyin": "cí",
+              "index": 372,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兔",
+              "pinyin": "tù",
+              "index": 373,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "眼",
+              "pinyin": "yǎn",
+              "index": 374,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "迷",
+              "pinyin": "mí",
+              "index": 375,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "离",
+              "pinyin": "lí",
+              "index": 376,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 377,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "雄兔前脚常爬搔，雌兔眼睛常眯着。",
+          "pinyin": "xióng tù jiǎo pū shuò ， cí tù yǎn mí lí 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "雄兔脚扑朔：雄兔脚乱动。扑朔，乱动的样子。"
+            },
+            {
+              "start": 6,
+              "end": 11,
+              "content": "雌兔眼迷离：雌兔眼眯着。迷离，模糊的样子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "双",
+              "pinyin": "shuāng",
+              "index": 378,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兔",
+              "pinyin": "tù",
+              "index": 379,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "傍",
+              "pinyin": "bàng",
+              "index": 380,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 381,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "走",
+              "pinyin": "zǒu",
+              "index": 382,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 383,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "安",
+              "pinyin": "ān",
+              "index": 384,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 385,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "辨",
+              "pinyin": "biàn",
+              "index": 386,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 387,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 388,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雄",
+              "pinyin": "xióng",
+              "index": 389,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雌",
+              "pinyin": "cí",
+              "index": 390,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 391,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "两兔贴着地面跑，怎能辨别哪是雄哪是雌？",
+          "pinyin": "shuāng tù bàng dì zǒu ， ān néng biàn wǒ shì xióng cí ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "双兔傍地走：两只兔子贴着地面跑。傍地走，贴着地面跑。"
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "content": "安能辨我是雄雌：怎么能分辨我是雄是雌。安，怎么。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

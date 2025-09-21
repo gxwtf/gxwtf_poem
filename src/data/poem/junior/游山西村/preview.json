@@ -1,0 +1,756 @@
+{
+  "name": "游山西村",
+  "author": "陆游",
+  "dynasty": "南宋",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "莫",
+              "pinyin": "mò",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "笑",
+              "pinyin": "xiào",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "农",
+              "pinyin": "nóng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "腊",
+              "pinyin": "là",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酒",
+              "pinyin": "jiǔ",
+              "index": 5,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "浑",
+              "pinyin": "hún",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 7,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "莫笑农家腊月酒浊，",
+          "pinyin": "mò xiào nóng jiā là jiǔ hún ，",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "莫：不要，表示劝阻或禁止。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "腊酒：腊月酿制的酒，泛指农家自酿的酒。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "浑：浑浊，指酒质粗糙。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 6,
+              "old": "浑浊"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "new": "糊涂、不明事理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "丰",
+              "pinyin": "fēng",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "留",
+              "pinyin": "liú",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "客",
+              "pinyin": "kè",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "足",
+              "pinyin": "zú",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鸡",
+              "pinyin": "jī",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "豚",
+              "pinyin": "tún",
+              "index": 14,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 15,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "丰收年景待客饭菜丰盛。",
+          "pinyin": "fēng nián liú kè zú jī tún 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "丰年：丰收的年景。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "足鸡豚：菜肴丰盛，有充足的鸡肉和猪肉。足，充足；豚，小猪，泛指猪。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 5,
+              "end": 5,
+              "old": "充足、足够"
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "new": "脚"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "足鸡豚：足，形容词的使动用法，使……充足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "重",
+              "pinyin": "chóng",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "疑",
+              "pinyin": "yí",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 23,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "青山重叠绿水迂回似无路，",
+          "pinyin": "shān chóng shuǐ fù yí wú lù ，",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "山重水复：山峦重叠，水流曲折，形容路途艰难。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "疑：怀疑，以为。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 4,
+              "end": 4,
+              "old": "怀疑、以为"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "new": "疑惑、不相信"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "山重水复：并列结构的名词短语，作主语。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "柳",
+              "pinyin": "liǔ",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "暗",
+              "pinyin": "àn",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "花",
+              "pinyin": "huā",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "又",
+              "pinyin": "yòu",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "村",
+              "pinyin": "cūn",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "绿柳成荫鲜花明艳又现村落。",
+          "pinyin": "liǔ àn huā míng yòu yī cūn 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "柳暗花明：柳色深绿，花色明艳，形容景色突然转变，出现新的境界。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "柳暗花明：并列结构的名词短语，作主语。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "箫",
+              "pinyin": "xiāo",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鼓",
+              "pinyin": "gǔ",
+              "index": 33,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "追",
+              "pinyin": "zhuī",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "随",
+              "pinyin": "suí",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "社",
+              "pinyin": "shè",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "近",
+              "pinyin": "jìn",
+              "index": 38,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 39,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "箫鼓声处处春社将近，",
+          "pinyin": "xiāo gǔ zhuī suí chūn shè jìn ，",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "箫鼓：吹箫击鼓，泛指乐器演奏。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "content": "追随：跟随，此处指人们跟随乐声前往春社。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "春社：古代立春后祭祀土地神的活动，祈求丰收。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 3,
+              "end": 3,
+              "old": "跟随"
+            },
+            {
+              "start": 3,
+              "end": 3,
+              "new": "追求、追赶"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "追随春社近：状语后置，正常语序为‘近春社追随’，意为临近春社时人们跟随乐声前往。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "衣",
+              "pinyin": "yī",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "冠",
+              "pinyin": "guān",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "简",
+              "pinyin": "jiǎn",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "朴",
+              "pinyin": "pǔ",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "存",
+              "pinyin": "cún",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "衣帽简朴保留古风。",
+          "pinyin": "yī guān jiǎn pǔ gǔ fēng cún 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "衣冠简朴：衣着穿戴简单朴素。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "古风：古代的风俗习惯。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "许",
+              "pinyin": "xǔ",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闲",
+              "pinyin": "xián",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乘",
+              "pinyin": "chéng",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 55,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "从今若得闲情乘着月明，",
+          "pinyin": "cóng jīn ruò xǔ xián chéng yuè ，",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "从今若许：从今以后如果允许。若，如果；许，允许。"
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "content": "闲乘月：趁着月光闲游。乘，趁着。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 6,
+              "old": "趁着、凭借"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "new": "乘坐"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 4,
+              "end": 6,
+              "content": "闲乘月：状语后置，正常语序为‘乘月闲’，意为趁着月光闲游。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "拄",
+              "pinyin": "zhǔ",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "杖",
+              "pinyin": "zhàng",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "叩",
+              "pinyin": "kòu",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "门",
+              "pinyin": "mén",
+              "index": 62,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 63,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "拄杖随时夜晚敲门。",
+          "pinyin": "zhǔ zhàng wú shí yè kòu mén 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "拄杖：拄着拐杖。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "content": "无时：随时，没有固定的时间。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "content": "叩门：敲门。叩，敲。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 6,
+              "old": "敲"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "new": "磕头"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "无时：宾语前置，正常语序为‘时无’，意为没有固定的时间。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

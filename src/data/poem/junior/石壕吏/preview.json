@@ -1,0 +1,1386 @@
+{
+  "name": "石壕吏",
+  "author": "杜甫",
+  "dynasty": "唐代",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "暮",
+              "pinyin": "mù",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "投",
+              "pinyin": "tóu",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "石",
+              "pinyin": "shí",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "壕",
+              "pinyin": "háo",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "村",
+              "pinyin": "cūn",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吏",
+              "pinyin": "lì",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "捉",
+              "pinyin": "zhuō",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 11,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "傍晚投宿石壕村，有差役夜里来抓人。",
+          "pinyin": "mù tóu shí háo cūn ， yǒu lì yè zhuō rén 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 0,
+              "content": "暮：傍晚。投：投宿，指旅途中借宿。"
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "content": "石壕村：唐代河南陕县附近的一个村庄，今属河南三门峡。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "吏：官府差役。夜捉人：夜里强行抓人服役，反映当时兵役苛酷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "老",
+              "pinyin": "lǎo",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "翁",
+              "pinyin": "wēng",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "逾",
+              "pinyin": "yú",
+              "index": 14,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "墙",
+              "pinyin": "qiáng",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "走",
+              "pinyin": "zǒu",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "老",
+              "pinyin": "lǎo",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妇",
+              "pinyin": "fù",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "出",
+              "pinyin": "chū",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "门",
+              "pinyin": "mén",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "看",
+              "pinyin": "kàn",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 23,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "老翁翻墙逃走，老妇出门应付。",
+          "pinyin": "lǎo wēng yú qiáng zǒu ， lǎo fù chū mén kàn 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 2,
+              "content": "逾：翻越，越过。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "走：古代指逃跑，此处指老翁翻墙逃走以避征役。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 4,
+              "end": 4,
+              "old": "逃跑"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "new": "步行"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "吏",
+              "pinyin": "lì",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "呼",
+              "pinyin": "hū",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怒",
+              "pinyin": "nù",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妇",
+              "pinyin": "fù",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "啼",
+              "pinyin": "tí",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "苦",
+              "pinyin": "kǔ",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 35,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "差役叫嚷多么凶狠！老妇啼哭多么凄苦！",
+          "pinyin": "lì hū yī hé nù ！ fù tí yī hé kǔ ！",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "一何：多么，何其，用于加强感叹语气，常见于文言。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "怒：愤怒，此处形容差役咆哮施暴的情态。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "一何：同上，加强语气，表示妇人哭得极为悲苦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "听",
+              "pinyin": "tīng",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妇",
+              "pinyin": "fù",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "前",
+              "pinyin": "qián",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "致",
+              "pinyin": "zhì",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "词",
+              "pinyin": "cí",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "：",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "男",
+              "pinyin": "nán",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "邺",
+              "pinyin": "yè",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "戍",
+              "pinyin": "shù",
+              "index": 46,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "听老妇上前诉说：三个儿子都去邺城服役。",
+          "pinyin": "tīng fù qián zhì cí ： sān nán yè chéng shù 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 2,
+              "content": "前：上前，动词，指老妇走上前说话。"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "content": "致词：致辞，陈述话语，此处指老妇向差役诉说家境。"
+            },
+            {
+              "start": 10,
+              "end": 10,
+              "content": "戍：戍边，指驻守边疆，唐代常征民兵防守要地。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 1,
+              "end": 4,
+              "content": "省略句，省略主语‘我’，即‘（我）听妇前致词’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "男",
+              "pinyin": "nán",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "附",
+              "pinyin": "fù",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "书",
+              "pinyin": "shū",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "男",
+              "pinyin": "nán",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "新",
+              "pinyin": "xīn",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "战",
+              "pinyin": "zhàn",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "死",
+              "pinyin": "sǐ",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 59,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "一个儿子捎信回来，两个儿子最近战死。",
+          "pinyin": "yī nán fù shū zhì ， èr nán xīn zhàn sǐ 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "附书：捎信，指通过他人传递书信。古代通信不便。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "新：刚刚，才。新战死：两个儿子刚刚战死。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 8,
+              "end": 8,
+              "old": "刚刚"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "new": "与‘旧’相对"
+            },
+            {
+              "start": 3,
+              "end": 3,
+              "old": "信件"
+            },
+            {
+              "start": 3,
+              "end": 3,
+              "new": "书籍"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "存",
+              "pinyin": "cún",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "且",
+              "pinyin": "qiě",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "偷",
+              "pinyin": "tōu",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "死",
+              "pinyin": "sǐ",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 71,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "活着的人苟且偷生，死去的人永远完了！",
+          "pinyin": "cún zhě qiě tōu shēng ， sǐ zhě cháng yǐ yǐ ！",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "偷生：苟且活着，勉强求生，非现代‘偷偷活着’之意。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "content": "长已矣：永远完结了。已，停止、结束。语气悲凉。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 3,
+              "end": 3,
+              "old": "苟且"
+            },
+            {
+              "start": 3,
+              "end": 3,
+              "new": "偷窃"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "室",
+              "pinyin": "shì",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "更",
+              "pinyin": "gèng",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惟",
+              "pinyin": "wéi",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乳",
+              "pinyin": "rǔ",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孙",
+              "pinyin": "sūn",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 83,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "家里再没有男人，只有吃奶的孙子。",
+          "pinyin": "shì zhōng gèng wú rén ， wéi yǒu rǔ xià sūn 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 2,
+              "content": "更：再，另外。室中再无人，强调家中已无成年男子。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "content": "乳下：还在吃奶，形容婴儿年幼。乳，哺乳。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "判断句，‘室中更无人’表示存在判断，相当于‘家里再也没有其他人了’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孙",
+              "pinyin": "sūn",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "母",
+              "pinyin": "mǔ",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "出",
+              "pinyin": "chū",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "入",
+              "pinyin": "rù",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "完",
+              "pinyin": "wán",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "裙",
+              "pinyin": "qún",
+              "index": 94,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 95,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "因为有孙子在，他母亲还没离去，进进出出没有完整衣服。",
+          "pinyin": "yǒu sūn mǔ wèi qù ， chū rù wú wán qún 。",
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "content": "完裙：完整的衣裙。古代女子以裙为衣，此处说明衣不蔽体。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 10,
+              "end": 10,
+              "old": "衣服（男女皆可穿）"
+            },
+            {
+              "start": 10,
+              "end": 10,
+              "new": "女性下装"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "老",
+              "pinyin": "lǎo",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妪",
+              "pinyin": "yù",
+              "index": 97,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "力",
+              "pinyin": "lì",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "虽",
+              "pinyin": "suī",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "衰",
+              "pinyin": "shuāi",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "请",
+              "pinyin": "qǐng",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吏",
+              "pinyin": "lì",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 107,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "老妇虽然年老力衰，请让我跟从你连夜赶回。",
+          "pinyin": "lǎo yù lì suī shuāi ， qǐng cóng lì yè guī 。",
+          "notes": [
+            {
+              "start": 1,
+              "end": 1,
+              "content": "妪：老年妇女，与‘翁’对应。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "请：请求，愿自请随行，体现无奈顺从。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "急",
+              "pinyin": "jí",
+              "index": 108,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "应",
+              "pinyin": "yìng",
+              "index": 109,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阳",
+              "pinyin": "yáng",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "役",
+              "pinyin": "yì",
+              "index": 112,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 113,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "犹",
+              "pinyin": "yóu",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "得",
+              "pinyin": "dé",
+              "index": 115,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "备",
+              "pinyin": "bèi",
+              "index": 116,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "晨",
+              "pinyin": "chén",
+              "index": 117,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "炊",
+              "pinyin": "chuī",
+              "index": 118,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 119,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "赶快到河阳去服役，还能为部队准备早饭。",
+          "pinyin": "jí yìng hé yáng yì ， yóu dé bèi chén chuī 。",
+          "notes": [
+            {
+              "start": 1,
+              "end": 4,
+              "content": "应河阳役：应征去河阳服劳役。河阳，今河南孟州。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "content": "犹得：还能来得及，表示尚可勉强完成任务。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 120,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "久",
+              "pinyin": "jiǔ",
+              "index": 121,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "语",
+              "pinyin": "yǔ",
+              "index": 122,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "声",
+              "pinyin": "shēng",
+              "index": 123,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "绝",
+              "pinyin": "jué",
+              "index": 124,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 125,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 126,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 127,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "泣",
+              "pinyin": "qì",
+              "index": 128,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "幽",
+              "pinyin": "yōu",
+              "index": 129,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "咽",
+              "pinyin": "yè",
+              "index": 130,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 131,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "夜深说话声消失，隐约听到低微断续的哭声。",
+          "pinyin": "yè jiǔ yǔ shēng jué ， rú wén qì yōu yè 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 4,
+              "content": "绝：消失，听不到。语声绝，指说话声彻底停止。"
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "content": "泣幽咽：低声哭泣，声音断续哽咽。幽咽，形容悲泣之声。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "状语后置，‘夜久’即‘在夜深的时候’，时间状语置于动词前，属文言常见结构。"
+            },
+            {
+              "start": 7,
+              "end": 11,
+              "content": "状语后置，‘泣幽咽’即‘幽咽地哭泣’，‘幽咽’为状语修饰‘泣’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 132,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 133,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "登",
+              "pinyin": "dēng",
+              "index": 134,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "前",
+              "pinyin": "qián",
+              "index": 135,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "途",
+              "pinyin": "tú",
+              "index": 136,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 137,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "独",
+              "pinyin": "dú",
+              "index": 138,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 139,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "老",
+              "pinyin": "lǎo",
+              "index": 140,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "翁",
+              "pinyin": "wēng",
+              "index": 141,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "别",
+              "pinyin": "bié",
+              "index": 142,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 143,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "天亮后我踏上路程，只能与老翁一人告别。",
+          "pinyin": "tiān míng dēng qián tú ， dú yǔ lǎo wēng bié 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "前涂：前行的道路。涂，通‘途’。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "独：独自，突出诗人与老翁分别时的孤寂与悲悯。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 4,
+              "end": 4,
+              "old": "通‘途’，道路"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "new": "涂抹"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "name": "次北固山下",
-  "author": "王湾",
+  "name": "使至塞上",
+  "author": "王维",
   "dynasty": "唐代",
   "mode": "center",
   "paragraphs": [
@@ -9,36 +9,36 @@
         {
           "content": [
             {
-              "char": "客",
-              "pinyin": "kè",
+              "char": "单",
+              "pinyin": "dān",
               "index": 0,
               "read": false,
               "write": false
             },
             {
-              "char": "路",
-              "pinyin": "lù",
+              "char": "车",
+              "pinyin": "chē",
               "index": 1,
               "read": false,
               "write": false
             },
             {
-              "char": "青",
-              "pinyin": "qīng",
+              "char": "欲",
+              "pinyin": "yù",
               "index": 2,
               "read": false,
               "write": false
             },
             {
-              "char": "山",
-              "pinyin": "shān",
+              "char": "问",
+              "pinyin": "wèn",
               "index": 3,
               "read": false,
               "write": false
             },
             {
-              "char": "外",
-              "pinyin": "wài",
+              "char": "边",
+              "pinyin": "biān",
               "index": 4,
               "read": false,
               "write": false
@@ -51,36 +51,36 @@
               "write": false
             },
             {
-              "char": "行",
-              "pinyin": "xíng",
+              "char": "属",
+              "pinyin": "shǔ",
               "index": 6,
-              "read": false,
+              "read": true,
               "write": false
             },
             {
-              "char": "舟",
-              "pinyin": "zhōu",
+              "char": "国",
+              "pinyin": "guó",
               "index": 7,
               "read": false,
               "write": false
             },
             {
-              "char": "绿",
-              "pinyin": "lǜ",
+              "char": "过",
+              "pinyin": "guò",
               "index": 8,
               "read": false,
               "write": false
             },
             {
-              "char": "水",
-              "pinyin": "shuǐ",
+              "char": "居",
+              "pinyin": "jū",
               "index": 9,
               "read": false,
               "write": false
             },
             {
-              "char": "前",
-              "pinyin": "qián",
+              "char": "延",
+              "pinyin": "yán",
               "index": 10,
               "read": false,
               "write": false
@@ -93,35 +93,40 @@
               "write": false
             }
           ],
-          "translation": "旅途延伸在青翠北固山外，行船漂浮在碧绿江水之前。",
-          "pinyin": "kè lù qīng shān wài ， xíng zhōu lǜ shuǐ qián 。",
+          "translation": "轻车简从出使边塞，途经属国居延。",
+          "pinyin": "dān chē yù wèn biān ， shǔ guó guò jū yán 。",
           "notes": [
             {
               "start": 0,
               "end": 1,
-              "content": "客路：指游子在外的旅程，非字面‘客人之路’。"
+              "content": "单车：指使臣轻车简从出使边塞，‘单’强调随从少，非现代‘自行车’之意。"
             },
             {
-              "start": 5,
-              "end": 5,
-              "content": "外：在……外面，此处为‘于青山外’的省略，表空间方位。"
+              "start": 3,
+              "end": 4,
+              "content": "问边：慰问守边将士，体现使臣职责。"
             },
             {
-              "start": 11,
+              "start": 6,
+              "end": 7,
+              "content": "属国：典属国的简称，掌管少数民族事务的官，此处指以属国使臣身份出使。"
+            },
+            {
+              "start": 9,
               "end": 11,
-              "content": "前：在……前面，即‘于绿水前’，状语后置结构。"
+              "content": "居延：古地名，汉代边塞要地，在今甘肃张掖西北，泛指边远边防区域。"
             }
           ],
-          "special_sentences": [
+          "different_meanings": [
             {
-              "start": 5,
-              "end": 5,
-              "content": "状语后置：‘外’即‘于青山外’，介词结构后置表地点。"
+              "start": 0,
+              "end": 1,
+              "old": "轻车简从的使臣队伍"
             },
             {
-              "start": 11,
-              "end": 11,
-              "content": "状语后置：‘前’即‘于绿水前’，介词结构后置表位置。"
+              "start": 0,
+              "end": 1,
+              "new": "一种交通工具，自行车"
             }
           ]
         }
@@ -132,36 +137,36 @@
         {
           "content": [
             {
-              "char": "潮",
-              "pinyin": "cháo",
+              "char": "征",
+              "pinyin": "zhēng",
               "index": 12,
               "read": false,
               "write": false
             },
             {
-              "char": "平",
-              "pinyin": "píng",
+              "char": "蓬",
+              "pinyin": "péng",
               "index": 13,
               "read": false,
-              "write": false
+              "write": true
             },
             {
-              "char": "两",
-              "pinyin": "liǎng",
+              "char": "出",
+              "pinyin": "chū",
               "index": 14,
               "read": false,
               "write": false
             },
             {
-              "char": "岸",
-              "pinyin": "àn",
+              "char": "汉",
+              "pinyin": "hàn",
               "index": 15,
               "read": false,
               "write": false
             },
             {
-              "char": "阔",
-              "pinyin": "kuò",
+              "char": "塞",
+              "pinyin": "sài",
               "index": 16,
               "read": false,
               "write": false
@@ -174,39 +179,39 @@
               "write": false
             },
             {
-              "char": "风",
-              "pinyin": "fēng",
+              "char": "归",
+              "pinyin": "guī",
               "index": 18,
               "read": false,
               "write": false
             },
             {
-              "char": "正",
-              "pinyin": "zhèng",
+              "char": "雁",
+              "pinyin": "yàn",
               "index": 19,
               "read": false,
               "write": false
             },
             {
-              "char": "一",
-              "pinyin": "yī",
+              "char": "入",
+              "pinyin": "rù",
               "index": 20,
               "read": false,
               "write": false
             },
             {
-              "char": "帆",
-              "pinyin": "fān",
+              "char": "胡",
+              "pinyin": "hú",
               "index": 21,
               "read": false,
               "write": false
             },
             {
-              "char": "悬",
-              "pinyin": "xuán",
+              "char": "天",
+              "pinyin": "tiān",
               "index": 22,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "。",
@@ -216,8 +221,30 @@
               "write": false
             }
           ],
-          "translation": "潮涨江平两岸更显宽阔，顺风吹拂孤帆高高悬垂。",
-          "pinyin": "cháo píng liǎng àn kuò ， fēng zhèng yī fān xuán 。"
+          "translation": "如飘蓬飞离汉家边塞，似归雁飞入胡地上空。",
+          "pinyin": "zhēng péng chū hàn sài ， guī yàn rù hú tiān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "征蓬：飘飞的蓬草，比喻漂泊无依的旅人，是边塞诗常见意象。"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "content": "汉塞：汉代边关，借指唐代边疆，反映古人常用前代称谓代指当代。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "content": "归雁：北飞的大雁，暗示春季或诗人思归之情，雁为典型意象。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "content": "胡天：北方少数民族地区的天空，‘胡’为古代对北方民族的泛称。"
+            }
+          ]
         }
       ]
     },
@@ -226,36 +253,36 @@
         {
           "content": [
             {
-              "char": "海",
-              "pinyin": "hǎi",
+              "char": "大",
+              "pinyin": "dà",
               "index": 24,
               "read": false,
               "write": false
             },
             {
-              "char": "日",
-              "pinyin": "rì",
+              "char": "漠",
+              "pinyin": "mò",
               "index": 25,
-              "read": false,
-              "write": false
-            },
-            {
-              "char": "生",
-              "pinyin": "shēng",
-              "index": 26,
-              "read": false,
-              "write": false
-            },
-            {
-              "char": "残",
-              "pinyin": "cán",
-              "index": 27,
               "read": false,
               "write": true
             },
             {
-              "char": "夜",
-              "pinyin": "yè",
+              "char": "孤",
+              "pinyin": "gū",
+              "index": 26,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "烟",
+              "pinyin": "yān",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "直",
+              "pinyin": "zhí",
               "index": 28,
               "read": false,
               "write": false
@@ -268,36 +295,36 @@
               "write": false
             },
             {
-              "char": "江",
-              "pinyin": "jiāng",
+              "char": "长",
+              "pinyin": "cháng",
               "index": 30,
               "read": false,
               "write": false
             },
             {
-              "char": "春",
-              "pinyin": "chūn",
+              "char": "河",
+              "pinyin": "hé",
               "index": 31,
               "read": false,
               "write": false
             },
             {
-              "char": "入",
-              "pinyin": "rù",
+              "char": "落",
+              "pinyin": "luò",
               "index": 32,
               "read": false,
               "write": false
             },
             {
-              "char": "旧",
-              "pinyin": "jiù",
+              "char": "日",
+              "pinyin": "rì",
               "index": 33,
               "read": false,
               "write": false
             },
             {
-              "char": "年",
-              "pinyin": "nián",
+              "char": "圆",
+              "pinyin": "yuán",
               "index": 34,
               "read": false,
               "write": false
@@ -310,28 +337,28 @@
               "write": false
             }
           ],
-          "translation": "黑夜将尽海上旭日初升，旧年未过江上春意已至。",
-          "pinyin": "hǎi rì shēng cán yè ， jiāng chūn rù jiù nián 。",
+          "translation": "浩瀚沙漠孤烟直上，黄河尽头落日浑圆。",
+          "pinyin": "dà mò gū yān zhí ， cháng hé luò rì yuán 。",
           "notes": [
             {
               "start": 0,
               "end": 1,
-              "content": "海日：指从辽阔江面（如海）上升起的太阳，并非真正大海上的日出。"
-            },
-            {
-              "start": 2,
-              "end": 2,
-              "content": "生：升起、诞生，此处用拟人手法描写红日破晓而出的动态景象。"
+              "content": "大漠：广阔无垠的沙漠，特指西北边地沙漠地带。"
             },
             {
               "start": 3,
               "end": 4,
-              "content": "残夜：将尽的夜晚，指黎明前最后的黑暗时段。"
+              "content": "孤烟直：烽火台燃起的狼烟因无风而笔直升起，是边塞特有景象。"
             },
             {
-              "start": 8,
-              "end": 8,
-              "content": "入：进入，此处拟人化表达新春气息悄然融入旧年尾声。"
+              "start": 6,
+              "end": 7,
+              "content": "长河：指黄河，因流经边塞，故称‘长河’，非泛指河流。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "落日圆：落日显得格外浑圆，描绘大漠特有的视觉感受，‘圆’字炼字精妙。"
             }
           ]
         }
@@ -342,78 +369,78 @@
         {
           "content": [
             {
-              "char": "乡",
-              "pinyin": "xiāng",
+              "char": "萧",
+              "pinyin": "xiāo",
               "index": 36,
               "read": false,
-              "write": false
+              "write": true
             },
             {
-              "char": "书",
-              "pinyin": "shū",
+              "char": "关",
+              "pinyin": "guān",
               "index": 37,
               "read": false,
               "write": false
             },
             {
-              "char": "何",
-              "pinyin": "hé",
+              "char": "逢",
+              "pinyin": "féng",
               "index": 38,
               "read": false,
               "write": false
             },
             {
-              "char": "处",
-              "pinyin": "chù",
+              "char": "候",
+              "pinyin": "hòu",
               "index": 39,
               "read": false,
-              "write": false
+              "write": true
             },
             {
-              "char": "达",
-              "pinyin": "dá",
+              "char": "骑",
+              "pinyin": "jì",
               "index": 40,
               "read": false,
               "write": false
             },
             {
-              "char": "？",
-              "pinyin": "？",
+              "char": "，",
+              "pinyin": "，",
               "index": 41,
-              "read": false,
+              "read": true,
               "write": false
             },
             {
-              "char": "归",
-              "pinyin": "guī",
+              "char": "都",
+              "pinyin": "dū",
               "index": 42,
               "read": false,
               "write": false
             },
             {
-              "char": "雁",
-              "pinyin": "yàn",
+              "char": "护",
+              "pinyin": "hù",
               "index": 43,
               "read": false,
-              "write": false
-            },
-            {
-              "char": "洛",
-              "pinyin": "luò",
-              "index": 44,
-              "read": true,
               "write": true
             },
             {
-              "char": "阳",
-              "pinyin": "yáng",
-              "index": 45,
+              "char": "在",
+              "pinyin": "zài",
+              "index": 44,
               "read": false,
               "write": false
             },
             {
-              "char": "边",
-              "pinyin": "biān",
+              "char": "燕",
+              "pinyin": "yān",
+              "index": 45,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
               "index": 46,
               "read": false,
               "write": false
@@ -426,52 +453,47 @@
               "write": false
             }
           ],
-          "translation": "家书该寄往何处才能到达？托北归鸿雁捎去洛阳城边。",
-          "pinyin": "xiāng shū hé chù dá ？ guī yàn luò yáng biān 。",
+          "translation": "在萧关遇见侦察骑兵，告知都护正在燕然前线。",
+          "pinyin": "xiāo guān féng hòu jì ， dū hù zài yān rán 。",
           "notes": [
             {
               "start": 0,
               "end": 1,
-              "content": "乡书：家信。‘书’古义为书信，与现代‘书籍’义不同。"
+              "content": "萧关：古关名，在今宁夏固原东南，为古代西北边防要塞。"
             },
             {
-              "start": 2,
-              "end": 2,
-              "content": "何：哪里，疑问代词，在句中作宾语前置，正常语序为‘达何处’。"
+              "start": 3,
+              "end": 4,
+              "content": "候骑：负责侦察的骑兵，‘候’意为侦察，非‘等候’。"
             },
             {
               "start": 6,
               "end": 7,
-              "content": "归雁：北飞的大雁，古人认为大雁可传书，暗含托雁传书之意。"
+              "content": "都护：唐代边疆地区的最高军事长官，如安西都护、河西都护。"
             },
             {
-              "start": 11,
+              "start": 9,
               "end": 11,
-              "content": "边：旁边、边缘，相当于‘于洛阳边’，属状语后置结构。"
+              "content": "燕然：即燕然山，今蒙古杭爱山，典出东汉窦宪大破匈奴后勒石记功之事，此处借指前线。"
             }
           ],
           "different_meanings": [
             {
-              "start": 1,
-              "end": 1,
-              "old": "书信"
+              "start": 3,
+              "end": 3,
+              "old": "侦察"
             },
             {
-              "start": 1,
-              "end": 1,
-              "new": "书籍"
+              "start": 3,
+              "end": 3,
+              "new": "等待"
             }
           ],
           "special_sentences": [
             {
               "start": 2,
-              "end": 2,
-              "content": "宾语前置：‘何’为疑问代词作宾语，置于动词‘达’之前，正常语序为‘达何处’。"
-            },
-            {
-              "start": 11,
-              "end": 11,
-              "content": "状语后置：‘边’即‘于洛阳边’，介词结构省略‘于’后置表方位。"
+              "end": 5,
+              "content": "‘逢候骑于萧关’省略介词‘于’，属状语后置句，正常语序应为‘于萧关逢候骑’。"
             }
           ]
         }

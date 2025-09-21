@@ -1,0 +1,565 @@
+{
+  "name": "饮酒·其五",
+  "author": "陶渊明",
+  "dynasty": "东晋",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "结",
+              "pinyin": "jié",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "庐",
+              "pinyin": "lú",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "境",
+              "pinyin": "jìng",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，ér",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "wú",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "chē",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "车",
+              "pinyin": "mǎ",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "马",
+              "pinyin": "xuān",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "喧",
+              "pinyin": "。",
+              "index": 10,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "index": 11,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "筑屋在人间，却无车马喧嚣。",
+          "pinyin": "jié lú zài rén jìng ，ér wú chē mǎ xuān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "结庐：建造房舍。结，构筑；庐，简陋的房屋，此处指隐居之所。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "车马喧：车马的喧闹声，象征世俗的纷扰与应酬，并非实指声音。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尔",
+              "pinyin": "ěr",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 17,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "问如何做到？",
+          "pinyin": "wèn jūn hé néng ěr ？",
+          "notes": [
+            {
+              "start": 4,
+              "end": 4,
+              "content": "尔：如此，这样。指代前文‘无车马喧’的生活状态。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "偏",
+              "pinyin": "piān",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 23,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "心灵超脱自然偏静。",
+          "pinyin": "xīn yuǎn dì zì piān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "心远：内心超脱世俗，精神上远离名利纷争，是全诗核心思想。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "采",
+              "pinyin": "cǎi",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "菊",
+              "pinyin": "jú",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "篱",
+              "pinyin": "lí",
+              "index": 27,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，yōu",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "悠",
+              "pinyin": "rán",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "wàng",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "见",
+              "pinyin": "nán",
+              "index": 32,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "南",
+              "pinyin": "shān",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "。",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "index": 35,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "东篱下采菊，悠然望见南山。",
+          "pinyin": "cǎi jú dōng lí xià ，yōu rán wàng nán shān 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "东篱：东边的篱笆，陶渊明常用意象，后成为隐逸生活的象征。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "见：读jiàn，看见，此处为无意间看见，体现‘悠然’心境。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "气",
+              "pinyin": "qì",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夕",
+              "pinyin": "xī",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "佳",
+              "pinyin": "jiā",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，fēi",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飞",
+              "pinyin": "niǎo",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鸟",
+              "pinyin": "xiāng",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "yǔ",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "huán",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "还",
+              "pinyin": "。",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "index": 47,
+              "read": true,
+              "write": true
+            }
+          ],
+          "translation": "山间暮色正好，飞鸟结伴归巢。",
+          "pinyin": "shān qì rì xī jiā ，fēi niǎo xiāng yǔ huán 。",
+          "notes": [
+            {
+              "start": 1,
+              "end": 1,
+              "content": "山气：山中云雾之气，清晨或傍晚时分尤为明显。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "相与：共同、一起，表示飞鸟结伴而归，暗喻诗人归隐之乐。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "真",
+              "pinyin": "zhēn",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，yù",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欲",
+              "pinyin": "biàn",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "辨",
+              "pinyin": "yǐ",
+              "index": 55,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "已",
+              "pinyin": "wàng",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忘",
+              "pinyin": "yán",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "言",
+              "pinyin": "。",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "index": 59,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "此境蕴含真意，想辨析却忘言。",
+          "pinyin": "cǐ zhōng yǒu zhēn yì ，yù biàn yǐ wàng yán 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "真意：人生本真的意趣，指自然之道与内心宁静的融合，不可言传。"
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "content": "忘言：无法用语言表达。典出《庄子·外物》：‘言者所以在意，得意而忘言。’"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 3,
+              "end": 3,
+              "old": "本真、自然之性"
+            },
+            {
+              "start": 3,
+              "end": 3,
+              "new": "真实、不虚假"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 6,
+              "end": 11,
+              "content": "省略主语句，完整形式应为‘（我）欲辨已忘言’，文言中常见省略主语现象。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

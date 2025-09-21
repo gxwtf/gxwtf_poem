@@ -113,7 +113,7 @@ const prompt1 = `你是一个高效的AI格式生成器，专门处理诗歌信�
 
     ◦ 古文（如文言文）使用 mode: "paragraph"，按原文自然分段。
 
-2.  断句：以句号、感叹号、问号作为句子分隔符。
+2.  断句：以句号、感叹号、问号作为句子分隔符。特别地，原文可能已经提供了标点符号，此时需要以原文的标点符号为主。请忽略掉原文中的所有换行。
 3.  拼音格式：标点符号前后必须加空格（例如：wǒ ài nǐ 。）。
 4.  内容与翻译：整段无空格，直接使用输入提供的参考信息，但需校正格式。
 5.  输出：仅输出纯文本JSON，无任何额外标记（如 \`\`\`json）。
@@ -121,15 +121,25 @@ const prompt1 = `你是一个高效的AI格式生成器，专门处理诗歌信�
 推理步骤（高效执行，无需冗长思考）：
 
 1.  识别类型：根据输入快速判断是古诗还是古文。
-2.  解析句子：直接以标点（。！？）分割内容为句子。
-3.  构建结构：按分段规则填充paragraphs和sentences。
-4.  生成JSON：直接映射输入数据到JSON字段，确保格式准确。
+2.  解析句子：直接以用户提供的数据中的标点（。！？）分割内容为句子。也就是说，每一个 sentence 对象的 content 的最后一个标点符号必须是 “。！？” 三者之一。请尊重原文，不得私自增加或修改标点符号。特别地，对于逗号，我们不认为它是句子的分隔符。
+3.  如果用户提供的数据中没有标点，你需要自己设计标点（<reason></reason> 的时候），并按照自己设定的标点和规则2断句。
+4.  构建结构：按分段规则填充paragraphs和sentences。
+5.  生成JSON：直接映射输入数据到JSON字段，确保格式准确。
 
-示例参考（用于格式对齐）：
+严格禁止以下行为：
+1. 将原文中的逗号自行修改为句号，并在此处断句。例如，对于“前不见古人，后不见来者。”这样的句子，你不得自行修改为“前不见古人。后不见来者。”这样的句子。同时，对于“前不见古人，后不见来者。”，你只能在最后一个句号处断句，中间不得断句。
 
+请严格按照下列格式输出：
+
+<reason>
+    你的思考过程，包括对上述规则的理解，以及如何分段（仔细思考，并认真遵守上述规则2、3、禁令1 和下列格式示例）、如何添加拼音和翻译
+</reason>
+你的最终输出，需要与推理过程一致，并严格遵守上述格式。
+
+格式示例如下：
 ${JSON.stringify(example, null, 2)}
 
-立即基于输入生成JSON，无需确认或重复思考。`;
+`;
 const prompt2 = `你是一个 AI 数据生成器，用户将会提供一个字符串，这个字符串是 **标注了下标** 的古诗文数据。你需要生成以下内容(JSON)：
 
 {
@@ -161,14 +171,17 @@ const prompt2 = `你是一个 AI 数据生成器，用户将会提供一个字�
 1. 以纯文本格式输出，不得出现 \`\`\`json 等特殊标记。
 2. 注释要尽可能全面，需要标注出所有可能出错的地方，不宜过少，也不宜过多（对于一些比较简单的词，无需添加注释）。
 3. 内容必须绝对准确，不得编造。
-4. 你需要默认用户为高中水平，对于一些简单的字词，无需添加注释。（如“之”等）这一点非常重要哦！！！
+4. 你需要默认用户为高中水平，对于一些简单的字词，无需添加注释。（如“之” “也” “亦” 等）这一点非常重要哦！！！
 5. 要尽可能缩小注释的范围，如果要给一个词打注释，只需要将 start 和 end 设置为这个词的起始/结束下标即可，无需把整句话都打上注释。
+6. 不要每一个字都打一个注释！打注释之前仔细想想有没有必要（你面前是一位高中生）。
 
 **请认真学习格式示例后再生成内容。**
-**请认真学习格式示例后再生成内容。**
-**请认真学习格式示例后再生成内容。**
 
-格式示例：${JSON.stringify(example2, null, 2)}`
+格式示例：
+<reason>
+    你的思考过程，包括哪些词需要打注释，哪些词由于过于简单，无需注释。尽可能详细
+</reason>
+${JSON.stringify(example2, null, 2)}`
 
 function removeDigits(str) {
     return str.replace(/\d/g, '');
@@ -195,6 +208,10 @@ function addKey(response1, l, r, key1, key2, value){
 }
 
 async function generate(poemdata){
+    // console.log(poemdata);
+    // process.exit(0);
+    poemdata = poemdata.replaceAll('\n', '');
+    console.log(poemdata);
     let response1;
     while (1){
         try{
@@ -225,6 +242,7 @@ async function generate(poemdata){
 
             // console.log(response2);
             // let response2 = example2;
+
 
             for (let i in response2.notes)
                 response1 = addKey(response1, response2.notes[i].start, response2.notes[i].end, 'notes', 'content', response2.notes[i].content);
@@ -289,17 +307,17 @@ let array = [];
 
         if (!file.endsWith('.txt'))continue;
 
-        let id = parseInt(file);
+        // let id = parseInt(file);
         // console.log(id);
 
 
-        // const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/', file), 'utf8');
+        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/', file), 'utf8');
         
         let poemname = removeDigits(file.replace('.txt', ''));
-        array[id] = poemname;
+        // array[id] = poemname;
 
-        continue;
-        // console.log(poemname);
+        // continue;
+        console.log(poemname);
 
         const dir = path.join('/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/junior/', poemname);
         
@@ -325,6 +343,6 @@ let array = [];
         }
     }
 
-    console.log(JSON.stringify(array, null, 2));
+    // console.log(JSON.stringify(array, null, 2));
 })();
 // generate('登幽州台歌');
