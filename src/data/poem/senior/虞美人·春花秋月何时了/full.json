@@ -1,0 +1,710 @@
+{
+  "name": "虞美人·春花秋月何时了",
+  "author": "李煜",
+  "dynasty": "五代",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "春",
+              "pinyin": "chūn",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "花",
+              "pinyin": "huā",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "秋",
+              "pinyin": "qiū",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "了",
+              "pinyin": "liǎo",
+              "index": 6,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 7,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "春花年年开，秋月夜夜圆，这种时日什么时候才能结束呢？",
+          "pinyin": "chūn huā qiū yuè hé shí liǎo ？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "春花：春天的花朵，象征美好时光。与‘秋月’并列，代表四季轮回中的良辰美景。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "content": "秋月：秋天的明月，常引发思乡与感时之情，此处与‘春花’共同构成时光流逝的意象。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "何：疑问代词，表示‘什么’。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "content": "时了：什么时候结束。‘了’读liǎo，意为终结，表达对无尽愁绪的厌倦。"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "content": "春花秋月：象征美好的自然景物和往昔时光，此处反衬亡国之痛。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "了：完结、结束，读liǎo，表达对无尽愁绪的厌倦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "往",
+              "pinyin": "wǎng",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "少",
+              "pinyin": "shǎo",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 13,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "过去的事情还记得多少。",
+          "pinyin": "wǎng shì zhī duō shǎo 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "往事：指作者作为南唐后主时的帝王生活，包含欢乐与奢华，今已成追忆。"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "content": "往事：指李煜作为南唐国君的昔日繁华生活，含悔恨之意。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "楼",
+              "pinyin": "lóu",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "昨",
+              "pinyin": "zuó",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "又",
+              "pinyin": "yòu",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，gù",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "故",
+              "pinyin": "guó",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "国",
+              "pinyin": "bù",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "kān",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "堪",
+              "pinyin": "huí",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "回",
+              "pinyin": "shǒu",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "首",
+              "pinyin": "yuè",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "月",
+              "pinyin": "míng",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "zhōng",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "。",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "昨夜小楼上又吹来了春风，在这皓月当空的夜晚哪里忍受得了回忆故国的伤痛。",
+          "pinyin": "xiǎo lóu zuó yè yòu dōng fēng ，gù guó bù kān huí shǒu yuè míng zhōng 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "小楼：作者被囚于汴京时所居之处，空间狭小，象征囚徒生活与精神压抑。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "又：再一次，强调东风年年吹来，而故国已失，徒增伤感。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "故国：指南唐王朝的旧都金陵，承载着作者的家国记忆，今已沦陷。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "不堪：无法忍受。‘堪’意为能够承受，此处强化了回忆之痛。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "回首：回头望，引申为回忆。‘首’指头，‘回’为转动，合指回顾过去。"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "content": "小楼：作者被囚于汴京时所居之处，象征囚徒身份与孤独处境。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "又：再次，强调时间循环带来的痛苦不断重现。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "content": "东风：春风，带来生机却勾起故国之思，乐景写哀。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "故国：指南唐旧都金陵，表达对失去江山的深切怀念。"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "content": "堪：忍受、承受，‘不堪’即无法忍受，极言内心悲痛。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "回首：回望过去，暗含追悔与无奈之情。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "雕",
+              "pinyin": "diāo",
+              "index": 32,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "栏",
+              "pinyin": "lán",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "玉",
+              "pinyin": "yù",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "砌",
+              "pinyin": "qì",
+              "index": 35,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "应",
+              "pinyin": "yīng",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "犹",
+              "pinyin": "yóu",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，zhǐ",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "只",
+              "pinyin": "shì",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "zhū",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "朱",
+              "pinyin": "yán",
+              "index": 42,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "颜",
+              "pinyin": "gǎi",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "改",
+              "pinyin": "。",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "index": 45,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "精雕细刻的栏杆和玉石砌成的台阶应该都还在，只是住在里面的人已经衰老。",
+          "pinyin": "diāo lán yù qì yīng yóu zài ，zhǐ shì zhū yán gǎi 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "雕栏玉砌：雕刻的栏杆和玉石铺就的台阶，借代昔日宫殿的华美建筑，象征往日繁华。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "朱颜：红润的容颜，代指宫女或青春美貌，也暗喻国家的兴盛气象。"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "content": "改：改变，此处既指容颜衰老，更暗示江山易主、物是人非的深悲。"
+            },
+            {
+              "start": 0,
+              "end": 3,
+              "content": "雕栏玉砌：雕花的栏杆和玉石台阶，借代南唐宫殿，象征昔日奢华。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "朱颜：红润的容颜，代指宫中佳人或青春年华，亦暗喻国家气象。"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "content": "改：改变、衰老，既指美人迟暮，也指江山易主、物是人非。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 10,
+              "end": 11,
+              "old": "红润的容颜，常代指美人或青春"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "new": "现代汉语中极少使用该词，‘朱’多用于颜色描述，‘颜’泛指面容"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "old": "红润的容颜或宫廷美人，象征青春与繁华"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "new": "仅指红色的脸色，语义范围缩小，失去象征意义"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "几",
+              "pinyin": "jǐ",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愁",
+              "pinyin": "chóu",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 53,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "要问我心中有多少哀愁，",
+          "pinyin": "wèn jūn néng yǒu jǐ duō chóu ？",
+          "notes": [
+            {
+              "start": 7,
+              "end": 7,
+              "content": "愁：忧愁，此处指亡国之痛与人生无常的深切哀伤。"
+            },
+            {
+              "start": 7,
+              "end": 7,
+              "content": "愁：全词核心情感，指亡国之痛、人生巨变的无限哀愁。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "宾语前置：‘几多愁’为宾语，置于动词‘有’之前，正常语序应为‘能有愁几多’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "恰",
+              "pinyin": "qià",
+              "index": 54,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "似",
+              "pinyin": "sì",
+              "index": 55,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "向",
+              "pinyin": "xiàng",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 63,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "就像那滚滚东流的春江之水没有尽头。",
+          "pinyin": "qià sì yī jiāng chūn shuǐ xiàng dōng liú 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 9,
+              "content": "恰似一江春水向东流：用满江春水比喻无穷无尽的愁绪，形象生动，极言愁之深广绵长。"
+            },
+            {
+              "start": 0,
+              "end": 9,
+              "content": "恰似一江春水向东流：以滔滔江水比喻愁情，形象展现愁之深广绵长，不可断绝。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 9,
+              "content": "状语后置：‘向东’为状语，修饰‘流’，正常语序应为‘向东流’，此处为强调方向而延展。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "必修上"
+  ]
+}

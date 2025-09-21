@@ -1,0 +1,615 @@
+{
+  "name": "鹊桥仙·纤云弄巧",
+  "author": "秦观",
+  "dynasty": "宋代",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "纤",
+              "pinyin": "xiān",
+              "index": 0,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "云",
+              "pinyin": "yún",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弄",
+              "pinyin": "nòng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "巧",
+              "pinyin": "qiǎo",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飞",
+              "pinyin": "fēi",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "星",
+              "pinyin": "xīng",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "传",
+              "pinyin": "chuán",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "恨",
+              "pinyin": "hèn",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "银",
+              "pinyin": "yín",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汉",
+              "pinyin": "hàn",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "迢",
+              "pinyin": "tiáo",
+              "index": 12,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "迢",
+              "pinyin": "tiáo",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "暗",
+              "pinyin": "àn",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "度",
+              "pinyin": "dù",
+              "index": 15,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 16,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "轻盈的彩云在天空中幻化成各种巧妙的花样，天上的流星传递着相思的愁怨，遥远无垠的天河今夜我悄悄渡过。",
+          "pinyin": "xiān yún nòng qiǎo ， fēi xīng chuán hèn ， yín hàn tiáo tiáo àn dù 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 0,
+              "content": "纤：细小，此处形容云丝轻盈。读音为xiān，不可误读为qiān。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "content": "弄巧：展示巧妙技艺，暗指织女织锦之能，亦呼应七夕乞巧习俗。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "恨：遗憾、离愁，非现代‘仇恨’之意，表达相思之苦。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "银汉：银河的美称，古时称天河、星河，传说为牛郎织女分隔之地。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "迢迢：遥远的样子，叠音词增强画面感与情感张力。"
+            },
+            {
+              "start": 15,
+              "end": 15,
+              "content": "度：通‘渡’，渡过，指织女悄然渡过银河相会。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 8,
+              "end": 8,
+              "old": "遗憾、离愁"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "new": "仇恨"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "玉",
+              "pinyin": "yù",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "露",
+              "pinyin": "lù",
+              "index": 20,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "逢",
+              "pinyin": "féng",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "便",
+              "pinyin": "biàn",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "胜",
+              "pinyin": "shèng",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "却",
+              "pinyin": "què",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "间",
+              "pinyin": "jiān",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "数",
+              "pinyin": "shù",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 32,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "在秋风白露的七夕相会，就胜过尘世间那些长相厮守却貌合神离的夫妻。",
+          "pinyin": "jīn fēng yù lù yī xiāng féng ， biàn shèng què rén jiān wú shù 。",
+          "notes": [
+            {
+              "start": 1,
+              "end": 2,
+              "content": "金风玉露：秋风与晶莹的露水，象征秋天短暂而珍贵的相会时机。"
+            },
+            {
+              "start": 10,
+              "end": 10,
+              "content": "胜却：胜过、超过。‘却’为助词，无实义，不作‘退却’解。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "柔",
+              "pinyin": "róu",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "情",
+              "pinyin": "qíng",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "似",
+              "pinyin": "sì",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "佳",
+              "pinyin": "jiā",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "期",
+              "pinyin": "qī",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "梦",
+              "pinyin": "mèng",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忍",
+              "pinyin": "rěn",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "顾",
+              "pinyin": "gù",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鹊",
+              "pinyin": "què",
+              "index": 45,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "桥",
+              "pinyin": "qiáo",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "guī",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 49,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "缱绻的柔情像流水般绵绵不断，重逢的约会如梦影般缥缈虚幻，分别之时不忍去看那鹊桥路。",
+          "pinyin": "róu qíng sì shuǐ ， jiā qī rú mèng ， rěn gù què qiáo guī lù 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "content": "佳期：美好的约会时光，特指牛郎织女一年一度的相会之日。"
+            },
+            {
+              "start": 10,
+              "end": 10,
+              "content": "忍：怎忍、哪忍，表示强烈反问，非‘忍受’之意。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "鹊桥：传说中喜鹊搭成的桥，助牛郎织女渡河相会，象征爱情的力量。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 7,
+              "old": "特指恋人相会之日"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "new": "泛指美好时光"
+            },
+            {
+              "start": 10,
+              "end": 10,
+              "old": "怎、哪（反问副词）"
+            },
+            {
+              "start": 10,
+              "end": 10,
+              "new": "忍受"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 10,
+              "end": 16,
+              "content": "‘忍顾鹊桥归路’为情感强烈的反问句式，语序上‘忍’前置以加强语气，相当于‘怎能忍心回头去看那鹊桥归路’，属语气倒装类特殊表达。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "两",
+              "pinyin": "liǎng",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "情",
+              "pinyin": "qíng",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "久",
+              "pinyin": "jiǔ",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "又",
+              "pinyin": "yòu",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "岂",
+              "pinyin": "qǐ",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "朝",
+              "pinyin": "zhāo",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "朝",
+              "pinyin": "zhāo",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "暮",
+              "pinyin": "mù",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "暮",
+              "pinyin": "mù",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 65,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "若是两情相悦，至死不渝，又何必贪求卿卿我我的朝欢暮乐呢。",
+          "pinyin": "liǎng qíng ruò shì jiǔ cháng shí ， yòu qǐ zài zhāo zhāo mù mù 。"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "必修上"
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "name": "行路难·其一",
+  "author": "李白",
+  "dynasty": "唐代",
+  "mode": "center",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "樽",
+              "pinyin": "zūn",
+              "index": 1,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "清",
+              "pinyin": "qīng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酒",
+              "pinyin": "jiǔ",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "斗",
+              "pinyin": "dǒu",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "玉",
+              "pinyin": "yù",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "盘",
+              "pinyin": "pán",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "珍",
+              "pinyin": "zhēn",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "羞",
+              "pinyin": "xiū",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "直",
+              "pinyin": "zhí",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "钱",
+              "pinyin": "qián",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 15,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "金杯美酒价万钱，玉盘佳肴值万贯。",
+          "pinyin": "jīn zūn qīng jiǔ dǒu shí qiān ， yù pán zhēn xiū zhí wàn qián 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "金樽：金色的酒杯，形容器皿华贵。"
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "content": "斗十千：一斗酒价值万钱，极言酒之名贵。斗，古代容量单位。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "珍羞：珍贵的佳肴。羞，通‘馐’，美味的食物。"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "content": "直：通‘值’，价值，相当于‘值’。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 11,
+              "end": 11,
+              "old": "美味的食物"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "new": "害羞"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "old": "通‘值’，价值"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "new": "直接"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "停",
+              "pinyin": "tíng",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "杯",
+              "pinyin": "bēi",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "投",
+              "pinyin": "tóu",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "箸",
+              "pinyin": "zhù",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 20,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "食",
+              "pinyin": "shí",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "拔",
+              "pinyin": "bá",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "剑",
+              "pinyin": "jiàn",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "四",
+              "pinyin": "sì",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "顾",
+              "pinyin": "gù",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "茫",
+              "pinyin": "máng",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "停杯扔筷难下咽，拔剑环视心茫然。",
+          "pinyin": "tíng bēi tóu zhù bù néng shí ， bá jiàn sì gù xīn máng rán 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "投箸：放下筷子。箸，筷子，古称。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "content": "四顾：向四周张望，形容彷徨失措的样子。"
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "content": "心茫然：内心迷惘无所适从。茫然，失意、模糊不清的样子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "渡",
+              "pinyin": "dù",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "冰",
+              "pinyin": "bīng",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "塞",
+              "pinyin": "sāi",
+              "index": 37,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "川",
+              "pinyin": "chuān",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "登",
+              "pinyin": "dēng",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "太",
+              "pinyin": "tài",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "háng",
+              "index": 43,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "雪",
+              "pinyin": "xuě",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "满",
+              "pinyin": "mǎn",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "想渡黄河冰封河，欲登太行雪满山。",
+          "pinyin": "yù dù huáng hé bīng sāi chuān ， jiāng dēng tài háng xuě mǎn shān 。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "闲",
+              "pinyin": "xián",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "垂",
+              "pinyin": "chuí",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "钓",
+              "pinyin": "diào",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "碧",
+              "pinyin": "bì",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "溪",
+              "pinyin": "xī",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "上",
+              "pinyin": "shàng",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忽",
+              "pinyin": "hū",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乘",
+              "pinyin": "chéng",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "梦",
+              "pinyin": "mèng",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "边",
+              "pinyin": "biān",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 63,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "闲时学姜尚垂钓，忽梦伊尹乘舟过。",
+          "pinyin": "xián lái chuí diào bì xī shàng ， hū fù chéng zhōu mèng rì biān 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 6,
+              "content": "垂钓碧溪：指姜太公吕尚在渭水边垂钓，后遇周文王的典故，喻贤士待明主。"
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "content": "梦日边：相传伊尹将受商汤礼聘时，梦见自己乘船经过日月之旁。日边喻帝王身边，象征仕途机遇。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "难",
+              "pinyin": "nán",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "难",
+              "pinyin": "nán",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "歧",
+              "pinyin": "qí",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "安",
+              "pinyin": "ān",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 79,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "行路难啊行路难！岔路多，今在何方？",
+          "pinyin": "xíng lù nán ！ xíng lù nán ！ duō qí lù ， jīn ān zài ？",
+          "notes": [
+            {
+              "start": 9,
+              "end": 11,
+              "content": "歧路：岔路，比喻人生道路上的选择众多，方向不明。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 13,
+              "end": 15,
+              "content": "‘今安在’为宾语前置句，正常语序应为‘今在安’，即‘现在在哪里’。安，疑问代词作宾语前置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "破",
+              "pinyin": "pò",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "浪",
+              "pinyin": "làng",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "会",
+              "pinyin": "huì",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "直",
+              "pinyin": "zhí",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "挂",
+              "pinyin": "guà",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "云",
+              "pinyin": "yún",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帆",
+              "pinyin": "fān",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "济",
+              "pinyin": "jì",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "沧",
+              "pinyin": "cāng",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "海",
+              "pinyin": "hǎi",
+              "index": 94,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 95,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "终有乘风破浪日，直挂云帆渡沧海。",
+          "pinyin": "cháng fēng pò làng huì yǒu shí ， zhí guà yún fān jì cāng hǎi 。",
+          "notes": [
+            {
+              "start": 1,
+              "end": 4,
+              "content": "长风破浪：比喻远大抱负终将实现。典出《宋书·宗悫传》：‘愿乘长风破万里浪’。"
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "content": "云帆：高耸入云的船帆，形容船势雄壮。"
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "content": "济沧海：渡过大海。济，渡；沧海，大海，象征理想的彼岸。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 13,
+              "end": 13,
+              "old": "渡"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "new": "救济"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "九上",
+    "诗",
+    "乐府诗"
+  ],
+  "background": "天宝三年(744)，李白被唐玄宗\"赐金放还\"。离京前友人以豪华宴席饯行，诗人面对美酒佳肴却难以下咽，联想到政治道路的艰难，写下三首《行路难》组诗，此为其一。",
+  "appreciation": "本诗以宴席场景切入，\"停杯投箸\"\"拔剑四顾\"的强烈动作，凸显理想受挫的愤懑。中间\"冰塞川\"\"雪满山\"象征仕途险阻，垂钓、梦日典故暗示期待。结尾\"长风破浪\"陡转昂扬，在七言句中插入三言呼告，形成情感张力。全诗跌宕起伏，展现盛唐士人百折不挠的精神气象。"
+}
