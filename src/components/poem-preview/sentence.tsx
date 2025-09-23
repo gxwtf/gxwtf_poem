@@ -6,7 +6,7 @@ import { Char, CharData } from "./char"
 import { WordNotePopover } from "./word-note"
 
 
-type NoteBlock = {
+export type NoteBlock = {
     start: number
     end: number
     note: string
