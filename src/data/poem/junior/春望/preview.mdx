@@ -1,0 +1,28 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import fullData from './full.json';
+import {MemorizeContextProvider} from "@/components/poem-preview/memorize-context"
+import full2preview, {InputData} from "@/components/poem-preview/full2json";
+
+<>
+
+<Meta 
+  title={fullData.name}
+  author={fullData.author}
+  dynasty={fullData.dynasty}
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{mode: (fullData as InputData).mode,preview: full2preview(fullData as InputData).preview}}
+  />
+</MemorizeContextProvider>
+
+</>
+
+## 写作背景
+
+{fullData.background}
+
+## 作品赏析
+
+{fullData.appreciation}
