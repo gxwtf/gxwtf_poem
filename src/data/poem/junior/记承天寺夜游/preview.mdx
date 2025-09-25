@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="记承天寺夜游"
+  author="苏轼"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+元丰六年（1083年）苏轼贬谪黄州期间作。时值"乌台诗案"后第四年，政治高压下作者任团练副使实同软禁。张怀民同期贬黄州，两人同病相怜。文中"十月十二日"的精确纪年，暗示对自由时光的珍视。
+
+## 作品赏析
+
+全文85字勾勒三重境界：叙事层（欲睡→起行→寻友）展现生活即景，写景层（积水空明/藻荇交横）创造光影幻境，哲理层（何夜无月）升华人生感悟。最精妙是隐喻转换："积水空明"喻月光澄澈，"藻荇"实为竹柏投影，虚景实写间展现文字魔术。结尾"闲人"自嘲暗含三重身份：被贬官员、月夜游者、宇宙观察者，将个人境遇升华为永恒的生命叩问。
+
+

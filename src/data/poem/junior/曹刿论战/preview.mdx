@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="曹刿论战"
+  author="左丘明"
+  dynasty="春秋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+《曹刿论战》出自《左传·庄公十年》，发生在公元前684年春秋时期。当时齐国强大，因鲁国曾支持齐国内乱中的公子纠，齐桓公派兵攻打鲁国。鲁国处于劣势，曹刿作为平民谋士，主动求见鲁庄公，分析战争条件，并在长勺之战中指挥鲁军以少胜多。这一事件反映了春秋时期诸侯争霸的背景，以及平民阶层参与国家事务的萌芽。
+
+## 作品赏析
+
+本文通过简洁的对话和生动的叙事，展现了曹刿的智慧与战略思想。在内容上，曹刿强调“民本”和“信义”是战争基础，如“忠之属也”体现民心向背的重要性；在战术上，他提出“一鼓作气”的勇气理论，并通过观察敌军细节“辙乱旗靡”判断战机。文章语言精炼，结构严谨，以问答形式推进情节，突出曹刿的深谋远虑和鲁庄公的虚心纳谏，彰显了“知己知彼”的军事哲学和“以小博大”的辩证思维，具有深刻的教育意义。
+

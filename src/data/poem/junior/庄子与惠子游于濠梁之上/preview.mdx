@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="庄子与惠子游于濠梁之上"
+  author="庄子"
+  dynasty="战国"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+本文选自《庄子·秋水》，创作于战国中期。庄子和惠施（惠子）是思想对手，两人常在自然环境中辩论。濠水在今安徽凤阳，此次游历辩论展现了两种认知观的交锋。
+
+## 作品赏析
+
+全文以"鱼乐之辩"为核心，通过五个回合的对话展现两种哲学观。惠子代表逻辑认知（"安知"的追问），庄子主张直觉感悟（"出游从容"的观察）。"请循其本"的收束体现道家回归本真的思想，最终以"知之濠上"达成物我合一的境界，彰显"天地与我并生"的哲学理念。
+

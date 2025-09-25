@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="与朱元思书"
+  author="吴均"
+  dynasty="南朝"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+南朝梁武帝时期（502-549年），吴均任吴兴郡主簿时作。时值"竟陵八友"文学集团活跃，山水文学兴起。富春江作为隐逸文化象征，吸引文人雅集。信中"朱元思"应为虚构人物，实为山水审美宣言。
+
+## 作品赏析
+
+全文以"奇山异水"为纲，构建三重空间秩序：俯察"千丈见底"的透明水域，平视"猛浪若奔"的动态激流，仰观"千百成峰"的垂直山势。感官交响尤为绝妙：视觉（缥碧/寒树）、听觉（泠泠/嘤嘤）、触觉（急湍甚箭）交织。动词炼字如神："竞上"的纵向张力，"交映"的光影律动。结尾"望峰息心"的哲学升华，将六朝山水审美推向新高度，比陶渊明田园诗更显壮美气质。
+
+

@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="黄鹤楼"
+  author="崔颢"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+此诗作于崔颢早年漫游荆楚时期（约725年）。黄鹤楼因传说费祎登仙得名，时值盛唐文人漫游成风，登楼吊古成为时尚。作者途经武汉，面对三国遗迹触发现实困顿的感慨。
+
+## 作品赏析
+
+全诗三重时空交织：仙人传说（昔）- 现实空楼（今）- 白云千载（恒）。最精妙处是虚实转换：“晴川芳草”实景如画却暗含《[楚辞](@replace=10001)》意象，“烟波江上”的浩渺烟波更将地理空间升华为精神迷宫。李白登此楼曾叹“眼前有景道不得，崔颢题诗在上头”。
+
+

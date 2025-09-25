@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="望岳"
+  author="杜甫"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+唐开元二十四年（736年），24岁杜甫初游齐鲁，科举落第后漫游散心。正值开元盛世巅峰，泰山封禅传统深入人心。青年杜甫怀抱致君尧舜的壮志，登岳恰是政治抱负的诗意投射。
+
+## 作品赏析
+
+通篇以“望“字统领全景。空间结构精妙：首联远望山脉绵延（青未了），颔联近观神秀造化（割昏晓），颈联仰看流云归鸟（生曾云），尾联展望绝顶境界。动词运用神妙：“钟“显造化偏宠，“割“见山势雄奇，“荡“展豪情激荡，“决“现专注入神。结句“众山小“化用《孟子》“登泰山而小天下“，将山水诗升华为进取人生的宣言。对仗含而不露：四联皆对，却如行云流水不着痕迹。
+
+

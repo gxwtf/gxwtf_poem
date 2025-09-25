@@ -1,0 +1,32 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="湖心亭看雪"
+  author="张岱"
+  dynasty="明末清初"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+来到亭上，见两人铺毡对坐，童子煮酒炉火正旺。
+见到我惊喜道："湖中怎还有这样的人！"
+拉我同饮。
+我勉强喝三杯告辞。
+问其姓氏，知是金陵人客居此地。
+下船时船夫嘀咕："别说相公痴，还有像您一样痴的人！"
+
+## 作品赏析
+
+chóng zhēn wǔ nián shí èr yuè yú zhù xī hú
+dà xuě sān rì hú zhōng rén niǎo shēng jù jué
+shì rì gēng dìng yǐ yú ná yī xiǎo zhōu yōng cuì yī lú huǒ dú wǎng hú xīn tíng kàn xuě
+wù sōng hàng dàng tiān yǔ yún yǔ shān yǔ shuǐ shàng xià yī bái
+hú shàng yǐng zi wéi cháng dī yī hén hú xīn tíng yī diǎn yǔ yú zhōu yī jiè zhōu zhōng rén liǎng sān lì ér yǐ
+

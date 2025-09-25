@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="北冥有鱼"
+  author="庄子"
+  dynasty="战国"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+本文节选自《庄子·逍遥游》，创作于战国中期。庄子生活贫困却拒绝楚威王相位，此文正是其追求精神自由的宣言。当时百家争鸣，庄子通过寓言表达对现实束缚的超越。
+
+## 作品赏析
+
+本段以"鲲鹏变化"的寓言开篇，通过极度夸张的想象展现道家的宇宙观。"不知其几千里"的反复强调，打破时空限制。大鹏"怒而飞"的磅礴气势，象征精神自由的恢弘境界。为后文"至人无己"的哲学主张铺垫，体现庄子"乘天地之正"的逍遥思想。
+

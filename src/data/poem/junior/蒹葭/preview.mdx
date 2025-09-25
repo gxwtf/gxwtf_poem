@@ -1,0 +1,29 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="蒹葭"
+  author="佚名"
+  dynasty="先秦"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+芦苇茂盛水边长，深秋白露凝成霜。
+我心思念的那人，就在河水那一方。
+逆流而上去追寻，道路险阻又漫长。
+顺流而下去追寻，仿佛就在水中央。
+
+## 作品赏析
+
+芦苇茂盛水边长，太阳初升露未干。
+我心思念的那人，就在河岸那一端。
+逆流而上去追寻，道路渐高难攀登。
+顺流而下去追寻，仿佛就在水中滩。
+

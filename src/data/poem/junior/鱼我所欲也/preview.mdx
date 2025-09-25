@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="鱼我所欲也"
+  author="孟子"
+  dynasty="战国"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+《鱼我所欲也》出自《孟子·告子上》，约成文于战国中期（公元前4世纪）。孟子（孟轲）生活在诸侯争霸、礼崩乐坏的时代，儒家思想面临功利主义的冲击。此文针对当时社会重利轻义的风气，强调道德高于生命。孟子周游列国宣扬仁政，此篇是其核心伦理观的体现，旨在唤醒世人坚守本心，反对为物欲丧失原则。背景上，孟子目睹统治者贪图享乐、百姓困苦，故以舍生取义为喻，批判现实。
+
+## 作品赏析
+
+《鱼我所欲也》是一篇经典议论文，通过鱼与熊掌、生与义的对比，层层递进论证“舍生取义”的主旨。开篇以生活比喻引入，形象说明抉择原则；进而分析人性本质，指出“所欲有甚于生者”；再以反诘句强化逻辑，揭示重利忘义的荒谬；最后用“呼尔”“蹴尔”等事例讽刺现实，突显本心丧失的悲剧。修辞上多用排比、对偶（如“乡为……今为……”三组），语言犀利有力，情感激昂；思想深刻，强调义利之辨，体现了孟子“性善论”和道德至上观，对后世儒家伦理影响深远。
+

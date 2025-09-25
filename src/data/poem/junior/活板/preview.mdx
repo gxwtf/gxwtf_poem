@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="活板"
+  author="沈括"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+北宋庆历年间（1041-1048），沈括经实地考察毕昇作坊后撰写。时值文化繁荣，雕版印刷效率低下制约知识传播。毕昇发明于宋仁宗宝元至庆历间（1038-1048），比古登堡铅活字早400年，由沈括堂兄弟在杭州收藏字模至成书时（1088年）。
+
+## 作品赏析
+
+全文堪称科技说明文典范。完整记载活字印刷工艺流程：制字（胶泥刻字）→排版（设铁范）→印刷（火炀按压）→拆版（烘烤取字）。数据精确：“薄如钱唇“的尺寸比拟，“数十百千本“的效率对比。最绝妙是排除木活字方案的三重论证：木纹问题（“疏密“）→物理变形（“沾水不平“）→化学粘黏（“与药相粘“），展现严谨的科学思维。结尾“宝藏“二字，隐含对民间智慧的高度尊重。
+
+

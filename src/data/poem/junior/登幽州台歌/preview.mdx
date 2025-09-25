@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="登幽州台歌"
+  author="陈子昂"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+武则天神功元年（697年），陈子昂随建安王武攸宜征契丹。因谏言军事遭贬，在幽州台（今北京蓟县）感燕昭王筑黄金台纳贤旧事而作。时年37岁的陈子昂刚经历冤狱之苦，亲见武周朝堂混乱，怀才不遇之愤郁积心头。
+
+## 作品赏析
+
+全诗仅22字却横跨时空。“前不见/后不见“的时空定位中，凸显“独“字孤绝感。“悠悠“叠词既写宇宙浩瀚，又状时间绵长，与“涕下“的瞬时落泪构成强烈反差。以虚字取胜：“之“延展天地、“而“转折情绪，虚词实义构建哲学框架。打破七言格律，前三句五言陡然变末句六言，如哽咽在喉后的悲声长号。开创唐诗从齐梁绮丽转向雄浑质朴的风气之先。
+
+

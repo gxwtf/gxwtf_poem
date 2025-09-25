@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="孙权劝学"
+  author="司马光"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+东汉末年，孙权占据江东。建安十三年（208年）赤壁之战后，孙权发现部将吕蒙虽骁勇善战但学识不足，遂在统率东吴期间（约210年）进行劝学。当时战乱频仍，武将多轻视读书，孙权以身作则引导将领进修，展现其政治远见。
+
+## 作品赏析
+
+本文通过“劝学-推辞-再劝-就学-叹服“五步结构，展现知识改变认知的力量。对比手法尤为精彩：“吴下阿蒙“与“刮目相待“构成成长对比；孙权“常读书“与吕蒙“多务“展现境界差异。语言描写简练传神，三次“卿“字称呼变化，微妙体现孙权从君主到学友的身份转换，最后“结友而别“的细节，见证学识建立的平等对话。
+
+

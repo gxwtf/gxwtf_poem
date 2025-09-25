@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="大道之行也"
+  author="戴圣"
+  dynasty="西汉"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+本文选自《礼记·礼运》，由西汉戴圣编纂。成书于汉武帝"罢黜百家"时期，借孔子之口描绘理想社会。反映先秦儒家对原始公社制的追忆和对未来社会的构想。
+
+## 作品赏析
+
+全文以"天下为公"为总纲，通过"选贤与能"等12项具体措施，构建"老有所终"等6大社会图景。采用排比句式形成磅礴气势，"不独亲其亲"等否定句式强化理想境界。结尾"外户不闭"的细节描写，生动展现了大同世界的治安图景，对后世康有为《大同书》有深远影响。
+

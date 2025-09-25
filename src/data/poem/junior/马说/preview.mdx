@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="马说"
+  author="韩愈"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+韩愈创作于唐德宗贞元年间（785-805年）。当时藩镇割据，宦官专权，科举僵化。韩愈三试吏部落第，目睹大量人才埋没，借"伯乐相马"典故抒发愤懑。
+
+## 作品赏析
+
+全文以千里马喻人才，伯乐喻识才者。通过三个层次展开：首段揭示"伯乐不常有"的根本矛盾；中段以"食不饱"喻待遇不公；末段以"执策临之"的细节讽刺统治者。反问句"其真无马邪"将批判推向高潮，末句"不知马"直指问题本质，体现韩愈"不平则鸣"的文学主张。
+

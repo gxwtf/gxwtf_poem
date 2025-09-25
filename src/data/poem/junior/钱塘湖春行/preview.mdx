@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="钱塘湖春行"
+  author="白居易"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+长庆三年（823年）白居易任杭州刺史时作。时值江南春早，诗人漫步西湖。贾公亭为贞元年间杭州刺史贾全所建，后不存，诗中记录下唐代西湖胜景。
+
+## 作品赏析
+
+全诗以"春行"为脉络，移步换景：孤山寺起兴，水面云脚状全景，莺燕写早春生机，花草状自然野趣，白沙堤收束。"渐欲""才能"精准把握早春物候特征。对仗工稳而自然，展现白居易通俗晓畅的艺术特色。
+
+

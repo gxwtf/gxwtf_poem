@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="陈太丘与友期行"
+  author="刘义庆"
+  dynasty="南朝宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+故事发生在东汉时期的颍川郡（今河南许昌）。陈寔时任太丘长，以德行著称。当时社会特别重视礼教和信用，此文通过日常生活场景，反映汉代士人对诚信准则的坚守和门风教育。
+
+## 作品赏析
+
+全文围绕”信””礼”二字展开戏剧冲突。友人违约在先却”怒而骂”，反衬陈太丘守时离开的正当性。七岁儿童的应对尤为精彩：”日中不至是无信”直指失信本质，”对子骂父是无礼”揭示对方双重过错。结尾”友人惭”与”入门不顾”的对比，展现儿童不卑不亢的气度，也暗示真正的教养不在年龄而在明理。
+
+
