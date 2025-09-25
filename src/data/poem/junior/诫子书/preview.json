@@ -1,0 +1,579 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "夫",
+              "pinyin": "fū"
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn"
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "静",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "以：连词，表示手段或目的，可译为‘用来’。"
+                }
+              ]
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū"
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "俭",
+              "pinyin": "jiǎn"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "以：连词，用法同前，表目的，‘用来’。"
+                }
+              ]
+            },
+            {
+              "char": "养",
+              "pinyin": "yǎng"
+            },
+            {
+              "char": "德",
+              "pinyin": "dé"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "君子的行为操守，以宁静修养身心，以俭朴培养品德。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "君子：指有道德修养、品行高尚的人，儒家理想人格。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "淡",
+              "pinyin": "dàn"
+            },
+            {
+              "char": "泊",
+              "pinyin": "bó"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "无：没有。"
+                }
+              ]
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "以：固定结构‘无以’，意为‘没有用来……的办法’。"
+                }
+              ]
+            },
+            {
+              "char": "明",
+              "pinyin": "míng"
+            },
+            {
+              "char": "志",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "宁",
+              "pinyin": "níng"
+            },
+            {
+              "char": "静",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "无：没有。"
+                }
+              ]
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "以：同‘无以’结构，表条件。"
+                }
+              ]
+            },
+            {
+              "char": "致",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "不恬淡寡欲无法明确志向，不安定清静不能实现远大目标。"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 2,
+              "note": "淡泊：清静寡欲，不追求名利，是修身的重要态度。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "宁静：指内心安定清静，与‘淡泊’相辅相成。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "夫",
+              "pinyin": "fū"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "须",
+              "pinyin": "xū"
+            },
+            {
+              "char": "静",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "才",
+              "pinyin": "cái"
+            },
+            {
+              "char": "须",
+              "pinyin": "xū"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "广",
+              "pinyin": "guǎng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "广：使……广博，动词用法，属词类活用。"
+                }
+              ]
+            },
+            {
+              "char": "才",
+              "pinyin": "cái"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "志",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "求学必须静心专一，才干需要学习积累，不学习无法增长才干，不立志难以学有所成。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "淫",
+              "pinyin": "yín",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "淫：放纵，过度，此处指懈怠散漫，非现代‘色情’义。"
+                }
+              ]
+            },
+            {
+              "char": "慢",
+              "pinyin": "màn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "慢：怠惰、懒散。"
+                }
+              ]
+            },
+            {
+              "char": "则",
+              "pinyin": "zé"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "励",
+              "pinyin": "lì"
+            },
+            {
+              "char": "精",
+              "pinyin": "jīng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "险",
+              "pinyin": "xiǎn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "险：轻浮、不踏实，与‘宁静’相对。"
+                }
+              ]
+            },
+            {
+              "char": "躁",
+              "pinyin": "zào",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "躁：急躁、浮躁。"
+                }
+              ]
+            },
+            {
+              "char": "则",
+              "pinyin": "zé"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "性",
+              "pinyin": "xìng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "放纵懈怠就不能振奋精神，轻薄浮躁就无法修养性情。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "年",
+              "pinyin": "nián"
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "时",
+              "pinyin": "shí"
+            },
+            {
+              "char": "驰",
+              "pinyin": "chí",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "驰：奔驰，比喻时间飞逝。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "意",
+              "pinyin": "yì"
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "去：消逝、远离，指意志日渐消磨。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "遂",
+              "pinyin": "suì"
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "枯",
+              "pinyin": "kū"
+            },
+            {
+              "char": "落",
+              "pinyin": "luò"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "多",
+              "pinyin": "duō"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "接",
+              "pinyin": "jiē"
+            },
+            {
+              "char": "世",
+              "pinyin": "shì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "悲",
+              "pinyin": "bēi"
+            },
+            {
+              "char": "守",
+              "pinyin": "shǒu"
+            },
+            {
+              "char": "穷",
+              "pinyin": "qióng"
+            },
+            {
+              "char": "庐",
+              "pinyin": "lú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "复",
+              "pinyin": "fù"
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "复：再、又。"
+                }
+              ]
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "何及：达到什么地步？意为‘来得及做什么’，含悔恨之意。"
+                }
+              ]
+            },
+            {
+              "char": "！",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "年华随时光疾驰，意志随岁月消磨，最终如枯叶凋落，大多不能有益社会，悲伤困守简陋屋舍，到时悔恨哪里还来得及！"
+          },
+          "notes": [
+            {
+              "start": 12,
+              "end": 13,
+              "note": "枯落：枯叶凋零，比喻人年老无为，才能衰退。"
+            },
+            {
+              "start": 22,
+              "end": 23,
+              "note": "穷庐：破旧的房屋，指贫寒的居所，象征不得志的处境。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

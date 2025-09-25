@@ -1,0 +1,757 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "大：指理想中的最高境界。道：社会运行的根本原则。"
+                }
+              ]
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "道：指社会制度与道德规范的总和。"
+                }
+              ]
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "行：推行、实现。"
+                }
+              ]
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān"
+            },
+            {
+              "char": "下",
+              "pinyin": "xià"
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "公",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "大道施行的时代，天下是公共的。"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 9,
+              "note": "天下为公：天下是公共的，不属于私人所有。为，表判断，相当于‘是’。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "选",
+              "pinyin": "xuǎn"
+            },
+            {
+              "char": "贤",
+              "pinyin": "xián"
+            },
+            {
+              "char": "与",
+              "pinyin": "jǔ"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "讲",
+              "pinyin": "jiǎng"
+            },
+            {
+              "char": "信",
+              "pinyin": "xìn"
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū"
+            },
+            {
+              "char": "睦",
+              "pinyin": "mù"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "选拔贤能的人，讲求诚信培养和睦。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "选贤与能：选拔贤德之人并推举有才能者。与，通‘举’，推举。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "note": "讲信修睦：讲求诚信，建立和睦关系。修，培养；睦，和睦。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "故",
+              "pinyin": "gù"
+            },
+            {
+              "char": "人",
+              "pinyin": "rén"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "独",
+              "pinyin": "dú"
+            },
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "亲：动词，奉养。"
+                }
+              ]
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "其：代词，自己的。"
+                }
+              ]
+            },
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "亲：名词，父母。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "独",
+              "pinyin": "dú"
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "子：动词，抚养。"
+                }
+              ]
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "其：自己的。"
+                }
+              ]
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "子：名词，子女。"
+                }
+              ]
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "所以人们不只敬爱自己的父母，不只疼爱自己的子女。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "使",
+              "pinyin": "shǐ"
+            },
+            {
+              "char": "老",
+              "pinyin": "lǎo"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "终",
+              "pinyin": "zhōng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "壮",
+              "pinyin": "zhuàng"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "幼",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "长",
+              "pinyin": "zhǎng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "使老年人能安享天年，壮年人能为社会效力，幼童能健康成长。"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 5,
+              "note": "老有所终：老年人能安享晚年。所终，安度余生的地方。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "note": "壮有所用：壮年人能为社会所用。所用，发挥作用的位置。"
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "note": "幼有所长：幼儿能得到抚养成长。所长，成长的环境。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "矜",
+              "pinyin": "guān"
+            },
+            {
+              "char": "、",
+              "pinyin": "、"
+            },
+            {
+              "char": "寡",
+              "pinyin": "guǎ"
+            },
+            {
+              "char": "、",
+              "pinyin": "、"
+            },
+            {
+              "char": "孤",
+              "pinyin": "gū"
+            },
+            {
+              "char": "、",
+              "pinyin": "、"
+            },
+            {
+              "char": "独",
+              "pinyin": "dú"
+            },
+            {
+              "char": "、",
+              "pinyin": "、"
+            },
+            {
+              "char": "废",
+              "pinyin": "fèi"
+            },
+            {
+              "char": "疾",
+              "pinyin": "jí"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "养",
+              "pinyin": "yǎng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "老而无妻、老而无夫、幼而无父、老而无子、残疾人都能得到供养。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 11,
+              "note": "矜寡孤独废疾者：泛指社会弱势群体。矜，通‘鳏’，无妻的成年男子；寡，寡妇；孤，幼年丧父；独，老年无子；废疾，残疾者。"
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "note": "皆有所养：都能得到供养。养，赡养、照顾。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "男",
+              "pinyin": "nán"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "分",
+              "pinyin": "fèn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "归",
+              "pinyin": "guī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "男子有职务，女子有归宿。"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 3,
+              "note": "男有分：男子各有职分。分，fèn，职责、名分。"
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "note": "女有归：女子有归宿，指能出嫁。归，出嫁。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "货",
+              "pinyin": "huò"
+            },
+            {
+              "char": "恶",
+              "pinyin": "wù"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "弃",
+              "pinyin": "qì"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "地",
+              "pinyin": "dì"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "必",
+              "pinyin": "bì"
+            },
+            {
+              "char": "藏",
+              "pinyin": "cáng"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "己",
+              "pinyin": "jǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "财物厌恶被扔在地上，但不一定藏在自己家里。"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 6,
+              "note": "货恶其弃于地也：财物厌恶被丢弃在地上。恶，wù，厌恶；于地，介词结构后置，意为‘在地上’。"
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "note": "不必藏于己：不一定私藏起来。藏，收藏；己，自己。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "力",
+              "pinyin": "lì"
+            },
+            {
+              "char": "恶",
+              "pinyin": "wù"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "出",
+              "pinyin": "chū"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "必",
+              "pinyin": "bì"
+            },
+            {
+              "char": "为",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "己",
+              "pinyin": "jǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "力气厌恶不从自己身上使出来，但不一定为了自己。"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 8,
+              "note": "力恶其不出于身也：力气厌恶自己不出力。出，使……付出；于身，从自身发出，状语后置。"
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "note": "不为己：不是为了自己。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "是",
+              "pinyin": "shì"
+            },
+            {
+              "char": "故",
+              "pinyin": "gù"
+            },
+            {
+              "char": "谋",
+              "pinyin": "móu"
+            },
+            {
+              "char": "闭",
+              "pinyin": "bì"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "兴",
+              "pinyin": "xīng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "盗",
+              "pinyin": "dào"
+            },
+            {
+              "char": "窃",
+              "pinyin": "qiè"
+            },
+            {
+              "char": "乱",
+              "pinyin": "luàn"
+            },
+            {
+              "char": "贼",
+              "pinyin": "zéi"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "作",
+              "pinyin": "zuò"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            },
+            {
+              "char": "故",
+              "pinyin": "gù"
+            },
+            {
+              "char": "外",
+              "pinyin": "wài"
+            },
+            {
+              "char": "户",
+              "pinyin": "hù"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "闭",
+              "pinyin": "bì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "是",
+              "pinyin": "shì"
+            },
+            {
+              "char": "谓",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "大",
+              "pinyin": "dà"
+            },
+            {
+              "char": "同",
+              "pinyin": "tóng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "因此奸邪之谋不会兴起，盗窃作乱害人之事不会发生。所以大门不用关闭，这就叫做大同世界。"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 7,
+              "note": "谋闭而不兴：阴谋诡计被杜绝而不兴起。谋，阴谋；闭，杜绝；兴，发生。"
+            },
+            {
+              "start": 8,
+              "end": 15,
+              "note": "盗窃乱贼而不作：偷盗、造反、害人之事不会发生。作，兴起。"
+            },
+            {
+              "start": 17,
+              "end": 22,
+              "note": "外户而不闭：门外不用关闭。外户，指门外；不闭，不用锁。"
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "note": "是谓大同：这就叫做大同社会。是，这；谓，叫做。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}
