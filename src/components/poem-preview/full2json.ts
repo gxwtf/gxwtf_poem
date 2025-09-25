@@ -55,7 +55,8 @@ export interface InputData {
 }
 
 
-export default function convert(data: InputData) {
+export default function convert(data: InputData){
+    console.log(data);
     // 定义常见中文标点符号，这些标点的拼音将被替换为全角空格
     const punctuation = ["，", "。", "？", "！", "；", "：", "“", "”", "‘", "’", "—", "…"];
     
@@ -67,7 +68,7 @@ export default function convert(data: InputData) {
 
     // 遍历输入数据的每个段落
     for (const para of data.paragraphs) {
-        const outputParagraph = {
+        const outputParagraph: ParagraphData = {
             paragraph: []
         };
 

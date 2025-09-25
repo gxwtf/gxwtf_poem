@@ -19,7 +19,7 @@ export type TranslationData = {
 
 export type SentenceData = {
     sentence: CharData[]
-    notes?: NoteBlock[]
+    notes: NoteBlock[]
     translation?: TranslationData
 }
 
