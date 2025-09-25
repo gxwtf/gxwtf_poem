@@ -75,10 +75,11 @@ export async function main() {
     
     // 处理古诗文数据（junior版本）
     const juniorOrder = getOrderFromFile(path.join(basePath, 'poem/junior/order.tsx'))
+    console.log('Junior order:', juniorOrder)
     for (const poemName of juniorOrder) {
         const poemPath = path.join(basePath, 'poem/junior', poemName, 'index.json')
         const poemData = readJsonFile(poemPath)
-        
+        console.log(`Seeding poem: ${poemName}`)
         if (poemData) {
             await prisma.poem.create({
                 data: {

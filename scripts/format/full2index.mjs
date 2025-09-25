@@ -106,15 +106,16 @@ for (const version of versions) {
 
   for (const dir of poemDirs) {
     const fullPath = path.join(basePath, dir, "full.json");
-    const previewPath = path.join(basePath, dir, "index.json");
-    if (!fs.existsSync(fullPath)) continue;
+    const indexPath = path.join(basePath, dir, "index.json");
+    console.log(`Seeding poem: ${dir} & ${indexPath}`);
+    if (!fs.existsSync(fullPath)) continue; 
 
     try {
       const fullData = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
-      const previewData = convert(fullData);
-      // console.log(previewData)
-      fs.writeFileSync(previewPath, JSON.stringify(previewData, null, 2), "utf-8");
-      console.log(`✅ 生成 ${previewPath}`);
+      const indexPath = convert(fullData);
+      // console.log(indexPath)
+      fs.writeFileSync(indexPath, JSON.stringify(indexPath, null, 2), "utf-8");
+      console.log(`✅ 生成 ${indexPath}`);
     } catch (e) {
       console.error(`❌ 处理 ${fullPath} 时出错:`, e);
     }
