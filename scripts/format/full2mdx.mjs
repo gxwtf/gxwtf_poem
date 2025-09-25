@@ -49,9 +49,9 @@ for (const version of versions) {
     try {
       const fullData = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
       const previewData = convert(fullData);
-      console.log(previewData)
+      // console.log(previewData)
       fs.writeFileSync(previewPath, previewData, "utf-8");
-      // console.log(`✅ 生成 ${previewPath}`);
+      console.log(`✅ 生成 ${previewPath}`);
     } catch (e) {
       console.error(`❌ 处理 ${fullPath} 时出错:`, e);
     }

@@ -1,1 +1,559 @@
-"import { Meta } from '@/components/poem-meta';\nimport { PoemPreview } from '@/components/poem-preview/poem-preview';\nimport previewData from './preview.json';\nimport { MemorizeContextProvider } from \"@/components/poem-preview/memorize-context\";\n\n<Meta \n  title=\"undefined\"\n  author=\"荀子\"\n  dynasty=\"先秦\"\n/>\n\n<MemorizeContextProvider>\n  <PoemPreview data={{ mode: \"poem\", preview: previewData.preview }} />\n</MemorizeContextProvider>\n\n## 写作背景\n\n暂无写作背景。\n\n## 作品赏析\n\n暂无内容赏析。\n\n"
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "君",
+              "pinyin": "jūn"
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ"
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē"
+            },
+            {
+              "char": "：",
+              "pinyin": "　"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "可",
+              "pinyin": "kě"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "已：停止，终结。此处强调学习不可停止。"
+                }
+              ]
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "君子说：学习是不能停止的。"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "可以：古义为‘能够用来’，‘可’与‘以’为两个词，不同于现代连词‘可以’。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "青",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "取",
+              "pinyin": "qǔ"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "蓝",
+              "pinyin": "lán",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "于：介词，表示比较，相当于‘比’。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "蓝：指蓼蓝，一种可制染料的植物，并非颜色义。"
+                }
+              ]
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "青",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "蓝",
+              "pinyin": "lán"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "冰",
+              "pinyin": "bīng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "为：动词，读 wéi，意为‘变成’。"
+                }
+              ]
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "寒",
+              "pinyin": "hán"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "靛青是从蓼蓝中提取的，但颜色比蓼蓝更深；冰是由水凝结而成的，但比水更寒冷。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "木",
+              "pinyin": "mù"
+            },
+            {
+              "char": "直",
+              "pinyin": "zhí"
+            },
+            {
+              "char": "中",
+              "pinyin": "zhòng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "中：读 zhòng，意为‘符合、合于’。"
+                }
+              ]
+            },
+            {
+              "char": "绳",
+              "pinyin": "shéng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "輮",
+              "pinyin": "róu",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "輮：通‘煣’，用火烘烤使木材弯曲。"
+                }
+              ]
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "轮",
+              "pinyin": "lún"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "曲",
+              "pinyin": "qū"
+            },
+            {
+              "char": "中",
+              "pinyin": "zhòng"
+            },
+            {
+              "char": "规",
+              "pinyin": "guī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "木材笔直，合乎墨线，用火烘烤使它弯曲做成车轮，它的弧度就能合乎圆规的标准。"
+          },
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "note": "以为：古义为‘以（之）为’，即‘把它做成’，与现代‘认为’不同。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "虽",
+              "pinyin": "suī"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "有：通‘又’，表示再次或递进。"
+                }
+              ]
+            },
+            {
+              "char": "槁",
+              "pinyin": "gǎo"
+            },
+            {
+              "char": "暴",
+              "pinyin": "pù"
+            },
+            {
+              "char": "，",
+              "pinyin": "　",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "暴：通‘曝’，读 pù，意为晒。"
+                }
+              ]
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "复",
+              "pinyin": "fù"
+            },
+            {
+              "char": "挺",
+              "pinyin": "tǐng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "挺：伸直，恢复原状。"
+                }
+              ]
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "輮",
+              "pinyin": "róu"
+            },
+            {
+              "char": "使",
+              "pinyin": "shǐ"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "然：代词，指代前文‘曲’的状态，即‘这样’。"
+                }
+              ]
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "即使再经风吹日晒，也不会再挺直了，这是因为烘烤使它弯曲成这样的。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "故",
+              "pinyin": "gù"
+            },
+            {
+              "char": "木",
+              "pinyin": "mù"
+            },
+            {
+              "char": "受",
+              "pinyin": "shòu"
+            },
+            {
+              "char": "绳",
+              "pinyin": "shéng"
+            },
+            {
+              "char": "则",
+              "pinyin": "zé"
+            },
+            {
+              "char": "直",
+              "pinyin": "zhí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "金：指金属制的刀斧等器物，非专指黄金。"
+                }
+              ]
+            },
+            {
+              "char": "就",
+              "pinyin": "jiù",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "就：靠近、接近，如‘就学’。"
+                }
+              ]
+            },
+            {
+              "char": "砺",
+              "pinyin": "lì",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "砺：磨刀石。"
+                }
+              ]
+            },
+            {
+              "char": "则",
+              "pinyin": "zé"
+            },
+            {
+              "char": "利",
+              "pinyin": "lì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "所以木材经过墨线比量就能取直，金属刀具在磨刀石上磨过就锋利了，"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "君",
+              "pinyin": "jūn"
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ"
+            },
+            {
+              "char": "博",
+              "pinyin": "bó"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "日：名词作状语，意为‘每天’，表示时间频率。"
+                }
+              ]
+            },
+            {
+              "char": "参",
+              "pinyin": "cān"
+            },
+            {
+              "char": "省",
+              "pinyin": "xǐng"
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "乎：相当于‘于’，引出对象，可译为‘对’。"
+                }
+              ]
+            },
+            {
+              "char": "己",
+              "pinyin": "jǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "则",
+              "pinyin": "zé"
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "知：通‘智’，智慧，读 zhì。"
+                }
+              ]
+            },
+            {
+              "char": "明",
+              "pinyin": "míng"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "过",
+              "pinyin": "guò"
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "君子广泛地学习并且每天反省自己，就能智慧明达而且行为没有过失了。"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "参省：读 cān xǐng，意为检验反省。‘参’通‘三’，表多次。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

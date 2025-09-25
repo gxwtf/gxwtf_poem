@@ -83,7 +83,7 @@ const example2 = {
   write: [ 17, 20 ]
 };
 
-const prompt1 = `你是一个高效的AI格式生成器，专门处理诗歌信息。用户提供诗歌名称。你的任务是根据输入直接生成一个严格的JSON格式输出，无需额外解释或思考过程。
+const prompt1 = `你是一个高效的AI格式生成器，专门处理诗歌信息。用户提供诗歌名称、作者、朝代、内容、译文等输入。你的任务是根据输入直接生成一个严格的JSON格式输出，无需额外解释或思考过程。
 
 输出格式（必须严格遵守）：
 
@@ -293,8 +293,6 @@ async function generate(poemdata){
     return response1;
 }
 
-// generate('劝学'),generate('师说');
-
 // console.log(prompt1);
 // console.log(prompt2);
 // process.exit(0);
@@ -302,45 +300,40 @@ async function generate(poemdata){
 let array = [];
 
 (async function(){
-    // const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/');
-    const files = ['师说.txt', '劝学.txt'];
+    const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/');
     for (let i = 0;i <= files.length - 1;i ++){
         const file = files[i];
-        console.log(file);
+        // console.log(file);
 
-        // if (!file.endsWith('.txt'))continue;
+        if (!file.endsWith('.txt'))continue;
 
-        // // let id = parseInt(file);
-        // // console.log(id);
+        // let id = parseInt(file);
+        // console.log(id);
 
 
-        // const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/', file), 'utf8');
+        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/', file), 'utf8');
         
         let poemname = removeDigits(file.replace('.txt', ''));
-        // // array[id] = poemname;
+        // array[id] = poemname;
 
-        // // continue;
+        // continue;
         console.log(poemname);
 
-        const dir = path.join('/Users/mc/文件/gxwtf_poem_react/src/data/poem/senior/', poemname);
+        const dir = path.join('/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/junior/', poemname);
         
-        // // create directory dir
-        // fs.mkdirSync(dir, { recursive: true });
+        // create directory dir
+        fs.mkdirSync(dir, { recursive: true });
 
         let JSONfile = path.join(dir, 'full.json');
         // console.log(JSONfile);
 
         // 如果已经存在JSON文件，则跳过
-        if (fs.existsSync(JSONfile)){
-            console.log('already exists');
-            continue;
-        }
+        if (fs.existsSync(JSONfile))continue;
 
-        console.log(file);
+        console.log(poemname);
 
         try{
-            console.log('generating...');
-            fs.writeFileSync(JSONfile, JSON.stringify(await generate(file), null, 2));
+            fs.writeFileSync(JSONfile, JSON.stringify(await generate(fileContent), null, 2));
             // process.exit(0);
             // console.log('success');
         }catch (error){
