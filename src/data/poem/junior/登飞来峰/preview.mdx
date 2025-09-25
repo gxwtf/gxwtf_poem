@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="登飞来峰"
+  author="王安石"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+宋仁宗皇祐二年（1050年），王安石任鄞县知县登绍兴飞来峰作。29岁的他兴修水利初见成效，初展改革抱负。“浮云“暗指朝廷保守势力，当时范仲淹庆历新政失败不久，改革派遭受排挤。
+
+## 作品赏析
+
+前两句实写登高见闻，“千寻塔“极言地势险峻，“鸡鸣见日“暗喻曙光在望。后两句直抒胸臆，化用李白“总为浮云能蔽日“，反其意作“不畏浮云“。“最“字三用妙笔：位置最高（最高层）→视野最广（遮望眼）→境界最高（自缘身）。构思暗合登山三境：视觉奇观→生理感受→哲理顿悟。全诗以俗语“闻说“起兴，以理语“自缘“作结，开宋诗以议论入风之先河。
+
+

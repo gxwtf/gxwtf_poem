@@ -1,0 +1,38 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="岳阳楼记"
+  author="范仲淹"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+至若春和景明，波澜不惊。
+上下天光，一碧万顷。
+沙鸥翔集，锦鳞游泳。
+岸芷汀兰，郁郁青青。
+而或长烟一空，皓月千里。
+浮光跃金，静影沉璧。
+渔歌互答，此乐何极！
+登斯楼也，则有心旷神怡，宠辱偕忘，把酒临风，其喜洋洋者矣。
+
+## 作品赏析
+
+嗟夫！予尝求古仁人之心，或异二者之为。
+何哉？不以物喜，不以己悲。
+居庙堂之高则忧其民。
+处江湖之远则忧其君。
+是进亦忧，退亦忧。
+然则何时而乐耶？
+其必曰：先天下之忧而忧，后天下之乐而乐乎！
+噫！微斯人，吾谁与归？
+时六年九月十五日。
+

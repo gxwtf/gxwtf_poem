@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="卖油翁"
+  author="欧阳修"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+欧阳修创作于北宋至和年间（1054-1056），时值朝廷党争激烈，文人多务虚谈。陈尧咨乃真宗朝（998-1022）状元，曾任荆南知府、武信军节度使，史载其“善射，尝以钱为的，一发贯其中“。故事原型应源于其治下荆州民间。
+
+## 作品赏析
+
+文章通过“善射“与“酌油“的技艺对比，揭示“熟能生巧“的哲理。人物塑造形成强烈反差：陈公“自矜-忿然-笑遣“的情绪变化，展现其骄态收敛的过程；卖油翁“睨之-微颔-酌油“的从容举止，彰显民间智慧。细节描写尤为绝妙：“徐以杓酌油沥之“的“徐“字刻画出沉稳之态，“钱孔入油不湿“的精准更胜“十中八九“射术。结尾“惟手熟尔“的重复，如禅宗棒喝发人深省。
+
+

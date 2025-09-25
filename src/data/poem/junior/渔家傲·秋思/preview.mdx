@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="渔家傲·秋思"
+  author="范仲淹"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+这首词创作于北宋时期，范仲淹在西北边塞担任陕西经略安抚副使期间。当时北宋与西夏战事频发，范仲淹��临前线，目睹戍边将士的艰苦生活。边塞秋景萧瑟，将士思乡情切，但功业未成，归家无望。范仲淹结合自身经历，以雄浑笔触抒发爱国情怀和忧患意识，表达了对将士的深切同情和对国家安危的关切。背景反映了北宋边疆防御的现实困境和文人士大夫的责任担当。
+
+## 作品赏析
+
+这首词以边塞秋景为背景，通过描绘苍凉的自然景象和戍边将士的生活细节，抒发了壮志未酬的悲壮情感和浓郁的思乡愁绪。上片写景，突出“异”“孤”“闭”等字眼，渲染边塞的荒凉与战争的紧张氛围；下片抒情，以“浊酒”“羌管”“霜满地”等意象，层层递进表达将士的无奈与哀伤。最后“将军白发征夫泪”点睛，深刻揭示了战争对人性的摧残。全词语言凝练雄健，意境开阔深沉，情感真挚动人，体现了范仲淹豪放悲凉的词风，并寓含了忧国忧民、建功立业的崇高理想。
+

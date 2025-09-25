@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="野望"
+  author="王绩"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+王绩入唐后弃官隐居东皋（今山西河津），此诗作于隋唐易代之际。当时战乱初定，诗人借秋日暮色抒发对前朝隐士伯夷、叔齐的追慕，表达不与新朝合作的政治态度。
+
+## 作品赏析
+
+全诗以“望”字统领，勾勒出四重画卷：薄暮远望的苍茫感、秋色落晖的视觉震撼、牧归猎返的生活图景、怀古伤今的情感升华。尾联“长歌怀采薇”用典精妙，将个人彷徨升华为历史孤独，开创唐代田园诗新境界。
+
+

@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="《论语》十二章"
+  author="孔子弟子及再传弟子"
+  dynasty="春秋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+《论语》是孔子（前551-前479）与弟子的言行辑录。这十二章选自战国初期（约前475-前400年），由再传弟子集结。当时周室衰微，礼崩乐坏，孔子周游列国推行仁政未果，遂通过教育传播思想。各章分别成于不同时期，反映孔子在不同年龄阶段的哲学思考和教育理念。
+
+## 作品赏析
+
+十二章构成完整的儒家修身体系。前五章聚焦治学之道，”时习””三省””温故知新”强调实践反思；”学思结合”揭示认知规律。中四章论述德行修养，颜回”安贫乐道”与孔子”不义富贵如浮云”呼应，点明精神高于物质的价值观。末三章升华人生境界，”川上叹逝”警示时光珍贵，”匹夫不可夺志”彰显人格独立，”博学笃志”总结成仁之道。全文语言精警如珠玉落盘。
+
+

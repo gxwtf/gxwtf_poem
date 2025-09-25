@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="雁门太守行"
+  author="李贺"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+约作于元和二年（807年），李贺居洛阳期间。当时藩镇叛军围攻易州，爱国将领率军死守。诗中"黄金台"用燕昭王典故，"玉龙剑"为唐军精锐装备。
+
+## 作品赏析
+
+通篇用浓墨重彩描绘战争图景：开篇"黑云压城"的压迫感，"金鳞开"的瞬间光明，"燕脂紫"的血色暮色。未写交战而战场惨烈自现。尾联喷薄而出的报国豪情，与冷色调战场景观形成张力。
+
+

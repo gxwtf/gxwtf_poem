@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="游山西村"
+  author="陆游"
+  dynasty="南宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+南宋乾道三年（1167年），陆游罢官闲居山阴（今绍兴）老家。经历北伐抗金失败的政治挫折，在故乡“山西村“（今绍兴鉴湖畔农庄）感受淳朴民风。时值春社祭祀前后，江南农村“箫鼓追随“的喜庆氛围触动诗人。
+
+## 作品赏析
+
+首联以“腊酒浑“破题，颠覆士大夫的雅俗观念。颔联“山重水复“成为千古哲理：困境中暗藏转机。白描中见绚烂：“柳暗“青翠欲滴，“花明“绚烂耀眼。对仗天成：山重对柳暗（视觉），水复对花明（听觉）。农事意象营造三重意境：物质丰足（足鸡豚）→文化传承（古风存）→精神自由（夜叩门）。尾联“无时“二字尽显与农民交往的随意自在，彰显民本思想。
+
+

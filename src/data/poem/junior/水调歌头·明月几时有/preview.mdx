@@ -1,0 +1,26 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="水调歌头·明月几时有"
+  author="苏轼"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+丙辰年中秋，畅饮到天亮，大醉而作此词，兼怀弟弟子由。
+
+## 作品赏析
+
+明月何时出现？举杯问青天。
+不知天上宫殿，今夜是哪年。
+我想乘风归去，又怕琼玉楼阁，高处太清寒。
+月下起舞清影随，何似在人间。
+

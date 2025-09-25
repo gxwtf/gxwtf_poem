@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="使至塞上"
+  author="王维"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+开元二十五年（737年），王维以监察御史身份出使凉州宣慰将士。时值吐蕃入侵河西走廊，唐军崔希逸部大破吐蕃于青海西。诗中"燕然"用东汉窦宪大破匈奴典故，暗喻唐军凯旋。
+
+## 作品赏析
+
+全诗以"边塞"为轴，展现三重境界："征蓬归雁"的个体渺小感，"孤烟落日"的天地壮阔感，"都护在燕然"的凯旋豪情。最精妙处是"直"与"圆"的几何美学：垂直孤烟与圆形落日构成天地方圆，大漠的刚性线条与落日的柔性曲线完美融合。
+
+
