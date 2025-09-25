@@ -2,7 +2,7 @@ import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
 import fullData from './full.json';
 import {MemorizeContextProvider} from "@/components/poem-preview/memorize-context"
-import full2preview, {InputData} from "@/components/poem-preview/full2json";
+import full2preview, {InputData} from "../../../../../scripts/format/full2json";
 
 function XC(){
     return <>

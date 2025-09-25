@@ -1,10 +1,8 @@
 import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
 import fullData from './full.json';
-import {MemorizeContextProvider} from "@/components/poem-preview/memorize-context"
-import full2preview, {InputData} from "@/components/poem-preview/full2json";
-
-<>
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+import full2preview from "../../../../../scripts/format/full2json.mjs";
 
 <Meta 
   title={fullData.name}
@@ -13,11 +11,8 @@ import full2preview, {InputData} from "@/components/poem-preview/full2json";
 />
 
 <MemorizeContextProvider>
-  <PoemPreview data={{mode: (fullData as InputData).mode,preview: full2preview(fullData as InputData).preview}}
-  />
+  <PoemPreview data={{ mode: fullData.mode, preview: full2preview(fullData).preview }} />
 </MemorizeContextProvider>
-
-</>
 
 ## 写作背景
 
