@@ -43,7 +43,7 @@ export interface InputParagraph {
     sentences: InputSentence[];
 }
 
-export interface InputData {
+export type InputData = {
     name: string;
     author: string;
     dynasty: string;
@@ -145,7 +145,7 @@ export default function convert(data: InputData){
 //   "name": "次北固山下",
 //   "author": "王湾",
 //   "dynasty": "唐代",
-//   "mode": "center",
+//   "mode": "poem",
 //   "paragraphs": [
 //     {
 //       "sentences": [
