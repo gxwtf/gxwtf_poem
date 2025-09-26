@@ -67,7 +67,7 @@ export default function convert(data: InputData) {
 
     // 遍历输入数据的每个段落
     for (const para of data.paragraphs) {
-        const outputParagraph = {
+        const outputParagraph: ParagraphData = {
             paragraph: []
         };
 
