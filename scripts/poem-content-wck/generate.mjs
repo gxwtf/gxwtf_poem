@@ -34,7 +34,7 @@ const example = {
     "name": "登幽州台歌",
     "author": "陈子昂",
     "dynasty": "唐代",
-    "mode": "center",
+    "mode": "poem",
     "paragraphs": [
         {
             "sentences": [
@@ -91,7 +91,7 @@ const prompt1 = `你是一个高效的AI格式生成器，专门处理诗歌信�
   "name": "诗歌名称",
   "author": "作者",
   "dynasty": "朝代",
-  "mode": "center|paragraph",
+  "mode": "poem|paragraph",
   "paragraphs": [
     {
       "sentences": [
@@ -109,7 +109,7 @@ const prompt1 = `你是一个高效的AI格式生成器，专门处理诗歌信�
 关键规则：
 
 1.  模式与分段： 
-    ◦ 判断诗歌类型：古诗（如唐诗宋词）使用 mode: "center"，每个句子独立成段（即每个paragraphs项仅含一个sentence）。
+    ◦ 判断诗歌类型：古诗（如唐诗宋词）使用 mode: "poem"，每个句子独立成段（即每个paragraphs项仅含一个sentence）。
 
     ◦ 古文（如文言文）使用 mode: "paragraph"，按原文自然分段。
 
@@ -300,7 +300,7 @@ async function generate(poemdata){
 let array = [];
 
 (async function(){
-    const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/');
+    const files = fs.readdirSync('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/');
     for (let i = 0;i <= files.length - 1;i ++){
         const file = files[i];
         // console.log(file);
@@ -311,7 +311,7 @@ let array = [];
         // console.log(id);
 
 
-        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/senior/', file), 'utf8');
+        const fileContent = fs.readFileSync(path.join('/home/kevin/kevin/git/gxwtf_poem/src/poem/junior/', file), 'utf8');
         
         let poemname = removeDigits(file.replace('.txt', ''));
         // array[id] = poemname;
@@ -319,12 +319,12 @@ let array = [];
         // continue;
         console.log(poemname);
 
-        const dir = path.join('/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/senior/', poemname);
+        const dir = path.join('/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/junior/', poemname);
         
         // create directory dir
         fs.mkdirSync(dir, { recursive: true });
 
-        let JSONfile = path.join(dir, 'preview.json');
+        let JSONfile = path.join(dir, 'full.json');
         // console.log(JSONfile);
 
         // 如果已经存在JSON文件，则跳过

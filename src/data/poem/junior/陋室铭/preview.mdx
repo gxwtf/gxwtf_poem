@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="陋室铭"
+  author="刘禹锡"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+永贞革新失败后，刘禹锡于唐元和七年（812年）被贬和州。按唐制“通判应居三间三厦“，但知县故意安排其住城南面江陋室。刘禹锡愤然写下此铭，后迁城北德胜河边，面对千帆竞发又题“垂柳青青江水边，人在历阳心在京“，展示不屈气节。
+
+## 作品赏析
+
+全文81字字字珠玑，由“山水“起兴引出陋室。三重境界层层递进：环境“苔痕草色“的天然野趣，人文“鸿儒谈笑“的精神自由，生活“调琴阅经“的超脱境界。比兴手法尤为精妙：“诸葛庐“自比政治抱负，“子云亭“暗喻学术追求，结尾“何陋“更化用《论语》反诘点睛。九组工整对偶形成金石铿锵之韵，堪称唐代骈文压卷之作。
+
+

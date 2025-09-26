@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="生于忧患，死于安乐"
+  author="孟子"
+  dynasty="战国"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+约作于周赧王五年（公元前310年），孟子晚年归隐讲学时。战国时期诸侯混战，孟子目睹诸国兴衰，总结出治国安邦的根本法则。
+
+## 作品赏析
+
+六位历史人物的铺排如史诗画卷，构成气势磅礴的开篇。"苦→劳→饿→空→拂"五重磨难排比递进，展现成才的残酷路径。两个"然后"构成个人与国家的平行论证：个人修身处事规律与国家存亡之道在此完美统一。
+
+

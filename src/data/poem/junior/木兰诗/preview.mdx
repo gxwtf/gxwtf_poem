@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="木兰诗"
+  author="郭茂倩编"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+该诗最早见于陈代（557-589年），定型于唐代，北宋郭茂倩收录。反映北魏(386-534)时期与柔然的战争背景。当时实行府兵制，“军书十二卷“映射连年征战的兵役繁重。诗中“可汗“称号及“黑山““燕山“等地名，表明故事发生在北魏与柔然接壤的北方边境。
+
+## 作品赏析
+
+全诗共62句331字，中国诗歌史上罕见的长篇叙事诗。结构上“替父出征-备战-征战-荣归-还原“五幕剧式推进。最精彩处是三重身份转换：织女变战士（“当户织-度若飞“）、壮士变女郎（“铁衣-花黄“）、平民变英雄。结尾“双兔“比喻打破性别刻板印象，凸显“谁说女子不如男“的千古主题。重复句式强化情感：“不闻...但闻...“的乡愁对比、“东市...西市...“的出征准备，形成回旋韵律美。
+
+

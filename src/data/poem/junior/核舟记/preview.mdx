@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="核舟记"
+  author="魏学洢"
+  dynasty="明代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+天启二年（1622年），魏学洢见常熟艺人王叔远所刻桃核舟后作。时值晚明工艺美术鼎盛，微雕艺术流行。核舟以苏轼《后赤壁赋》为题材，展现文人雅趣。
+
+## 作品赏析
+
+全文采用空间顺序：先总述（奇巧人），再分写船体结构（舱窗），后聚焦人物（苏黄佛印），终及船尾船底。数字精确："八分有奇"的长度，"三十有四"的字数。最妙在人物刻画：东坡"抚背"的亲切，佛印"矫首"的超然，舟子"攀趾"的生动，使静态微雕充满戏剧性。
+
+

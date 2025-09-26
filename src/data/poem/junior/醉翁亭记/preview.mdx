@@ -1,0 +1,37 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="醉翁亭记"
+  author="欧阳修"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+已而夕阳在山，人影散乱，太守归而宾客从也。
+树林阴翳，鸣声上下，游人去而禽鸟乐也。
+然而禽鸟知山林之乐，而不知人之乐。
+人知从太守游而乐，而不知太守之乐其乐也。
+醉能同其乐，醒能述以文者，太守也。
+太守谓谁？庐陵欧阳修也。
+
+## 作品赏析
+
+环绕滁州城的都是山。
+城西南的群峰，树林山谷尤其秀美。
+望去草木茂盛幽深秀丽的，是琅琊山。
+沿山路走六七里，渐闻水声潺潺从两峰间倾泻而出的，是酿泉。
+山势回环道路转弯，有亭四角翘起像鸟翅般立在泉边的，是醉翁亭。
+建亭者谁？山僧智仙。
+命名者谁？太守自称。
+太守与宾客来此饮酒，稍饮即醉且年纪最大，故自号醉翁。
+醉翁的情趣不在酒，在山水美景。
+山水之乐，领会在心寄托于酒。
+

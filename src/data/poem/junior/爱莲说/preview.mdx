@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="爱莲说"
+  author="周敦颐"
+  dynasty="北宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+北宋熙宁四年（1071年），周敦颐任南康知军，在府衙东侧凿池种莲，取“出淤泥而不染“之意自勉。时值王安石变法，朝野党争激烈。周敦颐外任地方官三十余年，始终廉洁奉公，其居所“环堵萧然“的作风与当时盛行的奢靡之风形成鲜明对比。
+
+## 作品赏析
+
+通篇采用托物言志手法。菊花、牡丹、莲花的对比象征三种人生境界：避世隐士-世俗富贵-入世君子。描写莲花“七字真言“字字千钧：“染/妖“展现高洁品性，“直/蔓“勾勒正直风骨，“清/植“刻画出尘风姿。最精妙处是观察角度变化：远观“香远益清“的朦胧美，近看“不蔓不枝“的线条美，不可亵玩的距离美，构成完整的审美体验。结尾三叹层层递进，叩问历代文人的人格追求。
+
+

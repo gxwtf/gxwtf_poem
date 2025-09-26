@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="桃花源记"
+  author="陶渊明"
+  dynasty="东晋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+约作于东晋永初二年（421年），时值刘裕篡晋建立南朝宋。陶渊明借"避秦时乱"隐喻对现实的不满。武陵（今湖南常德）的地理设定，暗合当时荆湘地区多战乱的历史背景。
+
+## 作品赏析
+
+全文以"发现-进入-游历-归返"四幕展开。"芳草鲜美，落英缤纷"的视觉盛宴与"黄发垂髫，怡然自乐"的人文画卷，构建双重乌托邦。最精妙处是空间转换：从"初极狭"的压抑到"豁然开朗"的释放，象征理想世界的可遇不可求。结尾"遂迷，不复得路"的留白，让桃花源成为永恒的精神符号。
+
+

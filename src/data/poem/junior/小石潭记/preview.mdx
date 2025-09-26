@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="小石潭记"
+  author="柳宗元"
+  dynasty="唐代"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+永贞革新失败后，柳宗元于元和四年（809年）贬居永州时作。时值政治失意，作者寄情山水排遣忧愤。小石潭位于永州西山钴鉧潭西，是"永州八记"第四篇。
+
+## 作品赏析
+
+全文以"水"为眼：先写水声（如鸣佩环），再写水态（清冽），后写水趣（鱼空游）。"蒙络摇缀"四字状藤蔓姿态，"佁然不动"八字摹游鱼神韵。结尾"凄神寒骨"的顿悟，将山水游记升华为生命体验，展现"乐景写哀"的艺术境界。
+
+

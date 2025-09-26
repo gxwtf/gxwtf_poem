@@ -1,0 +1,208 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "折",
+              "pinyin": "zhé"
+            },
+            {
+              "char": "戟",
+              "pinyin": "jǐ"
+            },
+            {
+              "char": "沉",
+              "pinyin": "chén"
+            },
+            {
+              "char": "沙",
+              "pinyin": "shā"
+            },
+            {
+              "char": "铁",
+              "pinyin": "tiě"
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "销",
+              "pinyin": "xiāo",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "销：销蚀，指金属因时间久远而腐蚀。通‘消’。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "自",
+              "pinyin": "zì"
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "将：拿、取，此处指亲自拿着磨洗。读音为jiāng，非‘将要’之意。"
+                }
+              ]
+            },
+            {
+              "char": "磨",
+              "pinyin": "mó"
+            },
+            {
+              "char": "洗",
+              "pinyin": "xǐ"
+            },
+            {
+              "char": "认",
+              "pinyin": "rèn"
+            },
+            {
+              "char": "前",
+              "pinyin": "qián"
+            },
+            {
+              "char": "朝",
+              "pinyin": "cháo"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "折断铁戟沉埋沙中未锈蚀，自己磨洗辨认前朝遗物。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "折戟：折断的戟，指古代兵器残骸，此处象征赤壁之战的遗迹。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "note": "前朝：指前一个历史时代，此处特指三国时期的东吴，非泛指过去朝代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "东",
+              "pinyin": "dōng"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "周",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng"
+            },
+            {
+              "char": "便",
+              "pinyin": "biàn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "便：便利、机会，此处指有利的条件或时机。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "铜",
+              "pinyin": "tóng"
+            },
+            {
+              "char": "雀",
+              "pinyin": "què"
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn"
+            },
+            {
+              "char": "深",
+              "pinyin": "shēn"
+            },
+            {
+              "char": "锁",
+              "pinyin": "suǒ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "锁：囚禁、束缚，此处为象征性用法，暗示若战败，二乔将被掳至魏宫。"
+                }
+              ]
+            },
+            {
+              "char": "二",
+              "pinyin": "èr"
+            },
+            {
+              "char": "乔",
+              "pinyin": "qiáo"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "若东风不助周瑜一臂，铜雀台早锁大乔小乔。"
+          },
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "周郎：指周瑜，字公瑾，东吴名将，赤壁之战的主要指挥者之一。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "note": "铜雀：铜雀台，曹操所建，位于邺城，象征魏国权势与奢靡生活。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "note": "二乔：指大乔和小乔，分别为孙策、周瑜之妻，此处代指江东名媛。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "poem"
+}

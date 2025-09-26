@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(web)/markdown/page.mdx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(web)/markdown/page.mdx", "src/data/poem/junior/春望/preview.mdx", "scripts/format/full2json.mjs"],
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="愚公移山"
+  author="列子"
+  dynasty="战国"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+约成书于战国晚期（前4世纪），载于《列子·汤问》。时值百家争鸣，道家借寓言阐述"至诚感天"的哲学思想，与儒家"人定胜天"形成互补。
+
+## 作品赏析
+
+故事构建双重智慧碰撞：愚公的"子子孙孙无穷匮"体现恒心伟力，智叟的"残年余力"象征短视功利。对比手法精妙：九十老翁与始龀童子的年龄反差，山神"惧"与天帝"感"的神界态度转变。"操蛇之神"的细节，展现列子寓言的神话色彩。
+
+

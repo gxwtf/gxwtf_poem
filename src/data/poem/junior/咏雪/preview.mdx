@@ -1,0 +1,24 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="咏雪"
+  author="刘义庆"
+  dynasty="南朝宋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+故事发生于东晋太元年间（约380年），谢氏家族聚于建康（今南京）乌衣巷。时值士族鼎盛时期，谢安作为当朝宰相，借赏雪考较子侄才学。其侄女谢道韫当时待字闺中，后嫁入书圣王羲之家族，成为历史上著名的才女。
+
+## 作品赏析
+
+文章通过对比描写展现人物才情差异。谢朗“撒盐”之喻仅得形似，而谢道韫“柳絮因风”的意象，既准确描摹雪花的轻盈动态，又以春景写冬景，赋予寒冷雪景盎然生机。一个“未若”尽显才女自信，谢安“大笑乐”的细节更强化了人物形象。全文仅71字，却完整呈现了中国古代贵族教育的生动场景。
+
+

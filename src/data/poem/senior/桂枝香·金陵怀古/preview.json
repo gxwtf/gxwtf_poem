@@ -1,0 +1,707 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "登",
+              "pinyin": "dēng"
+            },
+            {
+              "char": "临",
+              "pinyin": "lín"
+            },
+            {
+              "char": "送",
+              "pinyin": "sòng"
+            },
+            {
+              "char": "目",
+              "pinyin": "mù"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng"
+            },
+            {
+              "char": "故",
+              "pinyin": "gù"
+            },
+            {
+              "char": "国",
+              "pinyin": "guó"
+            },
+            {
+              "char": "晚",
+              "pinyin": "wǎn"
+            },
+            {
+              "char": "秋",
+              "pinyin": "qiū"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān"
+            },
+            {
+              "char": "气",
+              "pinyin": "qì"
+            },
+            {
+              "char": "初",
+              "pinyin": "chū"
+            },
+            {
+              "char": "肃",
+              "pinyin": "sù"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "登山临水，举目望远，故都金陵正是深秋，天气已变得飒爽清凉。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "登临：登高望远。临，从高处往下看。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "note": "送目：远望，极目远眺。"
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "note": "故国：旧都，指金陵（今南京）。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "note": "晚秋：深秋。"
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "note": "天气初肃：天气刚刚变得清爽肃杀。肃，肃爽，形容秋高气爽。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "千",
+              "pinyin": "qiān"
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ"
+            },
+            {
+              "char": "澄",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "似",
+              "pinyin": "sì"
+            },
+            {
+              "char": "练",
+              "pinyin": "liàn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "翠",
+              "pinyin": "cuì"
+            },
+            {
+              "char": "峰",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "如",
+              "pinyin": "rú"
+            },
+            {
+              "char": "簇",
+              "pinyin": "cù"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "奔腾千里的长江澄澈得像一匹长长的白绢，青翠的山峰俊伟峭拔犹如一束束的箭簇。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "千里澄江：宽阔清澈的长江。千里，夸张手法，形容江面广阔。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "note": "似练：像白色的绸带。练，白绢。"
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "note": "翠峰如簇：青翠的山峰像箭头一样聚集。簇，同“镞”，箭头，形容山势峻峭。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "归",
+              "pinyin": "guī"
+            },
+            {
+              "char": "帆",
+              "pinyin": "fān"
+            },
+            {
+              "char": "去",
+              "pinyin": "qù"
+            },
+            {
+              "char": "棹",
+              "pinyin": "zhào"
+            },
+            {
+              "char": "残",
+              "pinyin": "cán"
+            },
+            {
+              "char": "阳",
+              "pinyin": "yáng"
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "背",
+              "pinyin": "bèi"
+            },
+            {
+              "char": "西",
+              "pinyin": "xī"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "酒",
+              "pinyin": "jiǔ"
+            },
+            {
+              "char": "旗",
+              "pinyin": "qí"
+            },
+            {
+              "char": "斜",
+              "pinyin": "xié"
+            },
+            {
+              "char": "矗",
+              "pinyin": "chù"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "船只在夕阳下往来穿梭，酒楼外斜插的酒旗随着西风飘扬。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "归帆去棹：来往的船只。帆、棹，代指船。"
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "note": "残阳里：夕阳之中。"
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "note": "背西风：迎着西风。背，反向，此处指迎着。"
+            },
+            {
+              "start": 12,
+              "end": 15,
+              "note": "酒旗斜矗：酒幌子斜斜地竖立着。矗，直立。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "彩",
+              "pinyin": "cǎi"
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "云",
+              "pinyin": "yún"
+            },
+            {
+              "char": "淡",
+              "pinyin": "dàn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "星",
+              "pinyin": "xīng"
+            },
+            {
+              "char": "河",
+              "pinyin": "hé"
+            },
+            {
+              "char": "鹭",
+              "pinyin": "lù"
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "画",
+              "pinyin": "huà"
+            },
+            {
+              "char": "图",
+              "pinyin": "tú"
+            },
+            {
+              "char": "难",
+              "pinyin": "nán"
+            },
+            {
+              "char": "足",
+              "pinyin": "zú"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "华丽的画船如同在淡云中浮游，江中洲上的白鹭时而停歇时而飞起，这清丽的景色就是丹青妙笔也难描画。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "彩舟云淡：彩船仿佛在云霞中飘荡。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "星河鹭起：白鹭从银河般的水面飞起。星河，天河，比喻江水。"
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "note": "画图难足：再好的图画也难以完美表现。足，充分表现。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "念",
+              "pinyin": "niàn"
+            },
+            {
+              "char": "往",
+              "pinyin": "wǎng"
+            },
+            {
+              "char": "昔",
+              "pinyin": "xī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "繁",
+              "pinyin": "fán"
+            },
+            {
+              "char": "华",
+              "pinyin": "huá"
+            },
+            {
+              "char": "竞",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "逐",
+              "pinyin": "zhú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "叹",
+              "pinyin": "tàn"
+            },
+            {
+              "char": "门",
+              "pinyin": "mén"
+            },
+            {
+              "char": "外",
+              "pinyin": "wài"
+            },
+            {
+              "char": "楼",
+              "pinyin": "lóu"
+            },
+            {
+              "char": "头",
+              "pinyin": "tóu"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "悲",
+              "pinyin": "bēi"
+            },
+            {
+              "char": "恨",
+              "pinyin": "hèn"
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng"
+            },
+            {
+              "char": "续",
+              "pinyin": "xù"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "遥想当年，达官贵人争着过豪华的生活，可叹在朱雀门外结绮阁楼，亡国的悲剧连续发生。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 2,
+              "note": "念往昔：回想过去。"
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "note": "繁华竞逐：争相追逐繁华奢侈的生活。"
+            },
+            {
+              "start": 9,
+              "end": 13,
+              "note": "叹门外楼头：可叹隋军已兵临城下，陈后主还在楼头享乐。门外指隋军攻破城门，楼头指陈后主与宠妃在结绮阁寻欢作乐。"
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "note": "悲恨相续：亡国的悲恨接连不断。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "千",
+              "pinyin": "qiān"
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ"
+            },
+            {
+              "char": "凭",
+              "pinyin": "píng"
+            },
+            {
+              "char": "高",
+              "pinyin": "gāo"
+            },
+            {
+              "char": "对",
+              "pinyin": "duì"
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "谩",
+              "pinyin": "màn"
+            },
+            {
+              "char": "嗟",
+              "pinyin": "jiē"
+            },
+            {
+              "char": "荣",
+              "pinyin": "róng"
+            },
+            {
+              "char": "辱",
+              "pinyin": "rǔ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "自古多少人在此登高怀古，无不对历代荣辱喟叹感伤。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "千古凭高：千百年来人们登高凭吊。"
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "note": "谩嗟荣辱：空叹兴亡荣辱。谩，同“漫”，徒然。嗟，叹息。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "六",
+              "pinyin": "liù"
+            },
+            {
+              "char": "朝",
+              "pinyin": "cháo"
+            },
+            {
+              "char": "旧",
+              "pinyin": "jiù"
+            },
+            {
+              "char": "事",
+              "pinyin": "shì"
+            },
+            {
+              "char": "随",
+              "pinyin": "suí"
+            },
+            {
+              "char": "流",
+              "pinyin": "liú"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "但",
+              "pinyin": "dàn"
+            },
+            {
+              "char": "寒",
+              "pinyin": "hán"
+            },
+            {
+              "char": "烟",
+              "pinyin": "yān"
+            },
+            {
+              "char": "衰",
+              "pinyin": "shuāi"
+            },
+            {
+              "char": "草",
+              "pinyin": "cǎo"
+            },
+            {
+              "char": "凝",
+              "pinyin": "níng"
+            },
+            {
+              "char": "绿",
+              "pinyin": "lǜ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "六朝的风云变化全都随着流水消逝，唯有江上的烟波与草上凝结的露珠常在。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "六朝旧事：指吴、东晋、宋、齐、梁、陈六个朝代的历史。"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "note": "但寒烟衰草凝绿：只有寒烟笼罩着衰草，凝聚着一片暗绿色。但，只。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "至",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn"
+            },
+            {
+              "char": "商",
+              "pinyin": "shāng"
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "时",
+              "pinyin": "shí"
+            },
+            {
+              "char": "时",
+              "pinyin": "shí"
+            },
+            {
+              "char": "犹",
+              "pinyin": "yóu"
+            },
+            {
+              "char": "唱",
+              "pinyin": "chàng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu"
+            },
+            {
+              "char": "庭",
+              "pinyin": "tíng"
+            },
+            {
+              "char": "遗",
+              "pinyin": "yí"
+            },
+            {
+              "char": "曲",
+              "pinyin": "qǔ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "如今的商女，还不知亡国的悲恨，时时放声歌唱《玉树后庭花》。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "商女：歌女。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "时时犹唱：还在经常唱。犹，还。"
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "note": "后庭遗曲：指陈后主所作的《玉树后庭花》，被视为亡国之音。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

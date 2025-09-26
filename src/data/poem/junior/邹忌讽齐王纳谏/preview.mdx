@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="邹忌讽齐王纳谏"
+  author="邹忌"
+  dynasty="战国"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+《邹忌讽齐王纳谏》出自《战国策·齐策》，成书于西汉时期，但内容记载的是战国时期齐国的事迹。故事发生在齐威王在位期间（约公元前356年—前320年），当时齐国虽强盛，但齐威王初期因沉溺享乐而国政荒废。邹忌作为齐国大臣，目睹此状，便以自身经历——妻子因偏爱、妾因畏惧、客人因有所求而夸大其美——巧妙讽谏齐威王，揭示君王易被身边人蒙蔽的弊端。此事件促使齐威王醒悟，推行纳谏政策，整顿吏治，最终使齐国国势大振，成为战国七雄之一。背景反映了战国时代君臣关系与治国智慧，强调广开言路的重要性。  
+
+## 作品赏析
+
+本文是一篇精妙的叙事散文，通过邹忌与妻、妾、客的三次对话，层层递进地展现人性弱点——私心、畏惧和利益驱动导致虚假赞美。文章语言简洁生动，对话刻画细腻，如“君美甚”等答语，凸显人物心理；转折自然，从个人经历引申到国家治理，讽谏齐威王时逻辑严谨，以“宫妇左右莫不私王”等排比句式强化论证，揭示“王之蔽甚矣”的核心主题。结尾以“战胜于朝廷”升华，阐明纳谏能使国家不战而胜的深刻哲理。全文结构紧凑，寓意深远，既讽刺了阿谀奉承之风，又弘扬了直言进谏的勇气，体现了战国策士的智慧与劝谏艺术，对后世治国思想有深远影响。
+

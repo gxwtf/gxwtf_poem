@@ -1,0 +1,23 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+
+<Meta 
+  title="出师表"
+  author="诸葛亮"
+  dynasty="三国"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+《出师表》是蜀汉丞相诸葛亮在公元227年北伐曹魏前写给后主刘禅的奏章。当时蜀汉国力衰弱，内部矛盾隐现，诸葛亮深感国家存亡之际，决心率军北伐以图恢复汉室。此表旨在劝谏刘禅亲贤远佞、励精图治，同时表达自己忠贞报国的决心。背景源于刘备去世后蜀汉政局不稳，诸葛亮受托孤重任，面对曹魏威胁和内部忧患，通过北伐转移矛盾并实现先帝遗志。
+
+## 作品赏析
+
+《出师表》以恳切真挚的笔触，融合叙事、说理与抒情，展现诸葛亮鞠躬尽瘁的忠臣形象。全文结构严谨：开篇分析时局危急，强调“开张圣听”；中段举荐贤才并论述亲贤远佞之理；后段自述身世，表达“北定中原”的壮志。语言质朴而情感磅礴，如“受任于败军之际，奉命于危难之间”凸显其担当；结尾“临表涕零，不知所言”更显赤诚。该文不仅是政治文献，更是古代表文典范，彰显了儒家忠义思想，对后世影响深远。
+
