@@ -45,42 +45,42 @@
             },
             {
               "char": "，",
-              "pinyin": "，ér",
+              "pinyin": "",
               "index": 5,
               "read": false,
               "write": false
             },
             {
               "char": "而",
-              "pinyin": "wú",
+              "pinyin": "ér",
               "index": 6,
               "read": false,
               "write": false
             },
             {
               "char": "无",
-              "pinyin": "chē",
+              "pinyin": "wú",
               "index": 7,
               "read": false,
               "write": false
             },
             {
               "char": "车",
-              "pinyin": "mǎ",
+              "pinyin": "chē",
               "index": 8,
               "read": false,
               "write": false
             },
             {
               "char": "马",
-              "pinyin": "xuān",
+              "pinyin": "mǎ",
               "index": 9,
               "read": false,
               "write": false
             },
             {
               "char": "喧",
-              "pinyin": "。",
+              "pinyin": "xuān",
               "index": 10,
               "read": true,
               "write": true
@@ -89,7 +89,8 @@
               "char": "。",
               "index": 11,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "筑屋在人间，却无车马喧嚣。",
@@ -150,7 +151,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？",
+              "pinyin": "",
               "index": 17,
               "read": false,
               "write": false
@@ -209,7 +210,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 23,
               "read": false,
               "write": false
@@ -268,42 +269,42 @@
             },
             {
               "char": "，",
-              "pinyin": "，yōu",
+              "pinyin": "",
               "index": 29,
               "read": false,
               "write": false
             },
             {
               "char": "悠",
-              "pinyin": "rán",
+              "pinyin": "yōu",
               "index": 30,
               "read": false,
               "write": false
             },
             {
               "char": "然",
-              "pinyin": "wàng",
+              "pinyin": "rán",
               "index": 31,
               "read": false,
               "write": false
             },
             {
               "char": "见",
-              "pinyin": "nán",
+              "pinyin": "jiàn",
               "index": 32,
               "read": true,
               "write": false
             },
             {
               "char": "南",
-              "pinyin": "shān",
+              "pinyin": "nán",
               "index": 33,
               "read": false,
               "write": false
             },
             {
               "char": "山",
-              "pinyin": "。",
+              "pinyin": "shān",
               "index": 34,
               "read": false,
               "write": false
@@ -312,7 +313,8 @@
               "char": "。",
               "index": 35,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "东篱下采菊，悠然望见南山。",
@@ -373,42 +375,42 @@
             },
             {
               "char": "，",
-              "pinyin": "，fēi",
+              "pinyin": "",
               "index": 41,
               "read": false,
               "write": false
             },
             {
               "char": "飞",
-              "pinyin": "niǎo",
+              "pinyin": "fēi",
               "index": 42,
               "read": false,
               "write": false
             },
             {
               "char": "鸟",
-              "pinyin": "xiāng",
+              "pinyin": "niǎo",
               "index": 43,
               "read": false,
               "write": false
             },
             {
               "char": "相",
-              "pinyin": "yǔ",
+              "pinyin": "xiāng",
               "index": 44,
               "read": false,
               "write": false
             },
             {
               "char": "与",
-              "pinyin": "huán",
+              "pinyin": "yǔ",
               "index": 45,
               "read": false,
               "write": false
             },
             {
               "char": "还",
-              "pinyin": "。",
+              "pinyin": "huán",
               "index": 46,
               "read": false,
               "write": false
@@ -417,7 +419,8 @@
               "char": "。",
               "index": 47,
               "read": true,
-              "write": true
+              "write": true,
+              "pinyin": ""
             }
           ],
           "translation": "山间暮色正好，飞鸟结伴归巢。",
@@ -478,42 +481,42 @@
             },
             {
               "char": "，",
-              "pinyin": "，yù",
+              "pinyin": "",
               "index": 53,
               "read": false,
               "write": false
             },
             {
               "char": "欲",
-              "pinyin": "biàn",
+              "pinyin": "yù",
               "index": 54,
               "read": false,
               "write": false
             },
             {
               "char": "辨",
-              "pinyin": "yǐ",
+              "pinyin": "biàn",
               "index": 55,
               "read": false,
               "write": true
             },
             {
               "char": "已",
-              "pinyin": "wàng",
+              "pinyin": "yǐ",
               "index": 56,
               "read": false,
               "write": false
             },
             {
               "char": "忘",
-              "pinyin": "yán",
+              "pinyin": "wàng",
               "index": 57,
               "read": false,
               "write": false
             },
             {
               "char": "言",
-              "pinyin": "。",
+              "pinyin": "yán",
               "index": 58,
               "read": false,
               "write": false
@@ -522,7 +525,8 @@
               "char": "。",
               "index": 59,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "此境蕴含真意，想辨析却忘言。",

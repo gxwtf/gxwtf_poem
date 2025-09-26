@@ -17,7 +17,7 @@
             },
             {
               "char": "不",
-              "pinyin": "bú",
+              "pinyin": "bù",
               "index": 1,
               "read": false,
               "write": false
@@ -38,7 +38,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 4,
               "read": false,
               "write": false
@@ -73,7 +73,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 9,
               "read": false,
               "write": false
@@ -93,7 +93,7 @@
             },
             {
               "char": "不",
-              "pinyin": "bú",
+              "pinyin": "bù",
               "index": 11,
               "read": false,
               "write": false
@@ -114,7 +114,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 14,
               "read": false,
               "write": false
@@ -149,7 +149,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 19,
               "read": false,
               "write": false
@@ -190,7 +190,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 24,
               "read": false,
               "write": false
@@ -225,7 +225,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 29,
               "read": true,
               "write": true
@@ -297,7 +297,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 35,
               "read": false,
               "write": false
@@ -339,7 +339,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 41,
               "read": false,
               "write": false
@@ -399,7 +399,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 47,
               "read": false,
               "write": false
@@ -441,7 +441,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 53,
               "read": true,
               "write": true
@@ -513,7 +513,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 59,
               "read": false,
               "write": false
@@ -541,7 +541,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 63,
               "read": true,
               "write": true
@@ -620,7 +620,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 70,
               "read": false,
               "write": false
@@ -669,7 +669,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 77,
               "read": false,
               "write": false
@@ -729,7 +729,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 83,
               "read": false,
               "write": false
@@ -771,7 +771,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 89,
               "read": false,
               "write": false
@@ -817,7 +817,7 @@
             },
             {
               "char": "：",
-              "pinyin": "：",
+              "pinyin": "",
               "index": 93,
               "read": false,
               "write": false
@@ -852,7 +852,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？",
+              "pinyin": "",
               "index": 98,
               "read": false,
               "write": false

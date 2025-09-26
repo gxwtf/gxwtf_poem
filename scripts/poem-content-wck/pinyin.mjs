@@ -61,7 +61,7 @@ for (const version of versions) {
 
 	for (const dir of poemDirs) {
 		const fullPath = path.join(basePath, dir, "full.json");
-		const previewPath = path.join(basePath, dir, "index.json");
+		const previewPath = fullPath;
 		if (!fs.existsSync(fullPath)) continue;
 
 		try {

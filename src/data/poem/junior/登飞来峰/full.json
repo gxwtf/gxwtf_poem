@@ -59,7 +59,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 7,
               "read": false,
               "write": false
@@ -156,7 +156,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 15,
               "read": false,
               "write": false
@@ -197,7 +197,7 @@
           "content": [
             {
               "char": "不",
-              "pinyin": "bú",
+              "pinyin": "bù",
               "index": 16,
               "read": false,
               "write": false
@@ -246,7 +246,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 23,
               "read": false,
               "write": false
@@ -275,7 +275,7 @@
           "content": [
             {
               "char": "自",
-              "pinyin": "zì",
+              "pinyin": "zhǐ",
               "index": 24,
               "read": true,
               "write": true
@@ -324,7 +324,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 31,
               "read": false,
               "write": false

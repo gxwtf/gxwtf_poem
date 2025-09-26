@@ -42,19 +42,19 @@
             },
             {
               "char": "卿",
-              "pinyin": "jīn"
+              "pinyin": "qīng"
             },
             {
               "char": "今",
-              "pinyin": "dāng"
+              "pinyin": "jīn"
             },
             {
               "char": "当",
-              "pinyin": "tú"
+              "pinyin": "dāng"
             },
             {
               "char": "涂",
-              "pinyin": "zhǎng",
+              "pinyin": "tú",
               "note": [
                 {
                   "title": "注释",
@@ -64,11 +64,11 @@
             },
             {
               "char": "掌",
-              "pinyin": "shì"
+              "pinyin": "zhǎng"
             },
             {
               "char": "事",
-              "pinyin": "，"
+              "pinyin": "shì"
             },
             {
               "char": "，",
@@ -76,19 +76,19 @@
             },
             {
               "char": "不",
-              "pinyin": "kě"
-            },
-            {
-              "char": "可",
               "pinyin": "bù"
             },
             {
+              "char": "可",
+              "pinyin": "kě"
+            },
+            {
               "char": "不",
-              "pinyin": "xué"
+              "pinyin": "bù"
             },
             {
               "char": "学",
-              "pinyin": "！”"
+              "pinyin": "xué"
             },
             {
               "char": "！",
@@ -164,43 +164,43 @@
             },
             {
               "char": "孤",
-              "pinyin": "qǐ"
+              "pinyin": "gū"
             },
             {
               "char": "岂",
-              "pinyin": "yù"
+              "pinyin": "qǐ"
             },
             {
               "char": "欲",
-              "pinyin": "qīng"
+              "pinyin": "yù"
             },
             {
               "char": "卿",
-              "pinyin": "zhì"
+              "pinyin": "qīng"
             },
             {
               "char": "治",
-              "pinyin": "jīng"
+              "pinyin": "zhì"
             },
             {
               "char": "经",
-              "pinyin": "wéi"
+              "pinyin": "jīng"
             },
             {
               "char": "为",
-              "pinyin": "bó"
+              "pinyin": "wéi"
             },
             {
               "char": "博",
-              "pinyin": "shì"
+              "pinyin": "bó"
             },
             {
               "char": "士",
-              "pinyin": "yé"
+              "pinyin": "shì"
             },
             {
               "char": "邪",
-              "pinyin": "？”"
+              "pinyin": "yé"
             },
             {
               "char": "？",
@@ -500,23 +500,23 @@
             },
             {
               "char": "卿",
-              "pinyin": "jīn"
+              "pinyin": "qīng"
             },
             {
               "char": "今",
-              "pinyin": "zhě"
+              "pinyin": "jīn"
             },
             {
               "char": "者",
-              "pinyin": "cái"
+              "pinyin": "zhě"
             },
             {
               "char": "才",
-              "pinyin": "lüè"
+              "pinyin": "cái"
             },
             {
               "char": "略",
-              "pinyin": "，"
+              "pinyin": "lüè"
             },
             {
               "char": "，",
@@ -524,27 +524,27 @@
             },
             {
               "char": "非",
-              "pinyin": "fù"
+              "pinyin": "fēi"
             },
             {
               "char": "复",
-              "pinyin": "wú"
+              "pinyin": "fù"
             },
             {
               "char": "吴",
-              "pinyin": "xià"
+              "pinyin": "wú"
             },
             {
               "char": "下",
-              "pinyin": "ā"
+              "pinyin": "xià"
             },
             {
               "char": "阿",
-              "pinyin": "méng"
+              "pinyin": "ā"
             },
             {
               "char": "蒙",
-              "pinyin": "！”"
+              "pinyin": "méng"
             },
             {
               "char": "！",
@@ -586,19 +586,19 @@
             },
             {
               "char": "士",
-              "pinyin": "bié"
+              "pinyin": "shì"
             },
             {
               "char": "别",
-              "pinyin": "sān"
+              "pinyin": "bié"
             },
             {
               "char": "三",
-              "pinyin": "rì"
+              "pinyin": "sān"
             },
             {
               "char": "日",
-              "pinyin": "，"
+              "pinyin": "rì"
             },
             {
               "char": "，",
@@ -606,27 +606,27 @@
             },
             {
               "char": "即",
-              "pinyin": "gèng"
+              "pinyin": "jí"
             },
             {
               "char": "更",
-              "pinyin": "guā"
+              "pinyin": "gēng"
             },
             {
               "char": "刮",
-              "pinyin": "mù"
+              "pinyin": "guā"
             },
             {
               "char": "目",
-              "pinyin": "xiāng"
+              "pinyin": "mù"
             },
             {
               "char": "相",
-              "pinyin": "dài"
+              "pinyin": "xiāng"
             },
             {
               "char": "待",
-              "pinyin": "，"
+              "pinyin": "dài"
             },
             {
               "char": "，",
@@ -634,27 +634,27 @@
             },
             {
               "char": "大",
-              "pinyin": "xiōng"
+              "pinyin": "dà"
             },
             {
               "char": "兄",
-              "pinyin": "hé"
+              "pinyin": "xiōng"
             },
             {
               "char": "何",
-              "pinyin": "jiàn"
+              "pinyin": "hé"
             },
             {
               "char": "见",
-              "pinyin": "shì"
+              "pinyin": "jiàn"
             },
             {
               "char": "事",
-              "pinyin": "zhī"
+              "pinyin": "shì"
             },
             {
               "char": "之",
-              "pinyin": "wǎn",
+              "pinyin": "zhī",
               "note": [
                 {
                   "title": "注释",
@@ -664,11 +664,11 @@
             },
             {
               "char": "晚",
-              "pinyin": "hū"
+              "pinyin": "wǎn"
             },
             {
               "char": "乎",
-              "pinyin": "！”"
+              "pinyin": "hū"
             },
             {
               "char": "！",

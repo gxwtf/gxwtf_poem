@@ -66,7 +66,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 8,
               "read": false,
               "write": false
@@ -122,7 +122,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 16,
               "read": false,
               "write": false
@@ -192,7 +192,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 21,
               "read": false,
               "write": false
@@ -227,14 +227,14 @@
             },
             {
               "char": "：",
-              "pinyin": "：",
+              "pinyin": "",
               "index": 26,
               "read": false,
               "write": false
             },
             {
               "char": "“",
-              "pinyin": "“",
+              "pinyin": "",
               "index": 27,
               "read": false,
               "write": false
@@ -290,7 +290,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？”",
+              "pinyin": "",
               "index": 35,
               "read": false,
               "write": false
@@ -299,7 +299,8 @@
               "char": "”",
               "index": 36,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "不久雪势转急，谢公兴致勃勃地问：“这纷纷扬扬的白雪像什么？”",
@@ -373,14 +374,14 @@
             },
             {
               "char": "：",
-              "pinyin": "：",
+              "pinyin": "",
               "index": 42,
               "read": false,
               "write": false
             },
             {
               "char": "“",
-              "pinyin": "“",
+              "pinyin": "",
               "index": 43,
               "read": false,
               "write": false
@@ -415,7 +416,7 @@
             },
             {
               "char": "差",
-              "pinyin": "chà",
+              "pinyin": "chā",
               "index": 48,
               "read": true,
               "write": false
@@ -436,7 +437,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。”",
+              "pinyin": "",
               "index": 51,
               "read": false,
               "write": false
@@ -445,7 +446,8 @@
               "char": "”",
               "index": 52,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "侄子谢朗说：“勉强可比作空中撒盐。”",
@@ -495,14 +497,14 @@
             },
             {
               "char": "：",
-              "pinyin": "：",
+              "pinyin": "",
               "index": 56,
               "read": false,
               "write": false
             },
             {
               "char": "“",
-              "pinyin": "“",
+              "pinyin": "",
               "index": 57,
               "read": false,
               "write": false
@@ -558,7 +560,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。”",
+              "pinyin": "",
               "index": 65,
               "read": false,
               "write": false
@@ -567,7 +569,8 @@
               "char": "”",
               "index": 66,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "侄女道：“不如比作柳絮乘风起舞。”",
@@ -629,7 +632,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 71,
               "read": false,
               "write": false
@@ -698,7 +701,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 79,
               "read": false,
               "write": false
@@ -761,7 +764,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 88,
               "read": false,
               "write": false

@@ -90,7 +90,7 @@ function convert(data) {
         mode: data.mode,
         content: contentArr.join('#'),
         translation: translationArr.join('#'),
-        pinyin: pinyinArr.join(' '),
+        pinyin: pinyinArr.join(' ').replaceAll("   ", " ").replaceAll("  "," "),
         notes: notesArr,
         tags: data.tags || []
     };

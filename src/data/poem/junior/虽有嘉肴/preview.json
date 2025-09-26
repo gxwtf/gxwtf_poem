@@ -188,7 +188,7 @@
             },
             {
               "char": "教",
-              "pinyin": "jiāo"
+              "pinyin": "jiào"
             },
             {
               "char": "然",
@@ -318,7 +318,7 @@
             },
             {
               "char": "强",
-              "pinyin": "qiáng"
+              "pinyin": "qiǎng"
             },
             {
               "char": "也",
@@ -394,7 +394,7 @@
           "sentence": [
             {
               "char": "《",
-              "pinyin": "《"
+              "pinyin": ""
             },
             {
               "char": "兑",
@@ -406,7 +406,7 @@
             },
             {
               "char": "》",
-              "pinyin": "》"
+              "pinyin": ""
             },
             {
               "char": "曰",
@@ -418,7 +418,7 @@
             },
             {
               "char": "\"",
-              "pinyin": "\""
+              "pinyin": "xiào"
             },
             {
               "char": "学",
@@ -426,15 +426,15 @@
             },
             {
               "char": "学",
-              "pinyin": "xué"
-            },
-            {
-              "char": "半",
               "pinyin": "bàn"
             },
             {
+              "char": "半",
+              "pinyin": "qí"
+            },
+            {
               "char": "\"",
-              "pinyin": "\""
+              "pinyin": "cǐ"
             },
             {
               "char": "，",
@@ -442,23 +442,21 @@
             },
             {
               "char": "其",
-              "pinyin": "qí"
-            },
-            {
-              "char": "此",
-              "pinyin": "cǐ"
-            },
-            {
-              "char": "之",
               "pinyin": "zhī"
             },
             {
-              "char": "谓",
+              "char": "此",
               "pinyin": "wèi"
             },
             {
-              "char": "乎",
+              "char": "之",
               "pinyin": "hū"
+            },
+            {
+              "char": "谓"
+            },
+            {
+              "char": "乎"
             },
             {
               "char": "！",
