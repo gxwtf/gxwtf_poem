@@ -119,7 +119,7 @@ for (const version of versions) {
       const fullData = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
       const previewData = convert(fullData);
       fs.writeFileSync(previewPath, JSON.stringify(previewData, null, 2), "utf-8");
-      console.log(`✅ 生成 ${previewPath}`);
+    //   console.log(`✅ 生成 ${previewPath}`);
     } catch (e) {
       console.error(`❌ 处理 ${fullPath} 时出错:`, e);
     }
