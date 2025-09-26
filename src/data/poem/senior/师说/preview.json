@@ -1,1 +1,688 @@
-"import { Meta } from '@/components/poem-meta';\nimport { PoemPreview } from '@/components/poem-preview/poem-preview';\nimport previewData from './preview.json';\nimport { MemorizeContextProvider } from \"@/components/poem-preview/memorize-context\";\n\n<Meta \n  title=\"undefined\"\n  author=\"韩愈\"\n  dynasty=\"唐代\"\n/>\n\n<MemorizeContextProvider>\n  <PoemPreview data={{ mode: \"poem\", preview: previewData.preview }} />\n</MemorizeContextProvider>\n\n## 写作背景\n\n暂无写作背景。\n\n## 作品赏析\n\n暂无内容赏析。\n\n"
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "古",
+              "pinyin": "gǔ"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "必",
+              "pinyin": "bì"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "古代求学的人必定有老师。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "学者：指求学的人，古义与现代‘有学问的人’不同。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "传",
+              "pinyin": "chuán"
+            },
+            {
+              "char": "道",
+              "pinyin": "dào"
+            },
+            {
+              "char": "受",
+              "pinyin": "shòu",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "受：通‘授’，传授，此处为通假字。"
+                }
+              ]
+            },
+            {
+              "char": "业",
+              "pinyin": "yè"
+            },
+            {
+              "char": "解",
+              "pinyin": "jiě"
+            },
+            {
+              "char": "惑",
+              "pinyin": "huò"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "老师，是用来传授道理、教授学业、解答疑难问题的人。"
+          },
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "所以：用来……的，表凭借，非现代‘因此’之意。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "解惑：解除疑惑。‘惑’指学习中的疑难问题。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "人",
+              "pinyin": "rén"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "孰",
+              "pinyin": "shú"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "惑",
+              "pinyin": "huò"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "人不是生下来就懂得道理的，谁能没有疑惑呢？"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 6,
+              "note": "生而知之者：天生就懂得道理的人。‘而’表承接，‘之’代道理。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "惑",
+              "pinyin": "huò"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng"
+            },
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "惑",
+              "pinyin": "huò"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "终",
+              "pinyin": "zhōng"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "解",
+              "pinyin": "jiě"
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "有了疑惑却不跟从老师学习，那些成为疑难的问题，就始终不能解开。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "惑而不从师：有了疑惑却不愿跟从老师学习。‘而’表转折。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "生",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "前",
+              "pinyin": "qián"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén"
+            },
+            {
+              "char": "道",
+              "pinyin": "dào"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "固",
+              "pinyin": "gù"
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān"
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "出生在我之前的人，他懂得道理本来就比我早，我跟从他学习，把他当作老师；"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 8,
+              "note": "闻道：听到、理解道理。‘闻’强调听闻并接受。"
+            },
+            {
+              "start": 10,
+              "end": 12,
+              "note": "固先乎吾：本来比我早。‘固’意为本来，‘乎’相当于‘于’，表比较。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "生",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén"
+            },
+            {
+              "char": "道",
+              "pinyin": "dào"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "亦",
+              "pinyin": "yì"
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān"
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "出生在我之后的人，如果他懂得道理也比我早，我也跟从他学习，把他当作老师。"
+          },
+          "notes": [
+            {
+              "start": 10,
+              "end": 12,
+              "note": "亦先乎吾：也比我早。‘亦’为‘也’，‘乎吾’为状语后置结构。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "道",
+              "pinyin": "dào"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "夫",
+              "pinyin": "fū"
+            },
+            {
+              "char": "庸",
+              "pinyin": "yōng"
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "年",
+              "pinyin": "nián"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān"
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu"
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我是向他学习道理的，哪管他的年龄比我大还是比我小呢？"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 3,
+              "note": "师道：以道为师，意即学习道理。‘师’为意动用法，以……为师。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "note": "庸知：岂能知道，‘庸’为反问副词，意为‘哪、难道’。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "是",
+              "pinyin": "shì"
+            },
+            {
+              "char": "故",
+              "pinyin": "gù"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "贵",
+              "pinyin": "guì"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "贱",
+              "pinyin": "jiàn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "长",
+              "pinyin": "zhǎng"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "少",
+              "pinyin": "shǎo"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "道",
+              "pinyin": "dào"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "存",
+              "pinyin": "cún"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "存",
+              "pinyin": "cún"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "因此，无论地位高低贵贱，无论年纪大小，道理存在的地方，就是老师存在的地方。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "是故：因此，所以，用于引出结论。"
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "note": "无贵无贱：无论地位高贵还是低贱。‘无’意为‘不论’。"
+            },
+            {
+              "start": 12,
+              "end": 21,
+              "note": "道之所存，师之所存也：道理存在的地方，就是老师存在的地方。‘之’取消句子独立性，构成判断句。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

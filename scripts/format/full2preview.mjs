@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { convert } from "./full2json.mjs";
 
 // 获取当前脚本目录
 const __filename = fileURLToPath(import.meta.url);

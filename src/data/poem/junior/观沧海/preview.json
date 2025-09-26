@@ -5,529 +5,46 @@
         {
           "sentence": [
             {
-              "char": "自",
-              "pinyin": "zì"
+              "char": "东",
+              "pinyin": "dōng"
             },
             {
-              "char": "三",
-              "pinyin": "sān"
+              "char": "临",
+              "pinyin": "lín",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "临：登上，到达。此处指曹操北征乌桓途中登碣石山。"
+                }
+              ]
             },
             {
-              "char": "峡",
-              "pinyin": "xiá"
+              "char": "碣",
+              "pinyin": "jié"
             },
             {
-              "char": "七",
-              "pinyin": "qī"
-            },
-            {
-              "char": "百",
-              "pinyin": "bǎi"
-            },
-            {
-              "char": "里",
-              "pinyin": "lǐ"
-            },
-            {
-              "char": "中",
-              "pinyin": "zhōng"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "两",
-              "pinyin": "liǎng"
-            },
-            {
-              "char": "岸",
-              "pinyin": "àn"
-            },
-            {
-              "char": "连",
-              "pinyin": "lián"
-            },
-            {
-              "char": "山",
-              "pinyin": "shān"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "略",
-              "pinyin": "luè"
-            },
-            {
-              "char": "无",
-              "pinyin": "wú"
-            },
-            {
-              "char": "阙",
-              "pinyin": "quē"
-            },
-            {
-              "char": "处",
-              "pinyin": "chù"
-            },
-            {
-              "char": "。",
-              "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "在三峡七百里之间，两岸都是相连的高山，完全没有中断的地方。"
-          },
-          "notes": [
-            {
-              "start": 3,
-              "end": 4,
-              "note": "三峡：指长江上游的瞿塘峡、巫峡、西陵峡，全长约七百里。"
-            },
-            {
-              "start": 13,
-              "end": 16,
-              "note": "略无阙处：完全没有中断的地方。阙，通“缺”，空缺、中断。"
-            }
-          ]
-        },
-        {
-          "sentence": [
-            {
-              "char": "重",
-              "pinyin": "chóng"
-            },
-            {
-              "char": "岩",
-              "pinyin": "yán"
-            },
-            {
-              "char": "叠",
-              "pinyin": "dié"
-            },
-            {
-              "char": "嶂",
-              "pinyin": "zhàng"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "隐",
-              "pinyin": "yǐn"
-            },
-            {
-              "char": "天",
-              "pinyin": "tiān"
-            },
-            {
-              "char": "蔽",
-              "pinyin": "bì"
-            },
-            {
-              "char": "日",
-              "pinyin": "rì"
-            },
-            {
-              "char": "。",
-              "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "重重悬崖，层层峭壁，遮挡了天空和太阳。"
-          },
-          "notes": [
-            {
-              "start": 0,
-              "end": 3,
-              "note": "重岩叠嶂：重重的悬崖，层层的峭壁。嶂，直立像屏障的山峰。"
-            }
-          ]
-        },
-        {
-          "sentence": [
-            {
-              "char": "自",
-              "pinyin": "zì"
-            },
-            {
-              "char": "非",
-              "pinyin": "fēi"
-            },
-            {
-              "char": "亭",
-              "pinyin": "tíng"
-            },
-            {
-              "char": "午",
-              "pinyin": "wǔ"
-            },
-            {
-              "char": "夜",
-              "pinyin": "yè"
-            },
-            {
-              "char": "分",
-              "pinyin": "fēn"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "不",
-              "pinyin": "bú"
-            },
-            {
-              "char": "见",
-              "pinyin": "jiàn"
-            },
-            {
-              "char": "曦",
-              "pinyin": "xī"
-            },
-            {
-              "char": "月",
-              "pinyin": "yuè"
-            },
-            {
-              "char": "。",
-              "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "如果不是正午和半夜，就看不见太阳和月亮。"
-          },
-          "notes": [
-            {
-              "start": 0,
-              "end": 6,
-              "note": "自非亭午夜分：如果不是正午或半夜。自非，如果不是；亭午，正午；夜分，半夜。"
-            },
-            {
-              "start": 9,
-              "end": 10,
-              "note": "曦月：日月。曦，日光，这里指太阳。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "paragraph": [
-        {
-          "sentence": [
-            {
-              "char": "至",
-              "pinyin": "zhì"
-            },
-            {
-              "char": "于",
-              "pinyin": "yú"
-            },
-            {
-              "char": "夏",
-              "pinyin": "xià"
-            },
-            {
-              "char": "水",
-              "pinyin": "shuǐ"
-            },
-            {
-              "char": "襄",
-              "pinyin": "xiāng"
-            },
-            {
-              "char": "陵",
-              "pinyin": "líng"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "沿",
-              "pinyin": "yán"
-            },
-            {
-              "char": "溯",
-              "pinyin": "sù"
-            },
-            {
-              "char": "阻",
-              "pinyin": "zǔ"
-            },
-            {
-              "char": "绝",
-              "pinyin": "jué"
-            },
-            {
-              "char": "。",
-              "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "到了夏天江水漫上山陵的时候，上行和下行的航路都被阻断。"
-          },
-          "notes": [
-            {
-              "start": 4,
-              "end": 5,
-              "note": "襄陵：漫上山陵。襄，上，这里指江水上涨淹没。"
-            },
-            {
-              "start": 7,
-              "end": 9,
-              "note": "沿溯阻绝：上行和下行的航路都被阻断。沿，顺流而下；溯，逆流而上。"
-            }
-          ]
-        },
-        {
-          "sentence": [
-            {
-              "char": "或",
-              "pinyin": "huò"
-            },
-            {
-              "char": "王",
-              "pinyin": "wáng"
-            },
-            {
-              "char": "命",
-              "pinyin": "mìng"
-            },
-            {
-              "char": "急",
-              "pinyin": "jí"
-            },
-            {
-              "char": "宣",
-              "pinyin": "xuān"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "有",
-              "pinyin": "yǒu"
-            },
-            {
-              "char": "时",
+              "char": "石",
               "pinyin": "shí"
             },
             {
-              "char": "朝",
-              "pinyin": "cháo"
-            },
-            {
-              "char": "发",
-              "pinyin": "fā"
-            },
-            {
-              "char": "白",
-              "pinyin": "bái"
-            },
-            {
-              "char": "帝",
-              "pinyin": "dì"
-            },
-            {
               "char": "，",
               "pinyin": "　"
-            },
-            {
-              "char": "暮",
-              "pinyin": "mù"
-            },
-            {
-              "char": "到",
-              "pinyin": "dào"
-            },
-            {
-              "char": "江",
-              "pinyin": "jiāng"
-            },
-            {
-              "char": "陵",
-              "pinyin": "líng"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "其",
-              "pinyin": "qí"
-            },
-            {
-              "char": "间",
-              "pinyin": "jiān"
-            },
-            {
-              "char": "千",
-              "pinyin": "qiān"
-            },
-            {
-              "char": "二",
-              "pinyin": "èr"
-            },
-            {
-              "char": "百",
-              "pinyin": "bǎi"
-            },
-            {
-              "char": "里",
-              "pinyin": "lǐ"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "虽",
-              "pinyin": "suī"
-            },
-            {
-              "char": "乘",
-              "pinyin": "chéng"
-            },
-            {
-              "char": "奔",
-              "pinyin": "bēn"
-            },
-            {
-              "char": "御",
-              "pinyin": "yù"
-            },
-            {
-              "char": "风",
-              "pinyin": "fēng"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "不",
-              "pinyin": "bù"
             },
             {
               "char": "以",
               "pinyin": "yǐ"
             },
             {
-              "char": "疾",
-              "pinyin": "jí"
+              "char": "观",
+              "pinyin": "guān"
             },
             {
-              "char": "也",
-              "pinyin": "yě"
+              "char": "沧",
+              "pinyin": "cāng"
             },
             {
-              "char": "。",
-              "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "有时皇帝的命令要紧急传达，这时只要早晨从白帝城出发，傍晚就到了江陵，这中间有一千二百里，即使骑上飞奔的马，驾着疾风，也不如它快。"
-          },
-          "notes": [
-            {
-              "start": 0,
-              "end": 4,
-              "note": "或王命急宣：有时皇帝的命令要紧急传达。或，有时；王命，皇帝的命令；宣，宣布，传达。"
-            },
-            {
-              "start": 8,
-              "end": 11,
-              "note": "朝发白帝：早晨从白帝城出发。白帝，城名，在今重庆市奉节县东。"
-            },
-            {
-              "start": 13,
-              "end": 16,
-              "note": "暮到江陵：傍晚就到了江陵。江陵，今湖北省江陵县。"
-            },
-            {
-              "start": 26,
-              "end": 28,
-              "note": "虽乘奔御风：即使骑上飞奔的马，驾着疾风。奔，指飞奔的马；御，驾着。"
-            },
-            {
-              "start": 31,
-              "end": 33,
-              "note": "不以疾也：也没有这样快。以，认为；疾，快。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "paragraph": [
-        {
-          "sentence": [
-            {
-              "char": "春",
-              "pinyin": "chūn"
-            },
-            {
-              "char": "冬",
-              "pinyin": "dōng"
-            },
-            {
-              "char": "之",
-              "pinyin": "zhī"
-            },
-            {
-              "char": "时",
-              "pinyin": "shí"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "则",
-              "pinyin": "zé"
-            },
-            {
-              "char": "素",
-              "pinyin": "sù"
-            },
-            {
-              "char": "湍",
-              "pinyin": "tuān"
-            },
-            {
-              "char": "绿",
-              "pinyin": "lǜ"
-            },
-            {
-              "char": "潭",
-              "pinyin": "tán"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "回",
-              "pinyin": "huí"
-            },
-            {
-              "char": "清",
-              "pinyin": "qīng"
-            },
-            {
-              "char": "倒",
-              "pinyin": "dǎo"
-            },
-            {
-              "char": "影",
-              "pinyin": "yǐng"
+              "char": "海",
+              "pinyin": "hǎi"
             },
             {
               "char": "。",
@@ -535,169 +52,13 @@
             }
           ],
           "translation": {
-            "translation": "在春、冬两个季节，雪白的急流，碧绿的深潭，回旋着清波，倒映着各种景物的影子。"
+            "translation": "东行登上高高的碣石山，来观赏苍茫的大海。"
           },
           "notes": [
             {
-              "start": 6,
-              "end": 8,
-              "note": "素湍绿潭：雪白的急流，碧绿的深潭。湍，急流的水；潭，深水。"
-            },
-            {
-              "start": 11,
-              "end": 14,
-              "note": "回清倒影：回旋着清波，倒映着各种景物的影子。"
-            }
-          ]
-        },
-        {
-          "sentence": [
-            {
-              "char": "绝",
-              "pinyin": "jué"
-            },
-            {
-              "char": "巘",
-              "pinyin": "yǎn"
-            },
-            {
-              "char": "多",
-              "pinyin": "duō"
-            },
-            {
-              "char": "生",
-              "pinyin": "shēng"
-            },
-            {
-              "char": "怪",
-              "pinyin": "guài"
-            },
-            {
-              "char": "柏",
-              "pinyin": "bǎi"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "悬",
-              "pinyin": "xuán"
-            },
-            {
-              "char": "泉",
-              "pinyin": "quán"
-            },
-            {
-              "char": "瀑",
-              "pinyin": "pù"
-            },
-            {
-              "char": "布",
-              "pinyin": "bù"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "飞",
-              "pinyin": "fēi"
-            },
-            {
-              "char": "漱",
-              "pinyin": "shù"
-            },
-            {
-              "char": "其",
-              "pinyin": "qí"
-            },
-            {
-              "char": "间",
-              "pinyin": "jiān"
-            },
-            {
-              "char": "。",
-              "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "在极高的山峰上生长着许多奇形怪状的柏树，山峰之间有悬泉瀑布飞流冲荡。"
-          },
-          "notes": [
-            {
-              "start": 0,
-              "end": 1,
-              "note": "绝巘：极高的山峰。巘，山峰。"
-            },
-            {
-              "start": 7,
-              "end": 10,
-              "note": "悬泉瀑布：从山崖上流下来的泉水和瀑布。"
-            },
-            {
-              "start": 12,
-              "end": 14,
-              "note": "飞漱其间：在山峰之间飞流冲荡。漱，冲荡。"
-            }
-          ]
-        },
-        {
-          "sentence": [
-            {
-              "char": "清",
-              "pinyin": "qīng"
-            },
-            {
-              "char": "荣",
-              "pinyin": "róng"
-            },
-            {
-              "char": "峻",
-              "pinyin": "jùn"
-            },
-            {
-              "char": "茂",
-              "pinyin": "mào"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "良",
-              "pinyin": "liáng"
-            },
-            {
-              "char": "多",
-              "pinyin": "duō"
-            },
-            {
-              "char": "趣",
-              "pinyin": "qù"
-            },
-            {
-              "char": "味",
-              "pinyin": "wèi"
-            },
-            {
-              "char": "。",
-              "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "水清，树荣，山高，草盛，确实趣味无穷。"
-          },
-          "notes": [
-            {
-              "start": 0,
+              "start": 2,
               "end": 3,
-              "note": "清荣峻茂：水清，树荣，山高，草盛。"
-            },
-            {
-              "start": 5,
-              "end": 6,
-              "note": "良多：确实很多。良，很，确实。"
+              "note": "碣石：山名，位于今河北昌黎，古代为观海胜地，相传秦始皇曾登此。"
             }
           ]
         }
@@ -708,27 +69,19 @@
         {
           "sentence": [
             {
-              "char": "每",
-              "pinyin": "měi"
+              "char": "水",
+              "pinyin": "shuǐ"
             },
             {
-              "char": "至",
-              "pinyin": "zhì"
+              "char": "何",
+              "pinyin": "hé"
             },
             {
-              "char": "晴",
-              "pinyin": "qíng"
+              "char": "澹",
+              "pinyin": "dàn"
             },
             {
-              "char": "初",
-              "pinyin": "chū"
-            },
-            {
-              "char": "霜",
-              "pinyin": "shuāng"
-            },
-            {
-              "char": "旦",
+              "char": "澹",
               "pinyin": "dàn"
             },
             {
@@ -736,108 +89,20 @@
               "pinyin": "　"
             },
             {
-              "char": "林",
-              "pinyin": "lín"
+              "char": "山",
+              "pinyin": "shān"
             },
             {
-              "char": "寒",
-              "pinyin": "hán"
+              "char": "岛",
+              "pinyin": "dǎo"
             },
             {
-              "char": "涧",
-              "pinyin": "jiàn"
+              "char": "竦",
+              "pinyin": "sǒng"
             },
             {
-              "char": "肃",
-              "pinyin": "sù"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "常",
-              "pinyin": "cháng"
-            },
-            {
-              "char": "有",
-              "pinyin": "yǒu"
-            },
-            {
-              "char": "高",
-              "pinyin": "gāo"
-            },
-            {
-              "char": "猿",
-              "pinyin": "yuán"
-            },
-            {
-              "char": "长",
-              "pinyin": "cháng"
-            },
-            {
-              "char": "啸",
-              "pinyin": "xiào"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "属",
-              "pinyin": "shǔ"
-            },
-            {
-              "char": "引",
-              "pinyin": "yǐn"
-            },
-            {
-              "char": "凄",
-              "pinyin": "qī"
-            },
-            {
-              "char": "异",
-              "pinyin": "yì"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "空",
-              "pinyin": "kōng"
-            },
-            {
-              "char": "谷",
-              "pinyin": "gǔ"
-            },
-            {
-              "char": "传",
-              "pinyin": "chuán"
-            },
-            {
-              "char": "响",
-              "pinyin": "xiǎng"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "哀",
-              "pinyin": "āi"
-            },
-            {
-              "char": "转",
-              "pinyin": "zhuǎn"
-            },
-            {
-              "char": "久",
-              "pinyin": "jiǔ"
-            },
-            {
-              "char": "绝",
-              "pinyin": "jué"
+              "char": "峙",
+              "pinyin": "zhì"
             },
             {
               "char": "。",
@@ -845,143 +110,306 @@
             }
           ],
           "translation": {
-            "translation": "在秋天，每到天刚放晴的时候或下霜的早晨，树林和山涧显出一片清凉和寂静，经常有高处的猿猴拉长声音鸣叫，声音持续不断，非常凄凉怪异，空荡的山谷里传来猿叫的回声，悲哀婉转，很久才消失。"
+            "translation": "海水多么宽阔浩荡，海中山岛罗列，高耸挺立。"
           },
           "notes": [
             {
               "start": 2,
-              "end": 5,
-              "note": "晴初霜旦：天刚放晴的时候或下霜的早晨。"
+              "end": 3,
+              "note": "澹澹：水波起伏动荡的样子，叠音词增强画面感。"
             },
             {
               "start": 7,
-              "end": 10,
-              "note": "林寒涧肃：树林和山涧显出一片清凉和寂静。肃，寂静。"
-            },
-            {
-              "start": 19,
-              "end": 22,
-              "note": "属引凄异：声音持续不断，非常凄凉怪异。属引，连续不断。"
-            },
-            {
-              "start": 29,
-              "end": 32,
-              "note": "哀转久绝：悲哀婉转，很久才消失。转，同“啭”，鸟鸣声，这里指猿叫声。"
+              "end": 8,
+              "note": "竦峙：高耸挺立。竦，通‘耸’；峙，耸立。形容山岛高峻稳固。"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "paragraph": [
         {
           "sentence": [
             {
-              "char": "故",
-              "pinyin": "gù"
+              "char": "树",
+              "pinyin": "shù"
             },
             {
-              "char": "渔",
-              "pinyin": "yú"
+              "char": "木",
+              "pinyin": "mù"
             },
             {
-              "char": "者",
-              "pinyin": "zhě"
+              "char": "丛",
+              "pinyin": "cóng"
             },
             {
-              "char": "歌",
-              "pinyin": "gē"
-            },
-            {
-              "char": "曰",
-              "pinyin": "yuē"
-            },
-            {
-              "char": "：",
-              "pinyin": "　"
-            },
-            {
-              "char": "“",
-              "pinyin": "　"
-            },
-            {
-              "char": "巴",
-              "pinyin": "bā"
-            },
-            {
-              "char": "东",
-              "pinyin": "dōng"
-            },
-            {
-              "char": "三",
-              "pinyin": "sān"
-            },
-            {
-              "char": "峡",
-              "pinyin": "xiá"
-            },
-            {
-              "char": "巫",
-              "pinyin": "wū"
-            },
-            {
-              "char": "峡",
-              "pinyin": "xiá"
-            },
-            {
-              "char": "长",
-              "pinyin": "cháng"
+              "char": "生",
+              "pinyin": "shēng"
             },
             {
               "char": "，",
               "pinyin": "　"
             },
             {
-              "char": "猿",
-              "pinyin": "yuán"
+              "char": "百",
+              "pinyin": "bǎi"
             },
             {
-              "char": "鸣",
-              "pinyin": "míng"
+              "char": "草",
+              "pinyin": "cǎo"
             },
             {
-              "char": "三",
-              "pinyin": "sān"
+              "char": "丰",
+              "pinyin": "fēng"
             },
             {
-              "char": "声",
-              "pinyin": "shēng"
+              "char": "茂",
+              "pinyin": "mào"
             },
             {
-              "char": "泪",
-              "pinyin": "lèi"
-            },
-            {
-              "char": "沾",
-              "pinyin": "zhān"
-            },
-            {
-              "char": "裳",
-              "pinyin": "cháng"
-            },
-            {
-              "char": "！",
-              "pinyin": "　"
-            },
-            {
-              "char": "”",
+              "char": "。",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": "所以三峡中渔民的歌谣唱道：“巴东三峡巫峡最长，猿猴鸣叫几声凄凉得令人眼泪打湿衣裳。”"
+            "translation": "周围树木葱茏，各种草植生长茂盛。"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "秋",
+              "pinyin": "qiū"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "萧",
+              "pinyin": "xiāo"
+            },
+            {
+              "char": "瑟",
+              "pinyin": "sè"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "洪",
+              "pinyin": "hóng"
+            },
+            {
+              "char": "波",
+              "pinyin": "bō"
+            },
+            {
+              "char": "涌",
+              "pinyin": "yǒng"
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "萧瑟的风声传来，草木动摇，海中翻涌着巨大的海浪。"
           },
           "notes": [
             {
-              "start": 20,
-              "end": 21,
-              "note": "泪沾裳：眼泪打湿衣裳。沾，浸湿；裳，古代指下身穿的衣裙，泛指衣服。"
+              "start": 2,
+              "end": 3,
+              "note": "萧瑟：形容秋风吹拂草木的声音，带有苍凉意味，非仅指情绪。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò"
+            },
+            {
+              "char": "出",
+              "pinyin": "chū"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "太阳和月亮升起降落，好像是从这浩瀚的海洋中发出的。"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "星",
+              "pinyin": "xīng"
+            },
+            {
+              "char": "汉",
+              "pinyin": "hàn"
+            },
+            {
+              "char": "灿",
+              "pinyin": "càn"
+            },
+            {
+              "char": "烂",
+              "pinyin": "làn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò"
+            },
+            {
+              "char": "出",
+              "pinyin": "chū"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "天河里的灿烂群星，也好像是从大海的怀抱里涌现出来的。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "星汉：银河的别称，古人想象中星辰汇聚之河，象征宇宙浩瀚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "幸",
+              "pinyin": "xìng"
+            },
+            {
+              "char": "甚",
+              "pinyin": "shèn"
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "哉",
+              "pinyin": "zāi"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "歌",
+              "pinyin": "gē"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "咏",
+              "pinyin": "yǒng"
+            },
+            {
+              "char": "志",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "太值得庆幸了！就用诗歌来表达心志吧。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "幸甚至哉：乐府诗常用结尾套语，表示感慨之深，并非实义句。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "歌以咏志：作诗来表达志向。‘以’为介词，‘用’的意思，‘歌’作状语前置。"
             }
           ]
         }
       ]
     }
   ],
-  "mode": "paragraph"
+  "mode": "poem"
 }
