@@ -1,3 +1,5 @@
+"use client"
+
 import {
     CardTitle,
 } from "@/components/ui/card"
@@ -23,9 +25,10 @@ export function PoemTinyCard({
         hover:-translate-y-1 hover:shadow-md hover:border-[var(--primary-color)] hover:text-[var(--theme-color)]
       "
         >
-            <CardTitle>
+            <CardTitle className="truncate">
                 <Link
                     href={`/poem/${version}/${title}`}
+                    className="truncate block"
                 >
                     {title}
                 </Link>

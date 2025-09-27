@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useState, useContext, useEffect } from "react";
-import { CustomAlert } from './alert'; // 修改引入
+import { useAlertContext } from './alert-provider';
 
 // 自定义事件类型定义
 declare global {
@@ -15,12 +15,7 @@ type VersionProviderProps = {
   children: React.ReactNode;
 };
 
-type AlertState = {
-  visible: boolean;
-  type: 'normal' | 'destructive';
-  title: string;
-  description?: string;
-};
+
 
 export const VersionContext = createContext<{
   version: 'junior' | 'senior';
@@ -60,11 +55,7 @@ export function VersionProvider({
     };
   }, []);
 
-  const [alert, setAlert] = useState<AlertState>({ // 新增alert状态
-    visible: false,
-    type: 'normal',
-    title: ''
-  });
+  const { showAlert } = useAlertContext();
 
   const toggleVersion = () => {
     try {
@@ -73,14 +64,12 @@ export function VersionProvider({
       if (typeof window !== 'undefined') {
         localStorage.setItem('poemVersion', newVersion);
       }
-      setAlert({
-        visible: true,
+      showAlert({
         type: 'normal',
         title: `成功切换为${newVersion === 'senior' ? '高中' : '初中'}版`
       });
     } catch (e) {
-      setAlert({
-        visible: true,
+      showAlert({
         type: 'destructive',
         title: '无法切换版本',
         description: `系统错误：${e}`
@@ -91,14 +80,6 @@ export function VersionProvider({
   return (
     <VersionContext.Provider value={{ version, toggleVersion }}>
       {children}
-      <CustomAlert
-        type={alert.type}
-        title={alert.title}
-        description={alert.description}
-        visible={alert.visible}
-        duration={2000}
-        onClose={() => setAlert(prev => ({...prev, visible: false}))} // 关闭回调
-      />
     </VersionContext.Provider>
   );
 }

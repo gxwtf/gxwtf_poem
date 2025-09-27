@@ -9,7 +9,7 @@ export interface MDXPreviewProps {
     mdxContent: React.ReactNode
     toc: Toc
     headerData?: { name: string; href: string }[]
-    now: string
+    now?: string
     title?: string
 }
 
@@ -22,7 +22,7 @@ export function MDXPreview({
 }: MDXPreviewProps) {
     return (
         <div className="flex flex-col min-h-screen">
-            <SiteHeader data={headerData} now={now} />
+            <SiteHeader data={headerData} now={now?now:""}></SiteHeader>
             {title && <h1 className="text-3xl font-bold text-center p-8">{title}</h1>}
             <div className="flex flex-1">
                 <div className="flex-1 p-8">

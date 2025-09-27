@@ -33,6 +33,12 @@ const nextConfig: NextConfig = {
             },
             {
                 protocol: 'https',
+                hostname: 'test.gxwtf.cn',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
                 hostname: 'account.gxwtf.cn',
                 port: '',
                 pathname: '/**',
@@ -46,6 +52,12 @@ const nextConfig: NextConfig = {
             {
                 protocol: 'https',
                 hostname: 'upload.wikimedia.org',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'ziyuan.guwendao.net',
                 port: '',
                 pathname: '/**',
             }

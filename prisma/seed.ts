@@ -1,49 +1,192 @@
-import { PrismaClient, Prisma } from '../src/app/generated/prisma'
+import { PrismaClient } from '@prisma/client'
+import fs from 'fs'
+import path from 'path'
 
 const prisma = new PrismaClient()
 
-const poemData: Prisma.PoemCreateInput[] = [
-  {
-    title: '次北固山下',
-    version: 'junior',
-    tags: ['七上', '五言律诗', '山水诗', '思乡诗', '唐诗三百首', '必背古诗', '长江', '北固山', '王湾', '唐代诗歌'],
-    author: '王湾',
-    dynasty: '唐',
-    mode: 'poem',
-    content: '客路青山外，行舟绿水前。/潮平两岸阔，风正一帆悬。/海日生残夜，江春入旧年。/乡书何处达？归雁洛阳边。'
-  },
-  {
-    title: '虞美人·春花秋月何时了',
-    version: 'junior',
-    tags: ['婉约派', '亡国之痛', '思乡', '必修上', '古诗', '背诵', '李煜', '五代'],
-    author: '李煜',
-    dynasty: '五代',
-    mode: 'paragraph',
-    content: '春花秋月何时了？往事知多少。#小楼昨夜又东风，故国不堪回首月明中。/雕栏玉砌应犹在，只是朱颜改。#问君能有几多愁？恰似一江春水向东流。'
-  },
-  {
-    title: '涉江采芙蓉',
-    version: 'senior',
-    tags: ['必修上', '古诗十九首', '汉代诗歌', '思乡诗', '爱情诗', '五言诗', '抒情诗', '背诵'],
-    author: '佚名',
-    dynasty: '两汉',
-    mode: 'poem',
-    content: '涉江采芙蓉，兰泽多芳草。/采之欲遗谁？所思在远道。/还顾望旧乡，长路漫浩浩。/同心而离居，忧伤以终老。'
-  }
-]
+// 读取JSON文件的辅助函数
+function readJsonFile(filePath: string): any {
+    try {
+        const content = fs.readFileSync(filePath, 'utf-8')
+        return JSON.parse(content)
+    } catch (error) {
+        console.error(`Error reading file ${filePath}:`, error)
+        return null
+    }
+}
+
+// 读取order.tsx文件获取顺序
+function getOrderFromFile(filePath: string): string[] {
+    try {
+        const content = fs.readFileSync(filePath, 'utf-8')
+        const match = content.match(/export const order = \[([\s\S]*?)\]/)
+        if (match) {
+            const orderArray = match[1]
+                .replace(/\n/g, '')
+                .split(',')
+                .map(item => item.trim().replace(/['"]/g, ''))
+                .filter(item => item.length > 0)
+            return orderArray
+        }
+    } catch (error) {
+        console.error(`Error reading order file ${filePath}:`, error)
+    }
+    return []
+}
 
 export async function main() {
-  for (const poem of poemData) {
-    await prisma.poem.create({ data: poem })
-  }
-  console.log('Seed data created successfully')
+    const basePath = path.join(__dirname, '../src/data')
+    
+    // 清空现有数据
+    // await prisma.checkIn.deleteMany() 
+    // await prisma.quote.deleteMany()
+    await prisma.article.deleteMany()
+    await prisma.author.deleteMany()
+    await prisma.poem.deleteMany()
+    await prisma.event.deleteMany()
+    
+    // 处理名句数据 - 只添加新的quote记录
+    const quotePath = path.join(basePath, 'quote', 'index.json')
+    const quoteData = readJsonFile(quotePath)
+    
+    if (quoteData && Array.isArray(quoteData)) {
+        for (const quote of quoteData) {
+            // 检查quote是否已存在
+            const existingQuote = await prisma.quote.findFirst({
+                where: {
+                    quote: quote.quote,
+                    author: quote.author
+                }
+            })
+            
+            // 如果不存在，则创建新记录
+            if (!existingQuote) {
+                await prisma.quote.create({
+                    data: {
+                        title: quote.title,
+                        quote: quote.quote,
+                        author: quote.author,
+                        dynasty: quote.dynasty
+                    }
+                })
+            }
+        }
+    }
+    
+    // 处理古诗文数据（junior版本）
+    const juniorOrder = getOrderFromFile(path.join(basePath, 'poem/junior/order.tsx'))
+    console.log('Junior order:', juniorOrder)
+    for (const poemName of juniorOrder) {
+        const poemPath = path.join(basePath, 'poem/junior', poemName, 'index.json')
+        const poemData = readJsonFile(poemPath)
+        console.log(`Seeding poem: ${poemName}`)
+        if (poemData) {
+            await prisma.poem.create({
+                data: {
+                    title: poemData.title,
+                    version: 'junior',
+                    tags: poemData.tags || [],
+                    author: poemData.author,
+                    dynasty: poemData.dynasty,
+                    mode: poemData.mode || 'poem',
+                    content: poemData.content
+                }
+            })
+        }
+    }
+    
+    // 处理诗歌数据（senior版本）
+    const seniorOrder = getOrderFromFile(path.join(basePath, 'poem/senior/order.tsx'))
+    for (const poemName of seniorOrder) {
+        const poemPath = path.join(basePath, 'poem/senior', poemName, 'index.json')
+        const poemData = readJsonFile(poemPath)
+        
+        if (poemData) {
+            await prisma.poem.create({
+                data: {
+                    title: poemData.title,
+                    version: 'senior',
+                    tags: poemData.tags || [],
+                    author: poemData.author,
+                    dynasty: poemData.dynasty,
+                    mode: poemData.mode || 'poem',
+                    content: poemData.content
+                }
+            })
+        }
+    }
+    
+    // 处理文章数据
+    const articleOrder = getOrderFromFile(path.join(basePath, 'article/order.tsx'))
+    for (const articleName of articleOrder) {
+        const articlePath = path.join(basePath, 'article', articleName, 'index.json')
+        const articleData = readJsonFile(articlePath)
+        
+        if (articleData) {
+            await prisma.article.create({
+                data: {
+                    title: articleData.title,
+                    author: articleData.author,
+                    dynasty: articleData.dynasty,
+                    views: articleData.views || 0,
+                    abstract: articleData.abstract,
+                    content: articleData.content,
+                    img: articleData.img,
+                    tags: articleData.tags || []
+                }
+            })
+        }
+    }
+    
+    // 处理作者数据
+    const authorOrder = getOrderFromFile(path.join(basePath, 'author/order.tsx'))
+    for (const authorName of authorOrder) {
+        const authorPath = path.join(basePath, 'author', authorName, 'index.json')
+        const authorData = readJsonFile(authorPath)
+        
+        if (authorData) {
+            await prisma.author.create({
+                data: {
+                    name: authorData.name,
+                    dynasty: authorData.dynasty,
+                    epithet: authorData.epithet,
+                    quote: authorData.quote,
+                    avatar: authorData.avatar,
+                    intro: authorData.intro,
+                    tags: authorData.tags || []
+                }
+            })
+        }
+    }
+    
+    // 处理历史事件数据
+    const eventPath = path.join(basePath, 'event', 'index.json')
+    const eventData = readJsonFile(eventPath)
+    
+    if (eventData && Array.isArray(eventData)) {
+        for (const event of eventData) {
+            await prisma.event.create({
+                data: {
+                    year: event.year,
+                    month: event.month,
+                    day: event.day,
+                    type: event.type,
+                    figure: event.figure,
+                    importance: event.importance,
+                    data: event.data
+                }
+            })
+        }
+    }
+    
+    console.log('Seed data created successfully from file system')
 }
 
 main()
-  .catch((e) => {
-    console.error(e)
-    process.exit(1)
-  })
-  .finally(async () => {
-    await prisma.$disconnect()
-  })
+    .catch((e) => {
+        console.error(e)
+        process.exit(1)
+    })
+    .finally(async () => {
+        await prisma.$disconnect()
+    })

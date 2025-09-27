@@ -28,8 +28,8 @@ export default function LoginPage() {
       </div>
       <div className="bg-muted relative hidden lg:block">
         <Image
-          src="/books.jpg"
-          alt="Books"
+          src="/huoban.png"
+          alt="Printings"
           width={640}
           height={640}
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"

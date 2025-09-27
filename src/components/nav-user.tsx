@@ -30,8 +30,8 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
-import {useRouter} from "next/navigation";
 import Link from "next/link";
+import { useRouter } from "next/navigation"
 
 export function NavUser({
   user,
@@ -42,13 +42,9 @@ export function NavUser({
     avatar: string
   }
 }) {
-    const router = useRouter()
     const { isMobile } = useSidebar()
     const { logout } = useSession()
-    let pathname = '/dashboard';
-    if (typeof window !== "undefined") {
-        pathname = window.location.pathname;
-    }
+    const router = useRouter()
 
   return (
     <SidebarMenu>
@@ -108,25 +104,26 @@ export function NavUser({
                       </DropdownMenuItem>
                   </DropdownMenuGroup>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem
-                      onClick={(e) => {
-                          e.preventDefault()
-                          logout(null, {
-                              optimisticData: defaultSession,
-                          })
-                      }}
-                  >
+                  <DropdownMenuItem onClick={(e) => {
+                    e.preventDefault()
+                    logout(null, {
+                      optimisticData: defaultSession,
+                    })
+                  }}>
                       <LogOut />
                       登出
                   </DropdownMenuItem>
               </>)}
               {user.avatar == "#" && (<>
                   <DropdownMenuSeparator />
-                  <DropdownMenuItem asChild>
-                      <Link href={`/login?back=${pathname}`}>
-                          <LogIn />
-                          登录
-                      </Link>
+                  <DropdownMenuItem onClick={(e) => {
+                    e.preventDefault()
+                    if (typeof window !== 'undefined'){
+                        router.push(`/login?back=${window.location.pathname}`)
+                    }
+                  }}>
+                    <LogIn />
+                    登录
                   </DropdownMenuItem>
               </>)}
           </DropdownMenuContent>

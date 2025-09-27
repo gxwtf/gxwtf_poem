@@ -3,7 +3,6 @@
 import {
     Card,
     CardContent,
-    CardDescription,
     CardFooter,
     CardHeader,
     CardTitle,
@@ -11,6 +10,7 @@ import {
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { Tag } from "@/components/tag"
+import { Skeleton } from "@/components/ui/skeleton"
 
 interface ArticleCardProps {
     title: string
@@ -52,9 +52,12 @@ export function ArticleCard({
                     className="object-cover"
                 />
                 {tags && tags.length > 0 && (
-                    <span className="absolute top-4 right-4 bg-[var(--theme-color)] text-white text-bold px-2 py-1 rounded text-base">
-                        {tags[0]}
-                    </span>
+                    <div className="absolute top-4 right-4 no-navigate">
+                        <Tag
+                            text={tags[0]}
+                            href={`/tag/article/${encodeURIComponent(tags[0])}`}
+                        />
+                    </div>
                 )}
             </div>
 
@@ -72,6 +75,31 @@ export function ArticleCard({
                 <div className="flex justify-between items-center w-full text-gray-500 border-t border-dashed border-gray-200 pt-3">
                     <span>{dynasty && `【${dynasty}】`}{author}</span>
                     {views && <span>阅读：{views.toLocaleString()}</span>}
+                </div>
+            </CardFooter>
+        </Card>
+    )
+}
+
+export function SkeletonArticleCard() {
+    return (
+        <Card className="rounded-lg overflow-hidden shadow-lg flex flex-col h-full border-t-4 border-[var(--theme-color)] border-0 shadow-none">
+            <div className="relative h-60 overflow-hidden -mt-6">
+                <Skeleton className="h-full w-full" />
+            </div>
+            <CardHeader>
+                <Skeleton className="h-8 w-5/6" />
+            </CardHeader>
+            <CardContent>
+                <Skeleton className="h-4 w-full mb-2" />
+                <Skeleton className="h-4 w-5/6 mb-2" />
+                <Skeleton className="h-4 w-4/6 mb-2" />
+                <Skeleton className="h-4 w-3/6" />
+            </CardContent>
+            <CardFooter className="mt-auto">
+                <div className="flex justify-between items-center w-full">
+                    <Skeleton className="h-4 w-1/3" />
+                    <Skeleton className="h-4 w-1/4" />
                 </div>
             </CardFooter>
         </Card>

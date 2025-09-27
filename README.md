@@ -5,3 +5,7 @@
 - 项目采用TypeScript语言。
 
 # 所有开发者请注意：2025.08.24最新提示！请在clone项目后，先把`.env.example`复制一份到`.env.development`再运行程序！
+
+# 所有开发者请注意：2025.09.21最新提示！请在clone项目后，删除`/src/app/generated`目录，并重新运行`npx prisma generate`。
+
+# 所有开发者请注意：2025.09.27最新提示！请在clone项目后，重新运行`npx prisma generate`。

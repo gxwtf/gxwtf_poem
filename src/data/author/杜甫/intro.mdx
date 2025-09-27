@@ -1,0 +1,32 @@
+import { Meta } from '@/components/author-preview/author-meta';
+import { PoemTinyCard } from '@/components/poem-tiny-card';
+import indexData from "./index.json"
+import { Tags } from "@/components/tag"
+
+<Meta name={indexData.name} avatar={indexData.avatar} dynasty={indexData.dynasty} epithet={indexData.epithet} />
+
+## 简介
+
+　　{indexData["intro"]}
+
+## 标签
+
+<Tags type="author" tags={indexData["tags"]} className="my-4" />
+
+## 课内作品
+
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+	<PoemTinyCard version="junior" title="江南逢李龟年" />
+	<PoemTinyCard version="junior" title="望岳" />
+	<PoemTinyCard version="junior" title="春望" />
+	<PoemTinyCard version="junior" title="石壕吏" />
+	<PoemTinyCard version="junior" title="茅屋为秋风所破歌" />
+	<PoemTinyCard version="junior" title="月夜忆舍弟" />
+	<PoemTinyCard version="senior" title="登高" />
+	<PoemTinyCard version="senior" title="登岳阳楼" />
+	<PoemTinyCard version="senior" title="蜀相" />
+	<PoemTinyCard version="senior" title="客至" />
+	<PoemTinyCard version="senior" title="登岳阳楼" />
+	<PoemTinyCard version="senior" title="旅夜书怀" />
+	<PoemTinyCard version="senior" title="阁夜" />
+</div>
