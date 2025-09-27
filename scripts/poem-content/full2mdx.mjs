@@ -48,7 +48,11 @@ for (const version of versions) {
 
     try {
       const fullData = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
-      const previewData = convert(fullData);
+      let previewData = convert(fullData);
+      if (fs.existsSync(path.join(path.dirname(previewPath), 'extra.mdx'))){
+        const content = fs.readFileSync(path.join(path.dirname(previewPath), 'extra.mdx'), "utf-8");
+        previewData += content;
+      }
       // console.log(previewData)
       fs.writeFileSync(previewPath, previewData, "utf-8");
       // console.log(`✅ 生成 ${previewPath}`);
