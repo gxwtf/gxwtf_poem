@@ -1,10 +1,7 @@
 import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
-import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context"
-import indexData from "./index.json"
-import { Tags } from "@/components/tag"
-import { StarButton } from "@/components/star";
 import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
 
 <Meta 
   title="次北固山下"
@@ -15,10 +12,6 @@ import previewData from './preview.json';
 <MemorizeContextProvider>
   <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
 </MemorizeContextProvider>
-<div className={`text-primary flex flex-wrap gap-2`}>
-  <StarButton version="junior" title="次北固山下"/>
-  <StarButton version="junior" title="次北固山下"/>
-</div>
 
 ## 写作背景
 

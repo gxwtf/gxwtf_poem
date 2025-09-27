@@ -85,7 +85,7 @@
             {
               "start": 8,
               "end": 8,
-              "content": "已：停止，终结。此处强调学习不可终止。"
+              "content": "已：停止，终结。此处强调学习不可停止。"
             }
           ]
         },
@@ -255,28 +255,16 @@
           ],
           "translation": "靛青是从蓝草里提取的，可是比蓝草的颜色更深；冰是水凝结而成的，却比水还要寒冷。",
           "pinyin": "qīng ， qǔ zhī yú lán ， ér qīng yú lán ； bīng ， shuǐ wéi zhī ， ér hán yú shuǐ 。",
-          "notes": [
-            {
-              "start": 5,
-              "end": 5,
-              "content": "蓝：指蓼蓝，一种可制染料的植物，非颜色。"
-            },
-            {
-              "start": 20,
-              "end": 20,
-              "content": "寒：形容词作动词，变得更寒冷。"
-            }
-          ],
           "special_sentences": [
             {
-              "start": 2,
-              "end": 6,
-              "content": "‘取之于蓝’为状语后置句，正常语序为‘于蓝取之’。"
+              "start": 8,
+              "end": 11,
+              "content": "状语后置句，‘青于蓝’即‘于蓝青’，意为‘比从蓝草提取的青更青’。"
             },
             {
-              "start": 19,
+              "start": 18,
               "end": 22,
-              "content": "‘寒于水’为状语后置句，正常语序为‘于水寒’。"
+              "content": "状语后置句，‘寒于水’即‘于水寒’，意为‘比水更冷’。"
             }
           ]
         },
@@ -392,14 +380,21 @@
           "pinyin": "mù zhí zhòng shéng ， róu yǐ wéi lún ， qí qū zhòng guī 。",
           "notes": [
             {
-              "start": 2,
-              "end": 2,
-              "content": "中：读作zhòng，符合、合于的意思。"
-            },
-            {
               "start": 5,
               "end": 5,
-              "content": "輮：通‘揉’，用火烘烤使木材弯曲，使动用法。"
+              "content": "輮：通‘煣’，用火烘烤木材使之弯曲。"
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "content": "以为：以之为，即‘把它做成’。为，动词，成为。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 5,
+              "end": 9,
+              "content": "省略句，‘輮以（之）为轮’，省略宾语‘之’。"
             }
           ]
         },
@@ -416,15 +411,15 @@
               "char": "有",
               "pinyin": "yǒu",
               "index": 49,
-              "read": true,
+              "read": false,
               "write": false
             },
             {
               "char": "槁",
               "pinyin": "gǎo",
               "index": 50,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "暴",
@@ -524,17 +519,17 @@
             {
               "start": 1,
               "end": 1,
-              "content": "有：通‘又’，表示再次或递进。"
+              "content": "有：通‘又’，表示再次或补充。"
             },
             {
-              "start": 2,
+              "start": 3,
               "end": 3,
-              "content": "槁暴：枯干。槁，枯槁；暴，晒干。"
+              "content": "暴：通‘曝’，晒。指木材经日晒干枯。"
             },
             {
-              "start": 7,
-              "end": 7,
-              "content": "挺：伸直，恢复原状。"
+              "start": 13,
+              "end": 13,
+              "content": "然：代词，这样，指代前文‘曲中规’的状态。"
             }
           ]
         },
@@ -778,32 +773,32 @@
             {
               "start": 7,
               "end": 7,
-              "content": "金：指金属制的刀剑等兵器，非黄金。"
+              "content": "金：古代泛指金属制的刀剑等兵器，非专指黄金。"
             },
             {
-              "start": 8,
-              "end": 8,
-              "content": "就：靠近、接近，引申为拿到磨刀石上磨。"
+              "start": 9,
+              "end": 9,
+              "content": "砺：磨刀石。"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "content": "博学：广泛地学习，动词性短语，非现代形容词‘知识渊博’。"
             },
             {
               "start": 18,
               "end": 18,
-              "content": "日：名词作状语，每天。"
+              "content": "日：每天，名词作状语，表示时间频率。"
             },
             {
               "start": 19,
               "end": 20,
-              "content": "参省：通‘三省’，反复检查反省。参，多次。"
+              "content": "参省：检验并反省。参，检验；省，反省。"
             },
             {
               "start": 21,
               "end": 21,
               "content": "乎：相当于‘于’，介词，引进对象。"
-            },
-            {
-              "start": 26,
-              "end": 26,
-              "content": "知：通‘智’，智慧。"
             }
           ],
           "different_meanings": [
@@ -816,6 +811,16 @@
               "start": 7,
               "end": 7,
               "new": "黄金"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "old": "广泛地学习"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "new": "学识广博（形容词）"
             }
           ]
         },
@@ -1057,14 +1062,14 @@
           "pinyin": "wú cháng zhōng rì ér sī yǐ ， bù rú xū yú zhī suǒ xué yě ； wú cháng qǐ ér wàng yǐ ， bù rú dēng gāo zhī bó jiàn yě 。",
           "notes": [
             {
-              "start": 10,
-              "end": 11,
-              "content": "须臾：极短的时间，片刻。"
+              "start": 1,
+              "end": 1,
+              "content": "尝：曾经，表示过去经历。"
             },
             {
               "start": 19,
               "end": 19,
-              "content": "跂：抬起脚后跟站着，表示远望。"
+              "content": "跂：踮起脚后跟，读作qǐ，动作描写。"
             }
           ]
         },
@@ -1242,8 +1247,8 @@
               "char": "疾",
               "pinyin": "jí",
               "index": 154,
-              "read": false,
-              "write": false
+              "read": true,
+              "write": true
             },
             {
               "char": "也",
@@ -1299,26 +1304,21 @@
           "pinyin": "dēng gāo ér zhāo ， bì fēi jiā zhǎng yě ， ér jiàn zhě yuǎn ； shùn fēng ér hū ， shēng fēi jiā jí yě ， ér wén zhě zhāng 。",
           "notes": [
             {
-              "start": 7,
-              "end": 7,
-              "content": "加：更加，表示程度加深，非‘增加’。"
-            },
-            {
               "start": 24,
               "end": 24,
-              "content": "疾：快、强，此处指声音洪亮有力。"
+              "content": "疾：此处指声音洪亮、有力，非‘疾病’。"
             }
           ],
           "different_meanings": [
             {
-              "start": 7,
-              "end": 7,
-              "old": "更加"
+              "start": 24,
+              "end": 24,
+              "old": "声音洪亮、有力"
             },
             {
-              "start": 7,
-              "end": 7,
-              "new": "增加"
+              "start": 24,
+              "end": 24,
+              "new": "疾病"
             }
           ]
         },
@@ -1328,8 +1328,8 @@
               "char": "假",
               "pinyin": "jiǎ",
               "index": 162,
-              "read": false,
-              "write": false
+              "read": true,
+              "write": true
             },
             {
               "char": "舆",
@@ -1405,8 +1405,8 @@
               "char": "致",
               "pinyin": "zhì",
               "index": 173,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "千",
@@ -1510,8 +1510,8 @@
               "char": "绝",
               "pinyin": "jué",
               "index": 188,
-              "read": false,
-              "write": false
+              "read": true,
+              "write": true
             },
             {
               "char": "江",
@@ -1539,17 +1539,27 @@
           "pinyin": "jiǎ yú mǎ zhě ， fēi lì zú yě ， ér zhì qiān lǐ ； jiǎ zhōu jí zhě ， fēi néng shuǐ yě ， ér jué jiāng hé 。",
           "notes": [
             {
-              "start": 11,
-              "end": 11,
-              "content": "致：达到，抵达。"
+              "start": 0,
+              "end": 0,
+              "content": "假：借助，利用，重要实词。"
             },
             {
               "start": 26,
               "end": 26,
-              "content": "绝：横渡，穿越江河。"
+              "content": "绝：横渡，穿越，如‘绝江河’即渡过大江大河。"
             }
           ],
           "different_meanings": [
+            {
+              "start": 0,
+              "end": 0,
+              "old": "借助、利用"
+            },
+            {
+              "start": 0,
+              "end": 0,
+              "new": "虚假、不真实"
+            },
             {
               "start": 26,
               "end": 26,
@@ -1662,26 +1672,14 @@
             {
               "start": 2,
               "end": 2,
-              "content": "生：通‘性’，本性、资质。"
-            }
-          ],
-          "different_meanings": [
-            {
-              "start": 2,
-              "end": 2,
-              "old": "本性"
-            },
-            {
-              "start": 2,
-              "end": 2,
-              "new": "出生"
+              "content": "生：通‘性’，指人的天赋资质。"
             }
           ],
           "special_sentences": [
             {
               "start": 7,
               "end": 12,
-              "content": "‘善假于物也’为状语后置句，正常语序为‘善于物假也’。"
+              "content": "状语后置句，‘善假于物也’即‘于物善假也’，正常语序为‘于物善假’。"
             }
           ]
         },
@@ -1946,24 +1944,12 @@
             {
               "start": 21,
               "end": 21,
-              "content": "善：善行，名词，指好的行为积累。"
+              "content": "善：善行，善事，名词，指良好的行为积累。"
             },
             {
-              "start": 26,
-              "end": 27,
-              "content": "神明：指人的精神清明通达，非鬼神。"
-            }
-          ],
-          "different_meanings": [
-            {
-              "start": 21,
-              "end": 21,
-              "old": "善行"
-            },
-            {
-              "start": 21,
-              "end": 21,
-              "new": "善良"
+              "start": 9,
+              "end": 9,
+              "content": "焉：兼词，相当于‘于此’，即‘在这里’。"
             }
           ]
         },
@@ -1994,8 +1980,8 @@
               "char": "跬",
               "pinyin": "kuǐ",
               "index": 244,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "步",
@@ -2137,19 +2123,12 @@
             {
               "start": 3,
               "end": 4,
-              "content": "跬步：古代长度单位，半步为跬，一步为两足各迈一次。"
-            }
-          ],
-          "different_meanings": [
-            {
-              "start": 3,
-              "end": 3,
-              "old": "半步"
+              "content": "跬步：古代半步，跨一次为‘跬’，两次为‘步’。"
             },
             {
-              "start": 3,
-              "end": 3,
-              "new": "不常用"
+              "start": 7,
+              "end": 8,
+              "content": "无以：没有用来……的办法，固定结构。"
             }
           ]
         },
@@ -2250,8 +2229,8 @@
               "char": "驾",
               "pinyin": "jià",
               "index": 277,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "，",
@@ -2302,7 +2281,7 @@
             {
               "start": 13,
               "end": 13,
-              "content": "驾：马拉车一天所行路程，‘十驾’指十天的行程。"
+              "content": "驾：马拉车走一天的路程，古代行军单位。"
             }
           ]
         },
@@ -2431,15 +2410,15 @@
               "char": "可",
               "pinyin": "kě",
               "index": 301,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "镂",
               "pinyin": "lòu",
               "index": 302,
-              "read": false,
-              "write": false
+              "read": true,
+              "write": true
             },
             {
               "char": "。",
@@ -2455,12 +2434,12 @@
             {
               "start": 0,
               "end": 0,
-              "content": "锲：刻，雕刻，强调坚持与否的结果对比。"
+              "content": "锲：雕刻，用刀刻，引申为坚持不懈。"
             },
             {
-              "start": 17,
-              "end": 17,
-              "content": "镂：雕刻，尤指精细深刻地雕琢。"
+              "start": 18,
+              "end": 18,
+              "content": "镂：雕刻，尤指精细雕琢，与‘锲’呼应。"
             }
           ]
         },
@@ -2660,36 +2639,26 @@
           "pinyin": "yǐn wú zhǎo yá zhī lì ， jīn gǔ zhī qiáng ， shàng shí āi tǔ ， xià yǐn huáng quán ， yòng xīn yī yě 。",
           "notes": [
             {
-              "start": 4,
-              "end": 5,
-              "content": "爪牙之利：定语后置，即‘利之爪牙’，锐利的爪牙。"
-            },
-            {
-              "start": 9,
-              "end": 10,
-              "content": "筋骨之强：定语后置，即‘强之筋骨’，强健的筋骨。"
-            },
-            {
               "start": 12,
               "end": 12,
-              "content": "上：方位名词作状语，向上。"
+              "content": "上：向上，方位名词作状语。"
             },
             {
               "start": 17,
               "end": 17,
-              "content": "下：方位名词作状语，向下。"
+              "content": "下：向下，方位名词作状语。"
+            },
+            {
+              "start": 23,
+              "end": 23,
+              "content": "用：因为，表原因，‘用心一也’即‘因为心思专一’。"
             }
           ],
           "special_sentences": [
             {
-              "start": 3,
-              "end": 6,
-              "content": "‘爪牙之利’为定语后置句，正常语序为‘利之爪牙’。"
-            },
-            {
-              "start": 8,
+              "start": 2,
               "end": 11,
-              "content": "‘筋骨之强’为定语后置句，正常语序为‘强之筋骨’。"
+              "content": "定语后置句，‘爪牙之利’即‘利之爪牙’，‘筋骨之强’即‘强之筋骨’。"
             }
           ]
         },
@@ -2713,8 +2682,8 @@
               "char": "跪",
               "pinyin": "guì",
               "index": 333,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "而",
@@ -2734,15 +2703,15 @@
               "char": "螯",
               "pinyin": "áo",
               "index": 336,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "，",
               "pinyin": "，",
               "index": 337,
-              "read": false,
-              "write": false
+              "read": true,
+              "write": true
             },
             {
               "char": "非",
@@ -2859,33 +2828,11 @@
           ],
           "translation": "螃蟹有六条腿，两个蟹钳，但是没有蛇、鳝的洞穴它就无处藏身，这是因为它用心浮躁。",
           "pinyin": "xiè liù guì ér èr áo ， fēi shé shàn zhī xué wú kě jì tuō zhě ， yòng xīn zào yě 。",
-          "notes": [
+          "special_sentences": [
             {
-              "start": 2,
-              "end": 2,
-              "content": "跪：蟹的脚，非跪拜动作，古今异义显著。"
-            },
-            {
-              "start": 5,
-              "end": 5,
-              "content": "螯：蟹钳，第一对足，用于捕食防御。"
-            },
-            {
-              "start": 20,
-              "end": 20,
-              "content": "躁：浮躁，心不专一，与‘一’形成对比。"
-            }
-          ],
-          "different_meanings": [
-            {
-              "start": 2,
-              "end": 2,
-              "old": "蟹腿"
-            },
-            {
-              "start": 2,
-              "end": 2,
-              "new": "跪下"
+              "start": 0,
+              "end": 22,
+              "content": "判断句，‘非……无……者’构成否定判断结构，表示‘没有……就无法……’。"
             }
           ]
         }

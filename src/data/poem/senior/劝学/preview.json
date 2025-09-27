@@ -10,7 +10,7 @@
             },
             {
               "char": "子",
-              "pinyin": "zi"
+              "pinyin": "zǐ"
             },
             {
               "char": "曰",
@@ -52,15 +52,9 @@
             }
           ],
           "translation": {
-            "translation": "君子说：学习是不能停止的。"
+            "translation": "君子说：学习是不可以停止的。"
           },
-          "notes": [
-            {
-              "start": 6,
-              "end": 7,
-              "note": "可以：古义为‘能够用来’，‘可’与‘以’为两个词，不同于现代连词‘可以’。"
-            }
-          ]
+          "notes": []
         },
         {
           "sentence": [
@@ -86,23 +80,11 @@
             },
             {
               "char": "蓝",
-              "pinyin": "lán",
-              "note": [
-                {
-                  "title": "注释",
-                  "content": "于：介词，表示比较，相当于‘比’。"
-                }
-              ]
+              "pinyin": "lán"
             },
             {
               "char": "，",
-              "pinyin": "　",
-              "note": [
-                {
-                  "title": "注释",
-                  "content": "蓝：指蓼蓝，一种可制染料的植物，并非颜色义。"
-                }
-              ]
+              "pinyin": "　"
             },
             {
               "char": "而",
@@ -138,13 +120,7 @@
             },
             {
               "char": "为",
-              "pinyin": "wéi",
-              "note": [
-                {
-                  "title": "注释",
-                  "content": "为：动词，读 wéi，意为‘变成’。"
-                }
-              ]
+              "pinyin": "wéi"
             },
             {
               "char": "之",
@@ -176,7 +152,7 @@
             }
           ],
           "translation": {
-            "translation": "靛青是从蓼蓝中提取的，但颜色比蓼蓝更深；冰是由水凝结而成的，但比水更寒冷。"
+            "translation": "靛青是从蓝草里提取的，可是比蓝草的颜色更深；冰是水凝结而成的，却比水还要寒冷。"
           },
           "notes": []
         },
@@ -192,13 +168,7 @@
             },
             {
               "char": "中",
-              "pinyin": "zhòng",
-              "note": [
-                {
-                  "title": "注释",
-                  "content": "中：读 zhòng，意为‘符合、合于’。"
-                }
-              ]
+              "pinyin": "zhòng"
             },
             {
               "char": "绳",
@@ -214,7 +184,7 @@
               "note": [
                 {
                   "title": "注释",
-                  "content": "輮：通‘煣’，用火烘烤使木材弯曲。"
+                  "content": "輮：通‘煣’，用火烘烤木材使之弯曲。"
                 }
               ]
             },
@@ -256,13 +226,13 @@
             }
           ],
           "translation": {
-            "translation": "木材笔直，合乎墨线，用火烘烤使它弯曲做成车轮，它的弧度就能合乎圆规的标准。"
+            "translation": "一块木材直得合乎墨线，假如用火烤使它弯曲做成车轮，它的弧度就可以符合圆规的标准。"
           },
           "notes": [
             {
-              "start": 7,
+              "start": 6,
               "end": 8,
-              "note": "以为：古义为‘以（之）为’，即‘把它做成’，与现代‘认为’不同。"
+              "note": "以为：以之为，即‘把它做成’。为，动词，成为。"
             }
           ]
         },
@@ -274,11 +244,11 @@
             },
             {
               "char": "有",
-              "pinyin": "yòu",
+              "pinyin": "yǒu",
               "note": [
                 {
                   "title": "注释",
-                  "content": "有：通‘又’，表示再次或递进。"
+                  "content": "有：通‘又’，表示再次或补充。"
                 }
               ]
             },
@@ -288,17 +258,17 @@
             },
             {
               "char": "暴",
-              "pinyin": "pù"
-            },
-            {
-              "char": "，",
-              "pinyin": "　",
+              "pinyin": "pù",
               "note": [
                 {
                   "title": "注释",
-                  "content": "暴：通‘曝’，读 pù，意为晒。"
+                  "content": "暴：通‘曝’，晒。指木材经日晒干枯。"
                 }
               ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
             },
             {
               "char": "不",
@@ -310,13 +280,7 @@
             },
             {
               "char": "挺",
-              "pinyin": "tǐng",
-              "note": [
-                {
-                  "title": "注释",
-                  "content": "挺：伸直，恢复原状。"
-                }
-              ]
+              "pinyin": "tǐng"
             },
             {
               "char": "者",
@@ -344,7 +308,7 @@
               "note": [
                 {
                   "title": "注释",
-                  "content": "然：代词，指代前文‘曲’的状态，即‘这样’。"
+                  "content": "然：代词，这样，指代前文‘曲中规’的状态。"
                 }
               ]
             },
@@ -358,7 +322,7 @@
             }
           ],
           "translation": {
-            "translation": "即使再经风吹日晒，也不会再挺直了，这是因为烘烤使它弯曲成这样的。"
+            "translation": "即使又被风吹日晒而干枯了，木材也不会再挺直，是因为经过加工使它成为这样的。"
           },
           "notes": []
         },
@@ -398,19 +362,13 @@
               "note": [
                 {
                   "title": "注释",
-                  "content": "金：指金属制的刀斧等器物，非专指黄金。"
+                  "content": "金：古代泛指金属制的刀剑等兵器，非专指黄金。"
                 }
               ]
             },
             {
               "char": "就",
-              "pinyin": "jiù",
-              "note": [
-                {
-                  "title": "注释",
-                  "content": "就：靠近、接近，如‘就学’。"
-                }
-              ]
+              "pinyin": "jiù"
             },
             {
               "char": "砺",
@@ -433,22 +391,14 @@
             {
               "char": "，",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "所以木材经过墨线比量就能取直，金属刀具在磨刀石上磨过就锋利了，"
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "君",
               "pinyin": "jūn"
             },
             {
               "char": "子",
-              "pinyin": "zi"
+              "pinyin": "zǐ"
             },
             {
               "char": "博",
@@ -468,7 +418,7 @@
               "note": [
                 {
                   "title": "注释",
-                  "content": "日：名词作状语，意为‘每天’，表示时间频率。"
+                  "content": "日：每天，名词作状语，表示时间频率。"
                 }
               ]
             },
@@ -486,7 +436,7 @@
               "note": [
                 {
                   "title": "注释",
-                  "content": "乎：相当于‘于’，引出对象，可译为‘对’。"
+                  "content": "乎：相当于‘于’，介词，引进对象。"
                 }
               ]
             },
@@ -504,13 +454,7 @@
             },
             {
               "char": "知",
-              "pinyin": "zhì",
-              "note": [
-                {
-                  "title": "注释",
-                  "content": "知：通‘智’，智慧，读 zhì。"
-                }
-              ]
+              "pinyin": "zhī"
             },
             {
               "char": "明",
@@ -542,15 +486,1223 @@
             }
           ],
           "translation": {
-            "translation": "君子广泛地学习并且每天反省自己，就能智慧明达而且行为没有过失了。"
+            "translation": "所以木材用墨线量过再经辅具加工就能取直，刀剑在磨刀石上磨过就能变得锋利，君子广泛地学习并且每天检验反省自己，那么他就会智慧明达而且行为没有过失了。"
           },
           "notes": [
             {
-              "start": 6,
-              "end": 7,
-              "note": "参省：读 cān xǐng，意为检验反省。‘参’通‘三’，表多次。"
+              "start": 16,
+              "end": 17,
+              "note": "博学：广泛地学习，动词性短语，非现代形容词‘知识渊博’。"
+            },
+            {
+              "start": 19,
+              "end": 20,
+              "note": "参省：检验并反省。参，检验；省，反省。"
             }
           ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "尝",
+              "pinyin": "cháng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "尝：曾经，表示过去经历。"
+                }
+              ]
+            },
+            {
+              "char": "终",
+              "pinyin": "zhōng"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "思",
+              "pinyin": "sī"
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "如",
+              "pinyin": "rú"
+            },
+            {
+              "char": "须",
+              "pinyin": "xū"
+            },
+            {
+              "char": "臾",
+              "pinyin": "yú"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú"
+            },
+            {
+              "char": "尝",
+              "pinyin": "cháng"
+            },
+            {
+              "char": "跂",
+              "pinyin": "qǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "跂：踮起脚后跟，读作qǐ，动作描写。"
+                }
+              ]
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "望",
+              "pinyin": "wàng"
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "如",
+              "pinyin": "rú"
+            },
+            {
+              "char": "登",
+              "pinyin": "dēng"
+            },
+            {
+              "char": "高",
+              "pinyin": "gāo"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "博",
+              "pinyin": "bó"
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我曾经整天思索，却不如片刻学到的知识多；我曾经踮起脚远望，却不如登到高处看得广阔。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "登",
+              "pinyin": "dēng"
+            },
+            {
+              "char": "高",
+              "pinyin": "gāo"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "招",
+              "pinyin": "zhāo"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "臂",
+              "pinyin": "bì"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "加",
+              "pinyin": "jiā"
+            },
+            {
+              "char": "长",
+              "pinyin": "zhǎng"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "顺",
+              "pinyin": "shùn"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "呼",
+              "pinyin": "hū"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "声",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "加",
+              "pinyin": "jiā"
+            },
+            {
+              "char": "疾",
+              "pinyin": "jí",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "疾：此处指声音洪亮、有力，非‘疾病’。"
+                }
+              ]
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "彰",
+              "pinyin": "zhāng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "登到高处招手，胳膊没有加长，可是别人在远处也能看见；顺着风呼叫，声音没有变得洪亮，可是听的人在远处也能听得很清楚。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "假",
+              "pinyin": "jiǎ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "假：借助，利用，重要实词。"
+                }
+              ]
+            },
+            {
+              "char": "舆",
+              "pinyin": "yú"
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "利",
+              "pinyin": "lì"
+            },
+            {
+              "char": "足",
+              "pinyin": "zú"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "致",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān"
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "假",
+              "pinyin": "jiǎ"
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "楫",
+              "pinyin": "jí"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "绝",
+              "pinyin": "jué",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "绝：横渡，穿越，如‘绝江河’即渡过大江大河。"
+                }
+              ]
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "河",
+              "pinyin": "hé"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "借助车马的人，并不是脚走得快，却可以达到千里之外；借助舟船的人，并不善于游泳，却可以横渡江河。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "君",
+              "pinyin": "jūn"
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ"
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "生：通‘性’，指人的天赋资质。"
+                }
+              ]
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "异",
+              "pinyin": "yì"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "善",
+              "pinyin": "shàn"
+            },
+            {
+              "char": "假",
+              "pinyin": "jiǎ"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "物",
+              "pinyin": "wù"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "君子的资质秉性跟一般人没有不同，只是君子善于借助外物罢了。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "积",
+              "pinyin": "jī"
+            },
+            {
+              "char": "土",
+              "pinyin": "tǔ"
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "雨",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "兴",
+              "pinyin": "xīng"
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān"
+            },
+            {
+              "char": "；",
+              "pinyin": "　",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "焉：兼词，相当于‘于此’，即‘在这里’。"
+                }
+              ]
+            },
+            {
+              "char": "积",
+              "pinyin": "jī"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "渊",
+              "pinyin": "yuān"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "蛟",
+              "pinyin": "jiāo"
+            },
+            {
+              "char": "龙",
+              "pinyin": "lóng"
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "积",
+              "pinyin": "jī"
+            },
+            {
+              "char": "善",
+              "pinyin": "shàn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "善：善行，善事，名词，指良好的行为积累。"
+                }
+              ]
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "德",
+              "pinyin": "dé"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "神",
+              "pinyin": "shén"
+            },
+            {
+              "char": "明",
+              "pinyin": "míng"
+            },
+            {
+              "char": "自",
+              "pinyin": "zì"
+            },
+            {
+              "char": "得",
+              "pinyin": "dé"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "圣",
+              "pinyin": "shèng"
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "备",
+              "pinyin": "bèi"
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "堆积土石成了高山，风雨从这里兴起；汇积水流成为深渊，蛟龙从这儿产生；积累善行养成高尚的道德，精神得到提升，圣人的心境由此具备。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "故",
+              "pinyin": "gù"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "积",
+              "pinyin": "jī"
+            },
+            {
+              "char": "跬",
+              "pinyin": "kuǐ"
+            },
+            {
+              "char": "步",
+              "pinyin": "bù"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān"
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "积",
+              "pinyin": "jī"
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo"
+            },
+            {
+              "char": "流",
+              "pinyin": "liú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "海",
+              "pinyin": "hǎi"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "所以不积累一步半步的行程，就没有办法达到千里之远；不积累细小的流水，就没有办法汇成江河大海。"
+          },
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "跬步：古代半步，跨一次为‘跬’，两次为‘步’。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "note": "无以：没有用来……的办法，固定结构。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "骐",
+              "pinyin": "qí"
+            },
+            {
+              "char": "骥",
+              "pinyin": "jì"
+            },
+            {
+              "char": "一",
+              "pinyin": "yī"
+            },
+            {
+              "char": "跃",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "十",
+              "pinyin": "shí"
+            },
+            {
+              "char": "步",
+              "pinyin": "bù"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "驽",
+              "pinyin": "nú"
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ"
+            },
+            {
+              "char": "十",
+              "pinyin": "shí"
+            },
+            {
+              "char": "驾",
+              "pinyin": "jià",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "驾：马拉车走一天的路程，古代行军单位。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "功",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "在",
+              "pinyin": "zài"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "舍",
+              "pinyin": "shě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "骏马一跨跃，也不足十步远；劣马连走十天，它的成功在于不停止。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "锲",
+              "pinyin": "qiè",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "锲：雕刻，用刀刻，引申为坚持不懈。"
+                }
+              ]
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "舍",
+              "pinyin": "shě"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "朽",
+              "pinyin": "xiǔ"
+            },
+            {
+              "char": "木",
+              "pinyin": "mù"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "折",
+              "pinyin": "zhé"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "锲",
+              "pinyin": "qiè"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "舍",
+              "pinyin": "shě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn"
+            },
+            {
+              "char": "石",
+              "pinyin": "shí"
+            },
+            {
+              "char": "可",
+              "pinyin": "kě"
+            },
+            {
+              "char": "镂",
+              "pinyin": "lòu",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "镂：雕刻，尤指精细雕琢，与‘锲’呼应。"
+                }
+              ]
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "如果刻几下就停下来了，那么腐朽的木头也刻不断。如果不停地刻下去，那么金石也能雕刻成功。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "蚓",
+              "pinyin": "yǐn"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "爪",
+              "pinyin": "zhǎo"
+            },
+            {
+              "char": "牙",
+              "pinyin": "yá"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "利",
+              "pinyin": "lì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "筋",
+              "pinyin": "jīn"
+            },
+            {
+              "char": "骨",
+              "pinyin": "gǔ"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "强",
+              "pinyin": "qiáng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "上",
+              "pinyin": "shàng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "上：向上，方位名词作状语。"
+                }
+              ]
+            },
+            {
+              "char": "食",
+              "pinyin": "shí"
+            },
+            {
+              "char": "埃",
+              "pinyin": "āi"
+            },
+            {
+              "char": "土",
+              "pinyin": "tǔ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "下：向下，方位名词作状语。"
+                }
+              ]
+            },
+            {
+              "char": "饮",
+              "pinyin": "yǐn"
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng"
+            },
+            {
+              "char": "泉",
+              "pinyin": "quán"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng"
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "用：因为，表原因，‘用心一也’即‘因为心思专一’。"
+                }
+              ]
+            },
+            {
+              "char": "一",
+              "pinyin": "yī"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "蚯蚓没有锐利的爪子和牙齿，强健的筋骨，却能向上吃到泥土，向下喝到地下的泉水，这是由于它用心专一。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "蟹",
+              "pinyin": "xiè"
+            },
+            {
+              "char": "六",
+              "pinyin": "liù"
+            },
+            {
+              "char": "跪",
+              "pinyin": "guì"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "二",
+              "pinyin": "èr"
+            },
+            {
+              "char": "螯",
+              "pinyin": "áo"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "蛇",
+              "pinyin": "shé"
+            },
+            {
+              "char": "鳝",
+              "pinyin": "shàn"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "穴",
+              "pinyin": "xué"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "可",
+              "pinyin": "kě"
+            },
+            {
+              "char": "寄",
+              "pinyin": "jì"
+            },
+            {
+              "char": "托",
+              "pinyin": "tuō"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng"
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "躁",
+              "pinyin": "zào"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "螃蟹有六条腿，两个蟹钳，但是没有蛇、鳝的洞穴它就无处藏身，这是因为它用心浮躁。"
+          },
+          "notes": []
         }
       ]
     }

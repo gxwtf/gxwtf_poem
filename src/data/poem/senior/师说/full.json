@@ -59,33 +59,14 @@
             },
             {
               "char": "。",
-              "pinyin": "",
+              "pinyin": "。",
               "index": 7,
               "read": false,
               "write": false
             }
           ],
           "translation": "古代求学的人必定有老师。",
-          "pinyin": "gǔ zhī xué zhě bì yǒu shī 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 1,
-              "content": "学者：指求学的人，古义与现代‘有学问的人’不同。"
-            }
-          ],
-          "different_meanings": [
-            {
-              "start": 0,
-              "end": 1,
-              "old": "求学的人"
-            },
-            {
-              "start": 0,
-              "end": 1,
-              "new": "有学术成就的人"
-            }
-          ]
+          "pinyin": "gǔ zhī xué zhě bì yǒu shī 。"
         },
         {
           "content": [
@@ -105,7 +86,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 10,
               "read": false,
               "write": false
@@ -143,7 +124,7 @@
               "pinyin": "shòu",
               "index": 15,
               "read": false,
-              "write": true
+              "write": false
             },
             {
               "char": "业",
@@ -163,8 +144,8 @@
               "char": "惑",
               "pinyin": "huò",
               "index": 18,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "也",
@@ -175,48 +156,46 @@
             },
             {
               "char": "。",
-              "pinyin": "",
+              "pinyin": "。",
               "index": 20,
               "read": false,
               "write": false
             }
           ],
-          "translation": "老师，是用来传授道理、教授学业、解答疑难问题的人。",
+          "translation": "老师，是用来传授道理、教授儒家经典著作、解释疑难问题的。",
           "pinyin": "shī zhě ， suǒ yǐ chuán dào shòu yè jiě huò yě 。",
           "notes": [
             {
               "start": 3,
               "end": 4,
-              "content": "所以：用来……的，表凭借，非现代‘因此’之意。"
+              "content": "所以：古义为‘用来……的’，与现代‘因此’不同，此处指老师的作用。"
             },
             {
               "start": 7,
               "end": 7,
-              "content": "受：通‘授’，传授，此处为通假字。"
-            },
-            {
-              "start": 9,
-              "end": 10,
-              "content": "解惑：解除疑惑。‘惑’指学习中的疑难问题。"
+              "content": "受：通‘授’，传授的意思，属通假字。"
             }
           ],
           "different_meanings": [
             {
               "start": 3,
               "end": 4,
-              "old": "用来……的（凭借）"
+              "old": "用来……的"
             },
             {
               "start": 3,
               "end": 4,
               "new": "因此"
             }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 12,
+              "content": "判断句，‘……者，……也’结构，表示对‘师’的定义。"
+            }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -270,7 +249,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 28,
               "read": false,
               "write": false
@@ -305,28 +284,14 @@
             },
             {
               "char": "？",
-              "pinyin": "",
+              "pinyin": "？",
               "index": 33,
               "read": false,
               "write": false
             }
           ],
-          "translation": "人不是生下来就懂得道理的，谁能没有疑惑呢？",
-          "pinyin": "rén fēi shēng ér zhī zhī zhě ， shú néng wú huò ？",
-          "notes": [
-            {
-              "start": 2,
-              "end": 6,
-              "content": "生而知之者：天生就懂得道理的人。‘而’表承接，‘之’代道理。"
-            }
-          ],
-          "special_sentences": [
-            {
-              "start": 9,
-              "end": 12,
-              "content": "‘孰能无惑？’为反问句，意为‘谁能够没有疑惑呢？’"
-            }
-          ]
+          "translation": "人不是一生下来就懂得道理，谁能没有疑惑？",
+          "pinyin": "rén fēi shēng ér zhī zhī zhě ， shú néng wú huò ？"
         },
         {
           "content": [
@@ -367,7 +332,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 39,
               "read": false,
               "write": false
@@ -402,7 +367,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 44,
               "read": false,
               "write": false
@@ -437,26 +402,15 @@
             },
             {
               "char": "。",
-              "pinyin": "",
+              "pinyin": "。",
               "index": 49,
               "read": false,
               "write": false
             }
           ],
-          "translation": "有了疑惑却不跟从老师学习，那些成为疑难的问题，就始终不能解开。",
-          "pinyin": "huò ér bù cóng shī ， qí wéi huò yě ， zhōng bù jiě yǐ 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 4,
-              "content": "惑而不从师：有了疑惑却不愿跟从老师学习。‘而’表转折。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+          "translation": "有了疑惑，如果不跟老师学习，他所存在的疑惑，就始终不能解开。",
+          "pinyin": "huò ér bù cóng shī ， qí wéi huò yě ， zhōng bù jiě yǐ 。"
+        },
         {
           "content": [
             {
@@ -489,7 +443,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 54,
               "read": false,
               "write": false
@@ -533,8 +487,8 @@
               "char": "先",
               "pinyin": "xiān",
               "index": 60,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "乎",
@@ -552,7 +506,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 63,
               "read": false,
               "write": false
@@ -594,48 +548,48 @@
             },
             {
               "char": "；",
-              "pinyin": "",
+              "pinyin": "；",
               "index": 69,
               "read": false,
               "write": false
             }
           ],
-          "translation": "出生在我之前的人，他懂得道理本来就比我早，我跟从他学习，把他当作老师；",
+          "translation": "出生在我之前的人，他懂得的道理本来就比我早，我跟从他学习，以他为老师；",
           "pinyin": "shēng hū wú qián ， qí wén dào yě gù xiān hū wú ， wú cóng ér shī zhī ；",
           "notes": [
             {
-              "start": 6,
-              "end": 8,
-              "content": "闻道：听到、理解道理。‘闻’强调听闻并接受。"
+              "start": 1,
+              "end": 1,
+              "content": "乎：相当于‘于’，表示比较，意为‘在……之前’。"
             },
             {
-              "start": 10,
+              "start": 12,
               "end": 12,
-              "content": "固先乎吾：本来比我早。‘固’意为本来，‘乎’相当于‘于’，表比较。"
+              "content": "乎：同上，表比较，‘比我早’。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "content": "从而：两个词，‘从’意为跟随，‘而’表顺接，非现代连词。"
             }
           ],
           "different_meanings": [
             {
               "start": 15,
-              "end": 17,
-              "old": "跟从并且"
+              "end": 16,
+              "old": "跟随并且"
             },
             {
               "start": 15,
-              "end": 17,
+              "end": 16,
               "new": "因此就"
             }
           ],
           "special_sentences": [
             {
               "start": 0,
-              "end": 4,
-              "content": "‘生乎吾前’为状语后置句，正常语序为‘乎吾前生’，即‘在我之前出生’。"
-            },
-            {
-              "start": 10,
               "end": 13,
-              "content": "‘固先乎吾’为状语后置，‘乎吾’即‘于我’，表比较。"
+              "content": "状语后置句，‘生乎吾前’即‘于吾前生’，‘乎’相当于‘于’。"
             }
           ]
         },
@@ -671,7 +625,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 74,
               "read": false,
               "write": false
@@ -734,7 +688,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 83,
               "read": false,
               "write": false
@@ -776,26 +730,15 @@
             },
             {
               "char": "。",
-              "pinyin": "",
+              "pinyin": "。",
               "index": 89,
               "read": false,
               "write": false
             }
           ],
-          "translation": "出生在我之后的人，如果他懂得道理也比我早，我也跟从他学习，把他当作老师。",
-          "pinyin": "shēng hū wú hòu ， qí wén dào yě yì xiān hū wú ， wú cóng ér shī zhī 。",
-          "notes": [
-            {
-              "start": 10,
-              "end": 12,
-              "content": "亦先乎吾：也比我早。‘亦’为‘也’，‘乎吾’为状语后置结构。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+          "translation": "出生在我之后的人，如果他懂得道理也比我早，我也跟从他，以他为老师。",
+          "pinyin": "shēng hū wú hòu ， qí wén dào yě yì xiān hū wú ， wú cóng ér shī zhī 。"
+        },
         {
           "content": [
             {
@@ -828,14 +771,14 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 94,
               "read": false,
               "write": false
             },
             {
               "char": "夫",
-              "pinyin": "fú",
+              "pinyin": "fū",
               "index": 95,
               "read": false,
               "write": false
@@ -844,8 +787,8 @@
               "char": "庸",
               "pinyin": "yōng",
               "index": 96,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "知",
@@ -919,31 +862,19 @@
             },
             {
               "char": "？",
-              "pinyin": "",
+              "pinyin": "？",
               "index": 107,
               "read": false,
               "write": false
             }
           ],
-          "translation": "我是向他学习道理的，哪管他的年龄比我大还是比我小呢？",
+          "translation": "我是向他学习道理，哪里去考虑他的年龄比我大还是比我小呢？",
           "pinyin": "wú shī dào yě ， fū yōng zhī qí nián zhī xiān hòu shēng yú wú hū ？",
           "notes": [
             {
-              "start": 1,
-              "end": 3,
-              "content": "师道：以道为师，意即学习道理。‘师’为意动用法，以……为师。"
-            },
-            {
               "start": 6,
-              "end": 7,
-              "content": "庸知：岂能知道，‘庸’为反问副词，意为‘哪、难道’。"
-            }
-          ],
-          "special_sentences": [
-            {
-              "start": 5,
-              "end": 17,
-              "content": "‘夫庸知其年之先后生于吾乎？’中‘生于吾’为状语后置，正常语序为‘于吾生’。"
+              "end": 6,
+              "content": "庸：疑问副词，意为‘哪里、怎么’，用于反问语气。"
             }
           ]
         },
@@ -993,7 +924,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 114,
               "read": false,
               "write": false
@@ -1021,14 +952,14 @@
             },
             {
               "char": "少",
-              "pinyin": "shào",
+              "pinyin": "shǎo",
               "index": 118,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 119,
               "read": false,
               "write": false
@@ -1063,7 +994,7 @@
             },
             {
               "char": "，",
-              "pinyin": "",
+              "pinyin": "，",
               "index": 124,
               "read": false,
               "write": false
@@ -1105,48 +1036,3157 @@
             },
             {
               "char": "。",
-              "pinyin": "",
+              "pinyin": "。",
               "index": 130,
               "read": false,
               "write": false
             }
           ],
-          "translation": "因此，无论地位高低贵贱，无论年纪大小，道理存在的地方，就是老师存在的地方。",
+          "translation": "因此，没有地位高低贵贱，没有年纪大小，道理存在的地方，就是老师所在的地方。",
           "pinyin": "shì gù wú guì wú jiàn ， wú zhǎng wú shǎo ， dào zhī suǒ cún ， shī zhī suǒ cún yě 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 2,
+              "content": "无：意为‘无论’，引出条件，非‘没有’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "嗟",
+              "pinyin": "jiē",
+              "index": 131,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū",
+              "index": 132,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 133,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 134,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 135,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 136,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 137,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "传",
+              "pinyin": "chuán",
+              "index": 138,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 139,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "久",
+              "pinyin": "jiǔ",
+              "index": 140,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 141,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 142,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 143,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 144,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 145,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 146,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惑",
+              "pinyin": "huò",
+              "index": 147,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 148,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "难",
+              "pinyin": "nán",
+              "index": 149,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 150,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 151,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "唉！古代从师的传统不流传已经很久了，想要人没有疑惑太难了！",
+          "pinyin": "jiē hū ！ shī dào zhī bù chuán yě jiǔ yǐ ！ yù rén zhī wú huò yě nán yǐ ！"
+        },
+        {
+          "content": [
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 152,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 153,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 154,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 155,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 156,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 157,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "出",
+              "pinyin": "chū",
+              "index": 158,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 159,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 160,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 161,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 162,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 163,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "犹",
+              "pinyin": "yóu",
+              "index": 164,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "且",
+              "pinyin": "qiě",
+              "index": 165,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 166,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 167,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 168,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 169,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān",
+              "index": 170,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "；",
+              "pinyin": "；",
+              "index": 171,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "古代的圣人，他们超出一般人很远，尚且要跟从老师请教；",
+          "pinyin": "gǔ zhī shèng rén ， qí chū rén yě yuǎn yǐ ， yóu qiě cóng shī ér wèn yān ；"
+        },
+        {
+          "content": [
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 172,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 173,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "众",
+              "pinyin": "zhòng",
+              "index": 174,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 175,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 176,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 177,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 178,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 179,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 180,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 181,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亦",
+              "pinyin": "yì",
+              "index": 182,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 183,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 184,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 185,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 186,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耻",
+              "pinyin": "chǐ",
+              "index": 187,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "学",
+              "pinyin": "xué",
+              "index": 188,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 189,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 190,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 191,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "现在的普通人，他们才智不及圣人也很远，却以向老师学习为耻。",
+          "pinyin": "jīn zhī zhòng rén ， qí xià shèng rén yě yì yuǎn yǐ ， ér chǐ xué yú shī 。"
+        },
+        {
+          "content": [
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 192,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 193,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 194,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "益",
+              "pinyin": "yì",
+              "index": 195,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 196,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 197,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愚",
+              "pinyin": "yú",
+              "index": 198,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "益",
+              "pinyin": "yì",
+              "index": 199,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愚",
+              "pinyin": "yú",
+              "index": 200,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 201,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "因此，圣人更加圣明，愚人更加愚昧。",
+          "pinyin": "shì gù shèng yì shèng ， yú yì yú 。"
+        },
+        {
+          "content": [
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 202,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 203,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 204,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 205,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 206,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 207,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 208,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 209,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愚",
+              "pinyin": "yú",
+              "index": 210,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 211,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 212,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 213,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 214,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 215,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愚",
+              "pinyin": "yú",
+              "index": 216,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 217,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 218,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē",
+              "index": 219,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "出",
+              "pinyin": "chū",
+              "index": 220,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 221,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 222,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū",
+              "index": 223,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "？",
+              "index": 224,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "圣人成为圣人的原因，愚人成为愚人的原因，大概就是出于这个缘故吧？",
+          "pinyin": "shèng rén zhī suǒ yǐ wéi shèng ， yú rén zhī suǒ yǐ wéi yú ， qí jiē chū yú cǐ hū ？"
+        },
+        {
+          "content": [
+            {
+              "char": "爱",
+              "pinyin": "ài",
+              "index": 225,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 226,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 227,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 228,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "择",
+              "pinyin": "zé",
+              "index": 229,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 230,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 231,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "教",
+              "pinyin": "jiào",
+              "index": 232,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 233,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "；",
+              "pinyin": "；",
+              "index": 234,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 235,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 236,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 237,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 238,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 239,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 240,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耻",
+              "pinyin": "chǐ",
+              "index": 241,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 242,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān",
+              "index": 243,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 244,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惑",
+              "pinyin": "huò",
+              "index": 245,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 246,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 247,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "爱自己的孩子，选择老师来教他。但是对于他自己，却以跟从老师学习为可耻，真是糊涂啊！",
+          "pinyin": "ài qí zǐ ， zé shī ér jiào zhī ； yú qí shēn yě ， zé chǐ shī yān ， huò yǐ 。"
+        },
+        {
+          "content": [
+            {
+              "char": "彼",
+              "pinyin": "bǐ",
+              "index": 248,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "童",
+              "pinyin": "tóng",
+              "index": 249,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 250,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 251,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 252,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 253,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "授",
+              "pinyin": "shòu",
+              "index": 254,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 255,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "书",
+              "pinyin": "shū",
+              "index": 256,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 257,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "习",
+              "pinyin": "xí",
+              "index": 258,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 259,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "句",
+              "pinyin": "jù",
+              "index": 260,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "读",
+              "pinyin": "dú",
+              "index": 261,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 262,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 263,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 264,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú",
+              "index": 265,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 266,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谓",
+              "pinyin": "wèi",
+              "index": 267,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "传",
+              "pinyin": "chuán",
+              "index": 268,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 269,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 270,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "解",
+              "pinyin": "jiě",
+              "index": 271,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 272,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惑",
+              "pinyin": "huò",
+              "index": 273,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 274,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 275,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 276,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "那些教小孩子的（启蒙）老师，教他读书，学习书中的文句的停顿，并不是我所说的传授道理，解答疑难问题的老师。",
+          "pinyin": "bǐ tóng zǐ zhī shī ， shòu zhī shū ér xí qí jù dú zhě ， fēi wú suǒ wèi chuán qí dào jiě qí huò zhě yě 。"
+        },
+        {
+          "content": [
+            {
+              "char": "句",
+              "pinyin": "jù",
+              "index": 277,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "读",
+              "pinyin": "dú",
+              "index": 278,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 279,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 280,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 281,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 282,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惑",
+              "pinyin": "huò",
+              "index": 283,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 284,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 285,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "解",
+              "pinyin": "jiě",
+              "index": 286,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 287,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "或",
+              "pinyin": "huò",
+              "index": 288,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 289,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān",
+              "index": 290,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 291,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "或",
+              "pinyin": "huò",
+              "index": 292,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 293,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān",
+              "index": 294,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 295,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 296,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "学",
+              "pinyin": "xué",
+              "index": 297,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 298,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 299,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遗",
+              "pinyin": "yí",
+              "index": 300,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 301,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "吾",
+              "pinyin": "wú",
+              "index": 302,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 303,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn",
+              "index": 304,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 305,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 306,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 307,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 308,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "不知句子停顿，有疑惑解决不了，有的向老师学习，有的不向老师学习，小的方面要学习，大的方面却放弃了，我没有看到他的明达。",
+          "pinyin": "jù dú zhī bù zhī ， huò zhī bù jiě ， huò shī yān ， huò bù yān ， xiǎo xué ér dà yí ， wú wèi jiàn qí míng yě 。",
           "notes": [
             {
               "start": 0,
               "end": 1,
-              "content": "是故：因此，所以，用于引出结论。"
+              "content": "句读：指文辞的停顿和断句，‘句’为语意完整处，‘读’为语意未完的停顿。"
             },
             {
               "start": 3,
-              "end": 6,
-              "content": "无贵无贱：无论地位高贵还是低贱。‘无’意为‘不论’。"
+              "end": 3,
+              "content": "之：提宾标志，用于‘句读之不知’中，将宾语前置。"
             },
             {
-              "start": 12,
-              "end": 21,
-              "content": "道之所存，师之所存也：道理存在的地方，就是老师存在的地方。‘之’取消句子独立性，构成判断句。"
+              "start": 16,
+              "end": 16,
+              "content": "不：通‘否’，表示否定回答，读作fǒu。"
+            },
+            {
+              "start": 19,
+              "end": 20,
+              "content": "小学：古义指‘小的方面去学习’，与现代‘小学教育’不同。"
             }
           ],
           "different_meanings": [
             {
-              "start": 3,
-              "end": 6,
-              "old": "不论"
+              "start": 19,
+              "end": 20,
+              "old": "小的方面学习"
             },
             {
-              "start": 3,
-              "end": 6,
-              "new": "没有"
+              "start": 19,
+              "end": 20,
+              "new": "初级教育阶段"
             }
           ],
           "special_sentences": [
             {
+              "start": 0,
+              "end": 10,
+              "content": "宾语前置句，‘句读之不知，惑之不解’中‘之’为提宾标志。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "巫",
+              "pinyin": "wū",
+              "index": 309,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "医",
+              "pinyin": "yī",
+              "index": 310,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乐",
+              "pinyin": "yuè",
+              "index": 311,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 312,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 313,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "工",
+              "pinyin": "gōng",
+              "index": 314,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 315,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 316,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 317,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 318,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耻",
+              "pinyin": "chǐ",
+              "index": 319,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 320,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 321,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 322,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "巫医、乐师、各种工匠这些人，不以互相学习为耻。",
+          "pinyin": "wū yī yuè shī bǎi gōng zhī rén ， bù chǐ xiāng shī 。"
+        },
+        {
+          "content": [
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 323,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "大",
+              "pinyin": "dài",
+              "index": 324,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夫",
+              "pinyin": "fū",
+              "index": 325,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 326,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "族",
+              "pinyin": "zú",
+              "index": 327,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 328,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē",
+              "index": 329,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 330,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē",
+              "index": 331,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弟",
+              "pinyin": "dì",
+              "index": 332,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 333,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "云",
+              "pinyin": "yún",
+              "index": 334,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 335,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 336,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 337,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "群",
+              "pinyin": "qún",
+              "index": 338,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "聚",
+              "pinyin": "jù",
+              "index": 339,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 340,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "笑",
+              "pinyin": "xiào",
+              "index": 341,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 342,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 343,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "士大夫这一类人，听到称“老师”称“弟子”的人，就聚在一起嘲笑他们。",
+          "pinyin": "shì dài fū zhī zú ， yuē shī yuē dì zǐ yún zhě ， zé qún jù ér xiào zhī 。"
+        },
+        {
+          "content": [
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 344,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 345,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 346,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 347,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē",
+              "index": 348,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "：",
+              "index": 349,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "“",
+              "pinyin": "“",
+              "index": 350,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "彼",
+              "pinyin": "bǐ",
+              "index": 351,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 352,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "彼",
+              "pinyin": "bǐ",
+              "index": 353,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 354,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 355,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò",
+              "index": 356,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 357,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 358,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 359,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 360,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "似",
+              "pinyin": "sì",
+              "index": 361,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 362,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 363,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "位",
+              "pinyin": "wèi",
+              "index": 364,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卑",
+              "pinyin": "bēi",
+              "index": 365,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 366,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "足",
+              "pinyin": "zú",
+              "index": 367,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "羞",
+              "pinyin": "xiū",
+              "index": 368,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 369,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "官",
+              "pinyin": "guān",
+              "index": 370,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "盛",
+              "pinyin": "shèng",
+              "index": 371,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 372,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "近",
+              "pinyin": "jìn",
+              "index": 373,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谀",
+              "pinyin": "yú",
+              "index": 374,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。”",
+              "index": 375,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "”",
+              "index": 376,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "问他们，就说：“他和他年龄差不多，懂得的道理也差不多。（以）地位低（的人为师），就觉得羞耻，（以）官职高（的人为师），就近乎谄媚了。”",
+          "pinyin": "wèn zhī ， zé yuē ： “ bǐ yǔ bǐ nián xiāng ruò yě ， dào xiāng sì yě ， wèi bēi zé zú xiū ， guān shèng zé jìn yú 。”"
+        },
+        {
+          "content": [
+            {
+              "char": "呜",
+              "pinyin": "wū",
+              "index": 377,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "呼",
+              "pinyin": "hū",
+              "index": 378,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 379,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 380,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 381,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 382,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 383,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 384,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 385,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 386,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 387,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 388,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 389,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "哎！求师的风尚难以恢复由此可以知道了！",
+          "pinyin": "wū hū ！ shī dào zhī bù fù ， kě zhī yǐ 。"
+        },
+        {
+          "content": [
+            {
+              "char": "巫",
+              "pinyin": "wū",
+              "index": 390,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "医",
+              "pinyin": "yī",
+              "index": 391,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乐",
+              "pinyin": "yuè",
+              "index": 392,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 393,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 394,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "工",
+              "pinyin": "gōng",
+              "index": 395,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 396,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 397,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 398,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 399,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 400,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 401,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "齿",
+              "pinyin": "chǐ",
+              "index": 402,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 403,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 404,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 405,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "智",
+              "pinyin": "zhì",
+              "index": 406,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乃",
+              "pinyin": "nǎi",
+              "index": 407,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "反",
+              "pinyin": "fǎn",
+              "index": 408,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 409,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 410,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 411,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 412,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 413,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 414,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怪",
+              "pinyin": "guài",
+              "index": 415,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 416,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欤",
+              "pinyin": "yú",
+              "index": 417,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "！",
+              "index": 418,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "巫医、乐师、各种工匠这些人，君子不屑一提，现在他们的智慧竟然反而比不上这些人了，这真是奇怪啊！",
+          "pinyin": "wū yī yuè shī bǎi gōng zhī rén ， jūn zǐ bù chǐ ， jīn qí zhì nǎi fǎn bù néng jí ， qí kě guài yě yú ！",
+          "notes": [
+            {
               "start": 12,
-              "end": 22,
-              "content": "‘道之所存，师之所存也’为判断句，且‘之’字取消句子独立性，构成主谓短语作主语。"
+              "end": 12,
+              "content": "不齿：意为不屑与之同列，表示极端鄙视。"
+            },
+            {
+              "start": 18,
+              "end": 18,
+              "content": "乃：副词，意为‘竟然’，表示出乎意料的转折。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 419,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 420,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 421,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "常",
+              "pinyin": "cháng",
+              "index": 422,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 423,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 424,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "圣人没有固定的老师。",
+          "pinyin": "shèng rén wú cháng shī 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "常师：固定的老师，‘常’意为固定、永久。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "孔",
+              "pinyin": "kǒng",
+              "index": 425,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 426,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 427,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郯",
+              "pinyin": "tán",
+              "index": 428,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 429,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "、",
+              "index": 430,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "苌",
+              "pinyin": "cháng",
+              "index": 431,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "弘",
+              "pinyin": "hóng",
+              "index": 432,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "、",
+              "index": 433,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 434,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "襄",
+              "pinyin": "xiāng",
+              "index": 435,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "、",
+              "index": 436,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "老",
+              "pinyin": "lǎo",
+              "index": 437,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "聃",
+              "pinyin": "dān",
+              "index": 438,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 439,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "孔子曾以郯子、苌弘、师襄、老聃为师。",
+          "pinyin": "kǒng zǐ shī tán zǐ 、 cháng hóng 、 shī xiāng 、 lǎo dān 。"
+        },
+        {
+          "content": [
+            {
+              "char": "郯",
+              "pinyin": "tán",
+              "index": 440,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 441,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 442,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "徒",
+              "pinyin": "tú",
+              "index": 443,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 444,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 445,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贤",
+              "pinyin": "xián",
+              "index": 446,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 447,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 448,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孔",
+              "pinyin": "kǒng",
+              "index": 449,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 450,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 451,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "郯子这些人，他们的贤能都比不上孔子。",
+          "pinyin": "tán zǐ zhī tú ， qí xián bù jí kǒng zǐ 。"
+        },
+        {
+          "content": [
+            {
+              "char": "孔",
+              "pinyin": "kǒng",
+              "index": 452,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 453,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē",
+              "index": 454,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "：",
+              "index": 455,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 456,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 457,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 458,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 459,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 460,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "必",
+              "pinyin": "bì",
+              "index": 461,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 462,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 463,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 464,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 465,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "孔子说：“几个人一起走，其中一定有可以当我的老师的人。”",
+          "pinyin": "kǒng zǐ yuē ： sān rén xíng ， zé bì yǒu wǒ shī 。"
+        },
+        {
+          "content": [
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 466,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 467,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弟",
+              "pinyin": "dì",
+              "index": 468,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 469,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 470,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "必",
+              "pinyin": "bì",
+              "index": 471,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 472,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 473,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 474,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 475,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 476,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 477,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "必",
+              "pinyin": "bì",
+              "index": 478,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贤",
+              "pinyin": "xián",
+              "index": 479,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 480,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弟",
+              "pinyin": "dì",
+              "index": 481,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 482,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 483,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 484,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 485,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 486,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 487,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 488,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 489,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "术",
+              "pinyin": "shù",
+              "index": 490,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "业",
+              "pinyin": "yè",
+              "index": 491,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 492,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "专",
+              "pinyin": "zhuān",
+              "index": 493,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "攻",
+              "pinyin": "gōng",
+              "index": 494,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 495,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 496,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 497,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 498,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 499,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 500,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "因此学生不一定不如老师，老师不一定比学生贤能，听到的道理有早有晚，学问技艺各有专长，如此罢了。",
+          "pinyin": "shì gù dì zǐ bù bì bù rú shī ， shī bù bì xián yú dì zǐ ， wén dào yǒu xiān hòu ， shù yè yǒu zhuān gōng ， rú shì ér yǐ 。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "李",
+              "pinyin": "lǐ",
+              "index": 501,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "氏",
+              "pinyin": "shì",
+              "index": 502,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 503,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "蟠",
+              "pinyin": "pán",
+              "index": 504,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 505,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 506,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 507,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "七",
+              "pinyin": "qī",
+              "index": 508,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 509,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "好",
+              "pinyin": "hào",
+              "index": 510,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 511,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "文",
+              "pinyin": "wén",
+              "index": 512,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 513,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "六",
+              "pinyin": "liù",
+              "index": 514,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "艺",
+              "pinyin": "yì",
+              "index": 515,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "经",
+              "pinyin": "jīng",
+              "index": 516,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "传",
+              "pinyin": "zhuàn",
+              "index": 517,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē",
+              "index": 518,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "通",
+              "pinyin": "tōng",
+              "index": 519,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "习",
+              "pinyin": "xí",
+              "index": 520,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 521,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 522,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 523,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "拘",
+              "pinyin": "jū",
+              "index": 524,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 525,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 526,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 527,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "学",
+              "pinyin": "xué",
+              "index": 528,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 529,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 530,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 531,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "李家的孩子蟠，年龄十七，喜欢古文，六经的经文和传文都普遍地学习了，不受世俗的拘束，向我学习。",
+          "pinyin": "lǐ shì zǐ pán ， nián shí qī ， hào gǔ wén ， liù yì jīng zhuàn jiē tōng xí zhī ， bù jū yú shí ， xué yú yú 。",
+          "notes": [
+            {
+              "start": 13,
+              "end": 14,
+              "content": "六艺：指《诗》《书》《礼》《乐》《易》《春秋》六部经典。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 23,
+              "end": 25,
+              "content": "被动句，‘不拘于时’中‘于’引出被动原因，意为‘不被时代束缚’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 532,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "嘉",
+              "pinyin": "jiā",
+              "index": 533,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 534,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 535,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 536,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 537,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 538,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 539,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "作",
+              "pinyin": "zuò",
+              "index": 540,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "《",
+              "pinyin": "《",
+              "index": 541,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 542,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "说",
+              "pinyin": "shuō",
+              "index": 543,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "》",
+              "pinyin": "》",
+              "index": 544,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 545,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贻",
+              "pinyin": "yí",
+              "index": 546,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 547,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "。",
+              "index": 548,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我赞许他能够遵行古人从师的途径，写这篇《师说》来赠送他。",
+          "pinyin": "yú jiā qí néng xíng gǔ dào ， zuò 《 shī shuō 》 yǐ yí zhī 。",
+          "notes": [
+            {
+              "start": 14,
+              "end": 14,
+              "content": "贻：赠送的意思，常用于书籍赠人，读作yí。"
             }
           ]
         }
