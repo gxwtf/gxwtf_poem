@@ -12,7 +12,7 @@ type Props = {
 };
 
 export default function Page() {
-	let params = useParams() as Props;
+	const params = useParams() as Props;
 	params.poem = decodeURIComponent(params.poem);
 	
 	const [fullData, setFullData] = useState<InputData | null>(null);
@@ -28,20 +28,20 @@ export default function Page() {
 	useEffect(() => {
 		if (fullData){
 			let cnt = 0, ncnt = 0;
-			for (let i of fullData.paragraphs)
-				for (let j of i.sentences){
+			for (const i of fullData.paragraphs)
+				for (const j of i.sentences){
 					let content = '';
-					for (let k of j.content)
+					for (const k of j.content)
 						content += k.char;
 					setText((prev) => prev.concat({id: ++cnt, content: content, translation: j.translation || ""}));
 				
 					if (j.notes){
-						for (let k of j.notes)
+						for (const k of j.notes)
 							setTable((prev) => prev.concat({id: ++ncnt, name: 'XC', description: k.content, metadata: k}));
 					}
 				}
 		}
-	}, [fullData]);
+	}, [fullData, params]);
 
 	return (
 		<>
