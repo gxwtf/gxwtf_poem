@@ -23,7 +23,7 @@ export default function Page() {
 		(async () => {
 			setFullData(JSON.parse((await getFullData(params)).toString()));
 		})();
-	}, []);
+	}, [params]);
 
 	useEffect(() => {
 		if (fullData){
@@ -41,7 +41,7 @@ export default function Page() {
 					}
 				}
 		}
-	}, [fullData, params]);
+	}, [fullData]);
 
 	return (
 		<>
