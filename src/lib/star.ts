@@ -2,7 +2,7 @@
 
 import prisma from "@/lib/prisma";
 
-export const queryStar = async (userId: number, poemId: string): Promise<Boolean> => {
+export const queryStar = async (userId: number, poemId: string): Promise<boolean> => {
     const res = await prisma.star.findUnique({
         where: {
             compoundId: {
@@ -15,7 +15,7 @@ export const queryStar = async (userId: number, poemId: string): Promise<Boolean
     return false;
 };
 
-export const updateStar = async (userId: number, poemId: string): Promise<Boolean> => {
+export const updateStar = async (userId: number, poemId: string): Promise<boolean> => {
     const type = await queryStar(userId,poemId);
     if(type){
         await prisma.star.delete({

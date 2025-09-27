@@ -2,7 +2,6 @@
 
 import {
     Card,
-    CardAction,
     CardContent,
     CardDescription,
     CardFooter,
@@ -14,7 +13,6 @@ import { Tag } from "@/components/tag"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { Skeleton } from "@/components/ui/skeleton"
-import { StarButton } from "./star"
 
 interface PoemCardProps {
     title: string

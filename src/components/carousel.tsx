@@ -9,6 +9,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
+import Image from "next/image";
 
 export function CarouselPlugin() {
     const plugin = React.useRef(
@@ -78,13 +79,12 @@ export function CarouselPlugin() {
                             {imageUrls.map((url, index) => (
                                 <CarouselItem key={index} className="h-full">
                                     <div className="relative w-full h-full rounded-xl overflow-hidden">
-                                        <img
+                                        <Image
                                             src={url}
                                             alt={`Carousel image ${index + 1}`}
+                                            width={300}
+                                            height={256}
                                             className="object-cover w-full h-full object-center"
-                                            onError={(e) => {
-                                                e.currentTarget.src = "https://via.placeholder.com/300x256/cccccc/999999?text=Image+Not+Found"
-                                            }}
                                         />
                                     </div>
                                 </CarouselItem>
