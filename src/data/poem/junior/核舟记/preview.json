@@ -92,27 +92,27 @@
             },
             {
               "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "器",
               "pinyin": "qì"
             },
             {
-              "char": "皿",
+              "char": "器",
               "pinyin": "mǐn"
             },
             {
-              "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "人",
+              "char": "皿",
               "pinyin": "rén"
             },
             {
-              "char": "物",
+              "char": "、",
               "pinyin": "wù"
+            },
+            {
+              "char": "人",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "物",
+              "pinyin": "zhì"
             },
             {
               "char": "，",
@@ -120,31 +120,31 @@
             },
             {
               "char": "以",
-              "pinyin": "yǐ"
-            },
-            {
-              "char": "至",
-              "pinyin": "zhì"
-            },
-            {
-              "char": "鸟",
               "pinyin": "niǎo"
             },
             {
-              "char": "兽",
+              "char": "至",
               "pinyin": "shòu"
             },
             {
-              "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "木",
+              "char": "鸟",
               "pinyin": "mù"
             },
             {
-              "char": "石",
+              "char": "兽",
               "pinyin": "shí"
+            },
+            {
+              "char": "、",
+              "pinyin": "wǎng"
+            },
+            {
+              "char": "木",
+              "pinyin": "bù"
+            },
+            {
+              "char": "石",
+              "pinyin": "yīn"
             },
             {
               "char": "，",
@@ -152,27 +152,27 @@
             },
             {
               "char": "罔",
-              "pinyin": "wǎng"
-            },
-            {
-              "char": "不",
-              "pinyin": "bù"
-            },
-            {
-              "char": "因",
-              "pinyin": "yīn"
-            },
-            {
-              "char": "势",
               "pinyin": "shì"
             },
             {
-              "char": "象",
+              "char": "不",
               "pinyin": "xiàng"
             },
             {
-              "char": "形",
+              "char": "因",
               "pinyin": "xíng"
+            },
+            {
+              "char": "势",
+              "pinyin": "gè"
+            },
+            {
+              "char": "象",
+              "pinyin": "jù"
+            },
+            {
+              "char": "形",
+              "pinyin": "qíng"
             },
             {
               "char": "，",
@@ -180,19 +180,19 @@
             },
             {
               "char": "各",
-              "pinyin": "gè"
+              "pinyin": "tài"
             },
             {
               "char": "具",
-              "pinyin": "jù"
+              "pinyin": "cháng"
             },
             {
               "char": "情",
-              "pinyin": "qíng"
+              "pinyin": "yí"
             },
             {
               "char": "态",
-              "pinyin": "tài"
+              "pinyin": "yú"
             },
             {
               "char": "。",
@@ -229,27 +229,27 @@
           "sentence": [
             {
               "char": "尝",
-              "pinyin": "cháng"
-            },
-            {
-              "char": "贻",
-              "pinyin": "yí"
-            },
-            {
-              "char": "余",
-              "pinyin": "yú"
-            },
-            {
-              "char": "核",
               "pinyin": "hé"
             },
             {
-              "char": "舟",
+              "char": "贻",
               "pinyin": "zhōu"
             },
             {
-              "char": "一",
+              "char": "余",
               "pinyin": "yī"
+            },
+            {
+              "char": "核",
+              "pinyin": "gài"
+            },
+            {
+              "char": "舟",
+              "pinyin": "dà"
+            },
+            {
+              "char": "一",
+              "pinyin": "sū"
             },
             {
               "char": "，",
@@ -257,7 +257,7 @@
             },
             {
               "char": "盖",
-              "pinyin": "gài",
+              "pinyin": "fàn",
               "note": [
                 {
                   "title": "注释",
@@ -267,15 +267,15 @@
             },
             {
               "char": "大",
-              "pinyin": "dà"
+              "pinyin": "chì"
             },
             {
               "char": "苏",
-              "pinyin": "sū"
+              "pinyin": "bì"
             },
             {
               "char": "泛",
-              "pinyin": "fàn",
+              "pinyin": "yún",
               "note": [
                 {
                   "title": "注释",
@@ -285,15 +285,15 @@
             },
             {
               "char": "赤",
-              "pinyin": "chì"
+              "pinyin": "zhōu"
             },
             {
               "char": "壁",
-              "pinyin": "bì"
+              "pinyin": "shǒu"
             },
             {
               "char": "云",
-              "pinyin": "yún"
+              "pinyin": "wěi"
             },
             {
               "char": "。",
@@ -324,39 +324,39 @@
           "sentence": [
             {
               "char": "舟",
-              "pinyin": "zhōu"
-            },
-            {
-              "char": "首",
-              "pinyin": "shǒu"
-            },
-            {
-              "char": "尾",
-              "pinyin": "wěi"
-            },
-            {
-              "char": "长",
               "pinyin": "cháng"
             },
             {
-              "char": "约",
+              "char": "首",
               "pinyin": "yuē"
             },
             {
-              "char": "八",
+              "char": "尾",
               "pinyin": "bā"
             },
             {
-              "char": "分",
+              "char": "长",
               "pinyin": "fēn"
             },
             {
+              "char": "约",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "八",
+              "pinyin": "jī"
+            },
+            {
+              "char": "分",
+              "pinyin": "gāo"
+            },
+            {
               "char": "有",
-              "pinyin": "yǒu"
+              "pinyin": "kě"
             },
             {
               "char": "奇",
-              "pinyin": "jī"
+              "pinyin": "èr"
             },
             {
               "char": "，",
@@ -364,11 +364,11 @@
             },
             {
               "char": "高",
-              "pinyin": "gāo"
+              "pinyin": "shǔ"
             },
             {
               "char": "可",
-              "pinyin": "kě",
+              "pinyin": "xǔ",
               "note": [
                 {
                   "title": "注释",
@@ -378,15 +378,15 @@
             },
             {
               "char": "二",
-              "pinyin": "èr"
+              "pinyin": "zhōng"
             },
             {
               "char": "黍",
-              "pinyin": "shǔ"
+              "pinyin": "xuān"
             },
             {
               "char": "许",
-              "pinyin": "xǔ"
+              "pinyin": "chǎng"
             },
             {
               "char": "。",
@@ -413,27 +413,27 @@
           "sentence": [
             {
               "char": "中",
-              "pinyin": "zhōng"
-            },
-            {
-              "char": "轩",
-              "pinyin": "xuān"
-            },
-            {
-              "char": "敞",
-              "pinyin": "chǎng"
-            },
-            {
-              "char": "者",
               "pinyin": "zhě"
             },
             {
-              "char": "为",
+              "char": "轩",
               "pinyin": "wéi"
             },
             {
-              "char": "舱",
+              "char": "敞",
               "pinyin": "cāng"
+            },
+            {
+              "char": "者",
+              "pinyin": "ruò"
+            },
+            {
+              "char": "为",
+              "pinyin": "péng"
+            },
+            {
+              "char": "舱",
+              "pinyin": "fù"
             },
             {
               "char": "，",
@@ -441,15 +441,15 @@
             },
             {
               "char": "箬",
-              "pinyin": "ruò"
+              "pinyin": "zhī"
             },
             {
               "char": "篷",
-              "pinyin": "péng"
+              "pinyin": "páng"
             },
             {
               "char": "覆",
-              "pinyin": "fù",
+              "pinyin": "kāi",
               "note": [
                 {
                   "title": "注释",
@@ -459,7 +459,7 @@
             },
             {
               "char": "之",
-              "pinyin": "zhī"
+              "pinyin": "xiǎo"
             },
             {
               "char": "。",
@@ -486,19 +486,19 @@
           "sentence": [
             {
               "char": "旁",
-              "pinyin": "páng"
+              "pinyin": "chuāng"
             },
             {
               "char": "开",
-              "pinyin": "kāi"
+              "pinyin": "zuǒ"
             },
             {
               "char": "小",
-              "pinyin": "xiǎo"
+              "pinyin": "yòu"
             },
             {
               "char": "窗",
-              "pinyin": "chuāng"
+              "pinyin": "gè"
             },
             {
               "char": "，",
@@ -506,19 +506,19 @@
             },
             {
               "char": "左",
-              "pinyin": "zuǒ"
+              "pinyin": "sì"
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "gòng"
             },
             {
               "char": "各",
-              "pinyin": "gè"
+              "pinyin": "bā"
             },
             {
               "char": "四",
-              "pinyin": "sì"
+              "pinyin": "shàn"
             },
             {
               "char": "，",
@@ -526,15 +526,15 @@
             },
             {
               "char": "共",
-              "pinyin": "gòng"
+              "pinyin": "qǐ"
             },
             {
               "char": "八",
-              "pinyin": "bā"
+              "pinyin": "chuāng"
             },
             {
               "char": "扇",
-              "pinyin": "shàn"
+              "pinyin": "ér"
             },
             {
               "char": "。",
@@ -550,19 +550,19 @@
           "sentence": [
             {
               "char": "启",
-              "pinyin": "qǐ"
+              "pinyin": "guān"
             },
             {
               "char": "窗",
-              "pinyin": "chuāng"
+              "pinyin": "diāo"
             },
             {
               "char": "而",
-              "pinyin": "ér"
+              "pinyin": "lán"
             },
             {
               "char": "观",
-              "pinyin": "guān"
+              "pinyin": "xiāng"
             },
             {
               "char": "，",
@@ -570,23 +570,23 @@
             },
             {
               "char": "雕",
-              "pinyin": "diāo"
-            },
-            {
-              "char": "栏",
-              "pinyin": "lán"
-            },
-            {
-              "char": "相",
-              "pinyin": "xiāng"
-            },
-            {
-              "char": "望",
               "pinyin": "wàng"
             },
             {
-              "char": "焉",
+              "char": "栏",
               "pinyin": "yān"
+            },
+            {
+              "char": "相",
+              "pinyin": "bì"
+            },
+            {
+              "char": "望",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "焉",
+              "pinyin": "zé"
             },
             {
               "char": "。",
@@ -608,11 +608,11 @@
           "sentence": [
             {
               "char": "闭",
-              "pinyin": "bì"
+              "pinyin": "yòu"
             },
             {
               "char": "之",
-              "pinyin": "zhī"
+              "pinyin": "kè"
             },
             {
               "char": "，",
@@ -620,35 +620,35 @@
             },
             {
               "char": "则",
-              "pinyin": "zé"
+              "pinyin": "shān"
             },
             {
               "char": "右",
-              "pinyin": "yòu"
-            },
-            {
-              "char": "刻",
-              "pinyin": "kè"
-            },
-            {
-              "char": "\"",
-              "pinyin": "\"shān"
-            },
-            {
-              "char": "山",
               "pinyin": "gāo"
             },
             {
-              "char": "高",
+              "char": "刻",
               "pinyin": "yuè"
             },
             {
-              "char": "月",
+              "char": "\"",
               "pinyin": "xiǎo"
             },
             {
+              "char": "山",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "高",
+              "pinyin": "luò"
+            },
+            {
+              "char": "月",
+              "pinyin": "shí"
+            },
+            {
               "char": "小",
-              "pinyin": "，"
+              "pinyin": "chū"
             },
             {
               "char": "，",
@@ -656,34 +656,18 @@
             },
             {
               "char": "水",
-              "pinyin": "luò"
-            },
-            {
-              "char": "落",
-              "pinyin": "shí"
-            },
-            {
-              "char": "石",
-              "pinyin": "chū\""
-            },
-            {
-              "char": "出",
-              "pinyin": "，"
-            },
-            {
-              "char": "\"",
               "pinyin": "zuǒ"
             },
             {
-              "char": "，",
-              "pinyin": "　"
+              "char": "落",
+              "pinyin": "kè"
             },
             {
-              "char": "左",
-              "pinyin": "\"qīng"
+              "char": "石",
+              "pinyin": "qīng"
             },
             {
-              "char": "刻",
+              "char": "出",
               "pinyin": "fēng"
             },
             {
@@ -691,20 +675,36 @@
               "pinyin": "xú"
             },
             {
-              "char": "清",
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "左",
               "pinyin": "lái"
             },
             {
-              "char": "风",
-              "pinyin": "，"
-            },
-            {
-              "char": "徐",
+              "char": "刻",
               "pinyin": "shuǐ"
             },
             {
-              "char": "来",
+              "char": "\"",
               "pinyin": "bō"
+            },
+            {
+              "char": "清",
+              "pinyin": "bù"
+            },
+            {
+              "char": "风",
+              "pinyin": "xīng"
+            },
+            {
+              "char": "徐",
+              "pinyin": "shí"
+            },
+            {
+              "char": "来",
+              "pinyin": "qīng"
             },
             {
               "char": "，",
@@ -712,23 +712,23 @@
             },
             {
               "char": "水",
-              "pinyin": "xīng\""
+              "pinyin": "sǎn"
             },
             {
               "char": "波",
-              "pinyin": "，"
+              "pinyin": "zhī"
             },
             {
               "char": "不",
-              "pinyin": "shí"
+              "pinyin": "chuán"
             },
             {
               "char": "兴",
-              "pinyin": "qīng"
+              "pinyin": "tóu"
             },
             {
               "char": "\"",
-              "pinyin": "sǎn"
+              "pinyin": "zuò"
             },
             {
               "char": "，",
@@ -736,13 +736,15 @@
             },
             {
               "char": "石",
-              "pinyin": "。"
+              "pinyin": "sān"
             },
             {
-              "char": "青"
+              "char": "青",
+              "pinyin": "rén"
             },
             {
               "char": "糁",
+              "pinyin": "zhōng",
               "note": [
                 {
                   "title": "注释",
@@ -751,7 +753,8 @@
               ]
             },
             {
-              "char": "之"
+              "char": "之",
+              "pinyin": "é"
             },
             {
               "char": "。",
@@ -782,23 +785,23 @@
           "sentence": [
             {
               "char": "船",
-              "pinyin": "chuán"
+              "pinyin": "guān"
             },
             {
               "char": "头",
-              "pinyin": "tóu"
+              "pinyin": "ér"
             },
             {
               "char": "坐",
-              "pinyin": "zuò"
+              "pinyin": "duō"
             },
             {
               "char": "三",
-              "pinyin": "sān"
+              "pinyin": "rán"
             },
             {
               "char": "人",
-              "pinyin": "rén"
+              "pinyin": "zhě"
             },
             {
               "char": "，",
@@ -806,43 +809,43 @@
             },
             {
               "char": "中",
-              "pinyin": "zhōng"
-            },
-            {
-              "char": "峨",
-              "pinyin": "é"
-            },
-            {
-              "char": "冠",
-              "pinyin": "guān"
-            },
-            {
-              "char": "而",
-              "pinyin": "ér"
-            },
-            {
-              "char": "多",
-              "pinyin": "duō"
-            },
-            {
-              "char": "髯",
-              "pinyin": "rán"
-            },
-            {
-              "char": "者",
-              "pinyin": "zhě"
-            },
-            {
-              "char": "为",
               "pinyin": "wéi"
             },
             {
-              "char": "东",
+              "char": "峨",
               "pinyin": "dōng"
             },
             {
-              "char": "坡",
+              "char": "冠",
               "pinyin": "pō"
+            },
+            {
+              "char": "而",
+              "pinyin": "fó"
+            },
+            {
+              "char": "多",
+              "pinyin": "yìn"
+            },
+            {
+              "char": "髯",
+              "pinyin": "jū"
+            },
+            {
+              "char": "者",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "为",
+              "pinyin": "lǔ"
+            },
+            {
+              "char": "东",
+              "pinyin": "zhí"
+            },
+            {
+              "char": "坡",
+              "pinyin": "jū"
             },
             {
               "char": "，",
@@ -850,19 +853,19 @@
             },
             {
               "char": "佛",
-              "pinyin": "fó"
+              "pinyin": "zuǒ"
             },
             {
               "char": "印",
-              "pinyin": "yìn"
+              "pinyin": "sū"
             },
             {
               "char": "居",
-              "pinyin": "jū"
+              "pinyin": "huáng"
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "gòng"
             },
             {
               "char": "，",
@@ -870,19 +873,19 @@
             },
             {
               "char": "鲁",
-              "pinyin": "lǔ"
+              "pinyin": "yuè"
             },
             {
               "char": "直",
-              "pinyin": "zhí"
+              "pinyin": "yī"
             },
             {
               "char": "居",
-              "pinyin": "jū"
+              "pinyin": "shǒu"
             },
             {
               "char": "左",
-              "pinyin": "zuǒ"
+              "pinyin": "juàn"
             },
             {
               "char": "。",
@@ -909,35 +912,35 @@
           "sentence": [
             {
               "char": "苏",
-              "pinyin": "sū"
+              "pinyin": "dōng"
             },
             {
               "char": "、",
-              "pinyin": "、"
+              "pinyin": "pō"
             },
             {
               "char": "黄",
-              "pinyin": "huáng"
+              "pinyin": "yòu"
             },
             {
               "char": "共",
-              "pinyin": "gòng"
-            },
-            {
-              "char": "阅",
-              "pinyin": "yuè"
-            },
-            {
-              "char": "一",
-              "pinyin": "yī"
-            },
-            {
-              "char": "手",
               "pinyin": "shǒu"
             },
             {
-              "char": "卷",
+              "char": "阅",
+              "pinyin": "zhí"
+            },
+            {
+              "char": "一",
               "pinyin": "juàn"
+            },
+            {
+              "char": "手",
+              "pinyin": "duān"
+            },
+            {
+              "char": "卷",
+              "pinyin": "zuǒ"
             },
             {
               "char": "。",
@@ -953,31 +956,31 @@
           "sentence": [
             {
               "char": "东",
-              "pinyin": "dōng"
-            },
-            {
-              "char": "坡",
-              "pinyin": "pō"
-            },
-            {
-              "char": "右",
-              "pinyin": "yòu"
-            },
-            {
-              "char": "手",
               "pinyin": "shǒu"
             },
             {
-              "char": "执",
+              "char": "坡",
+              "pinyin": "fǔ"
+            },
+            {
+              "char": "右",
+              "pinyin": "lǔ"
+            },
+            {
+              "char": "手",
               "pinyin": "zhí"
             },
             {
+              "char": "执",
+              "pinyin": "bèi"
+            },
+            {
               "char": "卷",
-              "pinyin": "juàn"
+              "pinyin": "lǔ"
             },
             {
               "char": "端",
-              "pinyin": "duān"
+              "pinyin": "zhí"
             },
             {
               "char": "，",
@@ -993,19 +996,19 @@
             },
             {
               "char": "抚",
-              "pinyin": "fǔ"
-            },
-            {
-              "char": "鲁",
-              "pinyin": "lǔ"
-            },
-            {
-              "char": "直",
               "pinyin": "zhí"
             },
             {
+              "char": "鲁",
+              "pinyin": "juàn"
+            },
+            {
+              "char": "直",
+              "pinyin": "mò"
+            },
+            {
               "char": "背",
-              "pinyin": "bèi"
+              "pinyin": "yòu"
             },
             {
               "char": "。",
@@ -1021,31 +1024,31 @@
           "sentence": [
             {
               "char": "鲁",
-              "pinyin": "lǔ"
-            },
-            {
-              "char": "直",
-              "pinyin": "zhí"
-            },
-            {
-              "char": "左",
-              "pinyin": "zuǒ"
-            },
-            {
-              "char": "手",
               "pinyin": "shǒu"
             },
             {
-              "char": "执",
-              "pinyin": "zhí"
+              "char": "直",
+              "pinyin": "zhǐ"
             },
             {
-              "char": "卷",
+              "char": "左",
               "pinyin": "juàn"
             },
             {
+              "char": "手",
+              "pinyin": "rú"
+            },
+            {
+              "char": "执",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "卷",
+              "pinyin": "suǒ"
+            },
+            {
               "char": "末",
-              "pinyin": "mò"
+              "pinyin": "yǔ"
             },
             {
               "char": "，",
@@ -1053,19 +1056,19 @@
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "dōng"
             },
             {
               "char": "手",
-              "pinyin": "shǒu"
+              "pinyin": "pō"
             },
             {
               "char": "指",
-              "pinyin": "zhǐ"
+              "pinyin": "xiàn"
             },
             {
               "char": "卷",
-              "pinyin": "juàn"
+              "pinyin": "yòu"
             },
             {
               "char": "，",
@@ -1073,19 +1076,19 @@
             },
             {
               "char": "如",
-              "pinyin": "rú"
+              "pinyin": "zú"
             },
             {
               "char": "有",
-              "pinyin": "yǒu"
+              "pinyin": "lǔ"
             },
             {
               "char": "所",
-              "pinyin": "suǒ"
+              "pinyin": "zhí"
             },
             {
               "char": "语",
-              "pinyin": "yǔ"
+              "pinyin": "xiàn"
             },
             {
               "char": "。",
@@ -1107,62 +1110,22 @@
           "sentence": [
             {
               "char": "东",
-              "pinyin": "dōng"
-            },
-            {
-              "char": "坡",
-              "pinyin": "pō"
-            },
-            {
-              "char": "现",
-              "pinyin": "xiàn"
-            },
-            {
-              "char": "右",
-              "pinyin": "yòu"
-            },
-            {
-              "char": "足",
-              "pinyin": "zú"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "鲁",
-              "pinyin": "lǔ"
-            },
-            {
-              "char": "直",
-              "pinyin": "zhí"
-            },
-            {
-              "char": "现",
-              "pinyin": "xiàn"
-            },
-            {
-              "char": "左",
               "pinyin": "zuǒ"
             },
             {
-              "char": "足",
+              "char": "坡",
               "pinyin": "zú"
             },
             {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "各",
+              "char": "现",
               "pinyin": "gè"
             },
             {
-              "char": "微",
+              "char": "右",
               "pinyin": "wēi"
             },
             {
-              "char": "侧",
+              "char": "足",
               "pinyin": "cè"
             },
             {
@@ -1170,28 +1133,24 @@
               "pinyin": "　"
             },
             {
-              "char": "其",
+              "char": "鲁",
               "pinyin": "qí"
             },
             {
-              "char": "两",
+              "char": "直",
               "pinyin": "liǎng"
             },
             {
-              "char": "膝",
+              "char": "现",
               "pinyin": "xī"
             },
             {
-              "char": "相",
+              "char": "左",
               "pinyin": "xiāng"
             },
             {
-              "char": "比",
+              "char": "足",
               "pinyin": "bǐ"
-            },
-            {
-              "char": "者",
-              "pinyin": "zhě"
             },
             {
               "char": "，",
@@ -1199,31 +1158,75 @@
             },
             {
               "char": "各",
-              "pinyin": "gè"
-            },
-            {
-              "char": "隐",
-              "pinyin": "yǐn"
-            },
-            {
-              "char": "卷",
-              "pinyin": "juàn"
-            },
-            {
-              "char": "底",
-              "pinyin": "dǐ"
-            },
-            {
-              "char": "衣",
-              "pinyin": "yī"
-            },
-            {
-              "char": "褶",
               "pinyin": "zhě"
             },
             {
-              "char": "中",
+              "char": "微",
+              "pinyin": "gè"
+            },
+            {
+              "char": "侧",
+              "pinyin": "yǐn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "其",
+              "pinyin": "juàn"
+            },
+            {
+              "char": "两",
+              "pinyin": "dǐ"
+            },
+            {
+              "char": "膝",
+              "pinyin": "yī"
+            },
+            {
+              "char": "相",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "比",
               "pinyin": "zhōng"
+            },
+            {
+              "char": "者",
+              "pinyin": "fó"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "各",
+              "pinyin": "yìn"
+            },
+            {
+              "char": "隐",
+              "pinyin": "jué"
+            },
+            {
+              "char": "卷",
+              "pinyin": "lèi"
+            },
+            {
+              "char": "底",
+              "pinyin": "mí"
+            },
+            {
+              "char": "衣",
+              "pinyin": "lè"
+            },
+            {
+              "char": "褶",
+              "pinyin": "tǎn"
+            },
+            {
+              "char": "中",
+              "pinyin": "xiōng"
             },
             {
               "char": "。",
@@ -1245,66 +1248,26 @@
           "sentence": [
             {
               "char": "佛",
-              "pinyin": "fó"
-            },
-            {
-              "char": "印",
-              "pinyin": "yìn"
-            },
-            {
-              "char": "绝",
-              "pinyin": "jué"
-            },
-            {
-              "char": "类",
-              "pinyin": "lèi"
-            },
-            {
-              "char": "弥",
-              "pinyin": "mí"
-            },
-            {
-              "char": "勒",
-              "pinyin": "lè"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "袒",
-              "pinyin": "tǎn"
-            },
-            {
-              "char": "胸",
-              "pinyin": "xiōng"
-            },
-            {
-              "char": "露",
               "pinyin": "lù"
             },
             {
-              "char": "乳",
+              "char": "印",
               "pinyin": "rǔ"
             },
             {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "矫",
+              "char": "绝",
               "pinyin": "jiǎo"
             },
             {
-              "char": "首",
+              "char": "类",
               "pinyin": "shǒu"
             },
             {
-              "char": "昂",
+              "char": "弥",
               "pinyin": "áng"
             },
             {
-              "char": "视",
+              "char": "勒",
               "pinyin": "shì"
             },
             {
@@ -1312,36 +1275,76 @@
               "pinyin": "　"
             },
             {
-              "char": "神",
+              "char": "袒",
               "pinyin": "shén"
             },
             {
-              "char": "情",
+              "char": "胸",
               "pinyin": "qíng"
             },
             {
-              "char": "与",
+              "char": "露",
               "pinyin": "yǔ"
             },
             {
-              "char": "苏",
+              "char": "乳",
               "pinyin": "sū"
             },
             {
-              "char": "、",
-              "pinyin": "、"
+              "char": "，",
+              "pinyin": "　"
             },
             {
-              "char": "黄",
+              "char": "矫",
               "pinyin": "huáng"
             },
             {
-              "char": "不",
+              "char": "首",
               "pinyin": "bù"
             },
             {
-              "char": "属",
+              "char": "昂",
               "pinyin": "shǔ"
+            },
+            {
+              "char": "视",
+              "pinyin": "wò"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "神",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "情",
+              "pinyin": "xī"
+            },
+            {
+              "char": "与",
+              "pinyin": "qū"
+            },
+            {
+              "char": "苏",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "、",
+              "pinyin": "bì"
+            },
+            {
+              "char": "黄",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "不",
+              "pinyin": "chuán"
+            },
+            {
+              "char": "属",
+              "pinyin": "ér"
             },
             {
               "char": "。",
@@ -1357,15 +1360,15 @@
           "sentence": [
             {
               "char": "卧",
-              "pinyin": "wò"
+              "pinyin": "shù"
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "qí"
             },
             {
               "char": "膝",
-              "pinyin": "xī"
+              "pinyin": "zuǒ"
             },
             {
               "char": "，",
@@ -1373,7 +1376,7 @@
             },
             {
               "char": "诎",
-              "pinyin": "qū",
+              "pinyin": "xī",
               "note": [
                 {
                   "title": "注释",
@@ -1383,7 +1386,7 @@
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "zuǒ"
             },
             {
               "char": "臂",
@@ -1391,11 +1394,11 @@
             },
             {
               "char": "支",
-              "pinyin": "zhī"
+              "pinyin": "guà"
             },
             {
               "char": "船",
-              "pinyin": "chuán"
+              "pinyin": "niàn"
             },
             {
               "char": "，",
@@ -1403,11 +1406,11 @@
             },
             {
               "char": "而",
-              "pinyin": "ér"
+              "pinyin": "zhū"
             },
             {
               "char": "竖",
-              "pinyin": "shù",
+              "pinyin": "yǐ",
               "note": [
                 {
                   "title": "注释",
@@ -1417,15 +1420,15 @@
             },
             {
               "char": "其",
-              "pinyin": "qí"
+              "pinyin": "zhī"
             },
             {
               "char": "左",
-              "pinyin": "zuǒ"
+              "pinyin": "zhū"
             },
             {
               "char": "膝",
-              "pinyin": "xī"
+              "pinyin": "kě"
             },
             {
               "char": "，",
@@ -1433,63 +1436,63 @@
             },
             {
               "char": "左",
-              "pinyin": "zuǒ"
+              "pinyin": "lì"
             },
             {
               "char": "臂",
-              "pinyin": "bì"
+              "pinyin": "lì"
             },
             {
               "char": "挂",
-              "pinyin": "guà"
-            },
-            {
-              "char": "念",
-              "pinyin": "niàn"
-            },
-            {
-              "char": "珠",
-              "pinyin": "zhū"
-            },
-            {
-              "char": "倚",
-              "pinyin": "yǐ"
-            },
-            {
-              "char": "之",
-              "pinyin": "zhī"
-            },
-            {
-              "char": "—",
-              "pinyin": "　"
-            },
-            {
-              "char": "—",
-              "pinyin": "　"
-            },
-            {
-              "char": "珠",
-              "pinyin": "kě"
-            },
-            {
-              "char": "可",
-              "pinyin": "lì"
-            },
-            {
-              "char": "历",
-              "pinyin": "lì"
-            },
-            {
-              "char": "历",
               "pinyin": "shǔ"
             },
             {
-              "char": "数",
+              "char": "念",
               "pinyin": "yě"
             },
             {
+              "char": "珠",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "倚",
+              "pinyin": "wěi"
+            },
+            {
+              "char": "之",
+              "pinyin": "héng"
+            },
+            {
+              "char": "—",
+              "pinyin": "　"
+            },
+            {
+              "char": "—",
+              "pinyin": "　"
+            },
+            {
+              "char": "珠",
+              "pinyin": "wò"
+            },
+            {
+              "char": "可",
+              "pinyin": "yī"
+            },
+            {
+              "char": "历",
+              "pinyin": "jí"
+            },
+            {
+              "char": "历",
+              "pinyin": "jí"
+            },
+            {
+              "char": "数",
+              "pinyin": "zuǒ"
+            },
+            {
               "char": "也",
-              "pinyin": "。"
+              "pinyin": "yòu"
             },
             {
               "char": "。",
@@ -1513,23 +1516,23 @@
             },
             {
               "char": "尾",
-              "pinyin": "wěi"
+              "pinyin": "zǐ"
             },
             {
               "char": "横",
-              "pinyin": "héng"
+              "pinyin": "gè"
             },
             {
               "char": "卧",
-              "pinyin": "wò"
-            },
-            {
-              "char": "一",
               "pinyin": "yī"
             },
             {
+              "char": "一",
+              "pinyin": "rén"
+            },
+            {
               "char": "楫",
-              "pinyin": "jí"
+              "pinyin": "jū"
             },
             {
               "char": "。",
@@ -1545,35 +1548,35 @@
           "sentence": [
             {
               "char": "楫",
-              "pinyin": "jí"
-            },
-            {
-              "char": "左",
-              "pinyin": "zuǒ"
-            },
-            {
-              "char": "右",
               "pinyin": "yòu"
             },
             {
+              "char": "左",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "右",
+              "pinyin": "chuí"
+            },
+            {
               "char": "舟",
-              "pinyin": "zhōu"
+              "pinyin": "jì"
             },
             {
               "char": "子",
-              "pinyin": "zǐ"
+              "pinyin": "yǎng"
             },
             {
               "char": "各",
-              "pinyin": "gè"
+              "pinyin": "miàn"
             },
             {
               "char": "一",
-              "pinyin": "yī"
+              "pinyin": "zuǒ"
             },
             {
               "char": "人",
-              "pinyin": "rén"
+              "pinyin": "shǒu"
             },
             {
               "char": "。",
@@ -1589,31 +1592,31 @@
           "sentence": [
             {
               "char": "居",
-              "pinyin": "jū"
+              "pinyin": "yǐ"
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "yī"
             },
             {
               "char": "者",
-              "pinyin": "zhě"
+              "pinyin": "héng"
             },
             {
               "char": "椎",
-              "pinyin": "zhuī"
+              "pinyin": "mù"
             },
             {
               "char": "髻",
-              "pinyin": "jì"
+              "pinyin": "yòu"
             },
             {
               "char": "仰",
-              "pinyin": "yǎng"
+              "pinyin": "shǒu"
             },
             {
               "char": "面",
-              "pinyin": "miàn"
+              "pinyin": "pān"
             },
             {
               "char": "，",
@@ -1621,23 +1624,23 @@
             },
             {
               "char": "左",
-              "pinyin": "zuǒ"
+              "pinyin": "yòu"
             },
             {
               "char": "手",
-              "pinyin": "shǒu"
+              "pinyin": "zhǐ"
             },
             {
               "char": "倚",
-              "pinyin": "yǐ"
+              "pinyin": "ruò"
             },
             {
               "char": "一",
-              "pinyin": "yī"
+              "pinyin": "xiào"
             },
             {
               "char": "衡",
-              "pinyin": "héng",
+              "pinyin": "hū",
               "note": [
                 {
                   "title": "注释",
@@ -1647,7 +1650,7 @@
             },
             {
               "char": "木",
-              "pinyin": "mù"
+              "pinyin": "zhuàng"
             },
             {
               "char": "，",
@@ -1655,15 +1658,15 @@
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "jū"
             },
             {
               "char": "手",
-              "pinyin": "shǒu"
+              "pinyin": "zuǒ"
             },
             {
               "char": "攀",
-              "pinyin": "pān"
+              "pinyin": "zhě"
             },
             {
               "char": "右",
@@ -1671,7 +1674,7 @@
             },
             {
               "char": "趾",
-              "pinyin": "zhǐ"
+              "pinyin": "shǒu"
             },
             {
               "char": "，",
@@ -1679,19 +1682,19 @@
             },
             {
               "char": "若",
-              "pinyin": "ruò"
+              "pinyin": "zhí"
             },
             {
               "char": "啸",
-              "pinyin": "xiào"
+              "pinyin": "pú"
             },
             {
               "char": "呼",
-              "pinyin": "hū"
+              "pinyin": "kuí"
             },
             {
               "char": "状",
-              "pinyin": "zhuàng"
+              "pinyin": "shàn"
             },
             {
               "char": "。",
@@ -1713,39 +1716,39 @@
           "sentence": [
             {
               "char": "居",
-              "pinyin": "jū"
+              "pinyin": "zuǒ"
             },
             {
               "char": "左",
-              "pinyin": "zuǒ"
+              "pinyin": "shǒu"
             },
             {
               "char": "者",
-              "pinyin": "zhě"
+              "pinyin": "fǔ"
             },
             {
               "char": "右",
-              "pinyin": "yòu"
+              "pinyin": "lú"
             },
             {
               "char": "手",
-              "pinyin": "shǒu"
+              "pinyin": "lú"
             },
             {
               "char": "执",
-              "pinyin": "zhí"
+              "pinyin": "shàng"
             },
             {
               "char": "蒲",
-              "pinyin": "pú"
+              "pinyin": "yǒu"
             },
             {
               "char": "葵",
-              "pinyin": "kuí"
+              "pinyin": "hú"
             },
             {
               "char": "扇",
-              "pinyin": "shàn"
+              "pinyin": "qí"
             },
             {
               "char": "，",
@@ -1753,19 +1756,19 @@
             },
             {
               "char": "左",
-              "pinyin": "zuǒ"
+              "pinyin": "rén"
             },
             {
               "char": "手",
-              "pinyin": "shǒu"
+              "pinyin": "shì"
             },
             {
               "char": "抚",
-              "pinyin": "fǔ"
+              "pinyin": "duān"
             },
             {
               "char": "炉",
-              "pinyin": "lú"
+              "pinyin": "róng"
             },
             {
               "char": "，",
@@ -1773,19 +1776,19 @@
             },
             {
               "char": "炉",
-              "pinyin": "lú"
+              "pinyin": "jì"
             },
             {
               "char": "上",
-              "pinyin": "shàng"
+              "pinyin": "ruò"
             },
             {
               "char": "有",
-              "pinyin": "yǒu"
+              "pinyin": "tīng"
             },
             {
               "char": "壶",
-              "pinyin": "hú"
+              "pinyin": "chá"
             },
             {
               "char": "，",
@@ -1793,27 +1796,27 @@
             },
             {
               "char": "其",
-              "pinyin": "qí"
+              "pinyin": "shēng"
             },
             {
               "char": "人",
-              "pinyin": "rén"
+              "pinyin": "rán"
             },
             {
               "char": "视",
-              "pinyin": "shì"
+              "pinyin": "qí"
             },
             {
               "char": "端",
-              "pinyin": "duān"
+              "pinyin": "chuán"
             },
             {
               "char": "容",
-              "pinyin": "róng"
+              "pinyin": "bèi"
             },
             {
               "char": "寂",
-              "pinyin": "jì"
+              "pinyin": "shāo"
             },
             {
               "char": "，",
@@ -1821,23 +1824,23 @@
             },
             {
               "char": "若",
-              "pinyin": "ruò"
+              "pinyin": "yí"
             },
             {
               "char": "听",
-              "pinyin": "tīng"
+              "pinyin": "zé"
             },
             {
               "char": "茶",
-              "pinyin": "chá"
+              "pinyin": "tí"
             },
             {
               "char": "声",
-              "pinyin": "shēng"
+              "pinyin": "míng"
             },
             {
               "char": "然",
-              "pinyin": "rán"
+              "pinyin": "qí"
             },
             {
               "char": "。",
@@ -1863,23 +1866,23 @@
           "sentence": [
             {
               "char": "其",
-              "pinyin": "qí"
+              "pinyin": "shàng"
             },
             {
               "char": "船",
-              "pinyin": "chuán"
+              "pinyin": "wén"
             },
             {
               "char": "背",
-              "pinyin": "bèi"
+              "pinyin": "yuē"
             },
             {
               "char": "稍",
-              "pinyin": "shāo"
+              "pinyin": "tiān"
             },
             {
               "char": "夷",
-              "pinyin": "yí"
+              "pinyin": "qǐ"
             },
             {
               "char": "，",
@@ -1887,23 +1890,23 @@
             },
             {
               "char": "则",
-              "pinyin": "zé"
+              "pinyin": "rén"
             },
             {
               "char": "题",
-              "pinyin": "tí"
+              "pinyin": "xū"
             },
             {
               "char": "名",
-              "pinyin": "míng"
+              "pinyin": "qiū"
             },
             {
               "char": "其",
-              "pinyin": "qí"
+              "pinyin": "rì"
             },
             {
               "char": "上",
-              "pinyin": "shàng"
+              "pinyin": "yú"
             },
             {
               "char": "，",
@@ -1911,39 +1914,39 @@
             },
             {
               "char": "文",
-              "pinyin": "wén"
+              "pinyin": "shān"
             },
             {
               "char": "曰",
-              "pinyin": "yuē"
+              "pinyin": "wáng"
             },
             {
               "char": "\"",
-              "pinyin": "\"tiān"
+              "pinyin": "yì"
             },
             {
               "char": "天",
-              "pinyin": "qǐ"
+              "pinyin": "shū"
             },
             {
               "char": "启",
-              "pinyin": "rén"
+              "pinyin": "yuǎn"
             },
             {
               "char": "壬",
-              "pinyin": "xū"
+              "pinyin": "fǔ"
             },
             {
               "char": "戌",
-              "pinyin": "qiū"
+              "pinyin": "kè"
             },
             {
               "char": "秋",
-              "pinyin": "rì"
+              "pinyin": "xì"
             },
             {
               "char": "日",
-              "pinyin": "，"
+              "pinyin": "ruò"
             },
             {
               "char": "，",
@@ -1951,39 +1954,39 @@
             },
             {
               "char": "虞",
-              "pinyin": "shān"
+              "pinyin": "wén"
             },
             {
               "char": "山",
-              "pinyin": "wáng"
+              "pinyin": "zú"
             },
             {
               "char": "王",
-              "pinyin": "yì"
+              "pinyin": "gōu"
             },
             {
               "char": "毅",
-              "pinyin": "shū"
+              "pinyin": "huà"
             },
             {
               "char": "叔",
-              "pinyin": "yuǎn"
+              "pinyin": "liǎo"
             },
             {
               "char": "远",
-              "pinyin": "fǔ"
+              "pinyin": "liǎo"
             },
             {
               "char": "甫",
-              "pinyin": "kè\""
+              "pinyin": "qí"
             },
             {
               "char": "刻",
-              "pinyin": "，"
+              "pinyin": "sè"
             },
             {
               "char": "\"",
-              "pinyin": "xì"
+              "pinyin": "mò"
             },
             {
               "char": "，",
@@ -1991,19 +1994,19 @@
             },
             {
               "char": "细",
-              "pinyin": "wén"
+              "pinyin": "yòu"
             },
             {
               "char": "若",
-              "pinyin": "zú"
+              "pinyin": "yòng"
             },
             {
               "char": "蚊",
-              "pinyin": "，"
+              "pinyin": "zhuàn"
             },
             {
               "char": "足",
-              "pinyin": "gōu"
+              "pinyin": "zhāng"
             },
             {
               "char": "，",
@@ -2011,19 +2014,19 @@
             },
             {
               "char": "钩",
-              "pinyin": "liǎo"
+              "pinyin": "yī"
             },
             {
               "char": "画",
-              "pinyin": "liǎo"
+              "pinyin": "wén"
             },
             {
               "char": "了",
-              "pinyin": "，"
+              "pinyin": "yuē"
             },
             {
               "char": "了",
-              "pinyin": "qí"
+              "pinyin": "chū"
             },
             {
               "char": "，",
@@ -2031,14 +2034,15 @@
             },
             {
               "char": "其",
-              "pinyin": "mò"
+              "pinyin": "píng"
             },
             {
               "char": "色",
-              "pinyin": "。"
+              "pinyin": "shān"
             },
             {
-              "char": "墨"
+              "char": "墨",
+              "pinyin": "rén"
             },
             {
               "char": "。",
@@ -2070,23 +2074,23 @@
           "sentence": [
             {
               "char": "又",
-              "pinyin": "yòu"
+              "pinyin": "qí"
             },
             {
               "char": "用",
-              "pinyin": "yòng"
+              "pinyin": "sè"
             },
             {
               "char": "篆",
-              "pinyin": "zhuàn"
+              "pinyin": "dān"
             },
             {
               "char": "章",
-              "pinyin": "zhāng"
+              "pinyin": "tōng"
             },
             {
               "char": "一",
-              "pinyin": "yī"
+              "pinyin": "jì"
             },
             {
               "char": "，",
@@ -2094,35 +2098,35 @@
             },
             {
               "char": "文",
-              "pinyin": "wén"
+              "pinyin": "yī"
             },
             {
               "char": "曰",
-              "pinyin": "yuē"
+              "pinyin": "zhōu"
             },
             {
               "char": "\"",
-              "pinyin": "\"chū"
+              "pinyin": "wéi"
             },
             {
               "char": "初",
-              "pinyin": "píng"
+              "pinyin": "rén"
             },
             {
               "char": "平",
-              "pinyin": "shān"
+              "pinyin": "wǔ"
             },
             {
               "char": "山",
-              "pinyin": "rén\""
+              "pinyin": "wéi"
             },
             {
               "char": "人",
-              "pinyin": "，"
+              "pinyin": "chuāng"
             },
             {
               "char": "\"",
-              "pinyin": "qí"
+              "pinyin": "bā"
             },
             {
               "char": "，",
@@ -2130,14 +2134,15 @@
             },
             {
               "char": "其",
-              "pinyin": "dān"
+              "pinyin": "wéi"
             },
             {
               "char": "色",
-              "pinyin": "。"
+              "pinyin": "ruò"
             },
             {
-              "char": "丹"
+              "char": "丹",
+              "pinyin": "péng"
             },
             {
               "char": "。",
@@ -2157,90 +2162,18 @@
           "sentence": [
             {
               "char": "通",
-              "pinyin": "tōng"
+              "pinyin": "wéi"
             },
             {
               "char": "计",
-              "pinyin": "jì"
-            },
-            {
-              "char": "一",
-              "pinyin": "yī"
-            },
-            {
-              "char": "舟",
-              "pinyin": "zhōu"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "为",
-              "pinyin": "wéi"
-            },
-            {
-              "char": "人",
-              "pinyin": "rén"
-            },
-            {
-              "char": "五",
-              "pinyin": "wǔ"
-            },
-            {
-              "char": "；",
-              "pinyin": "　"
-            },
-            {
-              "char": "为",
-              "pinyin": "wéi"
-            },
-            {
-              "char": "窗",
-              "pinyin": "chuāng"
-            },
-            {
-              "char": "八",
-              "pinyin": "bā"
-            },
-            {
-              "char": "；",
-              "pinyin": "　"
-            },
-            {
-              "char": "为",
-              "pinyin": "wéi"
-            },
-            {
-              "char": "箬",
-              "pinyin": "ruò"
-            },
-            {
-              "char": "篷",
-              "pinyin": "péng"
-            },
-            {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "为",
-              "pinyin": "wéi"
-            },
-            {
-              "char": "楫",
               "pinyin": "jí"
             },
             {
-              "char": "，",
-              "pinyin": "　"
-            },
-            {
-              "char": "为",
+              "char": "一",
               "pinyin": "wéi"
             },
             {
-              "char": "炉",
+              "char": "舟",
               "pinyin": "lú"
             },
             {
@@ -2252,24 +2185,44 @@
               "pinyin": "wéi"
             },
             {
-              "char": "壶",
+              "char": "人",
               "pinyin": "hú"
             },
             {
-              "char": "，",
+              "char": "五",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "；",
               "pinyin": "　"
             },
             {
               "char": "为",
-              "pinyin": "wéi"
-            },
-            {
-              "char": "手",
               "pinyin": "shǒu"
             },
             {
-              "char": "卷",
+              "char": "窗",
               "pinyin": "juàn"
+            },
+            {
+              "char": "八",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "为",
+              "pinyin": "niàn"
+            },
+            {
+              "char": "箬",
+              "pinyin": "zhū"
+            },
+            {
+              "char": "篷",
+              "pinyin": "gè"
             },
             {
               "char": "，",
@@ -2277,23 +2230,75 @@
             },
             {
               "char": "为",
+              "pinyin": "yī"
+            },
+            {
+              "char": "楫",
+              "pinyin": "duì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "为",
+              "pinyin": "lián"
+            },
+            {
+              "char": "炉",
+              "pinyin": "tí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "为",
+              "pinyin": "míng"
+            },
+            {
+              "char": "壶",
+              "pinyin": "bìng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "为",
+              "pinyin": "zhuàn"
+            },
+            {
+              "char": "手",
+              "pinyin": "wén"
+            },
+            {
+              "char": "卷",
               "pinyin": "wéi"
             },
             {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "为",
+              "pinyin": "zì"
+            },
+            {
               "char": "念",
-              "pinyin": "niàn"
+              "pinyin": "gòng"
             },
             {
               "char": "珠",
-              "pinyin": "zhū"
+              "pinyin": "sān"
             },
             {
               "char": "各",
-              "pinyin": "gè"
+              "pinyin": "shí"
             },
             {
               "char": "一",
-              "pinyin": "yī"
+              "pinyin": "yòu"
             },
             {
               "char": "；",
@@ -2301,35 +2306,35 @@
             },
             {
               "char": "对",
-              "pinyin": "duì"
+              "pinyin": "sì"
             },
             {
               "char": "联",
-              "pinyin": "lián"
+              "pinyin": "ér"
             },
             {
               "char": "、",
-              "pinyin": "、"
+              "pinyin": "jì"
             },
             {
               "char": "题",
-              "pinyin": "tí"
+              "pinyin": "qí"
             },
             {
               "char": "名",
-              "pinyin": "míng"
+              "pinyin": "cháng"
             },
             {
               "char": "并",
-              "pinyin": "bìng"
+              "pinyin": "zēng"
             },
             {
               "char": "篆",
-              "pinyin": "zhuàn"
+              "pinyin": "bù"
             },
             {
               "char": "文",
-              "pinyin": "wén"
+              "pinyin": "yíng"
             },
             {
               "char": "，",
@@ -2337,31 +2342,31 @@
             },
             {
               "char": "为",
-              "pinyin": "wéi"
+              "pinyin": "cùn"
             },
             {
               "char": "字",
-              "pinyin": "zì"
+              "pinyin": "gài"
             },
             {
               "char": "共",
-              "pinyin": "gòng"
+              "pinyin": "jiǎn"
             },
             {
               "char": "三",
-              "pinyin": "sān"
+              "pinyin": "táo"
             },
             {
               "char": "十",
-              "pinyin": "shí"
+              "pinyin": "hé"
             },
             {
               "char": "有",
-              "pinyin": "yǒu"
+              "pinyin": "xiū"
             },
             {
               "char": "四",
-              "pinyin": "sì"
+              "pinyin": "xiá"
             },
             {
               "char": "。",
@@ -2377,23 +2382,23 @@
           "sentence": [
             {
               "char": "而",
-              "pinyin": "ér"
+              "pinyin": "zhě"
             },
             {
               "char": "计",
-              "pinyin": "jì"
+              "pinyin": "wéi"
             },
             {
               "char": "其",
-              "pinyin": "qí"
+              "pinyin": "zhī"
             },
             {
               "char": "长",
-              "pinyin": "cháng"
+              "pinyin": "xī"
             },
             {
               "char": "曾",
-              "pinyin": "céng",
+              "pinyin": "jì",
               "note": [
                 {
                   "title": "注释",
@@ -2403,15 +2408,15 @@
             },
             {
               "char": "不",
-              "pinyin": "bù"
+              "pinyin": "yì"
             },
             {
               "char": "盈",
-              "pinyin": "yíng"
+              "pinyin": "líng"
             },
             {
               "char": "寸",
-              "pinyin": "cùn"
+              "pinyin": "guài"
             },
             {
               "char": "。",
@@ -2433,11 +2438,11 @@
           "sentence": [
             {
               "char": "盖",
-              "pinyin": "gài"
+              "pinyin": "yǐ"
             },
             {
               "char": "简",
-              "pinyin": "jiǎn",
+              "pinyin": "zāi",
               "note": [
                 {
                   "title": "注释",
@@ -2446,32 +2451,25 @@
               ]
             },
             {
-              "char": "桃",
-              "pinyin": "táo"
+              "char": "桃"
             },
             {
-              "char": "核",
-              "pinyin": "hé"
+              "char": "核"
             },
             {
-              "char": "修",
-              "pinyin": "xiū"
+              "char": "修"
             },
             {
-              "char": "狭",
-              "pinyin": "xiá"
+              "char": "狭"
             },
             {
-              "char": "者",
-              "pinyin": "zhě"
+              "char": "者"
             },
             {
-              "char": "为",
-              "pinyin": "wéi"
+              "char": "为"
             },
             {
-              "char": "之",
-              "pinyin": "zhī"
+              "char": "之"
             },
             {
               "char": "。",
@@ -2492,36 +2490,29 @@
         {
           "sentence": [
             {
-              "char": "嘻",
-              "pinyin": "xī"
+              "char": "嘻"
             },
             {
               "char": "，",
               "pinyin": "　"
             },
             {
-              "char": "技",
-              "pinyin": "jì"
+              "char": "技"
             },
             {
-              "char": "亦",
-              "pinyin": "yì"
+              "char": "亦"
             },
             {
-              "char": "灵",
-              "pinyin": "líng"
+              "char": "灵"
             },
             {
-              "char": "怪",
-              "pinyin": "guài"
+              "char": "怪"
             },
             {
-              "char": "矣",
-              "pinyin": "yǐ"
+              "char": "矣"
             },
             {
-              "char": "哉",
-              "pinyin": "zāi"
+              "char": "哉"
             },
             {
               "char": "！",

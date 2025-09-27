@@ -59,7 +59,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 7,
               "read": false,
               "write": false
@@ -94,7 +94,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 12,
               "read": false,
               "write": false
@@ -147,7 +147,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 17,
               "read": false,
               "write": false
@@ -203,7 +203,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 25,
               "read": false,
               "write": false
@@ -251,7 +251,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 31,
               "read": false,
               "write": false
@@ -293,7 +293,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 37,
               "read": false,
               "write": false
@@ -335,7 +335,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 43,
               "read": false,
               "write": false
@@ -391,7 +391,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 51,
               "read": false,
               "write": false
@@ -460,7 +460,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 56,
               "read": true,
               "write": true
@@ -516,7 +516,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 64,
               "read": false,
               "write": false
@@ -551,7 +551,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 69,
               "read": false,
               "write": false
@@ -606,7 +606,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 74,
               "read": false,
               "write": false
@@ -648,154 +648,154 @@
             },
             {
               "char": "、",
-              "pinyin": "、",
+              "pinyin": "hú",
               "index": 80,
               "read": false,
               "write": false
             },
             {
               "char": "湖",
-              "pinyin": "hú",
+              "pinyin": "xīn",
               "index": 81,
               "read": false,
               "write": false
             },
             {
               "char": "心",
-              "pinyin": "xīn",
+              "pinyin": "tíng",
               "index": 82,
               "read": false,
               "write": false
             },
             {
               "char": "亭",
-              "pinyin": "tíng",
+              "pinyin": "yī",
               "index": 83,
               "read": false,
               "write": false
             },
             {
               "char": "一",
-              "pinyin": "yī",
+              "pinyin": "diǎn",
               "index": 84,
               "read": false,
               "write": false
             },
             {
               "char": "点",
-              "pinyin": "diǎn",
+              "pinyin": "yǔ",
               "index": 85,
               "read": false,
               "write": false
             },
             {
               "char": "、",
-              "pinyin": "、",
+              "pinyin": "yú",
               "index": 86,
               "read": false,
               "write": false
             },
             {
               "char": "与",
-              "pinyin": "yǔ",
+              "pinyin": "zhōu",
               "index": 87,
               "read": false,
               "write": false
             },
             {
               "char": "余",
-              "pinyin": "yú",
+              "pinyin": "yī",
               "index": 88,
               "read": false,
               "write": false
             },
             {
               "char": "舟",
-              "pinyin": "zhōu",
+              "pinyin": "jiè",
               "index": 89,
               "read": false,
               "write": false
             },
             {
               "char": "一",
-              "pinyin": "yī",
+              "pinyin": "zhōu",
               "index": 90,
               "read": false,
               "write": false
             },
             {
               "char": "芥",
-              "pinyin": "jiè",
+              "pinyin": "zhōng",
               "index": 91,
               "read": false,
               "write": true
             },
             {
               "char": "、",
-              "pinyin": "、",
+              "pinyin": "rén",
               "index": 92,
               "read": false,
               "write": false
             },
             {
               "char": "舟",
-              "pinyin": "zhōu",
+              "pinyin": "liǎng",
               "index": 93,
               "read": false,
               "write": false
             },
             {
               "char": "中",
-              "pinyin": "zhōng",
+              "pinyin": "sān",
               "index": 94,
               "read": false,
               "write": false
             },
             {
               "char": "人",
-              "pinyin": "rén",
+              "pinyin": "lì",
               "index": 95,
               "read": false,
               "write": false
             },
             {
               "char": "两",
-              "pinyin": "liǎng",
+              "pinyin": "ér",
               "index": 96,
               "read": false,
               "write": false
             },
             {
               "char": "三",
-              "pinyin": "sān",
+              "pinyin": "yǐ",
               "index": 97,
               "read": false,
               "write": false
             },
             {
               "char": "粒",
-              "pinyin": "lì",
+              "pinyin": "dào",
               "index": 98,
               "read": false,
               "write": false
             },
             {
               "char": "而",
-              "pinyin": "ér",
+              "pinyin": "tíng",
               "index": 99,
               "read": false,
               "write": false
             },
             {
               "char": "已",
-              "pinyin": "yǐ",
+              "pinyin": "shàng",
               "index": 100,
               "read": false,
               "write": false
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 101,
               "read": false,
               "write": false
@@ -842,147 +842,147 @@
           "content": [
             {
               "char": "到",
-              "pinyin": "dào",
+              "pinyin": "yǒu",
               "index": 102,
               "read": false,
               "write": false
             },
             {
               "char": "亭",
-              "pinyin": "tíng",
+              "pinyin": "liǎng",
               "index": 103,
               "read": false,
               "write": false
             },
             {
               "char": "上",
-              "pinyin": "shàng",
+              "pinyin": "rén",
               "index": 104,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 105,
               "read": false,
               "write": false
             },
             {
               "char": "有",
-              "pinyin": "yǒu",
+              "pinyin": "pū",
               "index": 106,
               "read": false,
               "write": false
             },
             {
               "char": "两",
-              "pinyin": "liǎng",
+              "pinyin": "zhān",
               "index": 107,
               "read": false,
               "write": false
             },
             {
               "char": "人",
-              "pinyin": "rén",
+              "pinyin": "duì",
               "index": 108,
               "read": false,
               "write": false
             },
             {
               "char": "铺",
-              "pinyin": "pù",
+              "pinyin": "zuò",
               "index": 109,
               "read": false,
               "write": false
             },
             {
               "char": "毡",
-              "pinyin": "zhān",
+              "pinyin": "yī",
               "index": 110,
               "read": false,
               "write": false
             },
             {
               "char": "对",
-              "pinyin": "duì",
+              "pinyin": "tóng",
               "index": 111,
               "read": false,
               "write": false
             },
             {
               "char": "坐",
-              "pinyin": "zuò",
+              "pinyin": "zǐ",
               "index": 112,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 113,
               "read": false,
               "write": false
             },
             {
               "char": "一",
-              "pinyin": "yī",
+              "pinyin": "shāo",
               "index": 114,
               "read": false,
               "write": false
             },
             {
               "char": "童",
-              "pinyin": "tóng",
+              "pinyin": "jiǔ",
               "index": 115,
               "read": false,
               "write": false
             },
             {
               "char": "子",
-              "pinyin": "zǐ",
+              "pinyin": "lú",
               "index": 116,
               "read": false,
               "write": false
             },
             {
               "char": "烧",
-              "pinyin": "shāo",
+              "pinyin": "zhèng",
               "index": 117,
               "read": false,
               "write": false
             },
             {
               "char": "酒",
-              "pinyin": "jiǔ",
+              "pinyin": "fèi",
               "index": 118,
               "read": false,
               "write": false
             },
             {
               "char": "炉",
-              "pinyin": "lú",
+              "pinyin": "jiàn",
               "index": 119,
               "read": false,
               "write": false
             },
             {
               "char": "正",
-              "pinyin": "zhèng",
+              "pinyin": "yú",
               "index": 120,
               "read": false,
               "write": false
             },
             {
               "char": "沸",
-              "pinyin": "fèi",
+              "pinyin": "dà",
               "index": 121,
               "read": false,
               "write": false
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 122,
               "read": false,
               "write": false
@@ -999,126 +999,126 @@
           "content": [
             {
               "char": "见",
-              "pinyin": "jiàn",
+              "pinyin": "xǐ",
               "index": 123,
               "read": false,
               "write": false
             },
             {
               "char": "余",
-              "pinyin": "yú",
+              "pinyin": "yuē",
               "index": 124,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 125,
               "read": false,
               "write": false
             },
             {
               "char": "大",
-              "pinyin": "dà",
+              "pinyin": "hú",
               "index": 126,
               "read": false,
               "write": false
             },
             {
               "char": "喜",
-              "pinyin": "xǐ",
+              "pinyin": "zhōng",
               "index": 127,
               "read": false,
               "write": false
             },
             {
               "char": "曰",
-              "pinyin": "yuē",
+              "pinyin": "yān",
               "index": 128,
               "read": false,
               "write": false
             },
             {
               "char": "：",
-              "pinyin": "：",
+              "pinyin": "",
               "index": 129,
               "read": false,
               "write": false
             },
             {
               "char": "\"",
-              "pinyin": "\"",
+              "pinyin": "dé",
               "index": 130,
               "read": false,
               "write": false
             },
             {
               "char": "湖",
-              "pinyin": "hú",
+              "pinyin": "gèng",
               "index": 131,
               "read": false,
               "write": false
             },
             {
               "char": "中",
-              "pinyin": "zhōng",
+              "pinyin": "yǒu",
               "index": 132,
               "read": false,
               "write": false
             },
             {
               "char": "焉",
-              "pinyin": "yān",
+              "pinyin": "cǐ",
               "index": 133,
               "read": false,
               "write": false
             },
             {
               "char": "得",
-              "pinyin": "dé",
+              "pinyin": "rén",
               "index": 134,
               "read": false,
               "write": false
             },
             {
               "char": "更",
-              "pinyin": "gèng",
+              "pinyin": "lā",
               "index": 135,
               "read": false,
               "write": false
             },
             {
               "char": "有",
-              "pinyin": "yǒu",
+              "pinyin": "yú",
               "index": 136,
               "read": false,
               "write": false
             },
             {
               "char": "此",
-              "pinyin": "cǐ",
+              "pinyin": "tóng",
               "index": 137,
               "read": false,
               "write": false
             },
             {
               "char": "人",
-              "pinyin": "rén",
+              "pinyin": "yǐn",
               "index": 138,
               "read": false,
               "write": false
             },
             {
               "char": "！",
-              "pinyin": "！",
+              "pinyin": "",
               "index": 139,
               "read": false,
               "write": false
             },
             {
               "char": "\"",
-              "pinyin": "\"",
+              "pinyin": "yú",
               "index": 140,
               "read": false,
               "write": false
@@ -1145,35 +1145,35 @@
           "content": [
             {
               "char": "拉",
-              "pinyin": "lā",
+              "pinyin": "qiǎng",
               "index": 141,
               "read": false,
               "write": false
             },
             {
               "char": "余",
-              "pinyin": "yú",
+              "pinyin": "yǐn",
               "index": 142,
               "read": false,
               "write": false
             },
             {
               "char": "同",
-              "pinyin": "tóng",
+              "pinyin": "sān",
               "index": 143,
               "read": false,
               "write": false
             },
             {
               "char": "饮",
-              "pinyin": "yǐn",
+              "pinyin": "dà",
               "index": 144,
               "read": false,
               "write": false
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 145,
               "read": false,
               "write": false
@@ -1186,63 +1186,63 @@
           "content": [
             {
               "char": "余",
-              "pinyin": "yú",
+              "pinyin": "bái",
               "index": 146,
               "read": false,
               "write": false
             },
             {
               "char": "强",
-              "pinyin": "qiáng",
+              "pinyin": "ér",
               "index": 147,
               "read": true,
               "write": true
             },
             {
               "char": "饮",
-              "pinyin": "yǐn",
+              "pinyin": "bié",
               "index": 148,
               "read": false,
               "write": false
             },
             {
               "char": "三",
-              "pinyin": "sān",
+              "pinyin": "wèn",
               "index": 149,
               "read": false,
               "write": false
             },
             {
               "char": "大",
-              "pinyin": "dà",
+              "pinyin": "qí",
               "index": 150,
               "read": false,
               "write": false
             },
             {
               "char": "白",
-              "pinyin": "bái",
+              "pinyin": "xìng",
               "index": 151,
               "read": false,
               "write": false
             },
             {
               "char": "而",
-              "pinyin": "ér",
+              "pinyin": "shì",
               "index": 152,
               "read": false,
               "write": false
             },
             {
               "char": "别",
-              "pinyin": "bié",
+              "pinyin": "shì",
               "index": 153,
               "read": false,
               "write": false
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 154,
               "read": false,
               "write": false
@@ -1279,91 +1279,91 @@
           "content": [
             {
               "char": "问",
-              "pinyin": "wèn",
+              "pinyin": "jīn",
               "index": 155,
               "read": false,
               "write": false
             },
             {
               "char": "其",
-              "pinyin": "qí",
+              "pinyin": "líng",
               "index": 156,
               "read": false,
               "write": false
             },
             {
               "char": "姓",
-              "pinyin": "xìng",
+              "pinyin": "rén",
               "index": 157,
               "read": false,
               "write": false
             },
             {
               "char": "氏",
-              "pinyin": "shì",
+              "pinyin": "kè",
               "index": 158,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 159,
               "read": false,
               "write": false
             },
             {
               "char": "是",
-              "pinyin": "shì",
+              "pinyin": "cǐ",
               "index": 160,
               "read": false,
               "write": false
             },
             {
               "char": "金",
-              "pinyin": "jīn",
+              "pinyin": "jí",
               "index": 161,
               "read": false,
               "write": false
             },
             {
               "char": "陵",
-              "pinyin": "líng",
+              "pinyin": "xià",
               "index": 162,
               "read": false,
               "write": false
             },
             {
               "char": "人",
-              "pinyin": "rén",
+              "pinyin": "chuán",
               "index": 163,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 164,
               "read": false,
               "write": false
             },
             {
               "char": "客",
-              "pinyin": "kè",
+              "pinyin": "zhōu",
               "index": 165,
               "read": false,
               "write": false
             },
             {
               "char": "此",
-              "pinyin": "cǐ",
+              "pinyin": "zǐ",
               "index": 166,
               "read": false,
               "write": false
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 167,
               "read": false,
               "write": false
@@ -1402,182 +1402,175 @@
           "content": [
             {
               "char": "及",
-              "pinyin": "jí",
+              "pinyin": "nán",
               "index": 168,
               "read": false,
               "write": false
             },
             {
               "char": "下",
-              "pinyin": "xià",
+              "pinyin": "nán",
               "index": 169,
               "read": false,
               "write": false
             },
             {
               "char": "船",
-              "pinyin": "chuán",
+              "pinyin": "yuē",
               "index": 170,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 171,
               "read": false,
               "write": false
             },
             {
               "char": "舟",
-              "pinyin": "zhōu",
+              "pinyin": "mò",
               "index": 172,
               "read": false,
               "write": false
             },
             {
               "char": "子",
-              "pinyin": "zǐ",
+              "pinyin": "shuō",
               "index": 173,
               "read": false,
               "write": false
             },
             {
               "char": "喃",
-              "pinyin": "nán",
+              "pinyin": "xiàng",
               "index": 174,
               "read": true,
               "write": true
             },
             {
               "char": "喃",
-              "pinyin": "nán",
+              "pinyin": "gōng",
               "index": 175,
               "read": false,
               "write": false
             },
             {
               "char": "曰",
-              "pinyin": "yuē",
+              "pinyin": "chī",
               "index": 176,
               "read": false,
               "write": false
             },
             {
               "char": "：",
-              "pinyin": "：",
+              "pinyin": "",
               "index": 177,
               "read": false,
               "write": false
             },
             {
               "char": "\"",
-              "pinyin": "\"",
+              "pinyin": "gèng",
               "index": 178,
               "read": false,
               "write": false
             },
             {
               "char": "莫",
-              "pinyin": "mò",
+              "pinyin": "yǒu",
               "index": 179,
               "read": false,
               "write": false
             },
             {
               "char": "说",
-              "pinyin": "shuō",
+              "pinyin": "chī",
               "index": 180,
               "read": false,
               "write": false
             },
             {
               "char": "相",
-              "pinyin": "xiàng",
+              "pinyin": "sì",
               "index": 181,
               "read": false,
               "write": false
             },
             {
               "char": "公",
-              "pinyin": "gong",
+              "pinyin": "xiàng",
               "index": 182,
               "read": false,
               "write": false
             },
             {
               "char": "痴",
-              "pinyin": "chī",
+              "pinyin": "gōng",
               "index": 183,
               "read": false,
               "write": false
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 184,
               "read": false,
               "write": false
             },
             {
               "char": "更",
-              "pinyin": "gèng",
+              "pinyin": "zhě",
               "index": 185,
               "read": false,
               "write": false
             },
             {
               "char": "有",
-              "pinyin": "yǒu",
               "index": 186,
               "read": false,
               "write": false
             },
             {
               "char": "痴",
-              "pinyin": "chī",
               "index": 187,
               "read": false,
               "write": false
             },
             {
               "char": "似",
-              "pinyin": "sì",
               "index": 188,
               "read": false,
               "write": false
             },
             {
               "char": "相",
-              "pinyin": "xiàng",
               "index": 189,
               "read": false,
               "write": false
             },
             {
               "char": "公",
-              "pinyin": "gong",
               "index": 190,
               "read": false,
               "write": false
             },
             {
               "char": "者",
-              "pinyin": "zhě",
               "index": 191,
               "read": false,
               "write": false
             },
             {
               "char": "！",
-              "pinyin": "！",
+              "pinyin": "",
               "index": 192,
               "read": false,
               "write": false
             },
             {
               "char": "\"",
-              "pinyin": "\"",
               "index": 193,
               "read": false,
               "write": false

@@ -59,7 +59,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 7,
               "read": false,
               "write": false
@@ -73,7 +73,7 @@
             },
             {
               "char": "将",
-              "pinyin": "jiāng",
+              "pinyin": "jiàng",
               "index": 9,
               "read": false,
               "write": false
@@ -115,7 +115,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 15,
               "read": false,
               "write": false
@@ -208,7 +208,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 23,
               "read": false,
               "write": false
@@ -264,7 +264,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 31,
               "read": false,
               "write": false
@@ -381,7 +381,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 39,
               "read": false,
               "write": false
@@ -437,7 +437,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 47,
               "read": false,
               "write": false
@@ -525,7 +525,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 55,
               "read": false,
               "write": false
@@ -581,7 +581,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 63,
               "read": false,
               "write": false
@@ -674,7 +674,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 71,
               "read": false,
               "write": false
@@ -730,7 +730,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 79,
               "read": false,
               "write": false
@@ -823,7 +823,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 87,
               "read": false,
               "write": false
@@ -879,7 +879,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 95,
               "read": false,
               "write": false
@@ -969,7 +969,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 103,
               "read": true,
               "write": true
@@ -1025,7 +1025,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 111,
               "read": false,
               "write": false
@@ -1103,7 +1103,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 119,
               "read": false,
               "write": false
@@ -1159,7 +1159,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 127,
               "read": false,
               "write": false
@@ -1237,7 +1237,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 135,
               "read": false,
               "write": false
@@ -1293,7 +1293,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 143,
               "read": false,
               "write": false
@@ -1388,7 +1388,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 151,
               "read": false,
               "write": false
@@ -1444,7 +1444,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 159,
               "read": false,
               "write": false
@@ -1522,7 +1522,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 167,
               "read": false,
               "write": false
@@ -1557,14 +1557,14 @@
             },
             {
               "char": "无",
-              "pinyin": "wú",
+              "pinyin": "gèng",
               "index": 172,
               "read": false,
               "write": false
             },
             {
               "char": "所",
-              "pinyin": "suǒ",
+              "pinyin": "hé",
               "index": 173,
               "read": false,
               "write": false
@@ -1578,7 +1578,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 175,
               "read": false,
               "write": false
@@ -1656,7 +1656,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 183,
               "read": false,
               "write": false
@@ -1712,7 +1712,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 191,
               "read": false,
               "write": false
@@ -1802,7 +1802,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 199,
               "read": false,
               "write": false
@@ -1858,7 +1858,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 207,
               "read": false,
               "write": false
@@ -1950,7 +1950,7 @@
             },
             {
               "char": "，",
-              "pinyin": "，",
+              "pinyin": "",
               "index": 216,
               "read": false,
               "write": false
@@ -2006,7 +2006,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 224,
               "read": false,
               "write": false

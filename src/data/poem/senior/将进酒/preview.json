@@ -10,7 +10,7 @@
             },
             {
               "char": "不",
-              "pinyin": "bú"
+              "pinyin": "bù"
             },
             {
               "char": "见",
@@ -66,7 +66,7 @@
             },
             {
               "char": "不",
-              "pinyin": "bú"
+              "pinyin": "bù"
             },
             {
               "char": "复",
@@ -109,7 +109,7 @@
             },
             {
               "char": "不",
-              "pinyin": "bú"
+              "pinyin": "bù"
             },
             {
               "char": "见",
@@ -141,7 +141,7 @@
             },
             {
               "char": "发",
-              "pinyin": "fā"
+              "pinyin": "fà"
             },
             {
               "char": "，",
@@ -423,7 +423,7 @@
             },
             {
               "char": "一",
-              "pinyin": "yì"
+              "pinyin": "yī"
             },
             {
               "char": "饮",
@@ -569,7 +569,7 @@
             },
             {
               "char": "一",
-              "pinyin": "yì"
+              "pinyin": "yī"
             },
             {
               "char": "曲",
@@ -684,11 +684,11 @@
             },
             {
               "char": "不",
-              "pinyin": "bú"
+              "pinyin": "bù"
             },
             {
               "char": "愿",
-              "pinyin": "yuàn"
+              "pinyin": "fù"
             },
             {
               "char": "醒",
@@ -909,7 +909,7 @@
             },
             {
               "char": "为",
-              "pinyin": "wéi"
+              "pinyin": "wèi"
             },
             {
               "char": "言",
@@ -996,19 +996,19 @@
             },
             {
               "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "千",
               "pinyin": "qiān"
             },
             {
-              "char": "金",
+              "char": "千",
               "pinyin": "jīn"
             },
             {
-              "char": "裘",
+              "char": "金",
               "pinyin": "qiú"
+            },
+            {
+              "char": "裘",
+              "pinyin": "hū"
             },
             {
               "char": "，",
@@ -1016,31 +1016,31 @@
             },
             {
               "char": "呼",
-              "pinyin": "hū"
-            },
-            {
-              "char": "儿",
               "pinyin": "ér"
             },
             {
-              "char": "将",
-              "pinyin": "jiāng"
+              "char": "儿",
+              "pinyin": "qiāng"
             },
             {
-              "char": "出",
+              "char": "将",
               "pinyin": "chū"
             },
             {
-              "char": "换",
+              "char": "出",
               "pinyin": "huàn"
             },
             {
-              "char": "美",
+              "char": "换",
               "pinyin": "měi"
             },
             {
-              "char": "酒",
+              "char": "美",
               "pinyin": "jiǔ"
+            },
+            {
+              "char": "酒",
+              "pinyin": "yǔ"
             },
             {
               "char": "，",
@@ -1048,31 +1048,30 @@
             },
             {
               "char": "与",
-              "pinyin": "yǔ"
-            },
-            {
-              "char": "尔",
               "pinyin": "ěr"
             },
             {
-              "char": "同",
+              "char": "尔",
               "pinyin": "tóng"
             },
             {
-              "char": "销",
+              "char": "同",
               "pinyin": "xiāo"
             },
             {
-              "char": "万",
+              "char": "销",
               "pinyin": "wàn"
             },
             {
-              "char": "古",
+              "char": "万",
               "pinyin": "gǔ"
             },
             {
-              "char": "愁",
+              "char": "古",
               "pinyin": "chóu"
+            },
+            {
+              "char": "愁"
             },
             {
               "char": "。",

@@ -82,7 +82,7 @@
           "sentence": [
             {
               "char": "朝",
-              "pinyin": "cháo",
+              "pinyin": "zhāo",
               "note": [
                 {
                   "title": "注释",
@@ -736,7 +736,7 @@
             },
             {
               "char": "为",
-              "pinyin": "wéi"
+              "pinyin": "wèi"
             },
             {
               "char": "不",
@@ -1875,7 +1875,7 @@
             },
             {
               "char": "间",
-              "pinyin": "jiān",
+              "pinyin": "jiàn",
               "note": [
                 {
                   "title": "注释",
@@ -1901,7 +1901,7 @@
           "sentence": [
             {
               "char": "期",
-              "pinyin": "qī"
+              "pinyin": "jī"
             },
             {
               "char": "年",
@@ -1975,35 +1975,35 @@
             },
             {
               "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "赵",
               "pinyin": "zhào"
             },
             {
-              "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "韩",
+              "char": "赵",
               "pinyin": "hán"
             },
             {
               "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "魏",
               "pinyin": "wèi"
             },
             {
-              "char": "闻",
+              "char": "韩",
               "pinyin": "wén"
             },
             {
-              "char": "之",
+              "char": "、",
               "pinyin": "zhī"
+            },
+            {
+              "char": "魏",
+              "pinyin": "jiē"
+            },
+            {
+              "char": "闻",
+              "pinyin": "cháo"
+            },
+            {
+              "char": "之",
+              "pinyin": "yú"
             },
             {
               "char": "，",
@@ -2011,11 +2011,11 @@
             },
             {
               "char": "皆",
-              "pinyin": "jiē"
+              "pinyin": "qí"
             },
             {
               "char": "朝",
-              "pinyin": "cháo",
+              "pinyin": "cǐ",
               "note": [
                 {
                   "title": "注释",
@@ -2025,11 +2025,11 @@
             },
             {
               "char": "于",
-              "pinyin": "yú"
+              "pinyin": "suǒ"
             },
             {
               "char": "齐",
-              "pinyin": "qí"
+              "pinyin": "wèi"
             },
             {
               "char": "。",
@@ -2045,35 +2045,32 @@
           "sentence": [
             {
               "char": "此",
-              "pinyin": "cǐ"
-            },
-            {
-              "char": "所",
-              "pinyin": "suǒ"
-            },
-            {
-              "char": "谓",
-              "pinyin": "wèi"
-            },
-            {
-              "char": "战",
               "pinyin": "zhàn"
             },
             {
-              "char": "胜",
+              "char": "所",
               "pinyin": "shèng"
             },
             {
-              "char": "于",
+              "char": "谓",
               "pinyin": "yú"
             },
             {
-              "char": "朝",
+              "char": "战",
               "pinyin": "cháo"
             },
             {
-              "char": "廷",
+              "char": "胜",
               "pinyin": "tíng"
+            },
+            {
+              "char": "于"
+            },
+            {
+              "char": "朝"
+            },
+            {
+              "char": "廷"
             },
             {
               "char": "。",

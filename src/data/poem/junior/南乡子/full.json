@@ -45,7 +45,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？",
+              "pinyin": "",
               "index": 5,
               "read": false,
               "write": false
@@ -125,7 +125,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 13,
               "read": false,
               "write": false
@@ -198,7 +198,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？",
+              "pinyin": "",
               "index": 21,
               "read": false,
               "write": false
@@ -229,7 +229,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 24,
               "read": false,
               "write": false
@@ -309,7 +309,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 32,
               "read": false,
               "write": false
@@ -361,56 +361,56 @@
             },
             {
               "char": "，",
-              "pinyin": "，zuò",
+              "pinyin": "",
               "index": 38,
               "read": false,
               "write": false
             },
             {
               "char": "坐",
-              "pinyin": "duàn",
+              "pinyin": "zuò",
               "index": 39,
               "read": false,
               "write": false
             },
             {
               "char": "断",
-              "pinyin": "dōng",
+              "pinyin": "duàn",
               "index": 40,
               "read": false,
               "write": false
             },
             {
               "char": "东",
-              "pinyin": "nán",
+              "pinyin": "dōng",
               "index": 41,
               "read": false,
               "write": false
             },
             {
               "char": "南",
-              "pinyin": "zhàn",
+              "pinyin": "nán",
               "index": 42,
               "read": false,
               "write": false
             },
             {
               "char": "战",
-              "pinyin": "wèi",
+              "pinyin": "zhàn",
               "index": 43,
               "read": false,
               "write": false
             },
             {
               "char": "未",
-              "pinyin": "xiū",
+              "pinyin": "wèi",
               "index": 44,
               "read": false,
               "write": false
             },
             {
               "char": "休",
-              "pinyin": "。",
+              "pinyin": "xiū",
               "index": 45,
               "read": false,
               "write": false
@@ -419,7 +419,8 @@
               "char": "。",
               "index": 46,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "年少时就统领万军，占据东南一角征战不休。",
@@ -516,7 +517,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？",
+              "pinyin": "",
               "index": 54,
               "read": false,
               "write": false
@@ -561,7 +562,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 57,
               "read": false,
               "write": false
@@ -627,7 +628,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 65,
               "read": false,
               "write": false

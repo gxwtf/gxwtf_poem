@@ -59,7 +59,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？",
+              "pinyin": "",
               "index": 7,
               "read": false,
               "write": false
@@ -143,7 +143,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 13,
               "read": false,
               "write": false
@@ -221,70 +221,70 @@
             },
             {
               "char": "，",
-              "pinyin": "，gù",
+              "pinyin": "",
               "index": 21,
               "read": false,
               "write": false
             },
             {
               "char": "故",
-              "pinyin": "guó",
+              "pinyin": "gù",
               "index": 22,
               "read": false,
               "write": false
             },
             {
               "char": "国",
-              "pinyin": "bù",
+              "pinyin": "guó",
               "index": 23,
               "read": false,
               "write": false
             },
             {
               "char": "不",
-              "pinyin": "kān",
+              "pinyin": "bù",
               "index": 24,
               "read": false,
               "write": false
             },
             {
               "char": "堪",
-              "pinyin": "huí",
+              "pinyin": "kān",
               "index": 25,
               "read": false,
               "write": false
             },
             {
               "char": "回",
-              "pinyin": "shǒu",
+              "pinyin": "huí",
               "index": 26,
               "read": false,
               "write": false
             },
             {
               "char": "首",
-              "pinyin": "yuè",
+              "pinyin": "shǒu",
               "index": 27,
               "read": false,
               "write": false
             },
             {
               "char": "月",
-              "pinyin": "míng",
+              "pinyin": "yuè",
               "index": 28,
               "read": false,
               "write": false
             },
             {
               "char": "明",
-              "pinyin": "zhōng",
+              "pinyin": "míng",
               "index": 29,
               "read": false,
               "write": false
             },
             {
               "char": "中",
-              "pinyin": "。",
+              "pinyin": "zhōng",
               "index": 30,
               "read": false,
               "write": false
@@ -293,7 +293,8 @@
               "char": "。",
               "index": 31,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "昨夜小楼上又吹来了春风，在这皓月当空的夜晚哪里忍受得了回忆故国的伤痛。",
@@ -413,42 +414,42 @@
             },
             {
               "char": "，",
-              "pinyin": "，zhǐ",
+              "pinyin": "",
               "index": 39,
               "read": false,
               "write": false
             },
             {
               "char": "只",
-              "pinyin": "shì",
+              "pinyin": "zhǐ",
               "index": 40,
               "read": false,
               "write": false
             },
             {
               "char": "是",
-              "pinyin": "zhū",
+              "pinyin": "shì",
               "index": 41,
               "read": false,
               "write": false
             },
             {
               "char": "朱",
-              "pinyin": "yán",
+              "pinyin": "zhū",
               "index": 42,
               "read": false,
               "write": true
             },
             {
               "char": "颜",
-              "pinyin": "gǎi",
+              "pinyin": "yán",
               "index": 43,
               "read": false,
               "write": false
             },
             {
               "char": "改",
-              "pinyin": "。",
+              "pinyin": "gǎi",
               "index": 44,
               "read": false,
               "write": false
@@ -457,7 +458,8 @@
               "char": "。",
               "index": 45,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             }
           ],
           "translation": "精雕细刻的栏杆和玉石砌成的台阶应该都还在，只是住在里面的人已经衰老。",
@@ -574,7 +576,7 @@
             },
             {
               "char": "？",
-              "pinyin": "？",
+              "pinyin": "",
               "index": 53,
               "read": false,
               "write": false
@@ -673,7 +675,7 @@
             },
             {
               "char": "。",
-              "pinyin": "。",
+              "pinyin": "",
               "index": 63,
               "read": false,
               "write": false
