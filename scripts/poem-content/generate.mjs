@@ -298,11 +298,11 @@ async function main(version){
         const file = files[i];
         if (!file.endsWith('.txt'))continue;
         let poemname = removeDigits(file.replace('.txt', ''));
-        const dir = path.join(`/home/kevin/kevin/git/gxwtf_poem_react/src/data/poem/${version}/`, poemname);
+        const dir = path.join(__dirname, '../../src/data/poem', version, poemname);
         // create directory dir
         fs.mkdirSync(dir, { recursive: true });
 
-        const fileContent = (arrayMode ? array[i].replace('.txt', '') : fs.readFileSync(path.join(`/home/kevin/kevin/git/gxwtf_poem/src/poem/${version}/`, file), 'utf8'));
+        const fileContent = (arrayMode ? array[version][i] : fs.readFileSync(path.join(__dirname, '../../gxwtf_poem/src/poem', version, file), 'utf8'));
 
         let JSONfile = path.join(dir, 'full.json');
         // 如果已经存在JSON文件，则跳过
