@@ -72,7 +72,7 @@ export function PoemPreview({ data }: PoemPreviewProps) {
 
     return (
         <>
-            <div className="max-w-3xl mx-auto py-8">
+            <div className="max-w-full mx-auto">
                 <ControlButtons
                     showTranslation={showTranslation}
                     setShowTranslation={setShowTranslation}
@@ -83,7 +83,7 @@ export function PoemPreview({ data }: PoemPreviewProps) {
                 />
                 <div className={mode === "poem" ? "text-center" : "text-left"}>
                     {preview.map((paragraph, pIdx) => (
-                        <div key={pIdx} className={mode === "paragraph" ? "mt-8" : ""}>
+                        <div key={pIdx} className={mode === "paragraph" ? "my-4" : ""}>
                             <Paragraph
                                 para={paragraph}
                                 showPinyin={showPinyin}
