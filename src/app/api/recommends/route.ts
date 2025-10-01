@@ -1,4 +1,3 @@
-import { NextRequest } from "next/server";
 import { PrismaClient } from "@prisma/client";
 import { cookies } from 'next/headers'
 import { getIronSession } from 'iron-session'
@@ -9,12 +8,8 @@ const prisma = new PrismaClient();
 // 判断当前是上学期还是下学期的函数
 function getCurrentSemester() {
 	const now = new Date();
-	const currentYear = now.getFullYear();
 	const currentMonth = now.getMonth() + 1; // JavaScript月份从0开始
 	const currentDay = now.getDate();
-
-	// 获取当年9月1日
-	const september1 = new Date(currentYear, 8, 1); // 9月
 
 	// 判断是否在9月1日及以后，或者在次年春节之前
 	if ((currentMonth > 9) || (currentMonth === 9 && currentDay >= 1)) {
@@ -57,10 +52,9 @@ function getGradeTag(grade: number): string | null {
 }
 
 // 基于年级的推荐算法
-export async function GET(request: NextRequest) {
+export async function GET() {
 	try {
 		const session = await getIronSession<SessionData>(await cookies(), sessionOptions);
-		const { searchParams } = new URL(request.url);
 		const grade = session.grade || 0;
 		let tagFilter: string | null = null;
 		let isSeniorAll = false;

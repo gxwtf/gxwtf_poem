@@ -4,7 +4,6 @@ import { SiteHeader } from "@/components/site-header"
 import Recommends from "@/components/recommends"
 import { CheckIn } from "@/components/check-in"
 import { TodayInHistory } from "@/components/today-in-history"
-import { CarouselPlugin } from "@/components/carousel"
 import React from "react"
 
 export default function Page() {
