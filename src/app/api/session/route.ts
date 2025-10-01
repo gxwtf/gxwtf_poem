@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
             session.admin = res.data.admin;
             session.real_name = res.data.userRealName;
             session.email = res.data.userEmail;
-            session.grade = 10;
+            session.grade = res.data.grade || 7;
             session.counter = 0;
             session.version = session.grade >= 10 ? 'senior' : 'junior';
             await session.save();

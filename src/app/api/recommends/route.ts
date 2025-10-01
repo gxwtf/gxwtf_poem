@@ -1,3 +1,4 @@
+import { NextRequest } from "next/server";
 import { PrismaClient } from "@prisma/client";
 import { cookies } from 'next/headers'
 import { getIronSession } from 'iron-session'
@@ -52,9 +53,10 @@ function getGradeTag(grade: number): string | null {
 }
 
 // 基于年级的推荐算法
-export async function GET() {
+export async function GET(request: NextRequest) {
 	try {
 		const session = await getIronSession<SessionData>(await cookies(), sessionOptions);
+        const { searchParams } = new URL(request.url);
 		const grade = session.grade || 0;
 		let tagFilter: string | null = null;
 		let isSeniorAll = false;
