@@ -2,7 +2,6 @@
 
 import fs from "fs";
 import path from "path";
-import pinyin from "pinyin";
 import { fileURLToPath } from "url";
 
 // 获取当前脚本目录
