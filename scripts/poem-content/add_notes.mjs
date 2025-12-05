@@ -148,11 +148,10 @@ for (const version of versions) {
                 const rawInside = match[1];
                 const content = match[2].trim();
 
-                const cleaned = extractChinese(removePinyin(rawInside));
-                const keywords = cleaned
-                    .split(/(?:(?<=.)，|,|；|;)/g)
-                    .map(s => s.trim())
-                    .filter(s => s.length);
+                // 先去掉拼音，整段内容视为一个连续的关键词（保留其中的标点）
+                const noPinyin = removePinyin(rawInside);
+                const keyword = noPinyin.trim();
+                const keywords = keyword.length ? [keyword] : [];
 
                 return { keywords, content };
             }).filter(Boolean);
