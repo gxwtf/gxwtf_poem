@@ -8,86 +8,365 @@
   "pinyin": "gǔ zhī xué zhě bì yǒu shī shī zhě suǒ yǐ chuán dào shòu yè jiě huò yě rén fēi shēng ér zhī zhī zhě shú néng wú huò huò ér bù cóng shī qí wéi huò yě zhōng bù jiě yǐ shēng hū wú qián qí wén dào yě gù xiān hū wú wú cóng ér shī zhī shēng hū wú hòu qí wén dào yě yì xiān hū wú wú cóng ér shī zhī wú shī dào yě fú yōng zhī qí nián zhī xiān hòu shēng yú wú hū shì gù wú guì wú jiàn wú zhǎng wú shào dào zhī suǒ cún shī zhī suǒ cún yě jiē hū shī dào zhī bù chuán yě jiǔ yǐ yù rén zhī wú huò yě nán yǐ gǔ zhī shèng rén qí chū rén yě yuǎn yǐ yóu qiě cóng shī ér wèn yān jīn zhī zhòng rén qí xià shèng rén yě yì yuǎn yǐ ér chǐ xué yú shī shì gù shèng yì shèng yú yì yú shèng rén zhī suǒ yǐ wéi shèng yú rén zhī suǒ yǐ wéi yú qí jiē chū yú cǐ hū ài qí zǐ zé shī ér jiào zhī yú qí shēn yě zé chǐ shī yān huò yǐ bǐ tóng zǐ zhī shī shòu zhī shū ér xí qí jù dòu zhě fēi wú suǒ wèi chuán qí dào jiě qí huò zhě yě jù dòu zhī bù zhī huò zhī bù jiě huò shī yān huò fǒu yān xiǎo xué ér dà yí wú wèi jiàn qí míng yě wū yī yuè shī bǎi gōng zhī rén bù chǐ xiāng shī shì dà fū zhī zú yuē shī yuē dì zǐ yún zhě zé qún jù ér xiào zhī wèn zhī zé yuē bǐ yǔ bǐ nián xiāng ruò yě dào xiāng sì yě wèi bēi zé zú xiū guān shèng zé jìn yú wū hū shī dào zhī bù fù kě zhī yǐ wū yī yuè shī bǎi gōng zhī rén jūn zi bù chǐ jīn qí zhì nǎi fǎn bù néng jí qí kě guài yě yú shèng rén wú cháng shī kǒng zǐ shī tán zǐ cháng hóng shī xiāng lǎo dān tán zǐ zhī tú qí xián bù jí kǒng zǐ kǒng zǐ yuē sān rén xíng zé bì yǒu wǒ shī shì gù dì zǐ bù bì bù rú shī shī bù bì xián yú dì zǐ wén dào yǒu xiān hòu shù yè yǒu zhuān gōng rú shì ér yǐ lǐ shì zǐ pán nián shí qī hào gǔ wén liù yì jīng zhuàn jiē tōng xí zhī bù jū yú shí xué yú yú yú jiā qí néng xíng gǔ dào zuò shī shuō yǐ yí zhī  ",
   "notes": [
     {
-      "start": 11,
-      "end": 12,
-      "note": "所以：古义为‘用来……的’，与现代‘因此’不同，此处指老师的作用。"
+      "start": 2,
+      "end": 3,
+      "note": "求学的人。"
     },
     {
-      "start": 15,
-      "end": 15,
-      "note": "受：通‘授’，传授的意思，属通假字。"
+      "start": 8,
+      "end": 19,
+      "note": "老师，是依靠他来传授道、教授学业、解除疑惑的人。所以，用来……的、凭它（他）来……的。受，同“授”，传授。"
     },
     {
-      "start": 51,
-      "end": 51,
-      "note": "乎：相当于‘于’，表示比较，意为‘在……之前’。"
+      "start": 18,
+      "end": 18,
+      "note": "糊涂。"
     },
     {
-      "start": 62,
-      "end": 62,
-      "note": "乎：同上，表比较，‘比我早’。"
+      "start": 23,
+      "end": 26,
+      "note": "生下来就懂得知识和道理。之，指知识和道理。"
+    },
+    {
+      "start": 32,
+      "end": 32,
+      "note": "糊涂。"
+    },
+    {
+      "start": 40,
+      "end": 43,
+      "note": "它们作为疑惑。其，它们，指不跟从老师学习而遗留下的问题。"
+    },
+    {
+      "start": 34,
+      "end": 34,
+      "note": "糊涂。"
+    },
+    {
+      "start": 56,
+      "end": 56,
+      "note": "知道，懂得。"
     },
     {
       "start": 65,
-      "end": 66,
-      "note": "从而：两个词，‘从’意为跟随，‘而’表顺接，非现代连词。"
+      "end": 68,
+      "note": "跟随他学习，即以他为老师。"
     },
     {
-      "start": 96,
-      "end": 96,
-      "note": "庸：疑问副词，意为‘哪里、怎么’，用于反问语气。"
+      "start": 76,
+      "end": 76,
+      "note": "知道，懂得。"
+    },
+    {
+      "start": 85,
+      "end": 88,
+      "note": "跟随他学习，即以他为老师。"
+    },
+    {
+      "start": 90,
+      "end": 93,
+      "note": "我学习的是道。师，学习。"
+    },
+    {
+      "start": 95,
+      "end": 106,
+      "note": "哪管他是生在我之前还是生在我之后呢？庸，表示反问语气。"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "note": "尊师学习的风尚。"
     },
     {
       "start": 110,
-      "end": 110,
-      "note": "无：意为‘无论’，引出条件，非‘没有’。"
+      "end": 113,
+      "note": "意思是就从师问道来说，没有贵和贱的区分。"
+    },
+    {
+      "start": 120,
+      "end": 129,
+      "note": "道存在的地方，就是老师在的地方。意思是谁懂得道，谁就是自己的老师。"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "note": "尊师学习的风尚。"
+    },
+    {
+      "start": 147,
+      "end": 147,
+      "note": "糊涂。"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "note": "超出一般人。"
+    },
+    {
+      "start": 164,
+      "end": 165,
+      "note": "尚且，还。"
+    },
+    {
+      "start": 174,
+      "end": 175,
+      "note": "一般人。"
+    },
+    {
+      "start": 194,
+      "end": 200,
+      "note": "圣人更加圣明，愚人更加愚昧。益，更加、越发。"
+    },
+    {
+      "start": 237,
+      "end": 237,
+      "note": "自己。"
+    },
+    {
+      "start": 241,
+      "end": 242,
+      "note": "以从师学习为耻。"
+    },
+    {
+      "start": 245,
+      "end": 245,
+      "note": "糊涂。"
+    },
+    {
+      "start": 273,
+      "end": 273,
+      "note": "糊涂。"
+    },
+    {
+      "start": 249,
+      "end": 250,
+      "note": "未成年的男子。"
+    },
+    {
+      "start": 254,
+      "end": 261,
+      "note": "教给他书本的文字，（帮助他）学习句读。句读，指断开句子的知识。一句话后面的停顿为句，一句话中间短暂的停顿为读。古书没有标点，所以要学习句读。"
+    },
+    {
+      "start": 283,
+      "end": 283,
+      "note": "糊涂。"
     },
     {
       "start": 277,
-      "end": 278,
-      "note": "句读：指文辞的停顿和断句，‘句’为语意完整处，‘读’为语意未完的停顿。"
+      "end": 281,
+      "note": "不明句读。下文“惑之不解”结构同此。"
     },
     {
-      "start": 280,
-      "end": 280,
-      "note": "之：提宾标志，用于‘句读之不知’中，将宾语前置。"
-    },
-    {
-      "start": 293,
-      "end": 293,
-      "note": "不：通‘否’，表示否定回答，读作fǒu。"
+      "start": 288,
+      "end": 294,
+      "note": "有的向老师学习，有的不向老师学习。前一个“或”指代“句读之不知”，后一个“或”指代“惑之不解”。不，同“否”。"
     },
     {
       "start": 296,
-      "end": 297,
-      "note": "小学：古义指‘小的方面去学习’，与现代‘小学教育’不同。"
+      "end": 300,
+      "note": "小的方面要学习，大的方面却放弃了。"
     },
     {
-      "start": 402,
+      "start": 309,
+      "end": 310,
+      "note": "古代巫和医不分，故并举。巫主要以祝祷、占卜等为业，也为人治病。"
+    },
+    {
+      "start": 311,
+      "end": 312,
+      "note": "以演奏音乐为职业的人。"
+    },
+    {
+      "start": 313,
+      "end": 314,
+      "note": "泛指各种工匠。"
+    },
+    {
+      "start": 318,
+      "end": 321,
+      "note": "不以拜别人为师为耻。"
+    },
+    {
+      "start": 327,
+      "end": 327,
+      "note": "类。"
+    },
+    {
+      "start": 329,
+      "end": 335,
+      "note": "说谁是谁的老师、谁是谁的学生之类的话。云者，如此之类。"
+    },
+    {
+      "start": 354,
+      "end": 356,
+      "note": "年龄差不多。"
+    },
+    {
+      "start": 364,
+      "end": 374,
+      "note": "以地位低者为师，就感到十分耻辱；以官职高者为师，就觉得是近乎谄媚。谀，谄媚奉承。"
+    },
+    {
+      "start": 380,
+      "end": 381,
+      "note": "尊师学习的风尚。"
+    },
+    {
+      "start": 390,
+      "end": 391,
+      "note": "古代巫和医不分，故并举。巫主要以祝祷、占卜等为业，也为人治病。"
+    },
+    {
+      "start": 392,
+      "end": 393,
+      "note": "以演奏音乐为职业的人。"
+    },
+    {
+      "start": 394,
+      "end": 395,
+      "note": "泛指各种工匠。"
+    },
+    {
+      "start": 401,
       "end": 402,
-      "note": "不齿：意为不屑与之同列，表示极端鄙视。"
+      "note": "不与同列，意思是看不起。齿，并列、排列。"
     },
     {
-      "start": 408,
-      "end": 408,
-      "note": "乃：副词，意为‘竟然’，表示出乎意料的转折。"
+      "start": 407,
+      "end": 407,
+      "note": "竟。"
+    },
+    {
+      "start": 417,
+      "end": 417,
+      "note": "语气助词，表示感叹。"
     },
     {
       "start": 422,
       "end": 423,
-      "note": "常师：固定的老师，‘常’意为固定、永久。"
+      "note": "固定的老师。"
+    },
+    {
+      "start": 428,
+      "end": 429,
+      "note": "春秋时郯国（今山东郯城一带）的国君，孔子曾向他请教官职的名称。"
+    },
+    {
+      "start": 431,
+      "end": 432,
+      "note": "春秋时周大夫，孔子曾向他请教过音乐方面的事情。"
+    },
+    {
+      "start": 434,
+      "end": 435,
+      "note": "春秋时鲁国的乐官，孔子曾跟他学过琴。"
+    },
+    {
+      "start": 437,
+      "end": 438,
+      "note": "即老子，孔子曾向他问过礼。"
+    },
+    {
+      "start": 440,
+      "end": 441,
+      "note": "春秋时郯国（今山东郯城一带）的国君，孔子曾向他请教官职的名称。"
+    },
+    {
+      "start": 440,
+      "end": 443,
+      "note": "郯子那些人（指上面说的四个人）。徒，同类的人。"
+    },
+    {
+      "start": 446,
+      "end": 446,
+      "note": "才德优秀。"
+    },
+    {
+      "start": 446,
+      "end": 446,
+      "note": "超过。"
+    },
+    {
+      "start": 456,
+      "end": 464,
+      "note": "语出《论语·述而》。原句是：“三人行，必有我师焉。”"
+    },
+    {
+      "start": 484,
+      "end": 484,
+      "note": "知道，懂得。"
+    },
+    {
+      "start": 479,
+      "end": 479,
+      "note": "才德优秀。"
+    },
+    {
+      "start": 470,
+      "end": 471,
+      "note": "不一定。"
+    },
+    {
+      "start": 479,
+      "end": 479,
+      "note": "超过。"
+    },
+    {
+      "start": 490,
+      "end": 491,
+      "note": "学术技艺。"
+    },
+    {
+      "start": 493,
+      "end": 494,
+      "note": "专门学习或研究。攻，学习、研究。"
+    },
+    {
+      "start": 501,
+      "end": 504,
+      "note": "李家的孩子叫蟠的。即李蟠，唐德宗贞元十九年（８０３）进士。"
+    },
+    {
+      "start": 511,
+      "end": 512,
+      "note": "指先秦两汉时期的散文，与骈文相对。"
     },
     {
       "start": 514,
-      "end": 515,
-      "note": "六艺：指《诗》《书》《礼》《乐》《易》《春秋》六部经典。"
+      "end": 517,
+      "note": "六经的经文和传文。六艺，指《诗》《书》《礼》《乐》《易》《春秋》六种经书，其中《乐》久已失传。传，古代解释经书的著作。"
+    },
+    {
+      "start": 519,
+      "end": 519,
+      "note": "全面。"
+    },
+    {
+      "start": 523,
+      "end": 526,
+      "note": "不受时俗的限制。时，时俗，指当时士大夫中耻于从师的不良风气。"
+    },
+    {
+      "start": 533,
+      "end": 533,
+      "note": "赞许。"
+    },
+    {
+      "start": 537,
+      "end": 538,
+      "note": "指古人从师之道。"
     },
     {
       "start": 546,
       "end": 546,
-      "note": "贻：赠送的意思，常用于书籍赠人，读作yí。"
+      "note": "赠送。"
     }
   ],
-  "tags": [],
+  "tags": [
+    "必修上",
+    "文言文",
+    "背默"
+  ],
   "videos": []
 }

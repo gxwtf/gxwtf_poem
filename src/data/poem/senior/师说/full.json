@@ -66,7 +66,14 @@
             }
           ],
           "translation": "古代求学的人必定有老师。",
-          "pinyin": "gǔ zhī xué zhě bì yǒu shī 。"
+          "pinyin": "gǔ zhī xué zhě bì yǒu shī 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "求学的人。"
+            }
+          ]
         },
         {
           "content": [
@@ -166,14 +173,14 @@
           "pinyin": "shī zhě ， suǒ yǐ chuán dào shòu yè jiě huò yě 。",
           "notes": [
             {
-              "start": 3,
-              "end": 4,
-              "content": "所以：古义为‘用来……的’，与现代‘因此’不同，此处指老师的作用。"
+              "start": 0,
+              "end": 11,
+              "content": "老师，是依靠他来传授道、教授学业、解除疑惑的人。所以，用来……的、凭它（他）来……的。受，同“授”，传授。"
             },
             {
-              "start": 7,
-              "end": 7,
-              "content": "受：通‘授’，传授的意思，属通假字。"
+              "start": 10,
+              "end": 10,
+              "content": "糊涂。"
             }
           ],
           "different_meanings": [
@@ -291,7 +298,19 @@
             }
           ],
           "translation": "人不是一生下来就懂得道理，谁能没有疑惑？",
-          "pinyin": "rén fēi shēng ér zhī zhī zhě ， shú néng wú huò ？"
+          "pinyin": "rén fēi shēng ér zhī zhī zhě ， shú néng wú huò ？",
+          "notes": [
+            {
+              "start": 2,
+              "end": 5,
+              "content": "生下来就懂得知识和道理。之，指知识和道理。"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "content": "糊涂。"
+            }
+          ]
         },
         {
           "content": [
@@ -409,7 +428,19 @@
             }
           ],
           "translation": "有了疑惑，如果不跟老师学习，他所存在的疑惑，就始终不能解开。",
-          "pinyin": "huò ér bù cóng shī ， qí wéi huò yě ， zhōng bù jiě yǐ 。"
+          "pinyin": "huò ér bù cóng shī ， qí wéi huò yě ， zhōng bù jiě yǐ 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 9,
+              "content": "它们作为疑惑。其，它们，指不跟从老师学习而遗留下的问题。"
+            },
+            {
+              "start": 0,
+              "end": 0,
+              "content": "糊涂。"
+            }
+          ]
         },
         {
           "content": [
@@ -558,19 +589,14 @@
           "pinyin": "shēng hū wú qián ， qí wén dào yě gù xiān hū wú ， wú cóng ér shī zhī ；",
           "notes": [
             {
-              "start": 1,
-              "end": 1,
-              "content": "乎：相当于‘于’，表示比较，意为‘在……之前’。"
-            },
-            {
-              "start": 12,
-              "end": 12,
-              "content": "乎：同上，表比较，‘比我早’。"
+              "start": 6,
+              "end": 6,
+              "content": "知道，懂得。"
             },
             {
               "start": 15,
-              "end": 16,
-              "content": "从而：两个词，‘从’意为跟随，‘而’表顺接，非现代连词。"
+              "end": 18,
+              "content": "跟随他学习，即以他为老师。"
             }
           ],
           "different_meanings": [
@@ -737,7 +763,19 @@
             }
           ],
           "translation": "出生在我之后的人，如果他懂得道理也比我早，我也跟从他，以他为老师。",
-          "pinyin": "shēng hū wú hòu ， qí wén dào yě yì xiān hū wú ， wú cóng ér shī zhī 。"
+          "pinyin": "shēng hū wú hòu ， qí wén dào yě yì xiān hū wú ， wú cóng ér shī zhī 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 6,
+              "content": "知道，懂得。"
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "content": "跟随他学习，即以他为老师。"
+            }
+          ]
         },
         {
           "content": [
@@ -872,9 +910,19 @@
           "pinyin": "wú shī dào yě ， fū yōng zhī qí nián zhī xiān hòu shēng yú wú hū ？",
           "notes": [
             {
-              "start": 6,
-              "end": 6,
-              "content": "庸：疑问副词，意为‘哪里、怎么’，用于反问语气。"
+              "start": 0,
+              "end": 3,
+              "content": "我学习的是道。师，学习。"
+            },
+            {
+              "start": 5,
+              "end": 16,
+              "content": "哪管他是生在我之前还是生在我之后呢？庸，表示反问语气。"
+            },
+            {
+              "start": 1,
+              "end": 2,
+              "content": "尊师学习的风尚。"
             }
           ]
         },
@@ -1047,8 +1095,13 @@
           "notes": [
             {
               "start": 2,
-              "end": 2,
-              "content": "无：意为‘无论’，引出条件，非‘没有’。"
+              "end": 5,
+              "content": "意思是就从师问道来说，没有贵和贱的区分。"
+            },
+            {
+              "start": 12,
+              "end": 21,
+              "content": "道存在的地方，就是老师在的地方。意思是谁懂得道，谁就是自己的老师。"
             }
           ]
         }
@@ -1207,7 +1260,19 @@
             }
           ],
           "translation": "唉！古代从师的传统不流传已经很久了，想要人没有疑惑太难了！",
-          "pinyin": "jiē hū ！ shī dào zhī bù chuán yě jiǔ yǐ ！ yù rén zhī wú huò yě nán yǐ ！"
+          "pinyin": "jiē hū ！ shī dào zhī bù chuán yě jiǔ yǐ ！ yù rén zhī wú huò yě nán yǐ ！",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "尊师学习的风尚。"
+            },
+            {
+              "start": 16,
+              "end": 16,
+              "content": "糊涂。"
+            }
+          ]
         },
         {
           "content": [
@@ -1353,7 +1418,19 @@
             }
           ],
           "translation": "古代的圣人，他们超出一般人很远，尚且要跟从老师请教；",
-          "pinyin": "gǔ zhī shèng rén ， qí chū rén yě yuǎn yǐ ， yóu qiě cóng shī ér wèn yān ；"
+          "pinyin": "gǔ zhī shèng rén ， qí chū rén yě yuǎn yǐ ， yóu qiě cóng shī ér wèn yān ；",
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "content": "超出一般人。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "尚且，还。"
+            }
+          ]
         },
         {
           "content": [
@@ -1499,7 +1576,14 @@
             }
           ],
           "translation": "现在的普通人，他们才智不及圣人也很远，却以向老师学习为耻。",
-          "pinyin": "jīn zhī zhòng rén ， qí xià shèng rén yě yì yuǎn yǐ ， ér chǐ xué yú shī 。"
+          "pinyin": "jīn zhī zhòng rén ， qí xià shèng rén yě yì yuǎn yǐ ， ér chǐ xué yú shī 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "一般人。"
+            }
+          ]
         },
         {
           "content": [
@@ -1575,7 +1659,14 @@
             }
           ],
           "translation": "因此，圣人更加圣明，愚人更加愚昧。",
-          "pinyin": "shì gù shèng yì shèng ， yú yì yú 。"
+          "pinyin": "shì gù shèng yì shèng ， yú yì yú 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 8,
+              "content": "圣人更加圣明，愚人更加愚昧。益，更加、越发。"
+            }
+          ]
         },
         {
           "content": [
@@ -1742,7 +1833,8 @@
             }
           ],
           "translation": "圣人成为圣人的原因，愚人成为愚人的原因，大概就是出于这个缘故吧？",
-          "pinyin": "shèng rén zhī suǒ yǐ wéi shèng ， yú rén zhī suǒ yǐ wéi yú ， qí jiē chū yú cǐ hū ？"
+          "pinyin": "shèng rén zhī suǒ yǐ wéi shèng ， yú rén zhī suǒ yǐ wéi yú ， qí jiē chū yú cǐ hū ？",
+          "notes": []
         },
         {
           "content": [
@@ -1909,7 +2001,24 @@
             }
           ],
           "translation": "爱自己的孩子，选择老师来教他。但是对于他自己，却以跟从老师学习为可耻，真是糊涂啊！",
-          "pinyin": "ài qí zǐ ， zé shī ér jiào zhī ； yú qí shēn yě ， zé chǐ shī yān ， huò yǐ 。"
+          "pinyin": "ài qí zǐ ， zé shī ér jiào zhī ； yú qí shēn yě ， zé chǐ shī yān ， huò yǐ 。",
+          "notes": [
+            {
+              "start": 12,
+              "end": 12,
+              "content": "自己。"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "content": "以从师学习为耻。"
+            },
+            {
+              "start": 20,
+              "end": 20,
+              "content": "糊涂。"
+            }
+          ]
         },
         {
           "content": [
@@ -2118,7 +2227,24 @@
             }
           ],
           "translation": "那些教小孩子的（启蒙）老师，教他读书，学习书中的文句的停顿，并不是我所说的传授道理，解答疑难问题的老师。",
-          "pinyin": "bǐ tóng zǐ zhī shī ， shòu zhī shū ér xí qí jù dú zhě ， fēi wú suǒ wèi chuán qí dào jiě qí huò zhě yě 。"
+          "pinyin": "bǐ tóng zǐ zhī shī ， shòu zhī shū ér xí qí jù dú zhě ， fēi wú suǒ wèi chuán qí dào jiě qí huò zhě yě 。",
+          "notes": [
+            {
+              "start": 25,
+              "end": 25,
+              "content": "糊涂。"
+            },
+            {
+              "start": 1,
+              "end": 2,
+              "content": "未成年的男子。"
+            },
+            {
+              "start": 6,
+              "end": 13,
+              "content": "教给他书本的文字，（帮助他）学习句读。句读，指断开句子的知识。一句话后面的停顿为句，一句话中间短暂的停顿为读。古书没有标点，所以要学习句读。"
+            }
+          ]
         },
         {
           "content": [
@@ -2351,24 +2477,24 @@
           "pinyin": "jù dú zhī bù zhī ， huò zhī bù jiě ， huò shī yān ， huò bù yān ， xiǎo xué ér dà yí ， wú wèi jiàn qí míng yě 。",
           "notes": [
             {
+              "start": 6,
+              "end": 6,
+              "content": "糊涂。"
+            },
+            {
               "start": 0,
-              "end": 1,
-              "content": "句读：指文辞的停顿和断句，‘句’为语意完整处，‘读’为语意未完的停顿。"
+              "end": 4,
+              "content": "不明句读。下文“惑之不解”结构同此。"
             },
             {
-              "start": 3,
-              "end": 3,
-              "content": "之：提宾标志，用于‘句读之不知’中，将宾语前置。"
-            },
-            {
-              "start": 16,
-              "end": 16,
-              "content": "不：通‘否’，表示否定回答，读作fǒu。"
+              "start": 11,
+              "end": 17,
+              "content": "有的向老师学习，有的不向老师学习。前一个“或”指代“句读之不知”，后一个“或”指代“惑之不解”。不，同“否”。"
             },
             {
               "start": 19,
-              "end": 20,
-              "content": "小学：古义指‘小的方面去学习’，与现代‘小学教育’不同。"
+              "end": 23,
+              "content": "小的方面要学习，大的方面却放弃了。"
             }
           ],
           "different_meanings": [
@@ -2493,7 +2619,29 @@
             }
           ],
           "translation": "巫医、乐师、各种工匠这些人，不以互相学习为耻。",
-          "pinyin": "wū yī yuè shī bǎi gōng zhī rén ， bù chǐ xiāng shī 。"
+          "pinyin": "wū yī yuè shī bǎi gōng zhī rén ， bù chǐ xiāng shī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "古代巫和医不分，故并举。巫主要以祝祷、占卜等为业，也为人治病。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "content": "以演奏音乐为职业的人。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "泛指各种工匠。"
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "content": "不以拜别人为师为耻。"
+            }
+          ]
         },
         {
           "content": [
@@ -2646,7 +2794,19 @@
             }
           ],
           "translation": "士大夫这一类人，听到称“老师”称“弟子”的人，就聚在一起嘲笑他们。",
-          "pinyin": "shì dài fū zhī zú ， yuē shī yuē dì zǐ yún zhě ， zé qún jù ér xiào zhī 。"
+          "pinyin": "shì dài fū zhī zú ， yuē shī yuē dì zǐ yún zhě ， zé qún jù ér xiào zhī 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 4,
+              "content": "类。"
+            },
+            {
+              "start": 6,
+              "end": 12,
+              "content": "说谁是谁的老师、谁是谁的学生之类的话。云者，如此之类。"
+            }
+          ]
         },
         {
           "content": [
@@ -2883,7 +3043,19 @@
             }
           ],
           "translation": "问他们，就说：“他和他年龄差不多，懂得的道理也差不多。（以）地位低（的人为师），就觉得羞耻，（以）官职高（的人为师），就近乎谄媚了。”",
-          "pinyin": "wèn zhī ， zé yuē ： “ bǐ yǔ bǐ nián xiāng ruò yě ， dào xiāng sì yě ， wèi bēi zé zú xiū ， guān shèng zé jìn yú 。”"
+          "pinyin": "wèn zhī ， zé yuē ： “ bǐ yǔ bǐ nián xiāng ruò yě ， dào xiāng sì yě ， wèi bēi zé zú xiū ， guān shèng zé jìn yú 。”",
+          "notes": [
+            {
+              "start": 10,
+              "end": 12,
+              "content": "年龄差不多。"
+            },
+            {
+              "start": 20,
+              "end": 30,
+              "content": "以地位低者为师，就感到十分耻辱；以官职高者为师，就觉得是近乎谄媚。谀，谄媚奉承。"
+            }
+          ]
         },
         {
           "content": [
@@ -2980,7 +3152,14 @@
             }
           ],
           "translation": "哎！求师的风尚难以恢复由此可以知道了！",
-          "pinyin": "wū hū ！ shī dào zhī bù fù ， kě zhī yǐ 。"
+          "pinyin": "wū hū ！ shī dào zhī bù fù ， kě zhī yǐ 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "尊师学习的风尚。"
+            }
+          ]
         },
         {
           "content": [
@@ -3192,14 +3371,34 @@
           "pinyin": "wū yī yuè shī bǎi gōng zhī rén ， jūn zǐ bù chǐ ， jīn qí zhì nǎi fǎn bù néng jí ， qí kě guài yě yú ！",
           "notes": [
             {
-              "start": 12,
-              "end": 12,
-              "content": "不齿：意为不屑与之同列，表示极端鄙视。"
+              "start": 0,
+              "end": 1,
+              "content": "古代巫和医不分，故并举。巫主要以祝祷、占卜等为业，也为人治病。"
             },
             {
-              "start": 18,
-              "end": 18,
-              "content": "乃：副词，意为‘竟然’，表示出乎意料的转折。"
+              "start": 2,
+              "end": 3,
+              "content": "以演奏音乐为职业的人。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "泛指各种工匠。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "content": "不与同列，意思是看不起。齿，并列、排列。"
+            },
+            {
+              "start": 17,
+              "end": 17,
+              "content": "竟。"
+            },
+            {
+              "start": 27,
+              "end": 27,
+              "content": "语气助词，表示感叹。"
             }
           ]
         }
@@ -3258,7 +3457,7 @@
             {
               "start": 3,
               "end": 4,
-              "content": "常师：固定的老师，‘常’意为固定、永久。"
+              "content": "固定的老师。"
             }
           ]
         },
@@ -3371,7 +3570,29 @@
             }
           ],
           "translation": "孔子曾以郯子、苌弘、师襄、老聃为师。",
-          "pinyin": "kǒng zǐ shī tán zǐ 、 cháng hóng 、 shī xiāng 、 lǎo dān 。"
+          "pinyin": "kǒng zǐ shī tán zǐ 、 cháng hóng 、 shī xiāng 、 lǎo dān 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "春秋时郯国（今山东郯城一带）的国君，孔子曾向他请教官职的名称。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "content": "春秋时周大夫，孔子曾向他请教过音乐方面的事情。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "content": "春秋时鲁国的乐官，孔子曾跟他学过琴。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "即老子，孔子曾向他问过礼。"
+            }
+          ]
         },
         {
           "content": [
@@ -3461,7 +3682,29 @@
             }
           ],
           "translation": "郯子这些人，他们的贤能都比不上孔子。",
-          "pinyin": "tán zǐ zhī tú ， qí xián bù jí kǒng zǐ 。"
+          "pinyin": "tán zǐ zhī tú ， qí xián bù jí kǒng zǐ 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "春秋时郯国（今山东郯城一带）的国君，孔子曾向他请教官职的名称。"
+            },
+            {
+              "start": 0,
+              "end": 3,
+              "content": "郯子那些人（指上面说的四个人）。徒，同类的人。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "才德优秀。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "超过。"
+            }
+          ]
         },
         {
           "content": [
@@ -3565,7 +3808,14 @@
             }
           ],
           "translation": "孔子说：“几个人一起走，其中一定有可以当我的老师的人。”",
-          "pinyin": "kǒng zǐ yuē ： sān rén xíng ， zé bì yǒu wǒ shī 。"
+          "pinyin": "kǒng zǐ yuē ： sān rén xíng ， zé bì yǒu wǒ shī 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 12,
+              "content": "语出《论语·述而》。原句是：“三人行，必有我师焉。”"
+            }
+          ]
         },
         {
           "content": [
@@ -3816,7 +4066,39 @@
             }
           ],
           "translation": "因此学生不一定不如老师，老师不一定比学生贤能，听到的道理有早有晚，学问技艺各有专长，如此罢了。",
-          "pinyin": "shì gù dì zǐ bù bì bù rú shī ， shī bù bì xián yú dì zǐ ， wén dào yǒu xiān hòu ， shù yè yǒu zhuān gōng ， rú shì ér yǐ 。"
+          "pinyin": "shì gù dì zǐ bù bì bù rú shī ， shī bù bì xián yú dì zǐ ， wén dào yǒu xiān hòu ， shù yè yǒu zhuān gōng ， rú shì ér yǐ 。",
+          "notes": [
+            {
+              "start": 18,
+              "end": 18,
+              "content": "知道，懂得。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "才德优秀。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "不一定。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "超过。"
+            },
+            {
+              "start": 24,
+              "end": 25,
+              "content": "学术技艺。"
+            },
+            {
+              "start": 27,
+              "end": 28,
+              "content": "专门学习或研究。攻，学习、研究。"
+            }
+          ]
         }
       ]
     },
@@ -4046,9 +4328,29 @@
           "pinyin": "lǐ shì zǐ pán ， nián shí qī ， hào gǔ wén ， liù yì jīng zhuàn jiē tōng xí zhī ， bù jū yú shí ， xué yú yú 。",
           "notes": [
             {
+              "start": 0,
+              "end": 3,
+              "content": "李家的孩子叫蟠的。即李蟠，唐德宗贞元十九年（８０３）进士。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "指先秦两汉时期的散文，与骈文相对。"
+            },
+            {
               "start": 13,
-              "end": 14,
-              "content": "六艺：指《诗》《书》《礼》《乐》《易》《春秋》六部经典。"
+              "end": 16,
+              "content": "六经的经文和传文。六艺，指《诗》《书》《礼》《乐》《易》《春秋》六种经书，其中《乐》久已失传。传，古代解释经书的著作。"
+            },
+            {
+              "start": 18,
+              "end": 18,
+              "content": "全面。"
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "content": "不受时俗的限制。时，时俗，指当时士大夫中耻于从师的不良风气。"
             }
           ],
           "special_sentences": [
@@ -4182,13 +4484,28 @@
           "pinyin": "yú jiā qí néng xíng gǔ dào ， zuò 《 shī shuō 》 yǐ yí zhī 。",
           "notes": [
             {
+              "start": 1,
+              "end": 1,
+              "content": "赞许。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "content": "指古人从师之道。"
+            },
+            {
               "start": 14,
               "end": 14,
-              "content": "贻：赠送的意思，常用于书籍赠人，读作yí。"
+              "content": "赠送。"
             }
           ]
         }
       ]
     }
+  ],
+  "tags": [
+    "必修上",
+    "文言文",
+    "背默"
   ]
 }
