@@ -97,19 +97,9 @@
           "pinyin": "shè jiāng cǎi fú róng ， lán zé duō fāng cǎo 。",
           "notes": [
             {
-              "start": 0,
-              "end": 0,
-              "content": "涉：渡过，此处指徒步渡江，体现采莲的艰辛。"
-            },
-            {
-              "start": 3,
-              "end": 4,
-              "content": "芙蓉：荷花的别称，象征高洁，也暗示采莲行为的情感寄托。"
-            },
-            {
               "start": 6,
               "end": 7,
-              "content": "兰泽：长满兰草的低洼湿地。兰，香草名，象征美好环境。"
+              "content": "长着兰草的低湿之地。"
             }
           ]
         }
@@ -168,7 +158,7 @@
             {
               "start": 3,
               "end": 3,
-              "content": "遗（wèi）：赠送，指想把采来的芙蓉送给远方的人。"
+              "content": "赠送。"
             }
           ],
           "different_meanings": [
@@ -190,11 +180,7 @@
               "content": "宾语前置句：‘采之欲遗谁’中，疑问代词‘谁’作动词‘遗’的宾语，前置于动词前，正常语序应为‘欲遗谁采之’。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -242,13 +228,7 @@
           ],
           "translation": "想要送给远方的爱人。",
           "pinyin": "suǒ sī zài yuǎn dào 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 1,
-              "content": "所思：所思念的人。‘所’字结构，将动词‘思’转化为名词性短语。"
-            }
-          ],
+          "notes": [],
           "special_sentences": [
             {
               "start": 0,
@@ -350,18 +330,7 @@
           ],
           "translation": "回头看那一起生活过的故乡，路途遥远没有尽头。",
           "pinyin": "huán gù wàng jiù xiāng ， cháng lù màn hào hào 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 1,
-              "content": "还顾：回头看。还，通‘旋’，回转；顾，看。表达对故乡的眷恋。"
-            },
-            {
-              "start": 8,
-              "end": 10,
-              "content": "漫浩浩：形容道路遥远无尽。漫，广阔；浩浩，水流长貌，引申为绵延不绝。"
-            }
-          ],
+          "notes": [],
           "different_meanings": [
             {
               "start": 1,
@@ -470,9 +439,9 @@
           "pinyin": "tóng xīn ér lí jū ， yōu shāng yǐ zhōng lǎo 。",
           "notes": [
             {
-              "start": 0,
-              "end": 1,
-              "content": "同心：指感情深厚、志同道合的人，多指夫妻或恋人，强调情感一致。"
+              "start": 8,
+              "end": 8,
+              "content": "连词，表示结果。"
             }
           ]
         }
