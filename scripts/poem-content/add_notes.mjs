@@ -132,12 +132,13 @@ for (const version of versions) {
 
         if (!fs.existsSync(fullJsonPath)) continue;
         if (!fs.existsSync(notesPath)) {
-            console.log(`⚠️ 跳过 ${dir}（无 notes.mdx）`);
+            // console.log(`跳过：${dir}`);
             continue;
         }
 
         try {
             const full = JSON.parse(fs.readFileSync(fullJsonPath, "utf-8"));
+            const originalJson = JSON.stringify(full, null, 2);
             const notesText = fs.readFileSync(notesPath, "utf-8").trim();
 
             // 解析 notes.mdx
@@ -181,9 +182,12 @@ for (const version of versions) {
                 }
             }
 
-            // 写回 full.json
-            fs.writeFileSync(fullJsonPath, JSON.stringify(full, null, 2));
-            console.log(`✅ 已更新 ${fullJsonPath}`);
+            // 比较修改后的内容与原内容
+            const newJson = JSON.stringify(full, null, 2);
+            if (newJson !== originalJson) {
+                fs.writeFileSync(fullJsonPath, newJson);
+                console.log(`🔄 更新：${dir}`);
+            }
 
         } catch (e) {
             console.error(`❌ 处理 ${fullJsonPath} 出错：`, e);

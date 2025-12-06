@@ -66,7 +66,7 @@ for (const version of versions) {
         const content = fs.readFileSync(path.join(path.dirname(previewPath), 'extra.mdx'), "utf-8");
         previewData += content;
       }
-      console.log(previewData)
+      // console.log(previewData)
       fs.writeFileSync(previewPath, previewData, "utf-8");
       // console.log(`✅ 生成 ${previewPath}`);
     } catch (e) {
