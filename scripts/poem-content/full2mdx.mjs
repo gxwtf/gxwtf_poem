@@ -14,7 +14,7 @@ import previewData from './preview.json';
 import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
 import { Tags } from "@/components/tag"
 import { BilibiliVideos } from "@/components/video"
-import { PoemQuoteCard } from "@/components/poem-quote-card"
+import { PoemQuoteCard, PoemQuoteCards } from "@/components/poem-quote-card"
 
 <Meta 
   title="${data.name}"
@@ -33,6 +33,15 @@ ${data.background || "暂无写作背景。"}
 ## 作品赏析
 
 ${data.appreciation || "暂无内容赏析。"}`;
+
+  // 检查是否有推荐数据
+  if (data.recommends && Array.isArray(data.recommends) && data.recommends.length > 0) {
+    mdxContent += `
+
+## 猜你还想学
+
+<PoemQuoteCards poems={${JSON.stringify(data.recommends)}} className="my-4" />`;
+  }
 
   // 检查是否有视频数据
   if (data.videos && Array.isArray(data.videos) && data.videos.length > 0) {
