@@ -92,7 +92,8 @@ function convert(data) {
         translation: translationArr.join('#'),
         pinyin: pinyinArr.join(' ').replaceAll("   ", " ").replaceAll("  "," "),
         notes: notesArr,
-        tags: data.tags || []
+        tags: data.tags || [],
+        videos: data.videos || []
     };
 }
 

@@ -2,7 +2,7 @@
   "name": "梦游天姥吟留别",
   "author": "李白",
   "dynasty": "唐代",
-  "mode": "poem",
+  "mode": "paragraph",
   "paragraphs": [
     {
       "sentences": [
@@ -100,30 +100,20 @@
               "write": false
             },
             {
-              "char": "。",
+              "char": "；",
               "pinyin": "",
               "index": 13,
               "read": false,
               "write": false
             }
           ],
-          "translation": "听海外来客们谈起瀛洲，烟波渺茫实在难以寻求。",
-          "pinyin": "hǎi kè tán yíng zhōu ， yān tāo wēi máng xìn nán qiú 。",
+          "translation": "听海外来客们谈起瀛洲，烟波渺茫实在难以寻求；",
+          "pinyin": "hǎi kè tán yíng zhōu ， yān tāo wēi máng xìn nán qiú ；",
           "notes": [
             {
               "start": 0,
-              "end": 1,
-              "content": "海客：航海的人，或指浪迹海上者。客，指人。"
-            },
-            {
-              "start": 3,
-              "end": 4,
-              "content": "瀛洲：古代传说中东海三座仙山之一，另两座为蓬莱、方丈。"
-            },
-            {
-              "start": 10,
-              "end": 10,
-              "content": "信：确实、实在，副词。"
+              "end": 12,
+              "content": "航海的人谈起瀛洲，（大海）烟波渺茫，（瀛洲）实在难以找到。瀛洲，古代传说中的东海三座仙山之一，另两座叫蓬莱、方丈。烟涛，波涛渺茫，远看像烟雾笼罩的样子。微茫，景象模糊不清。信，确实、实在。"
             }
           ],
           "different_meanings": [
@@ -138,11 +128,7 @@
               "new": "信件，信任"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -248,19 +234,9 @@
           "pinyin": "yuè rén yǔ tiān mǔ ， yún xiá míng miè huò kě dǔ 。",
           "notes": [
             {
-              "start": 2,
-              "end": 2,
-              "content": "语：谈论、说起，动词。"
-            },
-            {
-              "start": 3,
-              "end": 4,
-              "content": "天姥：山名，在今浙江新昌县东，传说登山者曾听闻仙人天姥歌唱。"
-            },
-            {
-              "start": 8,
-              "end": 9,
-              "content": "明灭：时明时暗，指云霞变幻不定。"
+              "start": 0,
+              "end": 1,
+              "content": "指今浙江一带的人。"
             }
           ],
           "different_meanings": [
@@ -275,11 +251,7 @@
               "new": "语言"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -399,26 +371,17 @@
           "pinyin": "tiān mǔ lián tiān xiàng tiān héng ， shì bá wǔ yuè yǎn chì chéng 。",
           "notes": [
             {
-              "start": 9,
-              "end": 9,
-              "content": "拔：超出、超越。"
+              "start": 4,
+              "end": 6,
+              "content": "遮住天空。横，遮蔽。"
             },
             {
-              "start": 10,
-              "end": 11,
-              "content": "五岳：指东岳泰山、西岳华山、南岳衡山、北岳恒山、中岳嵩山。"
-            },
-            {
-              "start": 12,
+              "start": 8,
               "end": 14,
-              "content": "掩赤城：掩盖了赤城山。赤城，山名，在今浙江天台县北。"
+              "content": "山势高过五岳，遮掩了赤城。拔，超出。五岳，东岳泰山、西岳华山、中岳嵩山、北岳恒山、南岳衡山的总称。赤城，和下文的“天台”都是山名，在今浙江天台北。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -538,9 +501,9 @@
           "pinyin": "tiān tāi sì wàn bā qiān zhàng ， duì cǐ yù dǎo dōng nán qīng 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "天台四万八千丈：天台山高达四万八千丈。天台，山名，在今浙江天台县北。四万八千丈，夸张其高。"
+              "start": 8,
+              "end": 14,
+              "content": "对着（天姥）这座山，（天台山）就好像要拜倒在它的东南面一样。意思是天台山和天姥山相比，就显得低了。倾，偏斜、倒下。"
             }
           ],
           "special_sentences": [
@@ -675,23 +638,13 @@
           "notes": [
             {
               "start": 2,
-              "end": 2,
-              "content": "因：依据、凭借。"
-            },
-            {
-              "start": 3,
               "end": 3,
-              "content": "之：代词，指越人关于天姥山的谈论。"
-            },
-            {
-              "start": 4,
-              "end": 4,
-              "content": "梦：梦中游览，名词作动词。"
+              "content": "意思是为前面越人的话所吸引。因，依据。"
             },
             {
               "start": 12,
               "end": 13,
-              "content": "镜湖：又名鉴湖，在今浙江绍兴。"
+              "content": "即鉴湖，在今浙江绍兴。"
             }
           ],
           "different_meanings": [
@@ -706,11 +659,7 @@
               "new": "因为，原因"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -804,14 +753,10 @@
             {
               "start": 9,
               "end": 10,
-              "content": "剡溪：水名，在今浙江嵊州市南，为曹娥江上游。"
+              "content": "水名，在今浙江嵊州南。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -933,14 +878,20 @@
             {
               "start": 0,
               "end": 1,
-              "content": "谢公：指南朝宋诗人谢灵运，他喜游山玩水，曾游天姥山。"
+              "content": "指南朝宋诗人谢灵运（385-433）。谢灵运喜欢游山访胜，他游天姥山时，曾在剡溪住宿。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "清澈。"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "content": "凄清。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1033,20 +984,21 @@
           "notes": [
             {
               "start": 2,
+              "end": 3,
+              "content": "指南朝宋诗人谢灵运（385-433）。谢灵运喜欢游山访胜，他游天姥山时，曾在剡溪住宿。"
+            },
+            {
+              "start": 2,
               "end": 4,
-              "content": "谢公屐：谢灵运特制的木鞋，鞋底装有活动齿，上山去前齿，下山去后齿。"
+              "content": "据《宋书·谢灵运传》，谢灵运游山，必到幽深高峻的地方，他备有一种特制的木屐，前后齿可装卸，上山时去掉前齿，下山时去掉后齿，以保持身体平衡。屐，以木板作底，上面有带子，形状像拖鞋。"
             },
             {
               "start": 8,
               "end": 10,
-              "content": "青云梯：指直上云霄的山路，形容山路高峻。"
+              "content": "指直上云霄的山路。语出谢灵运《登石门最高顶》诗：“惜无同怀客，共登青云梯。”"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1138,21 +1090,17 @@
           "pinyin": "bàn bì jiàn hǎi rì ， kōng zhōng wén tiān jī 。",
           "notes": [
             {
-              "start": 3,
+              "start": 0,
               "end": 4,
-              "content": "海日：海上升起的太阳。"
+              "content": "在半山腰看到从海上升起的太阳。"
             },
             {
               "start": 9,
               "end": 10,
-              "content": "天鸡：传说东南有桃都山，山上有大树曰桃都，枝间相距三千里，上有天鸡，日出则鸣，天下鸡皆随之鸣。"
+              "content": "古代传说，东南有桃都山，山上有大树叫“桃都”，树上栖有天鸡。每当太阳初升照到树上，天鸡就会鸣叫，天下的鸡也都跟着它叫起来。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1273,18 +1221,8 @@
           "notes": [
             {
               "start": 8,
-              "end": 9,
-              "content": "迷花：迷恋着花。"
-            },
-            {
-              "start": 10,
-              "end": 11,
-              "content": "倚石：倚靠着岩石。"
-            },
-            {
-              "start": 14,
               "end": 14,
-              "content": "暝：天黑、夜晚。"
+              "content": "迷恋着花，依倚着石，不觉天色很快就暗了下来。暝，昏暗。"
             }
           ],
           "different_meanings": [
@@ -1299,11 +1237,7 @@
               "new": "日落"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1424,28 +1358,13 @@
           "notes": [
             {
               "start": 0,
-              "end": 3,
-              "content": "熊咆龙吟：熊在咆哮，龙在长吟，形容声音宏大恐怖。"
-            },
-            {
-              "start": 4,
-              "end": 4,
-              "content": "殷：震动、响彻，形容声音宏大。"
+              "end": 6,
+              "content": "熊在咆哮，龙在长吟，声音震荡着岩石和泉水。殷，震动。"
             },
             {
               "start": 8,
-              "end": 8,
-              "content": "栗：使……战栗，使动用法。"
-            },
-            {
-              "start": 12,
-              "end": 12,
-              "content": "惊：使……震惊，使动用法。"
-            },
-            {
-              "start": 13,
               "end": 14,
-              "content": "层巅：层层山峰。巅，山顶。"
+              "content": "使深林战栗，使层巅震惊。栗、惊，均为使动用法。层巅，层层山峰。"
             }
           ],
           "different_meanings": [
@@ -1467,11 +1386,7 @@
               "content": "栗深林兮惊层巅：使动用法，'使深林战栗，使层巅震惊'。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1577,21 +1492,12 @@
           "pinyin": "yún qīng qīng xī yù yǔ ， shuǐ dàn dàn xī shēng yān 。",
           "notes": [
             {
-              "start": 4,
-              "end": 4,
-              "content": "欲：将要。"
-            },
-            {
-              "start": 8,
-              "end": 9,
-              "content": "澹澹：水波荡漾的样子。"
+              "start": 1,
+              "end": 2,
+              "content": "黑沉沉的。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1670,20 +1576,11 @@
           "notes": [
             {
               "start": 0,
-              "end": 3,
-              "content": "列缺霹雳：闪电雷鸣。列缺，指闪电。霹雳，指雷声。"
-            },
-            {
-              "start": 5,
-              "end": 8,
-              "content": "丘峦崩摧：山峰崩塌断裂。"
+              "end": 1,
+              "content": "闪电。列，同“裂”。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1762,20 +1659,11 @@
           "notes": [
             {
               "start": 0,
-              "end": 3,
-              "content": "洞天石扉：仙府的石门。洞天，道教称神仙所居的洞府。石扉，石门。"
-            },
-            {
-              "start": 5,
               "end": 8,
-              "content": "訇然中开：轰隆一声从中间打开。訇然，形容声音很大。"
+              "content": "仙府的石门，訇的一声从中间打开。洞天，仙人居住的洞府。訇然，形容声音很大。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -1896,25 +1784,16 @@
           "notes": [
             {
               "start": 0,
-              "end": 2,
-              "content": "青冥：青天、天空。"
-            },
-            {
-              "start": 3,
-              "end": 3,
-              "content": "浩荡：广阔无边的样子。"
+              "end": 1,
+              "content": "天空。"
             },
             {
               "start": 12,
               "end": 14,
-              "content": "金银台：用金银筑成的宫阙，指神仙居住的地方。"
+              "content": "金银筑成的楼台，指神仙居住的地方。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -2048,26 +1927,12 @@
           "pinyin": "ní wéi yī xī fēng wéi mǎ ， yún zhī jūn xī fēn fēn ér lái xià 。",
           "notes": [
             {
-              "start": 0,
-              "end": 2,
-              "content": "霓为衣：以彩虹作为衣裳。霓，副虹，雨后天空中与虹同时出现的彩色圆弧。"
-            },
-            {
-              "start": 4,
-              "end": 6,
-              "content": "风为马：以风作为马匹。"
-            },
-            {
               "start": 8,
               "end": 10,
-              "content": "云之君：云神，泛指神仙。"
+              "content": "泛指驾乘云彩的神仙。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -2187,31 +2052,12 @@
           "pinyin": "hǔ gǔ sè xī luán huí chē ， xiān zhī rén xī liè rú má 。",
           "notes": [
             {
-              "start": 0,
-              "end": 2,
-              "content": "虎鼓瑟：老虎弹奏瑟。鼓，弹奏。瑟，一种弦乐器。"
-            },
-            {
               "start": 4,
               "end": 6,
-              "content": "鸾回车：鸾鸟拉着车。鸾，传说中凤凰一类的鸟。回，回转、运行。"
-            },
-            {
-              "start": 8,
-              "end": 10,
-              "content": "仙之人：仙人。"
-            },
-            {
-              "start": 12,
-              "end": 14,
-              "content": "列如麻：排列得像麻一样多，形容极多。"
+              "content": "鸾鸟拉车回转。鸾，传说中的神鸟。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -2317,31 +2163,17 @@
           "pinyin": "hū hún jì yǐ pò dòng ， huǎng jīng qǐ ér cháng jiē 。",
           "notes": [
             {
-              "start": 0,
+              "start": 2,
               "end": 2,
-              "content": "魂悸：魂魄惊动。悸，因害怕而心跳。"
-            },
-            {
-              "start": 3,
-              "end": 5,
-              "content": "魄动：魂魄震动。"
+              "content": "因惊惧而心跳。"
             },
             {
               "start": 7,
-              "end": 8,
-              "content": "恍：猛然、突然。"
-            },
-            {
-              "start": 12,
-              "end": 12,
-              "content": "嗟：叹息。"
+              "end": 7,
+              "content": "猛然惊醒的样子。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -2447,14 +2279,14 @@
           "pinyin": "wéi jué shí zhī zhěn xí ， shī xiàng lái zhī yān xiá 。",
           "notes": [
             {
-              "start": 0,
-              "end": 2,
-              "content": "惟觉时：只有醒来时。惟，只。觉，醒。"
+              "start": 1,
+              "end": 1,
+              "content": "醒。"
             },
             {
               "start": 7,
-              "end": 9,
-              "content": "失向来：失去了刚才（梦中所见）。向来，刚才。"
+              "end": 12,
+              "content": "刚才（梦中）所见的烟雾云霞消失了。向来，原来。烟霞，指前面所写的仙境。"
             }
           ],
           "different_meanings": [
@@ -2590,12 +2422,9 @@
             }
           ],
           "translation": "人世间的欢乐也是像梦中的幻境这样，自古以来万事都像东流的水一样一去不复返。",
-          "pinyin": "shì jiān xíng lè yì rú cǐ ， gǔ lái wàn shì dōng liú shuǐ 。"
-        }
-      ]
-    },
-    {
-      "sentences": [
+          "pinyin": "shì jiān xíng lè yì rú cǐ ， gǔ lái wàn shì dōng liú shuǐ 。",
+          "notes": []
+        },
         {
           "content": [
             {
@@ -2656,12 +2485,9 @@
             }
           ],
           "translation": "告别诸君，此番远去不知何时才能回来？",
-          "pinyin": "bié jūn qù xī hé shí huán ？"
-        }
-      ]
-    },
-    {
-      "sentences": [
+          "pinyin": "bié jūn qù xī hé shí huán ？",
+          "notes": []
+        },
         {
           "content": [
             {
@@ -2782,20 +2608,11 @@
           "notes": [
             {
               "start": 0,
-              "end": 5,
-              "content": "且放白鹿青崖间：暂且把白鹿放养在青崖之间。白鹿，传说中仙人的坐骑。"
-            },
-            {
-              "start": 8,
-              "end": 11,
-              "content": "须行即骑：需要行走时就骑上它。须，需要。即，就。"
+              "end": 14,
+              "content": "暂且把白鹿放在青青的山崖间，等到要走的时候就骑上它去探访名山。传说中神仙、隐士多骑白鹿。"
             }
           ]
-        }
-      ]
-    },
-    {
-      "sentences": [
+        },
         {
           "content": [
             {
@@ -2929,19 +2746,9 @@
           "pinyin": "ān néng cuī méi zhé yāo shì quán guì ， shǐ wǒ bù dé kāi xīn yán ！",
           "notes": [
             {
-              "start": 0,
+              "start": 2,
               "end": 5,
-              "content": "摧眉折腰：低头弯腰，形容谄媚奉承。"
-            },
-            {
-              "start": 6,
-              "end": 8,
-              "content": "事权贵：侍奉权贵。事，侍奉。"
-            },
-            {
-              "start": 10,
-              "end": 16,
-              "content": "不得开心颜：不能露出欢欣的笑脸。开，舒展。心颜，心情和面色。"
+              "content": "低头弯腰，即卑躬屈膝。摧眉，即低眉，低头。"
             }
           ],
           "special_sentences": [

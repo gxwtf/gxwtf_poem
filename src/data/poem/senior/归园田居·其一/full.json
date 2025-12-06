@@ -2,7 +2,7 @@
   "name": "归园田居·其一",
   "author": "陶渊明",
   "dynasty": "东晋",
-  "mode": "paragraph",
+  "mode": "poem",
   "paragraphs": [
     {
       "sentences": [
@@ -97,29 +97,19 @@
           "pinyin": "shǎo wú shì sú yùn ， xìng běn ài qiū shān 。",
           "notes": [
             {
-              "start": 0,
-              "end": 1,
-              "content": "少：年少、年轻时。"
-            },
-            {
               "start": 2,
               "end": 3,
-              "content": "适俗：适应世俗生活。适，适应、迎合；俗，世俗、社会风气。"
+              "content": "适应世俗。"
             },
             {
               "start": 4,
               "end": 4,
-              "content": "韵：气质、情趣。"
+              "content": "气质，情致。"
             },
             {
-              "start": 6,
-              "end": 6,
-              "content": "性：天性、本性。"
-            },
-            {
-              "start": 8,
-              "end": 9,
-              "content": "丘山：山林，指自然田园生活。"
+              "start": 9,
+              "end": 10,
+              "content": "指山林。"
             }
           ],
           "different_meanings": [
@@ -230,9 +220,14 @@
           "pinyin": "wù luò chén wǎng zhōng ， yī qù sān shí nián 。",
           "notes": [
             {
-              "start": 0,
+              "start": 2,
               "end": 3,
-              "content": "尘网：尘世的罗网，比喻官场生活。"
+              "content": "指世俗的种种束缚。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "content": "陶渊明大约二十五岁离开少时居所，直到五十五岁辞去彭泽令方归，所以说“一去三十年”。或疑当作“十三年”。自开始做官至辞去彭泽令，前后为十三年。"
             }
           ],
           "different_meanings": [
@@ -345,12 +340,7 @@
             {
               "start": 0,
               "end": 1,
-              "content": "羁鸟：被关在笼中的鸟，比喻官场中受束缚的人。羁，束缚。"
-            },
-            {
-              "start": 6,
-              "end": 7,
-              "content": "池鱼：池塘中的鱼，比喻受束缚的人。"
+              "content": "被关在笼中的鸟。羁，约束。"
             }
           ]
         }
@@ -449,14 +439,14 @@
           "pinyin": "kāi huāng nán yě jì ， shǒu zhuō guī yuán tián 。",
           "notes": [
             {
-              "start": 0,
-              "end": 4,
-              "content": "南野际：南面的田野边。际，边缘、旁边。"
+              "start": 2,
+              "end": 3,
+              "content": "南面的田野。一作“南亩”，指农田。"
             },
             {
               "start": 6,
-              "end": 8,
-              "content": "守拙：保持愚拙的本性，指不迎合世俗。拙，笨拙、质朴。"
+              "end": 7,
+              "content": "持守愚拙的本性，即不学巧伪，不争名利。"
             }
           ]
         }
@@ -552,7 +542,14 @@
             }
           ],
           "translation": "围绕着房宅方圆有十余亩地，还有八九间茅草屋。",
-          "pinyin": "fāng zhái shí yú mǔ ， cǎo wū bā jiǔ jiān 。"
+          "pinyin": "fāng zhái shí yú mǔ ， cǎo wū bā jiǔ jiān 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "宅子四周有十几亩地。方，四周围绕。"
+            }
+          ]
         }
       ]
     },
@@ -647,18 +644,7 @@
           ],
           "translation": "生长茂盛的榆树柳树遮蔽了后屋檐，桃树李树整齐的罗列在屋前。",
           "pinyin": "yú liǔ yīn hòu yán ， táo lǐ luó táng qián 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 4,
-              "content": "荫后檐：遮蔽后屋檐。荫，遮蔽。"
-            },
-            {
-              "start": 6,
-              "end": 10,
-              "content": "罗堂前：排列在堂屋前面。罗，排列、罗列。"
-            }
-          ]
+          "notes": []
         }
       ]
     },
@@ -757,17 +743,17 @@
             {
               "start": 0,
               "end": 1,
-              "content": "暧暧：昏暗朦胧的样子。"
+              "content": "迷蒙隐约的样子。"
             },
             {
               "start": 6,
               "end": 7,
-              "content": "依依：轻柔袅袅的样子。"
+              "content": "隐约的样子。一说“轻柔的样子”。"
             },
             {
               "start": 8,
-              "end": 10,
-              "content": "墟里烟：村落里的炊烟。墟里，村落。"
+              "end": 9,
+              "content": "指村落。"
             }
           ]
         }
@@ -866,9 +852,9 @@
           "pinyin": "gǒu fèi shēn xiàng zhōng ， jī míng sāng shù diān 。",
           "notes": [
             {
-              "start": 9,
+              "start": 10,
               "end": 10,
-              "content": "树颠：树梢。颠，顶部。"
+              "content": "顶端。"
             }
           ],
           "different_meanings": [
@@ -992,18 +978,23 @@
           "notes": [
             {
               "start": 0,
-              "end": 2,
-              "content": "户庭：门户和庭院，指家中。"
+              "end": 1,
+              "content": "门户庭院。"
             },
             {
               "start": 3,
-              "end": 5,
-              "content": "尘杂：尘世的琐事杂务。"
+              "end": 4,
+              "content": "指世俗的繁杂琐事。"
             },
             {
               "start": 6,
-              "end": 11,
-              "content": "虚室有余闲：空寂的屋室中有充裕的闲暇。虚室，空屋，亦喻心境空虚宁静。"
+              "end": 7,
+              "content": "静室。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "content": "余暇，空闲。"
             }
           ]
         }
@@ -1102,14 +1093,9 @@
           "pinyin": "jiǔ zài fán lóng lǐ ， fù dé fǎn zì rán 。",
           "notes": [
             {
-              "start": 0,
+              "start": 2,
               "end": 3,
-              "content": "樊笼：关鸟兽的笼子，比喻官场生活。"
-            },
-            {
-              "start": 9,
-              "end": 11,
-              "content": "返自然：回归自然生活。"
+              "content": "关鸟兽的笼子。这里指束缚本性的俗世。"
             }
           ]
         }

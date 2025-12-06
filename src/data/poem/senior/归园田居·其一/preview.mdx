@@ -2,6 +2,9 @@ import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
 import previewData from './preview.json';
 import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+import { Tags } from "@/components/tag"
+import { BilibiliVideos } from "@/components/video"
+import { PoemQuoteCard } from "@/components/poem-quote-card"
 
 <Meta 
   title="归园田居·其一"
@@ -10,7 +13,7 @@ import { MemorizeContextProvider } from "@/components/poem-preview/memorize-cont
 />
 
 <MemorizeContextProvider>
-  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+  <PoemPreview data={{ mode: "poem", preview: previewData.preview }} />
 </MemorizeContextProvider>
 
 ## 写作背景
@@ -20,4 +23,3 @@ import { MemorizeContextProvider } from "@/components/poem-preview/memorize-cont
 ## 作品赏析
 
 暂无内容赏析。
-

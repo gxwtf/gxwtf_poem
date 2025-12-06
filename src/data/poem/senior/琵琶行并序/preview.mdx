@@ -2,6 +2,9 @@ import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
 import previewData from './preview.json';
 import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+import { Tags } from "@/components/tag"
+import { BilibiliVideos } from "@/components/video"
+import { PoemQuoteCard } from "@/components/poem-quote-card"
 
 <Meta 
   title="琵琶行并序"
@@ -21,4 +24,6 @@ import { MemorizeContextProvider } from "@/components/poem-preview/memorize-cont
 
 暂无内容赏析。
 
-<iframe src="//player.bilibili.com/player.html?bvid=BV1u2c7ebEoH&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="450"></iframe>
+## 更多学习视频
+
+<BilibiliVideos videos={[{"title":"琵琶行？铍钯行！用化学的方式打开语文课文","url":"https://www.bilibili.com/video/BV1u2c7ebEoH"}]} />

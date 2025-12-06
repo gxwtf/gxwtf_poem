@@ -113,27 +113,22 @@
             {
               "start": 0,
               "end": 3,
-              "content": "元和：唐宪宗年号（806-820年）。"
+              "content": "公元815年。元和，唐宪宗的年号（806-820）。"
             },
             {
-              "start": 4,
-              "end": 6,
-              "content": "予：我，指作者白居易。"
-            },
-            {
-              "start": 7,
+              "start": 6,
               "end": 7,
-              "content": "左迁：贬官、降职。古代以右为尊，左迁表示贬谪。"
+              "content": "贬官、降职的委婉说法。白居易因越职上书言事，触怒当朝权贵，被贬为江州司马。"
             },
             {
               "start": 8,
-              "end": 12,
-              "content": "九江郡：隋朝郡名，唐代改为江州，州治在今江西省九江市。"
+              "end": 10,
+              "content": "设于隋代，唐代称为江州或浔阳郡，治所在今江西九江。"
             },
             {
-              "start": 13,
-              "end": 13,
-              "content": "司马：州刺史的副职，当时属于闲职。"
+              "start": 11,
+              "end": 12,
+              "content": "州刺史的副职。"
             }
           ],
           "different_meanings": [
@@ -375,22 +370,12 @@
             {
               "start": 6,
               "end": 8,
-              "content": "湓浦口：湓水流入长江处，在今九江市西。湓，水名。"
-            },
-            {
-              "start": 14,
-              "end": 16,
-              "content": "琵琶：一种弹拨乐器。"
-            },
-            {
-              "start": 24,
-              "end": 25,
-              "content": "铮铮：形容琵琶声清脆响亮。"
+              "content": "湓江流入长江的地方，在今九江西。湓浦，又叫湓江，源出江西瑞昌清湓山。"
             },
             {
               "start": 27,
               "end": 29,
-              "content": "京都：指唐朝京城长安。"
+              "content": "指唐代京城长安流行的乐曲声调。"
             }
           ]
         },
@@ -641,22 +626,27 @@
             {
               "start": 7,
               "end": 8,
-              "content": "倡女：歌女。倡，同“娼”。"
+              "content": "歌女。"
             },
             {
-              "start": 15,
+              "start": 19,
               "end": 20,
-              "content": "穆、曹二善才：指当时著名的琵琶师。善才，唐代对琵琶师的尊称。"
+              "content": "当时对技艺高超的乐师的称呼。"
             },
             {
               "start": 27,
               "end": 28,
-              "content": "委身：托身，这里指嫁人。"
+              "content": "托身。这里是嫁人的意思。"
             },
             {
               "start": 30,
               "end": 31,
-              "content": "贾人：商人。"
+              "content": "商人。"
+            },
+            {
+              "start": 29,
+              "end": 29,
+              "content": "创作。"
             }
           ],
           "different_meanings": [
@@ -766,9 +756,14 @@
           "pinyin": "suì mìng jiǔ ， shǐ kuài tán shù qǔ 。",
           "notes": [
             {
+              "start": 1,
+              "end": 2,
+              "content": "叫人摆酒。"
+            },
+            {
               "start": 5,
-              "end": 6,
-              "content": "快弹：畅快地弹奏。"
+              "end": 5,
+              "content": "畅快。"
             }
           ]
         },
@@ -970,17 +965,17 @@
             {
               "start": 2,
               "end": 3,
-              "content": "悯然：忧郁悲伤的样子。"
+              "content": "忧郁的样子。"
             },
             {
               "start": 15,
-              "end": 19,
-              "content": "漂沦憔悴：漂泊流落，容颜憔悴。"
+              "end": 16,
+              "content": "漂泊流落。"
             },
             {
-              "start": 21,
-              "end": 25,
-              "content": "转徙于江湖：在江湖各地辗转迁徙。"
+              "start": 20,
+              "end": 20,
+              "content": "更加，越发。"
             }
           ],
           "special_sentences": [
@@ -1173,19 +1168,19 @@
           "pinyin": "yǔ chū guān èr nián ， tián rán zì ān ， gǎn sī rén yán ， shì xī shǐ jué yǒu qiān zhé yì 。",
           "notes": [
             {
-              "start": 2,
+              "start": 1,
               "end": 2,
-              "content": "出官：京官外调。"
+              "content": "京官贬黜往地方任职。"
             },
             {
               "start": 6,
               "end": 7,
-              "content": "恬然：心境平静的样子。"
+              "content": "宁静安适的样子。"
             },
             {
               "start": 21,
               "end": 22,
-              "content": "迁谪：贬官流放。"
+              "content": "官吏因罪降职并流放。"
             }
           ],
           "different_meanings": [
@@ -1401,23 +1396,13 @@
           "notes": [
             {
               "start": 1,
+              "end": 1,
+              "content": "创作。"
+            },
+            {
+              "start": 2,
               "end": 3,
-              "content": "长句：指七言古诗。"
-            },
-            {
-              "start": 5,
-              "end": 7,
-              "content": "歌以赠之：作歌并赠送给她。"
-            },
-            {
-              "start": 10,
-              "end": 16,
-              "content": "凡六百一十六言：共计六百一十六个字。凡，总共。言，字。"
-            },
-            {
-              "start": 18,
-              "end": 19,
-              "content": "命曰：命名为。"
+              "content": "指七言诗。唐代的习惯说法。"
             }
           ]
         }
@@ -1544,19 +1529,19 @@
           "pinyin": "xún yáng jiāng tóu yè sòng kè ， fēng yè dí huā qiū sè sè 。",
           "notes": [
             {
-              "start": 0,
-              "end": 2,
-              "content": "浔阳：今江西省九江市。"
+              "start": 2,
+              "end": 3,
+              "content": "江边。"
             },
             {
-              "start": 9,
+              "start": 10,
               "end": 11,
-              "content": "枫叶荻花：枫树叶和芦荻花。荻，多年生草本植物，形状像芦苇。"
+              "content": "多年生草本植物，形状像芦苇，生长在水边。"
             },
             {
               "start": 13,
               "end": 14,
-              "content": "瑟瑟：形容秋风吹拂草木的声音。"
+              "content": "形容微风吹动的声音。"
             }
           ]
         },
@@ -1679,9 +1664,14 @@
           "pinyin": "zhǔ rén xià mǎ kè zài chuán ， jǔ jiǔ yù yǐn wú guǎn xián 。",
           "notes": [
             {
+              "start": 0,
+              "end": 1,
+              "content": "白居易自指。"
+            },
+            {
               "start": 13,
               "end": 14,
-              "content": "管弦：管乐器和弦乐器，泛指音乐。"
+              "content": "指音乐。管，箫、笛之类的管乐。弦，琴、瑟、琵琶之类的弦乐。"
             }
           ],
           "different_meanings": [
@@ -1814,18 +1804,7 @@
           ],
           "translation": "酒喝得不痛快更伤心将要分别，临别时茫茫江水中浸着一轮冷月。",
           "pinyin": "zuì bù chéng huān cǎn jiāng bié ， bié shí máng máng jiāng jìn yuè 。",
-          "notes": [
-            {
-              "start": 3,
-              "end": 6,
-              "content": "惨将别：悲伤地即将分别。"
-            },
-            {
-              "start": 10,
-              "end": 14,
-              "content": "茫茫江浸月：辽阔的江面倒映着月亮。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -1943,7 +1922,14 @@
             }
           ],
           "translation": "忽然听见江面传来阵阵琵琶声，我忘却了回归，客人也不想动身。",
-          "pinyin": "hū wén shuǐ shàng pí pá shēng ， zhǔ rén wàng guī kè bù fā 。"
+          "pinyin": "hū wén shuǐ shàng pí pá shēng ， zhǔ rén wàng guī kè bù fā 。",
+          "notes": [
+            {
+              "start": 8,
+              "end": 9,
+              "content": "白居易自指。"
+            }
+          ]
         },
         {
           "content": [
@@ -2064,14 +2050,14 @@
           "pinyin": "xún shēng àn wèn tán zhě shuí ， pí pá shēng tíng yù yǔ chí 。",
           "notes": [
             {
-              "start": 1,
-              "end": 2,
-              "content": "暗问：低声询问。"
+              "start": 2,
+              "end": 3,
+              "content": "低声询问。"
             },
             {
               "start": 12,
               "end": 14,
-              "content": "欲语迟：想回答却又迟疑。"
+              "content": "将要回答，又有些迟疑。"
             }
           ],
           "different_meanings": [
@@ -2206,14 +2192,9 @@
           "pinyin": "yí chuán xiāng jìn yāo xiāng jiàn ， tiān jiǔ huí dēng chóng kāi yàn 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "移船相近邀相见：将船靠近邀请对方相见。"
-            },
-            {
-              "start": 8,
-              "end": 14,
-              "content": "添酒回灯重开宴：添加酒菜，拿回灯盏，重新摆开宴席。"
+              "start": 10,
+              "end": 11,
+              "content": "重新掌灯。一说\"移灯\"。"
             }
           ],
           "special_sentences": [
@@ -2341,13 +2322,7 @@
           ],
           "translation": "千呼万唤她才缓缓地走出来，用怀里抱着的琵琶半遮着面。",
           "pinyin": "qiān hū wàn huàn shǐ chū lái ， yóu bào pí pá bàn zhē miàn 。",
-          "notes": [
-            {
-              "start": 8,
-              "end": 14,
-              "content": "犹抱琵琶半遮面：还抱着琵琶遮住半边脸庞。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -2469,8 +2444,13 @@
           "notes": [
             {
               "start": 0,
-              "end": 2,
-              "content": "转轴：转动琵琶上缠绕丝弦的轴，调音定调。"
+              "end": 3,
+              "content": "拧转弦轴，拨动弦丝。这里指调弦校音。"
+            },
+            {
+              "start": 0,
+              "end": 0,
+              "content": "更加，越发。"
             }
           ]
         },
@@ -2593,9 +2573,14 @@
           "pinyin": "xián xián yǎn yì shēng shēng sī ， sì sù píng shēng bù dé zhì 。",
           "notes": [
             {
-              "start": 0,
+              "start": 2,
+              "end": 3,
+              "content": "声音低沉。"
+            },
+            {
+              "start": 6,
               "end": 6,
-              "content": "弦弦掩抑声声思：每根弦发出低沉压抑的声音，每一声都充满深思。"
+              "content": "深长的情思。"
             }
           ]
         },
@@ -2718,9 +2703,14 @@
           "pinyin": "dī méi xìn shǒu xù xù tán ， shuō jìn xīn zhōng wú xiàn shì 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "低眉信手续续弹：低头随手连续弹奏。信手，随手。"
+              "start": 2,
+              "end": 3,
+              "content": "随手。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "连续。"
             }
           ],
           "special_sentences": [
@@ -2878,19 +2868,24 @@
           "pinyin": "qīng lǒng màn niǎn mò fù tiāo ， chū wéi 《 ní cháng 》 hòu 《 liù yāo 》 。",
           "notes": [
             {
+              "start": 9,
+              "end": 9,
+              "content": "创作。"
+            },
+            {
               "start": 0,
               "end": 6,
-              "content": "轻拢慢捻抹复挑：轻轻地拢，慢慢地捻，一会儿抹，一会儿挑。拢、捻、抹、挑都是弹琵琶的指法。"
+              "content": "轻轻地拢，慢慢地捻，一会儿抹，一会儿挑。拢，扣弦。捻，揉弦。抹，顺手下拨。挑，反手回拨。"
             },
             {
               "start": 10,
               "end": 13,
-              "content": "霓裳：即《霓裳羽衣曲》，唐代著名乐曲。"
+              "content": "即《霓裳羽衣曲》，唐代乐曲名，相传为唐玄宗所制。"
             },
             {
               "start": 15,
               "end": 18,
-              "content": "六幺：唐代流行的曲调名，又名《绿腰》。"
+              "content": "即《六幺令》，唐代教坊曲名，后用为词牌。"
             }
           ]
         },
@@ -3013,24 +3008,24 @@
           "pinyin": "dà xián cáo cáo rú jí yǔ ， xiǎo xián qiè qiè rú sī yǔ 。",
           "notes": [
             {
-              "start": 1,
-              "end": 2,
-              "content": "大弦：琵琶上最粗的弦。"
+              "start": 0,
+              "end": 1,
+              "content": "指琵琶四根弦中的粗弦。"
             },
             {
               "start": 2,
               "end": 3,
-              "content": "嘈嘈：形容声音沉重舒长。"
+              "content": "形容声音沉重舒长。"
             },
             {
-              "start": 9,
-              "end": 10,
-              "content": "小弦：琵琶上最细的弦。"
+              "start": 8,
+              "end": 9,
+              "content": "指琵琶上的细弦。"
             },
             {
               "start": 10,
               "end": 11,
-              "content": "切切：形容声音细促急切。"
+              "content": "形容声音轻细急促。"
             }
           ]
         },
@@ -3150,7 +3145,24 @@
             }
           ],
           "translation": "嘈嘈声切切声互为交错地弹奏，就像大珠小珠一颗颗掉落玉盘。",
-          "pinyin": "cáo cáo qiè qiè cuò zá tán ， dà zhū xiǎo zhū luò yù pán 。"
+          "pinyin": "cáo cáo qiè qiè cuò zá tán ， dà zhū xiǎo zhū luò yù pán 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "形容声音沉重舒长。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "content": "形容声音轻细急促。"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "content": "分别比喻乐声的重浊和清脆。一说，形容声音的清脆圆润。"
+            }
+          ]
         },
         {
           "content": [
@@ -3271,14 +3283,14 @@
           "pinyin": "jiān guān yīng yǔ huā dǐ huá ， yōu yè quán liú bīng xià nán 。",
           "notes": [
             {
-              "start": 1,
-              "end": 2,
-              "content": "间关：形容鸟鸣声。"
+              "start": 0,
+              "end": 6,
+              "content": "像黄莺在花下啼叫一样婉转流利。间关，形容鸟鸣婉转。"
             },
             {
               "start": 8,
-              "end": 9,
-              "content": "幽咽：形容低微的流水声。"
+              "end": 14,
+              "content": "像幽咽的泉水在冰下艰难流过。幽咽，形容乐声梗塞不畅。难，艰难，形容乐声滞塞难通。"
             }
           ],
           "different_meanings": [
@@ -3413,9 +3425,14 @@
           "pinyin": "bīng quán lěng sè xián níng jué ， níng jué bù tōng shēng zàn xiē 。",
           "notes": [
             {
-              "start": 1,
+              "start": 0,
               "end": 6,
-              "content": "冰泉冷涩弦凝绝：像冰下的泉水又冷又涩不能畅流，弦似乎凝结不动了。"
+              "content": "像冰下的泉水又冷又涩不能畅流，弦似乎凝结不动了。这是形容弦声愈来愈低沉，以至停顿。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "忽然，一下子。"
             }
           ]
         },
@@ -3535,7 +3552,8 @@
             }
           ],
           "translation": "像另有一种愁思幽恨暗暗滋生，此时闷闷无声却比有声更动人。",
-          "pinyin": "bié yǒu yōu chóu àn hèn shēng ， cǐ shí wú shēng shèng yǒu shēng 。"
+          "pinyin": "bié yǒu yōu chóu àn hèn shēng ， cǐ shí wú shēng shèng yǒu shēng 。",
+          "notes": []
         },
         {
           "content": [
@@ -3657,13 +3675,8 @@
           "notes": [
             {
               "start": 0,
-              "end": 6,
-              "content": "银瓶乍破水浆迸：像银瓶突然破裂水浆迸射。"
-            },
-            {
-              "start": 8,
               "end": 14,
-              "content": "铁骑突出刀枪鸣：像带甲的骑兵突然冲出，刀枪碰撞作响。"
+              "content": "像银瓶突然破裂，水浆迸射一样；像铁骑突然冲出，刀枪齐鸣一般。这是形容琵琶声在沉咽、暂歇后，忽然又爆发出激越、雄壮的乐音。"
             }
           ]
         },
@@ -3788,12 +3801,12 @@
             {
               "start": 0,
               "end": 6,
-              "content": "曲终收拨当心画：乐曲结束时，用拨子在琵琶中心划过四弦。"
+              "content": "乐曲终了，用拨子在琵琶的中间部位划过四弦。这是弹奏琵琶到一曲结束时的常用手法。拨，拨子，弹奏弦乐的用具。"
             },
             {
               "start": 8,
-              "end": 14,
-              "content": "四弦一声如裂帛：四根弦同时发出声音，像撕裂帛缎。"
+              "end": 11,
+              "content": "四根弦同时发声。"
             }
           ]
         },
@@ -3914,18 +3927,13 @@
           ],
           "translation": "东西面的画舫、游船都静悄悄的，只看见江心之中映着的秋月泛着白光。",
           "pinyin": "dōng chuán xī fǎng qiāo wú yán ， wéi jiàn jiāng xīn qiū yuè bái 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 3,
-              "content": "东船西舫：东边和西边的船只。"
-            }
-          ]
+          "notes": []
         }
       ]
     },
-    {"sentences": [
-      {
+    {
+      "sentences": [
+        {
           "content": [
             {
               "char": "沉",
@@ -4044,9 +4052,9 @@
           "pinyin": "chén yín fàng bō chā xián zhōng ， zhěng dùn yī shang qǐ liǎn róng 。",
           "notes": [
             {
-              "start": 0,
-              "end": 15,
-              "content": "沉吟放拨插弦中，整顿衣裳起敛容：迟疑片刻放下拨子插入弦中，整理衣裳起身显出庄重的面容。"
+              "start": 13,
+              "end": 14,
+              "content": "显出端庄的脸色。"
             }
           ]
         },
@@ -4169,14 +4177,9 @@
           "pinyin": "zì yán běn shì jīng chéng nǚ ， jiā zài há ma líng xià zhù 。",
           "notes": [
             {
-              "start": 4,
-              "end": 6,
-              "content": "京城：指长安。"
-            },
-            {
               "start": 10,
               "end": 12,
-              "content": "虾蟆陵：在长安城东南，是当时歌女聚居的地方。"
+              "content": "地名，在长安城东南。"
             }
           ],
           "special_sentences": [
@@ -4306,9 +4309,14 @@
           "pinyin": "shí sān xué dé pí pá chéng ， míng shǔ jiào fāng dì yī bù 。",
           "notes": [
             {
-              "start": 9,
+              "start": 10,
               "end": 11,
-              "content": "教坊：唐代管理宫廷音乐的官署。"
+              "content": "古时管理宫廷音乐的官署。专管雅乐以外的音乐、舞蹈、百戏的教习、排练、演出等事务。"
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "content": "第一队，是教坊中最优秀的一队。部，量词，计量歌舞队、乐队。"
             }
           ],
           "different_meanings": [
@@ -4443,14 +4451,14 @@
           "pinyin": "qǔ bà céng jiào shàn cái fú ， zhuāng chéng měi bèi qiū niáng dù 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "曲罢曾教善才服：一曲弹罢曾使琵琶大师佩服。"
+              "start": 4,
+              "end": 5,
+              "content": "当时对技艺高超的乐师的称呼。"
             },
             {
-              "start": 8,
-              "end": 14,
-              "content": "妆成每被秋娘妒：梳妆打扮后常常被同行歌女嫉妒。秋娘，唐代歌妓常用的名字。"
+              "start": 12,
+              "end": 13,
+              "content": "唐代歌伎常用的名字。这里是对善歌貌美歌伎的通称。"
             }
           ]
         },
@@ -4573,19 +4581,19 @@
           "pinyin": "wǔ líng nián shào zhēng chán tóu ， yī qǔ hóng xiāo bù zhī shù 。",
           "notes": [
             {
-              "start": 1,
-              "end": 2,
-              "content": "五陵：指长安附近汉代五个皇帝的陵墓，是富贵人家聚居的地方。"
+              "start": 0,
+              "end": 3,
+              "content": "指京城富家豪族子弟。五陵，汉代五个皇帝（高、惠、景、武、昭）的陵墓，在长安附近，富家豪族多聚居在这一带。"
             },
             {
-              "start": 4,
+              "start": 5,
               "end": 6,
-              "content": "争缠头：争着赠送财物。缠头，古代赏给歌妓的锦帛。"
+              "content": "古代对歌伎舞女打赏用的锦帛。"
             },
             {
-              "start": 9,
-              "end": 14,
-              "content": "一曲红绡不知数：弹完一曲，收到的红绡不计其数。"
+              "start": 10,
+              "end": 11,
+              "content": "轻薄的生丝织品。泛指轻美的丝织品。"
             }
           ],
           "different_meanings": [
@@ -4731,13 +4739,18 @@
           "notes": [
             {
               "start": 0,
-              "end": 6,
-              "content": "钿头银篦击节碎：上端镶着金花的银钗因打拍子而敲碎。"
+              "end": 3,
+              "content": "上端镶着花钿的银质发篦。钿，用金银等制成的花形首饰。"
             },
             {
-              "start": 8,
+              "start": 4,
+              "end": 6,
+              "content": "（随着音乐）打拍子时敲碎了。节，节拍。"
+            },
+            {
+              "start": 12,
               "end": 14,
-              "content": "血色罗裙翻酒污：鲜红色的罗裙被打翻的酒玷污。"
+              "content": "（因为）泼翻了酒被沾污。"
             }
           ]
         },
@@ -4860,9 +4873,9 @@
           "pinyin": "jīn nián huān xiào fù míng nián ， qiū yuè chūn fēng děng xián dù 。",
           "notes": [
             {
-              "start": 8,
-              "end": 14,
-              "content": "秋月春风等闲度：美好的时光随随便便地消磨掉了。"
+              "start": 12,
+              "end": 13,
+              "content": "平常，随随便便。"
             }
           ]
         },
@@ -4985,14 +4998,9 @@
           "pinyin": "dì zǒu cóng jūn ā yí sǐ ， mù qù zhāo lái yán sè gù 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "弟走从军阿姨死：弟弟从军去了，阿姨也死去了。"
-            },
-            {
-              "start": 8,
+              "start": 12,
               "end": 14,
-              "content": "暮去朝来颜色故：时光流逝，容颜衰老。"
+              "content": "容貌衰老。故，旧、老。"
             }
           ]
         },
@@ -5115,14 +5123,9 @@
           "pinyin": "mén qián lěng luò ān mǎ xī ， lǎo dà jià zuò shāng rén fù 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "门前冷落鞍马稀：门前冷清，车马稀少。"
-            },
-            {
               "start": 8,
-              "end": 14,
-              "content": "老大嫁作商人妇：年纪大了嫁作商人的妻子。"
+              "end": 9,
+              "content": "年纪大了。"
             }
           ]
         },
@@ -5245,14 +5248,9 @@
           "pinyin": "shāng rén zhòng lì qīng bié lí ， qián yuè fú liáng mǎi chá qù 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "商人重利轻别离：商人看重利润，看轻离别之情。"
-            },
-            {
-              "start": 8,
-              "end": 14,
-              "content": "前月浮梁买茶去：上个月到浮梁买茶叶去了。浮梁，古县名，在今江西景德镇北。"
+              "start": 10,
+              "end": 11,
+              "content": "地名，在今江西景德镇北。"
             }
           ],
           "different_meanings": [
@@ -5388,13 +5386,8 @@
           "notes": [
             {
               "start": 0,
-              "end": 6,
-              "content": "去来江口守空船：他走了以后，我在江口独守空船。"
-            },
-            {
-              "start": 8,
-              "end": 14,
-              "content": "绕船月明江水寒：月光笼罩着船只，江水寒冷。"
+              "end": 1,
+              "content": "走了以后。来，语气助词。"
             }
           ],
           "special_sentences": [
@@ -5524,21 +5517,16 @@
           "pinyin": "yè shēn hū mèng shào nián shì ， mèng tí zhuāng lèi hóng lán gān 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "夜深忽梦少年事：深夜忽然梦见年轻时的往事。"
-            },
-            {
               "start": 8,
               "end": 14,
-              "content": "梦啼妆泪红阑干：梦中哭醒，涂着脂粉的脸上布满纵横的泪痕。"
+              "content": "从梦中哭醒，搽了胭脂粉的脸上流满了一道道红色的泪痕。妆，这里指脸上的胭脂粉。"
             }
           ]
         }
       ]
     },
     {
-      "sentences":[
+      "sentences": [
         {
           "content": [
             {
@@ -5658,14 +5646,9 @@
           "pinyin": "wǒ wén pí pá yǐ tàn xī ， yòu wén cǐ yǔ zhòng jī jī 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "我闻琵琶已叹息：我听到琵琶声已经叹息。"
-            },
-            {
-              "start": 8,
+              "start": 13,
               "end": 14,
-              "content": "又闻此语重唧唧：又听到这些话更加叹息不已。唧唧，叹息声。"
+              "content": "叹息。"
             }
           ]
         },
@@ -5786,13 +5769,7 @@
           ],
           "translation": "同样都是天涯沦落的可怜人，今日相逢何必问曾经是否相识！",
           "pinyin": "tóng shì tiān yá lún luò rén ， xiāng féng hé bì céng xiāng shí ！",
-          "notes": [
-            {
-              "start": 0,
-              "end": 6,
-              "content": "同是天涯沦落人：同样都是流落天涯的人。"
-            }
-          ],
+          "notes": [],
           "special_sentences": [
             {
               "start": 0,
@@ -5918,18 +5895,7 @@
           ],
           "translation": "自从去年我离开繁华长安京城，被贬居住在浔阳江畔便一直因病卧床。",
           "pinyin": "wǒ cóng qù nián cí dì jīng ， zhé jū wò bìng xún yáng chéng 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 6,
-              "content": "我从去年辞帝京：我从去年离开京城。"
-            },
-            {
-              "start": 8,
-              "end": 14,
-              "content": "谪居卧病浔阳城：被贬官后居住在浔阳城，常常生病。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -6048,18 +6014,7 @@
           ],
           "translation": "浔阳这地方荒凉偏僻没有音乐，一年到头也听不见管弦奏鸣。",
           "pinyin": "xún yáng dì pì wú yīn yuè ， zhōng suì bù wén sī zhú shēng 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 6,
-              "content": "浔阳地僻无音乐：浔阳地方偏僻没有音乐。"
-            },
-            {
-              "start": 8,
-              "end": 14,
-              "content": "终岁不闻丝竹声：一年到头听不到音乐声。丝竹，弦乐器和管乐器，代指音乐。"
-            }
-          ],
+          "notes": [],
           "different_meanings": [
             {
               "start": 8,
@@ -6190,18 +6145,7 @@
           ],
           "translation": "居住在湓江附近，低洼潮湿，院子周围，尽长些黄芦苦竹。",
           "pinyin": "zhù jìn pén jiāng dì dī shī ， huáng lú kǔ zhú rào zhái shēng 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 7,
-              "content": "住近湓江地低湿：住的地方靠近湓江，地势低洼潮湿。"
-            },
-            {
-              "start": 8,
-              "end": 15,
-              "content": "黄芦苦竹绕宅生：黄芦和苦竹绕着住宅生长。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -6322,14 +6266,9 @@
           "pinyin": "qí jiān dàn mù wén hé wù ？ dù juān tí xuè yuán āi míng 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "其间旦暮闻何物：这里早晚能听到什么声音？"
-            },
-            {
               "start": 8,
-              "end": 14,
-              "content": "杜鹃啼血猿哀鸣：杜鹃鸟啼叫出血，猿猴哀鸣。"
+              "end": 11,
+              "content": "传说杜鹃鸟啼叫时，嘴里会淌出血来。这是形容杜鹃啼声的悲切。"
             }
           ]
         },
@@ -6452,14 +6391,9 @@
           "pinyin": "chūn jiāng huā zhāo qiū yuè yè ， wǎng wǎng qǔ jiǔ huán dú qīng 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "春江花朝秋月夜：春天的江边，鲜花盛开的早晨，秋天的月夜。"
-            },
-            {
-              "start": 8,
+              "start": 13,
               "end": 14,
-              "content": "往往取酒还独倾：往往拿了酒独自酌饮。"
+              "content": "独自饮酒。"
             }
           ]
         },
@@ -6582,14 +6516,14 @@
           "pinyin": "qǐ wú shān gē yǔ cūn dí ， ōu yǎ zhāo zhā nán wéi tīng 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "岂无山歌与村笛：难道没有山歌和村笛？"
+              "start": 13,
+              "end": 13,
+              "content": "创作。"
             },
             {
               "start": 8,
-              "end": 14,
-              "content": "呕哑嘲哳难为听：声音嘈杂混乱很难听。"
+              "end": 11,
+              "content": "指声音嘈杂刺耳。"
             }
           ]
         },
@@ -6712,14 +6646,9 @@
           "pinyin": "jīn yè wén jūn pí pá yǔ ， rú tīng xiān yuè ěr zàn míng 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "今夜闻君琵琶语：今晚听到你弹奏的琵琶曲。"
-            },
-            {
-              "start": 8,
-              "end": 14,
-              "content": "如听仙乐耳暂明：好像听到仙乐，耳朵顿时清明。"
+              "start": 13,
+              "end": 13,
+              "content": "忽然，一下子。"
             }
           ]
         },
@@ -6856,14 +6785,19 @@
           "pinyin": "mò cí gèng zuò tán yī qǔ ， wèi jūn fān zuò 《 pí pá xíng 》 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "莫辞更坐弹一曲：不要推辞，请再坐下弹一曲。"
+              "start": 8,
+              "end": 8,
+              "content": "创作。"
             },
             {
-              "start": 8,
-              "end": 16,
-              "content": "为君翻作琵琶行：为你写作一首《琵琶行》。"
+              "start": 2,
+              "end": 2,
+              "content": "再。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "写作。翻，按曲调写作歌词。"
             }
           ]
         },
@@ -6986,14 +6920,19 @@
           "pinyin": "gǎn wǒ cǐ yán liáng jiǔ lì ， què zuò cù xián xián zhuǎn jí 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "感我此言良久立：被我的话感动，站立了很久。"
+              "start": 8,
+              "end": 9,
+              "content": "回到（原处）坐下。却，退回。"
             },
             {
-              "start": 8,
-              "end": 14,
-              "content": "却坐促弦弦转急：退回原处坐下，把弦拧紧，弦声变得更加急促。"
+              "start": 10,
+              "end": 11,
+              "content": "把琴弦拧紧。促，紧、迫。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "更加，越发。"
             }
           ]
         },
@@ -7116,14 +7055,14 @@
           "pinyin": "qī qī bù sì xiàng qián shēng ， mǎn zuò chóng wén jiē yǎn qì 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "凄凄不似向前声：凄楚哀伤不像刚才的声音。"
+              "start": 4,
+              "end": 5,
+              "content": "以前。"
             },
             {
-              "start": 8,
+              "start": 13,
               "end": 14,
-              "content": "满座重闻皆掩泣：满座的人重新听曲都掩面哭泣。"
+              "content": "掩面哭泣。下面\"泣下\"的\"泣\"指眼泪。"
             }
           ]
         },
@@ -7246,14 +7185,14 @@
           "pinyin": "zuò zhōng qì xià shuí zuì duō ？ jiāng zhōu sī mǎ qīng shān shī 。",
           "notes": [
             {
-              "start": 0,
-              "end": 6,
-              "content": "座中泣下谁最多：在座的人中谁流泪最多？"
+              "start": 10,
+              "end": 11,
+              "content": "州刺史的副职。"
             },
             {
-              "start": 8,
-              "end": 14,
-              "content": "江州司马青衫湿：江州司马的青衫都被泪水湿透了。青衫，唐代低级官员的服色。"
+              "start": 12,
+              "end": 13,
+              "content": "青色单衣。唐代官职低的服色为青。"
             }
           ]
         }
@@ -7262,5 +7201,11 @@
   ],
   "tags": [
     "必修上"
+  ],
+  "videos": [
+    {
+      "title": "琵琶行？铍钯行！用化学的方式打开语文课文",
+      "url": "https://www.bilibili.com/video/BV1u2c7ebEoH"
+    }
   ]
 }

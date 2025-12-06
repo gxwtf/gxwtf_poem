@@ -7,10 +7,14 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 function convert(data) {
-    return `import { Meta } from '@/components/poem-meta';
+  // 构建基础 MDX 内容
+  let mdxContent = `import { Meta } from '@/components/poem-meta';
 import { PoemPreview } from '@/components/poem-preview/poem-preview';
 import previewData from './preview.json';
 import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+import { Tags } from "@/components/tag"
+import { BilibiliVideos } from "@/components/video"
+import { PoemQuoteCard } from "@/components/poem-quote-card"
 
 <Meta 
   title="${data.name}"
@@ -28,9 +32,18 @@ ${data.background || "暂无写作背景。"}
 
 ## 作品赏析
 
-${data.appreciation || "暂无内容赏析。"}
+${data.appreciation || "暂无内容赏析。"}`;
 
-`
+  // 检查是否有视频数据
+  if (data.videos && Array.isArray(data.videos) && data.videos.length > 0) {
+    mdxContent += `
+
+## 更多学习视频
+
+<BilibiliVideos videos={${JSON.stringify(data.videos)}} />`;
+  }
+
+  return mdxContent;
 }
 
 // 你要处理的诗歌版本
@@ -49,7 +62,7 @@ for (const version of versions) {
     try {
       let fullData = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
       let previewData = convert(fullData);
-      if (fs.existsSync(path.join(path.dirname(previewPath), 'extra.mdx'))){
+      if (fs.existsSync(path.join(path.dirname(previewPath), 'extra.mdx'))) {
         const content = fs.readFileSync(path.join(path.dirname(previewPath), 'extra.mdx'), "utf-8");
         previewData += content;
       }
