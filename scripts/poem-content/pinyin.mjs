@@ -16,7 +16,7 @@ function equal(str1, str2) {
 }
 
 function convert(data, version) {
-	const punctuation = ["，", "。", "？", "！", "；", "：", "“", "”", "‘", "’", "—", "…", "《", "》"];
+	const punctuation = ["，", "。", "？", "！", "；", "：", "“", "”", "‘", "’", "—", "…", "《", "》", "、"];
 
 	// console.log(data.name);
 	const pinyinJSON = JSON.parse(fs.readFileSync(path.join(__dirname, `../../../poem_spider/${version}_pinyin.json`), "utf-8"));

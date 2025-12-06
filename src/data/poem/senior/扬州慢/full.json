@@ -1100,7 +1100,8 @@
               "char": "、",
               "index": 127,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             },
             {
               "char": "清",
@@ -1246,7 +1247,8 @@
               "char": "、",
               "index": 146,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": ""
             },
             {
               "char": "重",

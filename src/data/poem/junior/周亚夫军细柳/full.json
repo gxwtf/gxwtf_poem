@@ -2501,28 +2501,28 @@
             },
             {
               "char": "、",
-              "pinyin": "yú",
+              "pinyin": "",
               "index": 316,
               "read": false,
               "write": false
             },
             {
               "char": "棘",
-              "pinyin": "yà",
+              "pinyin": "yú",
               "index": 317,
               "read": false,
               "write": false
             },
             {
               "char": "门",
-              "pinyin": "fū",
+              "pinyin": "yà",
               "index": 318,
               "read": false,
               "write": false
             },
             {
               "char": "军",
-              "pinyin": "kě",
+              "pinyin": "fū",
               "index": 319,
               "read": false,
               "write": false
@@ -2536,28 +2536,28 @@
             },
             {
               "char": "若",
-              "pinyin": "dé",
+              "pinyin": "kě",
               "index": 321,
               "read": false,
               "write": false
             },
             {
               "char": "儿",
-              "pinyin": "ér",
+              "pinyin": "dé",
               "index": 322,
               "read": false,
               "write": false
             },
             {
               "char": "戏",
-              "pinyin": "fàn",
+              "pinyin": "ér",
               "index": 323,
               "read": false,
               "write": false
             },
             {
               "char": "耳",
-              "pinyin": "yé",
+              "pinyin": "fàn",
               "index": 324,
               "read": false,
               "write": false
@@ -2571,35 +2571,35 @@
             },
             {
               "char": "其",
-              "pinyin": "chēng",
+              "pinyin": "yé",
               "index": 326,
               "read": false,
               "write": false
             },
             {
               "char": "将",
-              "pinyin": "shàn",
+              "pinyin": "chēng",
               "index": 327,
               "read": false,
               "write": false
             },
             {
               "char": "固",
-              "pinyin": "zhě",
+              "pinyin": "shàn",
               "index": 328,
               "read": false,
               "write": false
             },
             {
               "char": "可",
-              "pinyin": "jiǔ",
+              "pinyin": "zhě",
               "index": 329,
               "read": false,
               "write": false
             },
             {
               "char": "袭",
-              "pinyin": "zhī",
+              "pinyin": "jiǔ",
               "index": 330,
               "read": false,
               "write": false
@@ -2608,7 +2608,8 @@
               "char": "而",
               "index": 331,
               "read": false,
-              "write": false
+              "write": false,
+              "pinyin": "zhī"
             },
             {
               "char": "虏",

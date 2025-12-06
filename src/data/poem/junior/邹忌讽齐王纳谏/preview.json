@@ -1975,35 +1975,35 @@
             },
             {
               "char": "、",
-              "pinyin": "zhào"
+              "pinyin": ""
             },
             {
               "char": "赵",
+              "pinyin": "zhào"
+            },
+            {
+              "char": "、",
+              "pinyin": ""
+            },
+            {
+              "char": "韩",
               "pinyin": "hán"
             },
             {
               "char": "、",
-              "pinyin": "wèi"
-            },
-            {
-              "char": "韩",
-              "pinyin": "wén"
-            },
-            {
-              "char": "、",
-              "pinyin": "zhī"
+              "pinyin": ""
             },
             {
               "char": "魏",
-              "pinyin": "jiē"
+              "pinyin": "wèi"
             },
             {
               "char": "闻",
-              "pinyin": "cháo"
+              "pinyin": "wén"
             },
             {
               "char": "之",
-              "pinyin": "yú"
+              "pinyin": "zhī"
             },
             {
               "char": "，",
@@ -2011,11 +2011,11 @@
             },
             {
               "char": "皆",
-              "pinyin": "qí"
+              "pinyin": "jiē"
             },
             {
               "char": "朝",
-              "pinyin": "cǐ",
+              "pinyin": "cháo",
               "note": [
                 {
                   "title": "注释",
@@ -2025,11 +2025,11 @@
             },
             {
               "char": "于",
-              "pinyin": "suǒ"
+              "pinyin": "yú"
             },
             {
               "char": "齐",
-              "pinyin": "wèi"
+              "pinyin": "qí"
             },
             {
               "char": "。",
@@ -2045,32 +2045,35 @@
           "sentence": [
             {
               "char": "此",
-              "pinyin": "zhàn"
+              "pinyin": "cǐ"
             },
             {
               "char": "所",
-              "pinyin": "shèng"
+              "pinyin": "suǒ"
             },
             {
               "char": "谓",
-              "pinyin": "yú"
+              "pinyin": "wèi"
             },
             {
               "char": "战",
-              "pinyin": "cháo"
+              "pinyin": "zhàn"
             },
             {
               "char": "胜",
+              "pinyin": "shèng"
+            },
+            {
+              "char": "于",
+              "pinyin": "yú"
+            },
+            {
+              "char": "朝",
+              "pinyin": "cháo"
+            },
+            {
+              "char": "廷",
               "pinyin": "tíng"
-            },
-            {
-              "char": "于"
-            },
-            {
-              "char": "朝"
-            },
-            {
-              "char": "廷"
             },
             {
               "char": "。",
