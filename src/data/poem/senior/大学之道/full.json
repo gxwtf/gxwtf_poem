@@ -153,29 +153,19 @@
           "pinyin": "dà xué zhī dào ， zài míng míng dé ， zài qīn mín ， zài zhǐ yú zhì shàn 。",
           "notes": [
             {
-              "start": 0,
-              "end": 1,
-              "content": "大学：古代最高学府，也指儒家经典《大学》，此处指后者。"
-            },
-            {
-              "start": 3,
-              "end": 3,
-              "content": "之：结构助词，相当于“的”。"
-            },
-            {
               "start": 6,
               "end": 8,
-              "content": "明明德：前一个“明”为动词，意为“彰明、弘扬”；后一个“明”为形容词，意为“光明的”；“德”指“品德”。合指弘扬光明正大的品德。"
+              "content": "彰明美德。前一个“明”是动词，彰明。明德，美好的德行。"
             },
             {
-              "start": 10,
+              "start": 11,
               "end": 12,
-              "content": "亲民：亲近、爱护民众。一说“亲”通“新”，即“新民”，意为使人弃旧图新。"
+              "content": "亲近爱抚民众。一说“亲”当作“新”，“新民”即使天下人去旧立新，去恶向善。"
             },
             {
-              "start": 14,
+              "start": 15,
               "end": 18,
-              "content": "止于至善：达到最完善的境界。“止”意为“达到”，“至善”指最善、最完美的境界。"
+              "content": "达到道德修养的最高境界。"
             }
           ],
           "different_meanings": [
@@ -426,33 +416,28 @@
           "notes": [
             {
               "start": 0,
-              "end": 1,
-              "content": "知止：知道应该达到的境界（即“至善”）。"
-            },
-            {
-              "start": 7,
-              "end": 8,
-              "content": "定：志向坚定。"
+              "end": 5,
+              "content": "知道要达到的“至善”境界，则志向坚定不移。"
             },
             {
               "start": 11,
-              "end": 12,
-              "content": "静：心境宁静，不妄动。"
+              "end": 11,
+              "content": "心不妄动。"
             },
             {
               "start": 17,
-              "end": 18,
-              "content": "安：身心安和，处事安妥。"
+              "end": 17,
+              "content": "性情安和。"
             },
             {
               "start": 23,
-              "end": 24,
-              "content": "虑：思虑周详。"
+              "end": 23,
+              "content": "思虑精详。"
             },
             {
               "start": 29,
-              "end": 30,
-              "content": "得：有所收获，达到“至善”。"
+              "end": 29,
+              "content": "处事合宜。"
             }
           ],
           "different_meanings": [
@@ -563,18 +548,7 @@
           ],
           "translation": "每一样东西都有根本有始末，每件事情都有开始有终结。",
           "pinyin": "wù yǒu běn mò ， shì yǒu zhōng shǐ 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 3,
-              "content": "物有本末：万物都有根本和枝节。“本”指根本，“末”指枝节。"
-            },
-            {
-              "start": 5,
-              "end": 8,
-              "content": "事有终始：万事都有结局和开端。“终”指结局，“始”指开端。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -651,18 +625,7 @@
           ],
           "translation": "明白了这本末始终的道理，就接近事物发展的规律了。",
           "pinyin": "zhī suǒ xiān hòu ， zé jìn dào yǐ 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 3,
-              "content": "知所先后：知道事情的先后次序。“所”为助词，与“先后”构成名词性短语。"
-            },
-            {
-              "start": 5,
-              "end": 8,
-              "content": "近道矣：接近“大学之道”了。“矣”为句末语气词，表肯定。"
-            }
-          ]
+          "notes": []
         }
       ]
     },
@@ -785,33 +748,7 @@
           ],
           "translation": "古代那些要想在天下弘扬光明正大品德的人，先要治理好自己的国家；",
           "pinyin": "gǔ zhī yù míng míng dé yú tiān xià zhě ， xiān zhì qí guó 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 2,
-              "content": "古之：古代的。“之”为助词，无实义。"
-            },
-            {
-              "start": 3,
-              "end": 5,
-              "content": "明明德：同上文注释，弘扬光明正大的品德。"
-            },
-            {
-              "start": 6,
-              "end": 9,
-              "content": "于天下：在天下，即在全天下弘扬。“于”为介词，引出范围。"
-            },
-            {
-              "start": 10,
-              "end": 10,
-              "content": "者：代词，指“……的人”。"
-            },
-            {
-              "start": 11,
-              "end": 14,
-              "content": "先治其国：首先要治理好自己的国家。“其”为代词，指自己。"
-            }
-          ],
+          "notes": [],
           "special_sentences": [
             {
               "start": 6,
@@ -904,14 +841,9 @@
           "pinyin": "yù zhì qí guó zhě ， xiān qí qí jiā 。",
           "notes": [
             {
-              "start": 0,
-              "end": 4,
-              "content": "欲治其国者：想要治理好自己国家的人。“者”同上，指人。"
-            },
-            {
-              "start": 6,
+              "start": 7,
               "end": 9,
-              "content": "先齐其家：首先要管理好自己的家庭。“齐”意为整治、管理。"
+              "content": "使家族中的各种关系整齐有序。"
             }
           ],
           "different_meanings": [
@@ -1009,18 +941,7 @@
           ],
           "translation": "要想管理好自己的家庭或家族，先要修养自身的品性；",
           "pinyin": "yù qí qí jiā zhě ， xiān xiū qí shēn 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 4,
-              "content": "欲齐其家者：想要管理好自己家庭的人。"
-            },
-            {
-              "start": 6,
-              "end": 9,
-              "content": "先修其身：首先要修养自身的品性。“修”意为修养、完善。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -1104,18 +1025,7 @@
           ],
           "translation": "要想修养自身的品性，先要端正自己的心思；",
           "pinyin": "yù xiū qí shēn zhě ， xiān zhèng qí xīn 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 4,
-              "content": "欲修其身者：想要修养自身品性的人。"
-            },
-            {
-              "start": 6,
-              "end": 9,
-              "content": "先正其心：首先要端正自己的心思。“正”为使动用法，使……端正。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -1199,18 +1109,7 @@
           ],
           "translation": "要想端正自己的心思，先要使自己的意念真诚；",
           "pinyin": "yù zhèng qí xīn zhě ， xiān chéng qí yì 。",
-          "notes": [
-            {
-              "start": 0,
-              "end": 4,
-              "content": "欲正其心者：想要端正自己心思的人。"
-            },
-            {
-              "start": 6,
-              "end": 9,
-              "content": "先诚其意：首先要使自己的意念真诚。“诚”为使动用法，使……真诚。"
-            }
-          ]
+          "notes": []
         },
         {
           "content": [
@@ -1296,14 +1195,9 @@
           "pinyin": "yù chéng qí yì zhě ， xiān zhì qí zhī 。",
           "notes": [
             {
-              "start": 0,
-              "end": 4,
-              "content": "欲诚其意者：想要使自己意念真诚的人。"
-            },
-            {
-              "start": 6,
+              "start": 7,
               "end": 9,
-              "content": "先致其知：首先要获得知识（明理）。“致”意为获得、推极。“知”同“智”，指知识、智慧。"
+              "content": "获得知识。一说，把自己对事物的认识推到极致。"
             }
           ]
         },
@@ -1356,9 +1250,9 @@
           "pinyin": "zhì zhī zài gé wù 。",
           "notes": [
             {
-              "start": 0,
+              "start": 3,
               "end": 4,
-              "content": "致知在格物：获得知识在于推究事物的原理。“格”意为推究、研究。“物”指事物。"
+              "content": "推究事物的原理。"
             }
           ],
           "different_meanings": [
@@ -1748,44 +1642,9 @@
           "pinyin": "wù gé ér hòu zhī zhì ， zhī zhì ér hòu yì chéng ， yì chéng ér hòu xīn zhèng ， xīn zhèng ér hòu shēn xiū ， shēn xiū ér hòu jiā qí ， jiā qí ér hòu guó zhì ， guó zhì ér hòu tiān xià píng 。",
           "notes": [
             {
-              "start": 0,
-              "end": 2,
-              "content": "物格：事物的原理被推究明白。“格”同上。"
-            },
-            {
-              "start": 7,
-              "end": 8,
-              "content": "知至：知识获得（达到完备）。“知”同“智”。"
-            },
-            {
-              "start": 14,
-              "end": 15,
-              "content": "意诚：意念变得真诚。"
-            },
-            {
-              "start": 21,
-              "end": 22,
-              "content": "心正：心思得以端正。"
-            },
-            {
-              "start": 28,
-              "end": 29,
-              "content": "身修：自身品性得以修养完善。"
-            },
-            {
-              "start": 35,
-              "end": 36,
-              "content": "家齐：家庭得以管理好。"
-            },
-            {
-              "start": 42,
-              "end": 43,
-              "content": "国治：国家得以治理好。"
-            },
-            {
-              "start": 46,
-              "end": 48,
-              "content": "天下平：天下太平。“平”意为太平、安定。"
+              "start": 4,
+              "end": 5,
+              "content": "对外物之理认识充分。"
             }
           ],
           "special_sentences": [
@@ -1929,29 +1788,9 @@
           "pinyin": "zì tiān zǐ yǐ zhì yú shù rén ， yī shì jiē yǐ xiū shēn wéi běn 。",
           "notes": [
             {
-              "start": 0,
-              "end": 3,
-              "content": "自天子：从天子开始。“自”意为从。"
-            },
-            {
-              "start": 4,
-              "end": 7,
-              "content": "以至于庶人：一直到普通百姓。“庶人”指平民百姓。"
-            },
-            {
               "start": 9,
               "end": 10,
-              "content": "壹是：一律、一切。“壹”同“一”。"
-            },
-            {
-              "start": 11,
-              "end": 12,
-              "content": "皆是：都是。“皆”意为都。"
-            },
-            {
-              "start": 13,
-              "end": 16,
-              "content": "以修身为本：把修养自身品性作为根本。“以……为”意为“把……作为”。"
+              "content": "一概，一律。"
             }
           ],
           "different_meanings": [

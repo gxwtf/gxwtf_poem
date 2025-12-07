@@ -181,14 +181,14 @@
           "pinyin": "shèng rén yǐ zhì tiān xià wéi shì zhě yě ， bì zhī luàn zhī suǒ zì qǐ ， yān néng zhì zhī 。",
           "notes": [
             {
-              "start": 15,
-              "end": 17,
-              "content": "所自起：文言固定结构，表示‘从……产生的地方’或‘产生的根源’，‘所’与‘自’连用强调来源。"
+              "start": 2,
+              "end": 7,
+              "content": "把治理天下作为（自己的）事务。"
             },
             {
               "start": 19,
               "end": 19,
-              "content": "焉：疑问副词，相当于‘才’，表示条件关系，意为‘于是才’，非‘哪里’。"
+              "content": "于是。"
             }
           ],
           "special_sentences": [
@@ -295,13 +295,7 @@
           ],
           "translation": "不知道混乱产生的根源，就不能治理。",
           "pinyin": "bù zhī luàn zhī suǒ zì qǐ ， zé bù néng zhì 。",
-          "notes": [
-            {
-              "start": 6,
-              "end": 7,
-              "content": "所自起：同上，指混乱产生的根源，用于强调必须知晓原因才能治理。"
-            }
-          ],
+          "notes": [],
           "special_sentences": [
             {
               "start": 6,
@@ -494,17 +488,7 @@
             {
               "start": 5,
               "end": 5,
-              "content": "攻：此处意为‘治疗’，古义与现代‘攻击’相反，特指医治疾病。"
-            },
-            {
-              "start": 11,
-              "end": 11,
-              "content": "然：代词，意为‘这样’，指代前文医生治病的情况，相当于‘如此’。"
-            },
-            {
-              "start": 17,
-              "end": 19,
-              "content": "所自起：再次出现，强调必须知道疾病产生的根源，结构与前相同。"
+              "content": "治疗。"
             }
           ],
           "different_meanings": [
@@ -623,18 +607,7 @@
           ],
           "translation": "不知道疾病产生的根源，就不能治疗。",
           "pinyin": "bù zhī jí zhī suǒ zì qǐ ， zé fú néng gōng 。",
-          "notes": [
-            {
-              "start": 6,
-              "end": 7,
-              "content": "所自起：同前，用于否定句中，强调不知根源则无法治疗。"
-            },
-            {
-              "start": 10,
-              "end": 10,
-              "content": "弗：否定副词，相当于‘不’，语气较重，多用于书面语或古文中。"
-            }
-          ],
+          "notes": [],
           "different_meanings": [
             {
               "start": 12,
@@ -795,19 +768,9 @@
           "pinyin": "gù zǐ mò zǐ yuē ： yǐ jiān xiāng ài 、 jiāo xiāng lì zhī fǎ yì zhī 。",
           "notes": [
             {
-              "start": 7,
-              "end": 7,
-              "content": "兼：指‘兼爱’，墨家核心思想，意为无差别地爱所有人，不分亲疏。"
-            },
-            {
               "start": 11,
-              "end": 11,
-              "content": "交：指‘交相’，意为相互、彼此，强调双向互动的关系。"
-            },
-            {
-              "start": 17,
-              "end": 17,
-              "content": "易：此处为动词，意为‘取代、替换’，指用兼爱互利的方法来改变乱世。"
+              "end": 12,
+              "content": "互相。"
             }
           ],
           "different_meanings": [

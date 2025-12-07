@@ -12,8 +12,8 @@
 Notes 文件采用行级注释格式，每一行表示一条注释。
 
 每条注释必须包含两部分内容：
-	1.	方括号内的“被注释词语”，可以包含汉字与拼音，但脚本会自动去除拼音。
-	2.	方括号后的注释解释文本。
+    1.	方括号内的“被注释词语”，可以包含汉字与拼音，但脚本会自动去除拼音。
+    2.	方括号后的注释解释文本。
 
 基本格式如下：
 [词语或词组（拼音）]注释内容
@@ -80,13 +80,13 @@ node scripts/poem-content/add_notes.mjs
 ⸻
 
 【六、注意事项】
-	1.	notes.mdx 中的注释必须一行一条，方括号必须完整闭合。
-	2.	注释中的拼音会被自动清除，不影响匹配。
-	3.	同一条注释中的多个词语会被视为多个独立注释，分别写入 full.json。
-	4.	关键词必须能够在句子中完整出现，否则不会写入。
-	5.	若某些词语无法匹配任何句子，脚本不会报错，但也不会写入注释。
-	6.	full.json 会被直接覆盖，请避免在脚本运行期间手动修改 full.json。
-	7.	脚本不会生成 preview.json等文件，功能仅限注释写入 full.json。
+    1.	notes.mdx 中的注释必须一行一条，方括号必须完整闭合。
+    2.	注释中的拼音会被自动清除，不影响匹配。
+    3.	同一条注释中的多个词语会被视为多个独立注释，分别写入 full.json。
+    4.	关键词必须能够在句子中完整出现，否则不会写入。
+    5.	若某些词语无法匹配任何句子，脚本不会报错，但也不会写入注释。
+    6.	full.json 会被直接覆盖，请避免在脚本运行期间手动修改 full.json。
+    7.	脚本不会生成 preview.json等文件，功能仅限注释写入 full.json。
 */
 
 import fs from 'fs';
@@ -164,19 +164,39 @@ for (const version of versions) {
                 }
             }
 
-            // 写入新 notes
+            let lastGlobalIndex = -1;
+
             for (const { keywords, content } of notesList) {
+                // 每条注释只允许添加一次
+                let annotationFound = false;
+
                 for (const kw of keywords) {
+                    if (annotationFound) break;
+
                     for (const para of full.paragraphs) {
+                        if (annotationFound) break;
+
                         for (const sentence of para.sentences) {
                             const pos = findKeywordInSentence(sentence.content, kw);
                             if (!pos) continue;
+
+                            // 将句内局部 index 映射到全文 global index
+                            const globalStart = sentence.content[pos.start].index;
+
+                            // 只能匹配在上一个注释之后的位置
+                            if (globalStart <= lastGlobalIndex) continue;
 
                             sentence.notes.push({
                                 start: pos.start,
                                 end: pos.end,
                                 content
                             });
+
+                            // 记录本条注释的全文结束位置
+                            lastGlobalIndex = sentence.content[pos.end].index;
+
+                            annotationFound = true;
+                            break;
                         }
                     }
                 }
