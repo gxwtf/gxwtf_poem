@@ -3,9 +3,9 @@
   "author": "墨子",
   "dynasty": "战国",
   "mode": "paragraph",
-  "content": "圣人以治天下为事者也，必知乱之所自起，焉能治之。不知乱之所自起，则不能治。譬之如医之攻人之疾者然，必知疾之所自起，焉能攻之。不知疾之所自起，则弗能攻。故子墨子曰：以兼相爱、交相利之法易之。",
-  "translation": "圣人把治理天下当作事业的人，必须知道混乱产生的根源，才能治理好它。不知道混乱产生的根源，就不能治理。就好比医生治疗人的疾病一样，必须知道疾病产生的根源，才能加以治疗。不知道疾病产生的根源，就不能治疗。所以墨子说：要用彼此相爱、互相得利的方法来改变社会。",
-  "pinyin": "shèng rén yǐ zhì tiān xià wéi shì zhě yě ， bì zhī luàn zhī suǒ zì qǐ ， yān néng zhì zhī 。 bù zhī luàn zhī suǒ zì qǐ ， zé bù néng zhì 。 pì zhī rú yī zhī gōng rén zhī jí zhě rán ， bì zhī jí zhī suǒ zì qǐ ， yān néng gōng zhī 。 bù zhī jí zhī suǒ zì qǐ ， zé fú néng gōng 。 gù zǐ mò zǐ yuē ： yǐ jiān xiāng ài 、 jiāo xiāng lì zhī fǎ yì zhī 。",
+  "content": "圣人以治天下为事者也，必知乱之所自起，焉能治之；不知乱之所自起，则不能治。#譬之如医之攻人之疾者然，必知疾之所自起，焉能攻之；不知疾之所自起，则弗能攻。#治乱者何独不然？必知乱之所自起，焉能治之；不知乱之所自起，则弗能治。",
+  "translation": "圣人把治理天下作为自己的事业，必须知道混乱从何而起，才能治理它；不知道混乱从何而起，就不能治理。#这就像医生治疗人的疾病一样，必须知道疾病从何而起，才能治疗它；不知道疾病从何而起，就不能治疗。#治理混乱的人难道不是这样吗？必须知道混乱从何而起，才能治理它；不知道混乱从何而起，就不能治理。",
+  "pinyin": "shèng rén yǐ zhì tiān xià wéi shì zhě yě ， bì zhī luàn zhī suǒ zì qǐ ， yān néng zhì zhī ； bù zhī luàn zhī suǒ zì qǐ ， zé bù néng zhì 。 pì zhī rú yī zhī gōng rén zhī jí zhě rán ， bì zhī jí zhī suǒ zì qǐ ， yān néng gōng zhī ； bù zhī jí zhī suǒ zì qǐ ， zé fú néng gōng 。 zhì luàn zhě hé dú bù rán ？ bì zhī luàn zhī suǒ zì qǐ ， yān néng zhì zhī ； bù zhī luàn zhī suǒ zì qǐ ， zé fú néng zhì 。",
   "notes": [
     {
       "start": 2,
@@ -21,13 +21,11 @@
       "start": 42,
       "end": 42,
       "note": "治疗。"
-    },
-    {
-      "start": 86,
-      "end": 87,
-      "note": "互相。"
     }
   ],
-  "tags": [],
+  "tags": [
+    "选必上",
+    "文言文"
+  ],
   "videos": []
 }

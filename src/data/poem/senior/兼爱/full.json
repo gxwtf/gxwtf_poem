@@ -3,6 +3,10 @@
   "author": "墨子",
   "dynasty": "战国",
   "mode": "paragraph",
+  "tags": [
+    "选必上",
+    "文言文"
+  ],
   "paragraphs": [
     {
       "sentences": [
@@ -145,8 +149,8 @@
               "char": "焉",
               "pinyin": "yān",
               "index": 19,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "能",
@@ -170,37 +174,12 @@
               "write": false
             },
             {
-              "char": "。",
-              "pinyin": "。",
+              "char": "；",
+              "pinyin": "；",
               "index": 23,
               "read": false,
               "write": false
-            }
-          ],
-          "translation": "圣人把治理天下当作事业的人，必须知道混乱产生的根源，才能治理好它。",
-          "pinyin": "shèng rén yǐ zhì tiān xià wéi shì zhě yě ， bì zhī luàn zhī suǒ zì qǐ ， yān néng zhì zhī 。",
-          "notes": [
-            {
-              "start": 2,
-              "end": 7,
-              "content": "把治理天下作为（自己的）事务。"
             },
-            {
-              "start": 19,
-              "end": 19,
-              "content": "于是。"
-            }
-          ],
-          "special_sentences": [
-            {
-              "start": 15,
-              "end": 17,
-              "content": "‘所自起’为文言特殊结构，由‘所’+‘自’+动词构成，表示‘从……产生的地方’，属于所字结构嵌入介词‘自’的来源表达。"
-            }
-          ]
-        },
-        {
-          "content": [
             {
               "char": "不",
               "pinyin": "bù",
@@ -293,17 +272,25 @@
               "write": false
             }
           ],
-          "translation": "不知道混乱产生的根源，就不能治理。",
-          "pinyin": "bù zhī luàn zhī suǒ zì qǐ ， zé bù néng zhì 。",
-          "notes": [],
-          "special_sentences": [
+          "translation": "圣人把治理天下作为自己的事业，必须知道混乱从何而起，才能治理它；不知道混乱从何而起，就不能治理。",
+          "pinyin": "shèng rén yǐ zhì tiān xià wéi shì zhě yě ， bì zhī luàn zhī suǒ zì qǐ ， yān néng zhì zhī ； bù zhī luàn zhī suǒ zì qǐ ， zé bù néng zhì 。",
+          "notes": [
             {
-              "start": 6,
+              "start": 2,
               "end": 7,
-              "content": "‘所自起’结构再现，语法功能同上，用于说明治理混乱的前提条件。"
+              "content": "把治理天下作为（自己的）事务。"
+            },
+            {
+              "start": 19,
+              "end": 19,
+              "content": "于是。"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "sentences": [
         {
           "content": [
             {
@@ -346,7 +333,7 @@
               "pinyin": "gōng",
               "index": 42,
               "read": false,
-              "write": true
+              "write": false
             },
             {
               "char": "人",
@@ -457,7 +444,7 @@
               "char": "能",
               "pinyin": "néng",
               "index": 58,
-              "read": true,
+              "read": false,
               "write": false
             },
             {
@@ -475,44 +462,12 @@
               "write": false
             },
             {
-              "char": "。",
-              "pinyin": "。",
+              "char": "；",
+              "pinyin": "；",
               "index": 61,
               "read": false,
               "write": false
-            }
-          ],
-          "translation": "就好比医生治疗人的疾病一样，必须知道疾病产生的根源，才能加以治疗。",
-          "pinyin": "pì zhī rú yī zhī gōng rén zhī jí zhě rán ， bì zhī jí zhī suǒ zì qǐ ， yān néng gōng zhī 。",
-          "notes": [
-            {
-              "start": 5,
-              "end": 5,
-              "content": "治疗。"
-            }
-          ],
-          "different_meanings": [
-            {
-              "start": 5,
-              "end": 5,
-              "old": "治疗"
             },
-            {
-              "start": 5,
-              "end": 5,
-              "new": "攻击"
-            }
-          ],
-          "special_sentences": [
-            {
-              "start": 17,
-              "end": 19,
-              "content": "‘所自起’用于比喻句中，表示疾病根源，结构与意义同前。"
-            }
-          ]
-        },
-        {
-          "content": [
             {
               "char": "不",
               "pinyin": "bù",
@@ -587,8 +542,8 @@
               "char": "能",
               "pinyin": "néng",
               "index": 72,
-              "read": true,
-              "write": true
+              "read": false,
+              "write": false
             },
             {
               "char": "攻",
@@ -602,189 +557,267 @@
               "pinyin": "。",
               "index": 74,
               "read": false,
-              "write": true
+              "write": false
             }
           ],
-          "translation": "不知道疾病产生的根源，就不能治疗。",
-          "pinyin": "bù zhī jí zhī suǒ zì qǐ ， zé fú néng gōng 。",
-          "notes": [],
-          "different_meanings": [
+          "translation": "这就像医生治疗人的疾病一样，必须知道疾病从何而起，才能治疗它；不知道疾病从何而起，就不能治疗。",
+          "pinyin": "pì zhī rú yī zhī gōng rén zhī jí zhě rán ， bì zhī jí zhī suǒ zì qǐ ， yān néng gōng zhī ； bù zhī jí zhī suǒ zì qǐ ， zé fú néng gōng 。",
+          "notes": [
             {
-              "start": 12,
-              "end": 12,
-              "old": "治疗"
-            },
-            {
-              "start": 12,
-              "end": 12,
-              "new": "攻击"
-            }
-          ],
-          "special_sentences": [
-            {
-              "start": 6,
-              "end": 7,
-              "content": "‘所自起’在否定句中出现，强调不知病因则无法治疗，结构一致。"
+              "start": 5,
+              "end": 5,
+              "content": "治疗。"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "sentences": [
         {
           "content": [
             {
-              "char": "故",
-              "pinyin": "gù",
+              "char": "治",
+              "pinyin": "zhì",
               "index": 75,
               "read": false,
               "write": false
             },
             {
-              "char": "子",
-              "pinyin": "zǐ",
+              "char": "乱",
+              "pinyin": "luàn",
               "index": 76,
               "read": false,
               "write": false
             },
             {
-              "char": "墨",
-              "pinyin": "mò",
+              "char": "者",
+              "pinyin": "zhě",
               "index": 77,
               "read": false,
               "write": false
             },
             {
-              "char": "子",
-              "pinyin": "zǐ",
+              "char": "何",
+              "pinyin": "hé",
               "index": 78,
               "read": false,
               "write": false
             },
             {
-              "char": "曰",
-              "pinyin": "yuē",
+              "char": "独",
+              "pinyin": "dú",
               "index": 79,
               "read": false,
               "write": false
             },
             {
-              "char": "：",
-              "pinyin": "：",
+              "char": "不",
+              "pinyin": "bù",
               "index": 80,
               "read": false,
               "write": false
             },
             {
-              "char": "以",
-              "pinyin": "yǐ",
+              "char": "然",
+              "pinyin": "rán",
               "index": 81,
               "read": false,
               "write": false
             },
             {
-              "char": "兼",
-              "pinyin": "jiān",
+              "char": "？",
+              "pinyin": "？",
               "index": 82,
               "read": false,
-              "write": true
+              "write": false
             },
             {
-              "char": "相",
-              "pinyin": "xiāng",
+              "char": "必",
+              "pinyin": "bì",
               "index": 83,
               "read": false,
               "write": false
             },
             {
-              "char": "爱",
-              "pinyin": "ài",
+              "char": "知",
+              "pinyin": "zhī",
               "index": 84,
               "read": false,
               "write": false
             },
             {
-              "char": "、",
-              "pinyin": "、",
+              "char": "乱",
+              "pinyin": "luàn",
               "index": 85,
               "read": false,
               "write": false
             },
             {
-              "char": "交",
-              "pinyin": "jiāo",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 86,
               "read": false,
               "write": false
             },
             {
-              "char": "相",
-              "pinyin": "xiāng",
+              "char": "所",
+              "pinyin": "suǒ",
               "index": 87,
               "read": false,
               "write": false
             },
             {
-              "char": "利",
-              "pinyin": "lì",
+              "char": "自",
+              "pinyin": "zì",
               "index": 88,
               "read": false,
               "write": false
             },
             {
-              "char": "之",
-              "pinyin": "zhī",
+              "char": "起",
+              "pinyin": "qǐ",
               "index": 89,
               "read": false,
               "write": false
             },
             {
-              "char": "法",
-              "pinyin": "fǎ",
+              "char": "，",
+              "pinyin": "，",
               "index": 90,
               "read": false,
               "write": false
             },
             {
-              "char": "易",
-              "pinyin": "yì",
+              "char": "焉",
+              "pinyin": "yān",
               "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì",
+              "index": 93,
               "read": false,
               "write": false
             },
             {
               "char": "之",
               "pinyin": "zhī",
-              "index": 92,
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "；",
+              "pinyin": "；",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 97,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乱",
+              "pinyin": "luàn",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "，",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弗",
+              "pinyin": "fú",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì",
+              "index": 107,
               "read": false,
               "write": false
             },
             {
               "char": "。",
               "pinyin": "。",
-              "index": 93,
+              "index": 108,
               "read": false,
               "write": false
             }
           ],
-          "translation": "所以墨子说：要用彼此相爱、互相得利的方法来改变社会。",
-          "pinyin": "gù zǐ mò zǐ yuē ： yǐ jiān xiāng ài 、 jiāo xiāng lì zhī fǎ yì zhī 。",
-          "notes": [
-            {
-              "start": 11,
-              "end": 12,
-              "content": "互相。"
-            }
-          ],
-          "different_meanings": [
-            {
-              "start": 17,
-              "end": 17,
-              "old": "替换"
-            },
-            {
-              "start": 17,
-              "end": 17,
-              "new": "容易"
-            }
-          ]
+          "translation": "治理混乱的人难道不是这样吗？必须知道混乱从何而起，才能治理它；不知道混乱从何而起，就不能治理。",
+          "pinyin": "zhì luàn zhě hé dú bù rán ？ bì zhī luàn zhī suǒ zì qǐ ， yān néng zhì zhī ； bù zhī luàn zhī suǒ zì qǐ ， zé fú néng zhì 。",
+          "notes": []
         }
       ]
     }

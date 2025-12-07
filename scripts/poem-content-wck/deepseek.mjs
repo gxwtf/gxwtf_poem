@@ -24,7 +24,7 @@ export default async function deepseekChat(prompt, unused) {
 			// model: "qwen/qwen3-235b-a22b:free",
 			// model: "deepseek/deepseek-r1-0528:free",
 			// model: "deepseek/deepseek-chat-v3.1:free",
-			model: 'Qwen3-235B-A22B-Instruct-2507-FP8-DYNAMIC',
+			model: 'Qwen3-VL-235B-A22B-Instruct-FP8-DYNAMIC',
 			messages: [{ role: "user", content: prompt }],
 			stream: true
 		});

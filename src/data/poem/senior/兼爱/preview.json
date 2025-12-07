@@ -103,23 +103,9 @@
               "pinyin": "zhī"
             },
             {
-              "char": "。",
+              "char": "；",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "圣人把治理天下当作事业的人，必须知道混乱产生的根源，才能治理好它。"
-          },
-          "notes": [
-            {
-              "start": 2,
-              "end": 7,
-              "note": "把治理天下作为（自己的）事务。"
-            }
-          ]
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "不",
               "pinyin": "bù"
@@ -174,10 +160,20 @@
             }
           ],
           "translation": {
-            "translation": "不知道混乱产生的根源，就不能治理。"
+            "translation": "圣人把治理天下作为自己的事业，必须知道混乱从何而起，才能治理它；不知道混乱从何而起，就不能治理。"
           },
-          "notes": []
-        },
+          "notes": [
+            {
+              "start": 2,
+              "end": 7,
+              "note": "把治理天下作为（自己的）事务。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
         {
           "sentence": [
             {
@@ -283,17 +279,9 @@
               "pinyin": "zhī"
             },
             {
-              "char": "。",
+              "char": "；",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": "就好比医生治疗人的疾病一样，必须知道疾病产生的根源，才能加以治疗。"
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "不",
               "pinyin": "bù"
@@ -348,83 +336,147 @@
             }
           ],
           "translation": {
-            "translation": "不知道疾病产生的根源，就不能治疗。"
+            "translation": "这就像医生治疗人的疾病一样，必须知道疾病从何而起，才能治疗它；不知道疾病从何而起，就不能治疗。"
           },
           "notes": []
-        },
+        }
+      ]
+    },
+    {
+      "paragraph": [
         {
           "sentence": [
             {
-              "char": "故",
-              "pinyin": "gù"
+              "char": "治",
+              "pinyin": "zhì"
             },
             {
-              "char": "子",
-              "pinyin": "zǐ"
+              "char": "乱",
+              "pinyin": "luàn"
             },
             {
-              "char": "墨",
-              "pinyin": "mò"
+              "char": "者",
+              "pinyin": "zhě"
             },
             {
-              "char": "子",
-              "pinyin": "zǐ"
+              "char": "何",
+              "pinyin": "hé"
             },
             {
-              "char": "曰",
-              "pinyin": "yuē"
+              "char": "独",
+              "pinyin": "dú"
             },
             {
-              "char": "：",
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "然",
+              "pinyin": "rán"
+            },
+            {
+              "char": "？",
               "pinyin": "　"
             },
             {
-              "char": "以",
-              "pinyin": "yǐ"
+              "char": "必",
+              "pinyin": "bì"
             },
             {
-              "char": "兼",
-              "pinyin": "jiān"
+              "char": "知",
+              "pinyin": "zhī"
             },
             {
-              "char": "相",
-              "pinyin": "xiāng"
-            },
-            {
-              "char": "爱",
-              "pinyin": "ài"
-            },
-            {
-              "char": "、",
-              "pinyin": "、"
-            },
-            {
-              "char": "交",
-              "pinyin": "jiāo"
-            },
-            {
-              "char": "相",
-              "pinyin": "xiāng"
-            },
-            {
-              "char": "利",
-              "pinyin": "lì"
+              "char": "乱",
+              "pinyin": "luàn"
             },
             {
               "char": "之",
               "pinyin": "zhī"
             },
             {
-              "char": "法",
-              "pinyin": "fǎ"
+              "char": "所",
+              "pinyin": "suǒ"
             },
             {
-              "char": "易",
-              "pinyin": "yì"
+              "char": "自",
+              "pinyin": "zì"
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì"
             },
             {
               "char": "之",
               "pinyin": "zhī"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "乱",
+              "pinyin": "luàn"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "自",
+              "pinyin": "zì"
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "则",
+              "pinyin": "zé"
+            },
+            {
+              "char": "弗",
+              "pinyin": "fú"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì"
             },
             {
               "char": "。",
@@ -432,15 +484,9 @@
             }
           ],
           "translation": {
-            "translation": "所以墨子说：要用彼此相爱、互相得利的方法来改变社会。"
+            "translation": "治理混乱的人难道不是这样吗？必须知道混乱从何而起，才能治理它；不知道混乱从何而起，就不能治理。"
           },
-          "notes": [
-            {
-              "start": 11,
-              "end": 12,
-              "note": "互相。"
-            }
-          ]
+          "notes": []
         }
       ]
     }
