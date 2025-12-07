@@ -293,7 +293,7 @@ async function generate(poemdata){
 
 async function main(version){
     let arrayMode = (process.argv.length > 2 && process.argv[2] === '--array');
-    const files = (arrayMode ? array[version].map((item) => item + '.txt') : fs.readdirSync(`/home/kevin/kevin/git/gxwtf_poem/src/poem/${version}/`));
+    const files = (arrayMode ? array[version].map((item) => item + '.txt') : fs.readdirSync(path.join(__dirname, '../../src/data/poem', version)));
     for (let i = 0;i <= files.length - 1;i ++){
         const file = files[i];
         if (!file.endsWith('.txt'))continue;
@@ -302,7 +302,7 @@ async function main(version){
         // create directory dir
         fs.mkdirSync(dir, { recursive: true });
 
-        const fileContent = (arrayMode ? array[version][i] : fs.readFileSync(path.join(__dirname, '../../gxwtf_poem/src/poem', version, file), 'utf8'));
+        const fileContent = (arrayMode ? array[version][i] : fs.readFileSync(path.join(__dirname, '../../gxwtf_poem/src/data/poem', version, file), 'utf8'));
 
         let JSONfile = path.join(dir, 'full.json');
         // 如果已经存在JSON文件，则跳过

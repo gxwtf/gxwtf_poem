@@ -16,7 +16,6 @@ function removeThinkTags(input) {
     return input.replace(regex1, '').replace(regex2, '');
 }
 
-
 export default async function deepseekChat(prompt, unused) {
 	console.log('DeepSeek Chat: ' + prompt);
 
