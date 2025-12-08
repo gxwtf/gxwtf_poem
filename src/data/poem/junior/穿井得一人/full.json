@@ -1,0 +1,656 @@
+{
+  "name": "穿井得一人",
+  "author": "吕不韦",
+  "dynasty": "先秦",
+  "mode": "poem",
+  "annotation": "宋：周代诸侯国，在今河南商丘一带。而：于是，就。溉汲：打水浇田。溉：浇灌；灌溉。汲：从井里取水。居：停留。及：待，等到。国人：指居住在国都中的人。道：讲述。闻之于宋君：使宋国的国君知道这件事。闻，知道；听说，这里是“使知道”的意思。对：应答，回答。得一人之使：多得到一个人使唤，指多得到一个人的劳力。于：在。",
+  "comprehensive_appreciation": "",
+  "appreciation": "《穿井得一人》出自《吕氏春秋》。这则故事精简地揭示了信息传播中容易出现的误解和失真现象。丁氏原本只是说挖井后节省了人力，但传言却逐渐变形，最终变成了丁氏挖井挖出了一个人。这种误传不仅曲解了丁氏的原意，还可能引起不必要的恐慌和误解。全文阐明这样一个道理：在信息传播过程中要保持警惕，避免轻信谣言，同时也要注意自己的言辞，避免因表述不清而引起误解。",
+  "background": "",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "宋",
+              "pinyin": "",
+              "index": 0
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 1
+            },
+            {
+              "char": "丁",
+              "pinyin": "",
+              "index": 2
+            },
+            {
+              "char": "氏",
+              "pinyin": "",
+              "index": 3
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 4
+            },
+            {
+              "char": "家",
+              "pinyin": "",
+              "index": 5
+            },
+            {
+              "char": "无",
+              "pinyin": "",
+              "index": 6
+            },
+            {
+              "char": "井",
+              "pinyin": "",
+              "index": 7
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 8
+            },
+            {
+              "char": "而",
+              "pinyin": "",
+              "index": 9
+            },
+            {
+              "char": "出",
+              "pinyin": "",
+              "index": 10
+            },
+            {
+              "char": "溉",
+              "pinyin": "",
+              "index": 11
+            },
+            {
+              "char": "汲",
+              "pinyin": "",
+              "index": 12
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 13
+            },
+            {
+              "char": "常",
+              "pinyin": "",
+              "index": 14
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 15
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 16
+            },
+            {
+              "char": "居",
+              "pinyin": "",
+              "index": 17
+            },
+            {
+              "char": "外",
+              "pinyin": "",
+              "index": 18
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 19
+            }
+          ],
+          "translation": "宋国的一户姓丁的人家，家中没有井，需要到外面打水浇地，经常派一人停留在外面专管打水。"
+        },
+        {
+          "content": [
+            {
+              "char": "及",
+              "pinyin": "",
+              "index": 0
+            },
+            {
+              "char": "其",
+              "pinyin": "",
+              "index": 1
+            },
+            {
+              "char": "家",
+              "pinyin": "",
+              "index": 2
+            },
+            {
+              "char": "穿",
+              "pinyin": "",
+              "index": 3
+            },
+            {
+              "char": "井",
+              "pinyin": "",
+              "index": 4
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 5
+            },
+            {
+              "char": "告",
+              "pinyin": "",
+              "index": 6
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 7
+            },
+            {
+              "char": "曰",
+              "pinyin": "",
+              "index": 8
+            },
+            {
+              "char": "：",
+              "pinyin": "",
+              "index": 9
+            },
+            {
+              "char": "“",
+              "pinyin": "",
+              "index": 10
+            },
+            {
+              "char": "吾",
+              "pinyin": "",
+              "index": 11
+            },
+            {
+              "char": "穿",
+              "pinyin": "",
+              "index": 12
+            },
+            {
+              "char": "井",
+              "pinyin": "",
+              "index": 13
+            },
+            {
+              "char": "得",
+              "pinyin": "",
+              "index": 14
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 15
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 16
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 17
+            }
+          ],
+          "translation": "等到他家打了水井的时候，丁氏告诉别人说：“我家打水井得到了一个人。"
+        },
+        {
+          "content": [
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 0
+            },
+            {
+              "char": "有",
+              "pinyin": "",
+              "index": 1
+            },
+            {
+              "char": "闻",
+              "pinyin": "",
+              "index": 2
+            },
+            {
+              "char": "而",
+              "pinyin": "",
+              "index": 3
+            },
+            {
+              "char": "传",
+              "pinyin": "",
+              "index": 4
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 5
+            },
+            {
+              "char": "者",
+              "pinyin": "",
+              "index": 6
+            },
+            {
+              "char": "曰",
+              "pinyin": "",
+              "index": 7
+            },
+            {
+              "char": "：",
+              "pinyin": "",
+              "index": 8
+            },
+            {
+              "char": "“",
+              "pinyin": "",
+              "index": 9
+            },
+            {
+              "char": "丁",
+              "pinyin": "",
+              "index": 10
+            },
+            {
+              "char": "氏",
+              "pinyin": "",
+              "index": 11
+            },
+            {
+              "char": "穿",
+              "pinyin": "",
+              "index": 12
+            },
+            {
+              "char": "井",
+              "pinyin": "",
+              "index": 13
+            },
+            {
+              "char": "得",
+              "pinyin": "",
+              "index": 14
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 15
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 16
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 17
+            }
+          ],
+          "translation": "”有人听了就去传播：“丁家挖井挖到了一个人。"
+        },
+        {
+          "content": [
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 0
+            },
+            {
+              "char": "国",
+              "pinyin": "",
+              "index": 1
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 2
+            },
+            {
+              "char": "道",
+              "pinyin": "",
+              "index": 3
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 4
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 5
+            },
+            {
+              "char": "闻",
+              "pinyin": "",
+              "index": 6
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 7
+            },
+            {
+              "char": "于",
+              "pinyin": "",
+              "index": 8
+            },
+            {
+              "char": "宋",
+              "pinyin": "",
+              "index": 9
+            },
+            {
+              "char": "君",
+              "pinyin": "",
+              "index": 10
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 11
+            }
+          ],
+          "translation": "”居住在国都中的人都在谈论这件事，使宋国的国君知道了这件事。"
+        },
+        {
+          "content": [
+            {
+              "char": "宋",
+              "pinyin": "",
+              "index": 0
+            },
+            {
+              "char": "君",
+              "pinyin": "",
+              "index": 1
+            },
+            {
+              "char": "令",
+              "pinyin": "",
+              "index": 2
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 3
+            },
+            {
+              "char": "问",
+              "pinyin": "",
+              "index": 4
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 5
+            },
+            {
+              "char": "于",
+              "pinyin": "",
+              "index": 6
+            },
+            {
+              "char": "丁",
+              "pinyin": "",
+              "index": 7
+            },
+            {
+              "char": "氏",
+              "pinyin": "",
+              "index": 8
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 9
+            },
+            {
+              "char": "丁",
+              "pinyin": "",
+              "index": 10
+            },
+            {
+              "char": "氏",
+              "pinyin": "",
+              "index": 11
+            },
+            {
+              "char": "对",
+              "pinyin": "",
+              "index": 12
+            },
+            {
+              "char": "曰",
+              "pinyin": "",
+              "index": 13
+            },
+            {
+              "char": "：",
+              "pinyin": "",
+              "index": 14
+            },
+            {
+              "char": "“",
+              "pinyin": "",
+              "index": 15
+            },
+            {
+              "char": "得",
+              "pinyin": "",
+              "index": 16
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 17
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 18
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 19
+            },
+            {
+              "char": "使",
+              "pinyin": "",
+              "index": 20
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 21
+            },
+            {
+              "char": "非",
+              "pinyin": "",
+              "index": 22
+            },
+            {
+              "char": "得",
+              "pinyin": "",
+              "index": 23
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 24
+            },
+            {
+              "char": "人",
+              "pinyin": "",
+              "index": 25
+            },
+            {
+              "char": "于",
+              "pinyin": "",
+              "index": 26
+            },
+            {
+              "char": "井",
+              "pinyin": "",
+              "index": 27
+            },
+            {
+              "char": "中",
+              "pinyin": "",
+              "index": 28
+            },
+            {
+              "char": "也",
+              "pinyin": "",
+              "index": 29
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 30
+            }
+          ],
+          "translation": "宋国国君派人向丁氏询问情况，丁氏回答说：“多得到一个人的劳力，不是在井内挖到了一个人。"
+        },
+        {
+          "content": [
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 0
+            },
+            {
+              "char": "求",
+              "pinyin": "",
+              "index": 1
+            },
+            {
+              "char": "闻",
+              "pinyin": "",
+              "index": 2
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 3
+            },
+            {
+              "char": "若",
+              "pinyin": "",
+              "index": 4
+            },
+            {
+              "char": "此",
+              "pinyin": "",
+              "index": 5
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 6
+            },
+            {
+              "char": "不",
+              "pinyin": "",
+              "index": 7
+            },
+            {
+              "char": "若",
+              "pinyin": "",
+              "index": 8
+            },
+            {
+              "char": "无",
+              "pinyin": "",
+              "index": 9
+            },
+            {
+              "char": "闻",
+              "pinyin": "",
+              "index": 10
+            },
+            {
+              "char": "也",
+              "pinyin": "",
+              "index": 11
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 12
+            }
+          ],
+          "translation": "”像这样得到的消息，还不如不知道。"
+        },
+        {
+          "content": [
+            {
+              "char": "(",
+              "pinyin": "",
+              "index": 0
+            },
+            {
+              "char": "之",
+              "pinyin": "",
+              "index": 1
+            },
+            {
+              "char": "于",
+              "pinyin": "",
+              "index": 2
+            },
+            {
+              "char": " ",
+              "pinyin": "",
+              "index": 3
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 4
+            },
+            {
+              "char": "作",
+              "pinyin": "",
+              "index": 5
+            },
+            {
+              "char": "：",
+              "pinyin": "",
+              "index": 6
+            },
+            {
+              "char": "诸",
+              "pinyin": "",
+              "index": 7
+            },
+            {
+              "char": ")",
+              "pinyin": "",
+              "index": 8
+            }
+          ],
+          "translation": ""
+        }
+      ]
+    }
+  ]
+}
