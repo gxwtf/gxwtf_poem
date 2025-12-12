@@ -94,7 +94,13 @@
             },
             {
               "char": "履",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "踩。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -114,7 +120,13 @@
             },
             {
               "char": "踦",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "抵住，指宰牛之时用膝盖抵住牛。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -184,7 +196,33 @@
           "translation": {
             "translation": "庖丁给梁惠王宰牛。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 5,
+              "note": "即梁惠王，战国时魏国国君。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "note": "接触的地方。"
+            },
+            {
+              "start": 29,
+              "end": 32,
+              "note": "砉砉作响。砉，拟声词，皮肉筋骨分离的声音。向，同“响”。"
+            },
+            {
+              "start": 34,
+              "end": 37,
+              "note": "进刀时发出“騞騞”的声音。奏，进。騞，拟声词，插刀裂物的声音。"
+            },
+            {
+              "start": 41,
+              "end": 42,
+              "note": "合乎音律。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -264,7 +302,18 @@
           "translation": {
             "translation": "手接踩刀地方，肩膀倚靠刀地方，脚踩刀地方，膝盖顶刀地方，哗哗没响，进刀时发出霍霍刀声音，没有哪一种声音不合高音律。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "note": "合乎《桑林》舞乐的节拍。《桑林》，传说中商汤时的乐曲名。"
+            },
+            {
+              "start": 9,
+              "end": 16,
+              "note": "又合乎《经首》乐曲的节奏。《经首》，传说中尧时的乐曲名。乃，又。会，节奏。"
+            }
+          ]
         }
       ]
     },
@@ -330,7 +379,13 @@
             },
             {
               "char": "盖",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "同“盍”，何、怎么。"
+                }
+              ]
             },
             {
               "char": "至",
@@ -426,7 +481,13 @@
             },
             {
               "char": "道",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "天道，自然的规律。"
+                }
+              ]
             },
             {
               "char": "也",
@@ -460,7 +521,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 16,
+              "end": 19,
+              "note": "超过技术了。进，超过。技，具体的操作技术。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -528,7 +595,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 10,
+              "end": 13,
+              "note": "没有不是（完整的）牛的。意思是跟一般人所见的一样。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -584,7 +657,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 10,
+              "note": "未曾看到完整的牛了。这是说对牛的全身结构完全摸清了，不再把一头牛看成全牛，而是把它看成可以拆解的东西。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -684,7 +763,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 13,
+              "note": "我只用精神去和牛接触，而不用眼睛去看。遇，接触。"
+            },
+            {
+              "start": 15,
+              "end": 21,
+              "note": "感觉器官的作用停止了，而精神在活动。意思是，解牛时可以不用感觉器官，而只靠精神活动来行事。神欲，精神活动。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -806,7 +896,13 @@
             },
             {
               "char": "軱",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "大骨。"
+                }
+              ]
             },
             {
               "char": "乎",
@@ -820,7 +916,33 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "这里指牛体的自然结构。"
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "note": "击入大的（筋骨连接处的）缝隙。批，击。郤，同“隙”，空隙。"
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "note": "引刀进入（骨节之间的）空处。导，引导，这里指引刀进入。窾，空隙。"
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "note": "顺着牛体本来的结构。"
+            },
+            {
+              "start": 18,
+              "end": 24,
+              "note": "脉络相连和筋骨相结合的地方，不曾拿刀去尝试。意思是，用刀的技术高超，从不经过容易使刀口钝折的地方。技，应是“枝”字，指支脉。经，指经脉。肯，附在骨上的肉。綮，筋骨结合处。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -838,7 +960,13 @@
             },
             {
               "char": "更",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "更换。"
+                }
+              ]
             },
             {
               "char": "刀",
@@ -850,7 +978,13 @@
             },
             {
               "char": "割",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "割肉。"
+                }
+              ]
             },
             {
               "char": "也",
@@ -894,7 +1028,13 @@
             },
             {
               "char": "折",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "断，指用刀砍断骨头。"
+                }
+              ]
             },
             {
               "char": "也",
@@ -908,7 +1048,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "一般的厨师。族，众。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1016,7 +1162,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 20,
+              "end": 23,
+              "note": "刚从磨刀石上磨出来。硎，磨刀石。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1076,7 +1228,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "那牛骨节间有空隙。间，空隙。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "note": "没有厚度。这里形容刀口薄。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1220,7 +1383,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 9,
+              "note": "宽绰的样子。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1250,7 +1419,13 @@
             },
             {
               "char": "族",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "（筋骨）交错聚结的地方。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -1336,7 +1511,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 14,
+              "end": 15,
+              "note": "戒惧的样子。"
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "note": "眼睛因为（筋骨交错聚结的地方）而凝视不动，动作也因此慢下来。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1354,7 +1540,13 @@
             },
             {
               "char": "微",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "轻。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -1390,7 +1582,13 @@
             },
             {
               "char": "委",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "散落，卸落。"
+                }
+              ]
             },
             {
               "char": "地",
@@ -1404,7 +1602,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 6,
+              "note": "拟声词，迅速裂开的声音。这里形容骨与肉分开的声音。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1478,7 +1682,13 @@
             },
             {
               "char": "善",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "这里指揩拭。"
+                }
+              ]
             },
             {
               "char": "刀",
@@ -1504,7 +1714,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 12,
+              "end": 15,
+              "note": "悠然自得，心满意足。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1620,7 +1836,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 8,
+              "end": 9,
+              "note": "指养生之道。"
+            }
+          ]
         },
         {
           "sentence": [

@@ -272,7 +272,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "如果一定要说一说，那么还是说说行王道的事吧。无以，不得已。王，行王道以统一天下。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -424,7 +430,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "安民，养民。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -784,7 +796,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "齐宣王的近臣。"
+            },
+            {
+              "start": 33,
+              "end": 34,
+              "note": "到哪里去？之，往。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -832,7 +855,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "note": "古代新钟铸成，宰杀牲口，取血涂钟行祭，叫作“衅钟”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -858,7 +887,13 @@
             },
             {
               "char": "舍",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "释放。"
+                }
+              ]
             },
             {
               "char": "之",
@@ -922,7 +957,13 @@
             },
             {
               "char": "就",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "走向。"
+                }
+              ]
             },
             {
               "char": "死",
@@ -940,7 +981,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "形容恐惧战栗的样子。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1060,7 +1107,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 12,
+              "note": "用羊来替换它（指牛）。古人以牛为牲之最大者，羊的地位低于牛。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1082,7 +1135,13 @@
             },
             {
               "char": "诸",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "“之乎”的合音。"
+                }
+              ]
             },
             {
               "char": "？",
@@ -1234,7 +1293,13 @@
             },
             {
               "char": "爱",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "吝惜，舍不得。"
+                }
+              ]
             },
             {
               "char": "也",
@@ -1356,7 +1421,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "的确有（对我有这种误解的）百姓。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1412,7 +1483,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "狭小。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1550,7 +1627,13 @@
             },
             {
               "char": "异",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "对······感到奇怪。"
+                }
+              ]
             },
             {
               "char": "于",
@@ -1644,7 +1727,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "note": "他们怎么知道呢？恶，疑问代词，怎么、哪里。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1658,7 +1747,13 @@
             },
             {
               "char": "隐",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "痛惜，哀怜。"
+                }
+              ]
             },
             {
               "char": "其",
@@ -1724,7 +1819,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 12,
+              "end": 16,
+              "note": "牛和羊有什么区别呢？择，区别。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1888,7 +1989,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 12,
+              "end": 20,
+              "note": "百姓认为我吝啬是理所当然的啊。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1938,7 +2045,13 @@
             },
             {
               "char": "是",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "这，指以羊易牛。"
+                }
+              ]
             },
             {
               "char": "乃",
@@ -1992,7 +2105,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "仁道，行仁政的方式。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2164,7 +2283,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 6,
+              "note": "远离厨房。庖厨，厨房。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2190,7 +2315,13 @@
             },
             {
               "char": "说",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "同“悦”，高兴。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -2276,7 +2407,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 12,
+              "end": 20,
+              "note": "语出《诗经·小雅·巧言》。意思是别人有什么心思，我能够揣测到。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2312,7 +2449,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 1,
+              "end": 5,
+              "note": "（这话）说的就是您（这样的人）啊。夫子，古代对男子的尊称，这里指孟子。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2384,7 +2527,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 14,
+              "note": "意思是我这样做了，回头再去想它，想不出是为什么。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2444,7 +2593,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "内心有所触动的样子。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2542,7 +2697,13 @@
             },
             {
               "char": "复",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "禀报。"
+                }
+              ]
             },
             {
               "char": "于",
@@ -2594,7 +2755,13 @@
             },
             {
               "char": "钧",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "古代重量单位，三十斤为一钧。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -2642,7 +2809,13 @@
           "sentence": [
             {
               "char": "明",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "视力。"
+                }
+              ]
             },
             {
               "char": "足",
@@ -2704,7 +2877,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 7,
+              "note": "鸟兽秋天所生的细毛的尖端。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "note": "整车的柴火。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2722,7 +2906,13 @@
             },
             {
               "char": "许",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "相信。"
+                }
+              ]
             },
             {
               "char": "之",
@@ -2896,7 +3086,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 18,
+              "end": 20,
+              "note": "却是为什么呢？独，偏偏、却。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3076,7 +3272,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 5,
+              "note": "没有受到爱护。见，表示被动。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3210,7 +3412,13 @@
             },
             {
               "char": "形",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "表现。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -3236,7 +3444,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 13,
+              "end": 15,
+              "note": "怎么区分？何以，怎么、用什么。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3302,7 +3516,13 @@
             },
             {
               "char": "语",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "告诉。"
+                }
+              ]
             },
             {
               "char": "人",
@@ -3340,7 +3560,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 9,
+              "note": "挟着泰山跃过北海。太山，即泰山。北海，指齐国北边的渤海。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3444,7 +3670,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "为长者按摩肢体。枝，同“肢”，肢体。一说“折枝”指弯腰行礼。另一说“折枝”即折取树枝。均喻指常人较易办到的事情。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3756,7 +3988,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 10,
+              "end": 15,
+              "note": "天下可以在手掌上转动。比喻天下很容易治理。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3852,7 +4090,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 20,
+              "note": "语出《诗经·大雅·思齐》。意思是给自己的妻子做榜样，推广到兄弟，进而治理好家和国。刑，同“型”，典范、榜样，这里用作动词，做榜样。寡妻，正妻，一说为贤妻。御，治理。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3904,7 +4148,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 1,
+              "end": 9,
+              "note": "这是说拿这样的心思施加到别人身上罢了。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4182,7 +4432,13 @@
           "sentence": [
             {
               "char": "权",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "称量。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -4222,7 +4478,13 @@
           "sentence": [
             {
               "char": "度",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "丈量。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -4350,7 +4612,13 @@
             },
             {
               "char": "抑",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "表示反问，相当于“难道”。"
+                }
+              ]
             },
             {
               "char": "王",
@@ -4444,7 +4712,23 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 9,
+              "note": "危害将士。意思是使将士处于险境。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "note": "结怨。"
+            },
+            {
+              "start": 19,
+              "end": 21,
+              "note": "心里痛快。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4560,7 +4844,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 6,
+              "note": "求得我最想要的东西。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4748,7 +5038,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "指美味的食物。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4788,7 +5084,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "指轻软暖和的衣服。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4840,7 +5142,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "指绚丽的颜色。采，同“彩”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4884,7 +5192,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "指音乐。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4932,7 +5246,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "君主左右受宠爱的人。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5158,7 +5478,13 @@
             },
             {
               "char": "辟",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "开辟。"
+                }
+              ]
             },
             {
               "char": "土",
@@ -5228,7 +5554,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 19,
+              "end": 21,
+              "note": "使秦楚来朝见。"
+            },
+            {
+              "start": 23,
+              "end": 25,
+              "note": "统治中原地区。莅，统治。中国，古代指中原地区。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5238,7 +5575,13 @@
             },
             {
               "char": "若",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "如此。"
+                }
+              ]
             },
             {
               "char": "所",
@@ -5308,7 +5651,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 11,
+              "end": 15,
+              "note": "爬上树去找鱼。比喻方向、方法不对，一定达不到目的。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5406,7 +5755,13 @@
             },
             {
               "char": "殆",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "恐怕，可能。"
+                }
+              ]
             },
             {
               "char": "有",
@@ -5678,7 +6033,13 @@
             },
             {
               "char": "邹",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "当时的一个小国，在今山东邹城、滕州一带。"
+                }
+              ]
             },
             {
               "char": "人",
@@ -6004,7 +6365,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 9,
+              "note": "纵横各一千里的地方有九块。这是当时流行的说法。《礼记·王制》：“凡四海之内九州，州方千里。”"
+            },
+            {
+              "start": 11,
+              "end": 15,
+              "note": "齐国的土地总算起来，也只有九分之一。集，集聚，这里指总计面积。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6104,7 +6476,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "为什么不回到根本上来呢？盖，同“盍”，何不。本，指仁政王道。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6302,7 +6680,13 @@
             },
             {
               "char": "涂",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "同“途”，道路。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -6326,7 +6710,13 @@
             },
             {
               "char": "疾",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "憎恨。"
+                }
+              ]
             },
             {
               "char": "其",
@@ -6372,7 +6762,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 5,
+              "note": "发布政令，施行仁政。"
+            },
+            {
+              "start": 30,
+              "end": 38,
+              "note": "做生意的人都想（把货物）储存在大王的市场上。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6458,7 +6859,13 @@
             },
             {
               "char": "惛",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "不明事理，糊涂。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -6496,7 +6903,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 11,
+              "note": "达到这一步。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6552,7 +6965,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 5,
+              "note": "帮助（实现）我的志愿。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6600,7 +7019,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "愚钝。谦辞。敏，聪慧。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "note": "试行。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6674,7 +7104,13 @@
             },
             {
               "char": "士",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "这里指有道德操守的读书人。下文的“民”指普通百姓。"
+                }
+              ]
             },
             {
               "char": "为",
@@ -6692,7 +7128,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "可以长久维持生活的固定财产。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6820,7 +7262,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 13,
+              "note": "不遵守礼义法度，无所不为。放，放纵。辟，不正。侈，过度。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6896,7 +7344,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 10,
+              "note": "接着就处罚他们。刑，处罚。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "note": "陷害百姓。罔，同“网”，张网捕捉，比喻陷害。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6982,7 +7441,13 @@
             },
             {
               "char": "制",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "规定。"
+                }
+              ]
             },
             {
               "char": "民",
@@ -7050,7 +7515,13 @@
             },
             {
               "char": "畜",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "养活。"
+                }
+              ]
             },
             {
               "char": "妻",
@@ -7120,7 +7591,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 25,
+              "end": 26,
+              "note": "丰年。"
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "note": "荒年。与“乐岁”相对。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7188,7 +7670,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 5,
+              "note": "驱使他们向善。"
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "note": "很容易地跟着国君走。轻，容易。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7416,7 +7909,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "note": "这样，只是使自己摆脱死亡还怕不足。惟，只是。赡，足。"
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "note": "哪里还顾得上讲求礼义呢？奚，何。治，讲求。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7556,7 +8060,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 15,
+              "end": 16,
+              "note": "穿丝织的衣服。衣，穿。《孟子·尽心上》：“五十非帛不暖，七十非肉不饱。不暖不饱，谓之冻馁。”据说西伯（周文王）“善养老者”，教民“树畜”，使老人可衣帛食肉，不致冻馁。这里所说的冻馁，与无衣无食不同。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7586,7 +8096,13 @@
             },
             {
               "char": "彘",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "猪。"
+                }
+              ]
             },
             {
               "char": "之",
@@ -7614,7 +8130,13 @@
             },
             {
               "char": "时",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "季节。这里指家禽家畜生长繁殖的时节。下文“勿夺其时”的“时”，指适宜种植、收获庄稼的时节。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -7748,7 +8270,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "相传周代实行井田制，一家可分得耕田一百亩。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7778,7 +8306,13 @@
             },
             {
               "char": "申",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "申诫，告诫。"
+                }
+              ]
             },
             {
               "char": "之",
@@ -7856,7 +8390,23 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "慎重办理学校教育。谨，用作动词。庠序，古代的地方学校，后泛指学校。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "善事父母为“孝”，敬爱兄长为“悌”。"
+            },
+            {
+              "start": 14,
+              "end": 22,
+              "note": "头发花白的老人不会在路上背着或顶着东西。意思是，年轻人懂得敬老，都来代劳。颁，同“斑”。戴，用头顶着物件。"
+            }
+          ]
         },
         {
           "sentence": [
