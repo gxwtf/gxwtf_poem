@@ -60,120 +60,20 @@
             {
               "char": "鸟",
               "pinyin": "",
-              "index": 0
+              "index": 8
             },
             {
               "char": "雀",
               "pinyin": "",
-              "index": 1
+              "index": 9
             },
             {
               "char": "呼",
               "pinyin": "",
-              "index": 2
+              "index": 10
             },
             {
               "char": "晴",
-              "pinyin": "",
-              "index": 3
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 4
-            },
-            {
-              "char": "侵",
-              "pinyin": "",
-              "index": 5
-            },
-            {
-              "char": "晓",
-              "pinyin": "",
-              "index": 6
-            },
-            {
-              "char": "窥",
-              "pinyin": "",
-              "index": 7
-            },
-            {
-              "char": "檐",
-              "pinyin": "",
-              "index": 8
-            },
-            {
-              "char": "语",
-              "pinyin": "",
-              "index": 9
-            },
-            {
-              "char": "。",
-              "pinyin": "",
-              "index": 10
-            }
-          ],
-          "translation": "快天亮的时候，鸟雀都在屋檐下叫个不停，欢呼天已放晴。"
-        },
-        {
-          "content": [
-            {
-              "char": "叶",
-              "pinyin": "",
-              "index": 0
-            },
-            {
-              "char": "上",
-              "pinyin": "",
-              "index": 1
-            },
-            {
-              "char": "初",
-              "pinyin": "",
-              "index": 2
-            },
-            {
-              "char": "阳",
-              "pinyin": "",
-              "index": 3
-            },
-            {
-              "char": "干",
-              "pinyin": "",
-              "index": 4
-            },
-            {
-              "char": "宿",
-              "pinyin": "",
-              "index": 5
-            },
-            {
-              "char": "雨",
-              "pinyin": "",
-              "index": 6
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 7
-            },
-            {
-              "char": "水",
-              "pinyin": "",
-              "index": 8
-            },
-            {
-              "char": "面",
-              "pinyin": "",
-              "index": 9
-            },
-            {
-              "char": "清",
-              "pinyin": "",
-              "index": 10
-            },
-            {
-              "char": "圆",
               "pinyin": "",
               "index": 11
             },
@@ -183,27 +83,27 @@
               "index": 12
             },
             {
-              "char": "一",
+              "char": "侵",
               "pinyin": "",
               "index": 13
             },
             {
-              "char": "一",
+              "char": "晓",
               "pinyin": "",
               "index": 14
             },
             {
-              "char": "风",
+              "char": "窥",
               "pinyin": "",
               "index": 15
             },
             {
-              "char": "荷",
+              "char": "檐",
               "pinyin": "",
               "index": 16
             },
             {
-              "char": "举",
+              "char": "语",
               "pinyin": "",
               "index": 17
             },
@@ -211,6 +111,106 @@
               "char": "。",
               "pinyin": "",
               "index": 18
+            }
+          ],
+          "translation": "快天亮的时候，鸟雀都在屋檐下叫个不停，欢呼天已放晴。"
+        },
+        {
+          "content": [
+            {
+              "char": "叶",
+              "pinyin": "",
+              "index": 19
+            },
+            {
+              "char": "上",
+              "pinyin": "",
+              "index": 20
+            },
+            {
+              "char": "初",
+              "pinyin": "",
+              "index": 21
+            },
+            {
+              "char": "阳",
+              "pinyin": "",
+              "index": 22
+            },
+            {
+              "char": "干",
+              "pinyin": "",
+              "index": 23
+            },
+            {
+              "char": "宿",
+              "pinyin": "",
+              "index": 24
+            },
+            {
+              "char": "雨",
+              "pinyin": "",
+              "index": 25
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 26
+            },
+            {
+              "char": "水",
+              "pinyin": "",
+              "index": 27
+            },
+            {
+              "char": "面",
+              "pinyin": "",
+              "index": 28
+            },
+            {
+              "char": "清",
+              "pinyin": "",
+              "index": 29
+            },
+            {
+              "char": "圆",
+              "pinyin": "",
+              "index": 30
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 31
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 32
+            },
+            {
+              "char": "一",
+              "pinyin": "",
+              "index": 33
+            },
+            {
+              "char": "风",
+              "pinyin": "",
+              "index": 34
+            },
+            {
+              "char": "荷",
+              "pinyin": "",
+              "index": 35
+            },
+            {
+              "char": "举",
+              "pinyin": "",
+              "index": 36
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 37
             }
           ],
           "translation": "初出的阳光晒干了荷叶上昨夜的雨滴，水面上的荷叶清润圆正，迎着晨风，每一片都挺出水面。"
@@ -224,42 +224,42 @@
             {
               "char": "故",
               "pinyin": "",
-              "index": 0
+              "index": 38
             },
             {
               "char": "乡",
               "pinyin": "",
-              "index": 1
+              "index": 39
             },
             {
               "char": "遥",
               "pinyin": "",
-              "index": 2
+              "index": 40
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 3
+              "index": 41
             },
             {
               "char": "何",
               "pinyin": "",
-              "index": 4
+              "index": 42
             },
             {
               "char": "日",
               "pinyin": "",
-              "index": 5
+              "index": 43
             },
             {
               "char": "去",
               "pinyin": "",
-              "index": 6
+              "index": 44
             },
             {
               "char": "？",
               "pinyin": "",
-              "index": 7
+              "index": 45
             }
           ],
           "translation": ""
@@ -269,57 +269,57 @@
             {
               "char": "家",
               "pinyin": "",
-              "index": 0
+              "index": 46
             },
             {
               "char": "住",
               "pinyin": "",
-              "index": 1
+              "index": 47
             },
             {
               "char": "吴",
               "pinyin": "",
-              "index": 2
+              "index": 48
             },
             {
               "char": "门",
               "pinyin": "",
-              "index": 3
+              "index": 49
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 4
+              "index": 50
             },
             {
               "char": "久",
               "pinyin": "",
-              "index": 5
+              "index": 51
             },
             {
               "char": "作",
               "pinyin": "",
-              "index": 6
+              "index": 52
             },
             {
               "char": "长",
               "pinyin": "",
-              "index": 7
+              "index": 53
             },
             {
               "char": "安",
               "pinyin": "",
-              "index": 8
+              "index": 54
             },
             {
               "char": "旅",
               "pinyin": "",
-              "index": 9
+              "index": 55
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 10
+              "index": 56
             }
           ],
           "translation": ""
@@ -329,42 +329,42 @@
             {
               "char": "五",
               "pinyin": "",
-              "index": 0
+              "index": 57
             },
             {
               "char": "月",
               "pinyin": "",
-              "index": 1
+              "index": 58
             },
             {
               "char": "渔",
               "pinyin": "",
-              "index": 2
+              "index": 59
             },
             {
               "char": "郎",
               "pinyin": "",
-              "index": 3
+              "index": 60
             },
             {
               "char": "相",
               "pinyin": "",
-              "index": 4
+              "index": 61
             },
             {
               "char": "忆",
               "pinyin": "",
-              "index": 5
+              "index": 62
             },
             {
               "char": "否",
               "pinyin": "",
-              "index": 6
+              "index": 63
             },
             {
               "char": "？",
               "pinyin": "",
-              "index": 7
+              "index": 64
             }
           ],
           "translation": ""
@@ -374,57 +374,57 @@
             {
               "char": "小",
               "pinyin": "",
-              "index": 0
+              "index": 65
             },
             {
               "char": "楫",
               "pinyin": "",
-              "index": 1
+              "index": 66
             },
             {
               "char": "轻",
               "pinyin": "",
-              "index": 2
+              "index": 67
             },
             {
               "char": "舟",
               "pinyin": "",
-              "index": 3
+              "index": 68
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 4
+              "index": 69
             },
             {
               "char": "梦",
               "pinyin": "",
-              "index": 5
+              "index": 70
             },
             {
               "char": "入",
               "pinyin": "",
-              "index": 6
+              "index": 71
             },
             {
               "char": "芙",
               "pinyin": "",
-              "index": 7
+              "index": 72
             },
             {
               "char": "蓉",
               "pinyin": "",
-              "index": 8
+              "index": 73
             },
             {
               "char": "浦",
               "pinyin": "",
-              "index": 9
+              "index": 74
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 10
+              "index": 75
             }
           ],
           "translation": ""

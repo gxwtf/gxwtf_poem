@@ -25,8 +25,108 @@ const __dirname = path.dirname(__filename);
 // -------- CONFIG --------
 /** 强制更新列表，用于 --force 模式下指定必须覆盖的诗文名称 */
 const forceList = {
-    junior: [],
-    senior: []
+    junior: [
+        "梅岭三章",
+        "狼",
+        "小圣施威降大圣",
+        "穿井得一人",
+        "杞人忧天",
+        "峨眉山月歌",
+        "江南逢李龟年",
+        "行军九日思长安故园",
+        "夜上受降城闻笛",
+        "秋词二首·其一",
+        "夜雨寄北",
+        "十一月四日风雨大作·其二",
+        "己亥杂诗·其五",
+        "竹里馆",
+        "春夜洛城闻笛",
+        "逢入京使",
+        "晚春",
+        "泊秦淮",
+        "贾生",
+        "过松源晨炊漆公店",
+        "约客",
+        "庭中有奇树",
+        "龟虽寿",
+        "赠从弟·其二",
+        "梁甫行",
+        "浣溪沙·一曲新词酒一杯",
+        "采桑子·轻舟短棹西湖好",
+        "相见欢·金陵城上西楼",
+        "如梦令·常记溪亭日暮",
+        "式微",
+        "子衿",
+        "送杜少府之任蜀州",
+        "望洞庭湖赠张丞相",
+        "题破山寺后禅院",
+        "送友人",
+        "卜算子·黄州定慧院寓居作",
+        "卜算子·咏梅",
+        "智取生辰纲",
+        "范进中举",
+        "三顾茅庐",
+        "刘姥姥进大观园",
+        "月夜忆舍弟",
+        "长沙过贾谊宅",
+        "左迁至蓝关示侄孙湘",
+        "商山早行",
+        "咸阳城东楼",
+        "行香子·树绕村庄",
+        "丑奴儿·书博山道中壁",
+        "定风波·莫听穿林打叶声",
+        "临江仙·夜登小阁忆洛中旧游",
+        "太常引·建康中秋夜为吕叔潜赋",
+        "浣溪沙·身向云山那畔行",
+        "南安军",
+        "别云间",
+        "山坡羊·骊山怀古",
+        "朝天子·咏喇叭"
+    ],
+    senior: [
+        "芣苢",
+        "插秧歌",
+        "齐桓晋文之事",
+        "庖丁解牛",
+        "烛之武退秦师",
+        "鸿门宴",
+        "窦娥冤",
+        "与妻书",
+        "促织",
+        "兼爱",
+        "苏武传",
+        "氓",
+        "孔雀东南飞",
+        "石钟山记",
+        "长恨歌",
+        "九歌·湘夫人",
+        "咏怀八十二首·其一",
+        "杂诗十二首·其二",
+        "越中览古",
+        "一剪梅·红藕香残玉簟秋",
+        "今别离·其一",
+        "夜归鹿门山歌",
+        "菩萨蛮·人人尽说江南好",
+        "积雨辋川庄作",
+        "旅夜书怀",
+        "新城道中·其一",
+        "阁夜",
+        "苏幕遮·燎沉香",
+        "九歌·国殇",
+        "登柳州城楼寄漳汀封连四州",
+        "菩萨蛮·小山重叠金明灭",
+        "般涉调·哨遍·高祖还乡",
+        "过小孤山大孤山",
+        "项羽之死",
+        "方山子传",
+        "大铁椎传",
+        "祭十二郎文",
+        "狱中杂记",
+        "陶庵梦忆序",
+        "春夜宴从弟桃花园序",
+        "游沙湖",
+        "苦斋记"
+    ]
 };
 
 // -------- UTIL --------
@@ -59,6 +159,7 @@ function buildParagraphs(content, translation, pinyin) {
     const rawParagraphs = (content || "").split("/").map(p => p.trim()).filter(Boolean);
     const pinyinList = splitPinyin(pinyin || "");
     let pinyinIndex = 0;
+    let globalIndex = 0;
 
     const paragraphs = rawParagraphs.map((paraStr) => {
         // match sentences including trailing punctuation
@@ -78,8 +179,9 @@ function buildParagraphs(content, translation, pinyin) {
                 contentArr.push({
                     char: ch,
                     pinyin: py,
-                    index: i
+                    index: globalIndex
                 });
+                globalIndex++;
             }
             return { content: contentArr, translation: "" };
         });
@@ -114,7 +216,7 @@ function loadOrder(version) {
         console.error(`❌ 找不到 ${version} 的 order.tsx 文件`);
         return [];
     }
-    
+
     try {
         const content = fs.readFileSync(orderPath, "utf-8");
         // 提取数组内容
@@ -123,7 +225,7 @@ function loadOrder(version) {
             console.error(`❌ 无法解析 ${version} 的 order.tsx 文件`);
             return [];
         }
-        
+
         const arrayContent = match[1];
         // 提取引号内的内容
         const poemNames = arrayContent.match(/["']([^"']+)["']/g) || [];
@@ -146,56 +248,56 @@ function loadOrder(version) {
 function createFullJson(version, poemName, force = false) {
     const poemDir = path.join(__dirname, "../../src/data/poem", version, poemName);
     const fullPath = path.join(poemDir, "full.json");
-    
+
     // 检查文件夹是否存在
     const folderExists = fs.existsSync(poemDir);
     const fullExists = fs.existsSync(fullPath);
-    
+
     if (!force && fullExists) {
         return { success: false, reason: "文件已存在" };
     }
-    
+
     // 从 version 对应的 JSON 文件中加载元数据，并进行模糊查询
     const meta = findMeta(version, normalizeName(poemName), { name: poemName });
 
     if (!meta) {
         return { success: false, reason: "未在 JSON 中找到匹配的元数据" };
     }
-    
+
     try {
         // 创建文件夹（如果不存在）
         if (!folderExists) {
             fs.mkdirSync(poemDir, { recursive: true, mode: 0o755 });
         }
-        
+
         // 构建 full.json 内容
         const full = {};
-        
+
         // 复制所有字段，除了 content/translation/pinyin
         for (const key in meta) {
             if (!["content", "translation", "pinyin"].includes(key)) {
                 full[key] = meta[key];
             }
         }
-        
+
         // 确保 name 字段使用 order.tsx 中的名称
         full.name = poemName;
-        
+
         // 构建 paragraphs
         full.paragraphs = buildParagraphs(
             meta.content || "",
             meta.translation || "",
             meta.pinyin || ""
         );
-        
+
         // 写入文件，设置权限为所有人可读写
         fs.writeFileSync(fullPath, JSON.stringify(full, null, 2), { mode: 0o666 });
-        
+
         // 设置文件夹权限
         if (!folderExists) {
             fs.chmodSync(poemDir, 0o755);
         }
-        
+
         return { success: true };
     } catch (e) {
         return { success: false, reason: `创建文件失败: ${e.message}` };
@@ -210,26 +312,26 @@ function main() {
     const args = process.argv.slice(2);
     const isAddMode = args.includes("--add");
     const isForceMode = args.includes("--force");
-    
+
     if (!isAddMode && !isForceMode) {
         console.error("❌ 请使用 --add 或 --force 运行此脚本");
         process.exit(1);
     }
-    
+
     // --add 模式
     if (isAddMode) {
         console.log("🔍 开始添加模式...");
         const versions = ["junior", "senior"];
         const successList = [];
         const failList = [];
-        
+
         for (const version of versions) {
             console.log(`\n📚 处理 ${version} 版本...`);
             const poemNames = loadOrder(version);
-            
+
             for (const poemName of poemNames) {
                 const result = createFullJson(version, poemName, false);
-                
+
                 if (result.success) {
                     successList.push(`${version}/${poemName}`);
                     console.log(`✅ 添加成功: ${version}/${poemName}`);
@@ -242,32 +344,32 @@ function main() {
                 }
             }
         }
-        
+
         // 输出结果统计
         console.log("\n📊 添加模式结果统计:");
         console.log(`✅ 成功添加: ${successList.length} 个`);
         console.log(`❌ 添加失败: ${failList.length} 个`);
-        
+
         if (failList.length > 0) {
             console.log("\n📋 失败详情:");
             failList.forEach(item => console.log(`  - ${item}`));
         }
     }
-    
+
     // --force 模式
     if (isForceMode) {
         console.log("🔄 开始强制更新模式...");
         const versions = ["junior", "senior"];
         const successList = [];
         const failList = [];
-        
+
         for (const version of versions) {
             console.log(`\n📚 处理 ${version} 版本...`);
-            
+
             // 处理 forceList 中的项目
             for (const poemName of forceList[version]) {
                 const result = createFullJson(version, poemName, true);
-                
+
                 if (result.success) {
                     successList.push(`${version}/${poemName}`);
                     console.log(`✅ 强制更新成功: ${version}/${poemName}`);
@@ -277,12 +379,12 @@ function main() {
                 }
             }
         }
-        
+
         // 输出结果统计
         console.log("\n📊 强制更新模式结果统计:");
         console.log(`✅ 成功更新: ${successList.length} 个`);
         console.log(`❌ 更新失败: ${failList.length} 个`);
-        
+
         if (failList.length > 0) {
             console.log("\n📋 失败详情:");
             failList.forEach(item => console.log(`  - ${item}`));
