@@ -6,23 +6,23 @@
           "sentence": [
             {
               "char": "《",
-              "pinyin": "shuǐ"
+              "pinyin": ""
             },
             {
               "char": "水",
-              "pinyin": "jīng"
+              "pinyin": "shuǐ"
             },
             {
               "char": "经",
-              "pinyin": "yún"
+              "pinyin": "jīng"
             },
             {
               "char": "》",
-              "pinyin": "péng"
+              "pinyin": ""
             },
             {
               "char": "云",
-              "pinyin": "lǐ"
+              "pinyin": "yún"
             },
             {
               "char": "：",
@@ -34,87 +34,93 @@
             },
             {
               "char": "彭",
-              "pinyin": "zhī"
+              "pinyin": "péng"
             },
             {
               "char": "蠡",
-              "pinyin": "kǒu"
+              "pinyin": "lǐ"
             },
             {
               "char": "之",
-              "pinyin": "yǒu"
+              "pinyin": "zhī"
             },
             {
               "char": "口",
-              "pinyin": "shí"
+              "pinyin": "kǒu"
             },
             {
               "char": "有",
-              "pinyin": "zhōng"
+              "pinyin": "yǒu"
             },
             {
               "char": "石",
-              "pinyin": "shān"
+              "pinyin": "shí"
             },
             {
               "char": "钟",
-              "pinyin": "yān"
+              "pinyin": "zhōng"
             },
             {
               "char": "山",
-              "pinyin": "lì"
+              "pinyin": "shān"
             },
             {
               "char": "焉",
-              "pinyin": "yuán"
+              "pinyin": "yān"
             },
             {
               "char": "。",
               "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": "《水经》中说：“鄱阳湖的湖口有一座石钟山在那里。"
+            "translation": "《水经》中说：“鄱阳湖的湖口有一座石钟山在那里。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "note": "鄱阳湖的别称。"
+            }
+          ]
         },
         {
           "sentence": [
             {
-              "char": "”",
-              "pinyin": "　"
-            },
-            {
               "char": "郦",
-              "pinyin": "yǐ"
+              "pinyin": "lì"
             },
             {
               "char": "元",
-              "pinyin": "wéi"
+              "pinyin": "yuán"
             },
             {
               "char": "以",
-              "pinyin": "xià"
+              "pinyin": "yǐ"
             },
             {
               "char": "为",
-              "pinyin": "lín"
+              "pinyin": "wéi"
             },
             {
               "char": "下",
-              "pinyin": "shēn"
+              "pinyin": "xià"
             },
             {
               "char": "临",
-              "pinyin": "tán"
+              "pinyin": "lín"
             },
             {
               "char": "深",
-              "pinyin": "wēi"
+              "pinyin": "shēn"
             },
             {
               "char": "潭",
-              "pinyin": "fēng"
+              "pinyin": "tán"
             },
             {
               "char": "，",
@@ -122,19 +128,25 @@
             },
             {
               "char": "微",
-              "pinyin": "gǔ"
+              "pinyin": "wēi"
             },
             {
               "char": "风",
-              "pinyin": "làng"
+              "pinyin": "fēng"
             },
             {
               "char": "鼓",
-              "pinyin": "shuǐ"
+              "pinyin": "gǔ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "激荡，掀动。"
+                }
+              ]
             },
             {
               "char": "浪",
-              "pinyin": "shí"
+              "pinyin": "làng"
             },
             {
               "char": "，",
@@ -142,19 +154,19 @@
             },
             {
               "char": "水",
-              "pinyin": "xiāng"
+              "pinyin": "shuǐ"
             },
             {
               "char": "石",
-              "pinyin": "bó"
+              "pinyin": "shí"
             },
             {
               "char": "相",
-              "pinyin": "shēng"
+              "pinyin": "xiāng"
             },
             {
               "char": "搏",
-              "pinyin": "rú"
+              "pinyin": "bó"
             },
             {
               "char": "，",
@@ -162,19 +174,19 @@
             },
             {
               "char": "声",
-              "pinyin": "hóng"
+              "pinyin": "shēng"
             },
             {
               "char": "如",
-              "pinyin": "zhōng"
+              "pinyin": "rú"
             },
             {
               "char": "洪",
-              "pinyin": "shì"
+              "pinyin": "hóng"
             },
             {
               "char": "钟",
-              "pinyin": "shuō"
+              "pinyin": "zhōng"
             },
             {
               "char": "。",
@@ -182,23 +194,29 @@
             }
           ],
           "translation": {
-            "translation": "”郦道元认为石钟山下面靠近深潭，微风振动波浪，水和石头互相拍打，发出的声音好像大钟一般。"
+            "translation": "郦道元认为石钟山下面靠近深潭，微风振动波浪，水和石头互相拍打，发出的声音好像大钟一般。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "即郦道元。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "是",
-              "pinyin": "yě"
+              "pinyin": "shì"
             },
             {
               "char": "说",
-              "pinyin": "rén"
+              "pinyin": "shuō"
             },
             {
               "char": "也",
-              "pinyin": "cháng"
+              "pinyin": "yě"
             },
             {
               "char": "，",
@@ -206,19 +224,19 @@
             },
             {
               "char": "人",
-              "pinyin": "yí"
+              "pinyin": "rén"
             },
             {
               "char": "常",
-              "pinyin": "zhī"
+              "pinyin": "cháng"
             },
             {
               "char": "疑",
-              "pinyin": "jīn"
+              "pinyin": "yí"
             },
             {
               "char": "之",
-              "pinyin": "yǐ"
+              "pinyin": "zhī"
             },
             {
               "char": "。",
@@ -234,31 +252,37 @@
           "sentence": [
             {
               "char": "今",
-              "pinyin": "zhōng"
+              "pinyin": "jīn"
             },
             {
               "char": "以",
-              "pinyin": "qìng"
+              "pinyin": "yǐ"
             },
             {
               "char": "钟",
-              "pinyin": "zhì"
-            },
-            {
-              "char": "磬",
-              "pinyin": "shuǐ"
-            },
-            {
-              "char": "置",
               "pinyin": "zhōng"
             },
             {
+              "char": "磬",
+              "pinyin": "qìng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "古代打击乐器，形状像曲尺，用玉或石制成。"
+                }
+              ]
+            },
+            {
+              "char": "置",
+              "pinyin": "zhì"
+            },
+            {
               "char": "水",
-              "pinyin": "suī"
+              "pinyin": "shuǐ"
             },
             {
               "char": "中",
-              "pinyin": "dà"
+              "pinyin": "zhōng"
             },
             {
               "char": "，",
@@ -266,35 +290,35 @@
             },
             {
               "char": "虽",
-              "pinyin": "fēng"
+              "pinyin": "suī"
             },
             {
               "char": "大",
-              "pinyin": "làng"
+              "pinyin": "dà"
             },
             {
               "char": "风",
-              "pinyin": "bù"
+              "pinyin": "fēng"
             },
             {
               "char": "浪",
-              "pinyin": "néng"
+              "pinyin": "làng"
             },
             {
               "char": "不",
-              "pinyin": "míng"
+              "pinyin": "bù"
             },
             {
               "char": "能",
-              "pinyin": "yě"
+              "pinyin": "néng"
             },
             {
               "char": "鸣",
-              "pinyin": "ér"
+              "pinyin": "míng"
             },
             {
               "char": "也",
-              "pinyin": "kuàng"
+              "pinyin": "yě"
             },
             {
               "char": "，",
@@ -302,19 +326,19 @@
             },
             {
               "char": "而",
-              "pinyin": "shí"
+              "pinyin": "ér"
             },
             {
               "char": "况",
-              "pinyin": "hū"
+              "pinyin": "kuàng"
             },
             {
               "char": "石",
-              "pinyin": "zhì"
+              "pinyin": "shí"
             },
             {
               "char": "乎",
-              "pinyin": "táng"
+              "pinyin": "hū"
             },
             {
               "char": "！",
@@ -330,39 +354,39 @@
           "sentence": [
             {
               "char": "至",
-              "pinyin": "lǐ"
+              "pinyin": "zhì"
             },
             {
               "char": "唐",
-              "pinyin": "bó"
+              "pinyin": "táng"
             },
             {
               "char": "李",
-              "pinyin": "shǐ"
+              "pinyin": "lǐ"
             },
             {
               "char": "渤",
-              "pinyin": "fǎng"
+              "pinyin": "bó"
             },
             {
               "char": "始",
-              "pinyin": "qí"
+              "pinyin": "shǐ"
             },
             {
               "char": "访",
-              "pinyin": "yí"
+              "pinyin": "fǎng"
             },
             {
               "char": "其",
-              "pinyin": "zōng"
+              "pinyin": "qí"
             },
             {
               "char": "遗",
-              "pinyin": "dé"
+              "pinyin": "yí"
             },
             {
               "char": "踪",
-              "pinyin": "shuāng"
+              "pinyin": "zōng"
             },
             {
               "char": "，",
@@ -370,27 +394,27 @@
             },
             {
               "char": "得",
-              "pinyin": "shí"
+              "pinyin": "dé"
             },
             {
               "char": "双",
-              "pinyin": "yú"
+              "pinyin": "shuāng"
             },
             {
               "char": "石",
-              "pinyin": "tán"
+              "pinyin": "shí"
             },
             {
               "char": "于",
-              "pinyin": "shàng"
+              "pinyin": "yú"
             },
             {
               "char": "潭",
-              "pinyin": "kòu"
+              "pinyin": "tán"
             },
             {
               "char": "上",
-              "pinyin": "ér"
+              "pinyin": "shàng"
             },
             {
               "char": "，",
@@ -398,19 +422,19 @@
             },
             {
               "char": "扣",
-              "pinyin": "líng"
+              "pinyin": "kòu"
             },
             {
               "char": "而",
-              "pinyin": "zhī"
+              "pinyin": "ér"
             },
             {
               "char": "聆",
-              "pinyin": "nán"
+              "pinyin": "líng"
             },
             {
               "char": "之",
-              "pinyin": "shēng"
+              "pinyin": "zhī"
             },
             {
               "char": "，",
@@ -418,19 +442,19 @@
             },
             {
               "char": "南",
-              "pinyin": "hán"
+              "pinyin": "nán"
             },
             {
               "char": "声",
-              "pinyin": "hú"
+              "pinyin": "shēng"
             },
             {
               "char": "函",
-              "pinyin": "běi"
+              "pinyin": "hán"
             },
             {
               "char": "胡",
-              "pinyin": "yīn"
+              "pinyin": "hú"
             },
             {
               "char": "，",
@@ -438,19 +462,19 @@
             },
             {
               "char": "北",
-              "pinyin": "qīng"
+              "pinyin": "běi"
             },
             {
               "char": "音",
-              "pinyin": "yuè"
+              "pinyin": "yīn"
             },
             {
               "char": "清",
-              "pinyin": "fú"
+              "pinyin": "qīng"
             },
             {
               "char": "越",
-              "pinyin": "zhǐ"
+              "pinyin": "yuè"
             },
             {
               "char": "，",
@@ -458,19 +482,19 @@
             },
             {
               "char": "桴",
-              "pinyin": "xiǎng"
+              "pinyin": "fú"
             },
             {
               "char": "止",
-              "pinyin": "téng"
+              "pinyin": "zhǐ"
             },
             {
               "char": "响",
-              "pinyin": "yú"
+              "pinyin": "xiǎng"
             },
             {
               "char": "腾",
-              "pinyin": "yùn"
+              "pinyin": "téng"
             },
             {
               "char": "，",
@@ -478,19 +502,19 @@
             },
             {
               "char": "余",
-              "pinyin": "xú"
+              "pinyin": "yú"
             },
             {
               "char": "韵",
-              "pinyin": "xiē"
+              "pinyin": "yùn"
             },
             {
               "char": "徐",
-              "pinyin": "zì"
+              "pinyin": "xú"
             },
             {
               "char": "歇",
-              "pinyin": "yǐ"
+              "pinyin": "xiē"
             },
             {
               "char": "。",
@@ -500,33 +524,64 @@
           "translation": {
             "translation": "到了唐代李渤才访求石钟山的旧址。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "唐代洛阳人，写过一篇《辨石钟山记》。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "note": "旧址，陈迹。这里指所在地。"
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "note": "南边那块山石的声音重浊模糊。函胡，同“含糊”。"
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "note": "北边那块山石的声音清脆悠扬。清越，清脆悠扬。"
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "note": "鼓槌停止了（敲击），声音还在传播。腾，传播。"
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "note": "余音慢慢消失。韵，声音。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "自",
-              "pinyin": "wéi"
+              "pinyin": "zì"
             },
             {
               "char": "以",
-              "pinyin": "dé"
-            },
-            {
-              "char": "为",
-              "pinyin": "zhī"
-            },
-            {
-              "char": "得",
               "pinyin": "yǐ"
             },
             {
+              "char": "为",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "得",
+              "pinyin": "dé"
+            },
+            {
               "char": "之",
-              "pinyin": "rán"
+              "pinyin": "zhī"
             },
             {
               "char": "矣",
-              "pinyin": "shì"
+              "pinyin": "yǐ"
             },
             {
               "char": "。",
@@ -542,19 +597,19 @@
           "sentence": [
             {
               "char": "然",
-              "pinyin": "shuō"
+              "pinyin": "rán"
             },
             {
               "char": "是",
-              "pinyin": "yě"
+              "pinyin": "shì"
             },
             {
               "char": "说",
-              "pinyin": "yú"
+              "pinyin": "shuō"
             },
             {
               "char": "也",
-              "pinyin": "yóu"
+              "pinyin": "yě"
             },
             {
               "char": "，",
@@ -562,15 +617,15 @@
             },
             {
               "char": "余",
-              "pinyin": "yí"
+              "pinyin": "yú"
             },
             {
               "char": "尤",
-              "pinyin": "zhī"
+              "pinyin": "yóu"
             },
             {
               "char": "疑",
-              "pinyin": "shí"
+              "pinyin": "yí"
             },
             {
               "char": "之",
@@ -590,31 +645,31 @@
           "sentence": [
             {
               "char": "石",
-              "pinyin": "kēng"
+              "pinyin": "shí"
             },
             {
               "char": "之",
-              "pinyin": "rán"
+              "pinyin": "zhī"
             },
             {
               "char": "铿",
-              "pinyin": "yǒu"
+              "pinyin": "kēng"
             },
             {
               "char": "然",
-              "pinyin": "shēng"
+              "pinyin": "rán"
             },
             {
               "char": "有",
-              "pinyin": "zhě"
+              "pinyin": "yǒu"
             },
             {
               "char": "声",
-              "pinyin": "suǒ"
+              "pinyin": "shēng"
             },
             {
               "char": "者",
-              "pinyin": "zài"
+              "pinyin": "zhě"
             },
             {
               "char": "，",
@@ -622,23 +677,23 @@
             },
             {
               "char": "所",
-              "pinyin": "jiē"
+              "pinyin": "suǒ"
             },
             {
               "char": "在",
-              "pinyin": "shì"
+              "pinyin": "zài"
             },
             {
               "char": "皆",
-              "pinyin": "yě"
+              "pinyin": "jiē"
             },
             {
               "char": "是",
-              "pinyin": "ér"
+              "pinyin": "shì"
             },
             {
               "char": "也",
-              "pinyin": "cǐ"
+              "pinyin": "yě"
             },
             {
               "char": "，",
@@ -646,27 +701,27 @@
             },
             {
               "char": "而",
-              "pinyin": "dú"
+              "pinyin": "ér"
             },
             {
               "char": "此",
-              "pinyin": "yǐ"
+              "pinyin": "cǐ"
             },
             {
               "char": "独",
-              "pinyin": "zhōng"
+              "pinyin": "dú"
             },
             {
               "char": "以",
-              "pinyin": "míng"
+              "pinyin": "yǐ"
             },
             {
               "char": "钟",
-              "pinyin": "hé"
+              "pinyin": "zhōng"
             },
             {
               "char": "名",
-              "pinyin": "zāi"
+              "pinyin": "míng"
             },
             {
               "char": "，",
@@ -674,11 +729,11 @@
             },
             {
               "char": "何",
-              "pinyin": "yuán"
+              "pinyin": "hé"
             },
             {
               "char": "哉",
-              "pinyin": "fēng"
+              "pinyin": "zāi"
             },
             {
               "char": "？",
@@ -688,7 +743,13 @@
           "translation": {
             "translation": "但是这个说法，我更加怀疑。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "形容敲击金石发出的响亮的声音。"
+            }
+          ]
         }
       ]
     },
@@ -698,35 +759,35 @@
           "sentence": [
             {
               "char": "元",
-              "pinyin": "qī"
+              "pinyin": "yuán"
             },
             {
               "char": "丰",
-              "pinyin": "nián"
+              "pinyin": "fēng"
             },
             {
               "char": "七",
-              "pinyin": "liù"
+              "pinyin": "qī"
             },
             {
               "char": "年",
-              "pinyin": "yuè"
+              "pinyin": "nián"
             },
             {
               "char": "六",
-              "pinyin": "dīng"
+              "pinyin": "liù"
             },
             {
               "char": "月",
-              "pinyin": "chǒu"
+              "pinyin": "yuè"
             },
             {
               "char": "丁",
-              "pinyin": "yú"
+              "pinyin": "dīng"
             },
             {
               "char": "丑",
-              "pinyin": "zì"
+              "pinyin": "chǒu"
             },
             {
               "char": "，",
@@ -734,39 +795,39 @@
             },
             {
               "char": "余",
-              "pinyin": "qí"
+              "pinyin": "yú"
             },
             {
               "char": "自",
-              "pinyin": "ān"
+              "pinyin": "zì"
             },
             {
               "char": "齐",
-              "pinyin": "zhōu"
+              "pinyin": "qí"
             },
             {
               "char": "安",
-              "pinyin": "xíng"
+              "pinyin": "ān"
             },
             {
               "char": "舟",
-              "pinyin": "shì"
+              "pinyin": "zhōu"
             },
             {
               "char": "行",
-              "pinyin": "lín"
+              "pinyin": "xíng"
             },
             {
               "char": "适",
-              "pinyin": "rǔ"
+              "pinyin": "shì"
             },
             {
               "char": "临",
-              "pinyin": "ér"
+              "pinyin": "lín"
             },
             {
               "char": "汝",
-              "pinyin": "zhǎng"
+              "pinyin": "rǔ"
             },
             {
               "char": "，",
@@ -774,47 +835,47 @@
             },
             {
               "char": "而",
-              "pinyin": "zǐ"
+              "pinyin": "ér"
             },
             {
               "char": "长",
-              "pinyin": "mài"
+              "pinyin": "zhǎng"
             },
             {
               "char": "子",
-              "pinyin": "jiāng"
+              "pinyin": "zǐ"
             },
             {
               "char": "迈",
-              "pinyin": "fù"
+              "pinyin": "mài"
             },
             {
               "char": "将",
-              "pinyin": "ráo"
+              "pinyin": "jiāng"
             },
             {
               "char": "赴",
-              "pinyin": "zhī"
+              "pinyin": "fù"
             },
             {
               "char": "饶",
-              "pinyin": "dé"
+              "pinyin": "ráo"
             },
             {
               "char": "之",
-              "pinyin": "xīng"
+              "pinyin": "zhī"
             },
             {
               "char": "德",
-              "pinyin": "wèi"
+              "pinyin": "dé"
             },
             {
               "char": "兴",
-              "pinyin": "sòng"
+              "pinyin": "xīng"
             },
             {
               "char": "尉",
-              "pinyin": "zhī"
+              "pinyin": "wèi"
             },
             {
               "char": "，",
@@ -822,23 +883,23 @@
             },
             {
               "char": "送",
-              "pinyin": "zhì"
+              "pinyin": "sòng"
             },
             {
               "char": "之",
-              "pinyin": "hú"
+              "pinyin": "zhī"
             },
             {
               "char": "至",
-              "pinyin": "kǒu"
+              "pinyin": "zhì"
             },
             {
               "char": "湖",
-              "pinyin": "yīn"
+              "pinyin": "hú"
             },
             {
               "char": "口",
-              "pinyin": "dé"
+              "pinyin": "kǒu"
             },
             {
               "char": "，",
@@ -846,35 +907,35 @@
             },
             {
               "char": "因",
-              "pinyin": "guān"
+              "pinyin": "yīn"
             },
             {
               "char": "得",
-              "pinyin": "suǒ"
+              "pinyin": "dé"
             },
             {
               "char": "观",
-              "pinyin": "wèi"
+              "pinyin": "guān"
             },
             {
               "char": "所",
-              "pinyin": "shí"
+              "pinyin": "suǒ"
             },
             {
               "char": "谓",
-              "pinyin": "zhōng"
+              "pinyin": "wèi"
             },
             {
               "char": "石",
-              "pinyin": "zhě"
+              "pinyin": "shí"
             },
             {
               "char": "钟",
-              "pinyin": "sì"
+              "pinyin": "zhōng"
             },
             {
               "char": "者",
-              "pinyin": "sēng"
+              "pinyin": "zhě"
             },
             {
               "char": "。",
@@ -882,39 +943,60 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "敲击后能发出声响的石头，到处都是这样，可唯独这座山用钟来命名，这是为什么呢？"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 11,
+              "end": 12,
+              "note": "今湖北黄冈。齐安是黄州所在旧郡名。"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "note": "汝州的旧称。"
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "note": "饶州德兴县的县尉。"
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "note": "县名，今属江西。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "寺",
-              "pinyin": "shǐ"
+              "pinyin": "sì"
             },
             {
               "char": "僧",
-              "pinyin": "xiǎo"
+              "pinyin": "sēng"
             },
             {
               "char": "使",
-              "pinyin": "tóng"
+              "pinyin": "shǐ"
             },
             {
               "char": "小",
-              "pinyin": "chí"
+              "pinyin": "xiǎo"
             },
             {
               "char": "童",
-              "pinyin": "fǔ"
+              "pinyin": "tóng"
             },
             {
               "char": "持",
-              "pinyin": "yú"
+              "pinyin": "chí"
             },
             {
               "char": "斧",
-              "pinyin": "luàn"
+              "pinyin": "fǔ"
             },
             {
               "char": "，",
@@ -922,43 +1004,43 @@
             },
             {
               "char": "于",
-              "pinyin": "shí"
+              "pinyin": "yú"
             },
             {
               "char": "乱",
-              "pinyin": "jiān"
+              "pinyin": "luàn"
             },
             {
               "char": "石",
-              "pinyin": "zé"
+              "pinyin": "shí"
             },
             {
               "char": "间",
-              "pinyin": "qí"
+              "pinyin": "jiān"
             },
             {
               "char": "择",
-              "pinyin": "yī"
+              "pinyin": "zé"
             },
             {
               "char": "其",
-              "pinyin": "èr"
+              "pinyin": "qí"
             },
             {
               "char": "一",
-              "pinyin": "kòu"
+              "pinyin": "yī"
             },
             {
               "char": "二",
-              "pinyin": "zhī"
+              "pinyin": "èr"
             },
             {
               "char": "扣",
-              "pinyin": "kōng"
+              "pinyin": "kòu"
             },
             {
               "char": "之",
-              "pinyin": "kōng"
+              "pinyin": "zhī"
             },
             {
               "char": "，",
@@ -966,15 +1048,15 @@
             },
             {
               "char": "硿",
-              "pinyin": "yān"
+              "pinyin": "kōng"
             },
             {
               "char": "硿",
-              "pinyin": "yú"
+              "pinyin": "kōng"
             },
             {
               "char": "焉",
-              "pinyin": "gù"
+              "pinyin": "yān"
             },
             {
               "char": "。",
@@ -982,39 +1064,45 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "元丰七年六月丁丑日，我从齐安坐船到临汝去，大儿子苏迈将要去就任饶州德兴县的县尉，我送他到湖口，因而能够观察这座称为“石钟”的山。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 19,
+              "end": 21,
+              "note": "硿硿地响。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "余",
-              "pinyin": "xiào"
+              "pinyin": "yú"
             },
             {
               "char": "固",
-              "pinyin": "ér"
+              "pinyin": "gù"
             },
             {
               "char": "笑",
-              "pinyin": "bù"
+              "pinyin": "xiào"
             },
             {
               "char": "而",
-              "pinyin": "xìn"
+              "pinyin": "ér"
             },
             {
               "char": "不",
-              "pinyin": "yě"
+              "pinyin": "bù"
             },
             {
               "char": "信",
-              "pinyin": "zhì"
+              "pinyin": "xìn"
             },
             {
               "char": "也",
-              "pinyin": "mù"
+              "pinyin": "yě"
             },
             {
               "char": "。",
@@ -1022,7 +1110,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "庙里的和尚叫小孩拿着斧头，在乱石中间选一两处敲打它，硿硿地发出的响声，我本来就觉得可笑，并不相信。"
           },
           "notes": []
         },
@@ -1030,23 +1118,23 @@
           "sentence": [
             {
               "char": "至",
-              "pinyin": "yè"
+              "pinyin": "zhì"
             },
             {
               "char": "暮",
-              "pinyin": "yuè"
+              "pinyin": "mù"
             },
             {
               "char": "夜",
-              "pinyin": "míng"
+              "pinyin": "yè"
             },
             {
               "char": "月",
-              "pinyin": "dú"
+              "pinyin": "yuè"
             },
             {
               "char": "明",
-              "pinyin": "yǔ"
+              "pinyin": "míng"
             },
             {
               "char": "，",
@@ -1054,27 +1142,27 @@
             },
             {
               "char": "独",
-              "pinyin": "mài"
+              "pinyin": "dú"
             },
             {
               "char": "与",
-              "pinyin": "chéng"
+              "pinyin": "yǔ"
             },
             {
               "char": "迈",
-              "pinyin": "xiǎo"
+              "pinyin": "mài"
             },
             {
               "char": "乘",
-              "pinyin": "zhōu"
+              "pinyin": "chéng"
             },
             {
               "char": "小",
-              "pinyin": "zhì"
+              "pinyin": "xiǎo"
             },
             {
               "char": "舟",
-              "pinyin": "jué"
+              "pinyin": "zhōu"
             },
             {
               "char": "，",
@@ -1082,19 +1170,19 @@
             },
             {
               "char": "至",
-              "pinyin": "bì"
+              "pinyin": "zhì"
             },
             {
               "char": "绝",
-              "pinyin": "xià"
+              "pinyin": "jué"
             },
             {
               "char": "壁",
-              "pinyin": "dà"
+              "pinyin": "bì"
             },
             {
               "char": "下",
-              "pinyin": "shí"
+              "pinyin": "xià"
             },
             {
               "char": "。",
@@ -1102,7 +1190,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "到了晚上，月光明亮，我独自和苏迈坐着小船来到绝壁下面。"
           },
           "notes": []
         },
@@ -1110,27 +1198,27 @@
           "sentence": [
             {
               "char": "大",
-              "pinyin": "cè"
+              "pinyin": "dà"
             },
             {
               "char": "石",
-              "pinyin": "lì"
+              "pinyin": "shí"
             },
             {
               "char": "侧",
-              "pinyin": "qiān"
+              "pinyin": "cè"
             },
             {
               "char": "立",
-              "pinyin": "chǐ"
+              "pinyin": "lì"
             },
             {
               "char": "千",
-              "pinyin": "rú"
+              "pinyin": "qiān"
             },
             {
               "char": "尺",
-              "pinyin": "měng"
+              "pinyin": "chǐ"
             },
             {
               "char": "，",
@@ -1138,23 +1226,23 @@
             },
             {
               "char": "如",
-              "pinyin": "shòu"
+              "pinyin": "rú"
             },
             {
               "char": "猛",
-              "pinyin": "qí"
+              "pinyin": "měng"
             },
             {
               "char": "兽",
-              "pinyin": "guǐ"
+              "pinyin": "shòu"
             },
             {
               "char": "奇",
-              "pinyin": "sēn"
+              "pinyin": "qí"
             },
             {
               "char": "鬼",
-              "pinyin": "rán"
+              "pinyin": "guǐ"
             },
             {
               "char": "，",
@@ -1162,23 +1250,23 @@
             },
             {
               "char": "森",
-              "pinyin": "yù"
+              "pinyin": "sēn"
             },
             {
               "char": "然",
-              "pinyin": "bó"
+              "pinyin": "rán"
             },
             {
               "char": "欲",
-              "pinyin": "rén"
+              "pinyin": "yù"
             },
             {
               "char": "搏",
-              "pinyin": "ér"
+              "pinyin": "bó"
             },
             {
               "char": "人",
-              "pinyin": "shān"
+              "pinyin": "rén"
             },
             {
               "char": "；",
@@ -1186,31 +1274,37 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "巨大的山石在旁边耸立着，高达千尺，好像凶猛的野兽和奇异的鬼怪，阴森森地要向人扑过来；"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 13,
+              "end": 14,
+              "note": "阴森的样子。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "而",
-              "pinyin": "shàng"
+              "pinyin": "ér"
             },
             {
               "char": "山",
-              "pinyin": "qī"
+              "pinyin": "shān"
             },
             {
               "char": "上",
-              "pinyin": "hú"
+              "pinyin": "shàng"
             },
             {
               "char": "栖",
-              "pinyin": "wén"
+              "pinyin": "qī"
             },
             {
               "char": "鹘",
-              "pinyin": "rén"
+              "pinyin": "hú"
             },
             {
               "char": "，",
@@ -1218,27 +1312,27 @@
             },
             {
               "char": "闻",
-              "pinyin": "shēng"
+              "pinyin": "wén"
             },
             {
               "char": "人",
-              "pinyin": "yì"
+              "pinyin": "rén"
             },
             {
               "char": "声",
-              "pinyin": "jīng"
+              "pinyin": "shēng"
             },
             {
               "char": "亦",
-              "pinyin": "qǐ"
+              "pinyin": "yì"
             },
             {
               "char": "惊",
-              "pinyin": "zhé"
+              "pinyin": "jīng"
             },
             {
               "char": "起",
-              "pinyin": "zhé"
+              "pinyin": "qǐ"
             },
             {
               "char": "，",
@@ -1246,23 +1340,23 @@
             },
             {
               "char": "磔",
-              "pinyin": "yún"
+              "pinyin": "zhé"
             },
             {
               "char": "磔",
-              "pinyin": "xiāo"
+              "pinyin": "zhé"
             },
             {
               "char": "云",
-              "pinyin": "jiān"
+              "pinyin": "yún"
             },
             {
               "char": "霄",
-              "pinyin": "yòu"
+              "pinyin": "xiāo"
             },
             {
               "char": "间",
-              "pinyin": "yǒu"
+              "pinyin": "jiān"
             },
             {
               "char": "；",
@@ -1270,63 +1364,74 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "山上宿巢的老鹰听到人声，也受惊飞起来，在云霄中磔磔地鸣叫；"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "宿巢的隼。鹘，隼的旧称。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "note": "鸟鸣声。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "又",
-              "pinyin": "ruò"
+              "pinyin": "yòu"
             },
             {
               "char": "有",
-              "pinyin": "lǎo"
+              "pinyin": "yǒu"
             },
             {
               "char": "若",
-              "pinyin": "rén"
+              "pinyin": "ruò"
             },
             {
               "char": "老",
-              "pinyin": "ké"
+              "pinyin": "lǎo"
             },
             {
               "char": "人",
-              "pinyin": "qiě"
+              "pinyin": "rén"
             },
             {
               "char": "咳",
-              "pinyin": "xiào"
+              "pinyin": "ké"
             },
             {
               "char": "且",
-              "pinyin": "yú"
+              "pinyin": "qiě"
             },
             {
               "char": "笑",
-              "pinyin": "shān"
+              "pinyin": "xiào"
             },
             {
               "char": "于",
-              "pinyin": "gǔ"
+              "pinyin": "yú"
             },
             {
               "char": "山",
-              "pinyin": "zhōng"
+              "pinyin": "shān"
             },
             {
               "char": "谷",
-              "pinyin": "zhě"
+              "pinyin": "gǔ"
             },
             {
               "char": "中",
-              "pinyin": "huò"
+              "pinyin": "zhōng"
             },
             {
               "char": "者",
-              "pinyin": "yuē"
+              "pinyin": "zhě"
             },
             {
               "char": "，",
@@ -1334,27 +1439,27 @@
             },
             {
               "char": "或",
-              "pinyin": "cǐ"
+              "pinyin": "huò"
             },
             {
               "char": "曰",
-              "pinyin": "guàn"
+              "pinyin": "yuē"
             },
             {
               "char": "此",
-              "pinyin": "hè"
+              "pinyin": "cǐ"
             },
             {
               "char": "鹳",
-              "pinyin": "yě"
+              "pinyin": "guàn"
             },
             {
               "char": "鹤",
-              "pinyin": "yú"
+              "pinyin": "hè"
             },
             {
               "char": "也",
-              "pinyin": "fāng"
+              "pinyin": "yě"
             },
             {
               "char": "。",
@@ -1362,35 +1467,41 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "又有像老人在山谷中边咳边笑的声音，有人说这是鹳鹤。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 17,
+              "end": 18,
+              "note": "水鸟，似鹤而顶不红，颈和嘴都比鹤长，夜宿高树。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "余",
-              "pinyin": "xīn"
+              "pinyin": "yú"
             },
             {
               "char": "方",
-              "pinyin": "dòng"
+              "pinyin": "fāng"
             },
             {
               "char": "心",
-              "pinyin": "yù"
+              "pinyin": "xīn"
             },
             {
               "char": "动",
-              "pinyin": "huán"
+              "pinyin": "dòng"
             },
             {
               "char": "欲",
-              "pinyin": "ér"
+              "pinyin": "yù"
             },
             {
               "char": "还",
-              "pinyin": "dà"
+              "pinyin": "huán"
             },
             {
               "char": "，",
@@ -1398,31 +1509,31 @@
             },
             {
               "char": "而",
-              "pinyin": "shēng"
+              "pinyin": "ér"
             },
             {
               "char": "大",
-              "pinyin": "fā"
+              "pinyin": "dà"
             },
             {
               "char": "声",
-              "pinyin": "yú"
+              "pinyin": "shēng"
             },
             {
               "char": "发",
-              "pinyin": "shuǐ"
+              "pinyin": "fā"
             },
             {
               "char": "于",
-              "pinyin": "shàng"
+              "pinyin": "yú"
             },
             {
               "char": "水",
-              "pinyin": "cēng"
+              "pinyin": "shuǐ"
             },
             {
               "char": "上",
-              "pinyin": "hóng"
+              "pinyin": "shàng"
             },
             {
               "char": "，",
@@ -1430,31 +1541,31 @@
             },
             {
               "char": "噌",
-              "pinyin": "rú"
+              "pinyin": "cēng"
             },
             {
               "char": "吰",
-              "pinyin": "zhōng"
+              "pinyin": "hóng"
             },
             {
               "char": "如",
-              "pinyin": "gǔ"
+              "pinyin": "rú"
             },
             {
               "char": "钟",
-              "pinyin": "bù"
+              "pinyin": "zhōng"
             },
             {
               "char": "鼓",
-              "pinyin": "jué"
+              "pinyin": "gǔ"
             },
             {
               "char": "不",
-              "pinyin": "zhōu"
+              "pinyin": "bù"
             },
             {
               "char": "绝",
-              "pinyin": "rén"
+              "pinyin": "jué"
             },
             {
               "char": "。",
@@ -1462,27 +1573,38 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我正心惊想要回去，忽然巨大的声音从水上发出，噌地响着像钟鼓的声音连续不断。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "内心惊恐。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "note": "形容钟鼓的声音。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "舟",
-              "pinyin": "dà"
+              "pinyin": "zhōu"
             },
             {
               "char": "人",
-              "pinyin": "kǒng"
+              "pinyin": "rén"
             },
             {
               "char": "大",
-              "pinyin": "xú"
+              "pinyin": "dà"
             },
             {
               "char": "恐",
-              "pinyin": "ér"
+              "pinyin": "kǒng"
             },
             {
               "char": "。",
@@ -1490,7 +1612,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "船夫非常害怕。"
           },
           "notes": []
         },
@@ -1498,19 +1620,19 @@
           "sentence": [
             {
               "char": "徐",
-              "pinyin": "chá"
+              "pinyin": "xú"
             },
             {
               "char": "而",
-              "pinyin": "zhī"
+              "pinyin": "ér"
             },
             {
               "char": "察",
-              "pinyin": "zé"
+              "pinyin": "chá"
             },
             {
               "char": "之",
-              "pinyin": "shān"
+              "pinyin": "zhī"
             },
             {
               "char": "，",
@@ -1518,31 +1640,37 @@
             },
             {
               "char": "则",
-              "pinyin": "xià"
+              "pinyin": "zé"
             },
             {
               "char": "山",
-              "pinyin": "jiē"
+              "pinyin": "shān"
             },
             {
               "char": "下",
-              "pinyin": "shí"
-            },
-            {
-              "char": "皆",
-              "pinyin": "xué"
-            },
-            {
-              "char": "石",
               "pinyin": "xià"
             },
             {
+              "char": "皆",
+              "pinyin": "jiē"
+            },
+            {
+              "char": "石",
+              "pinyin": "shí"
+            },
+            {
               "char": "穴",
-              "pinyin": "bù"
+              "pinyin": "xué"
             },
             {
               "char": "罅",
-              "pinyin": "zhī"
+              "pinyin": "xià",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "裂缝。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -1550,23 +1678,23 @@
             },
             {
               "char": "不",
-              "pinyin": "qí"
+              "pinyin": "bù"
             },
             {
               "char": "知",
-              "pinyin": "qiǎn"
+              "pinyin": "zhī"
             },
             {
               "char": "其",
-              "pinyin": "shēn"
+              "pinyin": "qí"
             },
             {
               "char": "浅",
-              "pinyin": "wēi"
+              "pinyin": "qiǎn"
             },
             {
               "char": "深",
-              "pinyin": "bō"
+              "pinyin": "shēn"
             },
             {
               "char": "，",
@@ -1574,19 +1702,19 @@
             },
             {
               "char": "微",
-              "pinyin": "rù"
+              "pinyin": "wēi"
             },
             {
               "char": "波",
-              "pinyin": "yān"
+              "pinyin": "bō"
             },
             {
               "char": "入",
-              "pinyin": "hán"
+              "pinyin": "rù"
             },
             {
               "char": "焉",
-              "pinyin": "dàn"
+              "pinyin": "yān"
             },
             {
               "char": "，",
@@ -1594,35 +1722,35 @@
             },
             {
               "char": "涵",
-              "pinyin": "péng"
+              "pinyin": "hán"
             },
             {
               "char": "澹",
-              "pinyin": "pài"
+              "pinyin": "dàn"
             },
             {
               "char": "澎",
-              "pinyin": "ér"
+              "pinyin": "péng"
             },
             {
               "char": "湃",
-              "pinyin": "wéi"
+              "pinyin": "pài"
             },
             {
               "char": "而",
-              "pinyin": "cǐ"
+              "pinyin": "ér"
             },
             {
               "char": "为",
-              "pinyin": "yě"
+              "pinyin": "wéi"
             },
             {
               "char": "此",
-              "pinyin": "zhōu"
+              "pinyin": "cǐ"
             },
             {
               "char": "也",
-              "pinyin": "huí"
+              "pinyin": "yě"
             },
             {
               "char": "。",
@@ -1630,35 +1758,41 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我慢慢地观察，原来山脚下都是石头的洞穴和裂缝，不知它们的深浅，微微的水波涌进洞穴和裂缝，激荡撞击便产生这样的声音。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 24,
+              "end": 27,
+              "note": "（波浪）激荡冲击。涵澹，水波动荡。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "舟",
-              "pinyin": "zhì"
+              "pinyin": "zhōu"
             },
             {
               "char": "回",
-              "pinyin": "liǎng"
+              "pinyin": "huí"
             },
             {
               "char": "至",
-              "pinyin": "shān"
+              "pinyin": "zhì"
             },
             {
               "char": "两",
-              "pinyin": "jiān"
+              "pinyin": "liǎng"
             },
             {
               "char": "山",
-              "pinyin": "jiāng"
+              "pinyin": "shān"
             },
             {
               "char": "间",
-              "pinyin": "rù"
+              "pinyin": "jiān"
             },
             {
               "char": "，",
@@ -1666,19 +1800,19 @@
             },
             {
               "char": "将",
-              "pinyin": "gǎng"
+              "pinyin": "jiāng"
             },
             {
               "char": "入",
-              "pinyin": "kǒu"
+              "pinyin": "rù"
             },
             {
               "char": "港",
-              "pinyin": "yǒu"
+              "pinyin": "gǎng"
             },
             {
               "char": "口",
-              "pinyin": "dà"
+              "pinyin": "kǒu"
             },
             {
               "char": "，",
@@ -1686,27 +1820,27 @@
             },
             {
               "char": "有",
-              "pinyin": "shí"
+              "pinyin": "yǒu"
             },
             {
               "char": "大",
-              "pinyin": "dāng"
+              "pinyin": "dà"
             },
             {
               "char": "石",
-              "pinyin": "zhōng"
+              "pinyin": "shí"
             },
             {
               "char": "当",
-              "pinyin": "liú"
+              "pinyin": "dāng"
             },
             {
               "char": "中",
-              "pinyin": "kě"
+              "pinyin": "zhōng"
             },
             {
               "char": "流",
-              "pinyin": "zuò"
+              "pinyin": "liú"
             },
             {
               "char": "，",
@@ -1714,19 +1848,19 @@
             },
             {
               "char": "可",
-              "pinyin": "bǎi"
+              "pinyin": "kě"
             },
             {
               "char": "坐",
-              "pinyin": "rén"
+              "pinyin": "zuò"
             },
             {
               "char": "百",
-              "pinyin": "kōng"
+              "pinyin": "bǎi"
             },
             {
               "char": "人",
-              "pinyin": "zhōng"
+              "pinyin": "rén"
             },
             {
               "char": "，",
@@ -1734,23 +1868,23 @@
             },
             {
               "char": "空",
-              "pinyin": "ér"
+              "pinyin": "kōng"
             },
             {
               "char": "中",
-              "pinyin": "duō"
+              "pinyin": "zhōng"
             },
             {
               "char": "而",
-              "pinyin": "qiào"
+              "pinyin": "ér"
             },
             {
               "char": "多",
-              "pinyin": "yǔ"
+              "pinyin": "duō"
             },
             {
               "char": "窍",
-              "pinyin": "fēng"
+              "pinyin": "qiào"
             },
             {
               "char": "，",
@@ -1758,27 +1892,27 @@
             },
             {
               "char": "与",
-              "pinyin": "shuǐ"
+              "pinyin": "yǔ"
             },
             {
               "char": "风",
-              "pinyin": "xiāng"
+              "pinyin": "fēng"
             },
             {
               "char": "水",
-              "pinyin": "tūn"
+              "pinyin": "shuǐ"
             },
             {
               "char": "相",
-              "pinyin": "tǔ"
+              "pinyin": "xiāng"
             },
             {
               "char": "吞",
-              "pinyin": "yǒu"
+              "pinyin": "tūn"
             },
             {
               "char": "吐",
-              "pinyin": "kuǎn"
+              "pinyin": "tǔ"
             },
             {
               "char": "，",
@@ -1786,31 +1920,31 @@
             },
             {
               "char": "有",
-              "pinyin": "kǎn"
+              "pinyin": "yǒu"
             },
             {
               "char": "窾",
-              "pinyin": "táng"
+              "pinyin": "kuǎn"
             },
             {
               "char": "坎",
-              "pinyin": "tà"
+              "pinyin": "kǎn"
             },
             {
               "char": "镗",
-              "pinyin": "zhī"
+              "pinyin": "táng"
             },
             {
               "char": "鞳",
-              "pinyin": "shēng"
+              "pinyin": "tà"
             },
             {
               "char": "之",
-              "pinyin": "yǔ"
+              "pinyin": "zhī"
             },
             {
               "char": "声",
-              "pinyin": "xiàng"
+              "pinyin": "shēng"
             },
             {
               "char": "，",
@@ -1818,35 +1952,35 @@
             },
             {
               "char": "与",
-              "pinyin": "zhī"
+              "pinyin": "yǔ"
             },
             {
               "char": "向",
-              "pinyin": "cēng"
+              "pinyin": "xiàng"
             },
             {
               "char": "之",
-              "pinyin": "hóng"
+              "pinyin": "zhī"
             },
             {
               "char": "噌",
-              "pinyin": "zhě"
+              "pinyin": "cēng"
             },
             {
               "char": "吰",
-              "pinyin": "xiāng"
+              "pinyin": "hóng"
             },
             {
               "char": "者",
-              "pinyin": "yìng"
+              "pinyin": "zhě"
             },
             {
               "char": "相",
-              "pinyin": "rú"
+              "pinyin": "xiāng"
             },
             {
               "char": "应",
-              "pinyin": "yuè"
+              "pinyin": "yìng"
             },
             {
               "char": "，",
@@ -1854,19 +1988,19 @@
             },
             {
               "char": "如",
-              "pinyin": "zuò"
+              "pinyin": "rú"
             },
             {
               "char": "乐",
-              "pinyin": "yān"
+              "pinyin": "yuè"
             },
             {
               "char": "作",
-              "pinyin": "yīn"
+              "pinyin": "zuò"
             },
             {
               "char": "焉",
-              "pinyin": "xiào"
+              "pinyin": "yān"
             },
             {
               "char": "。",
@@ -1874,31 +2008,47 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "船绕到两山之间，将要进入港口，有块大石头挡在水流的中央，上面可坐百来个人，中间是空的，而且有许多窟窿，把风浪吞进去又吐出来，发出窾坎镗鞳的声音，同先前噌吰的声音相互应和，好像音乐演奏。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 16,
+              "end": 17,
+              "note": "江河水流中央。"
+            },
+            {
+              "start": 24,
+              "end": 25,
+              "note": "中间是空的。"
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "note": "窾坎，击物声。镗鞳，钟鼓声。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "因",
-              "pinyin": "wèi"
+              "pinyin": "yīn"
             },
             {
               "char": "笑",
-              "pinyin": "mài"
+              "pinyin": "xiào"
             },
             {
               "char": "谓",
-              "pinyin": "yuē"
+              "pinyin": "wèi"
             },
             {
               "char": "迈",
-              "pinyin": "rǔ"
+              "pinyin": "mài"
             },
             {
               "char": "曰",
-              "pinyin": "zhì"
+              "pinyin": "yuē"
             },
             {
               "char": "：",
@@ -1910,19 +2060,19 @@
             },
             {
               "char": "汝",
-              "pinyin": "zhī"
+              "pinyin": "rǔ"
             },
             {
               "char": "识",
-              "pinyin": "hū"
+              "pinyin": "zhì"
             },
             {
               "char": "之",
-              "pinyin": "cēng"
+              "pinyin": "zhī"
             },
             {
               "char": "乎",
-              "pinyin": "hóng"
+              "pinyin": "hū"
             },
             {
               "char": "？",
@@ -1930,23 +2080,29 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我于是笑着对苏迈说：“你知道吗?那噌吰的响声，是周景王无射钟的声音；"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 10,
+              "note": "你知道吗？"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "噌",
-              "pinyin": "zhě"
+              "pinyin": "cēng"
             },
             {
               "char": "吰",
-              "pinyin": "zhōu"
+              "pinyin": "hóng"
             },
             {
               "char": "者",
-              "pinyin": "jǐng"
+              "pinyin": "zhě"
             },
             {
               "char": "，",
@@ -1954,31 +2110,31 @@
             },
             {
               "char": "周",
-              "pinyin": "wáng"
+              "pinyin": "zhōu"
             },
             {
               "char": "景",
-              "pinyin": "zhī"
+              "pinyin": "jǐng"
             },
             {
               "char": "王",
-              "pinyin": "wú"
+              "pinyin": "wáng"
             },
             {
               "char": "之",
-              "pinyin": "yì"
+              "pinyin": "zhī"
             },
             {
               "char": "无",
-              "pinyin": "yě"
+              "pinyin": "wú"
             },
             {
               "char": "射",
-              "pinyin": "kuǎn"
+              "pinyin": "yì"
             },
             {
               "char": "也",
-              "pinyin": "kǎn"
+              "pinyin": "yě"
             },
             {
               "char": "；",
@@ -1986,31 +2142,37 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "窾坎镗鞳的响声，是魏庄子歌钟的声音。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 9,
+              "note": "《国语·周语下》记载，周景王曾命铸造“无射”。无射，钟名。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "窾",
-              "pinyin": "táng"
+              "pinyin": "kuǎn"
             },
             {
               "char": "坎",
-              "pinyin": "tà"
+              "pinyin": "kǎn"
             },
             {
               "char": "镗",
-              "pinyin": "zhě"
+              "pinyin": "táng"
             },
             {
               "char": "鞳",
-              "pinyin": "wèi"
+              "pinyin": "tà"
             },
             {
               "char": "者",
-              "pinyin": "zhuāng"
+              "pinyin": "zhě"
             },
             {
               "char": "，",
@@ -2018,31 +2180,31 @@
             },
             {
               "char": "魏",
-              "pinyin": "zǐ"
+              "pinyin": "wèi"
             },
             {
               "char": "庄",
-              "pinyin": "zhī"
+              "pinyin": "zhuāng"
             },
             {
               "char": "子",
-              "pinyin": "gē"
+              "pinyin": "zǐ"
             },
             {
               "char": "之",
-              "pinyin": "zhōng"
+              "pinyin": "zhī"
             },
             {
               "char": "歌",
-              "pinyin": "yě"
+              "pinyin": "gē"
             },
             {
               "char": "钟",
-              "pinyin": "gǔ"
+              "pinyin": "zhōng"
             },
             {
               "char": "也",
-              "pinyin": "zhī"
+              "pinyin": "yě"
             },
             {
               "char": "。",
@@ -2050,101 +2212,65 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "古人没有欺骗我啊！”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 11,
+              "note": "《左传·襄公十一年》记载，鲁襄公十一年（前562），郑人以歌钟和其他乐器献给晋侯，晋侯分一半赐给晋大夫魏绛。魏庄子，魏绛谥“庄”，故名。歌钟，古乐器。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "古",
-              "pinyin": "rén"
+              "pinyin": "gǔ"
             },
             {
               "char": "之",
-              "pinyin": "bù"
+              "pinyin": "zhī"
             },
             {
               "char": "人",
-              "pinyin": "yú"
+              "pinyin": "rén"
             },
             {
               "char": "不",
-              "pinyin": "qī"
+              "pinyin": "bù"
             },
             {
               "char": "余",
-              "pinyin": "yě"
+              "pinyin": "yú"
             },
             {
               "char": "欺",
-              "pinyin": "shì"
+              "pinyin": "qī"
             },
             {
               "char": "也",
-              "pinyin": "bù"
+              "pinyin": "yě"
             },
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
-            },
-            {
-              "char": "(",
-              "pinyin": ""
-            },
-            {
-              "char": "千",
-              "pinyin": "mù"
-            },
-            {
-              "char": "尺",
-              "pinyin": "jiàn"
-            },
-            {
-              "char": " ",
-              "pinyin": "ěr"
-            },
-            {
-              "char": "一",
-              "pinyin": "wén"
-            },
-            {
-              "char": "作",
-              "pinyin": "ér"
-            },
-            {
-              "char": "：",
-              "pinyin": "　"
-            },
-            {
-              "char": "千",
-              "pinyin": "yì"
-            },
-            {
-              "char": "仞",
-              "pinyin": "duàn"
-            },
-            {
-              "char": ")",
-              "pinyin": ""
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "凡事不亲眼看到亲耳听到，却根据主观猜测去来判断它的有或没有（正不正确），可以吗？"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "note": "古代的人（称这山为“石钟山”）没有欺骗我啊！不余欺，即“不欺余”。"
+            }
+          ]
         }
       ]
     },
@@ -2154,27 +2280,27 @@
           "sentence": [
             {
               "char": "事",
-              "pinyin": "qí"
+              "pinyin": "shì"
             },
             {
               "char": "不",
-              "pinyin": "yǒu"
+              "pinyin": "bù"
             },
             {
               "char": "目",
-              "pinyin": "wú"
+              "pinyin": "mù"
             },
             {
               "char": "见",
-              "pinyin": "kě"
+              "pinyin": "jiàn"
             },
             {
               "char": "耳",
-              "pinyin": "hū"
+              "pinyin": "ěr"
             },
             {
               "char": "闻",
-              "pinyin": "lì"
+              "pinyin": "wén"
             },
             {
               "char": "，",
@@ -2182,27 +2308,27 @@
             },
             {
               "char": "而",
-              "pinyin": "yuán"
+              "pinyin": "ér"
             },
             {
               "char": "臆",
-              "pinyin": "zhī"
+              "pinyin": "yì"
             },
             {
               "char": "断",
-              "pinyin": "suǒ"
+              "pinyin": "duàn"
             },
             {
               "char": "其",
-              "pinyin": "jiàn"
+              "pinyin": "qí"
             },
             {
               "char": "有",
-              "pinyin": "wén"
+              "pinyin": "yǒu"
             },
             {
               "char": "无",
-              "pinyin": "dài"
+              "pinyin": "wú"
             },
             {
               "char": "，",
@@ -2210,11 +2336,11 @@
             },
             {
               "char": "可",
-              "pinyin": "yǔ"
+              "pinyin": "kě"
             },
             {
               "char": "乎",
-              "pinyin": "yú"
+              "pinyin": "hū"
             },
             {
               "char": "？",
@@ -2222,7 +2348,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "郦道元见到和听到的，大概和我一样，但是说得不详细；"
           },
           "notes": []
         },
@@ -2230,27 +2356,27 @@
           "sentence": [
             {
               "char": "郦",
-              "pinyin": "tóng"
+              "pinyin": "lì"
             },
             {
               "char": "元",
-              "pinyin": "ér"
+              "pinyin": "yuán"
             },
             {
               "char": "之",
-              "pinyin": "yán"
-            },
-            {
-              "char": "所",
               "pinyin": "zhī"
             },
             {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
               "char": "见",
-              "pinyin": "bù"
+              "pinyin": "jiàn"
             },
             {
               "char": "闻",
-              "pinyin": "xiáng"
+              "pinyin": "wén"
             },
             {
               "char": "，",
@@ -2258,19 +2384,19 @@
             },
             {
               "char": "殆",
-              "pinyin": "shì"
+              "pinyin": "dài"
             },
             {
               "char": "与",
-              "pinyin": "dà"
+              "pinyin": "yǔ"
             },
             {
               "char": "余",
-              "pinyin": "fū"
+              "pinyin": "yú"
             },
             {
               "char": "同",
-              "pinyin": "zhōng"
+              "pinyin": "tóng"
             },
             {
               "char": "，",
@@ -2278,23 +2404,23 @@
             },
             {
               "char": "而",
-              "pinyin": "bù"
+              "pinyin": "ér"
             },
             {
               "char": "言",
-              "pinyin": "kěn"
+              "pinyin": "yán"
             },
             {
               "char": "之",
-              "pinyin": "yǐ"
+              "pinyin": "zhī"
             },
             {
               "char": "不",
-              "pinyin": "xiǎo"
+              "pinyin": "bù"
             },
             {
               "char": "详",
-              "pinyin": "zhōu"
+              "pinyin": "xiáng"
             },
             {
               "char": "；",
@@ -2302,7 +2428,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "士大夫终究不愿夜晚乘着小船停靠在悬崖绝壁下面，所以不能知道真相；"
           },
           "notes": []
         },
@@ -2310,63 +2436,63 @@
           "sentence": [
             {
               "char": "士",
-              "pinyin": "yè"
+              "pinyin": "shì"
             },
             {
               "char": "大",
-              "pinyin": "bó"
+              "pinyin": "dà"
             },
             {
               "char": "夫",
-              "pinyin": "jué"
+              "pinyin": "fū"
             },
             {
               "char": "终",
-              "pinyin": "bì"
+              "pinyin": "zhōng"
             },
             {
               "char": "不",
-              "pinyin": "zhī"
+              "pinyin": "bù"
             },
             {
               "char": "肯",
-              "pinyin": "xià"
+              "pinyin": "kěn"
             },
             {
               "char": "以",
-              "pinyin": "gù"
+              "pinyin": "yǐ"
             },
             {
               "char": "小",
-              "pinyin": "mò"
+              "pinyin": "xiǎo"
             },
             {
               "char": "舟",
-              "pinyin": "néng"
+              "pinyin": "zhōu"
             },
             {
               "char": "夜",
-              "pinyin": "zhī"
+              "pinyin": "yè"
             },
             {
               "char": "泊",
-              "pinyin": "ér"
+              "pinyin": "bó"
             },
             {
               "char": "绝",
-              "pinyin": "yú"
+              "pinyin": "jué"
             },
             {
               "char": "壁",
-              "pinyin": "gōng"
+              "pinyin": "bì"
             },
             {
               "char": "之",
-              "pinyin": "shuǐ"
+              "pinyin": "zhī"
             },
             {
               "char": "下",
-              "pinyin": "shī"
+              "pinyin": "xià"
             },
             {
               "char": "，",
@@ -2374,19 +2500,19 @@
             },
             {
               "char": "故",
-              "pinyin": "suī"
+              "pinyin": "gù"
             },
             {
               "char": "莫",
-              "pinyin": "zhī"
+              "pinyin": "mò"
             },
             {
               "char": "能",
-              "pinyin": "ér"
+              "pinyin": "néng"
             },
             {
               "char": "知",
-              "pinyin": "bù"
+              "pinyin": "zhī"
             },
             {
               "char": "；",
@@ -2394,7 +2520,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "而渔人和船工，虽然知道却又不能用文字表达、记载。"
           },
           "notes": []
         },
@@ -2402,47 +2528,47 @@
           "sentence": [
             {
               "char": "而",
-              "pinyin": "néng"
-            },
-            {
-              "char": "渔",
-              "pinyin": "yán"
-            },
-            {
-              "char": "工",
-              "pinyin": "cǐ"
-            },
-            {
-              "char": "水",
-              "pinyin": "shì"
-            },
-            {
-              "char": "师",
-              "pinyin": "suǒ"
-            },
-            {
-              "char": "虽",
-              "pinyin": "yǐ"
-            },
-            {
-              "char": "知",
-              "pinyin": "bù"
-            },
-            {
-              "char": "而",
-              "pinyin": "chuán"
-            },
-            {
-              "char": "不",
-              "pinyin": "yě"
-            },
-            {
-              "char": "能",
               "pinyin": "ér"
             },
             {
+              "char": "渔",
+              "pinyin": "yú"
+            },
+            {
+              "char": "工",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "师",
+              "pinyin": "shī"
+            },
+            {
+              "char": "虽",
+              "pinyin": "suī"
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "不",
+              "pinyin": "bù"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
               "char": "言",
-              "pinyin": "lòu"
+              "pinyin": "yán"
             },
             {
               "char": "。",
@@ -2450,7 +2576,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "这就是世上没有流传下来（石钟山得名由来）的缘故。"
           },
           "notes": []
         },
@@ -2458,31 +2584,31 @@
           "sentence": [
             {
               "char": "此",
-              "pinyin": "zhě"
+              "pinyin": "cǐ"
             },
             {
               "char": "世",
-              "pinyin": "nǎi"
+              "pinyin": "shì"
             },
             {
               "char": "所",
-              "pinyin": "yǐ"
+              "pinyin": "suǒ"
             },
             {
               "char": "以",
-              "pinyin": "fǔ"
+              "pinyin": "yǐ"
             },
             {
               "char": "不",
-              "pinyin": "jīn"
+              "pinyin": "bù"
             },
             {
               "char": "传",
-              "pinyin": "kǎo"
+              "pinyin": "chuán"
             },
             {
               "char": "也",
-              "pinyin": "jī"
+              "pinyin": "yě"
             },
             {
               "char": "。",
@@ -2490,9 +2616,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "而浅陋的人用斧头敲打石头的办法来寻求（石钟山得名的）原因，自以为得到了事情的真相。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "note": "这就是世上没有流传（石钟山得名由来）的缘故。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2502,15 +2634,15 @@
             },
             {
               "char": "陋",
-              "pinyin": "qiú"
+              "pinyin": "lòu"
             },
             {
               "char": "者",
-              "pinyin": "zhī"
+              "pinyin": "zhě"
             },
             {
               "char": "乃",
-              "pinyin": "zì"
+              "pinyin": "nǎi"
             },
             {
               "char": "以",
@@ -2518,31 +2650,31 @@
             },
             {
               "char": "斧",
-              "pinyin": "wéi"
+              "pinyin": "fǔ"
             },
             {
               "char": "斤",
-              "pinyin": "dé"
+              "pinyin": "jīn"
             },
             {
               "char": "考",
-              "pinyin": "qí"
+              "pinyin": "kǎo"
             },
             {
               "char": "击",
-              "pinyin": "shí"
+              "pinyin": "jī"
             },
             {
               "char": "而",
-              "pinyin": "yú"
+              "pinyin": "ér"
             },
             {
               "char": "求",
-              "pinyin": "shì"
+              "pinyin": "qiú"
             },
             {
               "char": "之",
-              "pinyin": "yǐ"
+              "pinyin": "zhī"
             },
             {
               "char": "，",
@@ -2550,27 +2682,27 @@
             },
             {
               "char": "自",
-              "pinyin": "jì"
+              "pinyin": "zì"
             },
             {
               "char": "以",
-              "pinyin": "zhī"
+              "pinyin": "yǐ"
             },
             {
               "char": "为",
-              "pinyin": "gài"
+              "pinyin": "wéi"
             },
             {
               "char": "得",
-              "pinyin": "tàn"
+              "pinyin": "dé"
             },
             {
               "char": "其",
-              "pinyin": "lì"
+              "pinyin": "qí"
             },
             {
               "char": "实",
-              "pinyin": "yuán"
+              "pinyin": "shí"
             },
             {
               "char": "。",
@@ -2578,7 +2710,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我之所以记下以上的经过，是因为叹惜郦道元的解释过于简略，也嘲笑李渤的解释太浅陋了。"
           },
           "notes": []
         },
@@ -2586,23 +2718,23 @@
           "sentence": [
             {
               "char": "余",
-              "pinyin": "zhī"
+              "pinyin": "yú"
             },
             {
               "char": "是",
-              "pinyin": "jiǎn"
+              "pinyin": "shì"
             },
             {
               "char": "以",
-              "pinyin": "ér"
+              "pinyin": "yǐ"
             },
             {
               "char": "记",
-              "pinyin": "xiào"
+              "pinyin": "jì"
             },
             {
               "char": "之",
-              "pinyin": "lǐ"
+              "pinyin": "zhī"
             },
             {
               "char": "，",
@@ -2610,27 +2742,27 @@
             },
             {
               "char": "盖",
-              "pinyin": "bó"
+              "pinyin": "gài"
             },
             {
               "char": "叹",
-              "pinyin": "zhī"
+              "pinyin": "tàn"
             },
             {
               "char": "郦",
-              "pinyin": "lòu"
+              "pinyin": "lì"
             },
             {
               "char": "元",
-              "pinyin": "yě"
+              "pinyin": "yuán"
             },
             {
               "char": "之",
-              "pinyin": ""
+              "pinyin": "zhī"
             },
             {
               "char": "简",
-              "pinyin": ""
+              "pinyin": "jiǎn"
             },
             {
               "char": "，",
@@ -2638,31 +2770,31 @@
             },
             {
               "char": "而",
-              "pinyin": ""
+              "pinyin": "ér"
             },
             {
               "char": "笑",
-              "pinyin": ""
+              "pinyin": "xiào"
             },
             {
               "char": "李",
-              "pinyin": ""
+              "pinyin": "lǐ"
             },
             {
               "char": "渤",
-              "pinyin": ""
+              "pinyin": "bó"
             },
             {
               "char": "之",
-              "pinyin": ""
+              "pinyin": "zhī"
             },
             {
               "char": "陋",
-              "pinyin": ""
+              "pinyin": "lòu"
             },
             {
               "char": "也",
-              "pinyin": ""
+              "pinyin": "yě"
             },
             {
               "char": "。",

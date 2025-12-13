@@ -14,27 +14,27 @@
           "content": [
             {
               "char": "《",
-              "pinyin": "shuǐ",
+              "pinyin": "",
               "index": 0
             },
             {
               "char": "水",
-              "pinyin": "jīng",
+              "pinyin": "shuǐ",
               "index": 1
             },
             {
               "char": "经",
-              "pinyin": "yún",
+              "pinyin": "jīng",
               "index": 2
             },
             {
               "char": "》",
-              "pinyin": "péng",
+              "pinyin": "",
               "index": 3
             },
             {
               "char": "云",
-              "pinyin": "lǐ",
+              "pinyin": "yún",
               "index": 4
             },
             {
@@ -49,102 +49,109 @@
             },
             {
               "char": "彭",
-              "pinyin": "zhī",
+              "pinyin": "péng",
               "index": 7
             },
             {
               "char": "蠡",
-              "pinyin": "kǒu",
+              "pinyin": "lǐ",
               "index": 8
             },
             {
               "char": "之",
-              "pinyin": "yǒu",
+              "pinyin": "zhī",
               "index": 9
             },
             {
               "char": "口",
-              "pinyin": "shí",
+              "pinyin": "kǒu",
               "index": 10
             },
             {
               "char": "有",
-              "pinyin": "zhōng",
+              "pinyin": "yǒu",
               "index": 11
             },
             {
               "char": "石",
-              "pinyin": "shān",
+              "pinyin": "shí",
               "index": 12
             },
             {
               "char": "钟",
-              "pinyin": "yān",
+              "pinyin": "zhōng",
               "index": 13
             },
             {
               "char": "山",
-              "pinyin": "lì",
+              "pinyin": "shān",
               "index": 14
             },
             {
               "char": "焉",
-              "pinyin": "yuán",
+              "pinyin": "yān",
               "index": 15
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 16
-            }
-          ],
-          "translation": "《水经》中说：“鄱阳湖的湖口有一座石钟山在那里。"
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 17
-            },
+            }
+          ],
+          "translation": "《水经》中说：“鄱阳湖的湖口有一座石钟山在那里。”",
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "content": "鄱阳湖的别称。"
+            }
+          ]
+        },
+        {
+          "content": [
             {
               "char": "郦",
-              "pinyin": "yǐ",
+              "pinyin": "lì",
               "index": 18
             },
             {
               "char": "元",
-              "pinyin": "wéi",
+              "pinyin": "yuán",
               "index": 19
             },
             {
               "char": "以",
-              "pinyin": "xià",
+              "pinyin": "yǐ",
               "index": 20
             },
             {
               "char": "为",
-              "pinyin": "lín",
+              "pinyin": "wéi",
               "index": 21
             },
             {
               "char": "下",
-              "pinyin": "shēn",
+              "pinyin": "xià",
               "index": 22
             },
             {
               "char": "临",
-              "pinyin": "tán",
+              "pinyin": "lín",
               "index": 23
             },
             {
               "char": "深",
-              "pinyin": "wēi",
+              "pinyin": "shēn",
               "index": 24
             },
             {
               "char": "潭",
-              "pinyin": "fēng",
+              "pinyin": "tán",
               "index": 25
             },
             {
@@ -154,22 +161,22 @@
             },
             {
               "char": "微",
-              "pinyin": "gǔ",
+              "pinyin": "wēi",
               "index": 27
             },
             {
               "char": "风",
-              "pinyin": "làng",
+              "pinyin": "fēng",
               "index": 28
             },
             {
               "char": "鼓",
-              "pinyin": "shuǐ",
+              "pinyin": "gǔ",
               "index": 29
             },
             {
               "char": "浪",
-              "pinyin": "shí",
+              "pinyin": "làng",
               "index": 30
             },
             {
@@ -179,22 +186,22 @@
             },
             {
               "char": "水",
-              "pinyin": "xiāng",
+              "pinyin": "shuǐ",
               "index": 32
             },
             {
               "char": "石",
-              "pinyin": "bó",
+              "pinyin": "shí",
               "index": 33
             },
             {
               "char": "相",
-              "pinyin": "shēng",
+              "pinyin": "xiāng",
               "index": 34
             },
             {
               "char": "搏",
-              "pinyin": "rú",
+              "pinyin": "bó",
               "index": 35
             },
             {
@@ -204,22 +211,22 @@
             },
             {
               "char": "声",
-              "pinyin": "hóng",
+              "pinyin": "shēng",
               "index": 37
             },
             {
               "char": "如",
-              "pinyin": "zhōng",
+              "pinyin": "rú",
               "index": 38
             },
             {
               "char": "洪",
-              "pinyin": "shì",
+              "pinyin": "hóng",
               "index": 39
             },
             {
               "char": "钟",
-              "pinyin": "shuō",
+              "pinyin": "zhōng",
               "index": 40
             },
             {
@@ -228,23 +235,35 @@
               "index": 41
             }
           ],
-          "translation": "”郦道元认为石钟山下面靠近深潭，微风振动波浪，水和石头互相拍打，发出的声音好像大钟一般。"
+          "translation": "郦道元认为石钟山下面靠近深潭，微风振动波浪，水和石头互相拍打，发出的声音好像大钟一般。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "即郦道元。"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "content": "激荡，掀动。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "是",
-              "pinyin": "yě",
+              "pinyin": "shì",
               "index": 42
             },
             {
               "char": "说",
-              "pinyin": "rén",
+              "pinyin": "shuō",
               "index": 43
             },
             {
               "char": "也",
-              "pinyin": "cháng",
+              "pinyin": "yě",
               "index": 44
             },
             {
@@ -254,22 +273,22 @@
             },
             {
               "char": "人",
-              "pinyin": "yí",
+              "pinyin": "rén",
               "index": 46
             },
             {
               "char": "常",
-              "pinyin": "zhī",
+              "pinyin": "cháng",
               "index": 47
             },
             {
               "char": "疑",
-              "pinyin": "jīn",
+              "pinyin": "yí",
               "index": 48
             },
             {
               "char": "之",
-              "pinyin": "yǐ",
+              "pinyin": "zhī",
               "index": 49
             },
             {
@@ -278,43 +297,44 @@
               "index": 50
             }
           ],
-          "translation": "这个说法，人们常常怀疑它。"
+          "translation": "这个说法，人们常常怀疑它。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "今",
-              "pinyin": "zhōng",
+              "pinyin": "jīn",
               "index": 51
             },
             {
               "char": "以",
-              "pinyin": "qìng",
+              "pinyin": "yǐ",
               "index": 52
             },
             {
               "char": "钟",
-              "pinyin": "zhì",
+              "pinyin": "zhōng",
               "index": 53
             },
             {
               "char": "磬",
-              "pinyin": "shuǐ",
+              "pinyin": "qìng",
               "index": 54
             },
             {
               "char": "置",
-              "pinyin": "zhōng",
+              "pinyin": "zhì",
               "index": 55
             },
             {
               "char": "水",
-              "pinyin": "suī",
+              "pinyin": "shuǐ",
               "index": 56
             },
             {
               "char": "中",
-              "pinyin": "dà",
+              "pinyin": "zhōng",
               "index": 57
             },
             {
@@ -324,42 +344,42 @@
             },
             {
               "char": "虽",
-              "pinyin": "fēng",
+              "pinyin": "suī",
               "index": 59
             },
             {
               "char": "大",
-              "pinyin": "làng",
+              "pinyin": "dà",
               "index": 60
             },
             {
               "char": "风",
-              "pinyin": "bù",
+              "pinyin": "fēng",
               "index": 61
             },
             {
               "char": "浪",
-              "pinyin": "néng",
+              "pinyin": "làng",
               "index": 62
             },
             {
               "char": "不",
-              "pinyin": "míng",
+              "pinyin": "bù",
               "index": 63
             },
             {
               "char": "能",
-              "pinyin": "yě",
+              "pinyin": "néng",
               "index": 64
             },
             {
               "char": "鸣",
-              "pinyin": "ér",
+              "pinyin": "míng",
               "index": 65
             },
             {
               "char": "也",
-              "pinyin": "kuàng",
+              "pinyin": "yě",
               "index": 66
             },
             {
@@ -369,22 +389,22 @@
             },
             {
               "char": "而",
-              "pinyin": "shí",
+              "pinyin": "ér",
               "index": 68
             },
             {
               "char": "况",
-              "pinyin": "hū",
+              "pinyin": "kuàng",
               "index": 69
             },
             {
               "char": "石",
-              "pinyin": "zhì",
+              "pinyin": "shí",
               "index": 70
             },
             {
               "char": "乎",
-              "pinyin": "táng",
+              "pinyin": "hū",
               "index": 71
             },
             {
@@ -393,53 +413,60 @@
               "index": 72
             }
           ],
-          "translation": "现在如果把钟磬放在水中，即使大风大浪也不能使它发出声响，何况是石头呢！"
+          "translation": "现在如果把钟磬放在水中，即使大风大浪也不能使它发出声响，何况是石头呢！",
+          "notes": [
+            {
+              "start": 3,
+              "end": 3,
+              "content": "古代打击乐器，形状像曲尺，用玉或石制成。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "至",
-              "pinyin": "lǐ",
+              "pinyin": "zhì",
               "index": 73
             },
             {
               "char": "唐",
-              "pinyin": "bó",
+              "pinyin": "táng",
               "index": 74
             },
             {
               "char": "李",
-              "pinyin": "shǐ",
+              "pinyin": "lǐ",
               "index": 75
             },
             {
               "char": "渤",
-              "pinyin": "fǎng",
+              "pinyin": "bó",
               "index": 76
             },
             {
               "char": "始",
-              "pinyin": "qí",
+              "pinyin": "shǐ",
               "index": 77
             },
             {
               "char": "访",
-              "pinyin": "yí",
+              "pinyin": "fǎng",
               "index": 78
             },
             {
               "char": "其",
-              "pinyin": "zōng",
+              "pinyin": "qí",
               "index": 79
             },
             {
               "char": "遗",
-              "pinyin": "dé",
+              "pinyin": "yí",
               "index": 80
             },
             {
               "char": "踪",
-              "pinyin": "shuāng",
+              "pinyin": "zōng",
               "index": 81
             },
             {
@@ -449,32 +476,32 @@
             },
             {
               "char": "得",
-              "pinyin": "shí",
+              "pinyin": "dé",
               "index": 83
             },
             {
               "char": "双",
-              "pinyin": "yú",
+              "pinyin": "shuāng",
               "index": 84
             },
             {
               "char": "石",
-              "pinyin": "tán",
+              "pinyin": "shí",
               "index": 85
             },
             {
               "char": "于",
-              "pinyin": "shàng",
+              "pinyin": "yú",
               "index": 86
             },
             {
               "char": "潭",
-              "pinyin": "kòu",
+              "pinyin": "tán",
               "index": 87
             },
             {
               "char": "上",
-              "pinyin": "ér",
+              "pinyin": "shàng",
               "index": 88
             },
             {
@@ -484,22 +511,22 @@
             },
             {
               "char": "扣",
-              "pinyin": "líng",
+              "pinyin": "kòu",
               "index": 90
             },
             {
               "char": "而",
-              "pinyin": "zhī",
+              "pinyin": "ér",
               "index": 91
             },
             {
               "char": "聆",
-              "pinyin": "nán",
+              "pinyin": "líng",
               "index": 92
             },
             {
               "char": "之",
-              "pinyin": "shēng",
+              "pinyin": "zhī",
               "index": 93
             },
             {
@@ -509,22 +536,22 @@
             },
             {
               "char": "南",
-              "pinyin": "hán",
+              "pinyin": "nán",
               "index": 95
             },
             {
               "char": "声",
-              "pinyin": "hú",
+              "pinyin": "shēng",
               "index": 96
             },
             {
               "char": "函",
-              "pinyin": "běi",
+              "pinyin": "hán",
               "index": 97
             },
             {
               "char": "胡",
-              "pinyin": "yīn",
+              "pinyin": "hú",
               "index": 98
             },
             {
@@ -534,22 +561,22 @@
             },
             {
               "char": "北",
-              "pinyin": "qīng",
+              "pinyin": "běi",
               "index": 100
             },
             {
               "char": "音",
-              "pinyin": "yuè",
+              "pinyin": "yīn",
               "index": 101
             },
             {
               "char": "清",
-              "pinyin": "fú",
+              "pinyin": "qīng",
               "index": 102
             },
             {
               "char": "越",
-              "pinyin": "zhǐ",
+              "pinyin": "yuè",
               "index": 103
             },
             {
@@ -559,22 +586,22 @@
             },
             {
               "char": "桴",
-              "pinyin": "xiǎng",
+              "pinyin": "fú",
               "index": 105
             },
             {
               "char": "止",
-              "pinyin": "téng",
+              "pinyin": "zhǐ",
               "index": 106
             },
             {
               "char": "响",
-              "pinyin": "yú",
+              "pinyin": "xiǎng",
               "index": 107
             },
             {
               "char": "腾",
-              "pinyin": "yùn",
+              "pinyin": "téng",
               "index": 108
             },
             {
@@ -584,22 +611,22 @@
             },
             {
               "char": "余",
-              "pinyin": "xú",
+              "pinyin": "yú",
               "index": 110
             },
             {
               "char": "韵",
-              "pinyin": "xiē",
+              "pinyin": "yùn",
               "index": 111
             },
             {
               "char": "徐",
-              "pinyin": "zì",
+              "pinyin": "xú",
               "index": 112
             },
             {
               "char": "歇",
-              "pinyin": "yǐ",
+              "pinyin": "xiē",
               "index": 113
             },
             {
@@ -608,38 +635,70 @@
               "index": 114
             }
           ],
-          "translation": "到了唐代李渤才访求石钟山的旧址。"
+          "translation": "到了唐代李渤才访求石钟山的旧址。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "唐代洛阳人，写过一篇《辨石钟山记》。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "content": "旧址，陈迹。这里指所在地。"
+            },
+            {
+              "start": 22,
+              "end": 25,
+              "content": "南边那块山石的声音重浊模糊。函胡，同“含糊”。"
+            },
+            {
+              "start": 27,
+              "end": 30,
+              "content": "北边那块山石的声音清脆悠扬。清越，清脆悠扬。"
+            },
+            {
+              "start": 32,
+              "end": 35,
+              "content": "鼓槌停止了（敲击），声音还在传播。腾，传播。"
+            },
+            {
+              "start": 37,
+              "end": 40,
+              "content": "余音慢慢消失。韵，声音。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "自",
-              "pinyin": "wéi",
+              "pinyin": "zì",
               "index": 115
             },
             {
               "char": "以",
-              "pinyin": "dé",
+              "pinyin": "yǐ",
               "index": 116
             },
             {
               "char": "为",
-              "pinyin": "zhī",
+              "pinyin": "wéi",
               "index": 117
             },
             {
               "char": "得",
-              "pinyin": "yǐ",
+              "pinyin": "dé",
               "index": 118
             },
             {
               "char": "之",
-              "pinyin": "rán",
+              "pinyin": "zhī",
               "index": 119
             },
             {
               "char": "矣",
-              "pinyin": "shì",
+              "pinyin": "yǐ",
               "index": 120
             },
             {
@@ -648,28 +707,29 @@
               "index": 121
             }
           ],
-          "translation": "在深潭边找到两块山石，敲击它们，聆听它们的声音，南边那座山石的声音重浊而模糊，北边那座山石的声音清脆而响亮，鼓槌停止了敲击，声音还在传播，余音慢慢地消失。"
+          "translation": "在深潭边找到两块山石，敲击它们，聆听它们的声音，南边那座山石的声音重浊而模糊，北边那座山石的声音清脆而响亮，鼓槌停止了敲击，声音还在传播，余音慢慢地消失。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "然",
-              "pinyin": "shuō",
+              "pinyin": "rán",
               "index": 122
             },
             {
               "char": "是",
-              "pinyin": "yě",
+              "pinyin": "shì",
               "index": 123
             },
             {
               "char": "说",
-              "pinyin": "yú",
+              "pinyin": "shuō",
               "index": 124
             },
             {
               "char": "也",
-              "pinyin": "yóu",
+              "pinyin": "yě",
               "index": 125
             },
             {
@@ -679,17 +739,17 @@
             },
             {
               "char": "余",
-              "pinyin": "yí",
+              "pinyin": "yú",
               "index": 127
             },
             {
               "char": "尤",
-              "pinyin": "zhī",
+              "pinyin": "yóu",
               "index": 128
             },
             {
               "char": "疑",
-              "pinyin": "shí",
+              "pinyin": "yí",
               "index": 129
             },
             {
@@ -703,43 +763,44 @@
               "index": 131
             }
           ],
-          "translation": "他自己认为找到了这个石钟山命名的原因。"
+          "translation": "他自己认为找到了这个石钟山命名的原因。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "石",
-              "pinyin": "kēng",
+              "pinyin": "shí",
               "index": 132
             },
             {
               "char": "之",
-              "pinyin": "rán",
+              "pinyin": "zhī",
               "index": 133
             },
             {
               "char": "铿",
-              "pinyin": "yǒu",
+              "pinyin": "kēng",
               "index": 134
             },
             {
               "char": "然",
-              "pinyin": "shēng",
+              "pinyin": "rán",
               "index": 135
             },
             {
               "char": "有",
-              "pinyin": "zhě",
+              "pinyin": "yǒu",
               "index": 136
             },
             {
               "char": "声",
-              "pinyin": "suǒ",
+              "pinyin": "shēng",
               "index": 137
             },
             {
               "char": "者",
-              "pinyin": "zài",
+              "pinyin": "zhě",
               "index": 138
             },
             {
@@ -749,27 +810,27 @@
             },
             {
               "char": "所",
-              "pinyin": "jiē",
+              "pinyin": "suǒ",
               "index": 140
             },
             {
               "char": "在",
-              "pinyin": "shì",
+              "pinyin": "zài",
               "index": 141
             },
             {
               "char": "皆",
-              "pinyin": "yě",
+              "pinyin": "jiē",
               "index": 142
             },
             {
               "char": "是",
-              "pinyin": "ér",
+              "pinyin": "shì",
               "index": 143
             },
             {
               "char": "也",
-              "pinyin": "cǐ",
+              "pinyin": "yě",
               "index": 144
             },
             {
@@ -779,32 +840,32 @@
             },
             {
               "char": "而",
-              "pinyin": "dú",
+              "pinyin": "ér",
               "index": 146
             },
             {
               "char": "此",
-              "pinyin": "yǐ",
+              "pinyin": "cǐ",
               "index": 147
             },
             {
               "char": "独",
-              "pinyin": "zhōng",
+              "pinyin": "dú",
               "index": 148
             },
             {
               "char": "以",
-              "pinyin": "míng",
+              "pinyin": "yǐ",
               "index": 149
             },
             {
               "char": "钟",
-              "pinyin": "hé",
+              "pinyin": "zhōng",
               "index": 150
             },
             {
               "char": "名",
-              "pinyin": "zāi",
+              "pinyin": "míng",
               "index": 151
             },
             {
@@ -814,12 +875,12 @@
             },
             {
               "char": "何",
-              "pinyin": "yuán",
+              "pinyin": "hé",
               "index": 153
             },
             {
               "char": "哉",
-              "pinyin": "fēng",
+              "pinyin": "zāi",
               "index": 154
             },
             {
@@ -828,7 +889,14 @@
               "index": 155
             }
           ],
-          "translation": "但是这个说法，我更加怀疑。"
+          "translation": "但是这个说法，我更加怀疑。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "形容敲击金石发出的响亮的声音。"
+            }
+          ]
         }
       ]
     },
@@ -838,42 +906,42 @@
           "content": [
             {
               "char": "元",
-              "pinyin": "qī",
+              "pinyin": "yuán",
               "index": 156
             },
             {
               "char": "丰",
-              "pinyin": "nián",
+              "pinyin": "fēng",
               "index": 157
             },
             {
               "char": "七",
-              "pinyin": "liù",
+              "pinyin": "qī",
               "index": 158
             },
             {
               "char": "年",
-              "pinyin": "yuè",
+              "pinyin": "nián",
               "index": 159
             },
             {
               "char": "六",
-              "pinyin": "dīng",
+              "pinyin": "liù",
               "index": 160
             },
             {
               "char": "月",
-              "pinyin": "chǒu",
+              "pinyin": "yuè",
               "index": 161
             },
             {
               "char": "丁",
-              "pinyin": "yú",
+              "pinyin": "dīng",
               "index": 162
             },
             {
               "char": "丑",
-              "pinyin": "zì",
+              "pinyin": "chǒu",
               "index": 163
             },
             {
@@ -883,47 +951,47 @@
             },
             {
               "char": "余",
-              "pinyin": "qí",
+              "pinyin": "yú",
               "index": 165
             },
             {
               "char": "自",
-              "pinyin": "ān",
+              "pinyin": "zì",
               "index": 166
             },
             {
               "char": "齐",
-              "pinyin": "zhōu",
+              "pinyin": "qí",
               "index": 167
             },
             {
               "char": "安",
-              "pinyin": "xíng",
+              "pinyin": "ān",
               "index": 168
             },
             {
               "char": "舟",
-              "pinyin": "shì",
+              "pinyin": "zhōu",
               "index": 169
             },
             {
               "char": "行",
-              "pinyin": "lín",
+              "pinyin": "xíng",
               "index": 170
             },
             {
               "char": "适",
-              "pinyin": "rǔ",
+              "pinyin": "shì",
               "index": 171
             },
             {
               "char": "临",
-              "pinyin": "ér",
+              "pinyin": "lín",
               "index": 172
             },
             {
               "char": "汝",
-              "pinyin": "zhǎng",
+              "pinyin": "rǔ",
               "index": 173
             },
             {
@@ -933,57 +1001,57 @@
             },
             {
               "char": "而",
-              "pinyin": "zǐ",
+              "pinyin": "ér",
               "index": 175
             },
             {
               "char": "长",
-              "pinyin": "mài",
+              "pinyin": "zhǎng",
               "index": 176
             },
             {
               "char": "子",
-              "pinyin": "jiāng",
+              "pinyin": "zǐ",
               "index": 177
             },
             {
               "char": "迈",
-              "pinyin": "fù",
+              "pinyin": "mài",
               "index": 178
             },
             {
               "char": "将",
-              "pinyin": "ráo",
+              "pinyin": "jiāng",
               "index": 179
             },
             {
               "char": "赴",
-              "pinyin": "zhī",
+              "pinyin": "fù",
               "index": 180
             },
             {
               "char": "饶",
-              "pinyin": "dé",
+              "pinyin": "ráo",
               "index": 181
             },
             {
               "char": "之",
-              "pinyin": "xīng",
+              "pinyin": "zhī",
               "index": 182
             },
             {
               "char": "德",
-              "pinyin": "wèi",
+              "pinyin": "dé",
               "index": 183
             },
             {
               "char": "兴",
-              "pinyin": "sòng",
+              "pinyin": "xīng",
               "index": 184
             },
             {
               "char": "尉",
-              "pinyin": "zhī",
+              "pinyin": "wèi",
               "index": 185
             },
             {
@@ -993,27 +1061,27 @@
             },
             {
               "char": "送",
-              "pinyin": "zhì",
+              "pinyin": "sòng",
               "index": 187
             },
             {
               "char": "之",
-              "pinyin": "hú",
+              "pinyin": "zhī",
               "index": 188
             },
             {
               "char": "至",
-              "pinyin": "kǒu",
+              "pinyin": "zhì",
               "index": 189
             },
             {
               "char": "湖",
-              "pinyin": "yīn",
+              "pinyin": "hú",
               "index": 190
             },
             {
               "char": "口",
-              "pinyin": "dé",
+              "pinyin": "kǒu",
               "index": 191
             },
             {
@@ -1023,42 +1091,42 @@
             },
             {
               "char": "因",
-              "pinyin": "guān",
+              "pinyin": "yīn",
               "index": 193
             },
             {
               "char": "得",
-              "pinyin": "suǒ",
+              "pinyin": "dé",
               "index": 194
             },
             {
               "char": "观",
-              "pinyin": "wèi",
+              "pinyin": "guān",
               "index": 195
             },
             {
               "char": "所",
-              "pinyin": "shí",
+              "pinyin": "suǒ",
               "index": 196
             },
             {
               "char": "谓",
-              "pinyin": "zhōng",
+              "pinyin": "wèi",
               "index": 197
             },
             {
               "char": "石",
-              "pinyin": "zhě",
+              "pinyin": "shí",
               "index": 198
             },
             {
               "char": "钟",
-              "pinyin": "sì",
+              "pinyin": "zhōng",
               "index": 199
             },
             {
               "char": "者",
-              "pinyin": "sēng",
+              "pinyin": "zhě",
               "index": 200
             },
             {
@@ -1067,43 +1135,65 @@
               "index": 201
             }
           ],
-          "translation": ""
+          "translation": "敲击后能发出声响的石头，到处都是这样，可唯独这座山用钟来命名，这是为什么呢？",
+          "notes": [
+            {
+              "start": 11,
+              "end": 12,
+              "content": "今湖北黄冈。齐安是黄州所在旧郡名。"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "content": "汝州的旧称。"
+            },
+            {
+              "start": 25,
+              "end": 29,
+              "content": "饶州德兴县的县尉。"
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "content": "县名，今属江西。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "寺",
-              "pinyin": "shǐ",
+              "pinyin": "sì",
               "index": 202
             },
             {
               "char": "僧",
-              "pinyin": "xiǎo",
+              "pinyin": "sēng",
               "index": 203
             },
             {
               "char": "使",
-              "pinyin": "tóng",
+              "pinyin": "shǐ",
               "index": 204
             },
             {
               "char": "小",
-              "pinyin": "chí",
+              "pinyin": "xiǎo",
               "index": 205
             },
             {
               "char": "童",
-              "pinyin": "fǔ",
+              "pinyin": "tóng",
               "index": 206
             },
             {
               "char": "持",
-              "pinyin": "yú",
+              "pinyin": "chí",
               "index": 207
             },
             {
               "char": "斧",
-              "pinyin": "luàn",
+              "pinyin": "fǔ",
               "index": 208
             },
             {
@@ -1113,52 +1203,52 @@
             },
             {
               "char": "于",
-              "pinyin": "shí",
+              "pinyin": "yú",
               "index": 210
             },
             {
               "char": "乱",
-              "pinyin": "jiān",
+              "pinyin": "luàn",
               "index": 211
             },
             {
               "char": "石",
-              "pinyin": "zé",
+              "pinyin": "shí",
               "index": 212
             },
             {
               "char": "间",
-              "pinyin": "qí",
+              "pinyin": "jiān",
               "index": 213
             },
             {
               "char": "择",
-              "pinyin": "yī",
+              "pinyin": "zé",
               "index": 214
             },
             {
               "char": "其",
-              "pinyin": "èr",
+              "pinyin": "qí",
               "index": 215
             },
             {
               "char": "一",
-              "pinyin": "kòu",
+              "pinyin": "yī",
               "index": 216
             },
             {
               "char": "二",
-              "pinyin": "zhī",
+              "pinyin": "èr",
               "index": 217
             },
             {
               "char": "扣",
-              "pinyin": "kōng",
+              "pinyin": "kòu",
               "index": 218
             },
             {
               "char": "之",
-              "pinyin": "kōng",
+              "pinyin": "zhī",
               "index": 219
             },
             {
@@ -1168,17 +1258,17 @@
             },
             {
               "char": "硿",
-              "pinyin": "yān",
+              "pinyin": "kōng",
               "index": 221
             },
             {
               "char": "硿",
-              "pinyin": "yú",
+              "pinyin": "kōng",
               "index": 222
             },
             {
               "char": "焉",
-              "pinyin": "gù",
+              "pinyin": "yān",
               "index": 223
             },
             {
@@ -1187,43 +1277,50 @@
               "index": 224
             }
           ],
-          "translation": ""
+          "translation": "元丰七年六月丁丑日，我从齐安坐船到临汝去，大儿子苏迈将要去就任饶州德兴县的县尉，我送他到湖口，因而能够观察这座称为“石钟”的山。",
+          "notes": [
+            {
+              "start": 19,
+              "end": 21,
+              "content": "硿硿地响。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "余",
-              "pinyin": "xiào",
+              "pinyin": "yú",
               "index": 225
             },
             {
               "char": "固",
-              "pinyin": "ér",
+              "pinyin": "gù",
               "index": 226
             },
             {
               "char": "笑",
-              "pinyin": "bù",
+              "pinyin": "xiào",
               "index": 227
             },
             {
               "char": "而",
-              "pinyin": "xìn",
+              "pinyin": "ér",
               "index": 228
             },
             {
               "char": "不",
-              "pinyin": "yě",
+              "pinyin": "bù",
               "index": 229
             },
             {
               "char": "信",
-              "pinyin": "zhì",
+              "pinyin": "xìn",
               "index": 230
             },
             {
               "char": "也",
-              "pinyin": "mù",
+              "pinyin": "yě",
               "index": 231
             },
             {
@@ -1232,33 +1329,34 @@
               "index": 232
             }
           ],
-          "translation": ""
+          "translation": "庙里的和尚叫小孩拿着斧头，在乱石中间选一两处敲打它，硿硿地发出的响声，我本来就觉得可笑，并不相信。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "至",
-              "pinyin": "yè",
+              "pinyin": "zhì",
               "index": 233
             },
             {
               "char": "暮",
-              "pinyin": "yuè",
+              "pinyin": "mù",
               "index": 234
             },
             {
               "char": "夜",
-              "pinyin": "míng",
+              "pinyin": "yè",
               "index": 235
             },
             {
               "char": "月",
-              "pinyin": "dú",
+              "pinyin": "yuè",
               "index": 236
             },
             {
               "char": "明",
-              "pinyin": "yǔ",
+              "pinyin": "míng",
               "index": 237
             },
             {
@@ -1268,32 +1366,32 @@
             },
             {
               "char": "独",
-              "pinyin": "mài",
+              "pinyin": "dú",
               "index": 239
             },
             {
               "char": "与",
-              "pinyin": "chéng",
+              "pinyin": "yǔ",
               "index": 240
             },
             {
               "char": "迈",
-              "pinyin": "xiǎo",
+              "pinyin": "mài",
               "index": 241
             },
             {
               "char": "乘",
-              "pinyin": "zhōu",
+              "pinyin": "chéng",
               "index": 242
             },
             {
               "char": "小",
-              "pinyin": "zhì",
+              "pinyin": "xiǎo",
               "index": 243
             },
             {
               "char": "舟",
-              "pinyin": "jué",
+              "pinyin": "zhōu",
               "index": 244
             },
             {
@@ -1303,22 +1401,22 @@
             },
             {
               "char": "至",
-              "pinyin": "bì",
+              "pinyin": "zhì",
               "index": 246
             },
             {
               "char": "绝",
-              "pinyin": "xià",
+              "pinyin": "jué",
               "index": 247
             },
             {
               "char": "壁",
-              "pinyin": "dà",
+              "pinyin": "bì",
               "index": 248
             },
             {
               "char": "下",
-              "pinyin": "shí",
+              "pinyin": "xià",
               "index": 249
             },
             {
@@ -1327,38 +1425,39 @@
               "index": 250
             }
           ],
-          "translation": ""
+          "translation": "到了晚上，月光明亮，我独自和苏迈坐着小船来到绝壁下面。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "大",
-              "pinyin": "cè",
+              "pinyin": "dà",
               "index": 251
             },
             {
               "char": "石",
-              "pinyin": "lì",
+              "pinyin": "shí",
               "index": 252
             },
             {
               "char": "侧",
-              "pinyin": "qiān",
+              "pinyin": "cè",
               "index": 253
             },
             {
               "char": "立",
-              "pinyin": "chǐ",
+              "pinyin": "lì",
               "index": 254
             },
             {
               "char": "千",
-              "pinyin": "rú",
+              "pinyin": "qiān",
               "index": 255
             },
             {
               "char": "尺",
-              "pinyin": "měng",
+              "pinyin": "chǐ",
               "index": 256
             },
             {
@@ -1368,27 +1467,27 @@
             },
             {
               "char": "如",
-              "pinyin": "shòu",
+              "pinyin": "rú",
               "index": 258
             },
             {
               "char": "猛",
-              "pinyin": "qí",
+              "pinyin": "měng",
               "index": 259
             },
             {
               "char": "兽",
-              "pinyin": "guǐ",
+              "pinyin": "shòu",
               "index": 260
             },
             {
               "char": "奇",
-              "pinyin": "sēn",
+              "pinyin": "qí",
               "index": 261
             },
             {
               "char": "鬼",
-              "pinyin": "rán",
+              "pinyin": "guǐ",
               "index": 262
             },
             {
@@ -1398,27 +1497,27 @@
             },
             {
               "char": "森",
-              "pinyin": "yù",
+              "pinyin": "sēn",
               "index": 264
             },
             {
               "char": "然",
-              "pinyin": "bó",
+              "pinyin": "rán",
               "index": 265
             },
             {
               "char": "欲",
-              "pinyin": "rén",
+              "pinyin": "yù",
               "index": 266
             },
             {
               "char": "搏",
-              "pinyin": "ér",
+              "pinyin": "bó",
               "index": 267
             },
             {
               "char": "人",
-              "pinyin": "shān",
+              "pinyin": "rén",
               "index": 268
             },
             {
@@ -1427,33 +1526,40 @@
               "index": 269
             }
           ],
-          "translation": ""
+          "translation": "巨大的山石在旁边耸立着，高达千尺，好像凶猛的野兽和奇异的鬼怪，阴森森地要向人扑过来；",
+          "notes": [
+            {
+              "start": 13,
+              "end": 14,
+              "content": "阴森的样子。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "而",
-              "pinyin": "shàng",
+              "pinyin": "ér",
               "index": 270
             },
             {
               "char": "山",
-              "pinyin": "qī",
+              "pinyin": "shān",
               "index": 271
             },
             {
               "char": "上",
-              "pinyin": "hú",
+              "pinyin": "shàng",
               "index": 272
             },
             {
               "char": "栖",
-              "pinyin": "wén",
+              "pinyin": "qī",
               "index": 273
             },
             {
               "char": "鹘",
-              "pinyin": "rén",
+              "pinyin": "hú",
               "index": 274
             },
             {
@@ -1463,32 +1569,32 @@
             },
             {
               "char": "闻",
-              "pinyin": "shēng",
+              "pinyin": "wén",
               "index": 276
             },
             {
               "char": "人",
-              "pinyin": "yì",
+              "pinyin": "rén",
               "index": 277
             },
             {
               "char": "声",
-              "pinyin": "jīng",
+              "pinyin": "shēng",
               "index": 278
             },
             {
               "char": "亦",
-              "pinyin": "qǐ",
+              "pinyin": "yì",
               "index": 279
             },
             {
               "char": "惊",
-              "pinyin": "zhé",
+              "pinyin": "jīng",
               "index": 280
             },
             {
               "char": "起",
-              "pinyin": "zhé",
+              "pinyin": "qǐ",
               "index": 281
             },
             {
@@ -1498,27 +1604,27 @@
             },
             {
               "char": "磔",
-              "pinyin": "yún",
+              "pinyin": "zhé",
               "index": 283
             },
             {
               "char": "磔",
-              "pinyin": "xiāo",
+              "pinyin": "zhé",
               "index": 284
             },
             {
               "char": "云",
-              "pinyin": "jiān",
+              "pinyin": "yún",
               "index": 285
             },
             {
               "char": "霄",
-              "pinyin": "yòu",
+              "pinyin": "xiāo",
               "index": 286
             },
             {
               "char": "间",
-              "pinyin": "yǒu",
+              "pinyin": "jiān",
               "index": 287
             },
             {
@@ -1527,73 +1633,85 @@
               "index": 288
             }
           ],
-          "translation": ""
+          "translation": "山上宿巢的老鹰听到人声，也受惊飞起来，在云霄中磔磔地鸣叫；",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "宿巢的隼。鹘，隼的旧称。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "content": "鸟鸣声。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "又",
-              "pinyin": "ruò",
+              "pinyin": "yòu",
               "index": 289
             },
             {
               "char": "有",
-              "pinyin": "lǎo",
+              "pinyin": "yǒu",
               "index": 290
             },
             {
               "char": "若",
-              "pinyin": "rén",
+              "pinyin": "ruò",
               "index": 291
             },
             {
               "char": "老",
-              "pinyin": "ké",
+              "pinyin": "lǎo",
               "index": 292
             },
             {
               "char": "人",
-              "pinyin": "qiě",
+              "pinyin": "rén",
               "index": 293
             },
             {
               "char": "咳",
-              "pinyin": "xiào",
+              "pinyin": "ké",
               "index": 294
             },
             {
               "char": "且",
-              "pinyin": "yú",
+              "pinyin": "qiě",
               "index": 295
             },
             {
               "char": "笑",
-              "pinyin": "shān",
+              "pinyin": "xiào",
               "index": 296
             },
             {
               "char": "于",
-              "pinyin": "gǔ",
+              "pinyin": "yú",
               "index": 297
             },
             {
               "char": "山",
-              "pinyin": "zhōng",
+              "pinyin": "shān",
               "index": 298
             },
             {
               "char": "谷",
-              "pinyin": "zhě",
+              "pinyin": "gǔ",
               "index": 299
             },
             {
               "char": "中",
-              "pinyin": "huò",
+              "pinyin": "zhōng",
               "index": 300
             },
             {
               "char": "者",
-              "pinyin": "yuē",
+              "pinyin": "zhě",
               "index": 301
             },
             {
@@ -1603,32 +1721,32 @@
             },
             {
               "char": "或",
-              "pinyin": "cǐ",
+              "pinyin": "huò",
               "index": 303
             },
             {
               "char": "曰",
-              "pinyin": "guàn",
+              "pinyin": "yuē",
               "index": 304
             },
             {
               "char": "此",
-              "pinyin": "hè",
+              "pinyin": "cǐ",
               "index": 305
             },
             {
               "char": "鹳",
-              "pinyin": "yě",
+              "pinyin": "guàn",
               "index": 306
             },
             {
               "char": "鹤",
-              "pinyin": "yú",
+              "pinyin": "hè",
               "index": 307
             },
             {
               "char": "也",
-              "pinyin": "fāng",
+              "pinyin": "yě",
               "index": 308
             },
             {
@@ -1637,38 +1755,45 @@
               "index": 309
             }
           ],
-          "translation": ""
+          "translation": "又有像老人在山谷中边咳边笑的声音，有人说这是鹳鹤。",
+          "notes": [
+            {
+              "start": 17,
+              "end": 18,
+              "content": "水鸟，似鹤而顶不红，颈和嘴都比鹤长，夜宿高树。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "余",
-              "pinyin": "xīn",
+              "pinyin": "yú",
               "index": 310
             },
             {
               "char": "方",
-              "pinyin": "dòng",
+              "pinyin": "fāng",
               "index": 311
             },
             {
               "char": "心",
-              "pinyin": "yù",
+              "pinyin": "xīn",
               "index": 312
             },
             {
               "char": "动",
-              "pinyin": "huán",
+              "pinyin": "dòng",
               "index": 313
             },
             {
               "char": "欲",
-              "pinyin": "ér",
+              "pinyin": "yù",
               "index": 314
             },
             {
               "char": "还",
-              "pinyin": "dà",
+              "pinyin": "huán",
               "index": 315
             },
             {
@@ -1678,37 +1803,37 @@
             },
             {
               "char": "而",
-              "pinyin": "shēng",
+              "pinyin": "ér",
               "index": 317
             },
             {
               "char": "大",
-              "pinyin": "fā",
+              "pinyin": "dà",
               "index": 318
             },
             {
               "char": "声",
-              "pinyin": "yú",
+              "pinyin": "shēng",
               "index": 319
             },
             {
               "char": "发",
-              "pinyin": "shuǐ",
+              "pinyin": "fā",
               "index": 320
             },
             {
               "char": "于",
-              "pinyin": "shàng",
+              "pinyin": "yú",
               "index": 321
             },
             {
               "char": "水",
-              "pinyin": "cēng",
+              "pinyin": "shuǐ",
               "index": 322
             },
             {
               "char": "上",
-              "pinyin": "hóng",
+              "pinyin": "shàng",
               "index": 323
             },
             {
@@ -1718,37 +1843,37 @@
             },
             {
               "char": "噌",
-              "pinyin": "rú",
+              "pinyin": "cēng",
               "index": 325
             },
             {
               "char": "吰",
-              "pinyin": "zhōng",
+              "pinyin": "hóng",
               "index": 326
             },
             {
               "char": "如",
-              "pinyin": "gǔ",
+              "pinyin": "rú",
               "index": 327
             },
             {
               "char": "钟",
-              "pinyin": "bù",
+              "pinyin": "zhōng",
               "index": 328
             },
             {
               "char": "鼓",
-              "pinyin": "jué",
+              "pinyin": "gǔ",
               "index": 329
             },
             {
               "char": "不",
-              "pinyin": "zhōu",
+              "pinyin": "bù",
               "index": 330
             },
             {
               "char": "绝",
-              "pinyin": "rén",
+              "pinyin": "jué",
               "index": 331
             },
             {
@@ -1757,28 +1882,40 @@
               "index": 332
             }
           ],
-          "translation": ""
+          "translation": "我正心惊想要回去，忽然巨大的声音从水上发出，噌地响着像钟鼓的声音连续不断。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "内心惊恐。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "content": "形容钟鼓的声音。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "舟",
-              "pinyin": "dà",
+              "pinyin": "zhōu",
               "index": 333
             },
             {
               "char": "人",
-              "pinyin": "kǒng",
+              "pinyin": "rén",
               "index": 334
             },
             {
               "char": "大",
-              "pinyin": "xú",
+              "pinyin": "dà",
               "index": 335
             },
             {
               "char": "恐",
-              "pinyin": "ér",
+              "pinyin": "kǒng",
               "index": 336
             },
             {
@@ -1787,28 +1924,29 @@
               "index": 337
             }
           ],
-          "translation": ""
+          "translation": "船夫非常害怕。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "徐",
-              "pinyin": "chá",
+              "pinyin": "xú",
               "index": 338
             },
             {
               "char": "而",
-              "pinyin": "zhī",
+              "pinyin": "ér",
               "index": 339
             },
             {
               "char": "察",
-              "pinyin": "zé",
+              "pinyin": "chá",
               "index": 340
             },
             {
               "char": "之",
-              "pinyin": "shān",
+              "pinyin": "zhī",
               "index": 341
             },
             {
@@ -1818,37 +1956,37 @@
             },
             {
               "char": "则",
-              "pinyin": "xià",
+              "pinyin": "zé",
               "index": 343
             },
             {
               "char": "山",
-              "pinyin": "jiē",
+              "pinyin": "shān",
               "index": 344
             },
             {
               "char": "下",
-              "pinyin": "shí",
+              "pinyin": "xià",
               "index": 345
             },
             {
               "char": "皆",
-              "pinyin": "xué",
+              "pinyin": "jiē",
               "index": 346
             },
             {
               "char": "石",
-              "pinyin": "xià",
+              "pinyin": "shí",
               "index": 347
             },
             {
               "char": "穴",
-              "pinyin": "bù",
+              "pinyin": "xué",
               "index": 348
             },
             {
               "char": "罅",
-              "pinyin": "zhī",
+              "pinyin": "xià",
               "index": 349
             },
             {
@@ -1858,27 +1996,27 @@
             },
             {
               "char": "不",
-              "pinyin": "qí",
+              "pinyin": "bù",
               "index": 351
             },
             {
               "char": "知",
-              "pinyin": "qiǎn",
+              "pinyin": "zhī",
               "index": 352
             },
             {
               "char": "其",
-              "pinyin": "shēn",
+              "pinyin": "qí",
               "index": 353
             },
             {
               "char": "浅",
-              "pinyin": "wēi",
+              "pinyin": "qiǎn",
               "index": 354
             },
             {
               "char": "深",
-              "pinyin": "bō",
+              "pinyin": "shēn",
               "index": 355
             },
             {
@@ -1888,22 +2026,22 @@
             },
             {
               "char": "微",
-              "pinyin": "rù",
+              "pinyin": "wēi",
               "index": 357
             },
             {
               "char": "波",
-              "pinyin": "yān",
+              "pinyin": "bō",
               "index": 358
             },
             {
               "char": "入",
-              "pinyin": "hán",
+              "pinyin": "rù",
               "index": 359
             },
             {
               "char": "焉",
-              "pinyin": "dàn",
+              "pinyin": "yān",
               "index": 360
             },
             {
@@ -1913,42 +2051,42 @@
             },
             {
               "char": "涵",
-              "pinyin": "péng",
+              "pinyin": "hán",
               "index": 362
             },
             {
               "char": "澹",
-              "pinyin": "pài",
+              "pinyin": "dàn",
               "index": 363
             },
             {
               "char": "澎",
-              "pinyin": "ér",
+              "pinyin": "péng",
               "index": 364
             },
             {
               "char": "湃",
-              "pinyin": "wéi",
+              "pinyin": "pài",
               "index": 365
             },
             {
               "char": "而",
-              "pinyin": "cǐ",
+              "pinyin": "ér",
               "index": 366
             },
             {
               "char": "为",
-              "pinyin": "yě",
+              "pinyin": "wéi",
               "index": 367
             },
             {
               "char": "此",
-              "pinyin": "zhōu",
+              "pinyin": "cǐ",
               "index": 368
             },
             {
               "char": "也",
-              "pinyin": "huí",
+              "pinyin": "yě",
               "index": 369
             },
             {
@@ -1957,38 +2095,50 @@
               "index": 370
             }
           ],
-          "translation": ""
+          "translation": "我慢慢地观察，原来山脚下都是石头的洞穴和裂缝，不知它们的深浅，微微的水波涌进洞穴和裂缝，激荡撞击便产生这样的声音。",
+          "notes": [
+            {
+              "start": 11,
+              "end": 11,
+              "content": "裂缝。"
+            },
+            {
+              "start": 24,
+              "end": 27,
+              "content": "（波浪）激荡冲击。涵澹，水波动荡。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "舟",
-              "pinyin": "zhì",
+              "pinyin": "zhōu",
               "index": 371
             },
             {
               "char": "回",
-              "pinyin": "liǎng",
+              "pinyin": "huí",
               "index": 372
             },
             {
               "char": "至",
-              "pinyin": "shān",
+              "pinyin": "zhì",
               "index": 373
             },
             {
               "char": "两",
-              "pinyin": "jiān",
+              "pinyin": "liǎng",
               "index": 374
             },
             {
               "char": "山",
-              "pinyin": "jiāng",
+              "pinyin": "shān",
               "index": 375
             },
             {
               "char": "间",
-              "pinyin": "rù",
+              "pinyin": "jiān",
               "index": 376
             },
             {
@@ -1998,22 +2148,22 @@
             },
             {
               "char": "将",
-              "pinyin": "gǎng",
+              "pinyin": "jiāng",
               "index": 378
             },
             {
               "char": "入",
-              "pinyin": "kǒu",
+              "pinyin": "rù",
               "index": 379
             },
             {
               "char": "港",
-              "pinyin": "yǒu",
+              "pinyin": "gǎng",
               "index": 380
             },
             {
               "char": "口",
-              "pinyin": "dà",
+              "pinyin": "kǒu",
               "index": 381
             },
             {
@@ -2023,32 +2173,32 @@
             },
             {
               "char": "有",
-              "pinyin": "shí",
+              "pinyin": "yǒu",
               "index": 383
             },
             {
               "char": "大",
-              "pinyin": "dāng",
+              "pinyin": "dà",
               "index": 384
             },
             {
               "char": "石",
-              "pinyin": "zhōng",
+              "pinyin": "shí",
               "index": 385
             },
             {
               "char": "当",
-              "pinyin": "liú",
+              "pinyin": "dāng",
               "index": 386
             },
             {
               "char": "中",
-              "pinyin": "kě",
+              "pinyin": "zhōng",
               "index": 387
             },
             {
               "char": "流",
-              "pinyin": "zuò",
+              "pinyin": "liú",
               "index": 388
             },
             {
@@ -2058,22 +2208,22 @@
             },
             {
               "char": "可",
-              "pinyin": "bǎi",
+              "pinyin": "kě",
               "index": 390
             },
             {
               "char": "坐",
-              "pinyin": "rén",
+              "pinyin": "zuò",
               "index": 391
             },
             {
               "char": "百",
-              "pinyin": "kōng",
+              "pinyin": "bǎi",
               "index": 392
             },
             {
               "char": "人",
-              "pinyin": "zhōng",
+              "pinyin": "rén",
               "index": 393
             },
             {
@@ -2083,27 +2233,27 @@
             },
             {
               "char": "空",
-              "pinyin": "ér",
+              "pinyin": "kōng",
               "index": 395
             },
             {
               "char": "中",
-              "pinyin": "duō",
+              "pinyin": "zhōng",
               "index": 396
             },
             {
               "char": "而",
-              "pinyin": "qiào",
+              "pinyin": "ér",
               "index": 397
             },
             {
               "char": "多",
-              "pinyin": "yǔ",
+              "pinyin": "duō",
               "index": 398
             },
             {
               "char": "窍",
-              "pinyin": "fēng",
+              "pinyin": "qiào",
               "index": 399
             },
             {
@@ -2113,32 +2263,32 @@
             },
             {
               "char": "与",
-              "pinyin": "shuǐ",
+              "pinyin": "yǔ",
               "index": 401
             },
             {
               "char": "风",
-              "pinyin": "xiāng",
+              "pinyin": "fēng",
               "index": 402
             },
             {
               "char": "水",
-              "pinyin": "tūn",
+              "pinyin": "shuǐ",
               "index": 403
             },
             {
               "char": "相",
-              "pinyin": "tǔ",
+              "pinyin": "xiāng",
               "index": 404
             },
             {
               "char": "吞",
-              "pinyin": "yǒu",
+              "pinyin": "tūn",
               "index": 405
             },
             {
               "char": "吐",
-              "pinyin": "kuǎn",
+              "pinyin": "tǔ",
               "index": 406
             },
             {
@@ -2148,37 +2298,37 @@
             },
             {
               "char": "有",
-              "pinyin": "kǎn",
+              "pinyin": "yǒu",
               "index": 408
             },
             {
               "char": "窾",
-              "pinyin": "táng",
+              "pinyin": "kuǎn",
               "index": 409
             },
             {
               "char": "坎",
-              "pinyin": "tà",
+              "pinyin": "kǎn",
               "index": 410
             },
             {
               "char": "镗",
-              "pinyin": "zhī",
+              "pinyin": "táng",
               "index": 411
             },
             {
               "char": "鞳",
-              "pinyin": "shēng",
+              "pinyin": "tà",
               "index": 412
             },
             {
               "char": "之",
-              "pinyin": "yǔ",
+              "pinyin": "zhī",
               "index": 413
             },
             {
               "char": "声",
-              "pinyin": "xiàng",
+              "pinyin": "shēng",
               "index": 414
             },
             {
@@ -2188,42 +2338,42 @@
             },
             {
               "char": "与",
-              "pinyin": "zhī",
+              "pinyin": "yǔ",
               "index": 416
             },
             {
               "char": "向",
-              "pinyin": "cēng",
+              "pinyin": "xiàng",
               "index": 417
             },
             {
               "char": "之",
-              "pinyin": "hóng",
+              "pinyin": "zhī",
               "index": 418
             },
             {
               "char": "噌",
-              "pinyin": "zhě",
+              "pinyin": "cēng",
               "index": 419
             },
             {
               "char": "吰",
-              "pinyin": "xiāng",
+              "pinyin": "hóng",
               "index": 420
             },
             {
               "char": "者",
-              "pinyin": "yìng",
+              "pinyin": "zhě",
               "index": 421
             },
             {
               "char": "相",
-              "pinyin": "rú",
+              "pinyin": "xiāng",
               "index": 422
             },
             {
               "char": "应",
-              "pinyin": "yuè",
+              "pinyin": "yìng",
               "index": 423
             },
             {
@@ -2233,22 +2383,22 @@
             },
             {
               "char": "如",
-              "pinyin": "zuò",
+              "pinyin": "rú",
               "index": 425
             },
             {
               "char": "乐",
-              "pinyin": "yān",
+              "pinyin": "yuè",
               "index": 426
             },
             {
               "char": "作",
-              "pinyin": "yīn",
+              "pinyin": "zuò",
               "index": 427
             },
             {
               "char": "焉",
-              "pinyin": "xiào",
+              "pinyin": "yān",
               "index": 428
             },
             {
@@ -2257,33 +2407,50 @@
               "index": 429
             }
           ],
-          "translation": ""
+          "translation": "船绕到两山之间，将要进入港口，有块大石头挡在水流的中央，上面可坐百来个人，中间是空的，而且有许多窟窿，把风浪吞进去又吐出来，发出窾坎镗鞳的声音，同先前噌吰的声音相互应和，好像音乐演奏。",
+          "notes": [
+            {
+              "start": 16,
+              "end": 17,
+              "content": "江河水流中央。"
+            },
+            {
+              "start": 24,
+              "end": 25,
+              "content": "中间是空的。"
+            },
+            {
+              "start": 38,
+              "end": 41,
+              "content": "窾坎，击物声。镗鞳，钟鼓声。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "因",
-              "pinyin": "wèi",
+              "pinyin": "yīn",
               "index": 430
             },
             {
               "char": "笑",
-              "pinyin": "mài",
+              "pinyin": "xiào",
               "index": 431
             },
             {
               "char": "谓",
-              "pinyin": "yuē",
+              "pinyin": "wèi",
               "index": 432
             },
             {
               "char": "迈",
-              "pinyin": "rǔ",
+              "pinyin": "mài",
               "index": 433
             },
             {
               "char": "曰",
-              "pinyin": "zhì",
+              "pinyin": "yuē",
               "index": 434
             },
             {
@@ -2298,22 +2465,22 @@
             },
             {
               "char": "汝",
-              "pinyin": "zhī",
+              "pinyin": "rǔ",
               "index": 437
             },
             {
               "char": "识",
-              "pinyin": "hū",
+              "pinyin": "zhì",
               "index": 438
             },
             {
               "char": "之",
-              "pinyin": "cēng",
+              "pinyin": "zhī",
               "index": 439
             },
             {
               "char": "乎",
-              "pinyin": "hóng",
+              "pinyin": "hū",
               "index": 440
             },
             {
@@ -2322,23 +2489,30 @@
               "index": 441
             }
           ],
-          "translation": ""
+          "translation": "我于是笑着对苏迈说：“你知道吗?那噌吰的响声，是周景王无射钟的声音；",
+          "notes": [
+            {
+              "start": 7,
+              "end": 10,
+              "content": "你知道吗？"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "噌",
-              "pinyin": "zhě",
+              "pinyin": "cēng",
               "index": 442
             },
             {
               "char": "吰",
-              "pinyin": "zhōu",
+              "pinyin": "hóng",
               "index": 443
             },
             {
               "char": "者",
-              "pinyin": "jǐng",
+              "pinyin": "zhě",
               "index": 444
             },
             {
@@ -2348,37 +2522,37 @@
             },
             {
               "char": "周",
-              "pinyin": "wáng",
+              "pinyin": "zhōu",
               "index": 446
             },
             {
               "char": "景",
-              "pinyin": "zhī",
+              "pinyin": "jǐng",
               "index": 447
             },
             {
               "char": "王",
-              "pinyin": "wú",
+              "pinyin": "wáng",
               "index": 448
             },
             {
               "char": "之",
-              "pinyin": "yì",
+              "pinyin": "zhī",
               "index": 449
             },
             {
               "char": "无",
-              "pinyin": "yě",
+              "pinyin": "wú",
               "index": 450
             },
             {
               "char": "射",
-              "pinyin": "kuǎn",
+              "pinyin": "yì",
               "index": 451
             },
             {
               "char": "也",
-              "pinyin": "kǎn",
+              "pinyin": "yě",
               "index": 452
             },
             {
@@ -2387,33 +2561,40 @@
               "index": 453
             }
           ],
-          "translation": ""
+          "translation": "窾坎镗鞳的响声，是魏庄子歌钟的声音。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 9,
+              "content": "《国语·周语下》记载，周景王曾命铸造“无射”。无射，钟名。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "窾",
-              "pinyin": "táng",
+              "pinyin": "kuǎn",
               "index": 454
             },
             {
               "char": "坎",
-              "pinyin": "tà",
+              "pinyin": "kǎn",
               "index": 455
             },
             {
               "char": "镗",
-              "pinyin": "zhě",
+              "pinyin": "táng",
               "index": 456
             },
             {
               "char": "鞳",
-              "pinyin": "wèi",
+              "pinyin": "tà",
               "index": 457
             },
             {
               "char": "者",
-              "pinyin": "zhuāng",
+              "pinyin": "zhě",
               "index": 458
             },
             {
@@ -2423,37 +2604,37 @@
             },
             {
               "char": "魏",
-              "pinyin": "zǐ",
+              "pinyin": "wèi",
               "index": 460
             },
             {
               "char": "庄",
-              "pinyin": "zhī",
+              "pinyin": "zhuāng",
               "index": 461
             },
             {
               "char": "子",
-              "pinyin": "gē",
+              "pinyin": "zǐ",
               "index": 462
             },
             {
               "char": "之",
-              "pinyin": "zhōng",
+              "pinyin": "zhī",
               "index": 463
             },
             {
               "char": "歌",
-              "pinyin": "yě",
+              "pinyin": "gē",
               "index": 464
             },
             {
               "char": "钟",
-              "pinyin": "gǔ",
+              "pinyin": "zhōng",
               "index": 465
             },
             {
               "char": "也",
-              "pinyin": "zhī",
+              "pinyin": "yě",
               "index": 466
             },
             {
@@ -2462,112 +2643,71 @@
               "index": 467
             }
           ],
-          "translation": ""
+          "translation": "古人没有欺骗我啊！”",
+          "notes": [
+            {
+              "start": 6,
+              "end": 11,
+              "content": "《左传·襄公十一年》记载，鲁襄公十一年（前562），郑人以歌钟和其他乐器献给晋侯，晋侯分一半赐给晋大夫魏绛。魏庄子，魏绛谥“庄”，故名。歌钟，古乐器。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "古",
-              "pinyin": "rén",
+              "pinyin": "gǔ",
               "index": 468
             },
             {
               "char": "之",
-              "pinyin": "bù",
+              "pinyin": "zhī",
               "index": 469
             },
             {
               "char": "人",
-              "pinyin": "yú",
+              "pinyin": "rén",
               "index": 470
             },
             {
               "char": "不",
-              "pinyin": "qī",
+              "pinyin": "bù",
               "index": 471
             },
             {
               "char": "余",
-              "pinyin": "yě",
+              "pinyin": "yú",
               "index": 472
             },
             {
               "char": "欺",
-              "pinyin": "shì",
+              "pinyin": "qī",
               "index": 473
             },
             {
               "char": "也",
-              "pinyin": "bù",
+              "pinyin": "yě",
               "index": 474
             },
             {
               "char": "！",
               "pinyin": "",
               "index": 475
-            }
-          ],
-          "translation": ""
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 476
-            },
-            {
-              "char": "(",
-              "pinyin": "",
-              "index": 477
-            },
-            {
-              "char": "千",
-              "pinyin": "mù",
-              "index": 478
-            },
-            {
-              "char": "尺",
-              "pinyin": "jiàn",
-              "index": 479
-            },
-            {
-              "char": " ",
-              "pinyin": "ěr",
-              "index": 480
-            },
-            {
-              "char": "一",
-              "pinyin": "wén",
-              "index": 481
-            },
-            {
-              "char": "作",
-              "pinyin": "ér",
-              "index": 482
-            },
-            {
-              "char": "：",
-              "pinyin": "",
-              "index": 483
-            },
-            {
-              "char": "千",
-              "pinyin": "yì",
-              "index": 484
-            },
-            {
-              "char": "仞",
-              "pinyin": "duàn",
-              "index": 485
-            },
-            {
-              "char": ")",
-              "pinyin": "",
-              "index": 486
             }
           ],
-          "translation": ""
+          "translation": "凡事不亲眼看到亲耳听到，却根据主观猜测去来判断它的有或没有（正不正确），可以吗？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "古代的人（称这山为“石钟山”）没有欺骗我啊！不余欺，即“不欺余”。"
+            }
+          ]
         }
       ]
     },
@@ -2577,67 +2717,123 @@
           "content": [
             {
               "char": "事",
-              "pinyin": "qí",
-              "index": 487
+              "pinyin": "shì",
+              "index": 477
             },
             {
               "char": "不",
-              "pinyin": "yǒu",
-              "index": 488
+              "pinyin": "bù",
+              "index": 478
             },
             {
               "char": "目",
-              "pinyin": "wú",
-              "index": 489
+              "pinyin": "mù",
+              "index": 479
             },
             {
               "char": "见",
-              "pinyin": "kě",
-              "index": 490
+              "pinyin": "jiàn",
+              "index": 480
             },
             {
               "char": "耳",
-              "pinyin": "hū",
-              "index": 491
+              "pinyin": "ěr",
+              "index": 481
             },
             {
               "char": "闻",
-              "pinyin": "lì",
-              "index": 492
+              "pinyin": "wén",
+              "index": 482
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 493
+              "index": 483
             },
             {
               "char": "而",
-              "pinyin": "yuán",
-              "index": 494
+              "pinyin": "ér",
+              "index": 484
             },
             {
               "char": "臆",
-              "pinyin": "zhī",
-              "index": 495
+              "pinyin": "yì",
+              "index": 485
             },
             {
               "char": "断",
-              "pinyin": "suǒ",
-              "index": 496
+              "pinyin": "duàn",
+              "index": 486
             },
             {
               "char": "其",
-              "pinyin": "jiàn",
-              "index": 497
+              "pinyin": "qí",
+              "index": 487
             },
             {
               "char": "有",
-              "pinyin": "wén",
-              "index": 498
+              "pinyin": "yǒu",
+              "index": 488
             },
             {
               "char": "无",
-              "pinyin": "dài",
+              "pinyin": "wú",
+              "index": 489
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 490
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 491
+            },
+            {
+              "char": "乎",
+              "pinyin": "hū",
+              "index": 492
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 493
+            }
+          ],
+          "translation": "郦道元见到和听到的，大概和我一样，但是说得不详细；",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "郦",
+              "pinyin": "lì",
+              "index": 494
+            },
+            {
+              "char": "元",
+              "pinyin": "yuán",
+              "index": 495
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 496
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 497
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn",
+              "index": 498
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
               "index": 499
             },
             {
@@ -2646,357 +2842,362 @@
               "index": 500
             },
             {
-              "char": "可",
-              "pinyin": "yǔ",
+              "char": "殆",
+              "pinyin": "dài",
               "index": 501
             },
             {
-              "char": "乎",
-              "pinyin": "yú",
+              "char": "与",
+              "pinyin": "yǔ",
               "index": 502
             },
             {
-              "char": "？",
-              "pinyin": "",
+              "char": "余",
+              "pinyin": "yú",
               "index": 503
-            }
-          ],
-          "translation": ""
-        },
-        {
-          "content": [
+            },
             {
-              "char": "郦",
+              "char": "同",
               "pinyin": "tóng",
               "index": 504
             },
             {
-              "char": "元",
-              "pinyin": "ér",
+              "char": "，",
+              "pinyin": "",
               "index": 505
             },
             {
-              "char": "之",
-              "pinyin": "yán",
+              "char": "而",
+              "pinyin": "ér",
               "index": 506
             },
             {
-              "char": "所",
-              "pinyin": "zhī",
+              "char": "言",
+              "pinyin": "yán",
               "index": 507
             },
             {
-              "char": "见",
-              "pinyin": "bù",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 508
             },
             {
-              "char": "闻",
-              "pinyin": "xiáng",
+              "char": "不",
+              "pinyin": "bù",
               "index": 509
             },
             {
-              "char": "，",
-              "pinyin": "",
-              "index": 510
-            },
-            {
-              "char": "殆",
-              "pinyin": "shì",
-              "index": 511
-            },
-            {
-              "char": "与",
-              "pinyin": "dà",
-              "index": 512
-            },
-            {
-              "char": "余",
-              "pinyin": "fū",
-              "index": 513
-            },
-            {
-              "char": "同",
-              "pinyin": "zhōng",
-              "index": 514
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 515
-            },
-            {
-              "char": "而",
-              "pinyin": "bù",
-              "index": 516
-            },
-            {
-              "char": "言",
-              "pinyin": "kěn",
-              "index": 517
-            },
-            {
-              "char": "之",
-              "pinyin": "yǐ",
-              "index": 518
-            },
-            {
-              "char": "不",
-              "pinyin": "xiǎo",
-              "index": 519
-            },
-            {
               "char": "详",
-              "pinyin": "zhōu",
-              "index": 520
+              "pinyin": "xiáng",
+              "index": 510
             },
             {
               "char": "；",
               "pinyin": "",
-              "index": 521
+              "index": 511
             }
           ],
-          "translation": ""
+          "translation": "士大夫终究不愿夜晚乘着小船停靠在悬崖绝壁下面，所以不能知道真相；",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "士",
-              "pinyin": "yè",
-              "index": 522
+              "pinyin": "shì",
+              "index": 512
             },
             {
               "char": "大",
-              "pinyin": "bó",
-              "index": 523
+              "pinyin": "dà",
+              "index": 513
             },
             {
               "char": "夫",
-              "pinyin": "jué",
-              "index": 524
+              "pinyin": "fū",
+              "index": 514
             },
             {
               "char": "终",
-              "pinyin": "bì",
-              "index": 525
+              "pinyin": "zhōng",
+              "index": 515
             },
             {
               "char": "不",
-              "pinyin": "zhī",
-              "index": 526
+              "pinyin": "bù",
+              "index": 516
             },
             {
               "char": "肯",
-              "pinyin": "xià",
-              "index": 527
+              "pinyin": "kěn",
+              "index": 517
             },
             {
               "char": "以",
-              "pinyin": "gù",
-              "index": 528
+              "pinyin": "yǐ",
+              "index": 518
             },
             {
               "char": "小",
-              "pinyin": "mò",
-              "index": 529
+              "pinyin": "xiǎo",
+              "index": 519
             },
             {
               "char": "舟",
-              "pinyin": "néng",
-              "index": 530
+              "pinyin": "zhōu",
+              "index": 520
             },
             {
               "char": "夜",
-              "pinyin": "zhī",
-              "index": 531
+              "pinyin": "yè",
+              "index": 521
             },
             {
               "char": "泊",
-              "pinyin": "ér",
-              "index": 532
+              "pinyin": "bó",
+              "index": 522
             },
             {
               "char": "绝",
-              "pinyin": "yú",
-              "index": 533
+              "pinyin": "jué",
+              "index": 523
             },
             {
               "char": "壁",
-              "pinyin": "gōng",
-              "index": 534
+              "pinyin": "bì",
+              "index": 524
             },
             {
               "char": "之",
-              "pinyin": "shuǐ",
-              "index": 535
+              "pinyin": "zhī",
+              "index": 525
             },
             {
               "char": "下",
-              "pinyin": "shī",
-              "index": 536
+              "pinyin": "xià",
+              "index": 526
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 537
+              "index": 527
             },
             {
               "char": "故",
-              "pinyin": "suī",
-              "index": 538
+              "pinyin": "gù",
+              "index": 528
             },
             {
               "char": "莫",
-              "pinyin": "zhī",
-              "index": 539
+              "pinyin": "mò",
+              "index": 529
             },
             {
               "char": "能",
-              "pinyin": "ér",
-              "index": 540
+              "pinyin": "néng",
+              "index": 530
             },
             {
               "char": "知",
-              "pinyin": "bù",
-              "index": 541
+              "pinyin": "zhī",
+              "index": 531
             },
             {
               "char": "；",
               "pinyin": "",
-              "index": 542
+              "index": 532
             }
           ],
-          "translation": ""
+          "translation": "而渔人和船工，虽然知道却又不能用文字表达、记载。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "而",
-              "pinyin": "néng",
-              "index": 543
+              "pinyin": "ér",
+              "index": 533
             },
             {
               "char": "渔",
-              "pinyin": "yán",
-              "index": 544
+              "pinyin": "yú",
+              "index": 534
             },
             {
               "char": "工",
-              "pinyin": "cǐ",
-              "index": 545
+              "pinyin": "gōng",
+              "index": 535
             },
             {
               "char": "水",
-              "pinyin": "shì",
-              "index": 546
+              "pinyin": "shuǐ",
+              "index": 536
             },
             {
               "char": "师",
-              "pinyin": "suǒ",
-              "index": 547
+              "pinyin": "shī",
+              "index": 537
             },
             {
               "char": "虽",
-              "pinyin": "yǐ",
-              "index": 548
+              "pinyin": "suī",
+              "index": 538
             },
             {
               "char": "知",
-              "pinyin": "bù",
-              "index": 549
+              "pinyin": "zhī",
+              "index": 539
             },
             {
               "char": "而",
-              "pinyin": "chuán",
-              "index": 550
+              "pinyin": "ér",
+              "index": 540
             },
             {
               "char": "不",
-              "pinyin": "yě",
-              "index": 551
+              "pinyin": "bù",
+              "index": 541
             },
             {
               "char": "能",
-              "pinyin": "ér",
-              "index": 552
+              "pinyin": "néng",
+              "index": 542
             },
             {
               "char": "言",
-              "pinyin": "lòu",
-              "index": 553
+              "pinyin": "yán",
+              "index": 543
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 554
+              "index": 544
             }
           ],
-          "translation": ""
+          "translation": "这就是世上没有流传下来（石钟山得名由来）的缘故。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "此",
-              "pinyin": "zhě",
-              "index": 555
+              "pinyin": "cǐ",
+              "index": 545
             },
             {
               "char": "世",
-              "pinyin": "nǎi",
-              "index": 556
+              "pinyin": "shì",
+              "index": 546
             },
             {
               "char": "所",
-              "pinyin": "yǐ",
-              "index": 557
+              "pinyin": "suǒ",
+              "index": 547
             },
             {
               "char": "以",
-              "pinyin": "fǔ",
-              "index": 558
+              "pinyin": "yǐ",
+              "index": 548
             },
             {
               "char": "不",
-              "pinyin": "jīn",
-              "index": 559
+              "pinyin": "bù",
+              "index": 549
             },
             {
               "char": "传",
-              "pinyin": "kǎo",
-              "index": 560
+              "pinyin": "chuán",
+              "index": 550
             },
             {
               "char": "也",
-              "pinyin": "jī",
-              "index": 561
+              "pinyin": "yě",
+              "index": 551
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 562
+              "index": 552
             }
           ],
-          "translation": ""
+          "translation": "而浅陋的人用斧头敲打石头的办法来寻求（石钟山得名的）原因，自以为得到了事情的真相。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "这就是世上没有流传（石钟山得名由来）的缘故。"
+            }
+          ]
         },
         {
           "content": [
             {
               "char": "而",
               "pinyin": "ér",
-              "index": 563
+              "index": 553
             },
             {
               "char": "陋",
-              "pinyin": "qiú",
-              "index": 564
+              "pinyin": "lòu",
+              "index": 554
             },
             {
               "char": "者",
-              "pinyin": "zhī",
-              "index": 565
+              "pinyin": "zhě",
+              "index": 555
             },
             {
               "char": "乃",
+              "pinyin": "nǎi",
+              "index": 556
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 557
+            },
+            {
+              "char": "斧",
+              "pinyin": "fǔ",
+              "index": 558
+            },
+            {
+              "char": "斤",
+              "pinyin": "jīn",
+              "index": 559
+            },
+            {
+              "char": "考",
+              "pinyin": "kǎo",
+              "index": 560
+            },
+            {
+              "char": "击",
+              "pinyin": "jī",
+              "index": 561
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 562
+            },
+            {
+              "char": "求",
+              "pinyin": "qiú",
+              "index": 563
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 564
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 565
+            },
+            {
+              "char": "自",
               "pinyin": "zì",
               "index": 566
             },
@@ -3006,194 +3207,150 @@
               "index": 567
             },
             {
-              "char": "斧",
+              "char": "为",
               "pinyin": "wéi",
               "index": 568
             },
             {
-              "char": "斤",
+              "char": "得",
               "pinyin": "dé",
               "index": 569
             },
             {
-              "char": "考",
+              "char": "其",
               "pinyin": "qí",
               "index": 570
             },
             {
-              "char": "击",
+              "char": "实",
               "pinyin": "shí",
               "index": 571
             },
             {
-              "char": "而",
-              "pinyin": "yú",
-              "index": 572
-            },
-            {
-              "char": "求",
-              "pinyin": "shì",
-              "index": 573
-            },
-            {
-              "char": "之",
-              "pinyin": "yǐ",
-              "index": 574
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 575
-            },
-            {
-              "char": "自",
-              "pinyin": "jì",
-              "index": 576
-            },
-            {
-              "char": "以",
-              "pinyin": "zhī",
-              "index": 577
-            },
-            {
-              "char": "为",
-              "pinyin": "gài",
-              "index": 578
-            },
-            {
-              "char": "得",
-              "pinyin": "tàn",
-              "index": 579
-            },
-            {
-              "char": "其",
-              "pinyin": "lì",
-              "index": 580
-            },
-            {
-              "char": "实",
-              "pinyin": "yuán",
-              "index": 581
-            },
-            {
               "char": "。",
               "pinyin": "",
-              "index": 582
+              "index": 572
             }
           ],
-          "translation": ""
+          "translation": "我之所以记下以上的经过，是因为叹惜郦道元的解释过于简略，也嘲笑李渤的解释太浅陋了。",
+          "notes": []
         },
         {
           "content": [
             {
               "char": "余",
+              "pinyin": "yú",
+              "index": 573
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 574
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 575
+            },
+            {
+              "char": "记",
+              "pinyin": "jì",
+              "index": 576
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 577
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 578
+            },
+            {
+              "char": "盖",
+              "pinyin": "gài",
+              "index": 579
+            },
+            {
+              "char": "叹",
+              "pinyin": "tàn",
+              "index": 580
+            },
+            {
+              "char": "郦",
+              "pinyin": "lì",
+              "index": 581
+            },
+            {
+              "char": "元",
+              "pinyin": "yuán",
+              "index": 582
+            },
+            {
+              "char": "之",
               "pinyin": "zhī",
               "index": 583
             },
             {
-              "char": "是",
+              "char": "简",
               "pinyin": "jiǎn",
               "index": 584
             },
             {
-              "char": "以",
-              "pinyin": "ér",
+              "char": "，",
+              "pinyin": "",
               "index": 585
             },
             {
-              "char": "记",
-              "pinyin": "xiào",
+              "char": "而",
+              "pinyin": "ér",
               "index": 586
             },
             {
-              "char": "之",
-              "pinyin": "lǐ",
+              "char": "笑",
+              "pinyin": "xiào",
               "index": 587
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "李",
+              "pinyin": "lǐ",
               "index": 588
             },
             {
-              "char": "盖",
+              "char": "渤",
               "pinyin": "bó",
               "index": 589
             },
             {
-              "char": "叹",
+              "char": "之",
               "pinyin": "zhī",
               "index": 590
             },
             {
-              "char": "郦",
+              "char": "陋",
               "pinyin": "lòu",
               "index": 591
             },
             {
-              "char": "元",
+              "char": "也",
               "pinyin": "yě",
               "index": 592
             },
             {
-              "char": "之",
-              "pinyin": "",
-              "index": 593
-            },
-            {
-              "char": "简",
-              "pinyin": "",
-              "index": 594
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 595
-            },
-            {
-              "char": "而",
-              "pinyin": "",
-              "index": 596
-            },
-            {
-              "char": "笑",
-              "pinyin": "",
-              "index": 597
-            },
-            {
-              "char": "李",
-              "pinyin": "",
-              "index": 598
-            },
-            {
-              "char": "渤",
-              "pinyin": "",
-              "index": 599
-            },
-            {
-              "char": "之",
-              "pinyin": "",
-              "index": 600
-            },
-            {
-              "char": "陋",
-              "pinyin": "",
-              "index": 601
-            },
-            {
-              "char": "也",
-              "pinyin": "",
-              "index": 602
-            },
-            {
               "char": "。",
               "pinyin": "",
-              "index": 603
+              "index": 593
             }
           ],
-          "translation": ""
+          "translation": "",
+          "notes": []
         }
       ]
     }
+  ],
+  "tags": [
+    "选必下",
+    "文言文"
   ]
 }

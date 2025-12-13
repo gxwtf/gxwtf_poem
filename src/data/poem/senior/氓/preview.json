@@ -48,13 +48,30 @@
           "translation": {
             "translation": "老实忠厚的男子，怀抱布匹来换丝。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "氓，民，这里指诗中的男主人公。蚩蚩，忠厚的样子。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "布，布匹，一说为古代钱币。贸，交易。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "匪",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "不是。"
+                }
+              ]
             },
             {
               "char": "来",
@@ -96,7 +113,13 @@
           "translation": {
             "translation": "不是真的来换丝，是找个机会谈婚事。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "note": "到我这里来商量（婚事）。即，就、靠近。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -114,7 +137,13 @@
             },
             {
               "char": "淇",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "淇水，在今河南境内。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -144,7 +173,13 @@
           "translation": {
             "translation": "送郎君渡过淇水，一直送到顿丘。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "note": "地名，在今河南浚县。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -192,7 +227,13 @@
           "translation": {
             "translation": "不是我要延误佳期，是因为你没有请好媒人。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "不是我拖延婚期。愆，拖延。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -240,7 +281,13 @@
           "translation": {
             "translation": "请郎君不要生气，秋天到了来迎娶。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "请你不要生气。将，愿、请。"
+            }
+          ]
         }
       ]
     },
@@ -290,9 +337,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "登上那倒塌的墙壁，遥向复关凝神望。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "登上那残破的墙。垝，毁坏。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "note": "卫国地名，氓所居住的地方。一说借指氓。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -338,7 +396,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "复关没有见到盼望的人，眼泪簌簌掉下来。"
           },
           "notes": []
         },
@@ -386,9 +444,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "情郎即从复关来，又说又笑喜洋洋。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "note": "又说又笑。载，助词。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -434,9 +498,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你从卜筮看一看吉凶吧，只要卜筮的结果好。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "你用龟甲占卜，用蓍草算卦。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "卦象没有不吉的话。体，卦象。咎，灾祸。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -482,49 +557,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你就用车来迎娶，我带上嫁妆嫁给你。"
           },
-          "notes": []
-        },
-        {
-          "sentence": [
+          "notes": [
             {
-              "char": "(",
-              "pinyin": ""
-            },
-            {
-              "char": "尔",
-              "pinyin": ""
-            },
-            {
-              "char": " ",
-              "pinyin": ""
-            },
-            {
-              "char": "一",
-              "pinyin": ""
-            },
-            {
-              "char": "作",
-              "pinyin": ""
-            },
-            {
-              "char": "：",
-              "pinyin": "　"
-            },
-            {
-              "char": "尓",
-              "pinyin": ""
-            },
-            {
-              "char": ")",
-              "pinyin": ""
+              "start": 5,
+              "end": 8,
+              "note": "带着我的财物嫁过去。贿，财物。"
             }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
+          ]
         }
       ]
     },
@@ -574,9 +615,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "桑叶未落时，桑叶像水浸润过一样有光泽。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "note": "润泽的样子。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -622,9 +669,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "唉那些斑鸠呀，不要贪吃桑葚。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "note": "唉，斑鸠啊，不要贪吃桑葚。于嗟，感叹词。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -670,9 +723,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "哎年轻的姑娘们呀，不要沉溺在与男子的情爱中。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "note": "不要同男子沉溺于爱情。士，未婚男子。耽，沉溺。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -706,7 +765,13 @@
             },
             {
               "char": "说",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "同“脱”，解脱。"
+                }
+              ]
             },
             {
               "char": "也",
@@ -718,7 +783,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "男子沉溺在爱情里，还可以脱身。"
           },
           "notes": []
         },
@@ -766,7 +831,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "女子沉溺在爱情里，就无法解脱了。"
           },
           "notes": []
         }
@@ -810,7 +875,13 @@
             },
             {
               "char": "陨",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "坠落。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -818,7 +889,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "桑叶落下了，枯黄憔悴纷纷掉落了。"
           },
           "notes": []
         },
@@ -866,9 +937,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "自从嫁到你家，多年来过着贫穷的生活。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "嫁到你家。徂，往。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "多年过贫苦生活。三岁，指多年。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -914,9 +996,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "淇水滔滔，水花打湿了车上的布幔。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "水势浩大的样子。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "浸湿车上的帷幔。渐，浸湿。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -962,9 +1055,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我没有什么差错，你的行为却前后不一致了。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "女子没有过错。爽，差错。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "男子的行为前后不一。贰，不专一。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1010,9 +1114,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "男人的爱情没有定准，他的感情一变再变。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "没有准则。罔，无。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "三心二意。德，心意。"
+            }
+          ]
         }
       ]
     },
@@ -1062,9 +1177,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "婚后多年守妇道，繁重的家务劳动担负无余。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "note": "家中劳苦事没有不做的。靡，无。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1110,15 +1231,27 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "起早睡迟，朝朝如此，不能计算了。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "note": "早起晚睡，没有一日不是如此。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "言",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "助词。"
+                }
+              ]
             },
             {
               "char": "既",
@@ -1126,7 +1259,13 @@
             },
             {
               "char": "遂",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "顺心。"
+                }
+              ]
             },
             {
               "char": "矣",
@@ -1158,7 +1297,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你的心愿实现后，渐渐对我施凶暴。"
           },
           "notes": []
         },
@@ -1206,9 +1345,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兄弟不知道我的遭遇，见面时都讥笑我啊。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 7,
+              "note": "讥笑。咥，讥笑的样子。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1254,9 +1399,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "静下心来好好地想一想，只能独自伤心。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 7,
+              "note": "独自悲伤。躬，自身。"
+            }
+          ]
         }
       ]
     },
@@ -1306,9 +1457,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "与你一起相约白首的誓言，如今只会空使我怨恨罢了。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "与你共同生活到老。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "（这样的偕老）只能使我怨恨。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1354,9 +1516,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "淇水滔滔终有岸，沼泽虽宽终有尽头。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "note": "淇水有岸，漯水有边。隰，低湿之地，一说指漯水。泮，同“畔”，边岸。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1402,9 +1570,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "回想少时多欢乐，谈笑之间露温柔。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "少年时代的欢乐。总角，古代儿童发式，代指少年时期。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "说说笑笑，温和愉快。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1450,9 +1629,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "海誓山盟犹在耳，哪里料到你会违背誓言。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "誓言诚恳可信。旦旦，诚恳的样子。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "没想到你会变心。反，违反。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1498,12 +1688,23 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "不要再回想背弃誓言之事了，既已终结便罢休吧！"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "违背誓言不再想。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "也就算了吧！已，止。"
+            }
+          ]
         }
       ]
     }
   ],
-  "mode": "poem"
+  "mode": "paragraph"
 }

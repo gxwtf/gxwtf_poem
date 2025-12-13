@@ -98,7 +98,13 @@
             },
             {
               "char": "遣",
-              "pinyin": "shí"
+              "pinyin": "shí",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "指夫家休弃妻子。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -128,7 +134,18 @@
           "translation": {
             "translation": "东汉末年建安年间，庐江府小吏焦仲卿的妻子刘氏，被仲卿的母亲驱赶回娘家，她发誓不再改嫁。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "汉献帝年号（196—220）。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "note": "汉代郡名，在今安徽潜山一带。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -214,7 +231,13 @@
             },
             {
               "char": "缢",
-              "pinyin": "bù"
+              "pinyin": "bù",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "吊死。"
+                }
+              ]
             },
             {
               "char": "于",
@@ -284,7 +307,13 @@
           "translation": {
             "translation": "当时的人哀悼他们，便写了这样一首诗。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "note": "当时的人哀悼他们，写了这样一首诗。云尔，句末语气助词。"
+            }
+          ]
         }
       ]
     },
@@ -342,9 +371,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "孔雀朝着东南方向飞去，每飞五里便徘徊一阵。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "孔雀向东南飞，每飞五里，就流连一阵。徘徊，流连。汉代诗歌常以飞鸟徘徊起兴，以写夫妻离别。"
+            }
+          ]
         }
       ]
     },
@@ -374,7 +409,13 @@
             },
             {
               "char": "素",
-              "pinyin": "dà"
+              "pinyin": "dà",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "白色的绢。以下一段话是兰芝对仲卿说的。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -406,7 +447,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "“我十三岁就能织出白色的丝绢，十四岁就学会了裁衣。"
           },
           "notes": []
         },
@@ -462,9 +503,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "十五岁学会弹箜篌，十六岁就能诵读诗书。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "这里泛指书籍。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -518,7 +565,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "十七岁做了你的妻子，但心中常常感到痛苦伤悲。"
           },
           "notes": []
         },
@@ -574,9 +621,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你既然已经做了府吏，当然会坚守臣节专心不移。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "遵守官府的规则。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -630,9 +683,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "只留下我孤身留守空房，我们见面的日子常常是日渐疏稀。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "旧时女子自称的谦辞。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -686,7 +745,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "每天当鸡叫的时候我就进入机房纺织，天天晚上都不能休息。"
           },
           "notes": []
         },
@@ -702,7 +761,13 @@
             },
             {
               "char": "断",
-              "pinyin": "xié"
+              "pinyin": "xié",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "（把织成的布匹从织机上）截下来。"
+                }
+              ]
             },
             {
               "char": "五",
@@ -742,9 +807,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "三天就能在机上截下五匹布，但婆婆仍然嫌我织得慢。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "婆婆仍然嫌我织得慢。大人，相当于现在说的“老人家”，这里指婆婆。故，仍旧。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -798,7 +869,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "不是我纺织缓慢行动松弛，而是你家的媳妇难做公婆难服侍。"
           },
           "notes": []
         },
@@ -846,7 +917,13 @@
             },
             {
               "char": "施",
-              "pinyin": "qǐ"
+              "pinyin": "qǐ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "用。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -854,9 +931,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我已经不能胜任你家这样的驱使，白白地留下来也没有什么用。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "使唤。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -907,24 +990,22 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你这就禀告婆婆，及时遣返我送我回娘家去。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "禀告婆婆。白，告诉、禀告。公姥，公公和婆婆，这里是偏义复词，单指婆婆。"
+            }
+          ]
         }
       ]
     },
@@ -966,7 +1047,13 @@
             },
             {
               "char": "启",
-              "pinyin": "qiǎn"
+              "pinyin": "qiǎn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "禀告。"
+                }
+              ]
             },
             {
               "char": "阿",
@@ -1034,9 +1121,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏听到这些话，便走到堂上禀告阿母：“儿子已经没有做高官享厚禄的福相，幸而娶得这样一个好妻子。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 15,
+              "end": 17,
+              "note": "福薄的相貌。薄禄，福薄、福分少。迷信的人认为从一个人的相貌可以断定他的命运。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1090,9 +1183,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "刚成年时我们便结成同床共枕的恩爱夫妻，并希望同生共死直到黄泉也相伴为伍。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "成婚。古代婚礼，成婚之夕，男女共髻束发，故称。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1146,9 +1245,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我们共同生活才两三年，这种甜美的日子只是开头还不算长久。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "（我们）在一起过日子不过两三年，（婚姻生活）才开头，还不算很久。尔，助词，无实义。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1199,24 +1304,22 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她的行为没有什么不正当，哪里知道竟会招致你的不满得不到慈爱亲厚。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "哪里想到会招致（母亲）不满意呢？何意，谁能料到。"
+            }
+          ]
         }
       ]
     },
@@ -1278,9 +1381,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "阿母对府吏说：“你怎么这样狭隘固执！"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 10,
+              "end": 11,
+              "note": "愚拙。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1334,9 +1443,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "这个媳妇不懂得礼节，行动又是那样自作主张。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "一举一动完全凭（她）自己的意思。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1346,7 +1461,13 @@
             },
             {
               "char": "意",
-              "pinyin": "pò"
+              "pinyin": "pò",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "心中，心里。"
+                }
+              ]
             },
             {
               "char": "久",
@@ -1390,9 +1511,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我心中早已怀着愤怒，你哪能自作主张对她迁就。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "自作主张。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1446,9 +1573,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "东邻有个聪明贤惠的女子，她的名字叫秦罗敷。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "泛指邻近人家。"
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "note": "古诗中常用“秦”作为美女的姓，常用“罗敷”作为美女的名。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1502,9 +1640,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她可爱的体态没有谁能比得上，我当为你的婚事去恳求。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "姿态可爱无比。体，体态。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1555,22 +1699,14 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你就应该把兰芝赶快遣走，把她赶走千万不要让她再停留！”"
           },
           "notes": []
         }
@@ -1679,24 +1815,22 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏直身长跪作回答，他恭恭敬敬地再向母亲哀求：“现在如果遣走这个媳妇，儿子到老也不会再娶妻！”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "古时晚辈对长辈或下对上说话时表示恭敬的用语。"
+            }
+          ]
         }
       ]
     },
@@ -1806,9 +1940,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "阿母听了府吏这些话，便敲着坐具大发脾气：“你这小子胆子太大毫无畏惧，你怎么敢帮着媳妇胡言乱语。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "拍击着座位。床，古代坐具。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1859,24 +1999,22 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我对她已经断绝了情谊，当然不能答应你的要求！”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "一定不会同意。会不，当不，这里是“决不”的意思。相，表示一方对另一方的行为、态度。"
+            }
+          ]
         }
       ]
     },
@@ -1934,7 +2072,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏默默不说话，再拜之后辞别阿母回到自己的房里。"
           },
           "notes": []
         },
@@ -2010,7 +2148,13 @@
             },
             {
               "char": "卿",
-              "pinyin": "zú"
+              "pinyin": "zú",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "古代表示亲热的称呼。这里是丈夫对妻子的爱称。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -2042,9 +2186,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "开口向媳妇说话，悲痛气结已是哽咽难语：“我本来不愿赶你走，但阿母逼迫着要我这样做。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "张嘴对妻子说话。举言，开口讲话。新妇，这里指妻子。下文“新妇初来时，小姑始扶床”中的“新妇”是已婚妇女对夫家的长辈或平辈的自称。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2098,7 +2248,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "但你只不过是暂时回到娘家去，现在我也暂且回到县官府。"
           },
           "notes": []
         },
@@ -2154,7 +2304,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "不久我就要从府中回家来，回来之后一定会去迎接你。"
           },
           "notes": []
         },
@@ -2207,24 +2357,22 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你就为这事委屈一下吧，千万不要违背我这番话语。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "低心下气，意思是受委屈。"
+            }
+          ]
         }
       ]
     },
@@ -2286,9 +2434,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝对府吏坦陈：“不必再提接我回来的话了！"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 11,
+              "note": "不要再添麻烦吧。也就是说，不必再提接回来的话了。纷纭，凌乱。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2318,7 +2472,13 @@
             },
             {
               "char": "谢",
-              "pinyin": "rú"
+              "pinyin": "rú",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "辞别。"
+                }
+              ]
             },
             {
               "char": "家",
@@ -2342,9 +2502,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "记得那年初阳时节，我辞别娘家走进你家门。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "冬至以后，立春以前的一段时间。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2398,9 +2564,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "侍奉公婆都顺着他们的心意，一举一动哪里敢自作主张不守本分？"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "一切行事都顺着婆婆的意思，一举一动，哪里敢自作主张？奉事，行事。进止，行动。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2454,9 +2626,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "日日夜夜勤劳地操作，孤孤单单，受尽辛苦折磨。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "劳作和休息，这里是偏义复词，单指劳作。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "note": "孤孤单单，受尽辛苦。伶俜，孤单的样子。萦，缠绕、牵缠。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2510,9 +2693,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "总以为没有什么罪过，能够终身侍奉公婆报答他们的大恩。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "以为。"
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "note": "意思是报答大恩。卒，完成、尽。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2566,7 +2760,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "但仍然还是要被驱赶，哪里还谈得上再转回你家门。"
           },
           "notes": []
         },
@@ -2622,9 +2816,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我有一件绣花的齐腰短袄，绣着光彩美丽的花纹。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "绣花的齐腰短袄。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "note": "（袄上的刺绣）繁多艳丽，自然发出光彩。葳蕤，草木繁盛的样子，这里形容刺绣的花叶繁多而美丽。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2678,9 +2883,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "还有一床红罗做的双层斗形的小帐，四角都垂挂着香囊。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "双层红色纱罗做的帐子，四角挂着香袋。复，双层。斗帐，帐子像倒置的斗的样子，所以称为“斗帐”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2782,9 +2993,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "大大小小的箱子有六七十个，都是用碧绿的丝线捆扎紧。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "箱子和镜匣有许多只，都用碧绿的青丝绳捆着。帘，同“奁”，女子梳妆用的镜匣。六七十，形容多。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2886,9 +3103,25 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "里面的东西都各不相同，各种各样的东西都收藏其中。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "指丈夫将来再娶的女子。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "note": "赠送，施与。"
+            },
+            {
+              "start": 21,
+              "end": 22,
+              "note": "见面的机会。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2939,22 +3172,14 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "人既然低贱东西自然也卑陋，不值得用它们来迎娶后来的新人。"
           },
           "notes": []
         }
@@ -3014,9 +3239,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你留着等待以后有机会施舍给别人吧，走到今天这一步今后不可能再会面。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "整妆，梳妆打扮。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3070,9 +3301,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "希望你时时安慰自己，希望你永远不要忘记我。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "梳妆打扮的每件事，都反复四五遍。通，遍、次。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3126,9 +3363,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "当公鸡鸣叫窗外天快要放亮，兰芝起身郑重地打扮梳妆。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "脚上穿着丝绸鞋，头上戴着的玳瑁首饰闪闪发光。蹑，穿。玳瑁，一种形似龟的爬行动物，甲壳黄褐色，有黑斑，具光泽，可做装饰品。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3182,9 +3425,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她穿上昔日绣花的夹裙，梳妆打扮时每件事都做了四五遍才算妥当。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "腰束纨素的带子，光彩像流水一样晃动，耳朵上戴着珍珠耳坠，如明月一般皎洁。纨素，洁白精致的绢。珰，耳坠。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3238,9 +3487,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "脚下穿着丝鞋，头上的玳瑁簪闪闪发光。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "手指白嫩纤细，像削尖的葱根；嘴唇红润，像含着朱砂。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3294,7 +3549,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "腰间束着流光的白绸带，耳边挂着明月珠装饰的耳珰。"
           },
           "notes": []
         }
@@ -3354,7 +3609,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "十个手指像尖尖的葱根又细又白嫩，涂红的嘴唇像含着朱丹一样。"
           },
           "notes": []
         },
@@ -3414,9 +3669,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她轻轻地小步行走，艳丽美妙真是举世无双。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "note": "从小，自小。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "note": "乡村，乡间。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3470,7 +3736,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她走上堂去拜别婆婆，婆婆的怒气仍未平息。"
           },
           "notes": []
         },
@@ -3526,9 +3792,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "“从前我做女儿的时候，从小就生长在村野乡里。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "金钱和丝织品，指聘礼。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3579,22 +3851,34 @@
             {
               "char": "。",
               "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "本来就没有受到教管训导，更加惭愧的是又嫁到你家愧对你家的公子。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "记挂婆婆在家里操劳。"
+            }
+          ]
         },
         {
           "sentence": [
             {
-              "char": "”",
-              "pinyin": "　"
-            },
-            {
               "char": "却",
-              "pinyin": "shí"
+              "pinyin": "shí",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "退下。"
+                }
+              ]
             },
             {
               "char": "与",
@@ -3642,7 +3926,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "受了阿母许多金钱和财礼，却不能胜任阿母的驱使。"
           },
           "notes": []
         },
@@ -3702,9 +3986,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "今天我就要回到娘家去，还记挂着阿母孤身操劳在家里。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 11,
+              "note": "刚能扶着坐具走。按“新妇初来时，小姑始扶床；今日被驱遣，小姑如我长”，兰芝在焦家只有二三年，小姑不可能长得这么快。这是夸张写法，极言日子过得快。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3758,7 +4048,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她退下堂来又去向小姑告别，眼泪滚滚落下像一连串的珠子。"
           },
           "notes": []
         },
@@ -3814,9 +4104,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "“我这个新媳妇初嫁过来时，小姑才开始扶床学走路。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "扶持，扶养。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3867,19 +4163,25 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
-            },
+            }
+          ],
+          "translation": {
+            "translation": "今天我被驱赶回娘家，小姑的个子已和我相当。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "七月七日和每月的十九日。初七，指农历七月七日，旧时妇女在这天晚上祭织女以乞巧。下九，古人以农历每月的二十九为上九，初九为中九，十九为下九。古代每月十九日，妇女常置酒欢聚，嬉戏娱乐。"
+            }
+          ]
+        },
+        {
+          "sentence": [
             {
               "char": "出",
               "pinyin": "shuāng"
@@ -3930,7 +4232,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "希望你尽心地侍奉我的公婆，好好地扶助他们精心奉养。"
           },
           "notes": []
         }
@@ -3990,7 +4292,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "每当七夕之夜和每月的十九日，玩耍时千万不要把我忘。”"
           },
           "notes": []
         },
@@ -4046,9 +4348,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她走出家门上车离去，眼泪落下无数行。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "隐隐、甸甸，都是模拟车声。何，助词，无实义。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4154,7 +4462,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏骑着马走在前头，兰芝坐在车上跟在后面走。"
           },
           "notes": []
         },
@@ -4210,7 +4518,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "车声时而小声隐隐时而大声甸甸，但车和马都一同到达了大道口。"
           },
           "notes": []
         },
@@ -4239,22 +4547,14 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏下马走进车中，低下头来在兰芝身边低声细语：“我发誓不同你断绝，你暂且回到娘家去，我今日也暂且赶赴官府。"
           },
           "notes": []
         }
@@ -4318,9 +4618,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "不久我一定会回来，我向天发誓永远不会辜负你。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "情意深挚。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4374,9 +4680,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝对府吏说：“感谢你诚挚的关怀。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "记着我。“见”用在动词前，表示对自己怎么样。下文的“见丁宁”用法与此相同。录，收留。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4430,9 +4742,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "既然承蒙你这样的记着我，不久之后我会殷切地盼望着你来。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "厚而大的石头。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "香蒲和芦苇。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4446,7 +4769,13 @@
             },
             {
               "char": "纫",
-              "pinyin": "yǔ"
+              "pinyin": "yǔ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "同“韧”，坚韧。"
+                }
+              ]
             },
             {
               "char": "如",
@@ -4486,7 +4815,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你应当像一块大石，我必定会像一株蒲苇。"
           },
           "notes": []
         },
@@ -4587,19 +4916,35 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "蒲苇像丝一样柔软但坚韧结实，大石也不会转移。"
+          },
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "偏义复词，这里单指哥哥。"
             },
+            {
+              "start": 6,
+              "end": 7,
+              "note": "性情。"
+            },
+            {
+              "start": 18,
+              "end": 22,
+              "note": "想到将来，我心里像受着煎熬一般。逆，预料、想到将来。"
+            }
+          ]
+        },
+        {
+          "sentence": [
             {
               "char": "举",
               "pinyin": "qǐ"
@@ -4654,9 +4999,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "只是我有一个亲哥哥，性情脾气不好常常暴跳如雷。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "忧愁伤感的样子。"
+            }
+          ]
         }
       ]
     },
@@ -4714,9 +5065,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "恐怕不能任凭我的心意由我自主，他一定会违背我的心意使我内心饱受熬煎。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "脸面。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4918,9 +5275,25 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "两人忧伤不止地举手告别，双方都依依不舍情意绵绵。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "拍手。这里表示惊异。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "note": "想不到你自己回来了。意思是，没料到女儿竟被驱遣回家。古代女子出嫁以后，一定要得到婆家的同意后，娘家派人来接，才能回娘家。下文“不迎而自归”，也是按这种规矩说的责备的话。"
+            },
+            {
+              "start": 46,
+              "end": 47,
+              "note": "过失，过错。誓，一般认为应作“愆”。愆，同“愆”，过失。违，过失。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4971,19 +5344,19 @@
             {
               "char": "？",
               "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝回到娘家进了大门走上厅堂，进退为难觉得脸面已失去。"
           },
           "notes": []
         },
         {
           "sentence": [
-            {
-              "char": "”",
-              "pinyin": "　"
-            },
             {
               "char": "兰",
               "pinyin": "xǔ"
@@ -5035,19 +5408,19 @@
             {
               "char": "。",
               "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "母亲十分惊异地拍着手说道：“想不到没有去接你你自己回到家里。"
           },
           "notes": []
         },
         {
           "sentence": [
-            {
-              "char": "”",
-              "pinyin": "　"
-            },
             {
               "char": "阿",
               "pinyin": "fù"
@@ -5074,9 +5447,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "十三岁我就教你纺织，十四岁你就会裁衣，十五岁会弹箜篌，十六岁懂得礼仪，十七岁时把你嫁出去，总以为你在夫家不会有什么过失。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "悲痛。摧，伤心、断肠。"
+            }
+          ]
         }
       ]
     },
@@ -5134,7 +5513,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你现在并没有什么罪过，为什么没有去接你你自己回到家里？”"
           },
           "notes": []
         },
@@ -5190,9 +5569,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "“我十分惭愧面对亲娘，女儿实在没有什么过失。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "相当于三公子。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5246,9 +5631,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝的娘亲听了十分伤心。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "口才很好，又多才能。便言，擅长辞令。便，言辞敏捷。令，美好。"
+            }
+          ]
         }
       ]
     },
@@ -5307,22 +5698,14 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "回家才过了十多日，县令便派遣了一个媒人来提亲。"
           },
           "notes": []
         }
@@ -5434,9 +5817,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "说县太爷有个排行第三的公子，身材美好举世无双。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 16,
+              "end": 17,
+              "note": "嘱咐。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5490,9 +5879,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "年龄只有十八九岁，口才很好，又多才能。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "note": "不宜，不好。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5543,24 +5938,22 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "亲娘便对女儿说：“你可以出去答应这门婚事。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "可以回绝来做媒的人，以后慢慢再谈吧。断，回绝。来信，派来的使者，指媒人。之，指再嫁的事。"
+            }
+          ]
         }
       ]
     },
@@ -5626,7 +6019,13 @@
             },
             {
               "char": "适",
-              "pinyin": "cǎi"
+              "pinyin": "cǎi",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "出嫁。"
+                }
+              ]
             },
             {
               "char": "还",
@@ -5646,7 +6045,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝含着眼泪回答说：“兰芝当初返家时，府吏一再嘱咐我，发誓永远不分离。"
           },
           "notes": []
         },
@@ -5702,9 +6101,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "今天如果违背了他的情义，这门婚事恐怕就不妥。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "不能胜任，意思是做不了。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5755,24 +6160,22 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "您可以去回绝媒人，以后再慢慢商议。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "意思是希望你多方打听打听。"
+            }
+          ]
         }
       ]
     },
@@ -5878,7 +6281,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "亲娘出去告诉媒人：“我们贫贱人家养育了这个女儿，刚出嫁不久便被赶回家里，不能做小吏的妻子，哪里适合再嫁你们公子为妻？"
           },
           "notes": []
         },
@@ -5934,9 +6337,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "希望你多方面打听打听，我不能就这样答应你。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "娇美文雅。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5990,9 +6399,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "媒人离开了几天后，那派去郡里请示太守的县丞刚好回来。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "请郡丞做媒人，主簿传达（太守）的话。主簿，太守的下属。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6094,9 +6509,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "他说：“在郡里曾向太守说起一位名叫兰芝的女子，出生于官宦人家。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 14,
+              "end": 16,
+              "note": "指结为婚姻。"
+            }
+          ]
         }
       ]
     },
@@ -6179,22 +6600,14 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "又说：“太守有个排行第五的儿子，貌美才高还没有娶妻。"
           },
           "notes": []
         }
@@ -6254,7 +6667,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "太守要我做媒人，这番话是由主簿来转达。”"
           },
           "notes": []
         },
@@ -6314,9 +6727,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "县丞来到刘家直接说：“在太守家里，有这样一个美好的郎君，既然想要同你家结亲，所以才派遣我来到贵府做媒人。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "note": "打算。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "note": "意思是欠考虑。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6370,7 +6794,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝的母亲回绝了媒人：“女儿早先已有誓言不再嫁，我这个做母亲的怎敢再多说？”"
           },
           "notes": []
         },
@@ -6426,9 +6850,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝的哥哥听到后，心中不痛快十分烦恼，向其妹兰芝开口说道：“作出决定为什么不多想一想！"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "运气的好坏，相差像天上地下一样。否，坏运气。泰，好运气。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6479,24 +6909,22 @@
             {
               "char": "？",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "先嫁是嫁给一个小府吏，后嫁却能嫁给太守的公子。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "这样的好郎君都不嫁，往后（你）打算怎么样呢？义郎，好郎君，指太守的儿子。义，善、好。其往，其后、将来。"
+            }
+          ]
         }
       ]
     },
@@ -6558,7 +6986,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "命运好坏差别就像天和地，改嫁之后足够让你享尽荣华富贵。"
           },
           "notes": []
         },
@@ -6614,7 +7042,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你不嫁这样好的公子郎君，往后你打算怎么办？”"
           },
           "notes": []
         },
@@ -6670,9 +7098,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝抬起头来回答说：“道理确实像哥哥所说的一样，离开了家出嫁侍奉丈夫，中途又回到哥哥家里，怎么安排都要顺着哥哥的心意，我哪里能够自作主张？"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "怎样处理，完全照哥哥的主意吧。处分，处理、处置。适，顺从、依照。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6694,7 +7128,13 @@
             },
             {
               "char": "要",
-              "pinyin": "huáng"
+              "pinyin": "huáng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "相约。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -6702,7 +7142,13 @@
             },
             {
               "char": "渠",
-              "pinyin": "quán"
+              "pinyin": "quán",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "他，指府吏。"
+                }
+              ]
             },
             {
               "char": "会",
@@ -6726,7 +7172,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "虽然同府吏有过誓约，但同他相会永远没有机缘。"
           },
           "notes": []
         },
@@ -6779,19 +7225,30 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "立即就答应了吧，就可以结为婚姻。”"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "当即，立即。"
             },
+            {
+              "start": 3,
+              "end": 4,
+              "note": "应许。"
+            }
+          ]
+        },
+        {
+          "sentence": [
             {
               "char": "媒",
               "pinyin": "qiè"
@@ -6818,7 +7275,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "媒人从坐床走下去，连声说好!好!就这样!就这样!他回到太守府禀告太守：“下官承奉着大人的使命，商议这桩婚事谈得很投机。”"
           },
           "notes": []
         },
@@ -6850,9 +7307,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "太守听了这话以后，心中非常欢喜。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "连声说“是，是，就这样办，就这样办”。诺诺，应答的声音。尔尔，如此如此。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6931,19 +7394,30 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "他翻开历书反复查看，吉日就在这个月之内，月建和日辰的地支都相合。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "回到府里报告太守。部，府衙。府君，指太守。"
             },
+            {
+              "start": 13,
+              "end": 17,
+              "note": "说起（这门亲事）来，他们（两人）大有缘分。"
+            }
+          ]
+        },
+        {
+          "sentence": [
             {
               "char": "府",
               "pinyin": "hèn"
@@ -6994,7 +7468,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "“成婚吉日就定在三十日，今天已是二十七日，你可立即去办理迎娶的事。”"
           },
           "notes": []
         },
@@ -7074,9 +7548,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "彼此相互传语快快去筹办，来往的人连续不断像天上的浮云。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "反复翻看历书，婚期定在这个月内就很适合。利，适合。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "note": "阴阳家以月建与日辰的地支相合为吉日，即子与丑合，寅与亥合，卯与戌合，辰与酉合，巳与申合，午与未合，总称“六合”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7154,9 +7639,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "迎亲的船只上画着青雀和白鹄，船的四角还挂着绣着龙的旗子。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "良辰吉日。"
+            },
+            {
+              "start": 12,
+              "end": 16,
+              "note": "这是太守叫郡丞去刘家订好结婚日期。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7210,9 +7706,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "旗子随风轻轻地飘动，金色的车配着玉饰的轮。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "大家互相传告“赶快收拾，准备吧”。交语，互相传告。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7266,9 +7768,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "驾上那毛色青白相杂的马缓步前进，马鞍两旁结着金线织成的缨子。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "画着青雀、白鹄的船，四角挂着龙子幡。龙子幡，绣花的旗帜。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7322,7 +7830,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "送了聘金三百万，全部用青丝串联起。"
           },
           "notes": []
         },
@@ -7378,15 +7886,32 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "各种花色的绸缎三百匹，还派人到交州广州购来海味和山珍。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "毛色青白相杂的马缓缓地走。踯躅，徘徊不前，这里是“缓慢地走”的意思。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "note": "马鞍上面有镂刻的金饰，周围垂着缨子。流苏，下垂的缨子，是五彩羽毛或丝线做的。"
+            }
+          ]
         },
         {
           "sentence": [
             {
               "char": "赍",
-              "pinyin": "jiā"
+              "pinyin": "jiā",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "赠送。"
+                }
+              ]
             },
             {
               "char": "钱",
@@ -7434,7 +7959,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "随从人员共有四五百，热热闹闹地齐集太守府前准备去迎亲。"
           },
           "notes": []
         },
@@ -7490,9 +8015,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "亲娘对兰芝说：“刚才得到太守的信，明天就要来迎娶你。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "各色绸缎。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "note": "从交州、广州（今广东、广西一带）采办的山珍海味。鲑，这里是鱼类菜肴的总称。珍，美味。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7546,9 +8082,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你为什么还不做好衣裳？"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "繁多的样子。"
+            }
+          ]
         }
       ]
     },
@@ -7586,7 +8128,13 @@
             },
             {
               "char": "适",
-              "pinyin": "sī"
+              "pinyin": "sī",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "刚才。"
+                }
+              ]
             },
             {
               "char": "得",
@@ -7634,7 +8182,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "不要让事情办不成!”兰芝默默不说话，用手巾掩口悲声啼，眼泪坠落就像流水往下泻。"
           },
           "notes": []
         },
@@ -7666,7 +8214,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "移动她那镶着琉璃的坐榻，搬出来放到前窗下。"
           },
           "notes": []
         },
@@ -7690,27 +8238,25 @@
             },
             {
               "char": "举",
-              "pinyin": "jīn"
+              "pinyin": "jīn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "成功。"
+                }
+              ]
             },
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "左手拿着剪刀和界尺，右手拿着绫罗和绸缎。"
           },
           "notes": []
         }
@@ -7794,7 +8340,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "早上做成绣裌裙，傍晚又做成单罗衫。"
           },
           "notes": []
         },
@@ -7850,7 +8396,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "天色将晚，她想到明天要出嫁便伤心哭泣。"
           },
           "notes": []
         },
@@ -7906,7 +8452,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏听到这个意外的变故，便告假请求暂时回家。"
           },
           "notes": []
         },
@@ -7962,7 +8508,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "还未走到刘家大约还有二三里，人很伤心马儿也悲鸣。"
           },
           "notes": []
         },
@@ -8018,9 +8564,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝熟悉那匹马的鸣声，踏着鞋急忙走出家门去相迎。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "昏暗的样子。"
+            }
+          ]
         }
       ]
     },
@@ -8078,7 +8630,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "心中惆怅远远地望过去，知道是从前的夫婿已来临。"
           },
           "notes": []
         },
@@ -8134,9 +8686,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她举起手来拍拍马鞍，不断叹气彼此更伤心。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "还没到（刘家，大约相隔）二三里地，人伤心，马也哀鸣。摧藏，摧折心肝，指伤心。藏，同“脏”，脏腑。一说，摧藏就是“凄怆”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -8190,7 +8748,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "“自从你离开我之后，人事变迁真是无法预测和估量。"
           },
           "notes": []
         },
@@ -8246,7 +8804,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "果然不能满足我们从前的心愿，内中的情由又不是你能了解端详。"
           },
           "notes": []
         },
@@ -8354,7 +8912,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我有亲父母，逼迫我的还有我的亲兄长。"
           },
           "notes": []
         },
@@ -8402,7 +8960,13 @@
             },
             {
               "char": "详",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "了解，知悉。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -8410,7 +8974,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "把我许配了别人，你还能有什么希望！”"
           },
           "notes": []
         },
@@ -8466,9 +9030,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏对兰芝说：“祝贺你能够高升！"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "父亲和母亲，这里是偏义复词，单指母亲。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "哥哥和弟弟，这里是偏义复词，单指兄长。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -8519,22 +9094,14 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "大石方正又坚厚，可以千年都不变。"
           },
           "notes": []
         }
@@ -8598,7 +9165,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "蒲苇虽然一时坚韧，但只能坚持很短的时间。"
           },
           "notes": []
         },
@@ -8654,7 +9221,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "你将一天比一天高贵，只有我独自一人下到黄泉。”"
           },
           "notes": []
         },
@@ -8710,9 +9277,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "兰芝对府吏说：“想不到你会说出这样的话！"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "只能保持很短的时间。旦夕，早晚之间，指时间短。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -8763,24 +9336,22 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "两人同样是被逼迫，你是这样我也是这样受熬煎。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "你将会一天比一天尊贵起来。"
+            }
+          ]
         }
       ]
     },
@@ -8842,7 +9413,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我们在黄泉之下再相见，不要违背今天的誓言！”"
           },
           "notes": []
         },
@@ -8898,7 +9469,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "他们握手告别分道离去，双双回到自己家里面。"
           },
           "notes": []
         },
@@ -8951,19 +9522,19 @@
             {
               "char": "！",
               "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "活着的人却要做死的离别，心中的无奈哪里能够说得完。"
           },
           "notes": []
         },
         {
           "sentence": [
-            {
-              "char": "”",
-              "pinyin": "　"
-            },
             {
               "char": "执",
               "pinyin": ""
@@ -9014,7 +9585,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "他们都想很快地离开人世，无论如何也不愿苟且偷生得保全。"
           },
           "notes": []
         },
@@ -9070,9 +9641,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏回到自己家，上堂拜见阿母说：“今天风大天又寒，寒风摧折了树木，浓霜冻坏了庭院中的兰花。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "心中抱恨不已，哪里说得尽呢？恨恨，抱恨不已。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -9126,9 +9703,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我今天已是日落西山生命将终结，让母亲独留世间以后的日子孤单。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "想到他们将要离开人世，无论如何不能再保全了。"
+            }
+          ]
         }
       ]
     },
@@ -9262,7 +9845,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我是有意作出这种不好的打算，请不要再怨恨鬼神施责罚！"
           },
           "notes": []
         },
@@ -9318,9 +9901,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "但愿你的生命像南山石一样的久长，身体强健又安康。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "日暮。这里比喻生命的终结。"
+            },
+            {
+              "start": 6,
+              "end": 10,
+              "note": "使得母亲今后很孤单。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -9374,9 +9968,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "阿母听到了这番话，泪水随着语声往下落：“你是大户人家的子弟，一直在官府做官。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "不好的打算。这里指自杀。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -9427,24 +10027,22 @@
             {
               "char": "！",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "千万不要为了一个妇人去寻死，贵贱不同你将她遗弃怎能算薄情？"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 10,
+              "note": "（愿您）寿命像南山的石头一样久长，身体永远健康。四体，这里指身体。直，意思是身子骨硬朗。"
+            }
+          ]
         }
       ]
     },
@@ -9554,9 +10152,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "东邻有个好女子，苗条美丽全城称第一。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 22,
+              "end": 23,
+              "note": "尚书台。这里泛指大的官府。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -9610,9 +10214,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "做母亲的为你去求婚，答复就在这早晚之间。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "（你和她）贵贱不同，（离弃了她）哪里就算薄情呢！贵，指仲卿。贱，指兰芝。何薄，何薄之有。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -9711,22 +10321,14 @@
             {
               "char": "。",
               "pinyin": "　"
-            }
-          ],
-          "translation": {
-            "translation": ""
-          },
-          "notes": []
-        },
-        {
-          "sentence": [
+            },
             {
               "char": "”",
               "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏再拜之后转身走回去，在空房中长叹不已。"
           },
           "notes": []
         }
@@ -9802,7 +10404,13 @@
             },
             {
               "char": "立",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "决定。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -9810,9 +10418,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "他就这样下定了决心，把头转向屋子里，心中忧愁煎迫一阵更比一阵紧。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 14,
+              "end": 15,
+              "note": "如此。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -9866,7 +10480,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "迎亲的那一天牛马嘶叫，新媳妇兰芝被迎娶进入青色帐篷里。"
           },
           "notes": []
         }
@@ -9926,7 +10540,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "天色昏暗已是黄昏后，静悄悄的四周无声息。"
           },
           "notes": []
         },
@@ -9982,9 +10596,20 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "“我的生命终结就在今天，只有尸体长久留下我的魂魄将要离去。”"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "天黑了以后。奄奄，暗沉沉的。黄昏，十二时辰之一，即戌时（相当于现在的19时至21时）。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "note": "十二时辰之一，即亥时（相当于现在的21时至23时）。这里指夜深人静的时候。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -10039,19 +10664,19 @@
             {
               "char": "！",
               "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "她挽起裙子脱下丝鞋，纵身一跳投进了清水池。"
           },
           "notes": []
         },
         {
           "sentence": [
-            {
-              "char": "”",
-              "pinyin": "　"
-            },
             {
               "char": "揽",
               "pinyin": ""
@@ -10102,7 +10727,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "府吏听到了这件事，心里知道这就是永远的别离，于是来到庭院大树下徘徊了一阵，自己吊死在东南边的树枝。"
           },
           "notes": []
         }
@@ -10162,7 +10787,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "两家要求将他们夫妻二人合葬，合葬在华山旁。"
           },
           "notes": []
         },
@@ -10218,7 +10843,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "在坟墓四周种上松柏和梧桐。"
           },
           "notes": []
         }
@@ -10278,9 +10903,15 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "各种树枝枝枝相覆盖，各种树叶叶叶相连通。"
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 8,
+              "end": 9,
+              "note": "庐江境内的一座小山。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -10334,7 +10965,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "中间又有一对双飞鸟，鸟名本是叫鸳鸯，它们抬起头来相对鸣叫，每晚都要鸣叫一直叫到五更。"
           },
           "notes": []
         },
@@ -10390,7 +11021,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "过路的人都停下脚步仔细听，寡妇惊起更是不安和彷徨。"
           },
           "notes": []
         },
@@ -10446,7 +11077,7 @@
             }
           ],
           "translation": {
-            "translation": ""
+            "translation": "我要郑重地告诉后来的人，以此为鉴戒千万不要把它忘。"
           },
           "notes": []
         },
@@ -10570,7 +11201,13 @@
             },
             {
               "char": "谢",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "告诉，告知。"
+                }
+              ]
             },
             {
               "char": "后",
