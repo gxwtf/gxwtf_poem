@@ -3,7 +3,7 @@
   "author": "李斯",
   "dynasty": "先秦",
   "mode": "paragraph",
-  "tag": [
+  "tags": [
     "必修下",
     "文言文"
   ],
@@ -1643,52 +1643,6 @@
               "content": "推辞，拒绝。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "(",
-              "pinyin": "",
-              "index": 287
-            },
-            {
-              "char": "缪",
-              "pinyin": "jīn",
-              "index": 288
-            },
-            {
-              "char": " ",
-              "pinyin": "bì",
-              "index": 289
-            },
-            {
-              "char": "一",
-              "pinyin": "xià",
-              "index": 290
-            },
-            {
-              "char": "作",
-              "pinyin": "zhì",
-              "index": 291
-            },
-            {
-              "char": " ",
-              "pinyin": "kūn",
-              "index": 292
-            },
-            {
-              "char": "穆",
-              "pinyin": "shān",
-              "index": 293
-            },
-            {
-              "char": ")",
-              "pinyin": "",
-              "index": 294
-            }
-          ],
-          "translation": "如今陛下罗致昆山的美玉，宫中有随侯之珠，和氏之璧，衣饰上缀着光如明月的宝珠，身上佩带着太阿宝剑，乘坐的是名贵的千里马，树立的是以翠凤羽毛为饰的旗子，陈设的是蒙着灵鼍之皮的好鼓。",
-          "notes": []
         }
       ]
     },
@@ -1698,236 +1652,236 @@
           "content": [
             {
               "char": "今",
-              "pinyin": "zhī",
-              "index": 295
+              "pinyin": "jīn",
+              "index": 287
             },
             {
               "char": "陛",
-              "pinyin": "yù",
-              "index": 296
+              "pinyin": "bì",
+              "index": 288
             },
             {
               "char": "下",
-              "pinyin": "yǒu",
-              "index": 297
+              "pinyin": "xià",
+              "index": 289
             },
             {
               "char": "致",
-              "pinyin": "suí",
-              "index": 298
+              "pinyin": "zhì",
+              "index": 290
             },
             {
               "char": "昆",
-              "pinyin": "hé",
-              "index": 299
+              "pinyin": "kūn",
+              "index": 291
             },
             {
               "char": "山",
-              "pinyin": "zhī",
-              "index": 300
+              "pinyin": "shān",
+              "index": 292
             },
             {
               "char": "之",
-              "pinyin": "bǎo",
-              "index": 301
+              "pinyin": "zhī",
+              "index": 293
             },
             {
               "char": "玉",
-              "pinyin": "chuí",
-              "index": 302
+              "pinyin": "yù",
+              "index": 294
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 303
+              "index": 295
             },
             {
               "char": "有",
-              "pinyin": "míng",
-              "index": 304
+              "pinyin": "yǒu",
+              "index": 296
             },
             {
               "char": "随",
-              "pinyin": "yuè",
-              "index": 305
+              "pinyin": "suí",
+              "index": 297
             },
             {
               "char": "、",
               "pinyin": "",
-              "index": 306
+              "index": 298
             },
             {
               "char": "和",
-              "pinyin": "zhī",
-              "index": 307
+              "pinyin": "hé",
+              "index": 299
             },
             {
               "char": "之",
-              "pinyin": "zhū",
-              "index": 308
+              "pinyin": "zhī",
+              "index": 300
             },
             {
               "char": "宝",
+              "pinyin": "bǎo",
+              "index": 301
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 302
+            },
+            {
+              "char": "垂",
+              "pinyin": "chuí",
+              "index": 303
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 304
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè",
+              "index": 305
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 306
+            },
+            {
+              "char": "珠",
+              "pinyin": "zhū",
+              "index": 307
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 308
+            },
+            {
+              "char": "服",
               "pinyin": "fú",
               "index": 309
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "太",
+              "pinyin": "tài",
               "index": 310
             },
             {
-              "char": "垂",
-              "pinyin": "tài",
+              "char": "阿",
+              "pinyin": "ē",
               "index": 311
             },
             {
-              "char": "明",
-              "pinyin": "ē",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 312
-            },
-            {
-              "char": "月",
-              "pinyin": "zhī",
-              "index": 313
-            },
-            {
-              "char": "之",
-              "pinyin": "jiàn",
-              "index": 314
-            },
-            {
-              "char": "珠",
-              "pinyin": "chéng",
-              "index": 315
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 316
-            },
-            {
-              "char": "服",
-              "pinyin": "xiān",
-              "index": 317
-            },
-            {
-              "char": "太",
-              "pinyin": "lí",
-              "index": 318
-            },
-            {
-              "char": "阿",
-              "pinyin": "zhī",
-              "index": 319
-            },
-            {
-              "char": "之",
-              "pinyin": "mǎ",
-              "index": 320
             },
             {
               "char": "剑",
               "pinyin": "jiàn",
-              "index": 321
+              "index": 313
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 322
+              "index": 314
             },
             {
               "char": "乘",
-              "pinyin": "cuì",
-              "index": 323
+              "pinyin": "chéng",
+              "index": 315
             },
             {
               "char": "纤",
-              "pinyin": "fèng",
-              "index": 324
+              "pinyin": "xiān",
+              "index": 316
             },
             {
               "char": "离",
-              "pinyin": "zhī",
-              "index": 325
+              "pinyin": "lí",
+              "index": 317
             },
             {
               "char": "之",
-              "pinyin": "qí",
-              "index": 326
+              "pinyin": "zhī",
+              "index": 318
             },
             {
               "char": "马",
-              "pinyin": "shù",
-              "index": 327
+              "pinyin": "mǎ",
+              "index": 319
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 328
+              "index": 320
             },
             {
               "char": "建",
-              "pinyin": "líng",
-              "index": 329
+              "pinyin": "jiàn",
+              "index": 321
             },
             {
               "char": "翠",
-              "pinyin": "tuó",
-              "index": 330
+              "pinyin": "cuì",
+              "index": 322
             },
             {
               "char": "凤",
-              "pinyin": "zhī",
-              "index": 331
+              "pinyin": "fèng",
+              "index": 323
             },
             {
               "char": "之",
-              "pinyin": "gǔ",
-              "index": 332
+              "pinyin": "zhī",
+              "index": 324
             },
             {
               "char": "旗",
-              "pinyin": "cǐ",
-              "index": 333
+              "pinyin": "qí",
+              "index": 325
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 334
+              "index": 326
             },
             {
               "char": "树",
               "pinyin": "shù",
-              "index": 335
+              "index": 327
             },
             {
               "char": "灵",
-              "pinyin": "bǎo",
-              "index": 336
+              "pinyin": "líng",
+              "index": 328
             },
             {
               "char": "鼍",
-              "pinyin": "zhě",
-              "index": 337
+              "pinyin": "tuó",
+              "index": 329
             },
             {
               "char": "之",
-              "pinyin": "qín",
-              "index": 338
+              "pinyin": "zhī",
+              "index": 330
             },
             {
               "char": "鼓",
-              "pinyin": "bù",
-              "index": 339
+              "pinyin": "gǔ",
+              "index": 331
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 340
+              "index": 332
             }
           ],
-          "translation": "",
+          "translation": "如今陛下罗致昆山的美玉，宫中有随侯之珠，和氏之璧，衣饰上缀着光如明月的宝珠，身上佩带着太阿宝剑，乘坐的是名贵的千里马，树立的是以翠凤羽毛为饰的旗子，陈设的是蒙着灵鼍之皮的好鼓。",
           "notes": [
             {
               "start": 4,
@@ -1970,76 +1924,122 @@
           "content": [
             {
               "char": "此",
-              "pinyin": "shēng",
-              "index": 341
+              "pinyin": "cǐ",
+              "index": 333
             },
             {
               "char": "数",
-              "pinyin": "yī",
-              "index": 342
+              "pinyin": "shù",
+              "index": 334
             },
             {
               "char": "宝",
-              "pinyin": "yān",
-              "index": 343
+              "pinyin": "bǎo",
+              "index": 335
             },
             {
               "char": "者",
+              "pinyin": "zhě",
+              "index": 336
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 337
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 338
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 339
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 340
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 341
+            },
+            {
+              "char": "焉",
+              "pinyin": "yān",
+              "index": 342
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 343
+            },
+            {
+              "char": "而",
               "pinyin": "ér",
               "index": 344
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "陛",
+              "pinyin": "bì",
               "index": 345
             },
             {
-              "char": "秦",
-              "pinyin": "bì",
+              "char": "下",
+              "pinyin": "xià",
               "index": 346
             },
             {
-              "char": "不",
-              "pinyin": "xià",
+              "char": "说",
+              "pinyin": "yuè",
               "index": 347
             },
             {
-              "char": "生",
-              "pinyin": "yuè",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 348
             },
             {
-              "char": "一",
-              "pinyin": "zhī",
+              "char": "，",
+              "pinyin": "",
               "index": 349
             },
             {
-              "char": "焉",
+              "char": "何",
               "pinyin": "hé",
               "index": 350
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "也",
+              "pinyin": "yě",
               "index": 351
             },
             {
-              "char": "而",
-              "pinyin": "yě",
+              "char": "？",
+              "pinyin": "",
               "index": 352
-            },
+            }
+          ],
+          "translation": "这些宝贵之物，没有一种是秦国产的，而陛下却很喜欢它们，这是为什么呢？",
+          "notes": []
+        },
+        {
+          "content": [
             {
-              "char": "陛",
+              "char": "必",
               "pinyin": "bì",
               "index": 353
             },
             {
-              "char": "下",
+              "char": "秦",
               "pinyin": "qín",
               "index": 354
             },
             {
-              "char": "说",
+              "char": "国",
               "pinyin": "guó",
               "index": 355
             },
@@ -2049,274 +2049,268 @@
               "index": 356
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "所",
+              "pinyin": "suǒ",
               "index": 357
             },
             {
-              "char": "何",
-              "pinyin": "suǒ",
+              "char": "生",
+              "pinyin": "shēng",
               "index": 358
             },
             {
-              "char": "也",
-              "pinyin": "shēng",
+              "char": "然",
+              "pinyin": "rán",
               "index": 359
             },
             {
-              "char": "？",
-              "pinyin": "",
-              "index": 360
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
-            {
-              "char": "必",
-              "pinyin": "rán",
-              "index": 361
-            },
-            {
-              "char": "秦",
-              "pinyin": "hòu",
-              "index": 362
-            },
-            {
-              "char": "国",
-              "pinyin": "kě",
-              "index": 363
-            },
-            {
-              "char": "之",
-              "pinyin": "zé",
-              "index": 364
-            },
-            {
-              "char": "所",
-              "pinyin": "shì",
-              "index": 365
-            },
-            {
-              "char": "生",
-              "pinyin": "yè",
-              "index": 366
-            },
-            {
-              "char": "然",
-              "pinyin": "guāng",
-              "index": 367
-            },
-            {
               "char": "后",
-              "pinyin": "zhī",
-              "index": 368
+              "pinyin": "hòu",
+              "index": 360
             },
             {
               "char": "可",
-              "pinyin": "bì",
-              "index": 369
+              "pinyin": "kě",
+              "index": 361
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 370
+              "index": 362
             },
             {
               "char": "则",
-              "pinyin": "bù",
-              "index": 371
+              "pinyin": "zé",
+              "index": 363
             },
             {
               "char": "是",
               "pinyin": "shì",
-              "index": 372
+              "index": 364
             },
             {
               "char": "夜",
-              "pinyin": "cháo",
-              "index": 373
+              "pinyin": "yè",
+              "index": 365
             },
             {
               "char": "光",
-              "pinyin": "tíng",
-              "index": 374
+              "pinyin": "guāng",
+              "index": 366
             },
             {
               "char": "之",
-              "pinyin": "xī",
-              "index": 375
+              "pinyin": "zhī",
+              "index": 367
             },
             {
               "char": "璧",
-              "pinyin": "xiàng",
-              "index": 376
+              "pinyin": "bì",
+              "index": 368
             },
             {
               "char": "不",
-              "pinyin": "zhī",
-              "index": 377
+              "pinyin": "bù",
+              "index": 369
             },
             {
               "char": "饰",
-              "pinyin": "qì",
-              "index": 378
+              "pinyin": "shì",
+              "index": 370
             },
             {
               "char": "朝",
-              "pinyin": "bù",
-              "index": 379
+              "pinyin": "cháo",
+              "index": 371
             },
             {
               "char": "廷",
-              "pinyin": "wéi",
-              "index": 380
+              "pinyin": "tíng",
+              "index": 372
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 381
+              "index": 373
             },
             {
               "char": "犀",
-              "pinyin": "wán",
-              "index": 382
+              "pinyin": "xī",
+              "index": 374
             },
             {
               "char": "象",
-              "pinyin": "hào",
-              "index": 383
+              "pinyin": "xiàng",
+              "index": 375
             },
             {
               "char": "之",
-              "pinyin": "zhèng",
-              "index": 384
+              "pinyin": "zhī",
+              "index": 376
             },
             {
               "char": "器",
-              "pinyin": "wèi",
-              "index": 385
+              "pinyin": "qì",
+              "index": 377
             },
             {
               "char": "不",
-              "pinyin": "zhī",
-              "index": 386
+              "pinyin": "bù",
+              "index": 378
             },
             {
               "char": "为",
-              "pinyin": "nǚ",
-              "index": 387
+              "pinyin": "wéi",
+              "index": 379
             },
             {
               "char": "玩",
-              "pinyin": "bù",
-              "index": 388
+              "pinyin": "wán",
+              "index": 380
             },
             {
               "char": "好",
-              "pinyin": "chōng",
-              "index": 389
+              "pinyin": "hào",
+              "index": 381
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 390
+              "index": 382
             },
             {
               "char": "郑",
-              "pinyin": "hòu",
-              "index": 391
+              "pinyin": "zhèng",
+              "index": 383
             },
             {
               "char": "、",
               "pinyin": "",
-              "index": 392
+              "index": 384
             },
             {
               "char": "卫",
-              "pinyin": "gōng",
-              "index": 393
+              "pinyin": "wèi",
+              "index": 385
             },
             {
               "char": "之",
-              "pinyin": "ér",
-              "index": 394
+              "pinyin": "zhī",
+              "index": 386
             },
             {
               "char": "女",
-              "pinyin": "jùn",
-              "index": 395
+              "pinyin": "nǚ",
+              "index": 387
             },
             {
               "char": "不",
-              "pinyin": "liáng",
-              "index": 396
+              "pinyin": "bù",
+              "index": 388
             },
             {
               "char": "充",
-              "pinyin": "jué",
-              "index": 397
+              "pinyin": "chōng",
+              "index": 389
             },
             {
               "char": "后",
-              "pinyin": "tí",
-              "index": 398
+              "pinyin": "hòu",
+              "index": 390
             },
             {
               "char": "宫",
-              "pinyin": "bù",
-              "index": 399
+              "pinyin": "gōng",
+              "index": 391
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 400
+              "index": 392
             },
             {
               "char": "而",
-              "pinyin": "shí",
-              "index": 401
+              "pinyin": "ér",
+              "index": 393
             },
             {
               "char": "骏",
-              "pinyin": "wài",
-              "index": 402
+              "pinyin": "jùn",
+              "index": 394
             },
             {
               "char": "良",
-              "pinyin": "jiù",
-              "index": 403
+              "pinyin": "liáng",
+              "index": 395
             },
             {
               "char": "駃",
-              "pinyin": "jiāng",
-              "index": 404
+              "pinyin": "jué",
+              "index": 396
             },
             {
               "char": "騠",
-              "pinyin": "nán",
-              "index": 405
+              "pinyin": "tí",
+              "index": 397
             },
             {
               "char": "不",
-              "pinyin": "jīn",
-              "index": 406
+              "pinyin": "bù",
+              "index": 398
             },
             {
               "char": "实",
-              "pinyin": "xī",
-              "index": 407
+              "pinyin": "shí",
+              "index": 399
             },
             {
               "char": "外",
-              "pinyin": "bù",
-              "index": 408
+              "pinyin": "wài",
+              "index": 400
             },
             {
               "char": "厩",
+              "pinyin": "jiù",
+              "index": 401
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 402
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng",
+              "index": 403
+            },
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 404
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 405
+            },
+            {
+              "char": "锡",
+              "pinyin": "xī",
+              "index": 406
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 407
+            },
+            {
+              "char": "为",
               "pinyin": "wéi",
+              "index": 408
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng",
               "index": 409
             },
             {
@@ -2325,87 +2319,47 @@
               "index": 410
             },
             {
-              "char": "江",
-              "pinyin": "yòng",
+              "char": "西",
+              "pinyin": "xī",
               "index": 411
             },
             {
-              "char": "南",
-              "pinyin": "xī",
+              "char": "蜀",
+              "pinyin": "shǔ",
               "index": 412
             },
             {
-              "char": "金",
-              "pinyin": "shǔ",
+              "char": "丹",
+              "pinyin": "dān",
               "index": 413
             },
             {
-              "char": "锡",
-              "pinyin": "dān",
+              "char": "青",
+              "pinyin": "qīng",
               "index": 414
             },
             {
               "char": "不",
-              "pinyin": "qīng",
+              "pinyin": "bù",
               "index": 415
             },
             {
               "char": "为",
-              "pinyin": "bù",
+              "pinyin": "wéi",
               "index": 416
             },
             {
-              "char": "用",
-              "pinyin": "wéi",
-              "index": 417
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 418
-            },
-            {
-              "char": "西",
-              "pinyin": "cǎi",
-              "index": 419
-            },
-            {
-              "char": "蜀",
-              "pinyin": "suǒ",
-              "index": 420
-            },
-            {
-              "char": "丹",
-              "pinyin": "yǐ",
-              "index": 421
-            },
-            {
-              "char": "青",
-              "pinyin": "shì",
-              "index": 422
-            },
-            {
-              "char": "不",
-              "pinyin": "hòu",
-              "index": 423
-            },
-            {
-              "char": "为",
-              "pinyin": "gōng",
-              "index": 424
-            },
-            {
               "char": "采",
-              "pinyin": "chōng",
-              "index": 425
+              "pinyin": "cǎi",
+              "index": 417
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 426
+              "index": 418
             }
           ],
-          "translation": "",
+          "translation": "如果一定要是秦国出产的才许可采用，那么这种夜光宝玉，决不会成为宫廷的装饰；",
           "notes": [
             {
               "start": 21,
@@ -2433,26 +2387,66 @@
           "content": [
             {
               "char": "所",
-              "pinyin": "xià",
-              "index": 427
+              "pinyin": "suǒ",
+              "index": 419
             },
             {
               "char": "以",
-              "pinyin": "chén",
-              "index": 428
+              "pinyin": "yǐ",
+              "index": 420
             },
             {
               "char": "饰",
+              "pinyin": "shì",
+              "index": 421
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 422
+            },
+            {
+              "char": "宫",
+              "pinyin": "gōng",
+              "index": 423
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 424
+            },
+            {
+              "char": "充",
+              "pinyin": "chōng",
+              "index": 425
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 426
+            },
+            {
+              "char": "陈",
+              "pinyin": "chén",
+              "index": 427
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 428
+            },
+            {
+              "char": "娱",
               "pinyin": "yú",
               "index": 429
             },
             {
-              "char": "后",
+              "char": "心",
               "pinyin": "xīn",
               "index": 430
             },
             {
-              "char": "宫",
+              "char": "意",
               "pinyin": "yì",
               "index": 431
             },
@@ -2462,63 +2456,63 @@
               "index": 432
             },
             {
-              "char": "充",
+              "char": "说",
               "pinyin": "yuè",
               "index": 433
             },
             {
-              "char": "下",
+              "char": "耳",
               "pinyin": "ěr",
               "index": 434
             },
             {
-              "char": "陈",
+              "char": "目",
               "pinyin": "mù",
               "index": 435
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "者",
+              "pinyin": "zhě",
               "index": 436
             },
             {
-              "char": "娱",
-              "pinyin": "zhě",
+              "char": "，",
+              "pinyin": "",
               "index": 437
             },
             {
-              "char": "心",
+              "char": "必",
               "pinyin": "bì",
               "index": 438
             },
             {
-              "char": "意",
+              "char": "出",
               "pinyin": "chū",
               "index": 439
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "于",
+              "pinyin": "yú",
               "index": 440
             },
             {
-              "char": "说",
-              "pinyin": "yú",
+              "char": "秦",
+              "pinyin": "qín",
               "index": 441
             },
             {
-              "char": "耳",
-              "pinyin": "qín",
+              "char": "然",
+              "pinyin": "rán",
               "index": 442
             },
             {
-              "char": "目",
-              "pinyin": "rán",
+              "char": "后",
+              "pinyin": "hòu",
               "index": 443
             },
             {
-              "char": "者",
-              "pinyin": "hòu",
+              "char": "可",
+              "pinyin": "kě",
               "index": 444
             },
             {
@@ -2527,262 +2521,222 @@
               "index": 445
             },
             {
-              "char": "必",
-              "pinyin": "kě",
+              "char": "则",
+              "pinyin": "zé",
               "index": 446
             },
             {
-              "char": "出",
-              "pinyin": "zé",
+              "char": "是",
+              "pinyin": "shì",
               "index": 447
             },
             {
-              "char": "于",
-              "pinyin": "shì",
+              "char": "宛",
+              "pinyin": "yuān",
               "index": 448
             },
             {
-              "char": "秦",
-              "pinyin": "yuān",
+              "char": "珠",
+              "pinyin": "zhū",
               "index": 449
             },
             {
-              "char": "然",
-              "pinyin": "zhū",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 450
             },
             {
-              "char": "后",
-              "pinyin": "zhī",
+              "char": "簪",
+              "pinyin": "zān",
               "index": 451
             },
             {
-              "char": "可",
-              "pinyin": "zān",
+              "char": "、",
+              "pinyin": "",
               "index": 452
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "傅",
+              "pinyin": "fù",
               "index": 453
             },
             {
-              "char": "则",
-              "pinyin": "fù",
+              "char": "玑",
+              "pinyin": "jī",
               "index": 454
             },
             {
-              "char": "是",
-              "pinyin": "jī",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 455
             },
             {
-              "char": "宛",
-              "pinyin": "zhī",
+              "char": "珥",
+              "pinyin": "ěr",
               "index": 456
             },
             {
-              "char": "珠",
-              "pinyin": "ěr",
+              "char": "、",
+              "pinyin": "",
               "index": 457
             },
             {
-              "char": "之",
+              "char": "阿",
               "pinyin": "ē",
               "index": 458
             },
             {
-              "char": "簪",
+              "char": "缟",
               "pinyin": "gǎo",
               "index": 459
             },
             {
-              "char": "、",
-              "pinyin": "",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 460
             },
             {
-              "char": "傅",
-              "pinyin": "zhī",
+              "char": "衣",
+              "pinyin": "yī",
               "index": 461
             },
             {
-              "char": "玑",
-              "pinyin": "yī",
+              "char": "、",
+              "pinyin": "",
               "index": 462
             },
             {
-              "char": "之",
+              "char": "锦",
               "pinyin": "jǐn",
               "index": 463
             },
             {
-              "char": "珥",
+              "char": "绣",
               "pinyin": "xiù",
               "index": 464
             },
             {
-              "char": "、",
-              "pinyin": "",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 465
             },
             {
-              "char": "阿",
-              "pinyin": "zhī",
+              "char": "饰",
+              "pinyin": "shì",
               "index": 466
             },
             {
-              "char": "缟",
-              "pinyin": "shì",
+              "char": "不",
+              "pinyin": "bù",
               "index": 467
             },
             {
-              "char": "之",
-              "pinyin": "bù",
+              "char": "进",
+              "pinyin": "jìn",
               "index": 468
             },
             {
-              "char": "衣",
-              "pinyin": "jìn",
+              "char": "于",
+              "pinyin": "yú",
               "index": 469
             },
             {
-              "char": "、",
-              "pinyin": "",
-              "index": 470
-            },
-            {
-              "char": "锦",
-              "pinyin": "yú",
-              "index": 471
-            },
-            {
-              "char": "绣",
-              "pinyin": "qián",
-              "index": 472
-            },
-            {
-              "char": "之",
-              "pinyin": "ér",
-              "index": 473
-            },
-            {
-              "char": "饰",
-              "pinyin": "suí",
-              "index": 474
-            },
-            {
-              "char": "不",
-              "pinyin": "sú",
-              "index": 475
-            },
-            {
-              "char": "进",
-              "pinyin": "yǎ",
-              "index": 476
-            },
-            {
-              "char": "于",
-              "pinyin": "huà",
-              "index": 477
-            },
-            {
               "char": "前",
-              "pinyin": "jiā",
-              "index": 478
+              "pinyin": "qián",
+              "index": 470
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 479
+              "index": 471
             },
             {
               "char": "而",
-              "pinyin": "yě",
-              "index": 480
+              "pinyin": "ér",
+              "index": 472
             },
             {
               "char": "随",
-              "pinyin": "yǎo",
-              "index": 481
+              "pinyin": "suí",
+              "index": 473
             },
             {
               "char": "俗",
-              "pinyin": "tiǎo",
-              "index": 482
+              "pinyin": "sú",
+              "index": 474
             },
             {
               "char": "雅",
-              "pinyin": "zhào",
-              "index": 483
+              "pinyin": "yǎ",
+              "index": 475
             },
             {
               "char": "化",
-              "pinyin": "nǚ",
-              "index": 484
+              "pinyin": "huà",
+              "index": 476
             },
             {
               "char": "佳",
-              "pinyin": "bù",
-              "index": 485
+              "pinyin": "jiā",
+              "index": 477
             },
             {
               "char": "冶",
-              "pinyin": "lì",
-              "index": 486
+              "pinyin": "yě",
+              "index": 478
             },
             {
               "char": "窈",
-              "pinyin": "yú",
-              "index": 487
+              "pinyin": "yǎo",
+              "index": 479
             },
             {
               "char": "窕",
-              "pinyin": "cè",
-              "index": 488
+              "pinyin": "tiǎo",
+              "index": 480
             },
             {
               "char": "赵",
-              "pinyin": "yě",
-              "index": 489
+              "pinyin": "zhào",
+              "index": 481
             },
             {
               "char": "女",
-              "pinyin": "fú",
-              "index": 490
+              "pinyin": "nǚ",
+              "index": 482
             },
             {
               "char": "不",
-              "pinyin": "jī",
-              "index": 491
+              "pinyin": "bù",
+              "index": 483
             },
             {
               "char": "立",
-              "pinyin": "wèng",
-              "index": 492
+              "pinyin": "lì",
+              "index": 484
             },
             {
               "char": "于",
-              "pinyin": "kòu",
-              "index": 493
+              "pinyin": "yú",
+              "index": 485
             },
             {
               "char": "侧",
-              "pinyin": "fǒu",
-              "index": 494
+              "pinyin": "cè",
+              "index": 486
             },
             {
               "char": "也",
-              "pinyin": "tán",
-              "index": 495
+              "pinyin": "yě",
+              "index": 487
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 496
+              "index": 488
             }
           ],
-          "translation": "",
+          "translation": "犀角、象牙雕成的器物，也不会成为陛下的玩好之物；",
           "notes": [
             {
               "start": 7,
@@ -2820,136 +2774,136 @@
           "content": [
             {
               "char": "夫",
-              "pinyin": "zhēng",
-              "index": 497
+              "pinyin": "fú",
+              "index": 489
             },
             {
               "char": "击",
-              "pinyin": "bó",
-              "index": 498
+              "pinyin": "jī",
+              "index": 490
             },
             {
               "char": "瓮",
-              "pinyin": "bì",
-              "index": 499
+              "pinyin": "wèng",
+              "index": 491
             },
             {
               "char": "叩",
+              "pinyin": "kòu",
+              "index": 492
+            },
+            {
+              "char": "缶",
+              "pinyin": "fǒu",
+              "index": 493
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 494
+            },
+            {
+              "char": "弹",
+              "pinyin": "tán",
+              "index": 495
+            },
+            {
+              "char": "筝",
+              "pinyin": "zhēng",
+              "index": 496
+            },
+            {
+              "char": "搏",
+              "pinyin": "bó",
+              "index": 497
+            },
+            {
+              "char": "髀",
+              "pinyin": "bì",
+              "index": 498
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 499
+            },
+            {
+              "char": "而",
               "pinyin": "ér",
               "index": 500
             },
             {
-              "char": "缶",
+              "char": "歌",
               "pinyin": "gē",
               "index": 501
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "呼",
+              "pinyin": "hū",
               "index": 502
             },
             {
-              "char": "弹",
-              "pinyin": "hū",
+              "char": "呜",
+              "pinyin": "wū",
               "index": 503
             },
             {
-              "char": "筝",
+              "char": "呜",
               "pinyin": "wū",
               "index": 504
             },
             {
-              "char": "搏",
-              "pinyin": "wū",
+              "char": "快",
+              "pinyin": "kuài",
               "index": 505
             },
             {
-              "char": "髀",
-              "pinyin": "kuài",
+              "char": "耳",
+              "pinyin": "ěr",
               "index": 506
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "者",
+              "pinyin": "zhě",
               "index": 507
             },
             {
-              "char": "而",
-              "pinyin": "ěr",
+              "char": "，",
+              "pinyin": "",
               "index": 508
             },
             {
-              "char": "歌",
-              "pinyin": "zhě",
+              "char": "真",
+              "pinyin": "zhēn",
               "index": 509
             },
             {
-              "char": "呼",
-              "pinyin": "zhēn",
+              "char": "秦",
+              "pinyin": "qín",
               "index": 510
             },
             {
-              "char": "呜",
-              "pinyin": "qín",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 511
             },
             {
-              "char": "呜",
-              "pinyin": "zhī",
+              "char": "声",
+              "pinyin": "shēng",
               "index": 512
             },
             {
-              "char": "快",
-              "pinyin": "shēng",
-              "index": 513
-            },
-            {
-              "char": "耳",
-              "pinyin": "yě",
-              "index": 514
-            },
-            {
-              "char": "者",
-              "pinyin": "zhèng",
-              "index": 515
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 516
-            },
-            {
-              "char": "真",
-              "pinyin": "wèi",
-              "index": 517
-            },
-            {
-              "char": "秦",
-              "pinyin": "sāng",
-              "index": 518
-            },
-            {
-              "char": "之",
-              "pinyin": "jiān",
-              "index": 519
-            },
-            {
-              "char": "声",
-              "pinyin": "sháo",
-              "index": 520
-            },
-            {
               "char": "也",
-              "pinyin": "yú",
-              "index": 521
+              "pinyin": "yě",
+              "index": 513
             },
             {
               "char": "；",
               "pinyin": "",
-              "index": 522
+              "index": 514
             }
           ],
-          "translation": "",
+          "translation": "郑、卫二地能歌善舞的女子，也不会填满陛下的后宫；",
           "notes": [
             {
               "start": 1,
@@ -2967,156 +2921,156 @@
           "content": [
             {
               "char": "《",
-              "pinyin": "wǔ",
-              "index": 523
+              "pinyin": "",
+              "index": 515
             },
             {
               "char": "郑",
-              "pinyin": "xiàng",
-              "index": 524
+              "pinyin": "zhèng",
+              "index": 516
             },
             {
               "char": "》",
-              "pinyin": "zhě",
-              "index": 525
+              "pinyin": "",
+              "index": 517
             },
             {
               "char": "《",
-              "pinyin": "yì",
-              "index": 526
+              "pinyin": "",
+              "index": 518
             },
             {
               "char": "卫",
-              "pinyin": "guó",
-              "index": 527
+              "pinyin": "wèi",
+              "index": 519
             },
             {
               "char": "》",
-              "pinyin": "zhī",
-              "index": 528
+              "pinyin": "",
+              "index": 520
             },
             {
               "char": "《",
-              "pinyin": "yuè",
-              "index": 529
+              "pinyin": "",
+              "index": 521
             },
             {
               "char": "桑",
-              "pinyin": "yě",
-              "index": 530
+              "pinyin": "sāng",
+              "index": 522
             },
             {
               "char": "间",
-              "pinyin": "jīn",
-              "index": 531
+              "pinyin": "jiān",
+              "index": 523
             },
             {
               "char": "》",
-              "pinyin": "qì",
-              "index": 532
+              "pinyin": "",
+              "index": 524
             },
             {
               "char": "《",
-              "pinyin": "jī",
-              "index": 533
+              "pinyin": "",
+              "index": 525
             },
             {
               "char": "韶",
-              "pinyin": "wèng",
-              "index": 534
+              "pinyin": "sháo",
+              "index": 526
             },
             {
               "char": "》",
-              "pinyin": "kòu",
-              "index": 535
+              "pinyin": "",
+              "index": 527
             },
             {
               "char": "《",
-              "pinyin": "fǒu",
-              "index": 536
+              "pinyin": "",
+              "index": 528
             },
             {
               "char": "虞",
-              "pinyin": "ér",
-              "index": 537
+              "pinyin": "yú",
+              "index": 529
             },
             {
               "char": "》",
-              "pinyin": "jiù",
-              "index": 538
+              "pinyin": "",
+              "index": 530
             },
             {
               "char": "《",
-              "pinyin": "zhèng",
-              "index": 539
+              "pinyin": "",
+              "index": 531
             },
             {
               "char": "武",
-              "pinyin": "wèi",
-              "index": 540
+              "pinyin": "wǔ",
+              "index": 532
             },
             {
               "char": "》",
-              "pinyin": "tuì",
-              "index": 541
+              "pinyin": "",
+              "index": 533
             },
             {
               "char": "《",
-              "pinyin": "tán",
-              "index": 542
+              "pinyin": "",
+              "index": 534
             },
             {
               "char": "象",
-              "pinyin": "zhēng",
-              "index": 543
+              "pinyin": "xiàng",
+              "index": 535
             },
             {
               "char": "》",
-              "pinyin": "ér",
-              "index": 544
+              "pinyin": "",
+              "index": 536
             },
             {
               "char": "者",
-              "pinyin": "qǔ",
-              "index": 545
+              "pinyin": "zhě",
+              "index": 537
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 546
+              "index": 538
             },
             {
               "char": "异",
-              "pinyin": "zhāo",
-              "index": 547
+              "pinyin": "yì",
+              "index": 539
             },
             {
               "char": "国",
-              "pinyin": "yú",
-              "index": 548
+              "pinyin": "guó",
+              "index": 540
             },
             {
               "char": "之",
-              "pinyin": "ruò",
-              "index": 549
+              "pinyin": "zhī",
+              "index": 541
             },
             {
               "char": "乐",
-              "pinyin": "shì",
-              "index": 550
+              "pinyin": "yuè",
+              "index": 542
             },
             {
               "char": "也",
-              "pinyin": "zhě",
-              "index": 551
+              "pinyin": "yě",
+              "index": 543
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 552
+              "index": 544
             }
           ],
-          "translation": "",
+          "translation": "北方的名骥良马，决不会充实到陛下的马房；",
           "notes": [
             {
               "start": 0,
@@ -3129,232 +3083,232 @@
           "content": [
             {
               "char": "今",
-              "pinyin": "hé",
-              "index": 553
+              "pinyin": "jīn",
+              "index": 545
             },
             {
               "char": "弃",
-              "pinyin": "yě",
-              "index": 554
+              "pinyin": "qì",
+              "index": 546
             },
             {
               "char": "击",
-              "pinyin": "kuài",
-              "index": 555
+              "pinyin": "jī",
+              "index": 547
             },
             {
               "char": "瓮",
-              "pinyin": "yì",
-              "index": 556
+              "pinyin": "wèng",
+              "index": 548
             },
             {
               "char": "叩",
-              "pinyin": "dāng",
-              "index": 557
+              "pinyin": "kòu",
+              "index": 549
             },
             {
               "char": "缶",
-              "pinyin": "qián",
-              "index": 558
+              "pinyin": "fǒu",
+              "index": 550
             },
             {
               "char": "而",
-              "pinyin": "shì",
-              "index": 559
+              "pinyin": "ér",
+              "index": 551
             },
             {
               "char": "就",
-              "pinyin": "guān",
-              "index": 560
+              "pinyin": "jiù",
+              "index": 552
             },
             {
               "char": "《",
-              "pinyin": "ér",
-              "index": 561
+              "pinyin": "",
+              "index": 553
             },
             {
               "char": "郑",
-              "pinyin": "yǐ",
-              "index": 562
+              "pinyin": "zhèng",
+              "index": 554
             },
             {
               "char": "》",
-              "pinyin": "yǐ",
-              "index": 563
+              "pinyin": "",
+              "index": 555
             },
             {
               "char": "《",
-              "pinyin": "jīn",
-              "index": 564
+              "pinyin": "",
+              "index": 556
             },
             {
               "char": "卫",
-              "pinyin": "qǔ",
-              "index": 565
+              "pinyin": "wèi",
+              "index": 557
             },
             {
               "char": "》",
-              "pinyin": "rén",
-              "index": 566
+              "pinyin": "",
+              "index": 558
             },
             {
               "char": "，",
+              "pinyin": "",
+              "index": 559
+            },
+            {
+              "char": "退",
+              "pinyin": "tuì",
+              "index": 560
+            },
+            {
+              "char": "弹",
+              "pinyin": "tán",
+              "index": 561
+            },
+            {
+              "char": "筝",
+              "pinyin": "zhēng",
+              "index": 562
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 563
+            },
+            {
+              "char": "取",
+              "pinyin": "qǔ",
+              "index": 564
+            },
+            {
+              "char": "《",
+              "pinyin": "",
+              "index": 565
+            },
+            {
+              "char": "韶",
+              "pinyin": "zhāo",
+              "index": 566
+            },
+            {
+              "char": "》",
               "pinyin": "",
               "index": 567
             },
             {
-              "char": "退",
-              "pinyin": "zé",
+              "char": "《",
+              "pinyin": "",
               "index": 568
             },
             {
-              "char": "弹",
-              "pinyin": "bù",
+              "char": "虞",
+              "pinyin": "yú",
               "index": 569
             },
             {
-              "char": "筝",
-              "pinyin": "rán",
+              "char": "》",
+              "pinyin": "",
               "index": 570
-            },
-            {
-              "char": "而",
-              "pinyin": "bù",
-              "index": 571
-            },
-            {
-              "char": "取",
-              "pinyin": "wèn",
-              "index": 572
-            },
-            {
-              "char": "《",
-              "pinyin": "kě",
-              "index": 573
-            },
-            {
-              "char": "韶",
-              "pinyin": "fǒu",
-              "index": 574
-            },
-            {
-              "char": "》",
-              "pinyin": "bù",
-              "index": 575
-            },
-            {
-              "char": "《",
-              "pinyin": "lùn",
-              "index": 576
-            },
-            {
-              "char": "虞",
-              "pinyin": "qū",
-              "index": 577
-            },
-            {
-              "char": "》",
-              "pinyin": "zhí",
-              "index": 578
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 579
+              "index": 571
             },
             {
               "char": "若",
-              "pinyin": "fēi",
-              "index": 580
+              "pinyin": "ruò",
+              "index": 572
             },
             {
               "char": "是",
-              "pinyin": "qín",
-              "index": 581
+              "pinyin": "shì",
+              "index": 573
             },
             {
               "char": "者",
               "pinyin": "zhě",
-              "index": 582
+              "index": 574
             },
             {
               "char": "何",
-              "pinyin": "qù",
-              "index": 583
+              "pinyin": "hé",
+              "index": 575
             },
             {
               "char": "也",
-              "pinyin": "wéi",
-              "index": 584
+              "pinyin": "yě",
+              "index": 576
             },
             {
               "char": "？",
               "pinyin": "",
-              "index": 585
+              "index": 577
             }
           ],
-          "translation": "",
+          "translation": "江南的铜锡不会为陛下所用，西蜀的丹青也不会作为彩饰的颜料。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "快",
-              "pinyin": "kè",
-              "index": 586
+              "pinyin": "kuài",
+              "index": 578
             },
             {
               "char": "意",
-              "pinyin": "zhě",
-              "index": 587
+              "pinyin": "yì",
+              "index": 579
             },
             {
               "char": "当",
-              "pinyin": "zhú",
-              "index": 588
+              "pinyin": "dāng",
+              "index": 580
             },
             {
               "char": "前",
-              "pinyin": "rán",
-              "index": 589
+              "pinyin": "qián",
+              "index": 581
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 590
+              "index": 582
             },
             {
               "char": "适",
-              "pinyin": "zé",
-              "index": 591
+              "pinyin": "shì",
+              "index": 583
             },
             {
               "char": "观",
-              "pinyin": "shì",
-              "index": 592
+              "pinyin": "guān",
+              "index": 584
             },
             {
               "char": "而",
-              "pinyin": "suǒ",
-              "index": 593
+              "pinyin": "ér",
+              "index": 585
             },
             {
               "char": "已",
-              "pinyin": "zhòng",
-              "index": 594
+              "pinyin": "yǐ",
+              "index": 586
             },
             {
               "char": "矣",
-              "pinyin": "zhě",
-              "index": 595
+              "pinyin": "yǐ",
+              "index": 587
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 596
+              "index": 588
             }
           ],
-          "translation": "",
+          "translation": "用以装饰后宫、广充侍妾、爽心快意、悦人耳目的所有这些都要是秦国生长、生产的然后才可用的话，那么点缀有珠宝的簪子，耳上的玉坠，丝织的衣服，锦绣的装饰，就都不会进献到陛下面前；",
           "notes": [
             {
               "start": 5,
@@ -3367,282 +3321,282 @@
           "content": [
             {
               "char": "今",
-              "pinyin": "zài",
-              "index": 597
+              "pinyin": "jīn",
+              "index": 589
             },
             {
               "char": "取",
-              "pinyin": "hū",
-              "index": 598
+              "pinyin": "qǔ",
+              "index": 590
             },
             {
               "char": "人",
-              "pinyin": "sè",
-              "index": 599
+              "pinyin": "rén",
+              "index": 591
             },
             {
               "char": "则",
-              "pinyin": "yuè",
+              "pinyin": "zé",
+              "index": 592
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 593
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 594
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 595
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 596
+            },
+            {
+              "char": "问",
+              "pinyin": "wèn",
+              "index": 597
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 598
+            },
+            {
+              "char": "否",
+              "pinyin": "fǒu",
+              "index": 599
+            },
+            {
+              "char": "，",
+              "pinyin": "",
               "index": 600
             },
             {
               "char": "不",
-              "pinyin": "zhū",
+              "pinyin": "bù",
               "index": 601
             },
             {
-              "char": "然",
-              "pinyin": "yù",
+              "char": "论",
+              "pinyin": "lùn",
               "index": 602
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "曲",
+              "pinyin": "qū",
               "index": 603
             },
             {
-              "char": "不",
-              "pinyin": "ér",
+              "char": "直",
+              "pinyin": "zhí",
               "index": 604
             },
             {
-              "char": "问",
-              "pinyin": "suǒ",
+              "char": "，",
+              "pinyin": "",
               "index": 605
             },
             {
-              "char": "可",
-              "pinyin": "qīng",
+              "char": "非",
+              "pinyin": "fēi",
               "index": 606
             },
             {
-              "char": "否",
-              "pinyin": "zhě",
+              "char": "秦",
+              "pinyin": "qín",
               "index": 607
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "者",
+              "pinyin": "zhě",
               "index": 608
             },
             {
-              "char": "不",
-              "pinyin": "zài",
+              "char": "去",
+              "pinyin": "qù",
               "index": 609
             },
             {
-              "char": "论",
-              "pinyin": "hū",
+              "char": "，",
+              "pinyin": "",
               "index": 610
             },
             {
-              "char": "曲",
-              "pinyin": "rén",
+              "char": "为",
+              "pinyin": "wéi",
               "index": 611
             },
             {
-              "char": "直",
-              "pinyin": "mín",
+              "char": "客",
+              "pinyin": "kè",
               "index": 612
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "者",
+              "pinyin": "zhě",
               "index": 613
             },
             {
-              "char": "非",
-              "pinyin": "yě",
-              "index": 614
-            },
-            {
-              "char": "秦",
-              "pinyin": "cǐ",
-              "index": 615
-            },
-            {
-              "char": "者",
-              "pinyin": "fēi",
-              "index": 616
-            },
-            {
-              "char": "去",
-              "pinyin": "suǒ",
-              "index": 617
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 618
-            },
-            {
-              "char": "为",
-              "pinyin": "yǐ",
-              "index": 619
-            },
-            {
-              "char": "客",
-              "pinyin": "kuà",
-              "index": 620
-            },
-            {
-              "char": "者",
-              "pinyin": "hǎi",
-              "index": 621
-            },
-            {
               "char": "逐",
-              "pinyin": "nèi",
-              "index": 622
+              "pinyin": "zhú",
+              "index": 614
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 623
+              "index": 615
             }
           ],
-          "translation": "",
+          "translation": "那些闲雅变化而能随俗推移的妖冶美好的佳丽，也不会立于陛下的身旁。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "然",
-              "pinyin": "zhì",
-              "index": 624
+              "pinyin": "rán",
+              "index": 616
             },
             {
               "char": "则",
-              "pinyin": "zhū",
-              "index": 625
+              "pinyin": "zé",
+              "index": 617
             },
             {
               "char": "是",
-              "pinyin": "hóu",
-              "index": 626
+              "pinyin": "shì",
+              "index": 618
             },
             {
               "char": "所",
-              "pinyin": "zhī",
-              "index": 627
+              "pinyin": "suǒ",
+              "index": 619
             },
             {
               "char": "重",
-              "pinyin": "shù",
-              "index": 628
+              "pinyin": "zhòng",
+              "index": 620
             },
             {
               "char": "者",
-              "pinyin": "yě",
-              "index": 629
+              "pinyin": "zhě",
+              "index": 621
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 630
+              "index": 622
             },
             {
               "char": "在",
-              "pinyin": "chén",
-              "index": 631
+              "pinyin": "zài",
+              "index": 623
             },
             {
               "char": "乎",
-              "pinyin": "wén",
-              "index": 632
+              "pinyin": "hū",
+              "index": 624
             },
             {
               "char": "色",
-              "pinyin": "dì",
-              "index": 633
+              "pinyin": "sè",
+              "index": 625
             },
             {
               "char": "、",
               "pinyin": "",
-              "index": 634
+              "index": 626
             },
             {
               "char": "乐",
-              "pinyin": "guǎng",
-              "index": 635
+              "pinyin": "yuè",
+              "index": 627
             },
             {
               "char": "、",
+              "pinyin": "",
+              "index": 628
+            },
+            {
+              "char": "珠",
+              "pinyin": "zhū",
+              "index": 629
+            },
+            {
+              "char": "玉",
+              "pinyin": "yù",
+              "index": 630
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 631
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 632
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 633
+            },
+            {
+              "char": "轻",
+              "pinyin": "qīng",
+              "index": 634
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 635
+            },
+            {
+              "char": "，",
               "pinyin": "",
               "index": 636
             },
             {
-              "char": "珠",
-              "pinyin": "zhě",
+              "char": "在",
+              "pinyin": "zài",
               "index": 637
             },
             {
-              "char": "玉",
-              "pinyin": "sù",
+              "char": "乎",
+              "pinyin": "hū",
               "index": 638
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "人",
+              "pinyin": "rén",
               "index": 639
             },
             {
-              "char": "而",
-              "pinyin": "duō",
+              "char": "民",
+              "pinyin": "mín",
               "index": 640
             },
             {
-              "char": "所",
-              "pinyin": "guó",
-              "index": 641
-            },
-            {
-              "char": "轻",
-              "pinyin": "dà",
-              "index": 642
-            },
-            {
-              "char": "者",
-              "pinyin": "zhě",
-              "index": 643
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 644
-            },
-            {
-              "char": "在",
-              "pinyin": "rén",
-              "index": 645
-            },
-            {
-              "char": "乎",
-              "pinyin": "zhòng",
-              "index": 646
-            },
-            {
-              "char": "人",
-              "pinyin": "bīng",
-              "index": 647
-            },
-            {
-              "char": "民",
-              "pinyin": "qiáng",
-              "index": 648
-            },
-            {
               "char": "也",
-              "pinyin": "zé",
-              "index": 649
+              "pinyin": "yě",
+              "index": 641
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 650
+              "index": 642
             }
           ],
-          "translation": "",
+          "translation": "敲击瓮、缶来奏乐，弹着琴筝、拍打大腿以应和节拍、呜呜呀呀地高唱着来使耳朵痛快，这才是真正的秦国音乐；",
           "notes": [
             {
               "start": 23,
@@ -3655,81 +3609,81 @@
           "content": [
             {
               "char": "此",
-              "pinyin": "shì",
-              "index": 651
+              "pinyin": "cǐ",
+              "index": 643
             },
             {
               "char": "非",
-              "pinyin": "yǒng",
-              "index": 652
+              "pinyin": "fēi",
+              "index": 644
             },
             {
               "char": "所",
-              "pinyin": "shì",
-              "index": 653
+              "pinyin": "suǒ",
+              "index": 645
             },
             {
               "char": "以",
               "pinyin": "yǐ",
-              "index": 654
+              "index": 646
             },
             {
               "char": "跨",
-              "pinyin": "tài",
-              "index": 655
+              "pinyin": "kuà",
+              "index": 647
             },
             {
               "char": "海",
-              "pinyin": "shān",
-              "index": 656
+              "pinyin": "hǎi",
+              "index": 648
             },
             {
               "char": "内",
-              "pinyin": "bù",
-              "index": 657
+              "pinyin": "nèi",
+              "index": 649
             },
             {
               "char": "、",
               "pinyin": "",
-              "index": 658
+              "index": 650
             },
             {
               "char": "制",
-              "pinyin": "ràng",
-              "index": 659
+              "pinyin": "zhì",
+              "index": 651
             },
             {
               "char": "诸",
-              "pinyin": "tǔ",
-              "index": 660
+              "pinyin": "zhū",
+              "index": 652
             },
             {
               "char": "侯",
-              "pinyin": "rǎng",
-              "index": 661
+              "pinyin": "hóu",
+              "index": 653
             },
             {
               "char": "之",
-              "pinyin": "gù",
-              "index": 662
+              "pinyin": "zhī",
+              "index": 654
             },
             {
               "char": "术",
-              "pinyin": "néng",
-              "index": 663
+              "pinyin": "shù",
+              "index": 655
             },
             {
               "char": "也",
-              "pinyin": "chéng",
-              "index": 664
+              "pinyin": "yě",
+              "index": 656
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 665
+              "index": 657
             }
           ],
-          "translation": "",
+          "translation": "那郑、卫桑间的歌声，《韶虞》《武象》等乐曲，可算是外国的音乐了。",
           "notes": []
         }
       ]
@@ -3740,258 +3694,258 @@
           "content": [
             {
               "char": "臣",
-              "pinyin": "qí",
-              "index": 666
+              "pinyin": "chén",
+              "index": 658
             },
             {
               "char": "闻",
+              "pinyin": "wén",
+              "index": 659
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 660
+            },
+            {
+              "char": "广",
+              "pinyin": "guǎng",
+              "index": 661
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 662
+            },
+            {
+              "char": "粟",
+              "pinyin": "sù",
+              "index": 663
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 664
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 665
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 666
+            },
+            {
+              "char": "大",
               "pinyin": "dà",
               "index": 667
             },
             {
-              "char": "地",
-              "pinyin": "hé",
+              "char": "者",
+              "pinyin": "zhě",
               "index": 668
             },
             {
-              "char": "广",
-              "pinyin": "hǎi",
+              "char": "人",
+              "pinyin": "rén",
               "index": 669
             },
             {
-              "char": "者",
-              "pinyin": "bù",
+              "char": "众",
+              "pinyin": "zhòng",
               "index": 670
             },
             {
-              "char": "粟",
-              "pinyin": "zé",
+              "char": "，",
+              "pinyin": "",
               "index": 671
             },
             {
-              "char": "多",
-              "pinyin": "xì",
+              "char": "兵",
+              "pinyin": "bīng",
               "index": 672
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "强",
+              "pinyin": "qiáng",
               "index": 673
             },
             {
-              "char": "国",
-              "pinyin": "liú",
+              "char": "则",
+              "pinyin": "zé",
               "index": 674
             },
             {
-              "char": "大",
-              "pinyin": "gù",
+              "char": "士",
+              "pinyin": "shì",
               "index": 675
             },
             {
-              "char": "者",
-              "pinyin": "néng",
-              "index": 676
-            },
-            {
-              "char": "人",
-              "pinyin": "jiù",
-              "index": 677
-            },
-            {
-              "char": "众",
-              "pinyin": "qí",
-              "index": 678
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 679
-            },
-            {
-              "char": "兵",
-              "pinyin": "shēn",
-              "index": 680
-            },
-            {
-              "char": "强",
-              "pinyin": "wáng",
-              "index": 681
-            },
-            {
-              "char": "则",
-              "pinyin": "zhě",
-              "index": 682
-            },
-            {
-              "char": "士",
-              "pinyin": "bù",
-              "index": 683
-            },
-            {
               "char": "勇",
-              "pinyin": "què",
-              "index": 684
+              "pinyin": "yǒng",
+              "index": 676
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 685
+              "index": 677
             }
           ],
-          "translation": "",
+          "translation": "如今陛下却抛弃了秦国地道的敲击瓦器的音乐，而取用郑、卫淫靡悦耳之音，不要秦筝而要《韶虞》，这是为什么呢？",
           "notes": []
         },
         {
           "content": [
             {
               "char": "是",
-              "pinyin": "zhòng",
-              "index": 686
+              "pinyin": "shì",
+              "index": 678
             },
             {
               "char": "以",
-              "pinyin": "shù",
-              "index": 687
+              "pinyin": "yǐ",
+              "index": 679
             },
             {
               "char": "太",
-              "pinyin": "gù",
-              "index": 688
+              "pinyin": "tài",
+              "index": 680
             },
             {
               "char": "山",
-              "pinyin": "néng",
-              "index": 689
+              "pinyin": "shān",
+              "index": 681
             },
             {
               "char": "不",
-              "pinyin": "míng",
-              "index": 690
+              "pinyin": "bù",
+              "index": 682
             },
             {
               "char": "让",
-              "pinyin": "qí",
-              "index": 691
+              "pinyin": "ràng",
+              "index": 683
             },
             {
               "char": "土",
-              "pinyin": "dé",
-              "index": 692
+              "pinyin": "tǔ",
+              "index": 684
             },
             {
               "char": "壤",
-              "pinyin": "shì",
-              "index": 693
+              "pinyin": "rǎng",
+              "index": 685
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 694
+              "index": 686
             },
             {
               "char": "故",
-              "pinyin": "yǐ",
-              "index": 695
+              "pinyin": "gù",
+              "index": 687
             },
             {
               "char": "能",
-              "pinyin": "dì",
-              "index": 696
+              "pinyin": "néng",
+              "index": 688
             },
             {
               "char": "成",
-              "pinyin": "wú",
-              "index": 697
+              "pinyin": "chéng",
+              "index": 689
             },
             {
               "char": "其",
-              "pinyin": "sì",
-              "index": 698
+              "pinyin": "qí",
+              "index": 690
             },
             {
               "char": "大",
-              "pinyin": "fāng",
-              "index": 699
+              "pinyin": "dà",
+              "index": 691
             },
             {
               "char": "；",
               "pinyin": "",
-              "index": 700
+              "index": 692
             }
           ],
-          "translation": "",
+          "translation": "难道不是因为外国音乐可以快意，可以满足耳目功能的需要么？",
           "notes": []
         },
         {
           "content": [
             {
               "char": "河",
-              "pinyin": "mín",
-              "index": 701
+              "pinyin": "hé",
+              "index": 693
             },
             {
               "char": "海",
-              "pinyin": "wú",
-              "index": 702
+              "pinyin": "hǎi",
+              "index": 694
             },
             {
               "char": "不",
-              "pinyin": "yì",
-              "index": 703
+              "pinyin": "bù",
+              "index": 695
             },
             {
               "char": "择",
-              "pinyin": "guó",
-              "index": 704
+              "pinyin": "zé",
+              "index": 696
             },
             {
               "char": "细",
-              "pinyin": "sì",
-              "index": 705
+              "pinyin": "xì",
+              "index": 697
             },
             {
               "char": "流",
-              "pinyin": "shí",
-              "index": 706
+              "pinyin": "liú",
+              "index": 698
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 707
+              "index": 699
             },
             {
               "char": "故",
-              "pinyin": "chōng",
-              "index": 708
+              "pinyin": "gù",
+              "index": 700
             },
             {
               "char": "能",
-              "pinyin": "měi",
-              "index": 709
+              "pinyin": "néng",
+              "index": 701
             },
             {
               "char": "就",
-              "pinyin": "guǐ",
-              "index": 710
+              "pinyin": "jiù",
+              "index": 702
             },
             {
               "char": "其",
-              "pinyin": "shén",
-              "index": 711
+              "pinyin": "qí",
+              "index": 703
             },
             {
               "char": "深",
-              "pinyin": "jiàng",
-              "index": 712
+              "pinyin": "shēn",
+              "index": 704
             },
             {
               "char": "；",
               "pinyin": "",
-              "index": 713
+              "index": 705
             }
           ],
-          "translation": "",
+          "translation": "可陛下对用人却不是这样，不问是否可用，不管是非曲直，凡不是秦国的就要离开，凡是客卿都要驱逐。",
           "notes": [
             {
               "start": 3,
@@ -4009,247 +3963,247 @@
           "content": [
             {
               "char": "王",
-              "pinyin": "fú",
-              "index": 714
+              "pinyin": "wáng",
+              "index": 706
             },
             {
               "char": "者",
-              "pinyin": "cǐ",
-              "index": 715
+              "pinyin": "zhě",
+              "index": 707
             },
             {
               "char": "不",
-              "pinyin": "wǔ",
-              "index": 716
+              "pinyin": "bù",
+              "index": 708
             },
             {
               "char": "却",
-              "pinyin": "dì",
-              "index": 717
+              "pinyin": "què",
+              "index": 709
             },
             {
               "char": "众",
-              "pinyin": "sān",
-              "index": 718
+              "pinyin": "zhòng",
+              "index": 710
             },
             {
               "char": "庶",
-              "pinyin": "wáng",
-              "index": 719
+              "pinyin": "shù",
+              "index": 711
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 720
+              "index": 712
             },
             {
               "char": "故",
-              "pinyin": "zhī",
-              "index": 721
+              "pinyin": "gù",
+              "index": 713
             },
             {
               "char": "能",
-              "pinyin": "suǒ",
-              "index": 722
+              "pinyin": "néng",
+              "index": 714
             },
             {
               "char": "明",
-              "pinyin": "yǐ",
-              "index": 723
+              "pinyin": "míng",
+              "index": 715
             },
             {
               "char": "其",
-              "pinyin": "wú",
-              "index": 724
+              "pinyin": "qí",
+              "index": 716
             },
             {
               "char": "德",
-              "pinyin": "dí",
-              "index": 725
+              "pinyin": "dé",
+              "index": 717
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 726
+              "index": 718
             }
           ],
-          "translation": "",
+          "translation": "这样做就说明，陛下所看重的，只在珠玉声色方面；",
           "notes": []
         },
         {
           "content": [
             {
               "char": "是",
-              "pinyin": "yě",
-              "index": 727
+              "pinyin": "shì",
+              "index": 719
             },
             {
               "char": "以",
-              "pinyin": "jīn",
-              "index": 728
+              "pinyin": "yǐ",
+              "index": 720
             },
             {
               "char": "地",
-              "pinyin": "nǎi",
-              "index": 729
+              "pinyin": "dì",
+              "index": 721
             },
             {
               "char": "无",
-              "pinyin": "qì",
-              "index": 730
+              "pinyin": "wú",
+              "index": 722
             },
             {
               "char": "四",
-              "pinyin": "qián",
-              "index": 731
+              "pinyin": "sì",
+              "index": 723
             },
             {
               "char": "方",
-              "pinyin": "shǒu",
-              "index": 732
+              "pinyin": "fāng",
+              "index": 724
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 733
+              "index": 725
             },
             {
               "char": "民",
-              "pinyin": "yǐ",
-              "index": 734
+              "pinyin": "mín",
+              "index": 726
             },
             {
               "char": "无",
-              "pinyin": "zī",
-              "index": 735
+              "pinyin": "wú",
+              "index": 727
             },
             {
               "char": "异",
-              "pinyin": "dí",
-              "index": 736
+              "pinyin": "yì",
+              "index": 728
             },
             {
               "char": "国",
               "pinyin": "guó",
-              "index": 737
+              "index": 729
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 738
+              "index": 730
             },
             {
               "char": "四",
-              "pinyin": "què",
-              "index": 739
+              "pinyin": "sì",
+              "index": 731
             },
             {
               "char": "时",
-              "pinyin": "bīn",
-              "index": 740
+              "pinyin": "shí",
+              "index": 732
             },
             {
               "char": "充",
-              "pinyin": "kè",
-              "index": 741
+              "pinyin": "chōng",
+              "index": 733
             },
             {
               "char": "美",
-              "pinyin": "yǐ",
-              "index": 742
+              "pinyin": "měi",
+              "index": 734
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 743
+              "index": 735
             },
             {
               "char": "鬼",
-              "pinyin": "yè",
-              "index": 744
+              "pinyin": "guǐ",
+              "index": 736
             },
             {
               "char": "神",
-              "pinyin": "zhū",
-              "index": 745
+              "pinyin": "shén",
+              "index": 737
             },
             {
               "char": "降",
-              "pinyin": "hóu",
-              "index": 746
+              "pinyin": "jiàng",
+              "index": 738
             },
             {
               "char": "福",
-              "pinyin": "shǐ",
-              "index": 747
+              "pinyin": "fú",
+              "index": 739
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 748
+              "index": 740
             },
             {
               "char": "此",
-              "pinyin": "tiān",
-              "index": 749
+              "pinyin": "cǐ",
+              "index": 741
             },
             {
               "char": "五",
-              "pinyin": "xià",
-              "index": 750
+              "pinyin": "wǔ",
+              "index": 742
             },
             {
               "char": "帝",
-              "pinyin": "zhī",
-              "index": 751
+              "pinyin": "dì",
+              "index": 743
             },
             {
               "char": "三",
-              "pinyin": "shì",
-              "index": 752
+              "pinyin": "sān",
+              "index": 744
             },
             {
               "char": "王",
-              "pinyin": "tuì",
-              "index": 753
+              "pinyin": "wáng",
+              "index": 745
             },
             {
               "char": "之",
-              "pinyin": "ér",
-              "index": 754
+              "pinyin": "zhī",
+              "index": 746
             },
             {
               "char": "所",
-              "pinyin": "bù",
-              "index": 755
+              "pinyin": "suǒ",
+              "index": 747
             },
             {
               "char": "以",
-              "pinyin": "gǎn",
-              "index": 756
+              "pinyin": "yǐ",
+              "index": 748
             },
             {
               "char": "无",
-              "pinyin": "xī",
-              "index": 757
+              "pinyin": "wú",
+              "index": 749
             },
             {
               "char": "敌",
-              "pinyin": "xiàng",
-              "index": 758
+              "pinyin": "dí",
+              "index": 750
             },
             {
               "char": "也",
-              "pinyin": "guǒ",
-              "index": 759
+              "pinyin": "yě",
+              "index": 751
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 760
+              "index": 752
             }
           ],
-          "translation": "",
+          "translation": "而所轻视的，却是人民大众。",
           "notes": [
             {
               "start": 14,
@@ -4267,47 +4221,87 @@
           "content": [
             {
               "char": "今",
-              "pinyin": "zú",
-              "index": 761
+              "pinyin": "jīn",
+              "index": 753
             },
             {
               "char": "乃",
-              "pinyin": "bù",
-              "index": 762
+              "pinyin": "nǎi",
+              "index": 754
             },
             {
               "char": "弃",
-              "pinyin": "rù",
-              "index": 763
+              "pinyin": "qì",
+              "index": 755
             },
             {
               "char": "黔",
-              "pinyin": "qín",
-              "index": 764
+              "pinyin": "qián",
+              "index": 756
             },
             {
               "char": "首",
-              "pinyin": "cǐ",
+              "pinyin": "shǒu",
+              "index": 757
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 758
+            },
+            {
+              "char": "资",
+              "pinyin": "zī",
+              "index": 759
+            },
+            {
+              "char": "敌",
+              "pinyin": "dí",
+              "index": 760
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 761
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 762
+            },
+            {
+              "char": "却",
+              "pinyin": "què",
+              "index": 763
+            },
+            {
+              "char": "宾",
+              "pinyin": "bīn",
+              "index": 764
+            },
+            {
+              "char": "客",
+              "pinyin": "kè",
               "index": 765
             },
             {
               "char": "以",
-              "pinyin": "suǒ",
+              "pinyin": "yǐ",
               "index": 766
             },
             {
-              "char": "资",
-              "pinyin": "wèi",
+              "char": "业",
+              "pinyin": "yè",
               "index": 767
             },
             {
-              "char": "敌",
-              "pinyin": "jiè",
+              "char": "诸",
+              "pinyin": "zhū",
               "index": 768
             },
             {
-              "char": "国",
-              "pinyin": "kòu",
+              "char": "侯",
+              "pinyin": "hóu",
               "index": 769
             },
             {
@@ -4316,212 +4310,172 @@
               "index": 770
             },
             {
-              "char": "却",
-              "pinyin": "bīng",
+              "char": "使",
+              "pinyin": "shǐ",
               "index": 771
             },
             {
-              "char": "宾",
-              "pinyin": "ér",
+              "char": "天",
+              "pinyin": "tiān",
               "index": 772
             },
             {
-              "char": "客",
-              "pinyin": "jī",
+              "char": "下",
+              "pinyin": "xià",
               "index": 773
             },
             {
-              "char": "以",
-              "pinyin": "dào",
+              "char": "之",
+              "pinyin": "zhī",
               "index": 774
             },
             {
-              "char": "业",
-              "pinyin": "liáng",
+              "char": "士",
+              "pinyin": "shì",
               "index": 775
             },
             {
-              "char": "诸",
-              "pinyin": "zhě",
+              "char": "退",
+              "pinyin": "tuì",
               "index": 776
             },
             {
-              "char": "侯",
-              "pinyin": "yě",
+              "char": "而",
+              "pinyin": "ér",
               "index": 777
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "不",
+              "pinyin": "bù",
               "index": 778
             },
             {
-              "char": "使",
-              "pinyin": "fú",
+              "char": "敢",
+              "pinyin": "gǎn",
               "index": 779
             },
             {
-              "char": "天",
-              "pinyin": "wù",
+              "char": "西",
+              "pinyin": "xī",
               "index": 780
             },
             {
-              "char": "下",
-              "pinyin": "bù",
+              "char": "向",
+              "pinyin": "xiàng",
               "index": 781
             },
             {
-              "char": "之",
-              "pinyin": "chǎn",
+              "char": "，",
+              "pinyin": "",
               "index": 782
             },
             {
-              "char": "士",
-              "pinyin": "yú",
+              "char": "裹",
+              "pinyin": "guǒ",
               "index": 783
             },
             {
-              "char": "退",
-              "pinyin": "qín",
+              "char": "足",
+              "pinyin": "zú",
               "index": 784
             },
             {
-              "char": "而",
-              "pinyin": "kě",
+              "char": "不",
+              "pinyin": "bù",
               "index": 785
             },
             {
-              "char": "不",
-              "pinyin": "bǎo",
+              "char": "入",
+              "pinyin": "rù",
               "index": 786
             },
             {
-              "char": "敢",
-              "pinyin": "zhě",
+              "char": "秦",
+              "pinyin": "qín",
               "index": 787
             },
             {
-              "char": "西",
-              "pinyin": "duō",
+              "char": "，",
+              "pinyin": "",
               "index": 788
             },
             {
-              "char": "向",
-              "pinyin": "shì",
+              "char": "此",
+              "pinyin": "cǐ",
               "index": 789
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "所",
+              "pinyin": "suǒ",
               "index": 790
             },
             {
-              "char": "裹",
-              "pinyin": "bù",
-              "index": 791
-            },
-            {
-              "char": "足",
-              "pinyin": "chǎn",
-              "index": 792
-            },
-            {
-              "char": "不",
-              "pinyin": "yú",
-              "index": 793
-            },
-            {
-              "char": "入",
-              "pinyin": "qín",
-              "index": 794
-            },
-            {
-              "char": "秦",
-              "pinyin": "ér",
-              "index": 795
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 796
-            },
-            {
-              "char": "此",
-              "pinyin": "yuàn",
-              "index": 797
-            },
-            {
-              "char": "所",
-              "pinyin": "zhōng",
-              "index": 798
-            },
-            {
               "char": "谓",
-              "pinyin": "zhě",
-              "index": 799
+              "pinyin": "wèi",
+              "index": 791
             },
             {
               "char": "“",
               "pinyin": "",
-              "index": 800
+              "index": 792
             },
             {
               "char": "藉",
-              "pinyin": "zhòng",
-              "index": 801
+              "pinyin": "jiè",
+              "index": 793
             },
             {
               "char": "寇",
-              "pinyin": "jīn",
-              "index": 802
+              "pinyin": "kòu",
+              "index": 794
             },
             {
               "char": "兵",
-              "pinyin": "zhú",
-              "index": 803
+              "pinyin": "bīng",
+              "index": 795
             },
             {
               "char": "而",
-              "pinyin": "kè",
-              "index": 804
+              "pinyin": "ér",
+              "index": 796
             },
             {
               "char": "赍",
-              "pinyin": "yǐ",
-              "index": 805
+              "pinyin": "jī",
+              "index": 797
             },
             {
               "char": "盗",
-              "pinyin": "zī",
-              "index": 806
+              "pinyin": "dào",
+              "index": 798
             },
             {
               "char": "粮",
-              "pinyin": "dí",
-              "index": 807
+              "pinyin": "liáng",
+              "index": 799
             },
             {
               "char": "”",
               "pinyin": "",
-              "index": 808
+              "index": 800
             },
             {
               "char": "者",
-              "pinyin": "guó",
-              "index": 809
+              "pinyin": "zhě",
+              "index": 801
             },
             {
               "char": "也",
-              "pinyin": "sǔn",
-              "index": 810
+              "pinyin": "yě",
+              "index": 802
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 811
+              "index": 803
             }
           ],
-          "translation": "",
+          "translation": "这不是能用来驾驭天下，制服诸侯的方法啊！",
           "notes": [
             {
               "start": 3,
@@ -4544,103 +4498,6 @@
               "content": "给敌人提供武器和粮食。藉，同“借”。赍，送给、付与。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "(",
-              "pinyin": "",
-              "index": 812
-            },
-            {
-              "char": "太",
-              "pinyin": "mín",
-              "index": 813
-            },
-            {
-              "char": "山",
-              "pinyin": "yǐ",
-              "index": 814
-            },
-            {
-              "char": " ",
-              "pinyin": "yì",
-              "index": 815
-            },
-            {
-              "char": "一",
-              "pinyin": "chóu",
-              "index": 816
-            },
-            {
-              "char": "作",
-              "pinyin": "nèi",
-              "index": 817
-            },
-            {
-              "char": "：",
-              "pinyin": "",
-              "index": 818
-            },
-            {
-              "char": "泰",
-              "pinyin": "zì",
-              "index": 819
-            },
-            {
-              "char": "山",
-              "pinyin": "xū",
-              "index": 820
-            },
-            {
-              "char": "；",
-              "pinyin": "",
-              "index": 821
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
-            {
-              "char": "择",
-              "pinyin": "ér",
-              "index": 822
-            },
-            {
-              "char": " ",
-              "pinyin": "wài",
-              "index": 823
-            },
-            {
-              "char": "一",
-              "pinyin": "shù",
-              "index": 824
-            },
-            {
-              "char": "作",
-              "pinyin": "yuàn",
-              "index": 825
-            },
-            {
-              "char": "：",
-              "pinyin": "",
-              "index": 826
-            },
-            {
-              "char": "释",
-              "pinyin": "yú",
-              "index": 827
-            },
-            {
-              "char": ")",
-              "pinyin": "",
-              "index": 828
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -4650,32 +4507,169 @@
           "content": [
             {
               "char": "夫",
-              "pinyin": "zhū",
-              "index": 829
+              "pinyin": "fú",
+              "index": 804
             },
             {
               "char": "物",
-              "pinyin": "hóu",
-              "index": 830
+              "pinyin": "wù",
+              "index": 805
             },
             {
               "char": "不",
-              "pinyin": "qiú",
-              "index": 831
+              "pinyin": "bù",
+              "index": 806
             },
             {
               "char": "产",
-              "pinyin": "guó",
-              "index": 832
+              "pinyin": "chǎn",
+              "index": 807
             },
             {
               "char": "于",
-              "pinyin": "wú",
-              "index": 833
+              "pinyin": "yú",
+              "index": 808
             },
             {
               "char": "秦",
-              "pinyin": "wēi",
+              "pinyin": "qín",
+              "index": 809
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 810
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 811
+            },
+            {
+              "char": "宝",
+              "pinyin": "bǎo",
+              "index": 812
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 813
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 814
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 815
+            }
+          ],
+          "translation": "我听说田地广就粮食多，国家大就人口众，武器精良将士就骁勇。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 816
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 817
+            },
+            {
+              "char": "产",
+              "pinyin": "chǎn",
+              "index": 818
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 819
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 820
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 821
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 822
+            },
+            {
+              "char": "愿",
+              "pinyin": "yuàn",
+              "index": 823
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 824
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 825
+            },
+            {
+              "char": "众",
+              "pinyin": "zhòng",
+              "index": 826
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 827
+            }
+          ],
+          "translation": "因此，泰山不拒绝泥土，所以能成就它的高大；",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 828
+            },
+            {
+              "char": "逐",
+              "pinyin": "zhú",
+              "index": 829
+            },
+            {
+              "char": "客",
+              "pinyin": "kè",
+              "index": 830
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 831
+            },
+            {
+              "char": "资",
+              "pinyin": "zī",
+              "index": 832
+            },
+            {
+              "char": "敌",
+              "pinyin": "dí",
+              "index": 833
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
               "index": 834
             },
             {
@@ -4684,279 +4678,142 @@
               "index": 835
             },
             {
-              "char": "可",
-              "pinyin": "bù",
+              "char": "损",
+              "pinyin": "sǔn",
               "index": 836
             },
             {
-              "char": "宝",
-              "pinyin": "kě",
+              "char": "民",
+              "pinyin": "mín",
               "index": 837
             },
             {
-              "char": "者",
-              "pinyin": "dé",
+              "char": "以",
+              "pinyin": "yǐ",
               "index": 838
             },
             {
-              "char": "多",
-              "pinyin": "yě",
+              "char": "益",
+              "pinyin": "yì",
               "index": 839
             },
             {
-              "char": "；",
-              "pinyin": "",
+              "char": "仇",
+              "pinyin": "chóu",
               "index": 840
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
-              "char": "士",
+              "char": "，",
               "pinyin": "",
               "index": 841
             },
             {
-              "char": "不",
-              "pinyin": "",
+              "char": "内",
+              "pinyin": "nèi",
               "index": 842
             },
             {
-              "char": "产",
-              "pinyin": "",
+              "char": "自",
+              "pinyin": "zì",
               "index": 843
             },
             {
-              "char": "于",
-              "pinyin": "",
+              "char": "虚",
+              "pinyin": "xū",
               "index": 844
             },
             {
-              "char": "秦",
-              "pinyin": "",
+              "char": "而",
+              "pinyin": "ér",
               "index": 845
+            },
+            {
+              "char": "外",
+              "pinyin": "wài",
+              "index": 846
+            },
+            {
+              "char": "树",
+              "pinyin": "shù",
+              "index": 847
+            },
+            {
+              "char": "怨",
+              "pinyin": "yuàn",
+              "index": 848
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 849
+            },
+            {
+              "char": "诸",
+              "pinyin": "zhū",
+              "index": 850
+            },
+            {
+              "char": "侯",
+              "pinyin": "hóu",
+              "index": 851
             },
             {
               "char": "，",
               "pinyin": "",
-              "index": 846
-            },
-            {
-              "char": "而",
-              "pinyin": "",
-              "index": 847
-            },
-            {
-              "char": "愿",
-              "pinyin": "",
-              "index": 848
-            },
-            {
-              "char": "忠",
-              "pinyin": "",
-              "index": 849
-            },
-            {
-              "char": "者",
-              "pinyin": "",
-              "index": 850
-            },
-            {
-              "char": "众",
-              "pinyin": "",
-              "index": 851
-            },
-            {
-              "char": "。",
-              "pinyin": "",
               "index": 852
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
-              "char": "今",
-              "pinyin": "",
+              "char": "求",
+              "pinyin": "qiú",
               "index": 853
             },
             {
-              "char": "逐",
-              "pinyin": "",
+              "char": "国",
+              "pinyin": "guó",
               "index": 854
             },
             {
-              "char": "客",
-              "pinyin": "",
+              "char": "无",
+              "pinyin": "wú",
               "index": 855
             },
             {
-              "char": "以",
-              "pinyin": "",
+              "char": "危",
+              "pinyin": "wēi",
               "index": 856
             },
             {
-              "char": "资",
+              "char": "，",
               "pinyin": "",
               "index": 857
             },
             {
-              "char": "敌",
-              "pinyin": "",
+              "char": "不",
+              "pinyin": "bù",
               "index": 858
             },
             {
-              "char": "国",
-              "pinyin": "",
+              "char": "可",
+              "pinyin": "kě",
               "index": 859
             },
             {
-              "char": "，",
-              "pinyin": "",
+              "char": "得",
+              "pinyin": "dé",
               "index": 860
             },
             {
-              "char": "损",
-              "pinyin": "",
-              "index": 861
-            },
-            {
-              "char": "民",
-              "pinyin": "",
-              "index": 862
-            },
-            {
-              "char": "以",
-              "pinyin": "",
-              "index": 863
-            },
-            {
-              "char": "益",
-              "pinyin": "",
-              "index": 864
-            },
-            {
-              "char": "仇",
-              "pinyin": "",
-              "index": 865
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 866
-            },
-            {
-              "char": "内",
-              "pinyin": "",
-              "index": 867
-            },
-            {
-              "char": "自",
-              "pinyin": "",
-              "index": 868
-            },
-            {
-              "char": "虚",
-              "pinyin": "",
-              "index": 869
-            },
-            {
-              "char": "而",
-              "pinyin": "",
-              "index": 870
-            },
-            {
-              "char": "外",
-              "pinyin": "",
-              "index": 871
-            },
-            {
-              "char": "树",
-              "pinyin": "",
-              "index": 872
-            },
-            {
-              "char": "怨",
-              "pinyin": "",
-              "index": 873
-            },
-            {
-              "char": "于",
-              "pinyin": "",
-              "index": 874
-            },
-            {
-              "char": "诸",
-              "pinyin": "",
-              "index": 875
-            },
-            {
-              "char": "侯",
-              "pinyin": "",
-              "index": 876
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 877
-            },
-            {
-              "char": "求",
-              "pinyin": "",
-              "index": 878
-            },
-            {
-              "char": "国",
-              "pinyin": "",
-              "index": 879
-            },
-            {
-              "char": "无",
-              "pinyin": "",
-              "index": 880
-            },
-            {
-              "char": "危",
-              "pinyin": "",
-              "index": 881
-            },
-            {
-              "char": "，",
-              "pinyin": "",
-              "index": 882
-            },
-            {
-              "char": "不",
-              "pinyin": "",
-              "index": 883
-            },
-            {
-              "char": "可",
-              "pinyin": "",
-              "index": 884
-            },
-            {
-              "char": "得",
-              "pinyin": "",
-              "index": 885
-            },
-            {
               "char": "也",
-              "pinyin": "",
-              "index": 886
+              "pinyin": "yě",
+              "index": 861
             },
             {
               "char": "。",
               "pinyin": "",
-              "index": 887
+              "index": 862
             }
           ],
-          "translation": "",
+          "translation": "江河湖海不舍弃细流，所以能成就它的深邃；",
           "notes": []
         }
       ]

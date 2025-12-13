@@ -188,7 +188,7 @@
               "index": 31
             }
           ],
-          "translation": "",
+          "translation": "孔子说：“因为我年纪比你们大一点，你们不要凭这个原因就不敢说话了。",
           "notes": [
             {
               "start": 4,
@@ -248,9 +248,14 @@
               "char": "！",
               "pinyin": "",
               "index": 41
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 42
             }
           ],
-          "translation": "",
+          "translation": "（你们）平日在家的时候常说：‘没有人了解我呀！’",
           "notes": [
             {
               "start": 0,
@@ -266,11 +271,6 @@
         },
         {
           "content": [
-            {
-              "char": "’",
-              "pinyin": "",
-              "index": 42
-            },
             {
               "char": "如",
               "pinyin": "rú",
@@ -320,27 +320,21 @@
               "char": "？",
               "pinyin": "",
               "index": 52
-            }
-          ],
-          "translation": "",
-          "notes": [
-            {
-              "start": 6,
-              "end": 9,
-              "content": "那么（你们）打算怎么做呢？"
-            }
-          ]
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 53
             }
           ],
-          "translation": "",
-          "notes": []
+          "translation": "如果有人了解你们，那（你们）打算怎么做呢？”",
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "content": "那么（你们）打算怎么做呢？"
+            }
+          ]
         }
       ]
     },
@@ -514,7 +508,7 @@
               "index": 86
             }
           ],
-          "translation": "",
+          "translation": "子路不假思索地回答道：“一个拥有千辆兵车的诸侯国，夹在大国之间，有（别国）军队来侵略它，接着（国内）又遇上饥荒；",
           "notes": [
             {
               "start": 2,
@@ -644,9 +638,14 @@
               "char": "。",
               "pinyin": "",
               "index": 106
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 107
             }
           ],
-          "translation": "",
+          "translation": "如果让我治理这个国家，等到第三年，就可以使人人勇敢善战，而且还懂得道理。”",
           "notes": [
             {
               "start": 2,
@@ -664,17 +663,6 @@
               "content": "合乎礼义的行事准则。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 107
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -708,7 +696,7 @@
               "index": 112
             }
           ],
-          "translation": "",
+          "translation": "孔子听了微微一笑。",
           "notes": [
             {
               "start": 2,
@@ -739,7 +727,7 @@
               "index": 115
             }
           ],
-          "translation": "",
+          "translation": "“冉有！",
           "notes": []
         },
         {
@@ -763,20 +751,14 @@
               "char": "？",
               "pinyin": "",
               "index": 119
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 120
             }
           ],
-          "translation": "",
+          "translation": "你怎么样？”",
           "notes": []
         }
       ]
@@ -931,7 +913,7 @@
               "index": 149
             }
           ],
-          "translation": "",
+          "translation": "冉有回答说：“一个纵横六七十里、或者五六十里的地方，如果让我去治理，等到三年，就可以使百姓富足。",
           "notes": [
             {
               "start": 4,
@@ -996,9 +978,14 @@
               "char": "。",
               "pinyin": "",
               "index": 159
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 160
             }
           ],
-          "translation": "",
+          "translation": "至于修明礼乐，那就只有等待贤人君子了。”",
           "notes": [
             {
               "start": 0,
@@ -1006,17 +993,6 @@
               "content": "至于礼乐教化，（自己的能力是不够的，）那就得等待君子（来推行了）。这是冉有的谦辞。如，至于。俟，等待。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 160
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -1040,7 +1016,7 @@
               "index": 163
             }
           ],
-          "translation": "",
+          "translation": "“公西华！",
           "notes": []
         },
         {
@@ -1064,20 +1040,14 @@
               "char": "？",
               "pinyin": "",
               "index": 167
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 168
             }
           ],
-          "translation": "",
+          "translation": "你怎么样？”",
           "notes": []
         }
       ]
@@ -1152,7 +1122,7 @@
               "index": 181
             }
           ],
-          "translation": "",
+          "translation": "公西华回答说：“我不敢说胜任什么，但愿意学习做这些。",
           "notes": [
             {
               "start": 4,
@@ -1257,9 +1227,14 @@
               "char": "。",
               "pinyin": "",
               "index": 200
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 201
             }
           ],
-          "translation": "",
+          "translation": "宗庙祭祀的工作，或者是诸侯会盟及朝见天子的时候，我愿意穿戴好礼服礼帽做一个小相。”",
           "notes": [
             {
               "start": 0,
@@ -1282,17 +1257,6 @@
               "content": "诸侯祭祀、会盟或朝见天子时，主持赞礼的司仪官。所谓“小相”，也是公西华的谦辞。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 201
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -1316,7 +1280,7 @@
               "index": 204
             }
           ],
-          "translation": "",
+          "translation": "“曾皙！",
           "notes": []
         },
         {
@@ -1340,20 +1304,14 @@
               "char": "？",
               "pinyin": "",
               "index": 208
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 209
             }
           ],
-          "translation": "",
+          "translation": "你怎么样？”",
           "notes": []
         }
       ]
@@ -1481,9 +1439,14 @@
               "char": "。",
               "pinyin": "",
               "index": 233
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 234
             }
           ],
-          "translation": "",
+          "translation": "（曾皙）弹瑟的声音逐渐稀疏了，接着铿的一声，他放下瑟直起身子回答说：“我的志向和他们三个人所说的不一样。”",
           "notes": [
             {
               "start": 0,
@@ -1506,17 +1469,6 @@
               "content": "才能。这里指为政的才能。一说，讲述、解说。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 234
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -1565,7 +1517,7 @@
               "index": 242
             }
           ],
-          "translation": "",
+          "translation": "孔子说：“有什么妨害呢？",
           "notes": [
             {
               "start": 4,
@@ -1610,20 +1562,14 @@
               "char": "。",
               "pinyin": "",
               "index": 249
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 250
             }
           ],
-          "translation": "",
+          "translation": "不过是各自谈谈自己的志向。”",
           "notes": []
         }
       ]
@@ -1816,9 +1762,14 @@
               "char": "。",
               "pinyin": "",
               "index": 287
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 288
             }
           ],
-          "translation": "",
+          "translation": "曾皙说：“暮春时节，春天的衣服已经穿上了。",
           "notes": [
             {
               "start": 3,
@@ -1856,17 +1807,6 @@
               "content": "唱歌。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 288
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -1938,9 +1878,14 @@
               "char": "！",
               "pinyin": "",
               "index": 301
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 302
             }
           ],
-          "translation": "",
+          "translation": "和几个成年人、几个孩童到沂水里沐浴，在舞雩台上吹吹风，一路唱着歌儿回来。”",
           "notes": [
             {
               "start": 9,
@@ -1948,17 +1893,6 @@
               "content": "赞成。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 302
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2012,7 +1946,7 @@
               "index": 311
             }
           ],
-          "translation": "",
+          "translation": "孔子长叹一声说：“我赞同曾皙的想法呀！”",
           "notes": []
         },
         {
@@ -2086,20 +2020,14 @@
               "char": "？",
               "pinyin": "",
               "index": 325
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 326
             }
           ],
-          "translation": "",
+          "translation": "子路、冉有、公西华都出去了，曾皙最后走。",
           "notes": []
         }
       ]
@@ -2172,9 +2100,14 @@
               "char": "。",
               "pinyin": "",
               "index": 339
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 340
             }
           ],
-          "translation": "",
+          "translation": "曾皙问孔子：“他们三个人的话怎么样？”",
           "notes": [
             {
               "start": 9,
@@ -2182,17 +2115,6 @@
               "content": "语气助词连用，相当于“罢了”。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 340
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2249,20 +2171,14 @@
               "char": "？",
               "pinyin": "",
               "index": 350
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 351
             }
           ],
-          "translation": "",
+          "translation": "孔子说：“也不过是各自谈谈自己的志向罢了！”",
           "notes": []
         }
       ]
@@ -2360,9 +2276,14 @@
               "char": "。",
               "pinyin": "",
               "index": 369
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 370
             }
           ],
-          "translation": "",
+          "translation": "曾皙说：“您为什么笑仲由呢？”",
           "notes": [
             {
               "start": 3,
@@ -2370,17 +2291,6 @@
               "content": "治国要用礼，（可是）他（仲由）的话毫不谦逊。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 370
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2432,9 +2342,14 @@
               "char": "？",
               "pinyin": "",
               "index": 379
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 380
             }
           ],
-          "translation": "",
+          "translation": "（孔子）说：“治国要用礼，可是他（子路）的话毫不谦逊，所以我笑他。”",
           "notes": [
             {
               "start": 1,
@@ -2442,17 +2357,6 @@
               "content": "难道冉求讲的不是国家的事吗？唯，语气助词，用于句首，无实义。邦，国。也与，语气助词，表示疑问。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 380
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2544,9 +2448,14 @@
               "char": "？",
               "pinyin": "",
               "index": 397
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 398
             }
           ],
-          "translation": "",
+          "translation": "“难道冉有讲的不是国家大事吗？”",
           "notes": [
             {
               "start": 1,
@@ -2554,17 +2463,6 @@
               "content": "怎见得。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 398
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2616,20 +2514,14 @@
               "char": "？",
               "pinyin": "",
               "index": 407
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 408
             }
           ],
-          "translation": "",
+          "translation": "“怎见得方圆六七十里或者五六十里的地方就不是国家呢？”",
           "notes": []
         }
       ]
@@ -2699,7 +2591,7 @@
               "index": 420
             }
           ],
-          "translation": "",
+          "translation": "“难道公西华讲的不是诸侯的大事吗？”",
           "notes": [
             {
               "start": 1,
@@ -2769,9 +2661,14 @@
               "char": "？",
               "pinyin": "",
               "index": 432
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 433
             }
           ],
-          "translation": "",
+          "translation": "“宗庙祭祀，诸侯会盟和朝见天子，不是诸侯的大事又是什么呢？",
           "notes": [
             {
               "start": 0,
@@ -2779,17 +2676,6 @@
               "content": "如果公西赤只能给诸侯做一个小相，那么谁能做大相呢？"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 433
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     }

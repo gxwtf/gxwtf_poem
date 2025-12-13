@@ -26,16 +26,22 @@ const __dirname = path.dirname(__filename);
 /** 强制更新列表，用于 --force 模式下指定必须覆盖的诗文名称 */
 const forceList = {
     junior: [],
-    senior: []
+    senior: ["促织","与妻书","谏逐客书"]
 };
 
 // -------- UTIL --------
-/** 正则表达式：用于按句号、问号、叹号、分号、以及省略号将诗文拆分成句子 */
-const SENTENCE_MATCH_REGEX = /[^；。？！……]+[；。？！……]?/g;
+/**
+ * 句子切分规则：
+ * - 仅以 ：；。？！…… 作为真正的断句标点
+ * - 引号（“ ” ‘ ’ ）不作为断句依据
+ * - 若断句标点后紧跟引号，引号应归入本句
+ */
+const SENTENCE_MATCH_REGEX =
+    /[^；。？！……]+[”’"]*[；。？！……]+[”’"]*|[^；。？！……]+$/g;
 
 /** 中文及常见标点集合，用于判断某字符是否属于标点 */
 const PUNCTUATION_SET = new Set(
-    Array.from('，。！？；：、“”‘’（）…—·,.?!:;()"\'')
+    Array.from('，。！？；：、“”‘’（）《》【】…—·,.?!:;()"\'')
 );
 
 const isPunctuation = (ch) => PUNCTUATION_SET.has(ch);
@@ -61,6 +67,16 @@ function buildParagraphs(content, translation, pinyin) {
     let pinyinIndex = 0;
     let globalIndex = 0;
 
+    // ---- Global sentence alignment (ignore paragraph structure for translation) ----
+    const globalRawSentences = (content || "")
+        .replaceAll("/", "")
+        .match(SENTENCE_MATCH_REGEX) || [];
+
+    const globalTransSentences = (translation || "")
+        .match(SENTENCE_MATCH_REGEX) || [];
+
+    let globalSentenceCursor = 0;
+
     const paragraphs = rawParagraphs.map((paraStr) => {
         // match sentences including trailing punctuation
         const rawSentences = (paraStr.match(SENTENCE_MATCH_REGEX) || [paraStr]).map(s => s.trim()).filter(Boolean);
@@ -83,24 +99,22 @@ function buildParagraphs(content, translation, pinyin) {
                 });
                 globalIndex++;
             }
-            return { content: contentArr, translation: "" };
+            const sentenceIndex = globalSentenceCursor++;
+            const trans = globalTransSentences[sentenceIndex] || "";
+            if (ENABLE_LOG) {
+                const rawSentence = contentArr.map(c => c.char).join("");
+                console.log("🧾 原文句子：", rawSentence);
+                console.log("📘 对应翻译：", trans || "(空)");
+                console.log("-----");
+            }
+            return {
+                content: contentArr,
+                translation: trans
+            };
         });
 
         return { sentences };
     });
-
-    // apply translations by paragraph -> sentence mapping
-    if (translation) {
-        const transParas = (translation || "").split("/").map(p => p.trim()).filter(Boolean);
-        for (let pi = 0; pi < paragraphs.length; pi++) {
-            const para = paragraphs[pi];
-            const transPara = transParas[pi] || "";
-            const transSentences = (transPara.match(SENTENCE_MATCH_REGEX) || [transPara]).map(s => s.trim()).filter(Boolean);
-            for (let si = 0; si < para.sentences.length; si++) {
-                para.sentences[si].translation = transSentences[si] || "";
-            }
-        }
-    }
 
     return paragraphs;
 }
@@ -227,12 +241,16 @@ function createFullJson(version, poemName, force = false) {
     }
 }
 
+let ENABLE_LOG = false;
+
 /**
  * 脚本入口。
  * 根据命令行参数选择执行 --add 或 --force 模式。
  */
 function main() {
     const args = process.argv.slice(2);
+    ENABLE_LOG = args.includes("--log");
+
     const isAddMode = args.includes("--add");
     const isForceMode = args.includes("--force");
 

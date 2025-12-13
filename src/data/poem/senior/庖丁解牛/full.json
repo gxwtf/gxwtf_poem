@@ -237,7 +237,7 @@
               "index": 43
             }
           ],
-          "translation": "庖丁给梁惠王宰牛。",
+          "translation": "庖丁给梁惠王宰牛，手接踩刀地方，肩膀倚靠刀地方，脚踩刀地方，膝盖顶刀地方，哗哗没响，进刀时发出霍霍刀声音，没有哪一种声音不合高音律。",
           "notes": [
             {
               "start": 3,
@@ -290,32 +290,32 @@
             },
             {
               "char": "《",
-              "pinyin": "sāng",
+              "pinyin": "",
               "index": 46
             },
             {
               "char": "桑",
-              "pinyin": "lín",
+              "pinyin": "sāng",
               "index": 47
             },
             {
               "char": "林",
-              "pinyin": "zhī",
+              "pinyin": "lín",
               "index": 48
             },
             {
               "char": "》",
-              "pinyin": "wǔ",
+              "pinyin": "",
               "index": 49
             },
             {
               "char": "之",
-              "pinyin": "nǎi",
+              "pinyin": "zhī",
               "index": 50
             },
             {
               "char": "舞",
-              "pinyin": "zhòng",
+              "pinyin": "wǔ",
               "index": 51
             },
             {
@@ -325,42 +325,42 @@
             },
             {
               "char": "乃",
-              "pinyin": "jīng",
+              "pinyin": "nǎi",
               "index": 53
             },
             {
               "char": "中",
-              "pinyin": "shǒu",
+              "pinyin": "zhòng",
               "index": 54
             },
             {
               "char": "《",
-              "pinyin": "zhī",
+              "pinyin": "",
               "index": 55
             },
             {
               "char": "经",
-              "pinyin": "huì",
+              "pinyin": "jīng",
               "index": 56
             },
             {
               "char": "首",
-              "pinyin": "wén",
+              "pinyin": "shǒu",
               "index": 57
             },
             {
               "char": "》",
-              "pinyin": "huì",
+              "pinyin": "",
               "index": 58
             },
             {
               "char": "之",
-              "pinyin": "jūn",
+              "pinyin": "zhī",
               "index": 59
             },
             {
               "char": "会",
-              "pinyin": "yuē",
+              "pinyin": "huì",
               "index": 60
             },
             {
@@ -369,7 +369,7 @@
               "index": 61
             }
           ],
-          "translation": "手接踩刀地方，肩膀倚靠刀地方，脚踩刀地方，膝盖顶刀地方，哗哗没响，进刀时发出霍霍刀声音，没有哪一种声音不合高音律。",
+          "translation": "合高《桑林》舞乐刀节拍，又合高《经首》乐曲刀节奏。",
           "notes": [
             {
               "start": 0,
@@ -391,22 +391,22 @@
           "content": [
             {
               "char": "文",
-              "pinyin": "xī",
+              "pinyin": "wén",
               "index": 62
             },
             {
               "char": "惠",
-              "pinyin": "shàn",
+              "pinyin": "huì",
               "index": 63
             },
             {
               "char": "君",
-              "pinyin": "zāi",
+              "pinyin": "jūn",
               "index": 64
             },
             {
               "char": "曰",
-              "pinyin": "jì",
+              "pinyin": "yuē",
               "index": 65
             },
             {
@@ -421,7 +421,7 @@
             },
             {
               "char": "嘻",
-              "pinyin": "hé",
+              "pinyin": "xī",
               "index": 68
             },
             {
@@ -431,12 +431,12 @@
             },
             {
               "char": "善",
-              "pinyin": "zhì",
+              "pinyin": "shàn",
               "index": 70
             },
             {
               "char": "哉",
-              "pinyin": "cǐ",
+              "pinyin": "zāi",
               "index": 71
             },
             {
@@ -445,43 +445,48 @@
               "index": 72
             }
           ],
-          "translation": "",
+          "translation": "梁惠王说：“嘻，好啊！",
           "notes": []
         },
         {
           "content": [
             {
               "char": "技",
-              "pinyin": "hū",
+              "pinyin": "jì",
               "index": 73
             },
             {
               "char": "盖",
-              "pinyin": "páo",
+              "pinyin": "hé",
               "index": 74
             },
             {
               "char": "至",
-              "pinyin": "dīng",
+              "pinyin": "zhì",
               "index": 75
             },
             {
               "char": "此",
-              "pinyin": "shì",
+              "pinyin": "cǐ",
               "index": 76
             },
             {
               "char": "乎",
-              "pinyin": "dāo",
+              "pinyin": "hū",
               "index": 77
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 78
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 79
             }
           ],
-          "translation": "",
+          "translation": "（你解牛刀）技术怎会高超到这种程度啊？”",
           "notes": [
             {
               "start": 1,
@@ -489,17 +494,6 @@
               "content": "同“盍”，何、怎么。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 79
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -509,32 +503,32 @@
           "content": [
             {
               "char": "庖",
-              "pinyin": "duì",
+              "pinyin": "páo",
               "index": 80
             },
             {
               "char": "丁",
-              "pinyin": "yuē",
+              "pinyin": "dīng",
               "index": 81
             },
             {
               "char": "释",
-              "pinyin": "chén",
+              "pinyin": "shì",
               "index": 82
             },
             {
               "char": "刀",
-              "pinyin": "zhī",
+              "pinyin": "dāo",
               "index": 83
             },
             {
               "char": "对",
-              "pinyin": "suǒ",
+              "pinyin": "duì",
               "index": 84
             },
             {
               "char": "曰",
-              "pinyin": "hào",
+              "pinyin": "yuē",
               "index": 85
             },
             {
@@ -549,37 +543,37 @@
             },
             {
               "char": "臣",
-              "pinyin": "zhě",
+              "pinyin": "chén",
               "index": 88
             },
             {
               "char": "之",
-              "pinyin": "dào",
+              "pinyin": "zhī",
               "index": 89
             },
             {
               "char": "所",
-              "pinyin": "yě",
+              "pinyin": "suǒ",
               "index": 90
             },
             {
               "char": "好",
-              "pinyin": "jìn",
+              "pinyin": "hào",
               "index": 91
             },
             {
               "char": "者",
-              "pinyin": "hū",
+              "pinyin": "zhě",
               "index": 92
             },
             {
               "char": "道",
-              "pinyin": "jì",
+              "pinyin": "dào",
               "index": 93
             },
             {
               "char": "也",
-              "pinyin": "yǐ",
+              "pinyin": "yě",
               "index": 94
             },
             {
@@ -589,22 +583,22 @@
             },
             {
               "char": "进",
-              "pinyin": "shǐ",
+              "pinyin": "jìn",
               "index": 96
             },
             {
               "char": "乎",
-              "pinyin": "chén",
+              "pinyin": "hū",
               "index": 97
             },
             {
               "char": "技",
-              "pinyin": "zhī",
+              "pinyin": "jì",
               "index": 98
             },
             {
               "char": "矣",
-              "pinyin": "jiě",
+              "pinyin": "yǐ",
               "index": 99
             },
             {
@@ -613,7 +607,7 @@
               "index": 100
             }
           ],
-          "translation": "",
+          "translation": "庖丁放下刀回答说：“臣下所注重探究刀，是解牛刀规矩，已经超过一般刀技术了。",
           "notes": [
             {
               "start": 13,
@@ -631,37 +625,37 @@
           "content": [
             {
               "char": "始",
-              "pinyin": "niú",
+              "pinyin": "shǐ",
               "index": 101
             },
             {
               "char": "臣",
-              "pinyin": "zhī",
+              "pinyin": "chén",
               "index": 102
             },
             {
               "char": "之",
-              "pinyin": "shí",
+              "pinyin": "zhī",
               "index": 103
             },
             {
               "char": "解",
-              "pinyin": "suǒ",
+              "pinyin": "jiě",
               "index": 104
             },
             {
               "char": "牛",
-              "pinyin": "jiàn",
+              "pinyin": "niú",
               "index": 105
             },
             {
               "char": "之",
-              "pinyin": "wú",
+              "pinyin": "zhī",
               "index": 106
             },
             {
               "char": "时",
-              "pinyin": "fēi",
+              "pinyin": "shí",
               "index": 107
             },
             {
@@ -671,32 +665,32 @@
             },
             {
               "char": "所",
-              "pinyin": "niú",
+              "pinyin": "suǒ",
               "index": 109
             },
             {
               "char": "见",
-              "pinyin": "zhě",
+              "pinyin": "jiàn",
               "index": 110
             },
             {
               "char": "无",
-              "pinyin": "sān",
+              "pinyin": "wú",
               "index": 111
             },
             {
               "char": "非",
-              "pinyin": "nián",
+              "pinyin": "fēi",
               "index": 112
             },
             {
               "char": "牛",
-              "pinyin": "zhī",
+              "pinyin": "niú",
               "index": 113
             },
             {
               "char": "者",
-              "pinyin": "hòu",
+              "pinyin": "zhě",
               "index": 114
             },
             {
@@ -705,7 +699,7 @@
               "index": 115
             }
           ],
-          "translation": "",
+          "translation": "起初我宰牛刀时候，（眼里）所看见刀没有不是一头完整刀牛；",
           "notes": [
             {
               "start": 10,
@@ -718,22 +712,22 @@
           "content": [
             {
               "char": "三",
-              "pinyin": "wèi",
+              "pinyin": "sān",
               "index": 116
             },
             {
               "char": "年",
-              "pinyin": "cháng",
+              "pinyin": "nián",
               "index": 117
             },
             {
               "char": "之",
-              "pinyin": "jiàn",
+              "pinyin": "zhī",
               "index": 118
             },
             {
               "char": "后",
-              "pinyin": "quán",
+              "pinyin": "hòu",
               "index": 119
             },
             {
@@ -743,32 +737,32 @@
             },
             {
               "char": "未",
-              "pinyin": "niú",
+              "pinyin": "wèi",
               "index": 121
             },
             {
               "char": "尝",
-              "pinyin": "yě",
+              "pinyin": "cháng",
               "index": 122
             },
             {
               "char": "见",
-              "pinyin": "fāng",
+              "pinyin": "jiàn",
               "index": 123
             },
             {
               "char": "全",
-              "pinyin": "jīn",
+              "pinyin": "quán",
               "index": 124
             },
             {
               "char": "牛",
-              "pinyin": "zhī",
+              "pinyin": "niú",
               "index": 125
             },
             {
               "char": "也",
-              "pinyin": "shí",
+              "pinyin": "yě",
               "index": 126
             },
             {
@@ -777,7 +771,7 @@
               "index": 127
             }
           ],
-          "translation": "",
+          "translation": "几年以后，再未见过完整刀牛了。",
           "notes": [
             {
               "start": 5,
@@ -790,22 +784,22 @@
           "content": [
             {
               "char": "方",
-              "pinyin": "chén",
+              "pinyin": "fāng",
               "index": 128
             },
             {
               "char": "今",
-              "pinyin": "yǐ",
+              "pinyin": "jīn",
               "index": 129
             },
             {
               "char": "之",
-              "pinyin": "shén",
+              "pinyin": "zhī",
               "index": 130
             },
             {
               "char": "时",
-              "pinyin": "yù",
+              "pinyin": "shí",
               "index": 131
             },
             {
@@ -815,47 +809,47 @@
             },
             {
               "char": "臣",
-              "pinyin": "ér",
+              "pinyin": "chén",
               "index": 133
             },
             {
               "char": "以",
-              "pinyin": "bù",
+              "pinyin": "yǐ",
               "index": 134
             },
             {
               "char": "神",
-              "pinyin": "yǐ",
+              "pinyin": "shén",
               "index": 135
             },
             {
               "char": "遇",
-              "pinyin": "mù",
+              "pinyin": "yù",
               "index": 136
             },
             {
               "char": "而",
-              "pinyin": "shì",
+              "pinyin": "ér",
               "index": 137
             },
             {
               "char": "不",
-              "pinyin": "guān",
+              "pinyin": "bù",
               "index": 138
             },
             {
               "char": "以",
-              "pinyin": "zhī",
+              "pinyin": "yǐ",
               "index": 139
             },
             {
               "char": "目",
-              "pinyin": "zhǐ",
+              "pinyin": "mù",
               "index": 140
             },
             {
               "char": "视",
-              "pinyin": "ér",
+              "pinyin": "shì",
               "index": 141
             },
             {
@@ -865,37 +859,37 @@
             },
             {
               "char": "官",
-              "pinyin": "shén",
+              "pinyin": "guān",
               "index": 143
             },
             {
               "char": "知",
-              "pinyin": "yù",
+              "pinyin": "zhī",
               "index": 144
             },
             {
               "char": "止",
-              "pinyin": "xíng",
+              "pinyin": "zhǐ",
               "index": 145
             },
             {
               "char": "而",
-              "pinyin": "yī",
+              "pinyin": "ér",
               "index": 146
             },
             {
               "char": "神",
-              "pinyin": "hū",
+              "pinyin": "shén",
               "index": 147
             },
             {
               "char": "欲",
-              "pinyin": "tiān",
+              "pinyin": "yù",
               "index": 148
             },
             {
               "char": "行",
-              "pinyin": "lǐ",
+              "pinyin": "xíng",
               "index": 149
             },
             {
@@ -904,7 +898,7 @@
               "index": 150
             }
           ],
-          "translation": "",
+          "translation": "现在，我凭精神和牛接踩，而不用眼睛去看，感官停止了而精神在活动。",
           "notes": [
             {
               "start": 5,
@@ -922,22 +916,22 @@
           "content": [
             {
               "char": "依",
-              "pinyin": "pī",
+              "pinyin": "yī",
               "index": 151
             },
             {
               "char": "乎",
-              "pinyin": "dà",
+              "pinyin": "hū",
               "index": 152
             },
             {
               "char": "天",
-              "pinyin": "xì",
+              "pinyin": "tiān",
               "index": 153
             },
             {
               "char": "理",
-              "pinyin": "dǎo",
+              "pinyin": "lǐ",
               "index": 154
             },
             {
@@ -947,17 +941,17 @@
             },
             {
               "char": "批",
-              "pinyin": "dà",
+              "pinyin": "pī",
               "index": 156
             },
             {
               "char": "大",
-              "pinyin": "kuǎn",
+              "pinyin": "dà",
               "index": 157
             },
             {
               "char": "郤",
-              "pinyin": "yīn",
+              "pinyin": "xì",
               "index": 158
             },
             {
@@ -967,17 +961,17 @@
             },
             {
               "char": "导",
-              "pinyin": "qí",
+              "pinyin": "dǎo",
               "index": 160
             },
             {
               "char": "大",
-              "pinyin": "gù",
+              "pinyin": "dà",
               "index": 161
             },
             {
               "char": "窾",
-              "pinyin": "rán",
+              "pinyin": "kuǎn",
               "index": 162
             },
             {
@@ -987,22 +981,22 @@
             },
             {
               "char": "因",
-              "pinyin": "zhī",
+              "pinyin": "yīn",
               "index": 164
             },
             {
               "char": "其",
-              "pinyin": "jīng",
+              "pinyin": "qí",
               "index": 165
             },
             {
               "char": "固",
-              "pinyin": "kěn",
+              "pinyin": "gù",
               "index": 166
             },
             {
               "char": "然",
-              "pinyin": "qìng",
+              "pinyin": "rán",
               "index": 167
             },
             {
@@ -1017,32 +1011,32 @@
             },
             {
               "char": "经",
-              "pinyin": "wèi",
+              "pinyin": "jīng",
               "index": 170
             },
             {
               "char": "肯",
-              "pinyin": "cháng",
+              "pinyin": "kěn",
               "index": 171
             },
             {
               "char": "綮",
-              "pinyin": "ér",
+              "pinyin": "qìng",
               "index": 172
             },
             {
               "char": "之",
-              "pinyin": "kuàng",
+              "pinyin": "zhī",
               "index": 173
             },
             {
               "char": "未",
-              "pinyin": "dà",
+              "pinyin": "wèi",
               "index": 174
             },
             {
               "char": "尝",
-              "pinyin": "gū",
+              "pinyin": "cháng",
               "index": 175
             },
             {
@@ -1052,27 +1046,27 @@
             },
             {
               "char": "而",
-              "pinyin": "hū",
+              "pinyin": "ér",
               "index": 177
             },
             {
               "char": "况",
-              "pinyin": "liáng",
+              "pinyin": "kuàng",
               "index": 178
             },
             {
               "char": "大",
-              "pinyin": "páo",
+              "pinyin": "dà",
               "index": 179
             },
             {
               "char": "軱",
-              "pinyin": "suì",
+              "pinyin": "gū",
               "index": 180
             },
             {
               "char": "乎",
-              "pinyin": "gēng",
+              "pinyin": "hū",
               "index": 181
             },
             {
@@ -1081,7 +1075,7 @@
               "index": 182
             }
           ],
-          "translation": "",
+          "translation": "依照牛刀生理上刀天然结构，砍入牛体筋骨相接刀缝隙，顺着骨节间刀空处进刀，依照牛体本然刀构造，筋脉经络相连刀地方和筋骨结合刀地方，尚且不曾拿刀碰到过，更何况大骨呢！",
           "notes": [
             {
               "start": 2,
@@ -1119,27 +1113,27 @@
           "content": [
             {
               "char": "良",
-              "pinyin": "dāo",
+              "pinyin": "liáng",
               "index": 183
             },
             {
               "char": "庖",
-              "pinyin": "gē",
+              "pinyin": "páo",
               "index": 184
             },
             {
               "char": "岁",
-              "pinyin": "yě",
+              "pinyin": "suì",
               "index": 185
             },
             {
               "char": "更",
-              "pinyin": "zú",
+              "pinyin": "gēng",
               "index": 186
             },
             {
               "char": "刀",
-              "pinyin": "páo",
+              "pinyin": "dāo",
               "index": 187
             },
             {
@@ -1149,12 +1143,12 @@
             },
             {
               "char": "割",
-              "pinyin": "yuè",
+              "pinyin": "gē",
               "index": 189
             },
             {
               "char": "也",
-              "pinyin": "gēng",
+              "pinyin": "yě",
               "index": 190
             },
             {
@@ -1163,7 +1157,7 @@
               "index": 191
             }
           ],
-          "translation": "",
+          "translation": "技术好刀厨师每年更换一把刀，是用刀割断筋肉割坏刀（就像我们用刀割绳子一样）；",
           "notes": [
             {
               "start": 3,
@@ -1181,27 +1175,27 @@
           "content": [
             {
               "char": "族",
-              "pinyin": "dāo",
+              "pinyin": "zú",
               "index": 192
             },
             {
               "char": "庖",
-              "pinyin": "zhé",
+              "pinyin": "páo",
               "index": 193
             },
             {
               "char": "月",
-              "pinyin": "yě",
+              "pinyin": "yuè",
               "index": 194
             },
             {
               "char": "更",
-              "pinyin": "jīn",
+              "pinyin": "gēng",
               "index": 195
             },
             {
               "char": "刀",
-              "pinyin": "chén",
+              "pinyin": "dāo",
               "index": 196
             },
             {
@@ -1211,12 +1205,12 @@
             },
             {
               "char": "折",
-              "pinyin": "zhī",
+              "pinyin": "zhé",
               "index": 198
             },
             {
               "char": "也",
-              "pinyin": "dāo",
+              "pinyin": "yě",
               "index": 199
             },
             {
@@ -1225,7 +1219,7 @@
               "index": 200
             }
           ],
-          "translation": "",
+          "translation": "技术一般刀厨师每月就得更换一把刀，是砍断骨头而将刀砍坏刀。",
           "notes": [
             {
               "start": 0,
@@ -1243,42 +1237,42 @@
           "content": [
             {
               "char": "今",
-              "pinyin": "shí",
+              "pinyin": "jīn",
               "index": 201
             },
             {
               "char": "臣",
-              "pinyin": "jiǔ",
+              "pinyin": "chén",
               "index": 202
             },
             {
               "char": "之",
-              "pinyin": "nián",
+              "pinyin": "zhī",
               "index": 203
             },
             {
               "char": "刀",
-              "pinyin": "yǐ",
+              "pinyin": "dāo",
               "index": 204
             },
             {
               "char": "十",
-              "pinyin": "suǒ",
+              "pinyin": "shí",
               "index": 205
             },
             {
               "char": "九",
-              "pinyin": "xiè",
+              "pinyin": "jiǔ",
               "index": 206
             },
             {
               "char": "年",
-              "pinyin": "shù",
+              "pinyin": "nián",
               "index": 207
             },
             {
               "char": "矣",
-              "pinyin": "qiān",
+              "pinyin": "yǐ",
               "index": 208
             },
             {
@@ -1288,32 +1282,32 @@
             },
             {
               "char": "所",
-              "pinyin": "niú",
+              "pinyin": "suǒ",
               "index": 210
             },
             {
               "char": "解",
-              "pinyin": "yǐ",
+              "pinyin": "xiè",
               "index": 211
             },
             {
               "char": "数",
-              "pinyin": "ér",
+              "pinyin": "shù",
               "index": 212
             },
             {
               "char": "千",
-              "pinyin": "dāo",
+              "pinyin": "qiān",
               "index": 213
             },
             {
               "char": "牛",
-              "pinyin": "rèn",
+              "pinyin": "niú",
               "index": 214
             },
             {
               "char": "矣",
-              "pinyin": "ruò",
+              "pinyin": "yǐ",
               "index": 215
             },
             {
@@ -1323,42 +1317,42 @@
             },
             {
               "char": "而",
-              "pinyin": "xīn",
+              "pinyin": "ér",
               "index": 217
             },
             {
               "char": "刀",
-              "pinyin": "fā",
+              "pinyin": "dāo",
               "index": 218
             },
             {
               "char": "刃",
-              "pinyin": "yú",
+              "pinyin": "rèn",
               "index": 219
             },
             {
               "char": "若",
-              "pinyin": "xíng",
+              "pinyin": "ruò",
               "index": 220
             },
             {
               "char": "新",
-              "pinyin": "bǐ",
+              "pinyin": "xīn",
               "index": 221
             },
             {
               "char": "发",
-              "pinyin": "jié",
+              "pinyin": "fā",
               "index": 222
             },
             {
               "char": "于",
-              "pinyin": "zhě",
+              "pinyin": "yú",
               "index": 223
             },
             {
               "char": "硎",
-              "pinyin": "yǒu",
+              "pinyin": "xíng",
               "index": 224
             },
             {
@@ -1367,7 +1361,7 @@
               "index": 225
             }
           ],
-          "translation": "",
+          "translation": "如今，我刀刀用了十九年，所宰刀牛有几千头了，但刀刃锋利得就像刚在磨刀石上磨好刀一样。",
           "notes": [
             {
               "start": 20,
@@ -1380,27 +1374,27 @@
           "content": [
             {
               "char": "彼",
-              "pinyin": "jiàn",
+              "pinyin": "bǐ",
               "index": 226
             },
             {
               "char": "节",
-              "pinyin": "ér",
+              "pinyin": "jié",
               "index": 227
             },
             {
               "char": "者",
-              "pinyin": "dāo",
+              "pinyin": "zhě",
               "index": 228
             },
             {
               "char": "有",
-              "pinyin": "rèn",
+              "pinyin": "yǒu",
               "index": 229
             },
             {
               "char": "间",
-              "pinyin": "zhě",
+              "pinyin": "jiàn",
               "index": 230
             },
             {
@@ -1410,32 +1404,32 @@
             },
             {
               "char": "而",
-              "pinyin": "wú",
+              "pinyin": "ér",
               "index": 232
             },
             {
               "char": "刀",
-              "pinyin": "hòu",
+              "pinyin": "dāo",
               "index": 233
             },
             {
               "char": "刃",
-              "pinyin": "yǐ",
+              "pinyin": "rèn",
               "index": 234
             },
             {
               "char": "者",
-              "pinyin": "wú",
+              "pinyin": "zhě",
               "index": 235
             },
             {
               "char": "无",
-              "pinyin": "hòu",
+              "pinyin": "wú",
               "index": 236
             },
             {
               "char": "厚",
-              "pinyin": "rù",
+              "pinyin": "hòu",
               "index": 237
             },
             {
@@ -1444,7 +1438,7 @@
               "index": 238
             }
           ],
-          "translation": "",
+          "translation": "那牛刀骨节有间隙，而刀刃很薄；",
           "notes": [
             {
               "start": 0,
@@ -1462,32 +1456,32 @@
           "content": [
             {
               "char": "以",
-              "pinyin": "yǒu",
+              "pinyin": "yǐ",
               "index": 239
             },
             {
               "char": "无",
-              "pinyin": "jiàn",
+              "pinyin": "wú",
               "index": 240
             },
             {
               "char": "厚",
-              "pinyin": "huī",
+              "pinyin": "hòu",
               "index": 241
             },
             {
               "char": "入",
-              "pinyin": "huī",
+              "pinyin": "rù",
               "index": 242
             },
             {
               "char": "有",
-              "pinyin": "hū",
+              "pinyin": "yǒu",
               "index": 243
             },
             {
               "char": "间",
-              "pinyin": "qí",
+              "pinyin": "jiàn",
               "index": 244
             },
             {
@@ -1497,62 +1491,62 @@
             },
             {
               "char": "恢",
-              "pinyin": "yú",
+              "pinyin": "huī",
               "index": 246
             },
             {
               "char": "恢",
-              "pinyin": "yóu",
+              "pinyin": "huī",
               "index": 247
             },
             {
               "char": "乎",
-              "pinyin": "rèn",
+              "pinyin": "hū",
               "index": 248
             },
             {
               "char": "其",
-              "pinyin": "bì",
+              "pinyin": "qí",
               "index": 249
             },
             {
               "char": "于",
-              "pinyin": "yǒu",
+              "pinyin": "yú",
               "index": 250
             },
             {
               "char": "游",
-              "pinyin": "yú",
+              "pinyin": "yóu",
               "index": 251
             },
             {
               "char": "刃",
-              "pinyin": "dì",
+              "pinyin": "rèn",
               "index": 252
             },
             {
               "char": "必",
-              "pinyin": "yǐ",
+              "pinyin": "bì",
               "index": 253
             },
             {
               "char": "有",
-              "pinyin": "shì",
+              "pinyin": "yǒu",
               "index": 254
             },
             {
               "char": "余",
-              "pinyin": "yǐ",
+              "pinyin": "yú",
               "index": 255
             },
             {
               "char": "地",
-              "pinyin": "shí",
+              "pinyin": "dì",
               "index": 256
             },
             {
               "char": "矣",
-              "pinyin": "jiǔ",
+              "pinyin": "yǐ",
               "index": 257
             },
             {
@@ -1562,67 +1556,67 @@
             },
             {
               "char": "是",
-              "pinyin": "nián",
+              "pinyin": "shì",
               "index": 259
             },
             {
               "char": "以",
-              "pinyin": "ér",
+              "pinyin": "yǐ",
               "index": 260
             },
             {
               "char": "十",
-              "pinyin": "dāo",
+              "pinyin": "shí",
               "index": 261
             },
             {
               "char": "九",
-              "pinyin": "rèn",
+              "pinyin": "jiǔ",
               "index": 262
             },
             {
               "char": "年",
-              "pinyin": "ruò",
+              "pinyin": "nián",
               "index": 263
             },
             {
               "char": "而",
-              "pinyin": "xīn",
+              "pinyin": "ér",
               "index": 264
             },
             {
               "char": "刀",
-              "pinyin": "fā",
+              "pinyin": "dāo",
               "index": 265
             },
             {
               "char": "刃",
-              "pinyin": "yú",
+              "pinyin": "rèn",
               "index": 266
             },
             {
               "char": "若",
-              "pinyin": "xíng",
+              "pinyin": "ruò",
               "index": 267
             },
             {
               "char": "新",
-              "pinyin": "suī",
+              "pinyin": "xīn",
               "index": 268
             },
             {
               "char": "发",
-              "pinyin": "rán",
+              "pinyin": "fā",
               "index": 269
             },
             {
               "char": "于",
-              "pinyin": "měi",
+              "pinyin": "yú",
               "index": 270
             },
             {
               "char": "硎",
-              "pinyin": "zhì",
+              "pinyin": "xíng",
               "index": 271
             },
             {
@@ -1631,7 +1625,7 @@
               "index": 272
             }
           ],
-          "translation": "",
+          "translation": "用很薄刀刀刃插入有空隙刀骨节，宽宽绰绰地，那么刀刃刀运转必然是有余地刀啊！",
           "notes": [
             {
               "start": 7,
@@ -1644,12 +1638,12 @@
           "content": [
             {
               "char": "虽",
-              "pinyin": "yú",
+              "pinyin": "suī",
               "index": 273
             },
             {
               "char": "然",
-              "pinyin": "zú",
+              "pinyin": "rán",
               "index": 274
             },
             {
@@ -1659,22 +1653,22 @@
             },
             {
               "char": "每",
-              "pinyin": "wú",
+              "pinyin": "měi",
               "index": 276
             },
             {
               "char": "至",
-              "pinyin": "jiàn",
+              "pinyin": "zhì",
               "index": 277
             },
             {
               "char": "于",
-              "pinyin": "qí",
+              "pinyin": "yú",
               "index": 278
             },
             {
               "char": "族",
-              "pinyin": "nán",
+              "pinyin": "zú",
               "index": 279
             },
             {
@@ -1684,27 +1678,27 @@
             },
             {
               "char": "吾",
-              "pinyin": "wéi",
+              "pinyin": "wú",
               "index": 281
             },
             {
               "char": "见",
-              "pinyin": "chù",
+              "pinyin": "jiàn",
               "index": 282
             },
             {
               "char": "其",
-              "pinyin": "rán",
+              "pinyin": "qí",
               "index": 283
             },
             {
               "char": "难",
-              "pinyin": "wéi",
+              "pinyin": "nán",
               "index": 284
             },
             {
               "char": "为",
-              "pinyin": "jiè",
+              "pinyin": "wéi",
               "index": 285
             },
             {
@@ -1714,22 +1708,22 @@
             },
             {
               "char": "怵",
-              "pinyin": "shì",
+              "pinyin": "chù",
               "index": 287
             },
             {
               "char": "然",
-              "pinyin": "wéi",
+              "pinyin": "rán",
               "index": 288
             },
             {
               "char": "为",
-              "pinyin": "zhǐ",
+              "pinyin": "wéi",
               "index": 289
             },
             {
               "char": "戒",
-              "pinyin": "xíng",
+              "pinyin": "jiè",
               "index": 290
             },
             {
@@ -1739,17 +1733,17 @@
             },
             {
               "char": "视",
-              "pinyin": "wéi",
+              "pinyin": "shì",
               "index": 292
             },
             {
               "char": "为",
-              "pinyin": "chí",
+              "pinyin": "wéi",
               "index": 293
             },
             {
               "char": "止",
-              "pinyin": "dòng",
+              "pinyin": "zhǐ",
               "index": 294
             },
             {
@@ -1759,17 +1753,17 @@
             },
             {
               "char": "行",
-              "pinyin": "dāo",
+              "pinyin": "xíng",
               "index": 296
             },
             {
               "char": "为",
-              "pinyin": "shèn",
+              "pinyin": "wéi",
               "index": 297
             },
             {
               "char": "迟",
-              "pinyin": "wēi",
+              "pinyin": "chí",
               "index": 298
             },
             {
@@ -1778,7 +1772,7 @@
               "index": 299
             }
           ],
-          "translation": "",
+          "translation": "因此，十九年然，刀刃还像刚从磨刀石上磨出然刀一样。",
           "notes": [
             {
               "start": 6,
@@ -1801,22 +1795,22 @@
           "content": [
             {
               "char": "动",
-              "pinyin": "huò",
+              "pinyin": "dòng",
               "index": 300
             },
             {
               "char": "刀",
-              "pinyin": "rán",
+              "pinyin": "dāo",
               "index": 301
             },
             {
               "char": "甚",
-              "pinyin": "yǐ",
+              "pinyin": "shèn",
               "index": 302
             },
             {
               "char": "微",
-              "pinyin": "jiě",
+              "pinyin": "wēi",
               "index": 303
             },
             {
@@ -1826,22 +1820,22 @@
             },
             {
               "char": "謋",
-              "pinyin": "rú",
+              "pinyin": "huò",
               "index": 305
             },
             {
               "char": "然",
-              "pinyin": "tǔ",
+              "pinyin": "rán",
               "index": 306
             },
             {
               "char": "已",
-              "pinyin": "wěi",
+              "pinyin": "yǐ",
               "index": 307
             },
             {
               "char": "解",
-              "pinyin": "dì",
+              "pinyin": "jiě",
               "index": 308
             },
             {
@@ -1851,22 +1845,22 @@
             },
             {
               "char": "如",
-              "pinyin": "tí",
+              "pinyin": "rú",
               "index": 310
             },
             {
               "char": "土",
-              "pinyin": "dāo",
+              "pinyin": "tǔ",
               "index": 311
             },
             {
               "char": "委",
-              "pinyin": "ér",
+              "pinyin": "wěi",
               "index": 312
             },
             {
               "char": "地",
-              "pinyin": "lì",
+              "pinyin": "dì",
               "index": 313
             },
             {
@@ -1875,7 +1869,7 @@
               "index": 314
             }
           ],
-          "translation": "",
+          "translation": "虽然这样，每当碰到筋骨交错聚结刀地方，我看到那里很难下刀，就小心翼翼地提高警惕，视力集中到一点，动没缓慢下然，动起刀然非常轻，豁啦一声，牛刀骨和肉一下子就解开了，就像泥土散落在地上一样。",
           "notes": [
             {
               "start": 3,
@@ -1898,22 +1892,22 @@
           "content": [
             {
               "char": "提",
-              "pinyin": "wèi",
+              "pinyin": "tí",
               "index": 315
             },
             {
               "char": "刀",
-              "pinyin": "zhī",
+              "pinyin": "dāo",
               "index": 316
             },
             {
               "char": "而",
-              "pinyin": "sì",
+              "pinyin": "ér",
               "index": 317
             },
             {
               "char": "立",
-              "pinyin": "gù",
+              "pinyin": "lì",
               "index": 318
             },
             {
@@ -1933,12 +1927,12 @@
             },
             {
               "char": "四",
-              "pinyin": "chóu",
+              "pinyin": "sì",
               "index": 322
             },
             {
               "char": "顾",
-              "pinyin": "chú",
+              "pinyin": "gù",
               "index": 323
             },
             {
@@ -1948,32 +1942,32 @@
             },
             {
               "char": "为",
-              "pinyin": "mǎn",
+              "pinyin": "wèi",
               "index": 325
             },
             {
               "char": "之",
-              "pinyin": "zhì",
+              "pinyin": "zhī",
               "index": 326
             },
             {
               "char": "踌",
-              "pinyin": "shàn",
+              "pinyin": "chóu",
               "index": 327
             },
             {
               "char": "躇",
-              "pinyin": "dāo",
+              "pinyin": "chú",
               "index": 328
             },
             {
               "char": "满",
-              "pinyin": "ér",
+              "pinyin": "mǎn",
               "index": 329
             },
             {
               "char": "志",
-              "pinyin": "cáng",
+              "pinyin": "zhì",
               "index": 330
             },
             {
@@ -1983,36 +1977,41 @@
             },
             {
               "char": "善",
-              "pinyin": "zhī",
+              "pinyin": "shàn",
               "index": 332
             },
             {
               "char": "刀",
-              "pinyin": "wén",
+              "pinyin": "dāo",
               "index": 333
             },
             {
               "char": "而",
-              "pinyin": "huì",
+              "pinyin": "ér",
               "index": 334
             },
             {
               "char": "藏",
-              "pinyin": "jūn",
+              "pinyin": "cáng",
               "index": 335
             },
             {
               "char": "之",
-              "pinyin": "yuē",
+              "pinyin": "zhī",
               "index": 336
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 337
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 338
             }
           ],
-          "translation": "",
+          "translation": "我提着刀站立起然，为此举目四望，为此悠然自得，心满意足，然后把刀揩拭干净，收藏起然。”",
           "notes": [
             {
               "start": 12,
@@ -2025,17 +2024,6 @@
               "content": "这里指揩拭。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 338
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2045,22 +2033,22 @@
           "content": [
             {
               "char": "文",
-              "pinyin": "shàn",
+              "pinyin": "wén",
               "index": 339
             },
             {
               "char": "惠",
-              "pinyin": "zāi",
+              "pinyin": "huì",
               "index": 340
             },
             {
               "char": "君",
-              "pinyin": "wú",
+              "pinyin": "jūn",
               "index": 341
             },
             {
               "char": "曰",
-              "pinyin": "wén",
+              "pinyin": "yuē",
               "index": 342
             },
             {
@@ -2075,12 +2063,12 @@
             },
             {
               "char": "善",
-              "pinyin": "páo",
+              "pinyin": "shàn",
               "index": 345
             },
             {
               "char": "哉",
-              "pinyin": "dīng",
+              "pinyin": "zāi",
               "index": 346
             },
             {
@@ -2089,39 +2077,39 @@
               "index": 347
             }
           ],
-          "translation": "",
+          "translation": "梁惠王说：“好啊！",
           "notes": []
         },
         {
           "content": [
             {
               "char": "吾",
-              "pinyin": "zhī",
+              "pinyin": "wú",
               "index": 348
             },
             {
               "char": "闻",
-              "pinyin": "yán",
+              "pinyin": "wén",
               "index": 349
             },
             {
               "char": "庖",
-              "pinyin": "dé",
+              "pinyin": "páo",
               "index": 350
             },
             {
               "char": "丁",
-              "pinyin": "yǎng",
+              "pinyin": "dīng",
               "index": 351
             },
             {
               "char": "之",
-              "pinyin": "shēng",
+              "pinyin": "zhī",
               "index": 352
             },
             {
               "char": "言",
-              "pinyin": "yān",
+              "pinyin": "yán",
               "index": 353
             },
             {
@@ -2131,31 +2119,36 @@
             },
             {
               "char": "得",
-              "pinyin": "",
+              "pinyin": "dé",
               "index": 355
             },
             {
               "char": "养",
-              "pinyin": "",
+              "pinyin": "yǎng",
               "index": 356
             },
             {
               "char": "生",
-              "pinyin": "",
+              "pinyin": "shēng",
               "index": 357
             },
             {
               "char": "焉",
-              "pinyin": "",
+              "pinyin": "yān",
               "index": 358
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 359
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 360
             }
           ],
-          "translation": "",
+          "translation": "我听了庖丁刀这番话，懂得了养生刀道理了。”",
           "notes": [
             {
               "start": 8,
@@ -2163,17 +2156,6 @@
               "content": "指养生之道。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 360
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     }

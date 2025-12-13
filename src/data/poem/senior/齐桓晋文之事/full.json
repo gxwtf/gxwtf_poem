@@ -110,20 +110,14 @@
               "char": "？",
               "pinyin": "",
               "index": 18
-            }
-          ],
-          "translation": "齐宣王问（孟子）说：“齐桓公、晋文公（称霸）的事，可以讲给我听听吗？",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 19
             }
           ],
-          "translation": "”孟子回答说：“在孔子的弟子中没有讲述有关齐桓公、晋文公事情的人，因此后世没有流传。",
+          "translation": "齐宣王问（孟子）说：“齐桓公、晋文公（称霸）的事，可以讲给我听听吗？”",
           "notes": []
         }
       ]
@@ -293,7 +287,7 @@
               "index": 51
             }
           ],
-          "translation": "",
+          "translation": "孟子回答说：“在孔子的弟子中没有讲述有关齐桓公、晋文公事情的人，因此后世没有流传，我没有听说过这事。",
           "notes": []
         },
         {
@@ -332,9 +326,14 @@
               "char": "？",
               "pinyin": "",
               "index": 58
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 59
             }
           ],
-          "translation": "",
+          "translation": "王如果一定要我说，那便来讲讲用王道（仁政）统一天下的道理吧？”",
           "notes": [
             {
               "start": 0,
@@ -342,17 +341,6 @@
               "content": "如果一定要说一说，那么还是说说行王道的事吧。无以，不得已。王，行王道以统一天下。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 59
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -419,20 +407,14 @@
               "char": "？",
               "pinyin": "",
               "index": 71
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 72
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“德行怎样才可以称王呢？”",
           "notes": []
         }
       ]
@@ -510,9 +492,14 @@
               "char": "。",
               "pinyin": "",
               "index": 86
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 87
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“爱护百姓推行王道的，没有人能够阻挡。”",
           "notes": [
             {
               "start": 3,
@@ -520,17 +507,6 @@
               "content": "安民，养民。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 87
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -612,20 +588,14 @@
               "char": "？",
               "pinyin": "",
               "index": 102
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 103
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“像我这样的人，能够保全百姓吗？”",
           "notes": []
         }
       ]
@@ -658,20 +628,14 @@
               "char": "。",
               "pinyin": "",
               "index": 108
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 109
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“可以。”",
           "notes": []
         }
       ]
@@ -729,20 +693,14 @@
               "char": "？",
               "pinyin": "",
               "index": 119
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 120
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“从哪里知道我可以呢？”",
           "notes": []
         }
       ]
@@ -930,9 +888,14 @@
               "char": "？",
               "pinyin": "",
               "index": 156
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 157
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“我从胡龁那听说：‘您坐在大殿上，有个人牵牛从殿下走过，您看见这个人，问道：‘牛（牵）到哪里去？’",
           "notes": [
             {
               "start": 6,
@@ -948,11 +911,6 @@
         },
         {
           "content": [
-            {
-              "char": "’",
-              "pinyin": "",
-              "index": 157
-            },
             {
               "char": "对",
               "pinyin": "duì",
@@ -997,24 +955,24 @@
               "char": "。",
               "pinyin": "",
               "index": 166
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 167
             }
           ],
-          "translation": "",
+          "translation": "（那人）回答说：‘准备用它（的血）来涂在钟上行祭。’",
           "notes": [
             {
-              "start": 7,
-              "end": 8,
+              "start": 6,
+              "end": 7,
               "content": "古代新钟铸成，宰杀牲口，取血涂钟行祭，叫作“衅钟”。"
             }
           ]
         },
         {
           "content": [
-            {
-              "char": "’",
-              "pinyin": "",
-              "index": 167
-            },
             {
               "char": "王",
               "pinyin": "wáng",
@@ -1051,11 +1009,11 @@
               "index": 174
             }
           ],
-          "translation": "",
+          "translation": "您说：‘放了它！",
           "notes": [
             {
-              "start": 5,
-              "end": 5,
+              "start": 4,
+              "end": 4,
               "content": "释放。"
             }
           ]
@@ -1136,9 +1094,14 @@
               "char": "。",
               "pinyin": "",
               "index": 189
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 190
             }
           ],
-          "translation": "",
+          "translation": "我不忍看到它那恐惧战栗的样子，这样没有罪过却走向死地。’",
           "notes": [
             {
               "start": 4,
@@ -1154,11 +1117,6 @@
         },
         {
           "content": [
-            {
-              "char": "’",
-              "pinyin": "",
-              "index": 190
-            },
             {
               "char": "对",
               "pinyin": "duì",
@@ -1213,18 +1171,18 @@
               "char": "？",
               "pinyin": "",
               "index": 201
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "’",
               "pinyin": "",
               "index": 202
-            },
+            }
+          ],
+          "translation": "（那人问）道：‘那么既然这样，（需要）废弃祭钟的仪式吗？’",
+          "notes": []
+        },
+        {
+          "content": [
             {
               "char": "曰",
               "pinyin": "yuē",
@@ -1289,24 +1247,24 @@
               "char": "。",
               "pinyin": "",
               "index": 215
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 216
             }
           ],
-          "translation": "",
+          "translation": "你说：‘怎么可以废除呢？",
           "notes": [
             {
-              "start": 9,
-              "end": 12,
+              "start": 8,
+              "end": 11,
               "content": "用羊来替换它（指牛）。古人以牛为牲之最大者，羊的地位低于牛。"
             }
           ]
         },
         {
           "content": [
-            {
-              "char": "’",
-              "pinyin": "",
-              "index": 216
-            },
             {
               "char": "不",
               "pinyin": "bù",
@@ -1331,27 +1289,21 @@
               "char": "？",
               "pinyin": "",
               "index": 221
-            }
-          ],
-          "translation": "",
-          "notes": [
-            {
-              "start": 4,
-              "end": 4,
-              "content": "“之乎”的合音。"
-            }
-          ]
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 222
             }
           ],
-          "translation": "",
-          "notes": []
+          "translation": "用羊来换它吧。’",
+          "notes": [
+            {
+              "start": 3,
+              "end": 3,
+              "content": "“之乎”的合音。"
+            }
+          ]
         }
       ]
     },
@@ -1388,20 +1340,14 @@
               "char": "。",
               "pinyin": "",
               "index": 228
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 229
             }
           ],
-          "translation": "",
+          "translation": "不知道有没有这件事？”",
           "notes": []
         }
       ]
@@ -1461,7 +1407,7 @@
               "index": 239
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“有这事。”",
           "notes": []
         },
         {
@@ -1555,9 +1501,14 @@
               "char": "。",
               "pinyin": "",
               "index": 257
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 258
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“这样的心就足以称王于天下了。",
           "notes": [
             {
               "start": 6,
@@ -1565,17 +1516,6 @@
               "content": "吝惜，舍不得。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 258
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -1644,7 +1584,7 @@
               "index": 270
             }
           ],
-          "translation": "",
+          "translation": "百姓都认为大王吝啬。",
           "notes": [
             {
               "start": 6,
@@ -1716,7 +1656,7 @@
               "index": 282
             }
           ],
-          "translation": "",
+          "translation": "（但是）诚然我知道您是出于于心不忍（的缘故）。”",
           "notes": [
             {
               "start": 3,
@@ -1836,20 +1776,14 @@
               "char": "。",
               "pinyin": "",
               "index": 304
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 305
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“是的。",
           "notes": []
         }
       ]
@@ -1939,7 +1873,7 @@
               "index": 321
             }
           ],
-          "translation": "",
+          "translation": "的确有这样（对我误解）的百姓。",
           "notes": [
             {
               "start": 5,
@@ -2001,7 +1935,7 @@
               "index": 331
             }
           ],
-          "translation": "",
+          "translation": "齐国虽然土地狭小，我怎么至于吝啬一头牛？",
           "notes": [
             {
               "start": 5,
@@ -2101,9 +2035,14 @@
               "char": "？",
               "pinyin": "",
               "index": 349
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 350
             }
           ],
-          "translation": "",
+          "translation": "就是因为不忍看它那恐惧战栗的样子，就这样没有罪过却要走向死亡的地方，因此用羊去换它。”",
           "notes": [
             {
               "start": 2,
@@ -2116,17 +2055,6 @@
               "content": "牛和羊有什么区别呢？择，区别。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 350
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2190,7 +2118,7 @@
               "index": 361
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“您不要对百姓认为您是吝啬的感到奇怪。",
           "notes": []
         },
         {
@@ -2304,9 +2232,14 @@
               "char": "。",
               "pinyin": "",
               "index": 383
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 384
             }
           ],
-          "translation": "",
+          "translation": "以小（的动物）换下大（的动物），他们怎么知道您的想法呢？",
           "notes": [
             {
               "start": 12,
@@ -2314,17 +2247,6 @@
               "content": "百姓认为我吝啬是理所当然的啊。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 384
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2433,7 +2355,7 @@
               "index": 404
             }
           ],
-          "translation": "",
+          "translation": "您如果痛惜它没有罪过却要走向死亡的地方，那么牛和羊又有什么区别呢？”",
           "notes": [
             {
               "start": 7,
@@ -2540,7 +2462,7 @@
               "index": 422
             }
           ],
-          "translation": "",
+          "translation": "齐宣王笑着说：“这究竟是一种什么想法呢？",
           "notes": []
         },
         {
@@ -2596,7 +2518,7 @@
               "index": 432
             }
           ],
-          "translation": "",
+          "translation": "（我也说不清楚），我（的确）不是（因为）吝啬钱财才以羊换掉牛的，（这么看来）老百姓说我吝啬是理所应当的了。”",
           "notes": []
         },
         {
@@ -2645,9 +2567,14 @@
               "char": "。",
               "pinyin": "",
               "index": 441
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 442
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“没有关系，这是体现了仁爱之道，（原因在于您）看到了牛而没看到羊。",
           "notes": [
             {
               "start": 4,
@@ -2655,17 +2582,6 @@
               "content": "远离厨房。庖厨，厨房。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 442
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -2705,22 +2621,22 @@
             },
             {
               "char": "《",
-              "pinyin": "shī",
+              "pinyin": "",
               "index": 449
             },
             {
               "char": "诗",
-              "pinyin": "yún",
+              "pinyin": "shī",
               "index": 450
             },
             {
               "char": "》",
-              "pinyin": "tā",
+              "pinyin": "",
               "index": 451
             },
             {
               "char": "云",
-              "pinyin": "rén",
+              "pinyin": "yún",
               "index": 452
             },
             {
@@ -2735,22 +2651,22 @@
             },
             {
               "char": "他",
-              "pinyin": "yǒu",
+              "pinyin": "tā",
               "index": 455
             },
             {
               "char": "人",
-              "pinyin": "xīn",
+              "pinyin": "rén",
               "index": 456
             },
             {
               "char": "有",
-              "pinyin": "yú",
+              "pinyin": "yǒu",
               "index": 457
             },
             {
               "char": "心",
-              "pinyin": "cǔn",
+              "pinyin": "xīn",
               "index": 458
             },
             {
@@ -2760,31 +2676,36 @@
             },
             {
               "char": "予",
-              "pinyin": "duó",
+              "pinyin": "yú",
               "index": 460
             },
             {
               "char": "忖",
-              "pinyin": "zhī",
+              "pinyin": "cǔn",
               "index": 461
             },
             {
               "char": "度",
-              "pinyin": "fū",
+              "pinyin": "duó",
               "index": 462
             },
             {
               "char": "之",
-              "pinyin": "zǐ",
+              "pinyin": "zhī",
               "index": 463
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 464
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 465
             }
           ],
-          "translation": "",
+          "translation": "有道德的人对于飞禽走兽：看见它活着，便不忍心看它死；",
           "notes": [
             {
               "start": 1,
@@ -2801,33 +2722,28 @@
         {
           "content": [
             {
-              "char": "’",
-              "pinyin": "",
-              "index": 465
-            },
-            {
               "char": "夫",
-              "pinyin": "zhī",
+              "pinyin": "fū",
               "index": 466
             },
             {
               "char": "子",
-              "pinyin": "wèi",
+              "pinyin": "zǐ",
               "index": 467
             },
             {
               "char": "之",
-              "pinyin": "yě",
+              "pinyin": "zhī",
               "index": 468
             },
             {
               "char": "谓",
-              "pinyin": "fū",
+              "pinyin": "wèi",
               "index": 469
             },
             {
               "char": "也",
-              "pinyin": "wǒ",
+              "pinyin": "yě",
               "index": 470
             },
             {
@@ -2836,11 +2752,11 @@
               "index": 471
             }
           ],
-          "translation": "",
+          "translation": "听到它（哀鸣）的声音，便不忍心吃它的肉。",
           "notes": [
             {
-              "start": 1,
-              "end": 5,
+              "start": 0,
+              "end": 4,
               "content": "（这话）说的就是您（这样的人）啊。夫子，古代对男子的尊称，这里指孟子。"
             }
           ]
@@ -2849,27 +2765,27 @@
           "content": [
             {
               "char": "夫",
-              "pinyin": "nǎi",
+              "pinyin": "fū",
               "index": 472
             },
             {
               "char": "我",
-              "pinyin": "xíng",
+              "pinyin": "wǒ",
               "index": 473
             },
             {
               "char": "乃",
-              "pinyin": "zhī",
+              "pinyin": "nǎi",
               "index": 474
             },
             {
               "char": "行",
-              "pinyin": "fǎn",
+              "pinyin": "xíng",
               "index": 475
             },
             {
               "char": "之",
-              "pinyin": "ér",
+              "pinyin": "zhī",
               "index": 476
             },
             {
@@ -2879,22 +2795,22 @@
             },
             {
               "char": "反",
-              "pinyin": "qiú",
+              "pinyin": "fǎn",
               "index": 478
             },
             {
               "char": "而",
-              "pinyin": "zhī",
+              "pinyin": "ér",
               "index": 479
             },
             {
               "char": "求",
-              "pinyin": "bù",
+              "pinyin": "qiú",
               "index": 480
             },
             {
               "char": "之",
-              "pinyin": "dé",
+              "pinyin": "zhī",
               "index": 481
             },
             {
@@ -2904,22 +2820,22 @@
             },
             {
               "char": "不",
-              "pinyin": "wú",
+              "pinyin": "bù",
               "index": 483
             },
             {
               "char": "得",
-              "pinyin": "xīn",
+              "pinyin": "dé",
               "index": 484
             },
             {
               "char": "吾",
-              "pinyin": "fū",
+              "pinyin": "wú",
               "index": 485
             },
             {
               "char": "心",
-              "pinyin": "zǐ",
+              "pinyin": "xīn",
               "index": 486
             },
             {
@@ -2928,7 +2844,7 @@
               "index": 487
             }
           ],
-          "translation": "",
+          "translation": "因此君子不接近厨房。”",
           "notes": [
             {
               "start": 0,
@@ -2941,22 +2857,22 @@
           "content": [
             {
               "char": "夫",
-              "pinyin": "yán",
+              "pinyin": "fū",
               "index": 488
             },
             {
               "char": "子",
-              "pinyin": "zhī",
+              "pinyin": "zǐ",
               "index": 489
             },
             {
               "char": "言",
-              "pinyin": "yú",
+              "pinyin": "yán",
               "index": 490
             },
             {
               "char": "之",
-              "pinyin": "wǒ",
+              "pinyin": "zhī",
               "index": 491
             },
             {
@@ -2966,37 +2882,37 @@
             },
             {
               "char": "于",
-              "pinyin": "xīn",
+              "pinyin": "yú",
               "index": 493
             },
             {
               "char": "我",
-              "pinyin": "yǒu",
+              "pinyin": "wǒ",
               "index": 494
             },
             {
               "char": "心",
-              "pinyin": "qī",
+              "pinyin": "xīn",
               "index": 495
             },
             {
               "char": "有",
-              "pinyin": "qī",
+              "pinyin": "yǒu",
               "index": 496
             },
             {
               "char": "戚",
-              "pinyin": "yān",
+              "pinyin": "qī",
               "index": 497
             },
             {
               "char": "戚",
-              "pinyin": "cǐ",
+              "pinyin": "qī",
               "index": 498
             },
             {
               "char": "焉",
-              "pinyin": "xīn",
+              "pinyin": "yān",
               "index": 499
             },
             {
@@ -3005,7 +2921,7 @@
               "index": 500
             }
           ],
-          "translation": "",
+          "translation": "齐宣王高兴了，说：“《诗经》说：‘别人有什么心思，我能揣测到。’",
           "notes": [
             {
               "start": 9,
@@ -3018,47 +2934,47 @@
           "content": [
             {
               "char": "此",
-              "pinyin": "zhī",
+              "pinyin": "cǐ",
               "index": 501
             },
             {
               "char": "心",
-              "pinyin": "suǒ",
+              "pinyin": "xīn",
               "index": 502
             },
             {
               "char": "之",
-              "pinyin": "yǐ",
+              "pinyin": "zhī",
               "index": 503
             },
             {
               "char": "所",
-              "pinyin": "hé",
+              "pinyin": "suǒ",
               "index": 504
             },
             {
               "char": "以",
-              "pinyin": "yú",
+              "pinyin": "yǐ",
               "index": 505
             },
             {
               "char": "合",
-              "pinyin": "wáng",
+              "pinyin": "hé",
               "index": 506
             },
             {
               "char": "于",
-              "pinyin": "zhě",
+              "pinyin": "yú",
               "index": 507
             },
             {
               "char": "王",
-              "pinyin": "hé",
+              "pinyin": "wáng",
               "index": 508
             },
             {
               "char": "者",
-              "pinyin": "yě",
+              "pinyin": "zhě",
               "index": 509
             },
             {
@@ -3068,32 +2984,26 @@
             },
             {
               "char": "何",
-              "pinyin": "yuē",
+              "pinyin": "hé",
               "index": 511
             },
             {
               "char": "也",
-              "pinyin": "yǒu",
+              "pinyin": "yě",
               "index": 512
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 513
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 514
             }
           ],
-          "translation": "",
+          "translation": "说的就是先生您这样的人啊。",
           "notes": []
         }
       ]
@@ -3104,7 +3014,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "fù",
+              "pinyin": "yuē",
               "index": 515
             },
             {
@@ -3119,32 +3029,32 @@
             },
             {
               "char": "有",
-              "pinyin": "yú",
+              "pinyin": "yǒu",
               "index": 518
             },
             {
               "char": "复",
-              "pinyin": "wáng",
+              "pinyin": "fù",
               "index": 519
             },
             {
               "char": "于",
-              "pinyin": "zhě",
+              "pinyin": "yú",
               "index": 520
             },
             {
               "char": "王",
-              "pinyin": "yuē",
+              "pinyin": "wáng",
               "index": 521
             },
             {
               "char": "者",
-              "pinyin": "wú",
+              "pinyin": "zhě",
               "index": 522
             },
             {
               "char": "曰",
-              "pinyin": "lì",
+              "pinyin": "yuē",
               "index": 523
             },
             {
@@ -3159,37 +3069,37 @@
             },
             {
               "char": "吾",
-              "pinyin": "zú",
+              "pinyin": "wú",
               "index": 526
             },
             {
               "char": "力",
-              "pinyin": "yǐ",
+              "pinyin": "lì",
               "index": 527
             },
             {
               "char": "足",
-              "pinyin": "jǔ",
+              "pinyin": "zú",
               "index": 528
             },
             {
               "char": "以",
-              "pinyin": "bǎi",
+              "pinyin": "yǐ",
               "index": 529
             },
             {
               "char": "举",
-              "pinyin": "jūn",
+              "pinyin": "jǔ",
               "index": 530
             },
             {
               "char": "百",
-              "pinyin": "ér",
+              "pinyin": "bǎi",
               "index": 531
             },
             {
               "char": "钧",
-              "pinyin": "bù",
+              "pinyin": "jūn",
               "index": 532
             },
             {
@@ -3199,37 +3109,37 @@
             },
             {
               "char": "而",
-              "pinyin": "zú",
+              "pinyin": "ér",
               "index": 534
             },
             {
               "char": "不",
-              "pinyin": "yǐ",
+              "pinyin": "bù",
               "index": 535
             },
             {
               "char": "足",
-              "pinyin": "jǔ",
+              "pinyin": "zú",
               "index": 536
             },
             {
               "char": "以",
-              "pinyin": "yī",
+              "pinyin": "yǐ",
               "index": 537
             },
             {
               "char": "举",
-              "pinyin": "yǔ",
+              "pinyin": "jǔ",
               "index": 538
             },
             {
               "char": "一",
-              "pinyin": "míng",
+              "pinyin": "yī",
               "index": 539
             },
             {
               "char": "羽",
-              "pinyin": "zú",
+              "pinyin": "yǔ",
               "index": 540
             },
             {
@@ -3238,7 +3148,7 @@
               "index": 541
             }
           ],
-          "translation": "",
+          "translation": "我这样做了，回头再去想它，却想不出是为什么。",
           "notes": [
             {
               "start": 4,
@@ -3256,42 +3166,42 @@
           "content": [
             {
               "char": "明",
-              "pinyin": "yǐ",
+              "pinyin": "míng",
               "index": 542
             },
             {
               "char": "足",
-              "pinyin": "chá",
+              "pinyin": "zú",
               "index": 543
             },
             {
               "char": "以",
-              "pinyin": "qiū",
+              "pinyin": "yǐ",
               "index": 544
             },
             {
               "char": "察",
-              "pinyin": "háo",
+              "pinyin": "chá",
               "index": 545
             },
             {
               "char": "秋",
-              "pinyin": "zhī",
+              "pinyin": "qiū",
               "index": 546
             },
             {
               "char": "毫",
-              "pinyin": "mò",
+              "pinyin": "háo",
               "index": 547
             },
             {
               "char": "之",
-              "pinyin": "ér",
+              "pinyin": "zhī",
               "index": 548
             },
             {
               "char": "末",
-              "pinyin": "bù",
+              "pinyin": "mò",
               "index": 549
             },
             {
@@ -3301,36 +3211,41 @@
             },
             {
               "char": "而",
-              "pinyin": "jiàn",
+              "pinyin": "ér",
               "index": 551
             },
             {
               "char": "不",
-              "pinyin": "yú",
+              "pinyin": "bù",
               "index": 552
             },
             {
               "char": "见",
-              "pinyin": "xīn",
+              "pinyin": "jiàn",
               "index": 553
             },
             {
               "char": "舆",
-              "pinyin": "zé",
+              "pinyin": "yú",
               "index": 554
             },
             {
               "char": "薪",
-              "pinyin": "wáng",
+              "pinyin": "xīn",
               "index": 555
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 556
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 557
             }
           ],
-          "translation": "",
+          "translation": "先生您说的这些，对于我的心真是有所触动啊！",
           "notes": [
             {
               "start": 0,
@@ -3352,60 +3267,49 @@
         {
           "content": [
             {
-              "char": "’",
-              "pinyin": "",
-              "index": 557
-            },
-            {
               "char": "则",
-              "pinyin": "xǔ",
+              "pinyin": "zé",
               "index": 558
             },
             {
               "char": "王",
-              "pinyin": "zhī",
+              "pinyin": "wáng",
               "index": 559
             },
             {
               "char": "许",
-              "pinyin": "hū",
+              "pinyin": "xǔ",
               "index": 560
             },
             {
               "char": "之",
-              "pinyin": "yuē",
+              "pinyin": "zhī",
               "index": 561
             },
             {
               "char": "乎",
-              "pinyin": "fǒu",
+              "pinyin": "hū",
               "index": 562
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 563
-            }
-          ],
-          "translation": "",
-          "notes": [
-            {
-              "start": 3,
-              "end": 3,
-              "content": "相信。"
-            }
-          ]
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 564
             }
           ],
-          "translation": "",
-          "notes": []
+          "translation": "这种心和王道仁政合拍的原因，是什么呢？”",
+          "notes": [
+            {
+              "start": 2,
+              "end": 2,
+              "content": "相信。"
+            }
+          ]
         }
       ]
     },
@@ -3415,7 +3319,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "jīn",
+              "pinyin": "yuē",
               "index": 565
             },
             {
@@ -3430,27 +3334,21 @@
             },
             {
               "char": "否",
-              "pinyin": "ēn",
+              "pinyin": "fǒu",
               "index": 568
             },
             {
               "char": "！",
               "pinyin": "",
               "index": 569
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 570
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“（假如）有人报告大王说：‘我的力气足以举起三千斤，却不能够举起一根羽毛；",
           "notes": []
         }
       ]
@@ -3466,37 +3364,37 @@
             },
             {
               "char": "今",
-              "pinyin": "zú",
+              "pinyin": "jīn",
               "index": 572
             },
             {
               "char": "恩",
-              "pinyin": "yǐ",
+              "pinyin": "ēn",
               "index": 573
             },
             {
               "char": "足",
-              "pinyin": "jí",
+              "pinyin": "zú",
               "index": 574
             },
             {
               "char": "以",
-              "pinyin": "qín",
+              "pinyin": "yǐ",
               "index": 575
             },
             {
               "char": "及",
-              "pinyin": "shòu",
+              "pinyin": "jí",
               "index": 576
             },
             {
               "char": "禽",
-              "pinyin": "ér",
+              "pinyin": "qín",
               "index": 577
             },
             {
               "char": "兽",
-              "pinyin": "gōng",
+              "pinyin": "shòu",
               "index": 578
             },
             {
@@ -3506,42 +3404,42 @@
             },
             {
               "char": "而",
-              "pinyin": "bù",
+              "pinyin": "ér",
               "index": 580
             },
             {
               "char": "功",
-              "pinyin": "zhì",
+              "pinyin": "gōng",
               "index": 581
             },
             {
               "char": "不",
-              "pinyin": "yú",
+              "pinyin": "bù",
               "index": 582
             },
             {
               "char": "至",
-              "pinyin": "bǎi",
+              "pinyin": "zhì",
               "index": 583
             },
             {
               "char": "于",
-              "pinyin": "xìng",
+              "pinyin": "yú",
               "index": 584
             },
             {
               "char": "百",
-              "pinyin": "zhě",
+              "pinyin": "bǎi",
               "index": 585
             },
             {
               "char": "姓",
-              "pinyin": "dú",
+              "pinyin": "xìng",
               "index": 586
             },
             {
               "char": "者",
-              "pinyin": "hé",
+              "pinyin": "zhě",
               "index": 587
             },
             {
@@ -3551,17 +3449,17 @@
             },
             {
               "char": "独",
-              "pinyin": "yú",
+              "pinyin": "dú",
               "index": 589
             },
             {
               "char": "何",
-              "pinyin": "rán",
+              "pinyin": "hé",
               "index": 590
             },
             {
               "char": "与",
-              "pinyin": "zé",
+              "pinyin": "yú",
               "index": 591
             },
             {
@@ -3570,7 +3468,7 @@
               "index": 592
             }
           ],
-          "translation": "",
+          "translation": "（我的）眼力足以看清鸟兽秋天新生细毛的末梢，却看不到整车的柴草。’",
           "notes": [
             {
               "start": 18,
@@ -3583,37 +3481,37 @@
           "content": [
             {
               "char": "然",
-              "pinyin": "yī",
+              "pinyin": "rán",
               "index": 593
             },
             {
               "char": "则",
-              "pinyin": "yǔ",
+              "pinyin": "zé",
               "index": 594
             },
             {
               "char": "一",
-              "pinyin": "zhī",
+              "pinyin": "yī",
               "index": 595
             },
             {
               "char": "羽",
-              "pinyin": "bù",
+              "pinyin": "yǔ",
               "index": 596
             },
             {
               "char": "之",
-              "pinyin": "jǔ",
+              "pinyin": "zhī",
               "index": 597
             },
             {
               "char": "不",
-              "pinyin": "wéi",
+              "pinyin": "bù",
               "index": 598
             },
             {
               "char": "举",
-              "pinyin": "bù",
+              "pinyin": "jǔ",
               "index": 599
             },
             {
@@ -3623,27 +3521,27 @@
             },
             {
               "char": "为",
-              "pinyin": "yòng",
+              "pinyin": "wéi",
               "index": 601
             },
             {
               "char": "不",
-              "pinyin": "lì",
+              "pinyin": "bù",
               "index": 602
             },
             {
               "char": "用",
-              "pinyin": "yān",
+              "pinyin": "yòng",
               "index": 603
             },
             {
               "char": "力",
-              "pinyin": "yú",
+              "pinyin": "lì",
               "index": 604
             },
             {
               "char": "焉",
-              "pinyin": "xīn",
+              "pinyin": "yān",
               "index": 605
             },
             {
@@ -3652,34 +3550,34 @@
               "index": 606
             }
           ],
-          "translation": "",
+          "translation": "那么，大王您相信吗？”",
           "notes": []
         },
         {
           "content": [
             {
               "char": "舆",
-              "pinyin": "zhī",
+              "pinyin": "yú",
               "index": 607
             },
             {
               "char": "薪",
-              "pinyin": "bù",
+              "pinyin": "xīn",
               "index": 608
             },
             {
               "char": "之",
-              "pinyin": "jiàn",
+              "pinyin": "zhī",
               "index": 609
             },
             {
               "char": "不",
-              "pinyin": "wéi",
+              "pinyin": "bù",
               "index": 610
             },
             {
               "char": "见",
-              "pinyin": "bù",
+              "pinyin": "jiàn",
               "index": 611
             },
             {
@@ -3689,27 +3587,27 @@
             },
             {
               "char": "为",
-              "pinyin": "yòng",
+              "pinyin": "wéi",
               "index": 613
             },
             {
               "char": "不",
-              "pinyin": "míng",
+              "pinyin": "bù",
               "index": 614
             },
             {
               "char": "用",
-              "pinyin": "yān",
+              "pinyin": "yòng",
               "index": 615
             },
             {
               "char": "明",
-              "pinyin": "bǎi",
+              "pinyin": "míng",
               "index": 616
             },
             {
               "char": "焉",
-              "pinyin": "xìng",
+              "pinyin": "yān",
               "index": 617
             },
             {
@@ -3718,39 +3616,39 @@
               "index": 618
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“不相信。”",
           "notes": []
         },
         {
           "content": [
             {
               "char": "百",
-              "pinyin": "zhī",
+              "pinyin": "bǎi",
               "index": 619
             },
             {
               "char": "姓",
-              "pinyin": "bù",
+              "pinyin": "xìng",
               "index": 620
             },
             {
               "char": "之",
-              "pinyin": "jiàn",
+              "pinyin": "zhī",
               "index": 621
             },
             {
               "char": "不",
-              "pinyin": "bǎo",
+              "pinyin": "bù",
               "index": 622
             },
             {
               "char": "见",
-              "pinyin": "wéi",
+              "pinyin": "jiàn",
               "index": 623
             },
             {
               "char": "保",
-              "pinyin": "bù",
+              "pinyin": "bǎo",
               "index": 624
             },
             {
@@ -3760,27 +3658,27 @@
             },
             {
               "char": "为",
-              "pinyin": "yòng",
+              "pinyin": "wéi",
               "index": 626
             },
             {
               "char": "不",
-              "pinyin": "ēn",
+              "pinyin": "bù",
               "index": 627
             },
             {
               "char": "用",
-              "pinyin": "yān",
+              "pinyin": "yòng",
               "index": 628
             },
             {
               "char": "恩",
-              "pinyin": "gù",
+              "pinyin": "ēn",
               "index": 629
             },
             {
               "char": "焉",
-              "pinyin": "wáng",
+              "pinyin": "yān",
               "index": 630
             },
             {
@@ -3789,7 +3687,7 @@
               "index": 631
             }
           ],
-          "translation": "",
+          "translation": "（孟子说：）“如今您的恩德足以推及禽兽，而老百姓却得不到您的功德，却是为什么呢？",
           "notes": [
             {
               "start": 3,
@@ -3802,17 +3700,17 @@
           "content": [
             {
               "char": "故",
-              "pinyin": "zhī",
+              "pinyin": "gù",
               "index": 632
             },
             {
               "char": "王",
-              "pinyin": "bù",
+              "pinyin": "wáng",
               "index": 633
             },
             {
               "char": "之",
-              "pinyin": "wàng",
+              "pinyin": "zhī",
               "index": 634
             },
             {
@@ -3822,7 +3720,7 @@
             },
             {
               "char": "王",
-              "pinyin": "wéi",
+              "pinyin": "wàng",
               "index": 636
             },
             {
@@ -3832,17 +3730,17 @@
             },
             {
               "char": "不",
-              "pinyin": "yě",
+              "pinyin": "bù",
               "index": 638
             },
             {
               "char": "为",
-              "pinyin": "fēi",
+              "pinyin": "wéi",
               "index": 639
             },
             {
               "char": "也",
-              "pinyin": "bù",
+              "pinyin": "yě",
               "index": 640
             },
             {
@@ -3852,42 +3750,36 @@
             },
             {
               "char": "非",
-              "pinyin": "néng",
+              "pinyin": "fēi",
               "index": 642
             },
             {
               "char": "不",
-              "pinyin": "yě",
+              "pinyin": "bù",
               "index": 643
             },
             {
               "char": "能",
-              "pinyin": "yuē",
+              "pinyin": "néng",
               "index": 644
             },
             {
               "char": "也",
-              "pinyin": "bù",
+              "pinyin": "yě",
               "index": 645
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 646
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 647
             }
           ],
-          "translation": "",
+          "translation": "这样看来，举不起一根羽毛，是不用力气的缘故；",
           "notes": []
         }
       ]
@@ -3898,7 +3790,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "wéi",
+              "pinyin": "yuē",
               "index": 648
             },
             {
@@ -3913,47 +3805,47 @@
             },
             {
               "char": "不",
-              "pinyin": "zhě",
+              "pinyin": "bù",
               "index": 651
             },
             {
               "char": "为",
-              "pinyin": "yǔ",
+              "pinyin": "wéi",
               "index": 652
             },
             {
               "char": "者",
-              "pinyin": "bù",
+              "pinyin": "zhě",
               "index": 653
             },
             {
               "char": "与",
-              "pinyin": "néng",
+              "pinyin": "yǔ",
               "index": 654
             },
             {
               "char": "不",
-              "pinyin": "zhě",
+              "pinyin": "bù",
               "index": 655
             },
             {
               "char": "能",
-              "pinyin": "zhī",
+              "pinyin": "néng",
               "index": 656
             },
             {
               "char": "者",
-              "pinyin": "xíng",
+              "pinyin": "zhě",
               "index": 657
             },
             {
               "char": "之",
-              "pinyin": "hé",
+              "pinyin": "zhī",
               "index": 658
             },
             {
               "char": "形",
-              "pinyin": "yǐ",
+              "pinyin": "xíng",
               "index": 659
             },
             {
@@ -3963,26 +3855,31 @@
             },
             {
               "char": "何",
-              "pinyin": "yì",
+              "pinyin": "hé",
               "index": 661
             },
             {
               "char": "以",
-              "pinyin": "yuē",
+              "pinyin": "yǐ",
               "index": 662
             },
             {
               "char": "异",
-              "pinyin": "xié",
+              "pinyin": "yì",
               "index": 663
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 664
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 665
             }
           ],
-          "translation": "",
+          "translation": "看不见整车的柴草，是不用目力的缘故；",
           "notes": [
             {
               "start": 11,
@@ -3995,17 +3892,6 @@
               "content": "怎么区分？何以，怎么、用什么。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 665
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -4015,7 +3901,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "tài",
+              "pinyin": "yuē",
               "index": 666
             },
             {
@@ -4030,37 +3916,37 @@
             },
             {
               "char": "挟",
-              "pinyin": "shān",
+              "pinyin": "xié",
               "index": 669
             },
             {
               "char": "太",
-              "pinyin": "yǐ",
+              "pinyin": "tài",
               "index": 670
             },
             {
               "char": "山",
-              "pinyin": "chāo",
+              "pinyin": "shān",
               "index": 671
             },
             {
               "char": "以",
-              "pinyin": "běi",
+              "pinyin": "yǐ",
               "index": 672
             },
             {
               "char": "超",
-              "pinyin": "hǎi",
+              "pinyin": "chāo",
               "index": 673
             },
             {
               "char": "北",
-              "pinyin": "yù",
+              "pinyin": "běi",
               "index": 674
             },
             {
               "char": "海",
-              "pinyin": "rén",
+              "pinyin": "hǎi",
               "index": 675
             },
             {
@@ -4070,17 +3956,17 @@
             },
             {
               "char": "语",
-              "pinyin": "yuē",
+              "pinyin": "yù",
               "index": 677
             },
             {
               "char": "人",
-              "pinyin": "wǒ",
+              "pinyin": "rén",
               "index": 678
             },
             {
               "char": "曰",
-              "pinyin": "bù",
+              "pinyin": "yuē",
               "index": 679
             },
             {
@@ -4095,26 +3981,31 @@
             },
             {
               "char": "我",
-              "pinyin": "néng",
+              "pinyin": "wǒ",
               "index": 682
             },
             {
               "char": "不",
-              "pinyin": "shì",
+              "pinyin": "bù",
               "index": 683
             },
             {
               "char": "能",
-              "pinyin": "chéng",
+              "pinyin": "néng",
               "index": 684
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 685
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 686
             }
           ],
-          "translation": "",
+          "translation": "老百姓没有被爱护，是不肯布施恩德的缘故。",
           "notes": [
             {
               "start": 3,
@@ -4131,33 +4022,28 @@
         {
           "content": [
             {
-              "char": "’",
-              "pinyin": "",
-              "index": 686
-            },
-            {
               "char": "是",
-              "pinyin": "bù",
+              "pinyin": "shì",
               "index": 687
             },
             {
               "char": "诚",
-              "pinyin": "néng",
+              "pinyin": "chéng",
               "index": 688
             },
             {
               "char": "不",
-              "pinyin": "yě",
+              "pinyin": "bù",
               "index": 689
             },
             {
               "char": "能",
-              "pinyin": "wèi",
+              "pinyin": "néng",
               "index": 690
             },
             {
               "char": "也",
-              "pinyin": "zhǎng",
+              "pinyin": "yě",
               "index": 691
             },
             {
@@ -4166,34 +4052,34 @@
               "index": 692
             }
           ],
-          "translation": "",
+          "translation": "所以，大王您不能以王道统一天下，是不肯干，而不是不能干。”",
           "notes": []
         },
         {
           "content": [
             {
               "char": "为",
-              "pinyin": "zhě",
+              "pinyin": "wèi",
               "index": 693
             },
             {
               "char": "长",
-              "pinyin": "zhé",
+              "pinyin": "zhǎng",
               "index": 694
             },
             {
               "char": "者",
-              "pinyin": "zhī",
+              "pinyin": "zhě",
               "index": 695
             },
             {
               "char": "折",
-              "pinyin": "yù",
+              "pinyin": "zhé",
               "index": 696
             },
             {
               "char": "枝",
-              "pinyin": "rén",
+              "pinyin": "zhī",
               "index": 697
             },
             {
@@ -4203,17 +4089,17 @@
             },
             {
               "char": "语",
-              "pinyin": "yuē",
+              "pinyin": "yù",
               "index": 699
             },
             {
               "char": "人",
-              "pinyin": "wǒ",
+              "pinyin": "rén",
               "index": 700
             },
             {
               "char": "曰",
-              "pinyin": "bù",
+              "pinyin": "yuē",
               "index": 701
             },
             {
@@ -4228,26 +4114,31 @@
             },
             {
               "char": "我",
-              "pinyin": "néng",
+              "pinyin": "wǒ",
               "index": 704
             },
             {
               "char": "不",
-              "pinyin": "shì",
+              "pinyin": "bù",
               "index": 705
             },
             {
               "char": "能",
-              "pinyin": "bù",
+              "pinyin": "néng",
               "index": 706
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 707
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 708
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“不肯干与不能干在表现上怎样区别？”",
           "notes": [
             {
               "start": 0,
@@ -4259,28 +4150,23 @@
         {
           "content": [
             {
-              "char": "’",
-              "pinyin": "",
-              "index": 708
-            },
-            {
               "char": "是",
-              "pinyin": "wéi",
+              "pinyin": "shì",
               "index": 709
             },
             {
               "char": "不",
-              "pinyin": "yě",
+              "pinyin": "bù",
               "index": 710
             },
             {
               "char": "为",
-              "pinyin": "fēi",
+              "pinyin": "wéi",
               "index": 711
             },
             {
               "char": "也",
-              "pinyin": "bù",
+              "pinyin": "yě",
               "index": 712
             },
             {
@@ -4290,22 +4176,22 @@
             },
             {
               "char": "非",
-              "pinyin": "néng",
+              "pinyin": "fēi",
               "index": 714
             },
             {
               "char": "不",
-              "pinyin": "yě",
+              "pinyin": "bù",
               "index": 715
             },
             {
               "char": "能",
-              "pinyin": "gù",
+              "pinyin": "néng",
               "index": 716
             },
             {
               "char": "也",
-              "pinyin": "wáng",
+              "pinyin": "yě",
               "index": 717
             },
             {
@@ -4314,34 +4200,34 @@
               "index": 718
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“（用胳膊）挟着泰山去跳过渤海，告诉别人说：‘我做不到。’",
           "notes": []
         },
         {
           "content": [
             {
               "char": "故",
-              "pinyin": "zhī",
+              "pinyin": "gù",
               "index": 719
             },
             {
               "char": "王",
-              "pinyin": "bù",
+              "pinyin": "wáng",
               "index": 720
             },
             {
               "char": "之",
-              "pinyin": "wàng",
+              "pinyin": "zhī",
               "index": 721
             },
             {
               "char": "不",
-              "pinyin": "fēi",
+              "pinyin": "bù",
               "index": 722
             },
             {
               "char": "王",
-              "pinyin": "xié",
+              "pinyin": "wàng",
               "index": 723
             },
             {
@@ -4351,57 +4237,57 @@
             },
             {
               "char": "非",
-              "pinyin": "tài",
+              "pinyin": "fēi",
               "index": 725
             },
             {
               "char": "挟",
-              "pinyin": "shān",
+              "pinyin": "xié",
               "index": 726
             },
             {
               "char": "太",
-              "pinyin": "yǐ",
+              "pinyin": "tài",
               "index": 727
             },
             {
               "char": "山",
-              "pinyin": "chāo",
+              "pinyin": "shān",
               "index": 728
             },
             {
               "char": "以",
-              "pinyin": "běi",
+              "pinyin": "yǐ",
               "index": 729
             },
             {
               "char": "超",
-              "pinyin": "hǎi",
+              "pinyin": "chāo",
               "index": 730
             },
             {
               "char": "北",
-              "pinyin": "zhī",
+              "pinyin": "běi",
               "index": 731
             },
             {
               "char": "海",
-              "pinyin": "lèi",
+              "pinyin": "hǎi",
               "index": 732
             },
             {
               "char": "之",
-              "pinyin": "yě",
+              "pinyin": "zhī",
               "index": 733
             },
             {
               "char": "类",
-              "pinyin": "wáng",
+              "pinyin": "lèi",
               "index": 734
             },
             {
               "char": "也",
-              "pinyin": "zhī",
+              "pinyin": "yě",
               "index": 735
             },
             {
@@ -4410,29 +4296,29 @@
               "index": 736
             }
           ],
-          "translation": "",
+          "translation": "这确实是做不到。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "王",
-              "pinyin": "bù",
+              "pinyin": "wáng",
               "index": 737
             },
             {
               "char": "之",
-              "pinyin": "wàng",
+              "pinyin": "zhī",
               "index": 738
             },
             {
               "char": "不",
-              "pinyin": "shì",
+              "pinyin": "bù",
               "index": 739
             },
             {
               "char": "王",
-              "pinyin": "zhé",
+              "pinyin": "wàng",
               "index": 740
             },
             {
@@ -4442,32 +4328,32 @@
             },
             {
               "char": "是",
-              "pinyin": "zhī",
+              "pinyin": "shì",
               "index": 742
             },
             {
               "char": "折",
-              "pinyin": "zhī",
+              "pinyin": "zhé",
               "index": 743
             },
             {
               "char": "枝",
-              "pinyin": "lèi",
+              "pinyin": "zhī",
               "index": 744
             },
             {
               "char": "之",
-              "pinyin": "yě",
+              "pinyin": "zhī",
               "index": 745
             },
             {
               "char": "类",
-              "pinyin": "lǎo",
+              "pinyin": "lèi",
               "index": 746
             },
             {
               "char": "也",
-              "pinyin": "wú",
+              "pinyin": "yě",
               "index": 747
             },
             {
@@ -4476,7 +4362,7 @@
               "index": 748
             }
           ],
-          "translation": "",
+          "translation": "向老者折腰行鞠躬礼，告诉别人说：‘我做不到。’",
           "notes": []
         },
         {
@@ -4488,12 +4374,12 @@
             },
             {
               "char": "吾",
-              "pinyin": "yǐ",
+              "pinyin": "wú",
               "index": 750
             },
             {
               "char": "老",
-              "pinyin": "jí",
+              "pinyin": "lǎo",
               "index": 751
             },
             {
@@ -4503,27 +4389,27 @@
             },
             {
               "char": "以",
-              "pinyin": "rén",
+              "pinyin": "yǐ",
               "index": 753
             },
             {
               "char": "及",
-              "pinyin": "zhī",
+              "pinyin": "jí",
               "index": 754
             },
             {
               "char": "人",
-              "pinyin": "lǎo",
+              "pinyin": "rén",
               "index": 755
             },
             {
               "char": "之",
-              "pinyin": "yòu",
+              "pinyin": "zhī",
               "index": 756
             },
             {
               "char": "老",
-              "pinyin": "wú",
+              "pinyin": "lǎo",
               "index": 757
             },
             {
@@ -4532,7 +4418,7 @@
               "index": 758
             }
           ],
-          "translation": "",
+          "translation": "这是不肯做，而不是不能做。",
           "notes": []
         },
         {
@@ -4544,12 +4430,12 @@
             },
             {
               "char": "吾",
-              "pinyin": "yǐ",
+              "pinyin": "wú",
               "index": 760
             },
             {
               "char": "幼",
-              "pinyin": "jí",
+              "pinyin": "yòu",
               "index": 761
             },
             {
@@ -4559,27 +4445,27 @@
             },
             {
               "char": "以",
-              "pinyin": "rén",
+              "pinyin": "yǐ",
               "index": 763
             },
             {
               "char": "及",
-              "pinyin": "zhī",
+              "pinyin": "jí",
               "index": 764
             },
             {
               "char": "人",
-              "pinyin": "yòu",
+              "pinyin": "rén",
               "index": 765
             },
             {
               "char": "之",
-              "pinyin": "tiān",
+              "pinyin": "zhī",
               "index": 766
             },
             {
               "char": "幼",
-              "pinyin": "xià",
+              "pinyin": "yòu",
               "index": 767
             },
             {
@@ -4589,32 +4475,32 @@
             },
             {
               "char": "天",
-              "pinyin": "kě",
+              "pinyin": "tiān",
               "index": 769
             },
             {
               "char": "下",
-              "pinyin": "yùn",
+              "pinyin": "xià",
               "index": 770
             },
             {
               "char": "可",
-              "pinyin": "yú",
+              "pinyin": "kě",
               "index": 771
             },
             {
               "char": "运",
-              "pinyin": "zhǎng",
+              "pinyin": "yùn",
               "index": 772
             },
             {
               "char": "于",
-              "pinyin": "shī",
+              "pinyin": "yú",
               "index": 773
             },
             {
               "char": "掌",
-              "pinyin": "yún",
+              "pinyin": "zhǎng",
               "index": 774
             },
             {
@@ -4623,7 +4509,7 @@
               "index": 775
             }
           ],
-          "translation": "",
+          "translation": "大王所以不能统一天下，不属于（用胳膊）挟泰山去跳过渤海这一类的事；",
           "notes": [
             {
               "start": 10,
@@ -4636,22 +4522,22 @@
           "content": [
             {
               "char": "《",
-              "pinyin": "xíng",
+              "pinyin": "",
               "index": 776
             },
             {
               "char": "诗",
-              "pinyin": "yú",
+              "pinyin": "shī",
               "index": 777
             },
             {
               "char": "》",
-              "pinyin": "guǎ",
+              "pinyin": "",
               "index": 778
             },
             {
               "char": "云",
-              "pinyin": "qī",
+              "pinyin": "yún",
               "index": 779
             },
             {
@@ -4666,7 +4552,7 @@
             },
             {
               "char": "刑",
-              "pinyin": "zhì",
+              "pinyin": "xíng",
               "index": 782
             },
             {
@@ -4676,12 +4562,12 @@
             },
             {
               "char": "寡",
-              "pinyin": "xiōng",
+              "pinyin": "guǎ",
               "index": 784
             },
             {
               "char": "妻",
-              "pinyin": "dì",
+              "pinyin": "qī",
               "index": 785
             },
             {
@@ -4691,22 +4577,22 @@
             },
             {
               "char": "至",
-              "pinyin": "yǐ",
+              "pinyin": "zhì",
               "index": 787
             },
             {
               "char": "于",
-              "pinyin": "yù",
+              "pinyin": "yú",
               "index": 788
             },
             {
               "char": "兄",
-              "pinyin": "yú",
+              "pinyin": "xiōng",
               "index": 789
             },
             {
               "char": "弟",
-              "pinyin": "jiā",
+              "pinyin": "dì",
               "index": 790
             },
             {
@@ -4716,36 +4602,41 @@
             },
             {
               "char": "以",
-              "pinyin": "bāng",
+              "pinyin": "yǐ",
               "index": 792
             },
             {
               "char": "御",
-              "pinyin": "yán",
+              "pinyin": "yù",
               "index": 793
             },
             {
               "char": "于",
-              "pinyin": "jǔ",
+              "pinyin": "yú",
               "index": 794
             },
             {
               "char": "家",
-              "pinyin": "sī",
+              "pinyin": "jiā",
               "index": 795
             },
             {
               "char": "邦",
-              "pinyin": "xīn",
+              "pinyin": "bāng",
               "index": 796
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 797
+            },
+            {
+              "char": "’",
+              "pinyin": "",
+              "index": 798
             }
           ],
-          "translation": "",
+          "translation": "大王不能统一天下，属于向老者折腰行鞠躬礼一类的事。",
           "notes": [
             {
               "start": 6,
@@ -4757,53 +4648,48 @@
         {
           "content": [
             {
-              "char": "’",
-              "pinyin": "",
-              "index": 798
-            },
-            {
               "char": "言",
-              "pinyin": "jiā",
+              "pinyin": "yán",
               "index": 799
             },
             {
               "char": "举",
-              "pinyin": "zhū",
+              "pinyin": "jǔ",
               "index": 800
             },
             {
               "char": "斯",
-              "pinyin": "bǐ",
+              "pinyin": "sī",
               "index": 801
             },
             {
               "char": "心",
-              "pinyin": "ér",
+              "pinyin": "xīn",
               "index": 802
             },
             {
               "char": "加",
-              "pinyin": "yǐ",
+              "pinyin": "jiā",
               "index": 803
             },
             {
               "char": "诸",
-              "pinyin": "gù",
+              "pinyin": "zhū",
               "index": 804
             },
             {
               "char": "彼",
-              "pinyin": "tuī",
+              "pinyin": "bǐ",
               "index": 805
             },
             {
               "char": "而",
-              "pinyin": "ēn",
+              "pinyin": "ér",
               "index": 806
             },
             {
               "char": "已",
-              "pinyin": "zú",
+              "pinyin": "yǐ",
               "index": 807
             },
             {
@@ -4812,11 +4698,11 @@
               "index": 808
             }
           ],
-          "translation": "",
+          "translation": "尊敬自己的老人，进而推广到尊敬别人家的老人；",
           "notes": [
             {
-              "start": 1,
-              "end": 9,
+              "start": 0,
+              "end": 8,
               "content": "这是说拿这样的心思施加到别人身上罢了。"
             }
           ]
@@ -4825,42 +4711,42 @@
           "content": [
             {
               "char": "故",
-              "pinyin": "yǐ",
+              "pinyin": "gù",
               "index": 809
             },
             {
               "char": "推",
-              "pinyin": "bǎo",
+              "pinyin": "tuī",
               "index": 810
             },
             {
               "char": "恩",
-              "pinyin": "sì",
+              "pinyin": "ēn",
               "index": 811
             },
             {
               "char": "足",
-              "pinyin": "hǎi",
+              "pinyin": "zú",
               "index": 812
             },
             {
               "char": "以",
-              "pinyin": "bù",
+              "pinyin": "yǐ",
               "index": 813
             },
             {
               "char": "保",
-              "pinyin": "tuī",
+              "pinyin": "bǎo",
               "index": 814
             },
             {
               "char": "四",
-              "pinyin": "ēn",
+              "pinyin": "sì",
               "index": 815
             },
             {
               "char": "海",
-              "pinyin": "wú",
+              "pinyin": "hǎi",
               "index": 816
             },
             {
@@ -4870,42 +4756,42 @@
             },
             {
               "char": "不",
-              "pinyin": "yǐ",
+              "pinyin": "bù",
               "index": 818
             },
             {
               "char": "推",
-              "pinyin": "bǎo",
+              "pinyin": "tuī",
               "index": 819
             },
             {
               "char": "恩",
-              "pinyin": "qī",
+              "pinyin": "ēn",
               "index": 820
             },
             {
               "char": "无",
-              "pinyin": "zǐ",
+              "pinyin": "wú",
               "index": 821
             },
             {
               "char": "以",
-              "pinyin": "gǔ",
+              "pinyin": "yǐ",
               "index": 822
             },
             {
               "char": "保",
-              "pinyin": "zhī",
+              "pinyin": "bǎo",
               "index": 823
             },
             {
               "char": "妻",
-              "pinyin": "rén",
+              "pinyin": "qī",
               "index": 824
             },
             {
               "char": "子",
-              "pinyin": "suǒ",
+              "pinyin": "zǐ",
               "index": 825
             },
             {
@@ -4914,54 +4800,54 @@
               "index": 826
             }
           ],
-          "translation": "",
+          "translation": "爱护自己的孩子，进而推广到爱护别人家的孩子。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "古",
-              "pinyin": "yǐ",
+              "pinyin": "gǔ",
               "index": 827
             },
             {
               "char": "之",
-              "pinyin": "dà",
+              "pinyin": "zhī",
               "index": 828
             },
             {
               "char": "人",
-              "pinyin": "guò",
+              "pinyin": "rén",
               "index": 829
             },
             {
               "char": "所",
-              "pinyin": "rén",
+              "pinyin": "suǒ",
               "index": 830
             },
             {
               "char": "以",
-              "pinyin": "zhě",
+              "pinyin": "yǐ",
               "index": 831
             },
             {
               "char": "大",
-              "pinyin": "wú",
+              "pinyin": "dà",
               "index": 832
             },
             {
               "char": "过",
-              "pinyin": "tā",
+              "pinyin": "guò",
               "index": 833
             },
             {
               "char": "人",
-              "pinyin": "yān",
+              "pinyin": "rén",
               "index": 834
             },
             {
               "char": "者",
-              "pinyin": "shàn",
+              "pinyin": "zhě",
               "index": 835
             },
             {
@@ -4971,17 +4857,17 @@
             },
             {
               "char": "无",
-              "pinyin": "tuī",
+              "pinyin": "wú",
               "index": 837
             },
             {
               "char": "他",
-              "pinyin": "qí",
+              "pinyin": "tā",
               "index": 838
             },
             {
               "char": "焉",
-              "pinyin": "suǒ",
+              "pinyin": "yān",
               "index": 839
             },
             {
@@ -4991,37 +4877,37 @@
             },
             {
               "char": "善",
-              "pinyin": "wéi",
+              "pinyin": "shàn",
               "index": 841
             },
             {
               "char": "推",
-              "pinyin": "ér",
+              "pinyin": "tuī",
               "index": 842
             },
             {
               "char": "其",
-              "pinyin": "yǐ",
+              "pinyin": "qí",
               "index": 843
             },
             {
               "char": "所",
-              "pinyin": "yǐ",
+              "pinyin": "suǒ",
               "index": 844
             },
             {
               "char": "为",
-              "pinyin": "jīn",
+              "pinyin": "wéi",
               "index": 845
             },
             {
               "char": "而",
-              "pinyin": "ēn",
+              "pinyin": "ér",
               "index": 846
             },
             {
               "char": "已",
-              "pinyin": "zú",
+              "pinyin": "yǐ",
               "index": 847
             },
             {
@@ -5035,44 +4921,44 @@
               "index": 849
             }
           ],
-          "translation": "",
+          "translation": "（照此理去做）要统一天下如同在手掌上转动东西那么容易了。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "今",
-              "pinyin": "jí",
+              "pinyin": "jīn",
               "index": 850
             },
             {
               "char": "恩",
-              "pinyin": "qín",
+              "pinyin": "ēn",
               "index": 851
             },
             {
               "char": "足",
-              "pinyin": "shòu",
+              "pinyin": "zú",
               "index": 852
             },
             {
               "char": "以",
-              "pinyin": "ér",
+              "pinyin": "yǐ",
               "index": 853
             },
             {
               "char": "及",
-              "pinyin": "gōng",
+              "pinyin": "jí",
               "index": 854
             },
             {
               "char": "禽",
-              "pinyin": "bù",
+              "pinyin": "qín",
               "index": 855
             },
             {
               "char": "兽",
-              "pinyin": "zhì",
+              "pinyin": "shòu",
               "index": 856
             },
             {
@@ -5082,42 +4968,42 @@
             },
             {
               "char": "而",
-              "pinyin": "yú",
+              "pinyin": "ér",
               "index": 858
             },
             {
               "char": "功",
-              "pinyin": "bǎi",
+              "pinyin": "gōng",
               "index": 859
             },
             {
               "char": "不",
-              "pinyin": "xìng",
+              "pinyin": "bù",
               "index": 860
             },
             {
               "char": "至",
-              "pinyin": "zhě",
+              "pinyin": "zhì",
               "index": 861
             },
             {
               "char": "于",
-              "pinyin": "dú",
+              "pinyin": "yú",
               "index": 862
             },
             {
               "char": "百",
-              "pinyin": "hé",
+              "pinyin": "bǎi",
               "index": 863
             },
             {
               "char": "姓",
-              "pinyin": "yú",
+              "pinyin": "xìng",
               "index": 864
             },
             {
               "char": "者",
-              "pinyin": "quán",
+              "pinyin": "zhě",
               "index": 865
             },
             {
@@ -5127,17 +5013,17 @@
             },
             {
               "char": "独",
-              "pinyin": "rán",
+              "pinyin": "dú",
               "index": 867
             },
             {
               "char": "何",
-              "pinyin": "hòu",
+              "pinyin": "hé",
               "index": 868
             },
             {
               "char": "与",
-              "pinyin": "zhī",
+              "pinyin": "yú",
               "index": 869
             },
             {
@@ -5146,14 +5032,14 @@
               "index": 870
             }
           ],
-          "translation": "",
+          "translation": "《诗经》说：‘（做国君的）给自己的妻子作好榜样，推广到兄弟，进而治理好一家一国。’",
           "notes": []
         },
         {
           "content": [
             {
               "char": "权",
-              "pinyin": "qīng",
+              "pinyin": "quán",
               "index": 871
             },
             {
@@ -5163,27 +5049,27 @@
             },
             {
               "char": "然",
-              "pinyin": "zhòng",
+              "pinyin": "rán",
               "index": 873
             },
             {
               "char": "后",
-              "pinyin": "duó",
+              "pinyin": "hòu",
               "index": 874
             },
             {
               "char": "知",
-              "pinyin": "rán",
+              "pinyin": "zhī",
               "index": 875
             },
             {
               "char": "轻",
-              "pinyin": "hòu",
+              "pinyin": "qīng",
               "index": 876
             },
             {
               "char": "重",
-              "pinyin": "zhī",
+              "pinyin": "zhòng",
               "index": 877
             },
             {
@@ -5192,7 +5078,7 @@
               "index": 878
             }
           ],
-          "translation": "",
+          "translation": "──说的就是把这样的心推广到他人身上罢了。",
           "notes": [
             {
               "start": 0,
@@ -5205,7 +5091,7 @@
           "content": [
             {
               "char": "度",
-              "pinyin": "cháng",
+              "pinyin": "duó",
               "index": 879
             },
             {
@@ -5215,27 +5101,27 @@
             },
             {
               "char": "然",
-              "pinyin": "duǎn",
+              "pinyin": "rán",
               "index": 881
             },
             {
               "char": "后",
-              "pinyin": "wù",
+              "pinyin": "hòu",
               "index": 882
             },
             {
               "char": "知",
-              "pinyin": "jiē",
+              "pinyin": "zhī",
               "index": 883
             },
             {
               "char": "长",
-              "pinyin": "rán",
+              "pinyin": "cháng",
               "index": 884
             },
             {
               "char": "短",
-              "pinyin": "xīn",
+              "pinyin": "duǎn",
               "index": 885
             },
             {
@@ -5244,7 +5130,7 @@
               "index": 886
             }
           ],
-          "translation": "",
+          "translation": "所以，推广恩德足以安抚四海百姓，不推广恩德连妻子儿女都安抚不了。",
           "notes": [
             {
               "start": 0,
@@ -5257,17 +5143,17 @@
           "content": [
             {
               "char": "物",
-              "pinyin": "wéi",
+              "pinyin": "wù",
               "index": 887
             },
             {
               "char": "皆",
-              "pinyin": "shén",
+              "pinyin": "jiē",
               "index": 888
             },
             {
               "char": "然",
-              "pinyin": "wáng",
+              "pinyin": "rán",
               "index": 889
             },
             {
@@ -5277,17 +5163,17 @@
             },
             {
               "char": "心",
-              "pinyin": "qǐng",
+              "pinyin": "xīn",
               "index": 891
             },
             {
               "char": "为",
-              "pinyin": "duó",
+              "pinyin": "wéi",
               "index": 892
             },
             {
               "char": "甚",
-              "pinyin": "zhī",
+              "pinyin": "shén",
               "index": 893
             },
             {
@@ -5296,49 +5182,43 @@
               "index": 894
             }
           ],
-          "translation": "",
+          "translation": "古代圣人大大超过别人的原因，没别的，善于推广他们的好行为罢了。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "王",
-              "pinyin": "yì",
+              "pinyin": "wáng",
               "index": 895
             },
             {
               "char": "请",
-              "pinyin": "wáng",
+              "pinyin": "qǐng",
               "index": 896
             },
             {
               "char": "度",
-              "pinyin": "xīng",
+              "pinyin": "duó",
               "index": 897
             },
             {
               "char": "之",
-              "pinyin": "jiǎ",
+              "pinyin": "zhī",
               "index": 898
             },
             {
               "char": "！",
               "pinyin": "",
               "index": 899
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 900
             }
           ],
-          "translation": "",
+          "translation": "如今（您的）恩德足以推广到禽兽身上，老百姓却得不到您的好处，这究竟是什么原因呢？",
           "notes": []
         }
       ]
@@ -5354,27 +5234,27 @@
             },
             {
               "char": "抑",
-              "pinyin": "bīng",
+              "pinyin": "yì",
               "index": 902
             },
             {
               "char": "王",
-              "pinyin": "wēi",
+              "pinyin": "wáng",
               "index": 903
             },
             {
               "char": "兴",
-              "pinyin": "shì",
+              "pinyin": "xīng",
               "index": 904
             },
             {
               "char": "甲",
-              "pinyin": "chén",
+              "pinyin": "jiǎ",
               "index": 905
             },
             {
               "char": "兵",
-              "pinyin": "gòu",
+              "pinyin": "bīng",
               "index": 906
             },
             {
@@ -5384,17 +5264,17 @@
             },
             {
               "char": "危",
-              "pinyin": "yuàn",
+              "pinyin": "wēi",
               "index": 908
             },
             {
               "char": "士",
-              "pinyin": "yú",
+              "pinyin": "shì",
               "index": 909
             },
             {
               "char": "臣",
-              "pinyin": "zhū",
+              "pinyin": "chén",
               "index": 910
             },
             {
@@ -5404,27 +5284,27 @@
             },
             {
               "char": "构",
-              "pinyin": "hóu",
+              "pinyin": "gòu",
               "index": 912
             },
             {
               "char": "怨",
-              "pinyin": "rán",
+              "pinyin": "yuàn",
               "index": 913
             },
             {
               "char": "于",
-              "pinyin": "hòu",
+              "pinyin": "yú",
               "index": 914
             },
             {
               "char": "诸",
-              "pinyin": "kuài",
+              "pinyin": "zhū",
               "index": 915
             },
             {
               "char": "侯",
-              "pinyin": "yú",
+              "pinyin": "hóu",
               "index": 916
             },
             {
@@ -5434,41 +5314,46 @@
             },
             {
               "char": "然",
-              "pinyin": "xīn",
+              "pinyin": "rán",
               "index": 918
             },
             {
               "char": "后",
-              "pinyin": "yú",
+              "pinyin": "hòu",
               "index": 919
             },
             {
               "char": "快",
-              "pinyin": "wáng",
+              "pinyin": "kuài",
               "index": 920
             },
             {
               "char": "于",
-              "pinyin": "yuē",
+              "pinyin": "yú",
               "index": 921
             },
             {
               "char": "心",
-              "pinyin": "fǒu",
+              "pinyin": "xīn",
               "index": 922
             },
             {
               "char": "与",
-              "pinyin": "wú",
+              "pinyin": "yú",
               "index": 923
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 924
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 925
             }
           ],
-          "translation": "",
+          "translation": "用秤称，才能知道轻重；",
           "notes": [
             {
               "start": 1,
@@ -5491,17 +5376,6 @@
               "content": "心里痛快。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 925
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -5511,12 +5385,12 @@
           "content": [
             {
               "char": "王",
-              "pinyin": "hé",
+              "pinyin": "wáng",
               "index": 926
             },
             {
               "char": "曰",
-              "pinyin": "kuài",
+              "pinyin": "yuē",
               "index": 927
             },
             {
@@ -5531,7 +5405,7 @@
             },
             {
               "char": "否",
-              "pinyin": "yú",
+              "pinyin": "fǒu",
               "index": 930
             },
             {
@@ -5541,27 +5415,27 @@
             },
             {
               "char": "吾",
-              "pinyin": "shì",
+              "pinyin": "wú",
               "index": 932
             },
             {
               "char": "何",
-              "pinyin": "jiāng",
+              "pinyin": "hé",
               "index": 933
             },
             {
               "char": "快",
-              "pinyin": "yǐ",
+              "pinyin": "kuài",
               "index": 934
             },
             {
               "char": "于",
-              "pinyin": "qiú",
+              "pinyin": "yú",
               "index": 935
             },
             {
               "char": "是",
-              "pinyin": "wú",
+              "pinyin": "shì",
               "index": 936
             },
             {
@@ -5570,58 +5444,63 @@
               "index": 937
             }
           ],
-          "translation": "",
+          "translation": "用尺量，才能知道长短，任何事物都是如此，人心更是这样。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "将",
-              "pinyin": "suǒ",
+              "pinyin": "jiāng",
               "index": 938
             },
             {
               "char": "以",
-              "pinyin": "dà",
+              "pinyin": "yǐ",
               "index": 939
             },
             {
               "char": "求",
-              "pinyin": "yù",
+              "pinyin": "qiú",
               "index": 940
             },
             {
               "char": "吾",
-              "pinyin": "yě",
+              "pinyin": "wú",
               "index": 941
             },
             {
               "char": "所",
-              "pinyin": "yuē",
+              "pinyin": "suǒ",
               "index": 942
             },
             {
               "char": "大",
-              "pinyin": "wáng",
+              "pinyin": "dà",
               "index": 943
             },
             {
               "char": "欲",
-              "pinyin": "zhī",
+              "pinyin": "yù",
               "index": 944
             },
             {
               "char": "也",
-              "pinyin": "suǒ",
+              "pinyin": "yě",
               "index": 945
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 946
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 947
             }
           ],
-          "translation": "",
+          "translation": "大王，您请思量一下吧！",
           "notes": [
             {
               "start": 2,
@@ -5629,17 +5508,6 @@
               "content": "求得我最想要的东西。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 947
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -5649,7 +5517,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "dà",
+              "pinyin": "yuē",
               "index": 948
             },
             {
@@ -5664,27 +5532,27 @@
             },
             {
               "char": "王",
-              "pinyin": "yù",
+              "pinyin": "wáng",
               "index": 951
             },
             {
               "char": "之",
-              "pinyin": "kě",
+              "pinyin": "zhī",
               "index": 952
             },
             {
               "char": "所",
-              "pinyin": "dé",
+              "pinyin": "suǒ",
               "index": 953
             },
             {
               "char": "大",
-              "pinyin": "wén",
+              "pinyin": "dà",
               "index": 954
             },
             {
               "char": "欲",
-              "pinyin": "yú",
+              "pinyin": "yù",
               "index": 955
             },
             {
@@ -5694,42 +5562,36 @@
             },
             {
               "char": "可",
-              "pinyin": "wáng",
+              "pinyin": "kě",
               "index": 957
             },
             {
               "char": "得",
-              "pinyin": "xiào",
+              "pinyin": "dé",
               "index": 958
             },
             {
               "char": "闻",
-              "pinyin": "ér",
+              "pinyin": "wén",
               "index": 959
             },
             {
               "char": "与",
-              "pinyin": "bù",
+              "pinyin": "yú",
               "index": 960
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 961
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 962
             }
           ],
-          "translation": "",
+          "translation": "还是说（大王）您发动战争，使将士冒生命的危险，与各诸侯国结怨，这样心里才痛快么？”",
           "notes": []
         }
       ]
@@ -5740,27 +5602,27 @@
           "content": [
             {
               "char": "王",
-              "pinyin": "yán",
+              "pinyin": "wáng",
               "index": 963
             },
             {
               "char": "笑",
-              "pinyin": "yuē",
+              "pinyin": "xiào",
               "index": 964
             },
             {
               "char": "而",
-              "pinyin": "wèi",
+              "pinyin": "ér",
               "index": 965
             },
             {
               "char": "不",
-              "pinyin": "féi",
+              "pinyin": "bù",
               "index": 966
             },
             {
               "char": "言",
-              "pinyin": "gān",
+              "pinyin": "yán",
               "index": 967
             },
             {
@@ -5769,7 +5631,7 @@
               "index": 968
             }
           ],
-          "translation": "",
+          "translation": "齐宣王说：“不是的，我怎么会这样做才痛快呢？",
           "notes": []
         }
       ]
@@ -5780,7 +5642,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "bù",
+              "pinyin": "yuē",
               "index": 969
             },
             {
@@ -5795,42 +5657,42 @@
             },
             {
               "char": "为",
-              "pinyin": "zú",
+              "pinyin": "wèi",
               "index": 972
             },
             {
               "char": "肥",
-              "pinyin": "yú",
+              "pinyin": "féi",
               "index": 973
             },
             {
               "char": "甘",
-              "pinyin": "kǒu",
+              "pinyin": "gān",
               "index": 974
             },
             {
               "char": "不",
-              "pinyin": "yú",
+              "pinyin": "bù",
               "index": 975
             },
             {
               "char": "足",
-              "pinyin": "qīng",
+              "pinyin": "zú",
               "index": 976
             },
             {
               "char": "于",
-              "pinyin": "nuǎn",
+              "pinyin": "yú",
               "index": 977
             },
             {
               "char": "口",
-              "pinyin": "bù",
+              "pinyin": "kǒu",
               "index": 978
             },
             {
               "char": "与",
-              "pinyin": "zú",
+              "pinyin": "yú",
               "index": 979
             },
             {
@@ -5839,7 +5701,7 @@
               "index": 980
             }
           ],
-          "translation": "",
+          "translation": "我是打算用这办法求得我最想要的东西罢了。”",
           "notes": [
             {
               "start": 4,
@@ -5852,37 +5714,37 @@
           "content": [
             {
               "char": "轻",
-              "pinyin": "yú",
+              "pinyin": "qīng",
               "index": 981
             },
             {
               "char": "暖",
-              "pinyin": "tǐ",
+              "pinyin": "nuǎn",
               "index": 982
             },
             {
               "char": "不",
-              "pinyin": "yú",
+              "pinyin": "bù",
               "index": 983
             },
             {
               "char": "足",
-              "pinyin": "yì",
+              "pinyin": "zú",
               "index": 984
             },
             {
               "char": "于",
-              "pinyin": "wèi",
+              "pinyin": "yú",
               "index": 985
             },
             {
               "char": "体",
-              "pinyin": "cǎi",
+              "pinyin": "tǐ",
               "index": 986
             },
             {
               "char": "与",
-              "pinyin": "sè",
+              "pinyin": "yú",
               "index": 987
             },
             {
@@ -5891,7 +5753,7 @@
               "index": 988
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“您最想要的东西是什么，（我）可以听听吗？”",
           "notes": [
             {
               "start": 0,
@@ -5904,52 +5766,52 @@
           "content": [
             {
               "char": "抑",
-              "pinyin": "bù",
+              "pinyin": "yì",
               "index": 989
             },
             {
               "char": "为",
-              "pinyin": "zú",
+              "pinyin": "wèi",
               "index": 990
             },
             {
               "char": "采",
-              "pinyin": "shì",
+              "pinyin": "cǎi",
               "index": 991
             },
             {
               "char": "色",
-              "pinyin": "yú",
+              "pinyin": "sè",
               "index": 992
             },
             {
               "char": "不",
-              "pinyin": "mù",
+              "pinyin": "bù",
               "index": 993
             },
             {
               "char": "足",
-              "pinyin": "yú",
+              "pinyin": "zú",
               "index": 994
             },
             {
               "char": "视",
-              "pinyin": "shēng",
+              "pinyin": "shì",
               "index": 995
             },
             {
               "char": "于",
-              "pinyin": "yīn",
+              "pinyin": "yú",
               "index": 996
             },
             {
               "char": "目",
-              "pinyin": "bù",
+              "pinyin": "mù",
               "index": 997
             },
             {
               "char": "与",
-              "pinyin": "zú",
+              "pinyin": "yú",
               "index": 998
             },
             {
@@ -5958,7 +5820,7 @@
               "index": 999
             }
           ],
-          "translation": "",
+          "translation": "齐宣王只是笑却不说话。",
           "notes": [
             {
               "start": 2,
@@ -5971,42 +5833,42 @@
           "content": [
             {
               "char": "声",
-              "pinyin": "tīng",
+              "pinyin": "shēng",
               "index": 1000
             },
             {
               "char": "音",
-              "pinyin": "yú",
+              "pinyin": "yīn",
               "index": 1001
             },
             {
               "char": "不",
-              "pinyin": "ěr",
+              "pinyin": "bù",
               "index": 1002
             },
             {
               "char": "足",
-              "pinyin": "yú",
+              "pinyin": "zú",
               "index": 1003
             },
             {
               "char": "听",
-              "pinyin": "pián",
+              "pinyin": "tīng",
               "index": 1004
             },
             {
               "char": "于",
-              "pinyin": "bì",
+              "pinyin": "yú",
               "index": 1005
             },
             {
               "char": "耳",
-              "pinyin": "bù",
+              "pinyin": "ěr",
               "index": 1006
             },
             {
               "char": "与",
-              "pinyin": "zú",
+              "pinyin": "yú",
               "index": 1007
             },
             {
@@ -6015,7 +5877,7 @@
               "index": 1008
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“是因为肥美甘甜的食物不够吃呢？",
           "notes": [
             {
               "start": 0,
@@ -6028,47 +5890,47 @@
           "content": [
             {
               "char": "便",
-              "pinyin": "shǐ",
+              "pinyin": "pián",
               "index": 1009
             },
             {
               "char": "嬖",
-              "pinyin": "lìng",
+              "pinyin": "bì",
               "index": 1010
             },
             {
               "char": "不",
-              "pinyin": "yú",
+              "pinyin": "bù",
               "index": 1011
             },
             {
               "char": "足",
-              "pinyin": "qián",
+              "pinyin": "zú",
               "index": 1012
             },
             {
               "char": "使",
-              "pinyin": "yú",
+              "pinyin": "shǐ",
               "index": 1013
             },
             {
               "char": "令",
-              "pinyin": "wáng",
+              "pinyin": "lìng",
               "index": 1014
             },
             {
               "char": "于",
-              "pinyin": "zhī",
+              "pinyin": "yú",
               "index": 1015
             },
             {
               "char": "前",
-              "pinyin": "zhū",
+              "pinyin": "qián",
               "index": 1016
             },
             {
               "char": "与",
-              "pinyin": "chén",
+              "pinyin": "yú",
               "index": 1017
             },
             {
@@ -6077,7 +5939,7 @@
               "index": 1018
             }
           ],
-          "translation": "",
+          "translation": "又轻又暖的衣服不够穿呢？",
           "notes": [
             {
               "start": 0,
@@ -6090,47 +5952,47 @@
           "content": [
             {
               "char": "王",
-              "pinyin": "jiē",
+              "pinyin": "wáng",
               "index": 1019
             },
             {
               "char": "之",
-              "pinyin": "zú",
+              "pinyin": "zhī",
               "index": 1020
             },
             {
               "char": "诸",
-              "pinyin": "yǐ",
+              "pinyin": "zhū",
               "index": 1021
             },
             {
               "char": "臣",
-              "pinyin": "gōng",
+              "pinyin": "chén",
               "index": 1022
             },
             {
               "char": "皆",
-              "pinyin": "zhī",
+              "pinyin": "jiē",
               "index": 1023
             },
             {
               "char": "足",
-              "pinyin": "ér",
+              "pinyin": "zú",
               "index": 1024
             },
             {
               "char": "以",
-              "pinyin": "wáng",
+              "pinyin": "yǐ",
               "index": 1025
             },
             {
               "char": "供",
-              "pinyin": "qǐ",
+              "pinyin": "gōng",
               "index": 1026
             },
             {
               "char": "之",
-              "pinyin": "wèi",
+              "pinyin": "zhī",
               "index": 1027
             },
             {
@@ -6140,52 +6002,46 @@
             },
             {
               "char": "而",
-              "pinyin": "shì",
+              "pinyin": "ér",
               "index": 1029
             },
             {
               "char": "王",
-              "pinyin": "zāi",
+              "pinyin": "wáng",
               "index": 1030
             },
             {
               "char": "岂",
-              "pinyin": "yuē",
+              "pinyin": "qǐ",
               "index": 1031
             },
             {
               "char": "为",
-              "pinyin": "fǒu",
+              "pinyin": "wèi",
               "index": 1032
             },
             {
               "char": "是",
-              "pinyin": "wú",
+              "pinyin": "shì",
               "index": 1033
             },
             {
               "char": "哉",
-              "pinyin": "bù",
+              "pinyin": "zāi",
               "index": 1034
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 1035
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1036
             }
           ],
-          "translation": "",
+          "translation": "还是因为美女不够看呢？",
           "notes": []
         }
       ]
@@ -6196,7 +6052,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "wèi",
+              "pinyin": "yuē",
               "index": 1037
             },
             {
@@ -6211,7 +6067,7 @@
             },
             {
               "char": "否",
-              "pinyin": "shì",
+              "pinyin": "fǒu",
               "index": 1040
             },
             {
@@ -6221,47 +6077,41 @@
             },
             {
               "char": "吾",
-              "pinyin": "yě",
+              "pinyin": "wú",
               "index": 1042
             },
             {
               "char": "不",
-              "pinyin": "yuē",
+              "pinyin": "bù",
               "index": 1043
             },
             {
               "char": "为",
-              "pinyin": "rán",
+              "pinyin": "wèi",
               "index": 1044
             },
             {
               "char": "是",
-              "pinyin": "zé",
+              "pinyin": "shì",
               "index": 1045
             },
             {
               "char": "也",
-              "pinyin": "wáng",
+              "pinyin": "yě",
               "index": 1046
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 1047
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1048
             }
           ],
-          "translation": "",
+          "translation": "美妙的音乐不够听呢？",
           "notes": []
         }
       ]
@@ -6272,7 +6122,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "zhī",
+              "pinyin": "yuē",
               "index": 1049
             },
             {
@@ -6287,32 +6137,32 @@
             },
             {
               "char": "然",
-              "pinyin": "suǒ",
+              "pinyin": "rán",
               "index": 1052
             },
             {
               "char": "则",
-              "pinyin": "dà",
+              "pinyin": "zé",
               "index": 1053
             },
             {
               "char": "王",
-              "pinyin": "yù",
+              "pinyin": "wáng",
               "index": 1054
             },
             {
               "char": "之",
-              "pinyin": "kě",
+              "pinyin": "zhī",
               "index": 1055
             },
             {
               "char": "所",
-              "pinyin": "zhī",
+              "pinyin": "suǒ",
               "index": 1056
             },
             {
               "char": "大",
-              "pinyin": "yǐ",
+              "pinyin": "dà",
               "index": 1057
             },
             {
@@ -6322,17 +6172,17 @@
             },
             {
               "char": "可",
-              "pinyin": "pì",
+              "pinyin": "kě",
               "index": 1059
             },
             {
               "char": "知",
-              "pinyin": "tǔ",
+              "pinyin": "zhī",
               "index": 1060
             },
             {
               "char": "已",
-              "pinyin": "dì",
+              "pinyin": "yǐ",
               "index": 1061
             },
             {
@@ -6342,22 +6192,22 @@
             },
             {
               "char": "欲",
-              "pinyin": "cháo",
+              "pinyin": "yù",
               "index": 1063
             },
             {
               "char": "辟",
-              "pinyin": "qín",
+              "pinyin": "pì",
               "index": 1064
             },
             {
               "char": "土",
-              "pinyin": "chǔ",
+              "pinyin": "tǔ",
               "index": 1065
             },
             {
               "char": "地",
-              "pinyin": "lì",
+              "pinyin": "dì",
               "index": 1066
             },
             {
@@ -6367,17 +6217,17 @@
             },
             {
               "char": "朝",
-              "pinyin": "zhōng",
+              "pinyin": "cháo",
               "index": 1068
             },
             {
               "char": "秦",
-              "pinyin": "guó",
+              "pinyin": "qín",
               "index": 1069
             },
             {
               "char": "楚",
-              "pinyin": "ér",
+              "pinyin": "chǔ",
               "index": 1070
             },
             {
@@ -6387,42 +6237,42 @@
             },
             {
               "char": "莅",
-              "pinyin": "fǔ",
+              "pinyin": "lì",
               "index": 1072
             },
             {
               "char": "中",
-              "pinyin": "sì",
+              "pinyin": "zhōng",
               "index": 1073
             },
             {
               "char": "国",
-              "pinyin": "yí",
+              "pinyin": "guó",
               "index": 1074
             },
             {
               "char": "而",
-              "pinyin": "yě",
+              "pinyin": "ér",
               "index": 1075
             },
             {
               "char": "抚",
-              "pinyin": "yǐ",
+              "pinyin": "fǔ",
               "index": 1076
             },
             {
               "char": "四",
-              "pinyin": "ruò",
+              "pinyin": "sì",
               "index": 1077
             },
             {
               "char": "夷",
-              "pinyin": "suǒ",
+              "pinyin": "yí",
               "index": 1078
             },
             {
               "char": "也",
-              "pinyin": "wéi",
+              "pinyin": "yě",
               "index": 1079
             },
             {
@@ -6431,7 +6281,7 @@
               "index": 1080
             }
           ],
-          "translation": "",
+          "translation": "左右受宠爱的大臣不够用呢？",
           "notes": [
             {
               "start": 15,
@@ -6454,7 +6304,7 @@
           "content": [
             {
               "char": "以",
-              "pinyin": "qiú",
+              "pinyin": "yǐ",
               "index": 1081
             },
             {
@@ -6469,7 +6319,7 @@
             },
             {
               "char": "为",
-              "pinyin": "yù",
+              "pinyin": "wéi",
               "index": 1084
             },
             {
@@ -6479,22 +6329,22 @@
             },
             {
               "char": "求",
-              "pinyin": "yóu",
+              "pinyin": "qiú",
               "index": 1086
             },
             {
               "char": "若",
-              "pinyin": "yuán",
+              "pinyin": "ruò",
               "index": 1087
             },
             {
               "char": "所",
-              "pinyin": "mù",
+              "pinyin": "suǒ",
               "index": 1088
             },
             {
               "char": "欲",
-              "pinyin": "ér",
+              "pinyin": "yù",
               "index": 1089
             },
             {
@@ -6504,46 +6354,51 @@
             },
             {
               "char": "犹",
-              "pinyin": "qiú",
+              "pinyin": "yóu",
               "index": 1091
             },
             {
               "char": "缘",
-              "pinyin": "yú",
+              "pinyin": "yuán",
               "index": 1092
             },
             {
               "char": "木",
-              "pinyin": "yě",
+              "pinyin": "mù",
               "index": 1093
             },
             {
               "char": "而",
-              "pinyin": "wáng",
+              "pinyin": "ér",
               "index": 1094
             },
             {
               "char": "求",
-              "pinyin": "yuē",
+              "pinyin": "qiú",
               "index": 1095
             },
             {
               "char": "鱼",
-              "pinyin": "ruò",
+              "pinyin": "yú",
               "index": 1096
             },
             {
               "char": "也",
-              "pinyin": "shì",
+              "pinyin": "yě",
               "index": 1097
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 1098
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 1099
             }
           ],
-          "translation": "",
+          "translation": "（这些）您的大臣们都能充分地提供给大王，难道大王真是为了这些吗？”",
           "notes": [
             {
               "start": 1,
@@ -6556,17 +6411,6 @@
               "content": "爬上树去找鱼。比喻方向、方法不对，一定达不到目的。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 1099
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -6576,12 +6420,12 @@
           "content": [
             {
               "char": "王",
-              "pinyin": "qí",
+              "pinyin": "wáng",
               "index": 1100
             },
             {
               "char": "曰",
-              "pinyin": "shèn",
+              "pinyin": "yuē",
               "index": 1101
             },
             {
@@ -6596,47 +6440,41 @@
             },
             {
               "char": "若",
-              "pinyin": "yú",
+              "pinyin": "ruò",
               "index": 1104
             },
             {
               "char": "是",
-              "pinyin": "yuē",
+              "pinyin": "shì",
               "index": 1105
             },
             {
               "char": "其",
-              "pinyin": "dài",
+              "pinyin": "qí",
               "index": 1106
             },
             {
               "char": "甚",
-              "pinyin": "yǒu",
+              "pinyin": "shèn",
               "index": 1107
             },
             {
               "char": "与",
-              "pinyin": "shèn",
+              "pinyin": "yú",
               "index": 1108
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 1109
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1110
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“不是，我不是为了这些。”",
           "notes": []
         }
       ]
@@ -6647,7 +6485,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "yān",
+              "pinyin": "yuē",
               "index": 1111
             },
             {
@@ -6662,22 +6500,22 @@
             },
             {
               "char": "殆",
-              "pinyin": "yuán",
+              "pinyin": "dài",
               "index": 1114
             },
             {
               "char": "有",
-              "pinyin": "mù",
+              "pinyin": "yǒu",
               "index": 1115
             },
             {
               "char": "甚",
-              "pinyin": "qiú",
+              "pinyin": "shèn",
               "index": 1116
             },
             {
               "char": "焉",
-              "pinyin": "yú",
+              "pinyin": "yān",
               "index": 1117
             },
             {
@@ -6686,7 +6524,7 @@
               "index": 1118
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“那么，大王所最想得到的东西便可知道了：是想开拓疆土，使秦国、楚国来朝见，统治整个中原地区，安抚四方的少数民族。",
           "notes": [
             {
               "start": 3,
@@ -6699,17 +6537,17 @@
           "content": [
             {
               "char": "缘",
-              "pinyin": "suī",
+              "pinyin": "yuán",
               "index": 1119
             },
             {
               "char": "木",
-              "pinyin": "bù",
+              "pinyin": "mù",
               "index": 1120
             },
             {
               "char": "求",
-              "pinyin": "dé",
+              "pinyin": "qiú",
               "index": 1121
             },
             {
@@ -6724,22 +6562,22 @@
             },
             {
               "char": "虽",
-              "pinyin": "wú",
+              "pinyin": "suī",
               "index": 1124
             },
             {
               "char": "不",
-              "pinyin": "hòu",
+              "pinyin": "bù",
               "index": 1125
             },
             {
               "char": "得",
-              "pinyin": "zāi",
+              "pinyin": "dé",
               "index": 1126
             },
             {
               "char": "鱼",
-              "pinyin": "yǐ",
+              "pinyin": "yú",
               "index": 1127
             },
             {
@@ -6749,17 +6587,17 @@
             },
             {
               "char": "无",
-              "pinyin": "ruò",
+              "pinyin": "wú",
               "index": 1129
             },
             {
               "char": "后",
-              "pinyin": "suǒ",
+              "pinyin": "hòu",
               "index": 1130
             },
             {
               "char": "灾",
-              "pinyin": "wéi",
+              "pinyin": "zāi",
               "index": 1131
             },
             {
@@ -6768,14 +6606,14 @@
               "index": 1132
             }
           ],
-          "translation": "",
+          "translation": "（但是）以这样的做法，去谋求这样的理想，就像爬到树上却要抓鱼一样。”",
           "notes": []
         },
         {
           "content": [
             {
               "char": "以",
-              "pinyin": "qiú",
+              "pinyin": "yǐ",
               "index": 1133
             },
             {
@@ -6790,7 +6628,7 @@
             },
             {
               "char": "为",
-              "pinyin": "yù",
+              "pinyin": "wéi",
               "index": 1136
             },
             {
@@ -6800,22 +6638,22 @@
             },
             {
               "char": "求",
-              "pinyin": "jìn",
+              "pinyin": "qiú",
               "index": 1138
             },
             {
               "char": "若",
-              "pinyin": "xīn",
+              "pinyin": "ruò",
               "index": 1139
             },
             {
               "char": "所",
-              "pinyin": "lì",
+              "pinyin": "suǒ",
               "index": 1140
             },
             {
               "char": "欲",
-              "pinyin": "ér",
+              "pinyin": "yù",
               "index": 1141
             },
             {
@@ -6825,32 +6663,32 @@
             },
             {
               "char": "尽",
-              "pinyin": "wéi",
+              "pinyin": "jìn",
               "index": 1143
             },
             {
               "char": "心",
-              "pinyin": "zhī",
+              "pinyin": "xīn",
               "index": 1144
             },
             {
               "char": "力",
-              "pinyin": "hòu",
+              "pinyin": "lì",
               "index": 1145
             },
             {
               "char": "而",
-              "pinyin": "bì",
+              "pinyin": "ér",
               "index": 1146
             },
             {
               "char": "为",
-              "pinyin": "yǒu",
+              "pinyin": "wéi",
               "index": 1147
             },
             {
               "char": "之",
-              "pinyin": "zāi",
+              "pinyin": "zhī",
               "index": 1148
             },
             {
@@ -6860,42 +6698,36 @@
             },
             {
               "char": "后",
-              "pinyin": "yuē",
+              "pinyin": "hòu",
               "index": 1150
             },
             {
               "char": "必",
-              "pinyin": "kě",
+              "pinyin": "bì",
               "index": 1151
             },
             {
               "char": "有",
-              "pinyin": "dé",
+              "pinyin": "yǒu",
               "index": 1152
             },
             {
               "char": "灾",
-              "pinyin": "wén",
+              "pinyin": "zāi",
               "index": 1153
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 1154
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1155
             }
           ],
-          "translation": "",
+          "translation": "齐宣王说：“真的像（你说的）这么严重吗？”",
           "notes": []
         }
       ]
@@ -6906,7 +6738,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "yú",
+              "pinyin": "yuē",
               "index": 1156
             },
             {
@@ -6921,42 +6753,36 @@
             },
             {
               "char": "可",
-              "pinyin": "yuē",
+              "pinyin": "kě",
               "index": 1159
             },
             {
               "char": "得",
-              "pinyin": "zōu",
+              "pinyin": "dé",
               "index": 1160
             },
             {
               "char": "闻",
-              "pinyin": "rén",
+              "pinyin": "wén",
               "index": 1161
             },
             {
               "char": "与",
-              "pinyin": "yǔ",
+              "pinyin": "yú",
               "index": 1162
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 1163
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1164
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“恐怕比这还严重。",
           "notes": []
         }
       ]
@@ -6967,7 +6793,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "chǔ",
+              "pinyin": "yuē",
               "index": 1165
             },
             {
@@ -6982,32 +6808,32 @@
             },
             {
               "char": "邹",
-              "pinyin": "rén",
+              "pinyin": "zōu",
               "index": 1168
             },
             {
               "char": "人",
-              "pinyin": "zhàn",
+              "pinyin": "rén",
               "index": 1169
             },
             {
               "char": "与",
-              "pinyin": "zé",
+              "pinyin": "yǔ",
               "index": 1170
             },
             {
               "char": "楚",
-              "pinyin": "wáng",
+              "pinyin": "chǔ",
               "index": 1171
             },
             {
               "char": "人",
-              "pinyin": "yǐ",
+              "pinyin": "rén",
               "index": 1172
             },
             {
               "char": "战",
-              "pinyin": "wéi",
+              "pinyin": "zhàn",
               "index": 1173
             },
             {
@@ -7017,27 +6843,27 @@
             },
             {
               "char": "则",
-              "pinyin": "shú",
+              "pinyin": "zé",
               "index": 1175
             },
             {
               "char": "王",
-              "pinyin": "shèng",
+              "pinyin": "wáng",
               "index": 1176
             },
             {
               "char": "以",
-              "pinyin": "yuē",
+              "pinyin": "yǐ",
               "index": 1177
             },
             {
               "char": "为",
-              "pinyin": "chǔ",
+              "pinyin": "wéi",
               "index": 1178
             },
             {
               "char": "孰",
-              "pinyin": "rén",
+              "pinyin": "shú",
               "index": 1179
             },
             {
@@ -7049,9 +6875,14 @@
               "char": "？",
               "pinyin": "",
               "index": 1181
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 1182
             }
           ],
-          "translation": "",
+          "translation": "爬到树上去抓鱼，虽然抓不到鱼，却没有什么后祸；",
           "notes": [
             {
               "start": 3,
@@ -7059,17 +6890,6 @@
               "content": "当时的一个小国，在今山东邹城、滕州一带。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 1182
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -7094,37 +6914,31 @@
             },
             {
               "char": "楚",
-              "pinyin": "rán",
+              "pinyin": "chǔ",
               "index": 1186
             },
             {
               "char": "人",
-              "pinyin": "zé",
+              "pinyin": "rén",
               "index": 1187
             },
             {
               "char": "胜",
-              "pinyin": "xiǎo",
+              "pinyin": "shèng",
               "index": 1188
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 1189
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1190
             }
           ],
-          "translation": "",
+          "translation": "假使用这样的做法，去谋求这样的理想，又尽心尽力地去干，结果必然有灾祸。”",
           "notes": []
         }
       ]
@@ -7135,7 +6949,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "gù",
+              "pinyin": "yuē",
               "index": 1191
             },
             {
@@ -7150,47 +6964,47 @@
             },
             {
               "char": "然",
-              "pinyin": "bù",
+              "pinyin": "rán",
               "index": 1194
             },
             {
               "char": "则",
-              "pinyin": "kě",
+              "pinyin": "zé",
               "index": 1195
             },
             {
               "char": "小",
-              "pinyin": "yǐ",
+              "pinyin": "xiǎo",
               "index": 1196
             },
             {
               "char": "固",
-              "pinyin": "dí",
+              "pinyin": "gù",
               "index": 1197
             },
             {
               "char": "不",
-              "pinyin": "dà",
+              "pinyin": "bù",
               "index": 1198
             },
             {
               "char": "可",
-              "pinyin": "guǎ",
+              "pinyin": "kě",
               "index": 1199
             },
             {
               "char": "以",
-              "pinyin": "gù",
+              "pinyin": "yǐ",
               "index": 1200
             },
             {
               "char": "敌",
-              "pinyin": "bù",
+              "pinyin": "dí",
               "index": 1201
             },
             {
               "char": "大",
-              "pinyin": "kě",
+              "pinyin": "dà",
               "index": 1202
             },
             {
@@ -7200,37 +7014,37 @@
             },
             {
               "char": "寡",
-              "pinyin": "yǐ",
+              "pinyin": "guǎ",
               "index": 1204
             },
             {
               "char": "固",
-              "pinyin": "dí",
+              "pinyin": "gù",
               "index": 1205
             },
             {
               "char": "不",
-              "pinyin": "zhòng",
+              "pinyin": "bù",
               "index": 1206
             },
             {
               "char": "可",
-              "pinyin": "ruò",
+              "pinyin": "kě",
               "index": 1207
             },
             {
               "char": "以",
-              "pinyin": "gù",
+              "pinyin": "yǐ",
               "index": 1208
             },
             {
               "char": "敌",
-              "pinyin": "bù",
+              "pinyin": "dí",
               "index": 1209
             },
             {
               "char": "众",
-              "pinyin": "kě",
+              "pinyin": "zhòng",
               "index": 1210
             },
             {
@@ -7240,37 +7054,37 @@
             },
             {
               "char": "弱",
-              "pinyin": "yǐ",
+              "pinyin": "ruò",
               "index": 1212
             },
             {
               "char": "固",
-              "pinyin": "dí",
+              "pinyin": "gù",
               "index": 1213
             },
             {
               "char": "不",
-              "pinyin": "qiáng",
+              "pinyin": "bù",
               "index": 1214
             },
             {
               "char": "可",
-              "pinyin": "hǎi",
+              "pinyin": "kě",
               "index": 1215
             },
             {
               "char": "以",
-              "pinyin": "nèi",
+              "pinyin": "yǐ",
               "index": 1216
             },
             {
               "char": "敌",
-              "pinyin": "zhī",
+              "pinyin": "dí",
               "index": 1217
             },
             {
               "char": "强",
-              "pinyin": "dì",
+              "pinyin": "qiáng",
               "index": 1218
             },
             {
@@ -7279,29 +7093,29 @@
               "index": 1219
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“（这是什么道理）可以让我听听吗？”",
           "notes": []
         },
         {
           "content": [
             {
               "char": "海",
-              "pinyin": "fāng",
+              "pinyin": "hǎi",
               "index": 1220
             },
             {
               "char": "内",
-              "pinyin": "qiān",
+              "pinyin": "nèi",
               "index": 1221
             },
             {
               "char": "之",
-              "pinyin": "lǐ",
+              "pinyin": "zhī",
               "index": 1222
             },
             {
               "char": "地",
-              "pinyin": "zhě",
+              "pinyin": "dì",
               "index": 1223
             },
             {
@@ -7311,27 +7125,27 @@
             },
             {
               "char": "方",
-              "pinyin": "jiǔ",
+              "pinyin": "fāng",
               "index": 1225
             },
             {
               "char": "千",
-              "pinyin": "qí",
+              "pinyin": "qiān",
               "index": 1226
             },
             {
               "char": "里",
-              "pinyin": "jí",
+              "pinyin": "lǐ",
               "index": 1227
             },
             {
               "char": "者",
-              "pinyin": "yǒu",
+              "pinyin": "zhě",
               "index": 1228
             },
             {
               "char": "九",
-              "pinyin": "qí",
+              "pinyin": "jiǔ",
               "index": 1229
             },
             {
@@ -7341,27 +7155,27 @@
             },
             {
               "char": "齐",
-              "pinyin": "yī",
+              "pinyin": "qí",
               "index": 1231
             },
             {
               "char": "集",
-              "pinyin": "yǐ",
+              "pinyin": "jí",
               "index": 1232
             },
             {
               "char": "有",
-              "pinyin": "yī",
+              "pinyin": "yǒu",
               "index": 1233
             },
             {
               "char": "其",
-              "pinyin": "fú",
+              "pinyin": "qí",
               "index": 1234
             },
             {
               "char": "一",
-              "pinyin": "bā",
+              "pinyin": "yī",
               "index": 1235
             },
             {
@@ -7370,7 +7184,7 @@
               "index": 1236
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“（如果）邹国和楚国打仗，那您认为谁胜呢？”",
           "notes": [
             {
               "start": 5,
@@ -7388,22 +7202,22 @@
           "content": [
             {
               "char": "以",
-              "pinyin": "hé",
+              "pinyin": "yǐ",
               "index": 1237
             },
             {
               "char": "一",
-              "pinyin": "yǐ",
+              "pinyin": "yī",
               "index": 1238
             },
             {
               "char": "服",
-              "pinyin": "yì",
+              "pinyin": "fú",
               "index": 1239
             },
             {
               "char": "八",
-              "pinyin": "yú",
+              "pinyin": "bā",
               "index": 1240
             },
             {
@@ -7413,42 +7227,42 @@
             },
             {
               "char": "何",
-              "pinyin": "zōu",
+              "pinyin": "hé",
               "index": 1242
             },
             {
               "char": "以",
-              "pinyin": "dí",
+              "pinyin": "yǐ",
               "index": 1243
             },
             {
               "char": "异",
-              "pinyin": "chǔ",
+              "pinyin": "yì",
               "index": 1244
             },
             {
               "char": "于",
-              "pinyin": "zāi",
+              "pinyin": "yú",
               "index": 1245
             },
             {
               "char": "邹",
-              "pinyin": "gài",
+              "pinyin": "zōu",
               "index": 1246
             },
             {
               "char": "敌",
-              "pinyin": "yì",
+              "pinyin": "dí",
               "index": 1247
             },
             {
               "char": "楚",
-              "pinyin": "fǎn",
+              "pinyin": "chǔ",
               "index": 1248
             },
             {
               "char": "哉",
-              "pinyin": "qí",
+              "pinyin": "zāi",
               "index": 1249
             },
             {
@@ -7457,39 +7271,39 @@
               "index": 1250
             }
           ],
-          "translation": "",
+          "translation": "（齐宣王）说：“楚国会胜。”",
           "notes": []
         },
         {
           "content": [
             {
               "char": "盖",
-              "pinyin": "běn",
+              "pinyin": "gài",
               "index": 1251
             },
             {
               "char": "亦",
-              "pinyin": "yǐ",
+              "pinyin": "yì",
               "index": 1252
             },
             {
               "char": "反",
-              "pinyin": "jīn",
+              "pinyin": "fǎn",
               "index": 1253
             },
             {
               "char": "其",
-              "pinyin": "wáng",
+              "pinyin": "qí",
               "index": 1254
             },
             {
               "char": "本",
-              "pinyin": "fā",
+              "pinyin": "běn",
               "index": 1255
             },
             {
               "char": "矣",
-              "pinyin": "zhèng",
+              "pinyin": "yǐ",
               "index": 1256
             },
             {
@@ -7498,7 +7312,7 @@
               "index": 1257
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“那么，小国本来不可以与大国为敌，人少的国家本来不可以与人多的国家为敌，弱国本来不可以与强国为敌。",
           "notes": [
             {
               "start": 0,
@@ -7511,32 +7325,32 @@
           "content": [
             {
               "char": "今",
-              "pinyin": "shī",
+              "pinyin": "jīn",
               "index": 1258
             },
             {
               "char": "王",
-              "pinyin": "rén",
+              "pinyin": "wáng",
               "index": 1259
             },
             {
               "char": "发",
-              "pinyin": "shǐ",
+              "pinyin": "fā",
               "index": 1260
             },
             {
               "char": "政",
-              "pinyin": "tiān",
+              "pinyin": "zhèng",
               "index": 1261
             },
             {
               "char": "施",
-              "pinyin": "xià",
+              "pinyin": "shī",
               "index": 1262
             },
             {
               "char": "仁",
-              "pinyin": "shì",
+              "pinyin": "rén",
               "index": 1263
             },
             {
@@ -7546,62 +7360,62 @@
             },
             {
               "char": "使",
-              "pinyin": "zhě",
+              "pinyin": "shǐ",
               "index": 1265
             },
             {
               "char": "天",
-              "pinyin": "jiē",
+              "pinyin": "tiān",
               "index": 1266
             },
             {
               "char": "下",
-              "pinyin": "yù",
+              "pinyin": "xià",
               "index": 1267
             },
             {
               "char": "仕",
-              "pinyin": "lì",
+              "pinyin": "shì",
               "index": 1268
             },
             {
               "char": "者",
-              "pinyin": "yú",
+              "pinyin": "zhě",
               "index": 1269
             },
             {
               "char": "皆",
-              "pinyin": "wáng",
+              "pinyin": "jiē",
               "index": 1270
             },
             {
               "char": "欲",
-              "pinyin": "zhī",
+              "pinyin": "yù",
               "index": 1271
             },
             {
               "char": "立",
-              "pinyin": "cháo",
+              "pinyin": "lì",
               "index": 1272
             },
             {
               "char": "于",
-              "pinyin": "gēng",
+              "pinyin": "yú",
               "index": 1273
             },
             {
               "char": "王",
-              "pinyin": "zhě",
+              "pinyin": "wáng",
               "index": 1274
             },
             {
               "char": "之",
-              "pinyin": "jiē",
+              "pinyin": "zhī",
               "index": 1275
             },
             {
               "char": "朝",
-              "pinyin": "yù",
+              "pinyin": "cháo",
               "index": 1276
             },
             {
@@ -7616,42 +7430,42 @@
             },
             {
               "char": "者",
-              "pinyin": "yú",
+              "pinyin": "zhě",
               "index": 1279
             },
             {
               "char": "皆",
-              "pinyin": "wáng",
+              "pinyin": "jiē",
               "index": 1280
             },
             {
               "char": "欲",
-              "pinyin": "zhī",
+              "pinyin": "yù",
               "index": 1281
             },
             {
               "char": "耕",
-              "pinyin": "yě",
+              "pinyin": "gēng",
               "index": 1282
             },
             {
               "char": "于",
-              "pinyin": "shāng",
+              "pinyin": "yú",
               "index": 1283
             },
             {
               "char": "王",
-              "pinyin": "gǔ",
+              "pinyin": "wáng",
               "index": 1284
             },
             {
               "char": "之",
-              "pinyin": "jiē",
+              "pinyin": "zhī",
               "index": 1285
             },
             {
               "char": "野",
-              "pinyin": "yù",
+              "pinyin": "yě",
               "index": 1286
             },
             {
@@ -7661,47 +7475,47 @@
             },
             {
               "char": "商",
-              "pinyin": "cáng",
+              "pinyin": "shāng",
               "index": 1288
             },
             {
               "char": "贾",
-              "pinyin": "yú",
+              "pinyin": "gǔ",
               "index": 1289
             },
             {
               "char": "皆",
-              "pinyin": "wáng",
+              "pinyin": "jiē",
               "index": 1290
             },
             {
               "char": "欲",
-              "pinyin": "zhī",
+              "pinyin": "yù",
               "index": 1291
             },
             {
               "char": "藏",
-              "pinyin": "shì",
+              "pinyin": "cáng",
               "index": 1292
             },
             {
               "char": "于",
-              "pinyin": "xíng",
+              "pinyin": "yú",
               "index": 1293
             },
             {
               "char": "王",
-              "pinyin": "lǚ",
+              "pinyin": "wáng",
               "index": 1294
             },
             {
               "char": "之",
-              "pinyin": "jiē",
+              "pinyin": "zhī",
               "index": 1295
             },
             {
               "char": "市",
-              "pinyin": "yù",
+              "pinyin": "shì",
               "index": 1296
             },
             {
@@ -7711,37 +7525,37 @@
             },
             {
               "char": "行",
-              "pinyin": "chū",
+              "pinyin": "xíng",
               "index": 1298
             },
             {
               "char": "旅",
-              "pinyin": "yú",
+              "pinyin": "lǚ",
               "index": 1299
             },
             {
               "char": "皆",
-              "pinyin": "wáng",
+              "pinyin": "jiē",
               "index": 1300
             },
             {
               "char": "欲",
-              "pinyin": "zhī",
+              "pinyin": "yù",
               "index": 1301
             },
             {
               "char": "出",
-              "pinyin": "tú",
+              "pinyin": "chū",
               "index": 1302
             },
             {
               "char": "于",
-              "pinyin": "tiān",
+              "pinyin": "yú",
               "index": 1303
             },
             {
               "char": "王",
-              "pinyin": "xià",
+              "pinyin": "wáng",
               "index": 1304
             },
             {
@@ -7751,7 +7565,7 @@
             },
             {
               "char": "涂",
-              "pinyin": "yù",
+              "pinyin": "tú",
               "index": 1306
             },
             {
@@ -7761,72 +7575,72 @@
             },
             {
               "char": "天",
-              "pinyin": "jí",
+              "pinyin": "tiān",
               "index": 1308
             },
             {
               "char": "下",
-              "pinyin": "qí",
+              "pinyin": "xià",
               "index": 1309
             },
             {
               "char": "之",
-              "pinyin": "jūn",
+              "pinyin": "zhī",
               "index": 1310
             },
             {
               "char": "欲",
-              "pinyin": "zhě",
+              "pinyin": "yù",
               "index": 1311
             },
             {
               "char": "疾",
-              "pinyin": "jiē",
+              "pinyin": "jí",
               "index": 1312
             },
             {
               "char": "其",
-              "pinyin": "yù",
+              "pinyin": "qí",
               "index": 1313
             },
             {
               "char": "君",
-              "pinyin": "fù",
+              "pinyin": "jūn",
               "index": 1314
             },
             {
               "char": "者",
-              "pinyin": "sù",
+              "pinyin": "zhě",
               "index": 1315
             },
             {
               "char": "皆",
-              "pinyin": "yú",
+              "pinyin": "jiē",
               "index": 1316
             },
             {
               "char": "欲",
-              "pinyin": "wáng",
+              "pinyin": "yù",
               "index": 1317
             },
             {
               "char": "赴",
-              "pinyin": "qí",
+              "pinyin": "fù",
               "index": 1318
             },
             {
               "char": "愬",
-              "pinyin": "ruò",
+              "pinyin": "sù",
               "index": 1319
             },
             {
               "char": "于",
-              "pinyin": "shì",
+              "pinyin": "yú",
               "index": 1320
             },
             {
               "char": "王",
-              "pinyin": "shú",
+              "pinyin": "wáng",
               "index": 1321
             },
             {
@@ -7835,7 +7649,7 @@
               "index": 1322
             }
           ],
-          "translation": "",
+          "translation": "天下的土地，纵横各一千多里的（国家）有九个，齐国的土地总算起来也只有其中的一份。",
           "notes": [
             {
               "start": 2,
@@ -7863,17 +7677,17 @@
           "content": [
             {
               "char": "其",
-              "pinyin": "néng",
+              "pinyin": "qí",
               "index": 1323
             },
             {
               "char": "若",
-              "pinyin": "yù",
+              "pinyin": "ruò",
               "index": 1324
             },
             {
               "char": "是",
-              "pinyin": "zhī",
+              "pinyin": "shì",
               "index": 1325
             },
             {
@@ -7883,42 +7697,36 @@
             },
             {
               "char": "孰",
-              "pinyin": "wáng",
+              "pinyin": "shú",
               "index": 1327
             },
             {
               "char": "能",
-              "pinyin": "yuē",
+              "pinyin": "néng",
               "index": 1328
             },
             {
               "char": "御",
-              "pinyin": "wú",
+              "pinyin": "yù",
               "index": 1329
             },
             {
               "char": "之",
-              "pinyin": "hūn",
+              "pinyin": "zhī",
               "index": 1330
             },
             {
               "char": "？",
               "pinyin": "",
               "index": 1331
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1332
             }
           ],
-          "translation": "",
+          "translation": "以一份力量去降服八份，这与邹国和楚国打仗有什么不同呢？",
           "notes": []
         }
       ]
@@ -7929,12 +7737,12 @@
           "content": [
             {
               "char": "王",
-              "pinyin": "bù",
+              "pinyin": "wáng",
               "index": 1333
             },
             {
               "char": "曰",
-              "pinyin": "néng",
+              "pinyin": "yuē",
               "index": 1334
             },
             {
@@ -7949,12 +7757,12 @@
             },
             {
               "char": "吾",
-              "pinyin": "jìn",
+              "pinyin": "wú",
               "index": 1337
             },
             {
               "char": "惛",
-              "pinyin": "yú",
+              "pinyin": "hūn",
               "index": 1338
             },
             {
@@ -7964,32 +7772,32 @@
             },
             {
               "char": "不",
-              "pinyin": "shì",
+              "pinyin": "bù",
               "index": 1340
             },
             {
               "char": "能",
-              "pinyin": "yǐ",
+              "pinyin": "néng",
               "index": 1341
             },
             {
               "char": "进",
-              "pinyin": "yuàn",
+              "pinyin": "jìn",
               "index": 1342
             },
             {
               "char": "于",
-              "pinyin": "fū",
+              "pinyin": "yú",
               "index": 1343
             },
             {
               "char": "是",
-              "pinyin": "zǐ",
+              "pinyin": "shì",
               "index": 1344
             },
             {
               "char": "矣",
-              "pinyin": "fǔ",
+              "pinyin": "yǐ",
               "index": 1345
             },
             {
@@ -7998,7 +7806,7 @@
               "index": 1346
             }
           ],
-          "translation": "",
+          "translation": "为什么不回到根本上来呢？",
           "notes": [
             {
               "start": 5,
@@ -8016,32 +7824,32 @@
           "content": [
             {
               "char": "愿",
-              "pinyin": "wú",
+              "pinyin": "yuàn",
               "index": 1347
             },
             {
               "char": "夫",
-              "pinyin": "zhì",
+              "pinyin": "fū",
               "index": 1348
             },
             {
               "char": "子",
-              "pinyin": "míng",
+              "pinyin": "zǐ",
               "index": 1349
             },
             {
               "char": "辅",
-              "pinyin": "yǐ",
+              "pinyin": "fǔ",
               "index": 1350
             },
             {
               "char": "吾",
-              "pinyin": "jiào",
+              "pinyin": "wú",
               "index": 1351
             },
             {
               "char": "志",
-              "pinyin": "wǒ",
+              "pinyin": "zhì",
               "index": 1352
             },
             {
@@ -8051,22 +7859,22 @@
             },
             {
               "char": "明",
-              "pinyin": "wǒ",
+              "pinyin": "míng",
               "index": 1354
             },
             {
               "char": "以",
-              "pinyin": "suī",
+              "pinyin": "yǐ",
               "index": 1355
             },
             {
               "char": "教",
-              "pinyin": "bù",
+              "pinyin": "jiào",
               "index": 1356
             },
             {
               "char": "我",
-              "pinyin": "mǐn",
+              "pinyin": "wǒ",
               "index": 1357
             },
             {
@@ -8075,7 +7883,7 @@
               "index": 1358
             }
           ],
-          "translation": "",
+          "translation": "（如果）您现在发布政令施行仁政，使得天下当官的都想到您的朝廷来做官，种田的都想到您的田野来耕作，做生意的都要（把货物）存放在大王的集市上，旅行的人都想在大王的道路上出入，各国那些憎恨他们君主的人都想跑来向您申诉。",
           "notes": [
             {
               "start": 3,
@@ -8088,22 +7896,22 @@
           "content": [
             {
               "char": "我",
-              "pinyin": "qǐng",
+              "pinyin": "wǒ",
               "index": 1359
             },
             {
               "char": "虽",
-              "pinyin": "cháng",
+              "pinyin": "suī",
               "index": 1360
             },
             {
               "char": "不",
-              "pinyin": "shì",
+              "pinyin": "bù",
               "index": 1361
             },
             {
               "char": "敏",
-              "pinyin": "zhī",
+              "pinyin": "mǐn",
               "index": 1362
             },
             {
@@ -8113,31 +7921,36 @@
             },
             {
               "char": "请",
-              "pinyin": "yuē",
+              "pinyin": "qǐng",
               "index": 1364
             },
             {
               "char": "尝",
-              "pinyin": "wú",
+              "pinyin": "cháng",
               "index": 1365
             },
             {
               "char": "试",
-              "pinyin": "héng",
+              "pinyin": "shì",
               "index": 1366
             },
             {
               "char": "之",
-              "pinyin": "chǎn",
+              "pinyin": "zhī",
               "index": 1367
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 1368
+            },
+            {
+              "char": "”",
+              "pinyin": "",
+              "index": 1369
             }
           ],
-          "translation": "",
+          "translation": "如果像这样，谁还能抵挡您呢？”",
           "notes": [
             {
               "start": 2,
@@ -8150,17 +7963,6 @@
               "content": "试行。"
             }
           ]
-        },
-        {
-          "content": [
-            {
-              "char": "”",
-              "pinyin": "",
-              "index": 1369
-            }
-          ],
-          "translation": "",
-          "notes": []
         }
       ]
     },
@@ -8170,7 +7972,7 @@
           "content": [
             {
               "char": "曰",
-              "pinyin": "ér",
+              "pinyin": "yuē",
               "index": 1370
             },
             {
@@ -8185,7 +7987,7 @@
             },
             {
               "char": "无",
-              "pinyin": "yǒu",
+              "pinyin": "wú",
               "index": 1373
             },
             {
@@ -8195,32 +7997,32 @@
             },
             {
               "char": "产",
-              "pinyin": "xīn",
+              "pinyin": "chǎn",
               "index": 1375
             },
             {
               "char": "而",
-              "pinyin": "zhě",
+              "pinyin": "ér",
               "index": 1376
             },
             {
               "char": "有",
-              "pinyin": "wéi",
+              "pinyin": "yǒu",
               "index": 1377
             },
             {
               "char": "恒",
-              "pinyin": "shì",
+              "pinyin": "héng",
               "index": 1378
             },
             {
               "char": "心",
-              "pinyin": "wéi",
+              "pinyin": "xīn",
               "index": 1379
             },
             {
               "char": "者",
-              "pinyin": "néng",
+              "pinyin": "zhě",
               "index": 1380
             },
             {
@@ -8230,22 +8032,22 @@
             },
             {
               "char": "惟",
-              "pinyin": "ruò",
+              "pinyin": "wéi",
               "index": 1382
             },
             {
               "char": "士",
-              "pinyin": "mín",
+              "pinyin": "shì",
               "index": 1383
             },
             {
               "char": "为",
-              "pinyin": "zé",
+              "pinyin": "wéi",
               "index": 1384
             },
             {
               "char": "能",
-              "pinyin": "wú",
+              "pinyin": "néng",
               "index": 1385
             },
             {
@@ -8254,7 +8056,7 @@
               "index": 1386
             }
           ],
-          "translation": "",
+          "translation": "齐宣王说：“我糊涂，不能懂得这个道理。",
           "notes": [
             {
               "start": 4,
@@ -8272,12 +8074,12 @@
           "content": [
             {
               "char": "若",
-              "pinyin": "héng",
+              "pinyin": "ruò",
               "index": 1387
             },
             {
               "char": "民",
-              "pinyin": "chǎn",
+              "pinyin": "mín",
               "index": 1388
             },
             {
@@ -8287,7 +8089,7 @@
             },
             {
               "char": "则",
-              "pinyin": "yīn",
+              "pinyin": "zé",
               "index": 1390
             },
             {
@@ -8302,7 +8104,7 @@
             },
             {
               "char": "产",
-              "pinyin": "xīn",
+              "pinyin": "chǎn",
               "index": 1393
             },
             {
@@ -8312,7 +8114,7 @@
             },
             {
               "char": "因",
-              "pinyin": "gǒu",
+              "pinyin": "yīn",
               "index": 1395
             },
             {
@@ -8336,29 +8138,29 @@
               "index": 1399
             }
           ],
-          "translation": "",
+          "translation": "希望先生您帮助我（实现）我的愿望。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "苟",
-              "pinyin": "fàng",
+              "pinyin": "gǒu",
               "index": 1400
             },
             {
               "char": "无",
-              "pinyin": "pì",
+              "pinyin": "wú",
               "index": 1401
             },
             {
               "char": "恒",
-              "pinyin": "xié",
+              "pinyin": "héng",
               "index": 1402
             },
             {
               "char": "心",
-              "pinyin": "chǐ",
+              "pinyin": "xīn",
               "index": 1403
             },
             {
@@ -8368,22 +8170,22 @@
             },
             {
               "char": "放",
-              "pinyin": "wú",
+              "pinyin": "fàng",
               "index": 1405
             },
             {
               "char": "辟",
-              "pinyin": "bù",
+              "pinyin": "pì",
               "index": 1406
             },
             {
               "char": "邪",
-              "pinyin": "wéi",
+              "pinyin": "xié",
               "index": 1407
             },
             {
               "char": "侈",
-              "pinyin": "yǐ",
+              "pinyin": "chǐ",
               "index": 1408
             },
             {
@@ -8393,22 +8195,22 @@
             },
             {
               "char": "无",
-              "pinyin": "jí",
+              "pinyin": "wú",
               "index": 1410
             },
             {
               "char": "不",
-              "pinyin": "xiàn",
+              "pinyin": "bù",
               "index": 1411
             },
             {
               "char": "为",
-              "pinyin": "yú",
+              "pinyin": "wéi",
               "index": 1412
             },
             {
               "char": "已",
-              "pinyin": "zuì",
+              "pinyin": "yǐ",
               "index": 1413
             },
             {
@@ -8417,7 +8219,7 @@
               "index": 1414
             }
           ],
-          "translation": "",
+          "translation": "明确的指教我，我虽然不聪慧，请（让我）试一试。”",
           "notes": [
             {
               "start": 5,
@@ -8430,22 +8232,22 @@
           "content": [
             {
               "char": "及",
-              "pinyin": "rán",
+              "pinyin": "jí",
               "index": 1415
             },
             {
               "char": "陷",
-              "pinyin": "hòu",
+              "pinyin": "xiàn",
               "index": 1416
             },
             {
               "char": "于",
-              "pinyin": "cóng",
+              "pinyin": "yú",
               "index": 1417
             },
             {
               "char": "罪",
-              "pinyin": "ér",
+              "pinyin": "zuì",
               "index": 1418
             },
             {
@@ -8455,32 +8257,32 @@
             },
             {
               "char": "然",
-              "pinyin": "xíng",
+              "pinyin": "rán",
               "index": 1420
             },
             {
               "char": "后",
-              "pinyin": "zhī",
+              "pinyin": "hòu",
               "index": 1421
             },
             {
               "char": "从",
-              "pinyin": "shì",
+              "pinyin": "cóng",
               "index": 1422
             },
             {
               "char": "而",
-              "pinyin": "wǎng",
+              "pinyin": "ér",
               "index": 1423
             },
             {
               "char": "刑",
-              "pinyin": "mín",
+              "pinyin": "xíng",
               "index": 1424
             },
             {
               "char": "之",
-              "pinyin": "yě",
+              "pinyin": "zhī",
               "index": 1425
             },
             {
@@ -8490,22 +8292,22 @@
             },
             {
               "char": "是",
-              "pinyin": "yān",
+              "pinyin": "shì",
               "index": 1427
             },
             {
               "char": "罔",
-              "pinyin": "yǒu",
+              "pinyin": "wǎng",
               "index": 1428
             },
             {
               "char": "民",
-              "pinyin": "rén",
+              "pinyin": "mín",
               "index": 1429
             },
             {
               "char": "也",
-              "pinyin": "rén",
+              "pinyin": "yě",
               "index": 1430
             },
             {
@@ -8514,7 +8316,7 @@
               "index": 1431
             }
           ],
-          "translation": "",
+          "translation": "（孟子）说：“没有长久可以维持生活的产业而常有善心，只有有志之士才能做到，至于老百姓，没有固定的产业，因而就没有长久不变的心。",
           "notes": [
             {
               "start": 7,
@@ -8532,32 +8334,32 @@
           "content": [
             {
               "char": "焉",
-              "pinyin": "zài",
+              "pinyin": "yān",
               "index": 1432
             },
             {
               "char": "有",
-              "pinyin": "wèi",
+              "pinyin": "yǒu",
               "index": 1433
             },
             {
               "char": "仁",
-              "pinyin": "wǎng",
+              "pinyin": "rén",
               "index": 1434
             },
             {
               "char": "人",
-              "pinyin": "mín",
+              "pinyin": "rén",
               "index": 1435
             },
             {
               "char": "在",
-              "pinyin": "ér",
+              "pinyin": "zài",
               "index": 1436
             },
             {
               "char": "位",
-              "pinyin": "kě",
+              "pinyin": "wèi",
               "index": 1437
             },
             {
@@ -8567,32 +8369,32 @@
             },
             {
               "char": "罔",
-              "pinyin": "wéi",
+              "pinyin": "wǎng",
               "index": 1439
             },
             {
               "char": "民",
-              "pinyin": "yě",
+              "pinyin": "mín",
               "index": 1440
             },
             {
               "char": "而",
-              "pinyin": "shì",
+              "pinyin": "ér",
               "index": 1441
             },
             {
               "char": "可",
-              "pinyin": "gù",
+              "pinyin": "kě",
               "index": 1442
             },
             {
               "char": "为",
-              "pinyin": "míng",
+              "pinyin": "wéi",
               "index": 1443
             },
             {
               "char": "也",
-              "pinyin": "jūn",
+              "pinyin": "yě",
               "index": 1444
             },
             {
@@ -8601,49 +8403,49 @@
               "index": 1445
             }
           ],
-          "translation": "",
+          "translation": "如果没有长久不变的善心，（就会）不服从约束、犯上作乱，没有不做的了。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "是",
-              "pinyin": "zhì",
+              "pinyin": "shì",
               "index": 1446
             },
             {
               "char": "故",
-              "pinyin": "mín",
+              "pinyin": "gù",
               "index": 1447
             },
             {
               "char": "明",
-              "pinyin": "zhī",
+              "pinyin": "míng",
               "index": 1448
             },
             {
               "char": "君",
-              "pinyin": "chǎn",
+              "pinyin": "jūn",
               "index": 1449
             },
             {
               "char": "制",
-              "pinyin": "bì",
+              "pinyin": "zhì",
               "index": 1450
             },
             {
               "char": "民",
-              "pinyin": "shǐ",
+              "pinyin": "mín",
               "index": 1451
             },
             {
               "char": "之",
-              "pinyin": "yǎng",
+              "pinyin": "zhī",
               "index": 1452
             },
             {
               "char": "产",
-              "pinyin": "zú",
+              "pinyin": "chǎn",
               "index": 1453
             },
             {
@@ -8653,42 +8455,42 @@
             },
             {
               "char": "必",
-              "pinyin": "yǐ",
+              "pinyin": "bì",
               "index": 1455
             },
             {
               "char": "使",
-              "pinyin": "shì",
+              "pinyin": "shǐ",
               "index": 1456
             },
             {
               "char": "仰",
-              "pinyin": "fù",
+              "pinyin": "yǎng",
               "index": 1457
             },
             {
               "char": "足",
-              "pinyin": "mǔ",
+              "pinyin": "zú",
               "index": 1458
             },
             {
               "char": "以",
-              "pinyin": "fǔ",
+              "pinyin": "yǐ",
               "index": 1459
             },
             {
               "char": "事",
-              "pinyin": "zú",
+              "pinyin": "shì",
               "index": 1460
             },
             {
               "char": "父",
-              "pinyin": "yǐ",
+              "pinyin": "fù",
               "index": 1461
             },
             {
               "char": "母",
-              "pinyin": "chù",
+              "pinyin": "mǔ",
               "index": 1462
             },
             {
@@ -8698,32 +8500,32 @@
             },
             {
               "char": "俯",
-              "pinyin": "qī",
+              "pinyin": "fǔ",
               "index": 1464
             },
             {
               "char": "足",
-              "pinyin": "zǐ",
+              "pinyin": "zú",
               "index": 1465
             },
             {
               "char": "以",
-              "pinyin": "lè",
+              "pinyin": "yǐ",
               "index": 1466
             },
             {
               "char": "畜",
-              "pinyin": "suì",
+              "pinyin": "chù",
               "index": 1467
             },
             {
               "char": "妻",
-              "pinyin": "zhōng",
+              "pinyin": "qī",
               "index": 1468
             },
             {
               "char": "子",
-              "pinyin": "shēn",
+              "pinyin": "zǐ",
               "index": 1469
             },
             {
@@ -8733,27 +8535,27 @@
             },
             {
               "char": "乐",
-              "pinyin": "bǎo",
+              "pinyin": "lè",
               "index": 1471
             },
             {
               "char": "岁",
-              "pinyin": "xiōng",
+              "pinyin": "suì",
               "index": 1472
             },
             {
               "char": "终",
-              "pinyin": "nián",
+              "pinyin": "zhōng",
               "index": 1473
             },
             {
               "char": "身",
-              "pinyin": "miǎn",
+              "pinyin": "shēn",
               "index": 1474
             },
             {
               "char": "饱",
-              "pinyin": "yú",
+              "pinyin": "bǎo",
               "index": 1475
             },
             {
@@ -8763,32 +8565,32 @@
             },
             {
               "char": "凶",
-              "pinyin": "sǐ",
+              "pinyin": "xiōng",
               "index": 1477
             },
             {
               "char": "年",
-              "pinyin": "wáng",
+              "pinyin": "nián",
               "index": 1478
             },
             {
               "char": "免",
-              "pinyin": "rán",
+              "pinyin": "miǎn",
               "index": 1479
             },
             {
               "char": "于",
-              "pinyin": "hòu",
+              "pinyin": "yú",
               "index": 1480
             },
             {
               "char": "死",
-              "pinyin": "qū",
+              "pinyin": "sǐ",
               "index": 1481
             },
             {
               "char": "亡",
-              "pinyin": "ér",
+              "pinyin": "wáng",
               "index": 1482
             },
             {
@@ -8797,7 +8599,7 @@
               "index": 1483
             }
           ],
-          "translation": "",
+          "translation": "等到（他们）犯了罪，随后用刑法去处罚他们，这样做是陷害人民。",
           "notes": [
             {
               "start": 4,
@@ -8825,22 +8627,22 @@
           "content": [
             {
               "char": "然",
-              "pinyin": "zhī",
+              "pinyin": "rán",
               "index": 1484
             },
             {
               "char": "后",
-              "pinyin": "shàn",
+              "pinyin": "hòu",
               "index": 1485
             },
             {
               "char": "驱",
-              "pinyin": "gù",
+              "pinyin": "qū",
               "index": 1486
             },
             {
               "char": "而",
-              "pinyin": "mín",
+              "pinyin": "ér",
               "index": 1487
             },
             {
@@ -8850,7 +8652,7 @@
             },
             {
               "char": "善",
-              "pinyin": "cóng",
+              "pinyin": "shàn",
               "index": 1489
             },
             {
@@ -8860,37 +8662,37 @@
             },
             {
               "char": "故",
-              "pinyin": "zhī",
+              "pinyin": "gù",
               "index": 1491
             },
             {
               "char": "民",
-              "pinyin": "yě",
+              "pinyin": "mín",
               "index": 1492
             },
             {
               "char": "之",
-              "pinyin": "qīng",
+              "pinyin": "zhī",
               "index": 1493
             },
             {
               "char": "从",
-              "pinyin": "jīn",
+              "pinyin": "cóng",
               "index": 1494
             },
             {
               "char": "之",
-              "pinyin": "yě",
+              "pinyin": "zhī",
               "index": 1495
             },
             {
               "char": "也",
-              "pinyin": "zhì",
+              "pinyin": "yě",
               "index": 1496
             },
             {
               "char": "轻",
-              "pinyin": "mín",
+              "pinyin": "qīng",
               "index": 1497
             },
             {
@@ -8899,7 +8701,7 @@
               "index": 1498
             }
           ],
-          "translation": "",
+          "translation": "哪有仁爱的君主掌权，却可以做这种陷害百姓的事呢？",
           "notes": [
             {
               "start": 2,
@@ -8917,32 +8719,32 @@
           "content": [
             {
               "char": "今",
-              "pinyin": "zhī",
+              "pinyin": "jīn",
               "index": 1499
             },
             {
               "char": "也",
-              "pinyin": "chǎn",
+              "pinyin": "yě",
               "index": 1500
             },
             {
               "char": "制",
-              "pinyin": "yǎng",
+              "pinyin": "zhì",
               "index": 1501
             },
             {
               "char": "民",
-              "pinyin": "bù",
+              "pinyin": "mín",
               "index": 1502
             },
             {
               "char": "之",
-              "pinyin": "zú",
+              "pinyin": "zhī",
               "index": 1503
             },
             {
               "char": "产",
-              "pinyin": "yǐ",
+              "pinyin": "chǎn",
               "index": 1504
             },
             {
@@ -8952,37 +8754,37 @@
             },
             {
               "char": "仰",
-              "pinyin": "shì",
+              "pinyin": "yǎng",
               "index": 1506
             },
             {
               "char": "不",
-              "pinyin": "fù",
+              "pinyin": "bù",
               "index": 1507
             },
             {
               "char": "足",
-              "pinyin": "mǔ",
+              "pinyin": "zú",
               "index": 1508
             },
             {
               "char": "以",
-              "pinyin": "fǔ",
+              "pinyin": "yǐ",
               "index": 1509
             },
             {
               "char": "事",
-              "pinyin": "bù",
+              "pinyin": "shì",
               "index": 1510
             },
             {
               "char": "父",
-              "pinyin": "zú",
+              "pinyin": "fù",
               "index": 1511
             },
             {
               "char": "母",
-              "pinyin": "yǐ",
+              "pinyin": "mǔ",
               "index": 1512
             },
             {
@@ -8992,37 +8794,37 @@
             },
             {
               "char": "俯",
-              "pinyin": "chù",
+              "pinyin": "fǔ",
               "index": 1514
             },
             {
               "char": "不",
-              "pinyin": "qī",
+              "pinyin": "bù",
               "index": 1515
             },
             {
               "char": "足",
-              "pinyin": "zǐ",
+              "pinyin": "zú",
               "index": 1516
             },
             {
               "char": "以",
-              "pinyin": "lè",
+              "pinyin": "yǐ",
               "index": 1517
             },
             {
               "char": "畜",
-              "pinyin": "suì",
+              "pinyin": "chù",
               "index": 1518
             },
             {
               "char": "妻",
-              "pinyin": "zhōng",
+              "pinyin": "qī",
               "index": 1519
             },
             {
               "char": "子",
-              "pinyin": "shēn",
+              "pinyin": "zǐ",
               "index": 1520
             },
             {
@@ -9032,27 +8834,27 @@
             },
             {
               "char": "乐",
-              "pinyin": "kǔ",
+              "pinyin": "lè",
               "index": 1522
             },
             {
               "char": "岁",
-              "pinyin": "xiōng",
+              "pinyin": "suì",
               "index": 1523
             },
             {
               "char": "终",
-              "pinyin": "nián",
+              "pinyin": "zhōng",
               "index": 1524
             },
             {
               "char": "身",
-              "pinyin": "bù",
+              "pinyin": "shēn",
               "index": 1525
             },
             {
               "char": "苦",
-              "pinyin": "miǎn",
+              "pinyin": "kǔ",
               "index": 1526
             },
             {
@@ -9062,37 +8864,37 @@
             },
             {
               "char": "凶",
-              "pinyin": "yú",
+              "pinyin": "xiōng",
               "index": 1528
             },
             {
               "char": "年",
-              "pinyin": "sǐ",
+              "pinyin": "nián",
               "index": 1529
             },
             {
               "char": "不",
-              "pinyin": "wáng",
+              "pinyin": "bù",
               "index": 1530
             },
             {
               "char": "免",
-              "pinyin": "cǐ",
+              "pinyin": "miǎn",
               "index": 1531
             },
             {
               "char": "于",
-              "pinyin": "wéi",
+              "pinyin": "yú",
               "index": 1532
             },
             {
               "char": "死",
-              "pinyin": "jiù",
+              "pinyin": "sǐ",
               "index": 1533
             },
             {
               "char": "亡",
-              "pinyin": "sǐ",
+              "pinyin": "wáng",
               "index": 1534
             },
             {
@@ -9101,49 +8903,49 @@
               "index": 1535
             }
           ],
-          "translation": "",
+          "translation": "所以英明的君主规定老百姓的产业，一定使他们上能赡养父母，下能养活妻子儿女；",
           "notes": []
         },
         {
           "content": [
             {
               "char": "此",
-              "pinyin": "ér",
+              "pinyin": "cǐ",
               "index": 1536
             },
             {
               "char": "惟",
-              "pinyin": "kǒng",
+              "pinyin": "wéi",
               "index": 1537
             },
             {
               "char": "救",
-              "pinyin": "bù",
+              "pinyin": "jiù",
               "index": 1538
             },
             {
               "char": "死",
-              "pinyin": "shàn",
+              "pinyin": "sǐ",
               "index": 1539
             },
             {
               "char": "而",
-              "pinyin": "xī",
+              "pinyin": "ér",
               "index": 1540
             },
             {
               "char": "恐",
-              "pinyin": "xiá",
+              "pinyin": "kǒng",
               "index": 1541
             },
             {
               "char": "不",
-              "pinyin": "zhì",
+              "pinyin": "bù",
               "index": 1542
             },
             {
               "char": "赡",
-              "pinyin": "lǐ",
+              "pinyin": "shàn",
               "index": 1543
             },
             {
@@ -9153,32 +8955,32 @@
             },
             {
               "char": "奚",
-              "pinyin": "yì",
+              "pinyin": "xī",
               "index": 1545
             },
             {
               "char": "暇",
-              "pinyin": "zāi",
+              "pinyin": "xiá",
               "index": 1546
             },
             {
               "char": "治",
-              "pinyin": "wáng",
+              "pinyin": "zhì",
               "index": 1547
             },
             {
               "char": "礼",
-              "pinyin": "yù",
+              "pinyin": "lǐ",
               "index": 1548
             },
             {
               "char": "义",
-              "pinyin": "xíng",
+              "pinyin": "yì",
               "index": 1549
             },
             {
               "char": "哉",
-              "pinyin": "zhī",
+              "pinyin": "zāi",
               "index": 1550
             },
             {
@@ -9187,7 +8989,7 @@
               "index": 1551
             }
           ],
-          "translation": "",
+          "translation": "年成好时能丰衣足食，年成不好也不至于饿死。",
           "notes": [
             {
               "start": 0,
@@ -9205,22 +9007,22 @@
           "content": [
             {
               "char": "王",
-              "pinyin": "zé",
+              "pinyin": "wáng",
               "index": 1552
             },
             {
               "char": "欲",
-              "pinyin": "hé",
+              "pinyin": "yù",
               "index": 1553
             },
             {
               "char": "行",
-              "pinyin": "fǎn",
+              "pinyin": "xíng",
               "index": 1554
             },
             {
               "char": "之",
-              "pinyin": "qí",
+              "pinyin": "zhī",
               "index": 1555
             },
             {
@@ -9230,32 +9032,32 @@
             },
             {
               "char": "则",
-              "pinyin": "běn",
+              "pinyin": "zé",
               "index": 1557
             },
             {
               "char": "盍",
-              "pinyin": "yǐ",
+              "pinyin": "hé",
               "index": 1558
             },
             {
               "char": "反",
-              "pinyin": "wǔ",
+              "pinyin": "fǎn",
               "index": 1559
             },
             {
               "char": "其",
-              "pinyin": "mǔ",
+              "pinyin": "qí",
               "index": 1560
             },
             {
               "char": "本",
-              "pinyin": "zhī",
+              "pinyin": "běn",
               "index": 1561
             },
             {
               "char": "矣",
-              "pinyin": "zhái",
+              "pinyin": "yǐ",
               "index": 1562
             },
             {
@@ -9264,29 +9066,29 @@
               "index": 1563
             }
           ],
-          "translation": "",
+          "translation": "这样之后督促他们做好事。",
           "notes": []
         },
         {
           "content": [
             {
               "char": "五",
-              "pinyin": "shù",
+              "pinyin": "wǔ",
               "index": 1564
             },
             {
               "char": "亩",
-              "pinyin": "zhī",
+              "pinyin": "mǔ",
               "index": 1565
             },
             {
               "char": "之",
-              "pinyin": "yǐ",
+              "pinyin": "zhī",
               "index": 1566
             },
             {
               "char": "宅",
-              "pinyin": "sāng",
+              "pinyin": "zhái",
               "index": 1567
             },
             {
@@ -9296,22 +9098,22 @@
             },
             {
               "char": "树",
-              "pinyin": "wǔ",
+              "pinyin": "shù",
               "index": 1569
             },
             {
               "char": "之",
-              "pinyin": "shí",
+              "pinyin": "zhī",
               "index": 1570
             },
             {
               "char": "以",
-              "pinyin": "zhě",
+              "pinyin": "yǐ",
               "index": 1571
             },
             {
               "char": "桑",
-              "pinyin": "kě",
+              "pinyin": "sāng",
               "index": 1572
             },
             {
@@ -9321,42 +9123,42 @@
             },
             {
               "char": "五",
-              "pinyin": "yǐ",
+              "pinyin": "wǔ",
               "index": 1574
             },
             {
               "char": "十",
-              "pinyin": "yì",
+              "pinyin": "shí",
               "index": 1575
             },
             {
               "char": "者",
-              "pinyin": "bó",
+              "pinyin": "zhě",
               "index": 1576
             },
             {
               "char": "可",
-              "pinyin": "yǐ",
+              "pinyin": "kě",
               "index": 1577
             },
             {
               "char": "以",
-              "pinyin": "jī",
+              "pinyin": "yǐ",
               "index": 1578
             },
             {
               "char": "衣",
-              "pinyin": "tún",
+              "pinyin": "yì",
               "index": 1579
             },
             {
               "char": "帛",
-              "pinyin": "gǒu",
+              "pinyin": "bó",
               "index": 1580
             },
             {
               "char": "矣",
-              "pinyin": "zhì",
+              "pinyin": "yǐ",
               "index": 1581
             },
             {
@@ -9365,7 +9167,7 @@
               "index": 1582
             }
           ],
-          "translation": "",
+          "translation": "所以老百姓跟随国君走就容易了。",
           "notes": [
             {
               "start": 15,
@@ -9378,7 +9180,7 @@
           "content": [
             {
               "char": "鸡",
-              "pinyin": "zhī",
+              "pinyin": "jī",
               "index": 1583
             },
             {
@@ -9388,7 +9190,7 @@
             },
             {
               "char": "豚",
-              "pinyin": "chù",
+              "pinyin": "tún",
               "index": 1585
             },
             {
@@ -9398,7 +9200,7 @@
             },
             {
               "char": "狗",
-              "pinyin": "wú",
+              "pinyin": "gǒu",
               "index": 1587
             },
             {
@@ -9408,17 +9210,17 @@
             },
             {
               "char": "彘",
-              "pinyin": "shī",
+              "pinyin": "zhì",
               "index": 1589
             },
             {
               "char": "之",
-              "pinyin": "qí",
+              "pinyin": "zhī",
               "index": 1590
             },
             {
               "char": "畜",
-              "pinyin": "shí",
+              "pinyin": "chù",
               "index": 1591
             },
             {
@@ -9428,22 +9230,22 @@
             },
             {
               "char": "无",
-              "pinyin": "qī",
+              "pinyin": "wú",
               "index": 1593
             },
             {
               "char": "失",
-              "pinyin": "shí",
+              "pinyin": "shī",
               "index": 1594
             },
             {
               "char": "其",
-              "pinyin": "zhě",
+              "pinyin": "qí",
               "index": 1595
             },
             {
               "char": "时",
-              "pinyin": "kě",
+              "pinyin": "shí",
               "index": 1596
             },
             {
@@ -9453,7 +9255,7 @@
             },
             {
               "char": "七",
-              "pinyin": "yǐ",
+              "pinyin": "qī",
               "index": 1598
             },
             {
@@ -9463,32 +9265,32 @@
             },
             {
               "char": "者",
-              "pinyin": "ròu",
+              "pinyin": "zhě",
               "index": 1600
             },
             {
               "char": "可",
-              "pinyin": "yǐ",
+              "pinyin": "kě",
               "index": 1601
             },
             {
               "char": "以",
-              "pinyin": "bǎi",
+              "pinyin": "yǐ",
               "index": 1602
             },
             {
               "char": "食",
-              "pinyin": "mǔ",
+              "pinyin": "shí",
               "index": 1603
             },
             {
               "char": "肉",
-              "pinyin": "zhī",
+              "pinyin": "ròu",
               "index": 1604
             },
             {
               "char": "矣",
-              "pinyin": "tián",
+              "pinyin": "yǐ",
               "index": 1605
             },
             {
@@ -9497,7 +9299,7 @@
               "index": 1606
             }
           ],
-          "translation": "",
+          "translation": "如今，规定人民的产业，上不能赡养父母，下不能养活妻子儿女，好年景也总是生活在困苦之中，坏年景免不了要饿死。",
           "notes": [
             {
               "start": 6,
@@ -9515,22 +9317,22 @@
           "content": [
             {
               "char": "百",
-              "pinyin": "wù",
+              "pinyin": "bǎi",
               "index": 1607
             },
             {
               "char": "亩",
-              "pinyin": "duó",
+              "pinyin": "mǔ",
               "index": 1608
             },
             {
               "char": "之",
-              "pinyin": "qí",
+              "pinyin": "zhī",
               "index": 1609
             },
             {
               "char": "田",
-              "pinyin": "shí",
+              "pinyin": "tián",
               "index": 1610
             },
             {
@@ -9540,22 +9342,22 @@
             },
             {
               "char": "勿",
-              "pinyin": "bā",
+              "pinyin": "wù",
               "index": 1612
             },
             {
               "char": "夺",
-              "pinyin": "kǒu",
+              "pinyin": "duó",
               "index": 1613
             },
             {
               "char": "其",
-              "pinyin": "zhī",
+              "pinyin": "qí",
               "index": 1614
             },
             {
               "char": "时",
-              "pinyin": "jiā",
+              "pinyin": "shí",
               "index": 1615
             },
             {
@@ -9565,47 +9367,47 @@
             },
             {
               "char": "八",
-              "pinyin": "kě",
+              "pinyin": "bā",
               "index": 1617
             },
             {
               "char": "口",
-              "pinyin": "yǐ",
+              "pinyin": "kǒu",
               "index": 1618
             },
             {
               "char": "之",
-              "pinyin": "wú",
+              "pinyin": "zhī",
               "index": 1619
             },
             {
               "char": "家",
-              "pinyin": "jī",
+              "pinyin": "jiā",
               "index": 1620
             },
             {
               "char": "可",
-              "pinyin": "yǐ",
+              "pinyin": "kě",
               "index": 1621
             },
             {
               "char": "以",
-              "pinyin": "jǐn",
+              "pinyin": "yǐ",
               "index": 1622
             },
             {
               "char": "无",
-              "pinyin": "xiáng",
+              "pinyin": "wú",
               "index": 1623
             },
             {
               "char": "饥",
-              "pinyin": "xù",
+              "pinyin": "jī",
               "index": 1624
             },
             {
               "char": "矣",
-              "pinyin": "zhī",
+              "pinyin": "yǐ",
               "index": 1625
             },
             {
@@ -9614,7 +9416,7 @@
               "index": 1626
             }
           ],
-          "translation": "",
+          "translation": "这样，只把自己从死亡中救出来，恐怕还不够，哪里还顾得上讲求礼义呢？",
           "notes": [
             {
               "start": 0,
@@ -9627,27 +9429,27 @@
           "content": [
             {
               "char": "谨",
-              "pinyin": "jiào",
+              "pinyin": "jǐn",
               "index": 1627
             },
             {
               "char": "庠",
-              "pinyin": "shēn",
+              "pinyin": "xiáng",
               "index": 1628
             },
             {
               "char": "序",
-              "pinyin": "zhī",
+              "pinyin": "xù",
               "index": 1629
             },
             {
               "char": "之",
-              "pinyin": "yǐ",
+              "pinyin": "zhī",
               "index": 1630
             },
             {
               "char": "教",
-              "pinyin": "xiào",
+              "pinyin": "jiào",
               "index": 1631
             },
             {
@@ -9657,7 +9459,7 @@
             },
             {
               "char": "申",
-              "pinyin": "tì",
+              "pinyin": "shēn",
               "index": 1633
             },
             {
@@ -9667,27 +9469,27 @@
             },
             {
               "char": "以",
-              "pinyin": "yì",
+              "pinyin": "yǐ",
               "index": 1635
             },
             {
               "char": "孝",
-              "pinyin": "bān",
+              "pinyin": "xiào",
               "index": 1636
             },
             {
               "char": "悌",
-              "pinyin": "bái",
+              "pinyin": "tì",
               "index": 1637
             },
             {
               "char": "之",
-              "pinyin": "zhě",
+              "pinyin": "zhī",
               "index": 1638
             },
             {
               "char": "义",
-              "pinyin": "bù",
+              "pinyin": "yì",
               "index": 1639
             },
             {
@@ -9697,52 +9499,52 @@
             },
             {
               "char": "颁",
-              "pinyin": "fù",
+              "pinyin": "bān",
               "index": 1641
             },
             {
               "char": "白",
-              "pinyin": "dài",
+              "pinyin": "bái",
               "index": 1642
             },
             {
               "char": "者",
-              "pinyin": "yú",
+              "pinyin": "zhě",
               "index": 1643
             },
             {
               "char": "不",
-              "pinyin": "dào",
+              "pinyin": "bù",
               "index": 1644
             },
             {
               "char": "负",
-              "pinyin": "lù",
+              "pinyin": "fù",
               "index": 1645
             },
             {
               "char": "戴",
-              "pinyin": "yǐ",
+              "pinyin": "dài",
               "index": 1646
             },
             {
               "char": "于",
-              "pinyin": "lǎo",
+              "pinyin": "yú",
               "index": 1647
             },
             {
               "char": "道",
-              "pinyin": "zhě",
+              "pinyin": "dào",
               "index": 1648
             },
             {
               "char": "路",
-              "pinyin": "yì",
+              "pinyin": "lù",
               "index": 1649
             },
             {
               "char": "矣",
-              "pinyin": "bó",
+              "pinyin": "yǐ",
               "index": 1650
             },
             {
@@ -9751,7 +9553,7 @@
               "index": 1651
             }
           ],
-          "translation": "",
+          "translation": "大王真想施行仁政，为什么不回到根本上来呢？",
           "notes": [
             {
               "start": 0,
@@ -9779,32 +9581,32 @@
           "content": [
             {
               "char": "老",
-              "pinyin": "shí",
+              "pinyin": "lǎo",
               "index": 1652
             },
             {
               "char": "者",
-              "pinyin": "ròu",
+              "pinyin": "zhě",
               "index": 1653
             },
             {
               "char": "衣",
-              "pinyin": "lí",
+              "pinyin": "yì",
               "index": 1654
             },
             {
               "char": "帛",
-              "pinyin": "mín",
+              "pinyin": "bó",
               "index": 1655
             },
             {
               "char": "食",
-              "pinyin": "bù",
+              "pinyin": "shí",
               "index": 1656
             },
             {
               "char": "肉",
-              "pinyin": "jī",
+              "pinyin": "ròu",
               "index": 1657
             },
             {
@@ -9814,22 +9616,22 @@
             },
             {
               "char": "黎",
-              "pinyin": "bù",
+              "pinyin": "lí",
               "index": 1659
             },
             {
               "char": "民",
-              "pinyin": "hán",
+              "pinyin": "mín",
               "index": 1660
             },
             {
               "char": "不",
-              "pinyin": "rán",
+              "pinyin": "bù",
               "index": 1661
             },
             {
               "char": "饥",
-              "pinyin": "ér",
+              "pinyin": "jī",
               "index": 1662
             },
             {
@@ -9839,7 +9641,7 @@
             },
             {
               "char": "寒",
-              "pinyin": "wàng",
+              "pinyin": "hán",
               "index": 1664
             },
             {
@@ -9849,27 +9651,27 @@
             },
             {
               "char": "然",
-              "pinyin": "zhě",
+              "pinyin": "rán",
               "index": 1666
             },
             {
               "char": "而",
-              "pinyin": "wèi",
+              "pinyin": "ér",
               "index": 1667
             },
             {
               "char": "不",
-              "pinyin": "zhī",
+              "pinyin": "bù",
               "index": 1668
             },
             {
               "char": "王",
-              "pinyin": "yǒu",
+              "pinyin": "wàng",
               "index": 1669
             },
             {
               "char": "者",
-              "pinyin": "yě",
+              "pinyin": "zhě",
               "index": 1670
             },
             {
@@ -9879,42 +9681,36 @@
             },
             {
               "char": "未",
-              "pinyin": "",
+              "pinyin": "wèi",
               "index": 1672
             },
             {
               "char": "之",
-              "pinyin": "",
+              "pinyin": "zhī",
               "index": 1673
             },
             {
               "char": "有",
-              "pinyin": "",
+              "pinyin": "yǒu",
               "index": 1674
             },
             {
               "char": "也",
-              "pinyin": "",
+              "pinyin": "yě",
               "index": 1675
             },
             {
               "char": "。",
               "pinyin": "",
               "index": 1676
-            }
-          ],
-          "translation": "",
-          "notes": []
-        },
-        {
-          "content": [
+            },
             {
               "char": "”",
               "pinyin": "",
               "index": 1677
             }
           ],
-          "translation": "",
+          "translation": "（给每家）五亩地的住宅，种上桑树，（那么）五十岁的人就可以穿上丝织的衣服了；",
           "notes": []
         }
       ]
