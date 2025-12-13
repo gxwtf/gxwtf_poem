@@ -26,8 +26,16 @@ const __dirname = path.dirname(__filename);
 /** 强制更新列表，用于 --force 模式下指定必须覆盖的诗文名称 */
 const forceList = {
     junior: [],
-    senior: ["促织","与妻书","谏逐客书"]
+    senior: []
 };
+
+let GLOBAL_TAG_LIST = [];
+
+function parseArgList(args, key) {
+    const item = args.find(a => a.startsWith(`--${key}=`));
+    if (!item) return [];
+    return item.slice(key.length + 3).split(",").map(s => s.trim()).filter(Boolean);
+}
 
 // -------- UTIL --------
 /**
@@ -219,6 +227,13 @@ function createFullJson(version, poemName, force = false) {
             }
         }
 
+        if (Array.isArray(GLOBAL_TAG_LIST) && GLOBAL_TAG_LIST.length > 0) {
+            full.tags = Array.from(new Set([
+                ...(full.tags || []),
+                ...GLOBAL_TAG_LIST
+            ]));
+        }
+
         // 始终重新生成 paragraphs（依赖 content / translation / pinyin）
         full.paragraphs = buildParagraphs(
             meta.content || "",
@@ -250,6 +265,9 @@ let ENABLE_LOG = false;
 function main() {
     const args = process.argv.slice(2);
     ENABLE_LOG = args.includes("--log");
+
+    const forceNames = parseArgList(args, "force");
+    GLOBAL_TAG_LIST = parseArgList(args, "tags");
 
     const isAddMode = args.includes("--add");
     const isForceMode = args.includes("--force");
@@ -301,14 +319,22 @@ function main() {
     if (isForceMode) {
         console.log("🔄 开始强制更新模式...");
         const versions = ["junior", "senior"];
+
+        // 额外的跨版本强制列表（--force=A,B,C）
+        const extraForceSet = new Set(forceNames);
+
         const successList = [];
         const failList = [];
 
         for (const version of versions) {
             console.log(`\n📚 处理 ${version} 版本...`);
 
-            // 处理 forceList 中的项目
-            for (const poemName of forceList[version]) {
+            const mergedForceList = new Set([
+                ...forceList[version],
+                ...Array.from(extraForceSet)
+            ]);
+
+            for (const poemName of mergedForceList) {
                 const result = createFullJson(version, poemName, true);
 
                 if (result.success) {
