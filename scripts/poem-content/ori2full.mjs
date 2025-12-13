@@ -26,7 +26,7 @@ const __dirname = path.dirname(__filename);
 /** 强制更新列表，用于 --force 模式下指定必须覆盖的诗文名称 */
 const forceList = {
     junior: [],
-    senior: []
+    senior: ["屈原列传","苏武传","过秦论","五代史伶官传序"]
 };
 
 let GLOBAL_TAG_LIST = [];
