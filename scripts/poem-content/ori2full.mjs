@@ -26,7 +26,7 @@ const __dirname = path.dirname(__filename);
 /** 强制更新列表，用于 --force 模式下指定必须覆盖的诗文名称 */
 const forceList = {
     junior: [],
-    senior: ["子路、曾皙、冉有、公西华侍坐"]
+    senior: []
 };
 
 // -------- UTIL --------
@@ -167,23 +167,45 @@ function createFullJson(version, poemName, force = false) {
     try {
         // 创建文件夹（如果不存在）
         if (!folderExists) {
-            fs.mkdirSync(poemDir, { recursive: true, mode: 0o755 });
+            fs.mkdirSync(poemDir, { recursive: true, mode: 0o777 });
+            fs.chmodSync(poemDir, 0o777);
         }
 
-        // 构建 full.json 内容
-        const full = {};
+        let full = {};
 
-        // 复制所有字段，除了 content/translation/pinyin
-        for (const key in meta) {
-            if (!["content", "translation", "pinyin"].includes(key)) {
+        // 如果是 force 模式且 full.json 已存在，则只覆盖指定字段
+        if (force && fs.existsSync(fullPath)) {
+            full = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
+        }
+
+        // 需要强制覆盖的字段列表
+        const FORCE_KEYS = [
+            "name",
+            "author",
+            "dynasty",
+            "mode",
+            "content",
+            "translation",
+            "annotation",
+            "comprehensive_appreciation",
+            "appreciation",
+            "background",
+            "pinyin"
+        ];
+
+        // 用 meta 中的数据覆盖上述字段
+        for (const key of FORCE_KEYS) {
+            if (key === "name") {
+                full.name = poemName;
+            } else if (key === "content" || key === "translation" || key === "pinyin") {
+                // 这三个字段只用于生成 paragraphs，不直接写入 full
+                continue;
+            } else if (meta[key] !== undefined) {
                 full[key] = meta[key];
             }
         }
 
-        // 确保 name 字段使用 order.tsx 中的名称
-        full.name = poemName;
-
-        // 构建 paragraphs
+        // 始终重新生成 paragraphs（依赖 content / translation / pinyin）
         full.paragraphs = buildParagraphs(
             meta.content || "",
             meta.translation || "",
@@ -192,10 +214,11 @@ function createFullJson(version, poemName, force = false) {
 
         // 写入文件，设置权限为所有人可读写
         fs.writeFileSync(fullPath, JSON.stringify(full, null, 2), { mode: 0o666 });
+        fs.chmodSync(fullPath, 0o666);
 
         // 设置文件夹权限
         if (!folderExists) {
-            fs.chmodSync(poemDir, 0o755);
+            fs.chmodSync(poemDir, 0o777);
         }
 
         return { success: true };

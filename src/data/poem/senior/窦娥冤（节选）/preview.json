@@ -10,7 +10,13 @@
             },
             {
               "char": "外",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "“外末”的简称，传统戏曲中男性角色名。意思是正角之外的次要角色。"
+                }
+              ]
             },
             {
               "char": "扮",
@@ -114,7 +120,13 @@
             },
             {
               "char": "着",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "命令。"
+                }
+              ]
             },
             {
               "char": "做",
@@ -184,7 +196,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 8,
+              "end": 10,
+              "note": "公人，官府里的公差。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -194,7 +212,13 @@
             },
             {
               "char": "净",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "角色名，俗称“花脸”。"
+                }
+              ]
             },
             {
               "char": "扮",
@@ -238,7 +262,13 @@
             },
             {
               "char": "科",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "古代戏曲剧本中指示角色动作、表情的用语。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -412,7 +442,23 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "摇旗。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "传统戏曲中的女主角。"
+            },
+            {
+              "start": 20,
+              "end": 22,
+              "note": "走快些。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -576,7 +622,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 1,
+              "end": 2,
+              "note": "宫调之一。宫调，我国古代音乐以宫、商、角、变徵、徵、羽、变宫为七声，以其中任何一声为主，均可构成一种调式，凡以宫声为主的调式称“宫”，以其他各声为主的称“调”，合称“宫调”。杂剧的每一折，由同一宫调的若干曲牌联成一套曲子。"
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "note": "和下文的“滚绣球”“倘秀才”等都是曲牌名。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -668,7 +725,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 11,
+              "end": 19,
+              "note": "怎么不把天地呀深深地埋怨。生，甚、深。"
+            }
+          ]
         }
       ]
     },
@@ -860,7 +923,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 33,
+              "end": 43,
+              "note": "可是怎么混淆了坏人和好人？糊突，同“糊涂”，这里是“混淆”的意思。跖，传说是春秋末年奴隶起义的首领，过去被诬称为“盗跖”。颜渊，孔子弟子，被推崇为“复圣”。盗跖、颜渊，这里泛指坏人和好人。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1160,7 +1229,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "错误地判断。勘，审问。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -1472,7 +1547,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 21,
+              "end": 24,
+              "note": "意思是前倾后仰，站不稳。"
+            },
+            {
+              "start": 30,
+              "end": 32,
+              "note": "哥哥那边。哥哥，对一般男子的客气称呼。行，表示处所。宋代和元代口语里自称或者称呼别人的词的后边，有时加“行”字，意思大致相当于“这边”“那边”或者“这里”“那里”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2140,7 +2226,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 15,
+              "end": 18,
+              "note": "进京考试。取应，参加科举考试。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2652,7 +2744,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 18,
+              "end": 19,
+              "note": "吃刀，挨刀。"
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "note": "元明戏曲中常用的衬词，无义。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2804,7 +2907,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 1,
+              "end": 2,
+              "note": "元杂剧中的老年妇女角色。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "note": "这，这个。与“不”连用，表示反问，如同说“这岂不”“怎的不”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -2958,7 +3072,13 @@
             },
             {
               "char": "咱",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "语气助词，表示祈使。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -3554,7 +3674,13 @@
             },
             {
               "char": "瀽",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "泼，倒。"
+                }
+              ]
             },
             {
               "char": "不",
@@ -3620,7 +3746,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 15,
+              "note": "冬至和过年，初一和十五。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3674,7 +3806,13 @@
             },
             {
               "char": "陌",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "量词，用于祭奠时所烧的纸钱，相当于“叠”。"
+                }
+              ]
             },
             {
               "char": "儿",
@@ -3740,7 +3878,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "只当是。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -3912,7 +4056,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 5,
+              "end": 13,
+              "note": "可怜我窦娥被官府糊里糊涂地判了死罪。葫芦提，当时的口语，“糊里糊涂”的意思。愆，罪过。"
+            },
+            {
+              "start": 31,
+              "end": 33,
+              "note": "操劳家务。家缘，家务。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -4134,7 +4289,13 @@
             },
             {
               "char": "烈",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "烧。"
+                }
+              ]
             },
             {
               "char": "些",
@@ -4190,7 +4351,13 @@
             },
             {
               "char": "荐",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "祭奠。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -4564,7 +4731,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 13,
+              "end": 16,
+              "note": "糊里糊涂。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5182,7 +5355,13 @@
             },
             {
               "char": "者",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "语气助词，用于句末，表示祈使。"
+                }
+              ]
             },
             {
               "char": "。",
@@ -5192,7 +5371,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "白色熟绢。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "旗杆头。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5272,7 +5462,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 12,
+              "end": 16,
+              "note": "有什么要紧。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5302,7 +5498,13 @@
             },
             {
               "char": "站",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "这里指让窦娥站着。"
+                }
+              ]
             },
             {
               "char": "科",
@@ -5422,7 +5624,13 @@
             },
             {
               "char": "罚",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "这里是“发”的意思。"
+                }
+              ]
             },
             {
               "char": "下",
@@ -5576,7 +5784,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 11,
+              "end": 18,
+              "note": "也显不出天理昭彰。湛湛，清明澄澈。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5672,7 +5886,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 7,
+              "end": 9,
+              "note": "洒在土地上。红尘，土地。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -5772,7 +5992,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 13,
+              "end": 16,
+              "note": "苌弘是周朝的贤臣。相传他无罪被杀，他的血被蜀人藏起来，三年后变成了碧玉。碧，青绿色的美玉。"
+            },
+            {
+              "start": 18,
+              "end": 21,
+              "note": "望帝是古代传说中蜀王杜宇的称号。相传他因水灾让位给他的臣子，自己隐居山中，死后化为杜鹃，日夜悲啼，直到吐血。"
+            }
+          ]
         }
       ]
     },
@@ -6104,7 +6335,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 17,
+              "end": 18,
+              "note": "天气。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6330,7 +6567,13 @@
             },
             {
               "char": "暄",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "炎热。"
+                }
+              ]
             },
             {
               "char": "，",
@@ -6420,7 +6663,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 9,
+              "note": "邹衍是战国时燕国的臣子。相传他遭谗言被囚禁，入狱时仰天大哭，当时正当夏天，竟然下起霜来。后来常用“六月飞霜”来表示冤狱。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6548,7 +6797,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 15,
+              "end": 18,
+              "note": "指雪花。雪的结晶体一般有六瓣，所以说“六出”。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -6620,7 +6875,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 6,
+              "note": "指送葬的车马。"
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "note": "发送往。断送，发送，指殡葬。"
+            }
+          ]
         }
       ]
     },
@@ -6776,7 +7042,18 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 29,
+              "end": 30,
+              "note": "州名，治所在山阳（今江苏淮安）。"
+            },
+            {
+              "start": 31,
+              "end": 32,
+              "note": "大旱。亢，极。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7152,7 +7429,13 @@
           "translation": {
             "translation": ""
           },
-          "notes": []
+          "notes": [
+            {
+              "start": 3,
+              "end": 9,
+              "note": "此事见于《说苑·贵德》《汉书·于定国传》等，记东海孝妇蒙冤被杀，郡中大旱三年。"
+            }
+          ]
         },
         {
           "sentence": [
@@ -7178,7 +7461,13 @@
             },
             {
               "char": "每",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "表示复数，相当于“们”。"
+                }
+              ]
             },
             {
               "char": "无",
@@ -7346,7 +7635,13 @@
             },
             {
               "char": "内",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "指后台。"
+                }
+              ]
             },
             {
               "char": "做",
@@ -7530,7 +7825,13 @@
             },
             {
               "char": "题",
-              "pinyin": ""
+              "pinyin": "",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "提。"
+                }
+              ]
             },
             {
               "char": "遍",
