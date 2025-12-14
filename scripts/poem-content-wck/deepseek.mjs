@@ -3,8 +3,8 @@ import OpenAI from 'openai';
 const openai = new OpenAI({
 	// baseURL: "https://openrouter.ai/api/v1",
 	// apiKey: "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"
-	baseURL: "http://gxwtf.cn:8000/v1",
-	apiKey: "1145141919810"
+	baseURL: "https://tuxun.gxwtf.cn/v1",
+	apiKey: "sk-dIwE5BCGLmKSB1ZThBvGMbYbR9BRTeCGrAjFcBjm07qtFVXz"
 });
 
 function removeThinkTags(input) {
@@ -24,7 +24,8 @@ export default async function deepseekChat(prompt, unused) {
 			// model: "qwen/qwen3-235b-a22b:free",
 			// model: "deepseek/deepseek-r1-0528:free",
 			// model: "deepseek/deepseek-chat-v3.1:free",
-			model: 'Qwen3-VL-235B-A22B-Instruct-FP8-DYNAMIC',
+			// model: 'glm-4.6-fp8',
+			model: 'Qwen3-Omni-30B-A3B-Instruct-AWQ-8bit',
 			messages: [{ role: "user", content: prompt }],
 			stream: true
 		});
