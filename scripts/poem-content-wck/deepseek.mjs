@@ -17,7 +17,7 @@ function removeThinkTags(input) {
 }
 
 export default async function deepseekChat(prompt, unused) {
-	console.log('DeepSeek Chat: ' + prompt);
+	// console.log('DeepSeek Chat: ' + prompt);
 
 	try {
 		const stream = await openai.chat.completions.create({
