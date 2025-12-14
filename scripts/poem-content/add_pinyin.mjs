@@ -9,6 +9,15 @@ const __dirname = path.dirname(__filename);
 
 const versions = ["junior", "senior"];
 
+const forceArg = process.argv.find(arg => arg.startsWith("--force="));
+const forceList = forceArg
+    ? forceArg
+          .replace("--force=", "")
+          .split(",")
+          .map(s => s.trim())
+          .filter(Boolean)
+    : null;
+
 
 function hasAnyPinyin(full) {
     for (const para of full.paragraphs || []) {
@@ -46,8 +55,13 @@ function main() {
                 continue;
             }
 
-            // 已有拼音：完全跳过，不输出
-            if (hasAnyPinyin(full)) continue;
+            // --force 指定时：只处理列表中的篇目
+            if (forceList && !forceList.includes(full.name || dir)) {
+                continue;
+            }
+
+            // 已有拼音：非 force 模式下才跳过
+            if (!forceList && hasAnyPinyin(full)) continue;
 
             const nameNormalized = normalizeName(full.name || dir);
 
@@ -59,8 +73,22 @@ function main() {
                 continue;
             }
 
+            // force 模式：先清空原有拼音
+            if (forceList) {
+                for (const para of full.paragraphs || []) {
+                    for (const sentence of para.sentences || []) {
+                        for (const ch of sentence.content || []) {
+                            ch.pinyin = "";
+                        }
+                    }
+                }
+            }
+
             let idx = 0;
-            const pinyinList = meta.pinyin.split(/\s+/);
+            const pinyinList = meta.pinyin
+                .split(/\s+/)
+                .map(s => s.trim())
+                .filter(s => s !== "");
 
             for (const para of full.paragraphs || []) {
                 for (const sentence of para.sentences || []) {
