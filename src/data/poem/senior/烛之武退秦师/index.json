@@ -8,6 +8,11 @@
   "pinyin": "jìn hóu qín bó wéi zhèng yǐ qí wú lǐ yú jìn qiě èr yú chǔ yě jìn jūn hán líng qín jūn fán nán yì zhī hú yán yú zhèng bó yuē guó wēi yǐ ruò shǐ zhú zhī wǔ jiàn qín jūn shī bì tuì gōng cóng zhī cí yuē chén zhī zhuàng yě yóu bù rú rén jīn lǎo yǐ wú néng wéi yě yǐ gōng yuē wú bù néng zǎo yòng zǐ jīn jí ér qiú zǐ shì guǎ rén zhī guò yě rán zhèng wáng zǐ yì yǒu bù lì yān xǔ zhī yè zhuì ér chū jiàn qín bó yuē qín jìn wéi zhèng zhèng jì zhī wáng yǐ ruò wáng zhèng ér yǒu yì yú jūn gǎn yǐ fán zhí shì yuè guó yǐ bǐ yuǎn jūn zhī qí nán yě yān yòng wáng zhèng yǐ péi lín lín zhī hòu jūn zhī bó yě ruò shě zhèng yǐ wéi dōng dào zhǔ xíng lǐ zhī wǎng lái gōng qí fá kùn jūn yì wú suǒ hài qiě jūn cháng wèi jìn jūn cì yǐ xǔ jūn jiāo xiá zhāo jì ér xī shè bǎn yān jūn zhī suǒ zhī yě fú jìn hé yàn zhī yǒu jì dōng fēng zhèng yòu yù sì qí xī fēng ruò bù quē qín jiāng yān qǔ zhī quē qín yǐ lì jìn wéi jūn tú zhī qín bó yuè yǔ zhèng rén méng shǐ qǐ zǐ féng sūn yáng sūn shù zhī nǎi huán zǐ fàn qǐng jī zhī gōng yuē bù kě wēi fú rén zhī lì bù jí cǐ yīn rén zhī lì ér bì zhī bù rén shī qí suǒ yǔ bù zhì yǐ luàn yì zhěng bù wǔ wú qí huán yě yì qù zhī ",
   "notes": [
     {
+      "start": 0,
+      "end": 4,
+      "note": "指晋文公和秦穆公。秦穆公（？一前621），名任好，秦国国君，春秋五霸之"
+    },
+    {
       "start": 10,
       "end": 13,
       "note": "指晋文公早年出亡经过郑国时，郑国没有以应有的礼遇对待他。"
@@ -35,7 +40,7 @@
     {
       "start": 36,
       "end": 37,
-      "note": "指郑文公（？—前６２８），名捷，郑国国君。"
+      "note": "指郑文公（？一前628），名捷，郑国国君。"
     },
     {
       "start": 69,
@@ -105,12 +110,7 @@
     {
       "start": 223,
       "end": 228,
-      "note": "曾经给予晋君恩惠。为，给予。赐，恩惠。这里指秦穆公曾派兵护送晋惠公回国的事。"
-    },
-    {
-      "start": 230,
-      "end": 234,
-      "note": "（晋惠公）答应给您焦、瑕这两个地方。焦、瑕，均在今河南三门峡一带。"
+      "note": "曾经给予晋君恩惠。为，给予赐，恩惠。这里指秦穆公曾派兵护送晋惠公回国的事。"
     },
     {
       "start": 236,
@@ -185,7 +185,8 @@
   ],
   "tags": [
     "必修下",
-    "文言文"
+    "文言文",
+    "历史"
   ],
   "videos": []
 }
