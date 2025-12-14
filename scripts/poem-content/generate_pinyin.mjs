@@ -7,11 +7,31 @@ function cleanPinyin(str) {
 
     let s = str;
 
-    // ① 将 / 先替换成空格（而不是直接删除）
+    // ① 统一分隔符：/ → 空格
     s = s.replace(/[\/]/g, " ");
 
-    // ② 去除中英文标点（保留字母与空格）
-    s = s.replace(/[，。！？；：、“”‘’（）《》〈〉【】〔〕—…·.,!?;:'"()\[\]{}<>]/g, "");
+    // ② 去除所有已知标点符号（中英 + 梵文句号等）
+    s = s.replace(
+        /[，。！？；：、“”‘’（）《》〈〉【】〔〕—…·｡．.,!?;:'"()\[\]{}<>。॥।]/g,
+        ""
+    );
+
+    // ③ 只保留【允许的拼音字符集】
+    // 允许：a-z、A-Z、声调元音、ü/Ü、空格
+    // 其余（汉字、乱码、符号）全部删除
+    s = s.replace(
+        /[^a-zA-ZāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüÜ\s]/g,
+        ""
+    );
+
+    // // ④ 修复拼音黏连（声调元音/元音 + 辅音开头）
+    // s = s.replace(
+    //     /([aeiouüāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ])([bpmfdtnlgkhjqxrzcsyw])/gi,
+    //     "$1 $2"
+    // );
+
+    // ⑤ 空格规范化：多个 → 一个
+    s = s.replace(/\s+/g, " ").trim();
 
     return s;
 }
@@ -60,7 +80,10 @@ async function main() {
     for (const item of data) {
         if (item.pinyin && item.pinyin.trim() !== '') {
             const cleaned = cleanPinyin(item.pinyin);
+
+            // 已有拼音但不合格：需要修复并输出标题
             if (cleaned !== item.pinyin) {
+                console.log(item.name || '');
                 item.pinyin = cleaned;
                 await fs.writeFile(
                     filePath,
@@ -68,6 +91,7 @@ async function main() {
                     'utf-8'
                 );
             }
+
             continue;
         }
 
