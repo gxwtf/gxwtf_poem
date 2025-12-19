@@ -6,6 +6,23 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// 检查内容是否存在的函数
+function hasContent(data, field) {
+  if (Array.isArray(data[field])) {
+    return data[field] && data[field].length > 0;
+  }
+  return data[field] && data[field].length > 0;
+}
+
+// 段落格式化函数，每段前面加两个全角空格
+function paragraph(text) {
+  if (!text) return '';
+  // 按换行符分割成段落，每段前面加两个全角空格
+  return text.split('\n')
+    .map(line => line.trim() ? `　　${line}` : line)
+    .join('\n');
+}
+
 function convert(data) {
   // 构建基础 MDX 内容
   let mdxContent = `import { Meta } from '@/components/poem-meta';
@@ -27,24 +44,24 @@ import { PoemQuoteCard, PoemQuoteCards } from "@/components/poem-quote-card"
 </MemorizeContextProvider>
 `;
 
-  // 检查是否有推荐数据
-  if (data.background && data.background.length > 0) {
+  // 检查是否有背景数据
+  if (hasContent(data, 'background')) {
     mdxContent += `
 ## 写作背景
 
-${data.background}
+${paragraph(data.background)}
 `}
 
-  // 检查是否有推荐数据
-  if (data.appreciation && data.appreciation.length > 0) {
+  // 检查是否有赏析数据
+  if (hasContent(data, 'appreciation')) {
     mdxContent += `
 ## 作品赏析
 
-${data.appreciation}
+${paragraph(data.appreciation)}
 `}
 
   // 检查是否有推荐数据
-  if (data.recommends && Array.isArray(data.recommends) && data.recommends.length > 0) {
+  if (hasContent(data, 'recommends')) {
     mdxContent += `
 ## 猜你还想学
 
@@ -53,7 +70,7 @@ ${data.appreciation}
   }
 
   // 检查是否有视频数据
-  if (data.videos && Array.isArray(data.videos) && data.videos.length > 0) {
+  if (hasContent(data, 'videos')) {
     mdxContent += `
 ## 更多学习视频
 
