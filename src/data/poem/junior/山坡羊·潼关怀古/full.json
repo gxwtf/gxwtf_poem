@@ -1,0 +1,512 @@
+{
+  "name": "山坡羊·潼关怀古",
+  "author": "张养浩",
+  "dynasty": "元代",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "峰",
+              "pinyin": "zhōng",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "峦",
+              "pinyin": "gǔ",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "gāo",
+              "index": 2,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "聚",
+              "pinyin": "yún",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "波",
+              "pinyin": "cù",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涛",
+              "pinyin": "cǐ",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "chéng",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怒",
+              "pinyin": "qiū",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "fēng",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "河",
+              "pinyin": "chuī",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "表",
+              "pinyin": "sàn",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "里",
+              "pinyin": "mǎ",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "潼",
+              "pinyin": "tí",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "关",
+              "pinyin": "shēng",
+              "index": 15,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "路",
+              "pinyin": "hé",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 17,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "山峰像在聚集，波涛像在愤怒，山峦和河流内外是通往潼关的道路。",
+          "pinyin": "fēng luán rú jù ， bō tāo rú nù ， shān hé biǎo lǐ tóng guān lù 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "峰峦：高而尖的山峰与连绵的山岭，此处指华山一带群山。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "聚：聚集，此处用作动词，形容群峰如向潼关汇聚，拟人手法。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "怒：发怒，形容波涛汹涌澎湃，赋予黄河以情感色彩。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "表里：外表与内里，指潼关外有黄河，内有华山，地势险要。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "content": "潼关：古关隘名，在今陕西潼关县北，为历代兵家必争之地。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "望",
+              "pinyin": "liú",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "西",
+              "pinyin": "dà",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "都",
+              "pinyin": "yě",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "意",
+              "pinyin": "yóu",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "踌",
+              "pinyin": "xián",
+              "index": 23,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "躇",
+              "pinyin": "shù",
+              "index": 24,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 25,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "遥望西京长安，心中犹豫不决。",
+          "pinyin": "wàng xī dū ， yì chóu chú 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 2,
+              "content": "西都：指长安，汉唐故都，位于潼关以西，故称西都。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "content": "踌躇：原指犹豫不决，此处引申为感慨万千、心潮起伏，因目睹古都遗迹而伤怀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "伤",
+              "pinyin": "shān",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "rù",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "秦",
+              "pinyin": "tóng",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汉",
+              "pinyin": "guān",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "经",
+              "pinyin": "bù",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "jiě",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "处",
+              "pinyin": "píng",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宫",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阙",
+              "index": 35,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "万",
+              "index": 36,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "间",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "都",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "做",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "了",
+              "index": 40,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "土",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 42,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "伤心在秦汉王朝经过的地方，千万间宫殿都已化为尘土。",
+          "pinyin": "shāng xīn qín hàn jīng xíng chù ， gōng què wàn jiān dōu zuò le tǔ 。",
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "content": "宫阙：帝王居住的宫殿，代指王朝都城建筑群。宫：帝王住所；阙：宫门前的楼台。"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "content": "万间：夸张手法，极言宫殿数量之多，反映秦汉时期都城的宏伟。"
+            },
+            {
+              "start": 14,
+              "end": 14,
+              "content": "做：变为、成为，古文中常用于表示转变结果，与现代‘做工作’等义不同。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 14,
+              "end": 14,
+              "old": "成为、变为"
+            },
+            {
+              "start": 14,
+              "end": 14,
+              "new": "制造、从事"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "兴",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 44,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "百",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "姓",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "苦",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亡",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "百",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "姓",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "苦",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 54,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "兴盛时，百姓受苦；灭亡时，百姓受苦。",
+          "pinyin": "xīng ， bǎi xìng kǔ ； wáng ， bǎi xìng kǔ 。",
+          "notes": [
+            {
+              "start": 1,
+              "end": 1,
+              "content": "兴：国家兴起、兴盛，此处指朝代建立或繁荣时期。"
+            },
+            {
+              "start": 7,
+              "end": 7,
+              "content": "亡：国家灭亡、衰败，与‘兴’形成强烈对比。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 1,
+              "end": 11,
+              "content": "‘兴，百姓苦；亡，百姓苦’为判断句并列结构，主谓倒装，强调无论兴亡百姓皆苦，属对比式特殊句式。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "九下",
+    "山坡羊",
+    "怀古",
+    "元曲"
+  ],
+  "background": "张养浩为官清廉，爱民如子。天历二年（1329年），因关中旱灾，被任命为陕西行台中丞以赈灾民。他命驾西秦过程中，亲睹人民的深重灾难，散尽家财，尽心尽力去救灾。《山坡羊·潼关怀古》当作于“关中大旱”之际。",
+  "appreciation": "《山坡羊·潼关怀古》是一首散曲。此曲抚今追昔，由历代王朝的兴衰引到人民百姓的苦难，一针见血地点出了封建统治与人民的对立，表现了作者对历史的思索和对人民的深切同情。全曲采用层层深入的方式，由写景而怀古，再引发议论，将苍茫的景色、深沉的情感和精辞的议论三者完美结合，具有强烈的感染力，字里行间充满着历史的沧桑感和时代感，既有怀古诗的特色，又有与众不同的沉郁风格。"
+}

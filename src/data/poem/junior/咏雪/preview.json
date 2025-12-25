@@ -1,0 +1,485 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "谢",
+              "pinyin": "xiè"
+            },
+            {
+              "char": "太",
+              "pinyin": "tài"
+            },
+            {
+              "char": "傅",
+              "pinyin": "fù"
+            },
+            {
+              "char": "寒",
+              "pinyin": "hán"
+            },
+            {
+              "char": "雪",
+              "pinyin": "xuě"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "内",
+              "pinyin": "nèi"
+            },
+            {
+              "char": "集",
+              "pinyin": "jí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "儿",
+              "pinyin": "ér"
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ"
+            },
+            {
+              "char": "讲",
+              "pinyin": "jiǎng"
+            },
+            {
+              "char": "论",
+              "pinyin": "lùn"
+            },
+            {
+              "char": "文",
+              "pinyin": "wén"
+            },
+            {
+              "char": "义",
+              "pinyin": "yì"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "谢安在寒冷雪日家庭聚会，与子侄辈讲解诗文义理。"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "内集：家庭内部聚会，指谢安与子侄辈聚集。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "note": "儿女：此处泛指子侄辈，不限于亲生子女。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "note": "文义：诗文的义理或内容，指文学讨论的主题。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "俄",
+              "pinyin": "é"
+            },
+            {
+              "char": "而",
+              "pinyin": "ér"
+            },
+            {
+              "char": "雪",
+              "pinyin": "xuě"
+            },
+            {
+              "char": "骤",
+              "pinyin": "zhòu",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "骤：急、猛，形容雪下得急促。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "公",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "欣",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "然",
+              "pinyin": "rán"
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē"
+            },
+            {
+              "char": "：",
+              "pinyin": "　"
+            },
+            {
+              "char": "“",
+              "pinyin": "　"
+            },
+            {
+              "char": "白",
+              "pinyin": "bái"
+            },
+            {
+              "char": "雪",
+              "pinyin": "xuě"
+            },
+            {
+              "char": "纷",
+              "pinyin": "fēn"
+            },
+            {
+              "char": "纷",
+              "pinyin": "fēn"
+            },
+            {
+              "char": "何",
+              "pinyin": "hé"
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "似",
+              "pinyin": "sì"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "不久雪势转急，谢公兴致勃勃地问：“这纷纷扬扬的白雪像什么？”"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "俄而：不久，一会儿，表示时间短暂。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "note": "欣然：高兴的样子。欣，喜悦；然，形容词词尾。"
+            },
+            {
+              "start": 15,
+              "end": 17,
+              "note": "何所似：像什么？‘何’为疑问代词作宾语前置。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "兄",
+              "pinyin": "xiōng"
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ"
+            },
+            {
+              "char": "胡",
+              "pinyin": "hú"
+            },
+            {
+              "char": "儿",
+              "pinyin": "ér"
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē"
+            },
+            {
+              "char": "：",
+              "pinyin": "　"
+            },
+            {
+              "char": "“",
+              "pinyin": "　"
+            },
+            {
+              "char": "撒",
+              "pinyin": "sǎ"
+            },
+            {
+              "char": "盐",
+              "pinyin": "yán"
+            },
+            {
+              "char": "空",
+              "pinyin": "kōng"
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng"
+            },
+            {
+              "char": "差",
+              "pinyin": "chā"
+            },
+            {
+              "char": "可",
+              "pinyin": "kě"
+            },
+            {
+              "char": "拟",
+              "pinyin": "nǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "侄子谢朗说：“勉强可比作空中撒盐。”"
+          },
+          "notes": [
+            {
+              "start": 11,
+              "end": 13,
+              "note": "差可拟：大致可以相比。差，大致；拟，比拟。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "兄",
+              "pinyin": "xiōng"
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ"
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē"
+            },
+            {
+              "char": "：",
+              "pinyin": "　"
+            },
+            {
+              "char": "“",
+              "pinyin": "　"
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò"
+            },
+            {
+              "char": "柳",
+              "pinyin": "liǔ"
+            },
+            {
+              "char": "絮",
+              "pinyin": "xù"
+            },
+            {
+              "char": "因",
+              "pinyin": "yīn"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            },
+            {
+              "char": "”",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "侄女道：“不如比作柳絮乘风起舞。”"
+          },
+          "notes": [
+            {
+              "start": 5,
+              "end": 6,
+              "note": "未若：不如，比不上。"
+            },
+            {
+              "start": 9,
+              "end": 11,
+              "note": "因风起：随风而起。因，凭借、随着。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "公",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "大",
+              "pinyin": "dà"
+            },
+            {
+              "char": "笑",
+              "pinyin": "xiào"
+            },
+            {
+              "char": "乐",
+              "pinyin": "lè"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "谢安开怀大笑。"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 4,
+              "note": "大笑乐：大笑并感到快乐，形容气氛欢快。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "即",
+              "pinyin": "jí"
+            },
+            {
+              "char": "公",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "大",
+              "pinyin": "dà"
+            },
+            {
+              "char": "兄",
+              "pinyin": "xiōng"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "奕",
+              "pinyin": "yì"
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "左",
+              "pinyin": "zuǒ"
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn"
+            },
+            {
+              "char": "王",
+              "pinyin": "wáng"
+            },
+            {
+              "char": "凝",
+              "pinyin": "níng"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "妻",
+              "pinyin": "qī"
+            },
+            {
+              "char": "也",
+              "pinyin": "yě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "这女孩正是谢安长兄谢无奕之女，后来成为左将军王凝之的妻子。"
+          },
+          "notes": [
+            {
+              "start": 4,
+              "end": 6,
+              "note": "无奕女：指谢道韫，谢无奕之女，才女代表。"
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "note": "王凝之：东晋书法家王羲之次子，曾任左将军。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

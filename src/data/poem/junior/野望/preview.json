@@ -1,0 +1,346 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "东",
+              "pinyin": "dōng"
+            },
+            {
+              "char": "皋",
+              "pinyin": "gāo"
+            },
+            {
+              "char": "薄",
+              "pinyin": "bó"
+            },
+            {
+              "char": "暮",
+              "pinyin": "mù"
+            },
+            {
+              "char": "望",
+              "pinyin": "wàng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "黄昏伫立东皋远望，"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "东皋：地名，指作者隐居的地方，位于今山西河津。皋，水边高地。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "note": "薄暮：傍晚时分。薄，迫近、接近，此处为动词用法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "徙",
+              "pinyin": "xǐ"
+            },
+            {
+              "char": "倚",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù"
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "何：什么，疑问代词，在此句中作宾语前置。"
+                }
+              ]
+            },
+            {
+              "char": "依",
+              "pinyin": "yī",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "依：依靠，寄托。‘欲何依’即‘想要依靠什么’，表达孤独无依的情感。"
+                }
+              ]
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "徘徊不定不知归依何处。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "徙倚：徘徊，来回走动。徙，移动；倚，依靠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "树",
+              "pinyin": "shù"
+            },
+            {
+              "char": "树",
+              "pinyin": "shù"
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē"
+            },
+            {
+              "char": "秋",
+              "pinyin": "qiū"
+            },
+            {
+              "char": "色",
+              "pinyin": "sè"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "每棵树都染上秋色，"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "唯",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "落",
+              "pinyin": "luò"
+            },
+            {
+              "char": "晖",
+              "pinyin": "huī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "每座山都披着夕阳余晖。"
+          },
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "落晖：落日的余光。晖，阳光，特指夕阳之光。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "牧",
+              "pinyin": "mù"
+            },
+            {
+              "char": "人",
+              "pinyin": "rén"
+            },
+            {
+              "char": "驱",
+              "pinyin": "qū"
+            },
+            {
+              "char": "犊",
+              "pinyin": "dú",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "犊：小牛，此处指放牧归来的小牛。"
+                }
+              ]
+            },
+            {
+              "char": "返",
+              "pinyin": "fǎn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "牧人驱赶牛群返回，"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "猎",
+              "pinyin": "liè"
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ"
+            },
+            {
+              "char": "带",
+              "pinyin": "dài"
+            },
+            {
+              "char": "禽",
+              "pinyin": "qín",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "禽：古代泛指鸟兽，此处指猎获的野兽，非现代‘家禽’之意。"
+                }
+              ]
+            },
+            {
+              "char": "归",
+              "pinyin": "guī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "猎人骑马带着猎物回归。"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "相",
+              "pinyin": "xiāng"
+            },
+            {
+              "char": "顾",
+              "pinyin": "gù"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng"
+            },
+            {
+              "char": "识",
+              "pinyin": "shí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "举目四望没有相识之人，"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "长",
+              "pinyin": "cháng"
+            },
+            {
+              "char": "歌",
+              "pinyin": "gē"
+            },
+            {
+              "char": "怀",
+              "pinyin": "huái"
+            },
+            {
+              "char": "采",
+              "pinyin": "cǎi"
+            },
+            {
+              "char": "薇",
+              "pinyin": "wēi"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "长吟采薇诗怀念隐士生活。"
+          },
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "note": "采薇：典出《史记·伯夷列传》，伯夷、叔齐隐居首阳山，采薇而食，不食周粟。此处借指隐居生活，表达避世情怀。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "poem"
+}

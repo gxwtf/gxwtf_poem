@@ -1,0 +1,772 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "独",
+              "pinyin": "dú"
+            },
+            {
+              "char": "立",
+              "pinyin": "lì"
+            },
+            {
+              "char": "寒",
+              "pinyin": "hán"
+            },
+            {
+              "char": "秋",
+              "pinyin": "qiū"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "湘",
+              "pinyin": "xiāng"
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "北",
+              "pinyin": "běi"
+            },
+            {
+              "char": "去",
+              "pinyin": "qù"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "橘",
+              "pinyin": "jú"
+            },
+            {
+              "char": "子",
+              "pinyin": "zi"
+            },
+            {
+              "char": "洲",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "头",
+              "pinyin": "tóu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "在深秋一个秋高气爽的日子里，眺望着湘江碧水缓缓北流。我独自伫立在橘子洲头。"
+          },
+          "notes": [
+            {
+              "start": 10,
+              "end": 12,
+              "note": "又名水陆洲，在长沙城西的湘江中。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "看",
+              "pinyin": "kàn"
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn"
+            },
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "红",
+              "pinyin": "hóng"
+            },
+            {
+              "char": "遍",
+              "pinyin": "biàn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "层",
+              "pinyin": "céng"
+            },
+            {
+              "char": "林",
+              "pinyin": "lín"
+            },
+            {
+              "char": "尽",
+              "pinyin": "jìn"
+            },
+            {
+              "char": "染",
+              "pinyin": "rǎn"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "看万千山峰全都变成了红色，一层层树林好像染过颜色一样；"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 9,
+              "note": "山上一层层的树林全都经霜变红，像染过一样。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "漫",
+              "pinyin": "màn"
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "碧",
+              "pinyin": "bì"
+            },
+            {
+              "char": "透",
+              "pinyin": "tòu"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi"
+            },
+            {
+              "char": "舸",
+              "pinyin": "gě",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "大船。这里泛指船只。"
+                }
+              ]
+            },
+            {
+              "char": "争",
+              "pinyin": "zhēng"
+            },
+            {
+              "char": "流",
+              "pinyin": "liú"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "江水清澈澄碧，一艘艘大船乘风破浪，争先恐后。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "满江。漫，遍布。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "鹰",
+              "pinyin": "yīng"
+            },
+            {
+              "char": "击",
+              "pinyin": "jī"
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng"
+            },
+            {
+              "char": "空",
+              "pinyin": "kōng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "鱼",
+              "pinyin": "yú"
+            },
+            {
+              "char": "翔",
+              "pinyin": "xiáng"
+            },
+            {
+              "char": "浅",
+              "pinyin": "qiǎn"
+            },
+            {
+              "char": "底",
+              "pinyin": "dǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn"
+            },
+            {
+              "char": "类",
+              "pinyin": "lèi"
+            },
+            {
+              "char": "霜",
+              "pinyin": "shuāng"
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān"
+            },
+            {
+              "char": "竞",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "自",
+              "pinyin": "zì"
+            },
+            {
+              "char": "由",
+              "pinyin": "yóu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "广阔的天空里鹰在矫健有力地飞，鱼在清澈的水里轻快地游着，万物都在秋光中争着过自由自在的生活。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "note": "鹰在广阔的天上飞，鱼在清澈的水里游。击，搏击，这里形容飞得矫健有力。翔，本指鸟盘旋飞翔，这里形容鱼游得轻快自由。"
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "note": "万物都在深秋竞相自由地活动。霜天，深秋天气。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "怅",
+              "pinyin": "chàng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "失意，不畅快。这里用来表达由深思而引发的激昂慷慨的心绪。"
+                }
+              ]
+            },
+            {
+              "char": "寥",
+              "pinyin": "liáo"
+            },
+            {
+              "char": "廓",
+              "pinyin": "kuò"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "问",
+              "pinyin": "wèn"
+            },
+            {
+              "char": "苍",
+              "pinyin": "cāng"
+            },
+            {
+              "char": "茫",
+              "pinyin": "máng"
+            },
+            {
+              "char": "大",
+              "pinyin": "dà"
+            },
+            {
+              "char": "地",
+              "pinyin": "dì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "谁",
+              "pinyin": "shuí"
+            },
+            {
+              "char": "主",
+              "pinyin": "zhǔ",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "主宰。"
+                }
+              ]
+            },
+            {
+              "char": "沉",
+              "pinyin": "chén"
+            },
+            {
+              "char": "浮",
+              "pinyin": "fú"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "面对着无边无际的宇宙，（千万种思绪一齐涌上心头）我要问：这苍茫大地的盛衰兴废，由谁来决定主宰呢？"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 2,
+              "note": "指宇宙高远辽阔。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "note": "旷远迷茫。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "note": "这里指盛衰。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "携",
+              "pinyin": "xié"
+            },
+            {
+              "char": "来",
+              "pinyin": "lái"
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi"
+            },
+            {
+              "char": "侣",
+              "pinyin": "lǚ"
+            },
+            {
+              "char": "曾",
+              "pinyin": "céng"
+            },
+            {
+              "char": "游",
+              "pinyin": "yóu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "回想过去，我和我的同学，经常携手结伴来到这里游玩。在一起商讨国家大事，那无数不平凡的岁月至今还萦绕在我的心头。"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "众多同伴。侣，这里指同学。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "忆",
+              "pinyin": "yì"
+            },
+            {
+              "char": "往",
+              "pinyin": "wǎng"
+            },
+            {
+              "char": "昔",
+              "pinyin": "xī"
+            },
+            {
+              "char": "峥",
+              "pinyin": "zhēng"
+            },
+            {
+              "char": "嵘",
+              "pinyin": "róng"
+            },
+            {
+              "char": "岁",
+              "pinyin": "suì"
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "稠",
+              "pinyin": "chóu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": ""
+          },
+          "notes": [
+            {
+              "start": 3,
+              "end": 7,
+              "note": "不寻常的日子很多。峥嵘，不平凡、不寻常。稠，多。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "恰",
+              "pinyin": "qià"
+            },
+            {
+              "char": "同",
+              "pinyin": "tóng"
+            },
+            {
+              "char": "学",
+              "pinyin": "xué"
+            },
+            {
+              "char": "少",
+              "pinyin": "shào"
+            },
+            {
+              "char": "年",
+              "pinyin": "nián"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "华",
+              "pinyin": "huá"
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng"
+            },
+            {
+              "char": "茂",
+              "pinyin": "mào"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "同学们正值青春年少，风华正茂；"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 9,
+              "note": "风采才华正盛。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "书",
+              "pinyin": "shū"
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "意",
+              "pinyin": "yì"
+            },
+            {
+              "char": "气",
+              "pinyin": "qì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "挥",
+              "pinyin": "huī"
+            },
+            {
+              "char": "斥",
+              "pinyin": "chì"
+            },
+            {
+              "char": "方",
+              "pinyin": "fāng"
+            },
+            {
+              "char": "遒",
+              "pinyin": "qiú"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "大家踌躇满志，意气奔放，正强劲有力。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "note": "同学们意气奔放，正强劲有力。挥斥，纵放、奔放。遒，强劲有力。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "指",
+              "pinyin": "zhǐ"
+            },
+            {
+              "char": "点",
+              "pinyin": "diǎn"
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "激",
+              "pinyin": "jī"
+            },
+            {
+              "char": "扬",
+              "pinyin": "yáng"
+            },
+            {
+              "char": "文",
+              "pinyin": "wén"
+            },
+            {
+              "char": "字",
+              "pinyin": "zì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "粪",
+              "pinyin": "fèn"
+            },
+            {
+              "char": "土",
+              "pinyin": "tǔ"
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng"
+            },
+            {
+              "char": "年",
+              "pinyin": "nián"
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn"
+            },
+            {
+              "char": "户",
+              "pinyin": "hù"
+            },
+            {
+              "char": "侯",
+              "pinyin": "hòu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "评论国家大事，写出这些激浊扬清的文章，把当时那些军阀官僚看得如同粪土。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 8,
+              "note": "评论国家大事，写出激浊扬清的文章。指点，评论。江山，指国家。激扬，激浊扬清，抨击恶浊，褒扬清明。"
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "note": "意思是把当时的军阀官僚看得同粪土一样。粪土，视……如粪土，表鄙视。万户侯，本指食邑万户的封侯者，这里借指大军阀、大官僚。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "曾",
+              "pinyin": "céng"
+            },
+            {
+              "char": "记",
+              "pinyin": "jì"
+            },
+            {
+              "char": "否",
+              "pinyin": "fǒu"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "到",
+              "pinyin": "dào"
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng"
+            },
+            {
+              "char": "流",
+              "pinyin": "liú"
+            },
+            {
+              "char": "击",
+              "pinyin": "jī"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "浪",
+              "pinyin": "làng"
+            },
+            {
+              "char": "遏",
+              "pinyin": "è",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "阻止。"
+                }
+              ]
+            },
+            {
+              "char": "飞",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "可曾记得，那时我们在江水深急的地方游泳，那激起的浪花几乎挡住了疾驰而来的船?"
+          },
+          "notes": [
+            {
+              "start": 5,
+              "end": 6,
+              "note": "江河水流中央。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "note": "指游泳。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

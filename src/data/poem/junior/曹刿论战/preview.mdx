@@ -1,0 +1,25 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+import { Tags } from "@/components/tag"
+import { BilibiliVideos } from "@/components/video"
+import { PoemQuoteCard, PoemQuoteCards } from "@/components/poem-quote-card"
+
+<Meta 
+  title="曹刿论战"
+  author="左丘明"
+  dynasty="春秋"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+　　本篇选文又题作“齐鲁长勺之战”或“长勺之战”。《曹刿论战》记载了发生在公元前684年，齐借口鲁国曾帮助公子纠争夺齐国君位，再次兴兵攻鲁，两军战于长勺。
+
+## 作品赏析
+
+　　《曹刿论战》是一篇记叙文。此文讲述了曹刿在长勺之战中对此次战争的一番评论，并在战时活用“一鼓作气，再而衰，三而竭”的原理击退强大齐军的史实。文中说明了在战争中如何正确运用战略防御原则——只有“取信于民”，实行“敌疲我打”的正确方针，选择反攻和追击的有利时机，才能以小敌大，以弱胜强。

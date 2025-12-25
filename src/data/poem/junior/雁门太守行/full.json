@@ -1,0 +1,563 @@
+{
+  "name": "雁门太守行",
+  "author": "李贺",
+  "dynasty": "唐代",
+  "mode": "poem",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "黑",
+              "pinyin": "hēi",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "云",
+              "pinyin": "yún",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "压",
+              "pinyin": "yā",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "摧",
+              "pinyin": "cuī",
+              "index": 6,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "甲",
+              "pinyin": "jiǎ",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "光",
+              "pinyin": "guāng",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "向",
+              "pinyin": "xiàng",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鳞",
+              "pinyin": "lín",
+              "index": 13,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "开",
+              "pinyin": "kāi",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 15,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "黑云压城城墙欲垮，铠甲映日金鳞闪烁。",
+          "pinyin": "hēi yún yā chéng chéng yù cuī ， jiǎ guāng xiàng rì jīn lín kāi 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 6,
+              "content": "摧：毁坏，指城墙将被攻破，形容敌军来势凶猛。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "金鳞：金色的鱼鳞，比喻阳光照耀下铠甲闪烁如鱼鳞般耀眼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "角",
+              "pinyin": "jiǎo",
+              "index": 16,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "声",
+              "pinyin": "shēng",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "满",
+              "pinyin": "mǎn",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "秋",
+              "pinyin": "qiū",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "色",
+              "pinyin": "sè",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "塞",
+              "pinyin": "sài",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "上",
+              "pinyin": "shàng",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "燕",
+              "pinyin": "yān",
+              "index": 26,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "脂",
+              "pinyin": "zhī",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "凝",
+              "pinyin": "níng",
+              "index": 28,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "紫",
+              "pinyin": "zǐ",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "号角声满天秋色中，暮色里塞土凝紫如胭脂。",
+          "pinyin": "jiǎo shēng mǎn tiān qiū sè lǐ ， sài shàng yàn zhī níng yè zǐ 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 0,
+              "content": "角：军中号角，古代用于指挥军队或报时，此处指战斗号角声。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "燕脂：即胭脂，原为红色化妆品，此处借指战场上血迹在夜晚凝结成暗红色或紫色。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "状语后置：‘角声满天秋色里’应为‘角声于秋色里满天’，介词结构‘秋色里’后置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "半",
+              "pinyin": "bàn",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卷",
+              "pinyin": "juǎn",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "红",
+              "pinyin": "hóng",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "旗",
+              "pinyin": "qí",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "临",
+              "pinyin": "lín",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "易",
+              "pinyin": "yì",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "霜",
+              "pinyin": "shuāng",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "重",
+              "pinyin": "zhòng",
+              "index": 41,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "鼓",
+              "pinyin": "gǔ",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寒",
+              "pinyin": "hán",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "声",
+              "pinyin": "shēng",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "半卷红旗抵易水，霜重鼓声低沉难振。",
+          "pinyin": "bàn juǎn hóng qí lín yì shuǐ ， shuāng zhòng gǔ hán shēng bù qǐ 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "content": "易水：战国时燕国南界河流，荆轲刺秦前曾在此告别，后成为悲壮赴死的象征。"
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "content": "重：读zhòng，意为厚重、沉重，形容秋霜很厚，影响行军与击鼓。"
+            },
+            {
+              "start": 10,
+              "end": 14,
+              "content": "鼓寒声不起：鼓声因寒冷和霜重而低沉，难以传远，形容战况艰难。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "报",
+              "pinyin": "bào",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "台",
+              "pinyin": "tái",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "上",
+              "pinyin": "shàng",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "提",
+              "pinyin": "tí",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "携",
+              "pinyin": "xié",
+              "index": 57,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "玉",
+              "pinyin": "yù",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "龙",
+              "pinyin": "lóng",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wèi",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "死",
+              "pinyin": "sǐ",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 63,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "为报君王黄金台厚遇，提玉龙剑誓死报国。",
+          "pinyin": "bào jūn huáng jīn tái shàng yì ， tí xié yù lóng wèi jūn sǐ 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "黄金台：又称燕台，燕昭王为招揽贤才所筑，置千金于台上，后成为君主礼贤下士的象征。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "content": "玉龙：宝剑的代称，传说中名剑有‘玉龙’之名，此处指将士所持利剑。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "八上",
+    "诗",
+    "乐府诗"
+  ],
+  "background": "关于此诗系年，有两种说法。一种：此诗创作于公元814年（唐宪宗元和九年）。当年唐宪宗以张煦为节度使，领兵前往征讨雁门郡之乱，李贺即兴赋诗鼓舞士气，作成了这首《雁门太守行》。另一种说法，据唐张固《幽闲鼓吹》载：李贺把诗卷送给韩愈看，此诗放在卷首，韩愈看后也很欣赏。时在公元807年（元和二年）。",
+  "appreciation": "《雁门太守行》是李贺运用乐府古题创作的边塞诗。此诗用浓艳斑驳的色彩描绘悲壮惨烈的战斗场面，它通过奇异的画面准确地表现了在特定时间、地点的边塞风光以及瞬息万变的战争风云。首联以景叙事，渲染兵临城下的紧张气氛和危急形势，并借日光显示守军威武雄壮；颔联从视听两方面呈现战场的悲壮气氛和战斗的残酷；颈联则描绘了部队夜袭和浴血奋战的场面；尾联引用典故，展现出将士誓死报效国家的决心。全诗意境苍凉，格调悲壮，具有强烈的震撼力和艺术魅力。"
+}

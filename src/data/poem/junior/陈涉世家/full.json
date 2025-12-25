@@ -1,0 +1,879 @@
+{
+  "name": "陈涉世家",
+  "author": "司马迁",
+  "dynasty": "汉代",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "陈",
+              "pinyin": "chén",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "胜",
+              "pinyin": "zhě",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "yáng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阳",
+              "pinyin": "chéng",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "城",
+              "pinyin": "rén",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "yě",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "zì",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "字",
+              "pinyin": "shè",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涉",
+              "pinyin": "wú",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 11,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "陈胜是阳城人，字涉。",
+          "pinyin": "chén shèng zhě ， yáng chéng rén yě ， zì shè 。",
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "‘……者……也’为典型的文言判断句式。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "吴",
+              "pinyin": "zhě",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "广",
+              "pinyin": "yáng",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "xià",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阳",
+              "pinyin": "rén",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夏",
+              "pinyin": "yě",
+              "index": 17,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "zì",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "shū",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "字",
+              "pinyin": "chén",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "叔",
+              "pinyin": "shè",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 23,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "吴广是阳夏人，字叔。",
+          "pinyin": "wú guǎng zhě ， yáng xià rén yě ， zì shū 。"
+        },
+        {
+          "content": [
+            {
+              "char": "陈",
+              "pinyin": "shǎo",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涉",
+              "pinyin": "shí",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "少",
+              "pinyin": "cháng",
+              "index": 26,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "rén",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尝",
+              "pinyin": "gēng",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "chuò",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "gēng",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "佣",
+              "pinyin": "zhī",
+              "index": 32,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "耕",
+              "pinyin": "lǒng",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "辍",
+              "pinyin": "chàng",
+              "index": 35,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "耕",
+              "pinyin": "hèn",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "jiǔ",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "垄",
+              "pinyin": "zhī",
+              "index": 38,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "上",
+              "pinyin": "yuē",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怅",
+              "pinyin": "gǒu",
+              "index": 41,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "恨",
+              "pinyin": "fù",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "久",
+              "pinyin": "guì",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "wú",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "xiāng",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "“",
+              "pinyin": "",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "苟",
+              "pinyin": "wàng",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "富",
+              "pinyin": "zhě",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贵",
+              "pinyin": "xiào",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "ér",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "yuē",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忘",
+              "pinyin": "gēng",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "index": 56,
+              "read": false,
+              "write": false,
+              "pinyin": ""
+            },
+            {
+              "char": "”",
+              "index": 57,
+              "read": false,
+              "write": false,
+              "pinyin": ""
+            }
+          ],
+          "translation": "陈涉年轻的时候，曾经和别人一起被雇佣耕地，停止耕作走到田埂上，惆怅恼恨了很久，说：“如果富贵了，不要互相忘记。”",
+          "pinyin": "chén shè shào shí ， cháng yǔ rén yòng gēng ， chuò gēng zhī lǒng shàng ， chàng hèn jiǔ zhī ， yuē ： “gǒu fù guì ， wú xiāng wàng 。”",
+          "notes": [
+            {
+              "start": 5,
+              "end": 5,
+              "content": "尝：曾经，古义与‘品尝’不同。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "佣：被雇佣，指受雇为人耕作。"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "content": "辍：停止，中断。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "之：动词，到、往，此处指去到田埂上。"
+            },
+            {
+              "start": 14,
+              "end": 14,
+              "content": "垄：田埂，耕地中的高起小路。"
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "content": "怅恨：失意怨恨，‘怅’指失意，‘恨’指遗憾。"
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "content": "久之：‘之’为音节助词，无实义，补足语气。"
+            },
+            {
+              "start": 25,
+              "end": 25,
+              "content": "苟：如果，表假设。"
+            },
+            {
+              "start": 30,
+              "end": 30,
+              "content": "相：互相，指彼此之间。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 5,
+              "end": 5,
+              "old": "曾经"
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "new": "品尝"
+            },
+            {
+              "start": 18,
+              "end": 18,
+              "old": "遗憾"
+            },
+            {
+              "start": 18,
+              "end": 18,
+              "new": "仇恨"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "佣",
+              "pinyin": "fù",
+              "index": 58,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "者",
+              "pinyin": "guì",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "笑",
+              "pinyin": "yě",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "chén",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "应",
+              "pinyin": "shè",
+              "index": 62,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "tài",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "“",
+              "pinyin": "",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "若",
+              "pinyin": "xī",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "yuē",
+              "index": 67,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "佣",
+              "pinyin": "jiē",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耕",
+              "pinyin": "hū",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "何",
+              "pinyin": "yàn",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "富",
+              "pinyin": "què",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贵",
+              "pinyin": "ān",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "zhī",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "index": 75,
+              "read": false,
+              "write": false,
+              "pinyin": ""
+            },
+            {
+              "char": "”",
+              "index": 76,
+              "read": false,
+              "write": false,
+              "pinyin": ""
+            }
+          ],
+          "translation": "雇佣的人笑着回答说：“你是被雇佣耕地的人，哪里来的富贵呢？”",
+          "pinyin": "yòng zhě xiào ér yìng yuē ： “ruò wéi yòng gēng ， hé fù guì yě ？”",
+          "notes": [
+            {
+              "start": 3,
+              "end": 3,
+              "content": "而：连词，连接状语‘笑’与谓语‘应’，表修饰关系。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "若：你，第二人称代词。"
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "content": "为：从事，做。"
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "content": "何富贵也：反问句，意为‘怎么能富贵呢？’‘何’表反问，‘也’表疑问语气。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 13,
+              "end": 17,
+              "content": "‘何富贵也’为谓语前置的反问句，正常语序为‘富贵何也’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "陈",
+              "pinyin": "hóng",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涉",
+              "pinyin": "hú",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "太",
+              "pinyin": "zhī",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "息",
+              "pinyin": "zhì",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "zāi",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "：",
+              "pinyin": "",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "“",
+              "pinyin": "",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "嗟",
+              "pinyin": "èr",
+              "index": 84,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "乎",
+              "pinyin": "shì",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "燕",
+              "pinyin": "yuán",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雀",
+              "pinyin": "nián",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "安",
+              "pinyin": "qī",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "yuè",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鸿",
+              "pinyin": "lǘ",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鹄",
+              "pinyin": "zuǒ",
+              "index": 92,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "之",
+              "pinyin": "zhé",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "志",
+              "pinyin": "shù",
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "哉",
+              "pinyin": "yú",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "index": 96,
+              "read": false,
+              "write": false,
+              "pinyin": ""
+            },
+            {
+              "char": "”",
+              "index": 97,
+              "read": false,
+              "write": false,
+              "pinyin": ""
+            }
+          ],
+          "translation": "陈涉长叹一声说：“唉，燕子麻雀哪里知道天鹅的志向呢！”",
+          "pinyin": "chén shè tài xī yuē ： “jiē hū ， yàn què ān zhī hóng hú zhī zhì zāi ！”",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "太息：长叹，表示深沉的感慨。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "content": "嗟乎：感叹词，相当于‘唉’，表达强烈情感。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "燕雀：比喻见识短浅的普通人。"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "content": "安：怎么，疑问副词，表反问。"
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "content": "鸿鹄：天鹅，比喻志向远大的人。"
+            },
+            {
+              "start": 19,
+              "end": 19,
+              "content": "哉：语气词，表示感叹，相当于‘啊’。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 10,
+              "end": 19,
+              "content": "‘安知……哉’为反问句式，‘安’为疑问副词作状语，加强否定语气。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "九下",
+    "古文",
+    "传记"
+  ],
+  "background": "司马迁《史记·太史公自序》云：“桀纣失其道而汤武作，周失其道而春秋作。秦失其政，而陈涉发迹，诸侯作难，风起云蒸，卒亡秦族。天下之端，自涉发难。作陈涉世家第十八。”",
+  "appreciation": "《陈涉世家》是一篇史传文，列于《史记》第四十八篇，是秦末农民起义领袖陈胜、吴广的传记。此文以陈胜、吴广的活动为线索，详细地记述了陈胜起义的全过程，以及相继而起的各路起义军的胜败兴替，展现了起义军的浩大声势，肯定了陈胜在反抗秦王朝统治斗争中的功绩，从中反映出农民阶级的智慧、勇敢和大无畏的斗争精神。同时，文章论述了陈胜起义最终失败的原因：起义领袖缺乏指挥全局的能力、用人不当导致起义军内部离心离德。全文运用语言、动作、神态描写等多种技巧来塑造人物形象，生动真实地再现了这一场斗争的历史图景。"
+}

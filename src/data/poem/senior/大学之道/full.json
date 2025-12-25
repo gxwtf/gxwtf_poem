@@ -1,0 +1,1830 @@
+{
+  "name": "大学之道",
+  "author": "礼记",
+  "dynasty": "先秦",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "学",
+              "pinyin": "xué",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "德",
+              "pinyin": "dé",
+              "index": 8,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "index": 11,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "民",
+              "pinyin": "mín",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "止",
+              "pinyin": "zhǐ",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "善",
+              "pinyin": "shàn",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 19,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "大学的宗旨在于弘扬光明正大的品德，学习和应用于生活，使人达到最完善的境界。",
+          "pinyin": "dà xué zhī dào ， zài míng míng dé ， zài qīn mín ， zài zhǐ yú zhì shàn 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 8,
+              "content": "彰明美德。前一个“明”是动词，彰明。明德，美好的德行。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "content": "亲近爱抚民众。一说“亲”当作“新”，“新民”即使天下人去旧立新，去恶向善。"
+            },
+            {
+              "start": 15,
+              "end": 18,
+              "content": "达到道德修养的最高境界。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 10,
+              "end": 11,
+              "old": "亲近（或通“新”，使……更新）"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "new": "亲属、亲人"
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "old": "达到"
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "new": "停止"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "止",
+              "pinyin": "zhǐ",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "定",
+              "pinyin": "dìng",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "定",
+              "pinyin": "dìng",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "静",
+              "pinyin": "jìng",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "静",
+              "pinyin": "jìng",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "安",
+              "pinyin": "ān",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "安",
+              "pinyin": "ān",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "虑",
+              "pinyin": "lǜ",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "虑",
+              "pinyin": "lǜ",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "得",
+              "pinyin": "dé",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 50,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "知道目标所在才能够志向坚定；志向坚定才能够镇静不躁；镇静不躁才能使内心安定；心安理得才能够思虑周详；思虑周详才能够处事合宜。",
+          "pinyin": "zhī zhǐ ér hòu yǒu dìng ， dìng ér hòu néng jìng ， jìng ér hòu néng ān ， ān ér hòu néng lǜ ， lǜ ér hòu néng dé 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "content": "知道要达到的“至善”境界，则志向坚定不移。"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "content": "心不妄动。"
+            },
+            {
+              "start": 17,
+              "end": 17,
+              "content": "性情安和。"
+            },
+            {
+              "start": 23,
+              "end": 23,
+              "content": "思虑精详。"
+            },
+            {
+              "start": 29,
+              "end": 29,
+              "content": "处事合宜。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 1,
+              "old": "知道应达到的境界"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "new": "知道停止"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "old": "心境宁静"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "new": "静止、不动"
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "old": "安和、安妥"
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "new": "安全"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "物",
+              "pinyin": "wù",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "本",
+              "pinyin": "běn",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "末",
+              "pinyin": "mò",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "终",
+              "pinyin": "zhōng",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "始",
+              "pinyin": "shǐ",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 60,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "每一样东西都有根本有始末，每件事情都有开始有终结。",
+          "pinyin": "wù yǒu běn mò ， shì yǒu zhōng shǐ 。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "近",
+              "pinyin": "jìn",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 70,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "明白了这本末始终的道理，就接近事物发展的规律了。",
+          "pinyin": "zhī suǒ xiān hòu ， zé jìn dào yǐ 。",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "德",
+              "pinyin": "dé",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 86,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "古代那些要想在天下弘扬光明正大品德的人，先要治理好自己的国家；",
+          "pinyin": "gǔ zhī yù míng míng dé yú tiān xià zhě ， xiān zhì qí guó 。",
+          "notes": [],
+          "special_sentences": [
+            {
+              "start": 6,
+              "end": 9,
+              "content": "状语后置：介词结构“于天下”作状语后置，正常语序为“于天下明明德”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 94,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 97,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "要想治理好自己的国家，先要管理好自己的家庭或家族；",
+          "pinyin": "yù zhì qí guó zhě ， xiān qí qí jiā 。",
+          "notes": [
+            {
+              "start": 7,
+              "end": 9,
+              "content": "使家族中的各种关系整齐有序。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 7,
+              "old": "整治、管理"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "new": "整齐"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 107,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 108,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "要想管理好自己的家庭或家族，先要修养自身的品性；",
+          "pinyin": "yù qí qí jiā zhě ， xiān xiū qí shēn 。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 109,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 112,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 113,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 115,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng",
+              "index": 116,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 117,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 118,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 119,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "要想修养自身的品性，先要端正自己的心思；",
+          "pinyin": "yù xiū qí shēn zhě ， xiān zhèng qí xīn 。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 120,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng",
+              "index": 121,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 122,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 123,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 124,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 125,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 126,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诚",
+              "pinyin": "chéng",
+              "index": 127,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 128,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 129,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 130,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "要想端正自己的心思，先要使自己的意念真诚；",
+          "pinyin": "yù zhèng qí xīn zhě ， xiān chéng qí yì 。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 131,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诚",
+              "pinyin": "chéng",
+              "index": 132,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 133,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 134,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 135,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 136,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 137,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "致",
+              "pinyin": "zhì",
+              "index": 138,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 139,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 140,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 141,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "要想使自己的意念真诚，先要使自己获得知识；",
+          "pinyin": "yù chéng qí yì zhě ， xiān zhì qí zhī 。",
+          "notes": [
+            {
+              "start": 7,
+              "end": 9,
+              "content": "获得知识。一说，把自己对事物的认识推到极致。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "致",
+              "pinyin": "zhì",
+              "index": 142,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 143,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 144,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "格",
+              "pinyin": "gé",
+              "index": 145,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "物",
+              "pinyin": "wù",
+              "index": 146,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 147,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "获得知识的途径在于认识、研究万事万物。",
+          "pinyin": "zhì zhī zài gé wù 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "推究事物的原理。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 1,
+              "old": "获得、推极"
+            },
+            {
+              "start": 0,
+              "end": 1,
+              "new": "导致、给予"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "old": "推究、研究"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "new": "格子、规格"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "判断句：用“在”表判断，说明“致知”的方法在于“格物”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "物",
+              "pinyin": "wù",
+              "index": 148,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "格",
+              "pinyin": "gé",
+              "index": 149,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 150,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 151,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 152,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 153,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 154,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 155,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 156,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 157,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 158,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 159,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诚",
+              "pinyin": "chéng",
+              "index": 160,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 161,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 162,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诚",
+              "pinyin": "chéng",
+              "index": 163,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 164,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 165,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 166,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng",
+              "index": 167,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 168,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 169,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng",
+              "index": 170,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 171,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 172,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 173,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū",
+              "index": 174,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 175,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 176,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū",
+              "index": 177,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 178,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 179,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 180,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 181,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 182,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 183,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 184,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 185,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 186,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 187,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì",
+              "index": 188,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 189,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 190,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì",
+              "index": 191,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 192,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 193,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 194,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 195,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "平",
+              "pinyin": "píng",
+              "index": 196,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 197,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "通过对万事万物的认识、研究后才能获得知识；获得知识后意念才能真诚；意念真诚后心思才能端正；心思端正后才能修养品性；品性修养后才能管理好家庭和家族；管理好家庭和家族后才能治理好国家；治理好国家后天下才能太平。",
+          "pinyin": "wù gé ér hòu zhī zhì ， zhī zhì ér hòu yì chéng ， yì chéng ér hòu xīn zhèng ， xīn zhèng ér hòu shēn xiū ， shēn xiū ér hòu jiā qí ， jiā qí ér hòu guó zhì ， guó zhì ér hòu tiān xià píng 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "对外物之理认识充分。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 6,
+              "content": "条件复句的紧缩句式：“物格而后知至”表条件关系。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 198,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 199,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 200,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 201,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 202,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 203,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "庶",
+              "pinyin": "shù",
+              "index": 204,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 205,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 206,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "壹",
+              "pinyin": "yī",
+              "index": 207,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 208,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē",
+              "index": 209,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 210,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū",
+              "index": 211,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 212,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 213,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "本",
+              "pinyin": "běn",
+              "index": 214,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 215,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "上至天子下至平民百姓，都应该以修养自身的品德为根本。",
+          "pinyin": "zì tiān zǐ yǐ zhì yú shù rén ， yī shì jiē yǐ xiū shēn wéi běn 。",
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "content": "一概，一律。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 9,
+              "end": 10,
+              "old": "一律、一切"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "new": "数字一"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 8,
+              "content": "介词结构后置：“自天子以至于庶人”为“自……至……”的固定结构，表范围。"
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "content": "固定结构：“以……为”表“把……作为”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "选必上",
+    "文言文"
+  ],
+  "background": "《大学》出自《礼记》，原本是《礼记》四十九篇中的第四十二篇。据断代史学家班固在“《记》百三十一篇”下自注云“七十子后学者所记也”，他认为《礼记》各篇的成书年代主要分布在战国初期至西汉初期这段时间。清代人崔述认为：“凡文之体，因乎其时……《大学》之文繁而尽，又多排语，计其时当在战国。”（《洙泗考信录·全录》）综合而论，《大学》的成书时代大体在孔子、曾子之后，孟子、荀子之前的战国前期，即公元前5世纪左右，系出于曾氏之儒一派的纯儒家作品。即《大学》的成书年代应是在战国初期，其作者应是“曾氏之儒一派”，即现在学术界比较认可的战国初期曾参所作。",
+  "appreciation": "《大学》是一篇儒家散文。文中提出了“三纲领”：明德、亲民、止于至善和“八条目”：格物、致知、诚意、正心、修身、齐家、治国、平天下。这篇文章强调修己是治人的基础，修己的目的是为了治国平天下，阐明治国平天下和个人道德修养的内在一致性。全文文辞简约，内涵深刻，影响深远，主要概括总结了先秦儒家道德修养理论，也论及关于道德修养的基本原则和方法，此外，它还对儒家政治哲学也做了系统的阐述，对做人、处事、治国等都有深刻的启迪性。"
+}

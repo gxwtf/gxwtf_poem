@@ -1,0 +1,1051 @@
+{
+  "name": "念奴娇·赤壁怀古",
+  "author": "苏轼",
+  "dynasty": "宋代",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "去",
+              "pinyin": "qù",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "浪",
+              "pinyin": "làng",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "淘",
+              "pinyin": "táo",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尽",
+              "pinyin": "jìn",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "物",
+              "pinyin": "wù",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 15,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "滚滚长江向东奔流而去，千百年来奔腾不息的滔滔巨浪淘尽了多少杰出的英雄人物。",
+          "pinyin": "dà jiāng dōng qù ， làng táo jìn ， qiān gǔ fēng liú rén wù 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "指长江。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 9,
+              "end": 10,
+              "old": "杰出的、英俊的"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "new": "风度翩翩的、浪漫的"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "垒",
+              "pinyin": "lěi",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "西",
+              "pinyin": "xī",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "边",
+              "pinyin": "biān",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "周",
+              "pinyin": "zhōu",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "赤",
+              "pinyin": "chì",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "壁",
+              "pinyin": "bì",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "旧日营垒的西边，有人说，那儿是三国时周瑜大破曹军的赤壁。",
+          "pinyin": "gù lěi xī biān ， rén dào shì ， sān guó zhōu láng chì bì 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "旧时军队营垒的遗迹。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "content": "即周瑜（175-210），字公瑾，孙权军中指挥赤壁大战的将领。二十四岁时即出任要职，军中皆呼为“周郎”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "乱",
+              "pinyin": "luàn",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "石",
+              "pinyin": "shí",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "穿",
+              "pinyin": "chuān",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "空",
+              "pinyin": "kōng",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惊",
+              "pinyin": "jīng",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "涛",
+              "pinyin": "tāo",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "拍",
+              "pinyin": "pāi",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "岸",
+              "pinyin": "àn",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卷",
+              "pinyin": "juǎn",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "堆",
+              "pinyin": "duī",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雪",
+              "pinyin": "xuě",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 47,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "只见陡峭纷乱的岩壁耸入云霄，汹涌澎湃的巨浪拍打着江岸，卷起无数堆雪白的浪花。",
+          "pinyin": "luàn shí chuān kōng ， jīng tāo pāi àn ， juǎn qǐ qiān duī xuě 。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "江",
+              "pinyin": "jiāng",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "画",
+              "pinyin": "huà",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "少",
+              "pinyin": "shǎo",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "豪",
+              "pinyin": "háo",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "杰",
+              "pinyin": "jié",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 59,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "雄壮的江山奇丽如画，一时间涌现了多少英雄豪杰。",
+          "pinyin": "jiāng shān rú huà ， yī shí duō shǎo háo jié 。",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "遥",
+              "pinyin": "yáo",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "想",
+              "pinyin": "xiǎng",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "公",
+              "pinyin": "gōng",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "瑾",
+              "pinyin": "jǐn",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乔",
+              "pinyin": "qiáo",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "初",
+              "pinyin": "chū",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "嫁",
+              "pinyin": "jià",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "了",
+              "pinyin": "liǎo",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雄",
+              "pinyin": "xióng",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "姿",
+              "pinyin": "zī",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "英",
+              "pinyin": "yīng",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "发",
+              "pinyin": "fā",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 77,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我不禁遥想起当年的周公瑾，美丽的小乔刚嫁给他，英姿雄健风度翩翩神采照人。",
+          "pinyin": "yáo xiǎng gōng jǐn dāng nián ， xiǎo qiáo chū jià le ， xióng zī yīng fā 。",
+          "notes": [
+            {
+              "start": 13,
+              "end": 16,
+              "content": "姿容雄伟，英气勃发。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 7,
+              "end": 8,
+              "old": "小乔（人名）"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "new": "小的乔（普通名词）"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "羽",
+              "pinyin": "yǔ",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "扇",
+              "pinyin": "shàn",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "纶",
+              "pinyin": "guān",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "巾",
+              "pinyin": "jīn",
+              "index": 81,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谈",
+              "pinyin": "tán",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "笑",
+              "pinyin": "xiào",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "间",
+              "pinyin": "jiān",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "樯",
+              "pinyin": "qiáng",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "橹",
+              "pinyin": "lǔ",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "灰",
+              "pinyin": "huī",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "飞",
+              "pinyin": "fēi",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "烟",
+              "pinyin": "yān",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "灭",
+              "pinyin": "miè",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 93,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "手摇羽扇，头戴纶巾，谈笑之间，就将曹军的战船烧得灰飞烟灭。",
+          "pinyin": "yǔ shàn guān jīn ， tán xiào jiān ， qiáng lǔ huī fēi yān miè 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "（手持）羽扇，（头戴）纶巾。这是儒者的装束，形容周瑜有儒将风度。纶巾，配有青丝带的头巾。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "content": "代指曹操的战船。樯，挂帆的桅杆。橹，一种摇船的桨。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "神",
+              "pinyin": "shén",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "游",
+              "pinyin": "yóu",
+              "index": 97,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "情",
+              "pinyin": "qíng",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "应",
+              "pinyin": "yīng",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "笑",
+              "pinyin": "xiào",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "早",
+              "pinyin": "zǎo",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "华",
+              "pinyin": "huá",
+              "index": 107,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "发",
+              "pinyin": "fà",
+              "index": 108,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 109,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "如今我身临古战场神游往昔，应笑我多愁善感，以至于过早生出了白发。",
+          "pinyin": "gù guó shén yóu ， duō qíng yīng xiào wǒ ， zǎo shēng huá fà 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "指赤壁古战场。"
+            },
+            {
+              "start": 5,
+              "end": 14,
+              "content": "应笑我多愁善感，过早地长出花白的头发。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 11,
+              "end": 14,
+              "old": "花白的头发"
+            },
+            {
+              "start": 11,
+              "end": 14,
+              "new": "华丽的头发"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 5,
+              "end": 10,
+              "content": "宾语前置句：'多情应笑我'正常语序为'应笑我多情'"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 112,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "梦",
+              "pinyin": "mèng",
+              "index": 113,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 115,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尊",
+              "pinyin": "zūn",
+              "index": 116,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "还",
+              "pinyin": "huán",
+              "index": 117,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酹",
+              "pinyin": "lèi",
+              "index": 118,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng",
+              "index": 119,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè",
+              "index": 120,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 121,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "人生在世犹如大梦一场，还是洒一杯酒祭献给江中伴我的明月吧！",
+          "pinyin": "rén shēng rú mèng ， yī zūn huán lèi jiāng yuè 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 6,
+              "content": "同“樽”，一种盛酒器。这里指酒杯。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "将酒洒在地上，表示凭吊。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 5,
+              "end": 6,
+              "old": "同“樽”，酒杯"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "new": "尊贵、尊敬"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 5,
+              "end": 11,
+              "content": "省略句：'一尊还酹江月'省略主语'我'"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "必修上",
+    "诗",
+    "背默"
+  ],
+  "background": "这首词是宋神宗元丰五年（公元1082年）苏轼谪居黄州时所写，当时作者四十五岁，因“乌台诗案”被贬黄州已两年余。苏轼由于诗文讽喻新法，为新派官僚罗织论罪而被贬，心中有无尽的忧愁无从述说，于是四处游山玩水以放松情绪。正巧来到黄州城外的赤壁（鼻）矶，此处壮丽的风景使作者感触良多，更是让作者在追忆当年三国时期周瑜无限风光的同时也感叹时光易逝，因写下此词。",
+  "appreciation": "《念奴娇·赤壁怀古》是豪放词的代表作之一。词人以壮美的月夜江景为引，又借对古代战场的凭吊和对风流人物才略、气度、功业的追念，曲折地表达了怀才不遇、功业未就、老大无成的忧愤之情，也展现了他对历史的深邃思考和对人生的旷达态度。全词借古抒怀，雄浑苍凉，气韵磅礴，笔力遒劲，境界宏阔，将写景、咏史、抒情融为一体，给人以撼魂荡魄的艺术力量，被誉为“古今绝唱”。"
+}

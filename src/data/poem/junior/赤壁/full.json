@@ -1,0 +1,332 @@
+{
+  "name": "赤壁",
+  "author": "杜牧",
+  "dynasty": "唐代",
+  "mode": "poem",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "折",
+              "pinyin": "zhé",
+              "index": 0,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "戟",
+              "pinyin": "jǐ",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "沉",
+              "pinyin": "chén",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "沙",
+              "pinyin": "shā",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "铁",
+              "pinyin": "tiě",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "销",
+              "pinyin": "xiāo",
+              "index": 6,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 9,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "磨",
+              "pinyin": "mó",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "洗",
+              "pinyin": "xǐ",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "认",
+              "pinyin": "rèn",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "前",
+              "pinyin": "qián",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "朝",
+              "pinyin": "cháo",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 15,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "折断铁戟沉埋沙中未锈蚀，自己磨洗辨认前朝遗物。",
+          "pinyin": "zhé jǐ chén shā tiě wèi xiāo ， zì jiāng mó xǐ rèn qián cháo 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "折戟：折断的戟，指古代兵器残骸，此处象征赤壁之战的遗迹。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "销：销蚀，指金属因时间久远而腐蚀。通‘消’。"
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "content": "将：拿、取，此处指亲自拿着磨洗。读音为jiāng，非‘将要’之意。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "content": "前朝：指前一个历史时代，此处特指三国时期的东吴，非泛指过去朝代。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 9,
+              "end": 9,
+              "old": "拿、取"
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "new": "将要"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "周",
+              "pinyin": "zhōu",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "便",
+              "pinyin": "biàn",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "铜",
+              "pinyin": "tóng",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雀",
+              "pinyin": "què",
+              "index": 25,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "深",
+              "pinyin": "shēn",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "锁",
+              "pinyin": "suǒ",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乔",
+              "pinyin": "qiáo",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 31,
+              "read": true,
+              "write": true
+            }
+          ],
+          "translation": "若东风不助周瑜一臂，铜雀台早锁大乔小乔。",
+          "pinyin": "dōng fēng bù yǔ zhōu láng biàn ， tóng què chūn shēn suǒ èr qiáo 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "周郎：指周瑜，字公瑾，东吴名将，赤壁之战的主要指挥者之一。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "便：便利、机会，此处指有利的条件或时机。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "铜雀：铜雀台，曹操所建，位于邺城，象征魏国权势与奢靡生活。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "content": "二乔：指大乔和小乔，分别为孙策、周瑜之妻，此处代指江东名媛。"
+            },
+            {
+              "start": 12,
+              "end": 12,
+              "content": "锁：囚禁、束缚，此处为象征性用法，暗示若战败，二乔将被掳至魏宫。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 6,
+              "old": "便利的条件"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "new": "方便"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "八上",
+    "诗",
+    "七言绝句"
+  ],
+  "background": "这首诗是诗人经过赤壁（今湖北省武昌县西南赤矶山）这个著名的古战场，有感于三国时代的英雄成败而写下的。发生于汉献帝建安十三年（208年）十月的赤壁之战，是对三国鼎立的历史形势起着决定性作用的一次重大战役。其结果是孙、刘联军击败了曹军，而三十四岁的孙吴军统帅周瑜，乃是这次战役中的头号风云人物。诗人观赏了古战场的遗物，对赤壁之战发表了独特的看法，有感而作。",
+  "appreciation": "《赤壁》是一首七言绝句，前两句点出此地曾有过历史风云，暗含着岁月流逝而物是人非之感；“折戟”又进一步引发诗人浮想联翩的思绪，为后文抒怀作了很好的铺垫。后二句不从正面歌颂周瑜的胜利，而从反面假想其失败，把硝烟弥漫的战争胜负写得很是蕴藉。诗人即物感兴，托物咏史，点明赤壁之战关系到国家存亡，社稷安危；同时暗指自己胸怀大志不被重用，借吟咏史事以吐胸中抑郁不平之气。"
+}

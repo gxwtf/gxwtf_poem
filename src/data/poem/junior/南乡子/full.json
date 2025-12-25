@@ -1,0 +1,657 @@
+{
+  "name": "南乡子",
+  "author": "辛弃疾",
+  "dynasty": "宋代",
+  "mode": "poem",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "处",
+              "pinyin": "chù",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "望",
+              "pinyin": "wàng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "神",
+              "pinyin": "shén",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "州",
+              "pinyin": "zhōu",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 5,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "从哪里可以望见故土神州？",
+          "pinyin": "hé chù wàng shén zhōu ？",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "神州：古代对中国的美称，此处指中原地区，象征国家疆土。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "‘何处望神州’为宾语前置句，正常语序应为‘望神州于何处’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "满",
+              "pinyin": "mǎn",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "眼",
+              "pinyin": "yǎn",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "光",
+              "pinyin": "guāng",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "北",
+              "pinyin": "běi",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "固",
+              "pinyin": "gù",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "楼",
+              "pinyin": "lóu",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 13,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "眼前全是北固楼的风光。",
+          "pinyin": "mǎn yǎn fēng guāng běi gù lóu 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 6,
+              "content": "北固楼：即北固亭，位于今江苏镇江北固山上，为登高望远之地，具有军事与历史意义。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兴",
+              "pinyin": "xīng",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亡",
+              "pinyin": "wáng",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "多",
+              "pinyin": "duō",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "少",
+              "pinyin": "shǎo",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 21,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "古往今来兴亡更替经历了多少事情？",
+          "pinyin": "qiān gǔ xīng wáng duō shǎo shì ？"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "悠",
+              "pinyin": "yōu",
+              "index": 22,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "悠",
+              "pinyin": "yōu",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 24,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "悠悠岁月。",
+          "pinyin": "yōu yōu 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "悠悠：形容时间久远、思绪绵长，既指历史变迁，又呼应下文长江奔流。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "‘悠悠’独立成句，属感叹句省略主谓结构，增强历史苍茫感。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尽",
+              "pinyin": "jìn",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "江",
+              "pinyin": "jiāng",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "滚",
+              "pinyin": "gǔn",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "滚",
+              "pinyin": "gǔn",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 32,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "长江滚滚奔流永不停息。",
+          "pinyin": "bù jìn cháng jiāng gǔn gǔn liú 。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "少",
+              "pinyin": "shào",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兜",
+              "pinyin": "dōu",
+              "index": 36,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "鍪",
+              "pinyin": "móu",
+              "index": 37,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "坐",
+              "pinyin": "zuò",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "断",
+              "pinyin": "duàn",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "战",
+              "pinyin": "zhàn",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "休",
+              "pinyin": "xiū",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "index": 46,
+              "read": false,
+              "write": false,
+              "pinyin": ""
+            }
+          ],
+          "translation": "年少时就统领万军，占据东南一角征战不休。",
+          "pinyin": "nián shào wàn dōu móu ，zuò duàn dōng nán zhàn wèi xiū 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 4,
+              "content": "兜鍪：原指古代战士头盔，此处借指士兵，代指年轻时披甲征战的岁月。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "content": "坐断：占据、控制之意，强调割据一方、雄踞东南的气势。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 3,
+              "end": 4,
+              "old": "头盔，借指士兵"
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "new": "无直接对应现代词，已不常用"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "old": "占据、掌控"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "new": "坐下"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "英",
+              "pinyin": "yīng",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雄",
+              "pinyin": "xióng",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谁",
+              "pinyin": "shuí",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "敌",
+              "pinyin": "dí",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "手",
+              "pinyin": "shǒu",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 54,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "天下英雄谁是真正的对手？",
+          "pinyin": "tiān xià yīng xióng shuí dí shǒu ？",
+          "notes": [
+            {
+              "start": 5,
+              "end": 7,
+              "content": "敌手：能匹敌的对手。‘敌’作动词，意为抗衡、匹敌。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "‘天下英雄谁敌手’为宾语前置句，‘谁敌手’即‘能与之匹敌者是谁’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "曹",
+              "pinyin": "cáo",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "刘",
+              "pinyin": "liú",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 57,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "曹操和刘备。",
+          "pinyin": "cáo liú 。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "孙",
+              "pinyin": "sūn",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "仲",
+              "pinyin": "zhòng",
+              "index": 63,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "谋",
+              "pinyin": "móu",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 65,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "生儿子就应当像孙仲谋那样。",
+          "pinyin": "shēng zǐ dāng rú sūn zhòng móu 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "生子当如孙仲谋：引用曹操称赞孙权之语，表达对英雄人物的推崇，暗讽南宋无能。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "九下",
+    "词",
+    "宋"
+  ],
+  "background": "此词约作于宋宁宗嘉泰四年（公元1204年）或开禧元年（公元1205年），当时辛弃疾在镇江知府任上。嘉泰三年（1203）六月末，辛弃疾被起用为绍兴知府兼浙东安抚使后不久，即第二年三月，改派到镇江去做知府。镇江，在历史上曾是英雄用武和建功立业之地，此时成了与金人对垒的第二道防线。每当他登临京口（即镇江）北固亭时，触景生情，不胜感慨系之。这首词就是在这一背景下写成的。",
+  "appreciation": "这首词为即景抒情、借古讽今之作。词人通过对古代英雄人物的歌颂，表达了渴望像古代英雄人物那样金戈铁马、为国效力、收复山河的壮烈情怀，饱含着浓浓的爱国情感，也流露出他对报国无门的无奈与感慨和对南宋朝廷苟且偷安、毫不振作的愤懑之情。全词将写景、抒情、议论密切结合，巧妙化用古人的语言，活用典故与成语。全篇三问三答，层次分明，互相呼应，词风明快，气魄阔大，情调昂扬。"
+}

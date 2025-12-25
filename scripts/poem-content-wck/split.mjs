@@ -89,7 +89,7 @@ const JSONs = splitJSONObjects(`{
   "title": "静女",
   "author": "佚名",
   "dynasty": "先秦",
-  "mode": "center",
+  "mode": "poem",
   "content": "静女其姝，俟我于城隅。#爱而不见，搔首踟蹰。#静女其娈，贻我彤管。#彤管有炜，说怿女美。#自牧归荑，洵美且异。#匪女之为美，美人之贻。#",
   "translation": "文静的姑娘真美丽，等我在城角。#隐藏着不出现，我挠头徘徊。#文静的姑娘真美好，赠我彤管。#彤管有光泽，喜欢你美丽。#从野外采来茅草，确实美丽又奇特。#不是你茅草美丽，是美人赠送的。#",
   "pinyin": "jìng nǚ qí shū, sì wǒ yú chéng yú。# ài ér bù jiàn, sāo shǒu chí chú。# jìng nǚ qí luán, yí wǒ tóng guǎn。# tóng guǎn yǒu wěi, yuè yì rǔ měi。# zì mù kuì tí, xún měi qiě yì。# fěi rǔ zhī wéi měi, měi rén zhī yí。#",

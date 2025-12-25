@@ -6,6 +6,7 @@ import { getIronSession } from "iron-session";
 import { defaultSession, sessionOptions } from "@/lib/iron";
 import { SessionData } from "@/lib/iron";
 import axios from "axios";
+import prisma from "@/lib/prisma";
 
 // login
 export async function POST(request: NextRequest) {
@@ -23,13 +24,25 @@ export async function POST(request: NextRequest) {
         });
 
         if (res.status === 200) {
+            const user = await prisma.user.findUnique({
+                where: {
+                    id: res.data.userId
+                }
+            });
+            if(!user){
+                await prisma.user.create({
+                    data: {
+                        id: res.data.userId,
+                    }
+                });
+            }
             session.isLoggedIn = true;
             session.username = res.data.userName;
             session.userid = res.data.userId;
             session.admin = res.data.admin;
             session.real_name = res.data.userRealName;
             session.email = res.data.userEmail;
-            session.grade = 10;
+            session.grade = res.data.grade || 7;
             session.counter = 0;
             session.version = session.grade >= 10 ? 'senior' : 'junior';
             await session.save();

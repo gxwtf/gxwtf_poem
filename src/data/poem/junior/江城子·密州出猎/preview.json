@@ -1,0 +1,502 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "老",
+              "pinyin": "lǎo"
+            },
+            {
+              "char": "夫",
+              "pinyin": "fū"
+            },
+            {
+              "char": "聊",
+              "pinyin": "liáo"
+            },
+            {
+              "char": "发",
+              "pinyin": "fā"
+            },
+            {
+              "char": "少",
+              "pinyin": "shào"
+            },
+            {
+              "char": "年",
+              "pinyin": "nián"
+            },
+            {
+              "char": "狂",
+              "pinyin": "kuáng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "左",
+              "pinyin": "zuǒ"
+            },
+            {
+              "char": "牵",
+              "pinyin": "qiān"
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "右",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "擎",
+              "pinyin": "qíng"
+            },
+            {
+              "char": "苍",
+              "pinyin": "cāng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "苍：此处指苍鹰，非颜色义。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "锦",
+              "pinyin": "jǐn"
+            },
+            {
+              "char": "帽",
+              "pinyin": "mào"
+            },
+            {
+              "char": "貂",
+              "pinyin": "diāo"
+            },
+            {
+              "char": "裘",
+              "pinyin": "qiú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān"
+            },
+            {
+              "char": "骑",
+              "pinyin": "qí"
+            },
+            {
+              "char": "卷",
+              "pinyin": "juǎn",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "卷：席卷，形容队伍气势磅礴，迅疾而过。"
+                }
+              ]
+            },
+            {
+              "char": "平",
+              "pinyin": "píng"
+            },
+            {
+              "char": "冈",
+              "pinyin": "gāng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我老夫暂且抒发一下少年的狂放，左手牵着黄狗，右手托着苍鹰，头戴锦帽，身穿貂裘，千骑奔驰，席卷平冈。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "老夫：苏轼自称，时年约四十，称‘老夫’体现豪放与自嘲。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "note": "聊：姑且，表示暂且发一回少年之狂，非‘聊天’义。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "note": "黄：指黄犬，猎犬，借代手法。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "note": "擎：托举，高举。苍：指苍鹰，猎鹰，借代。"
+            },
+            {
+              "start": 21,
+              "end": 22,
+              "note": "骑：读jì，一人一马为一骑，名词，非动词‘qí’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "为",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "报",
+              "pinyin": "bào"
+            },
+            {
+              "char": "倾",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "随",
+              "pinyin": "suí"
+            },
+            {
+              "char": "太",
+              "pinyin": "tài"
+            },
+            {
+              "char": "守",
+              "pinyin": "shǒu"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "亲",
+              "pinyin": "qīn"
+            },
+            {
+              "char": "射",
+              "pinyin": "shè"
+            },
+            {
+              "char": "虎",
+              "pinyin": "hǔ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "看",
+              "pinyin": "kàn"
+            },
+            {
+              "char": "孙",
+              "pinyin": "sūn"
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "为了报答全城百姓跟随太守，亲自射杀老虎，看那像孙郎一样的英姿。"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "倾城：全城的人，形容随从众多，非‘倾国倾城’之美貌义。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "note": "太守：苏轼时任密州知州，宋称太守，地方长官。"
+            },
+            {
+              "start": 13,
+              "end": 15,
+              "note": "孙郎：指孙权，《三国志》载孙权曾亲自射虎，苏轼以之自比。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "酒",
+              "pinyin": "jiǔ"
+            },
+            {
+              "char": "酣",
+              "pinyin": "hān"
+            },
+            {
+              "char": "胸",
+              "pinyin": "xiōng"
+            },
+            {
+              "char": "胆",
+              "pinyin": "dǎn"
+            },
+            {
+              "char": "尚",
+              "pinyin": "shàng"
+            },
+            {
+              "char": "开",
+              "pinyin": "kāi"
+            },
+            {
+              "char": "张",
+              "pinyin": "zhāng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "鬓",
+              "pinyin": "bìn"
+            },
+            {
+              "char": "微",
+              "pinyin": "wēi"
+            },
+            {
+              "char": "霜",
+              "pinyin": "shuāng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "又",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "何",
+              "pinyin": "hé"
+            },
+            {
+              "char": "妨",
+              "pinyin": "fáng"
+            },
+            {
+              "char": "！",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "酒意正浓，胸怀胆气更加开阔，鬓角微白，又有何妨！"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "酒酣：饮酒正尽兴时，形容豪情勃发的状态。"
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "note": "开张：开阔豪放，形容胆气旺盛，非现代‘开业’义。"
+            },
+            {
+              "start": 8,
+              "end": 11,
+              "note": "鬓微霜：两鬓略白如霜，比喻年岁渐长。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "持",
+              "pinyin": "chí"
+            },
+            {
+              "char": "节",
+              "pinyin": "jié"
+            },
+            {
+              "char": "云",
+              "pinyin": "yún"
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "何",
+              "pinyin": "hé"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "遣",
+              "pinyin": "qiǎn"
+            },
+            {
+              "char": "冯",
+              "pinyin": "féng"
+            },
+            {
+              "char": "唐",
+              "pinyin": "táng"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "手持符节在云中郡，何时能派遣冯唐那样的使者？"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "持节：手持符节，代表朝廷使命。节，古代使臣信物。"
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "note": "何日遣冯唐：何时才能派冯唐持节召我？用汉文帝赦魏尚典，表达希望被朝廷重新启用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "会",
+              "pinyin": "huì",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "会：终将，必定，表示坚定信念，非‘会议’义。"
+                }
+              ]
+            },
+            {
+              "char": "挽",
+              "pinyin": "wǎn"
+            },
+            {
+              "char": "雕",
+              "pinyin": "diāo"
+            },
+            {
+              "char": "弓",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "如",
+              "pinyin": "rú"
+            },
+            {
+              "char": "满",
+              "pinyin": "mǎn"
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "西",
+              "pinyin": "xī"
+            },
+            {
+              "char": "北",
+              "pinyin": "běi"
+            },
+            {
+              "char": "望",
+              "pinyin": "wàng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "射",
+              "pinyin": "shè"
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān"
+            },
+            {
+              "char": "狼",
+              "pinyin": "láng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "会拉满雕弓如满月，向西北方向望去，射杀天狼星。"
+          },
+          "notes": [
+            {
+              "start": 12,
+              "end": 15,
+              "note": "射天狼：天狼星主侵略，喻指抵御西夏等外敌，表达报国之志。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

@@ -22,6 +22,7 @@ import {
     CommandShortcut,
 } from "@/components/ui/command"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 import { useDebounce } from "@react-hook/debounce"
 import { useIsMac } from "@/hooks/use-is-mac"
 import Image from "next/image"
@@ -59,6 +60,8 @@ export function CommandMenu() {
     const [articleResults, setArticleResults] = React.useState<ArticleSearchResult[]>([])
     const [isSearching, setIsSearching] = React.useState(false)
     const isMac = useIsMac()
+
+    const router = useRouter()
 
     React.useEffect(() => {
         const down = (e: KeyboardEvent) => {
@@ -168,30 +171,31 @@ export function CommandMenu() {
                                         {authorResults.map((result, index) => {
                                             const displayText = `${result.name}｜${result.dynasty}｜${result.epithet}`
                                             return (
-                                                <CommandItem key={index} className="text-primary">
-                                                    <Link
-                                                        href={`/author/${encodeURIComponent(result.name)}`}
-                                                        className="flex items-center w-full"
-                                                        onClick={() => setOpen(false)}
-                                                    >
-                                                        {result.avatar ? (
-                                                            <Image
-                                                                src={result.avatar}
-                                                                alt={result.name}
-                                                                height={64}
-                                                                width={64}
-                                                                className="mr-2 h-4 w-4 rounded-full object-cover"
-                                                            />
-                                                        ) : (
-                                                            <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
-                                                        )}
-                                                        <span className="truncate">
-                                                            <HighlightedText
-                                                                text={displayText}
-                                                                query={searchQuery}
-                                                            />
-                                                        </span>
-                                                    </Link>
+                                                <CommandItem
+                                                    key={index}
+                                                    className="text-primary"
+                                                    onSelect={() => {
+                                                        setOpen(false)
+                                                        router.push(`/author/${encodeURIComponent(result.name)}`)
+                                                    }}
+                                                >
+                                                    {result.avatar ? (
+                                                        <Image
+                                                            src={result.avatar}
+                                                            alt={result.name}
+                                                            height={64}
+                                                            width={64}
+                                                            className="mr-2 h-4 w-4 rounded-full object-cover"
+                                                        />
+                                                    ) : (
+                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                    )}
+                                                    <span className="truncate">
+                                                        <HighlightedText
+                                                            text={displayText}
+                                                            query={searchQuery}
+                                                        />
+                                                    </span>
                                                 </CommandItem>
                                             )
                                         })}
@@ -207,20 +211,21 @@ export function CommandMenu() {
                                         {searchResults.map((result, index) => {
                                             const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
                                             return (
-                                                <CommandItem key={index} className="text-primary">
-                                                    <Link
-                                                        href={`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`}
-                                                        className="flex items-center w-full"
-                                                        onClick={() => setOpen(false)}
-                                                    >
-                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
-                                                        <span className="truncate">
-                                                            <HighlightedText
-                                                                text={displayText}
-                                                                query={searchQuery}
-                                                            />
-                                                        </span>
-                                                    </Link>
+                                                <CommandItem
+                                                    key={index}
+                                                    className="text-primary"
+                                                    onSelect={() => {
+                                                        setOpen(false)
+                                                        router.push(`/poem/${encodeURIComponent(result.version)}/${encodeURIComponent(result.title)}`)
+                                                    }}
+                                                >
+                                                    <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                    <span className="truncate">
+                                                        <HighlightedText
+                                                            text={displayText}
+                                                            query={searchQuery}
+                                                        />
+                                                    </span>
                                                 </CommandItem>
                                             )
                                         })}
@@ -236,20 +241,21 @@ export function CommandMenu() {
                                         {articleResults.map((result, index) => {
                                             const displayText = `${result.title}｜${result.author}` + (result.snippet ? `｜${result.snippet}` : '')
                                             return (
-                                                <CommandItem key={index} className="text-primary">
-                                                    <Link
-                                                        href={`/article/${encodeURIComponent(result.title)}`}
-                                                        className="flex items-center w-full"
-                                                        onClick={() => setOpen(false)}
-                                                    >
-                                                        <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
-                                                        <span className="truncate">
-                                                            <HighlightedText
-                                                                text={displayText}
-                                                                query={searchQuery}
-                                                            />
-                                                        </span>
-                                                    </Link>
+                                                <CommandItem
+                                                    key={index}
+                                                    className="text-primary"
+                                                    onSelect={() => {
+                                                        setOpen(false)
+                                                        router.push(`/article/${encodeURIComponent(result.title)}`)
+                                                    }}
+                                                >
+                                                    <Search className="text-[var(--theme-color)] mr-2 h-4 w-4" />
+                                                    <span className="truncate">
+                                                        <HighlightedText
+                                                            text={displayText}
+                                                            query={searchQuery}
+                                                        />
+                                                    </span>
                                                 </CommandItem>
                                             )
                                         })}
@@ -266,45 +272,45 @@ export function CommandMenu() {
                     <>
                         <CommandEmpty>找不到结果。</CommandEmpty>
                         <CommandGroup heading="建议">
-                            <CommandItem className="text-primary">
+                            <CommandItem
+                                className="text-primary"
+                                onSelect={() => {
+                                    setOpen(false)
+                                    router.push(`/overview`)
+                                }}
+                            >
                                 <Icon className="mr-2 h-4 w-4" />
-                                <Link
-                                    href={`/overview`}
-                                    className="flex items-center w-full"
-                                    onClick={() => setOpen(false)}
-                                >
-                                    古诗文
-                                </Link>
+                                <span>古诗文</span>
                             </CommandItem>
-                            <CommandItem className="text-primary">
+                            <CommandItem
+                                className="text-primary"
+                                onSelect={() => {
+                                    setOpen(false)
+                                    router.push(`/authors`)
+                                }}
+                            >
                                 <UserPen className="mr-2 h-4 w-4" />
-                                <Link
-                                    href={`/authors`}
-                                    className="flex items-center w-full"
-                                    onClick={() => setOpen(false)}
-                                >
-                                    作者
-                                </Link>
+                                <span>作者</span>
                             </CommandItem>
-                            <CommandItem className="text-primary">
+                            <CommandItem
+                                className="text-primary"
+                                onSelect={() => {
+                                    setOpen(false)
+                                    router.push(`/articles`)
+                                }}
+                            >
                                 <BookOpenText className="mr-2 h-4 w-4" />
-                                <Link
-                                    href={`/articles`}
-                                    className="flex items-center w-full"
-                                    onClick={() => setOpen(false)}
-                                >
-                                    读书课
-                                </Link>
+                                <span>读书课</span>
                             </CommandItem>
-                            <CommandItem className="text-primary">
+                            <CommandItem
+                                className="text-primary"
+                                onSelect={() => {
+                                    setOpen(false)
+                                    router.push(`/tag/poem`)
+                                }}
+                            >
                                 <Tag className="mr-2 h-4 w-4" />
-                                <Link
-                                    href={`/tag/poem`}
-                                    className="flex items-center w-full"
-                                    onClick={() => setOpen(false)}
-                                >
-                                    标签
-                                </Link>
+                                <span>标签</span>
                             </CommandItem>
                         </CommandGroup>
                         <CommandSeparator />

@@ -23,6 +23,7 @@ export function Paragraph({
     showNotes: boolean
 }) {
     const [highlightId, setHighlightId] = useState<number | null>(null);
+    const [mouseDownStat, setMouseDownStat] = useState<boolean>(false);
 
     const handleMouseEnter = (id: number) => {
         setHighlightId(id);
@@ -32,8 +33,20 @@ export function Paragraph({
         setHighlightId(null);
     };
 
+    function handleMouseDown() {
+        setMouseDownStat(true);
+    }
+
+    function handleMouseUp() {
+        setMouseDownStat(false);
+    }
+
     return (
-        <div className="leading-13">
+        <div
+            className="leading-13"
+            onMouseDown={handleMouseDown}
+            onMouseUp={handleMouseUp}
+        >
             <div className="sentences">
                 {mode === "paragraph" && <span className="inline-block w-[5em]"></span>}
                 {para.paragraph.map((s, index) => (
@@ -48,6 +61,7 @@ export function Paragraph({
                             showPinyin={showPinyin} 
                             highlight={highlightId === index} 
                             showNotes={showNotes}
+                            mouseDownStat={mouseDownStat}
                         />
                     </span>
                 ))}

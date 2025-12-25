@@ -1,0 +1,674 @@
+{
+  "name": "静女",
+  "author": "诗经·国风·邶风",
+  "dynasty": "先秦",
+  "mode": "poem",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "静",
+              "pinyin": "jìng",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "姝",
+              "pinyin": "shū",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "俟",
+              "pinyin": "sì",
+              "index": 5,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "隅",
+              "pinyin": "yú",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 10,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "娴静的姑娘真美丽，约我等在城上角楼处。",
+          "pinyin": "jìng nǚ qí shū ， sì wǒ yú chéng yú 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "娴静的女子很漂亮。姝，美丽、漂亮。"
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "content": "等待。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "城角。一说指城上的角楼。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 5,
+              "end": 9,
+              "content": "状语后置句：‘俟我于城隅’即‘于城隅俟我’，在城角等我。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "爱",
+              "pinyin": "ài",
+              "index": 11,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "搔",
+              "pinyin": "sāo",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "首",
+              "pinyin": "shǒu",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "踟",
+              "pinyin": "chí",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "蹰",
+              "pinyin": "chú",
+              "index": 19,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 20,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "故意躲藏让我找，急得我搔头徘徊心紧张。",
+          "pinyin": "ài ér bù jiàn ， sāo shǒu chí chú 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 0,
+              "content": "同“薆”，隐藏。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "content": "以手指挠头，徘徊不进。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 0,
+              "old": "通‘薆’，隐藏"
+            },
+            {
+              "start": 0,
+              "end": 0,
+              "new": "喜爱"
+            },
+            {
+              "start": 2,
+              "end": 2,
+              "old": "通‘现’，出现"
+            },
+            {
+              "start": 2,
+              "end": 2,
+              "new": "看见"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "静",
+              "pinyin": "jìng",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "nǚ",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "娈",
+              "pinyin": "luán",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贻",
+              "pinyin": "yí",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "彤",
+              "pinyin": "tóng",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "管",
+              "pinyin": "guǎn",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 30,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "娴静的姑娘容颜好，送我一枝彤管。",
+          "pinyin": "jìng nǚ qí luán ， yí wǒ tóng guǎn 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 3,
+              "content": "美好。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "content": "红色的管状物。一说指初生时呈红色的管状的草，即下一章所说的“荑”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "彤",
+              "pinyin": "tóng",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "管",
+              "pinyin": "guǎn",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "炜",
+              "pinyin": "wěi",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "说",
+              "pinyin": "yuè",
+              "index": 36,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "怿",
+              "pinyin": "yì",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "女",
+              "pinyin": "rǔ",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "美",
+              "pinyin": "měi",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 40,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "彤管有光彩，爱它颜色真鲜艳。",
+          "pinyin": "tóng guǎn yǒu wěi ， yuè yì rǔ měi 。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 3,
+              "content": "色红而光亮。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "content": "喜爱你的美丽。说，同“悦”。怿，喜悦。女，同“汝”，第二人称代词。下文的“匪女之为美”的“女”同此。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 5,
+              "end": 5,
+              "old": "通‘悦’，喜爱"
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "new": "说话"
+            },
+            {
+              "start": 7,
+              "end": 7,
+              "old": "通‘汝’，你"
+            },
+            {
+              "start": 7,
+              "end": 7,
+              "new": "女性"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "牧",
+              "pinyin": "mù",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "归",
+              "pinyin": "kuì",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "荑",
+              "pinyin": "tí",
+              "index": 44,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 45,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "洵",
+              "pinyin": "xún",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "美",
+              "pinyin": "měi",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "且",
+              "pinyin": "qiě",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "异",
+              "pinyin": "yì",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 50,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "郊野采荑赠送给我，荑草确实美好又珍异。",
+          "pinyin": "zì mù kuì tí ， xún měi qiě yì 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "从远郊归来赠送我初生的茅草。牧，城邑的远郊。归，同“馈”，赠送。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "content": "确实美好而且与众不同。洵，诚然、实在。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 3,
+              "end": 3,
+              "old": "通‘馈’，赠送"
+            },
+            {
+              "start": 3,
+              "end": 3,
+              "new": "返回"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "匪",
+              "pinyin": "fěi",
+              "index": 51,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "女",
+              "pinyin": "rǔ",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "美",
+              "pinyin": "měi",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "美",
+              "pinyin": "měi",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贻",
+              "pinyin": "yí",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 61,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "不是荑草长得美，是美人相赠的情意异常深厚。",
+          "pinyin": "fěi rǔ zhī wéi měi ， měi rén zhī yí 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "content": "并非你这荑草美。匪，同“非”，表示否定判断。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 0,
+              "old": "通‘非’，不是"
+            },
+            {
+              "start": 0,
+              "end": 0,
+              "new": "强盗"
+            },
+            {
+              "start": 1,
+              "end": 1,
+              "old": "通‘汝’，你"
+            },
+            {
+              "start": 1,
+              "end": 1,
+              "new": "女性"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 2,
+              "end": 4,
+              "content": "宾语前置句：‘匪女之为美’即‘匪为美女’，不是因为你美丽。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "必修上",
+    "诗",
+    "背默",
+    "诗经",
+    "爱情"
+  ],
+  "appreciation": "《静女》是《诗经》中的一首诗，为一首爱情诗。此诗叙写青年男女幽会的过程，流露出男子对恋人性格温柔娴静、外表淑丽的赞美与喜爱，尽显年轻男女之间纯真美好的爱情。全诗构思灵巧，人物形象刻画生动，通篇以男子的口吻表现幽期密约的乐趣，其语言浅显，形象生动，气氛欢快，情趣盎然，充满了幽默和健康快乐的情绪，对青年人恋爱心理的描写惟妙惟肖。"
+}

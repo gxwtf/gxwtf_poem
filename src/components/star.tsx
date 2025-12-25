@@ -18,7 +18,7 @@ export function StarButton({
 }){
     const { session } = useSession();
     const userId = session.userid;
-    const [ starStat, setStarStat ] = useState<Boolean>(false);
+    const [ starStat, setStarStat ] = useState<boolean>(false);
     const [ starNum, setStarNum ] = useState<number>(0);
     const [ poemId, setPoemId ] = useState<string>("");
     useEffect(() => {
@@ -30,7 +30,7 @@ export function StarButton({
             queryStar(userId,poemId)
             .then((res)=>{setStarStat(res);});
         }
-    }, [userId, poemId]);
+    }, [userId, poemId, session, title, version]);
     return (
         <Button
             onClick={async (event) => {

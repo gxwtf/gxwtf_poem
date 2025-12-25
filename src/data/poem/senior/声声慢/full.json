@@ -1,0 +1,1017 @@
+{
+  "name": "声声慢",
+  "author": "李清照",
+  "dynasty": "宋代",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "寻",
+              "pinyin": "xún",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寻",
+              "pinyin": "xún",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "觅",
+              "pinyin": "mì",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "觅",
+              "pinyin": "mì",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "冷",
+              "pinyin": "lěng",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "冷",
+              "pinyin": "lěng",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "清",
+              "pinyin": "qīng",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "清",
+              "pinyin": "qīng",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "凄",
+              "pinyin": "qī",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "凄",
+              "pinyin": "qī",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惨",
+              "pinyin": "cǎn",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "惨",
+              "pinyin": "cǎn",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "戚",
+              "pinyin": "qī",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "戚",
+              "pinyin": "qī",
+              "index": 15,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 16,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "苦苦寻觅，却只见冷冷清清，怎不让人凄惨悲戚。",
+          "pinyin": "xún xún mì mì ， lěng lěng qīng qīng ， qī qī cǎn cǎn qī qī 。",
+          "notes": [
+            {
+              "start": 14,
+              "end": 15,
+              "content": "悲愁、哀伤的样子。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "乍",
+              "pinyin": "zhà",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "暖",
+              "pinyin": "nuǎn",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "还",
+              "pinyin": "huán",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寒",
+              "pinyin": "hán",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "候",
+              "pinyin": "hòu",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "最",
+              "pinyin": "zuì",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "难",
+              "pinyin": "nán",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "息",
+              "pinyin": "xī",
+              "index": 27,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 28,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "秋天的天气，总是忽然变暖又转寒，最难休养调理。",
+          "pinyin": "zhà nuǎn huán hán shí hòu ， zuì nán jiāng xī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "忽暖忽冷，天气变化无常。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "content": "养息，休息。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 7,
+              "end": 10,
+              "old": "调养休息"
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "new": "即将停止、平息"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "杯",
+              "pinyin": "bēi",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "两",
+              "pinyin": "liǎng",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "盏",
+              "pinyin": "zhǎn",
+              "index": 32,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "淡",
+              "pinyin": "dàn",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酒",
+              "pinyin": "jiǔ",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怎",
+              "pinyin": "zěn",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "敌",
+              "pinyin": "dí",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "他",
+              "pinyin": "tā",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "晚",
+              "pinyin": "wǎn",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "风",
+              "pinyin": "fēng",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "急",
+              "pinyin": "jí",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "！",
+              "pinyin": "",
+              "index": 44,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "喝几杯淡酒，怎么能抵挡得住傍晚的寒风紧吹？",
+          "pinyin": "sān bēi liǎng zhǎn dàn jiǔ ， zěn dí tā 、 wǎn lái fēng jí ！",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "雁",
+              "pinyin": "yàn",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "过",
+              "pinyin": "guò",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "正",
+              "pinyin": "zhèng",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "伤",
+              "pinyin": "shāng",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "却",
+              "pinyin": "què",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "旧",
+              "pinyin": "jiù",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "识",
+              "pinyin": "shí",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 59,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "一行大雁从头顶上飞过，更让人伤心，竟然都是当年为我传递书信的旧相识。",
+          "pinyin": "yàn guò yě ， zhèng shāng xīn ， què shì jiù shí xiāng shí 。",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "满",
+              "pinyin": "mǎn",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "花",
+              "pinyin": "huā",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "堆",
+              "pinyin": "duī",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "积",
+              "pinyin": "jī",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "憔",
+              "pinyin": "qiáo",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "悴",
+              "pinyin": "cuì",
+              "index": 68,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "损",
+              "pinyin": "sǔn",
+              "index": 69,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "如",
+              "pinyin": "rú",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谁",
+              "pinyin": "shuí",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "堪",
+              "pinyin": "kān",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "摘",
+              "pinyin": "zhāi",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 77,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "园中菊花堆积满地，唯独我因忧伤而憔悴瘦损，如今有谁可以摘取？",
+          "pinyin": "mǎn dì huáng huā duī jī ， qiáo cuì sǔn ， rú jīn yǒu shuí kān zhāi ？",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "菊花。"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "content": "枯萎，凋零殆尽。憔悴，凋零、枯萎。损，这里相当于“极”，表示程度很深。"
+            },
+            {
+              "start": 15,
+              "end": 15,
+              "content": "可以，能够。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 7,
+              "end": 9,
+              "old": "消瘦/凋零至极"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "new": "损失、减少"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 11,
+              "end": 16,
+              "content": "疑问句中宾语‘谁’前置，正常语序为‘堪摘谁’"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "守",
+              "pinyin": "shǒu",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "着",
+              "pinyin": "zhe",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "窗",
+              "pinyin": "chuāng",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "儿",
+              "pinyin": "ér",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "独",
+              "pinyin": "dú",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怎",
+              "pinyin": "zěn",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "生",
+              "pinyin": "shēng",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "得",
+              "pinyin": "dé",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黑",
+              "pinyin": "hēi",
+              "index": 88,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 89,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "孤独地守在窗前，一个人怎样才能熬到天黑？",
+          "pinyin": "shǒu zhe chuāng ér ， dú zì zěn shēng dé hēi ？",
+          "notes": [
+            {
+              "start": 7,
+              "end": 10,
+              "content": "怎样挨到天黑。怎生，怎么、怎样。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 5,
+              "end": 10,
+              "old": "怎么熬到天黑"
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "new": "如何产生黑色"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "梧",
+              "pinyin": "wú",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "桐",
+              "pinyin": "tóng",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "更",
+              "pinyin": "gèng",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兼",
+              "pinyin": "jiān",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "细",
+              "pinyin": "xì",
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雨",
+              "pinyin": "yǔ",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "到",
+              "pinyin": "dào",
+              "index": 97,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "黄",
+              "pinyin": "huáng",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "昏",
+              "pinyin": "hūn",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "点",
+              "pinyin": "diǎn",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "点",
+              "pinyin": "diǎn",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "滴",
+              "pinyin": "dī",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "滴",
+              "pinyin": "dī",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 105,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "梧桐叶上细雨淋漓，到黄昏时分，那雨声还是点点滴滴。",
+          "pinyin": "wú tóng gèng jiān xì yǔ ， dào huáng hūn 、 diǎn diǎn dī dī 。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "这",
+              "pinyin": "zhè",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "次",
+              "pinyin": "cì",
+              "index": 107,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "第",
+              "pinyin": "dì",
+              "index": 108,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 109,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "怎",
+              "pinyin": "zěn",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "个",
+              "pinyin": "gè",
+              "index": 112,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愁",
+              "pinyin": "chóu",
+              "index": 113,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "字",
+              "pinyin": "zì",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "了",
+              "index": 115,
+              "read": false,
+              "write": false,
+              "pinyin": "liǎo"
+            },
+            {
+              "char": "得",
+              "index": 116,
+              "read": false,
+              "write": false,
+              "pinyin": "dé"
+            },
+            {
+              "char": "！",
+              "pinyin": "",
+              "index": 117,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "这般光景，一个“愁”字怎么能概括得尽！",
+          "pinyin": "zhè cì dì ， zěn yī gè chóu zì liǎo dé ！",
+          "notes": [
+            {
+              "start": 1,
+              "end": 2,
+              "content": "光景，状况。"
+            },
+            {
+              "start": 4,
+              "end": 10,
+              "content": "意思是，一个“愁”字怎么能概括得尽呢？"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 0,
+              "end": 2,
+              "old": "这情形"
+            },
+            {
+              "start": 0,
+              "end": 2,
+              "new": "次序、依次"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 4,
+              "end": 10,
+              "content": "反问句式，加强语气，强调愁绪之深重难言"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "必修上",
+    "词",
+    "背默"
+  ],
+  "background": "此词是李清照后期的作品，具体写作时间待考。有人认为作于南渡以后，正值金兵入侵，北宋灭亡，丈夫去世，一连串的打击使她尝尽了国破家亡、颠沛流离的苦痛，亡国之恨，丧夫之哀，孀居之苦，凝集心头，无法排遣，于是写下了这首《声声慢》。有人则认为是中年时期所作。",
+  "appreciation": "这首词通过描写残秋所见、所闻、所感，抒发词人因国破家亡、天涯沦落而产生的孤寂落寞、悲凉愁苦的心绪。此词在结构上打破上下片的局限，一气贯注，着意渲染愁情；如泣如诉，感人至深。开头连下十四个叠字，形象地抒写了词人孤独的心情；下文“点点滴滴”又前后照应，表现了她寂寞忧郁的情绪和动荡不安的心境。全词一字一泪，风格深沉凝重、哀婉凄苦，极富艺术感染力；它既是词人内心深处万千愁苦的反映，亦是时代与个人命运交织的悲歌。"
+}

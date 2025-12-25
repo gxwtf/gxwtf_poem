@@ -1,0 +1,327 @@
+{
+  "name": "闻王昌龄左迁龙标遥有此寄",
+  "author": "李白",
+  "dynasty": "唐代",
+  "mode": "poem",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "杨",
+              "pinyin": "yáng",
+              "index": 0,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "花",
+              "pinyin": "huā",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "落",
+              "pinyin": "luò",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尽",
+              "pinyin": "jìn",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "规",
+              "pinyin": "guī",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "啼",
+              "pinyin": "tí",
+              "index": 6,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "龙",
+              "pinyin": "lóng",
+              "index": 10,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "标",
+              "pinyin": "biāo",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "过",
+              "pinyin": "guò",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "五",
+              "pinyin": "wǔ",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "溪",
+              "pinyin": "xī",
+              "index": 14,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 15,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "柳絮落尽杜鹃声声哀啼，得知您被贬龙标已过五溪。",
+          "pinyin": "yáng huā luò jìn zǐ guī tí ， wén dào lóng biāo guò wǔ xī 。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "杨花：指柳絮，春日飘飞的柳树种子，非杨树之花，象征漂泊无定。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "content": "子规：即杜鹃鸟，又称布谷鸟，古诗中常以其啼声寄托哀思或羁旅之愁。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "闻道：听说。‘道’在此为动词，意为‘说、告知’，非道路。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "龙标：唐代县名，在今湖南黔阳一带，此处指王昌龄被贬之地。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "content": "五溪：指雄溪、樠溪、酉溪、潕溪、辰溪，泛指湖南西部至贵州东部的偏远山区。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "我",
+              "pinyin": "wǒ",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寄",
+              "pinyin": "jì",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愁",
+              "pinyin": "chóu",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "随",
+              "pinyin": "suí",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "直",
+              "pinyin": "zhí",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "到",
+              "pinyin": "dào",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng",
+              "index": 29,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "西",
+              "pinyin": "xī",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 31,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我把忧愁之心托付明月，随风伴您直到夜郎以西。",
+          "pinyin": "wǒ jì chóu xīn yǔ míng yuè ， suí jūn zhí dào yè láng xī 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "愁心：忧愁的心情，‘心’在此代指情感，非实指器官。"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "content": "与：给予、托付，此处为动词，非现代连词‘和’。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "夜郎：汉代西南小国名，唐代泛指贵州一带，象征遥远荒僻之地。"
+            },
+            {
+              "start": 15,
+              "end": 15,
+              "content": "西：西部，指夜郎以西更偏远之处，强调路途遥远。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 4,
+              "end": 4,
+              "old": "给予"
+            },
+            {
+              "start": 4,
+              "end": 4,
+              "new": "和、跟"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 7,
+              "content": "‘我寄愁心与明月’为文言双宾语结构，‘愁心’为直接宾语，‘与明月’为间接宾语，相当于‘寄之于明月’。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "七上",
+    "诗",
+    "七言绝句"
+  ],
+  "background": "此诗一说约作于唐玄宗天宝八载（749），一说约作于唐玄宗天宝十二载（753）。当时王昌龄从江宁丞被贬为龙标县（今湖南省黔阳县）尉，李白在扬州听到王昌龄被贬的不幸遭遇以后，写了这一首充满同情和关切的诗篇，从远道寄给他。",
+  "appreciation": "此诗是诗人为好友而作，他以此抒发感慨、寄托慰藉，表达对好友怀才不遇的惋惜与同情之意。首句勾勒出一幅春光消逝的萧条景象，渲染了环境气氛的黯淡、凄楚；次句是对好友“左迁”赴任路途险远的描画，显露出诗人对好友远谪的关切与同情；三、四两句寄情于景，对好友进行由衷的劝勉和宽慰。全诗选择了杨花、子规、明月、风等意象，以奇特的想象力编织出一个朦胧的梦境，诗人虽未追叙与好友昔日相聚的情景和友谊，但通过对景物的描写，把友情抒发得真挚感人。"
+}

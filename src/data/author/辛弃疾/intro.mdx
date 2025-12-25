@@ -1,0 +1,24 @@
+import { Meta } from '@/components/author-preview/author-meta';
+import { PoemTinyCard } from '@/components/poem-tiny-card';
+import indexData from "./index.json"
+import { Tags } from "@/components/tag"
+
+<Meta name={indexData.name} avatar={indexData.avatar} dynasty={indexData.dynasty} epithet={indexData.epithet} />
+
+## 简介
+
+　　{indexData["intro"]}
+
+## 标签
+
+<Tags type="author" tags={indexData["tags"]} className="my-4" />
+
+## 课内作品
+
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+	<PoemTinyCard version="junior" title="丑奴儿·书博山道中壁" />
+	<PoemTinyCard version="junior" title="破阵子·为陈同甫赋壮词以寄之" />
+	<PoemTinyCard version="junior" title="南乡子·登京口北固亭有怀" />
+	<PoemTinyCard version="junior" title="太常引·建康中秋夜为吕叔潜赋" />
+	<PoemTinyCard version="senior" title="永遇乐·京口北固亭怀古" />
+</div>

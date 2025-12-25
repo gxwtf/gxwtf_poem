@@ -1,0 +1,25 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+import { Tags } from "@/components/tag"
+import { BilibiliVideos } from "@/components/video"
+import { PoemQuoteCard, PoemQuoteCards } from "@/components/poem-quote-card"
+
+<Meta 
+  title="虽有嘉肴"
+  author="戴圣"
+  dynasty="西汉"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+　　本文选自《礼记·学记》，由西汉戴圣编纂。成书于汉代尊儒时期，总结先秦教育理论。引用的《兑命》是《尚书》篇目，反映周代教育思想。
+
+## 作品赏析
+
+　　《虽有嘉肴》出自《礼记·学记》。这篇文章运用托物言志的手法引出要阐明的观点，指出教和学是互相促进、相辅相成的，即“教学相长”。全文虽篇幅极短，然其思路清晰，文势流畅，层层递进，文气贯通，深刻揭示了实践出真知的道理以及工作、学习和实践的重要性。

@@ -6,11 +6,16 @@ const prisma = new PrismaClient()
 
 // 读取JSON文件的辅助函数
 function readJsonFile(filePath: string): any {
+    if (!fs.existsSync(filePath)) {
+        // 文件不存在则直接返回 null，不报错
+        return null
+    }
     try {
         const content = fs.readFileSync(filePath, 'utf-8')
         return JSON.parse(content)
     } catch (error) {
-        console.error(`Error reading file ${filePath}:`, error)
+        // JSON 格式错误等情况才打印
+        console.error(`Error parsing JSON in file ${filePath}:`, error)
         return null
     }
 }
@@ -73,45 +78,39 @@ export async function main() {
         }
     }
     
-    // 处理古诗文数据（junior版本）
-    const juniorOrder = getOrderFromFile(path.join(basePath, 'poem/junior/order.tsx'))
-    for (const poemName of juniorOrder) {
-        const poemPath = path.join(basePath, 'poem/junior', poemName, 'index.json')
-        const poemData = readJsonFile(poemPath)
-        
-        if (poemData) {
-            await prisma.poem.create({
-                data: {
-                    title: poemData.title,
-                    version: 'junior',
-                    tags: poemData.tags || [],
-                    author: poemData.author,
-                    dynasty: poemData.dynasty,
-                    mode: poemData.mode || 'poem',
-                    content: poemData.content
+    // 处理诗歌数据（junior & senior）
+    const versions = ['junior', 'senior']
+    for (const ver of versions) {
+        const order = getOrderFromFile(path.join(basePath, `poem/${ver}/order.tsx`))
+        for (const poemName of order) {
+            const poemPath = path.join(basePath, `poem/${ver}`, poemName, 'index.json')
+            const poemData = readJsonFile(poemPath)
+
+            if (poemData) {
+                const exists = await prisma.poem.findFirst({
+                    where: {
+                        version: ver,
+                        title: poemData.title
+                    }
+                })
+
+                if (exists) {
+                    console.log(`🚨 Duplicate detected: version=${ver}, title=${poemData.title}`)
+                    continue
                 }
-            })
-        }
-    }
-    
-    // 处理诗歌数据（senior版本）
-    const seniorOrder = getOrderFromFile(path.join(basePath, 'poem/senior/order.tsx'))
-    for (const poemName of seniorOrder) {
-        const poemPath = path.join(basePath, 'poem/senior', poemName, 'index.json')
-        const poemData = readJsonFile(poemPath)
-        
-        if (poemData) {
-            await prisma.poem.create({
-                data: {
-                    title: poemData.title,
-                    version: 'senior',
-                    tags: poemData.tags || [],
-                    author: poemData.author,
-                    dynasty: poemData.dynasty,
-                    mode: poemData.mode || 'poem',
-                    content: poemData.content
-                }
-            })
+
+                await prisma.poem.create({
+                    data: {
+                        title: poemData.title,
+                        version: ver,
+                        tags: poemData.tags || [],
+                        author: poemData.author,
+                        dynasty: poemData.dynasty,
+                        mode: poemData.mode || 'poem',
+                        content: poemData.content
+                    }
+                })
+            }
         }
     }
     

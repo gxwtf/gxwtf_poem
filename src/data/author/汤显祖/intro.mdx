@@ -1,0 +1,20 @@
+import { Meta } from '@/components/author-preview/author-meta';
+import { PoemTinyCard } from '@/components/poem-tiny-card';
+import indexData from "./index.json"
+import { Tags } from "@/components/tag"
+
+<Meta name={indexData.name} avatar={indexData.avatar} dynasty={indexData.dynasty} epithet={indexData.epithet} />
+
+## 简介
+
+　　{indexData["intro"]}
+
+## 标签
+
+<Tags type="author" tags={indexData["tags"]} className="my-4" />
+
+## 课内作品
+
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+	<PoemTinyCard version="senior" title="皂罗袍·原来姹紫嫣红开遍" />
+</div>

@@ -1,0 +1,273 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "昔",
+              "pinyin": "xī"
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén"
+            },
+            {
+              "char": "洞",
+              "pinyin": "dòng"
+            },
+            {
+              "char": "庭",
+              "pinyin": "tíng"
+            },
+            {
+              "char": "水",
+              "pinyin": "shuǐ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn"
+            },
+            {
+              "char": "上",
+              "pinyin": "shàng"
+            },
+            {
+              "char": "岳",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "阳",
+              "pinyin": "yáng"
+            },
+            {
+              "char": "楼",
+              "pinyin": "lóu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "以前就听说洞庭湖波澜壮阔，今日终于如愿登上岳阳楼。"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "吴",
+              "pinyin": "wú"
+            },
+            {
+              "char": "楚",
+              "pinyin": "chǔ"
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng"
+            },
+            {
+              "char": "南",
+              "pinyin": "nán"
+            },
+            {
+              "char": "坼",
+              "pinyin": "chè",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "分裂。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "乾",
+              "pinyin": "qián"
+            },
+            {
+              "char": "坤",
+              "pinyin": "kūn"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè"
+            },
+            {
+              "char": "浮",
+              "pinyin": "fú"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "浩瀚的湖水把吴楚两地分隔开来，整个天地仿似在湖中日夜浮动。"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "指日月。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "亲",
+              "pinyin": "qīn"
+            },
+            {
+              "char": "朋",
+              "pinyin": "péng"
+            },
+            {
+              "char": "无",
+              "pinyin": "wú"
+            },
+            {
+              "char": "一",
+              "pinyin": "yī"
+            },
+            {
+              "char": "字",
+              "pinyin": "zì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "老",
+              "pinyin": "lǎo"
+            },
+            {
+              "char": "病",
+              "pinyin": "bìng"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "孤",
+              "pinyin": "gū"
+            },
+            {
+              "char": "舟",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "亲朋好友音信全无，年老多病唯有孤舟一叶飘零无定。"
+          },
+          "notes": []
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "戎",
+              "pinyin": "róng"
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ"
+            },
+            {
+              "char": "关",
+              "pinyin": "guān"
+            },
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "北",
+              "pinyin": "běi"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "凭",
+              "pinyin": "píng"
+            },
+            {
+              "char": "轩",
+              "pinyin": "xuān"
+            },
+            {
+              "char": "涕",
+              "pinyin": "tì"
+            },
+            {
+              "char": "泗",
+              "pinyin": "sì"
+            },
+            {
+              "char": "流",
+              "pinyin": "liú"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "北方边境的战争仍未止息，凭栏遥望，胸怀家国泪水横流。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 4,
+              "note": "指战事起于北部边境地区。当时吐蕃正侵扰陇右、关中一带。戎马，战马，代指战争。关山，在今宁夏南部。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "note": "倚窗。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "note": "眼泪鼻涕。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "poem"
+}

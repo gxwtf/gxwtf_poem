@@ -1,0 +1,604 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "山",
+              "pinyin": "shān"
+            },
+            {
+              "char": "川",
+              "pinyin": "chuān"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "美",
+              "pinyin": "měi",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "美：美景、美丽，此处指山水之美。"
+                }
+              ]
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "古",
+              "pinyin": "gǔ"
+            },
+            {
+              "char": "来",
+              "pinyin": "lái"
+            },
+            {
+              "char": "共",
+              "pinyin": "gòng"
+            },
+            {
+              "char": "谈",
+              "pinyin": "tán"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "山川景色的美丽，自古便是共同话题。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "山川：山峦与河流，泛指自然山水景观。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "note": "之：结构助词，相当于‘的’，连接‘山川’与‘美’。"
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "note": "古来：自古以来，强调时间久远。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "note": "共谈：共同谈论，说明此美景为世人所公认。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "高",
+              "pinyin": "gāo"
+            },
+            {
+              "char": "峰",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "入",
+              "pinyin": "rù"
+            },
+            {
+              "char": "云",
+              "pinyin": "yún"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "清",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "流",
+              "pinyin": "liú"
+            },
+            {
+              "char": "见",
+              "pinyin": "jiàn"
+            },
+            {
+              "char": "底",
+              "pinyin": "dǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "巍峨山峰耸入云端，清澈溪流直视水底。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "高峰：高耸的山峰，形容山势险峻。"
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "note": "入云：插入云霄，极言山高。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "note": "清流：清澈的水流，突出水质洁净。"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "note": "见底：可以看见水底，形容水清且浅或极透明。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "两",
+              "pinyin": "liǎng"
+            },
+            {
+              "char": "岸",
+              "pinyin": "àn"
+            },
+            {
+              "char": "石",
+              "pinyin": "shí"
+            },
+            {
+              "char": "壁",
+              "pinyin": "bì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "五",
+              "pinyin": "wǔ"
+            },
+            {
+              "char": "色",
+              "pinyin": "sè"
+            },
+            {
+              "char": "交",
+              "pinyin": "jiāo"
+            },
+            {
+              "char": "辉",
+              "pinyin": "huī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "两岸峭壁林立，五彩斑斓交相辉映。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "两岸：指溪流或江河两边的陆地。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "note": "石壁：岩石构成的峭壁，突出地形特征。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "note": "五色：青、赤、黄、白、黑等色彩，泛指颜色繁多。"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "note": "交辉：交相辉映，形容色彩斑斓、光影交错的景象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "青",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "林",
+              "pinyin": "lín"
+            },
+            {
+              "char": "翠",
+              "pinyin": "cuì"
+            },
+            {
+              "char": "竹",
+              "pinyin": "zhú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "四",
+              "pinyin": "sì"
+            },
+            {
+              "char": "时",
+              "pinyin": "shí"
+            },
+            {
+              "char": "俱",
+              "pinyin": "jù"
+            },
+            {
+              "char": "备",
+              "pinyin": "bèi"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "青葱树林翠绿竹林，四季常存生机。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "青林：苍翠的树林，‘青’指深绿色。"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "note": "翠竹：翠绿的竹子，‘翠’强调鲜亮的绿色。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "note": "四时：四季，即春、夏、秋、冬。"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "note": "俱备：都具备，说明四季景色皆美且完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "晓",
+              "pinyin": "xiǎo"
+            },
+            {
+              "char": "雾",
+              "pinyin": "wù"
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "歇",
+              "pinyin": "xiē"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "猿",
+              "pinyin": "yuán"
+            },
+            {
+              "char": "鸟",
+              "pinyin": "niǎo"
+            },
+            {
+              "char": "乱",
+              "pinyin": "luàn"
+            },
+            {
+              "char": "鸣",
+              "pinyin": "míng"
+            },
+            {
+              "char": "；",
+              "pinyin": "　"
+            },
+            {
+              "char": "夕",
+              "pinyin": "xī"
+            },
+            {
+              "char": "日",
+              "pinyin": "rì"
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù"
+            },
+            {
+              "char": "颓",
+              "pinyin": "tuí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "沉",
+              "pinyin": "chén"
+            },
+            {
+              "char": "鳞",
+              "pinyin": "lín"
+            },
+            {
+              "char": "竞",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "跃",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "晨雾即将消散，猿猴飞鸟欢鸣；夕阳将要西沉，潜游鱼儿竞相跃出水面。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "晓雾：清晨的雾气，点明时间。"
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "note": "将歇：即将消散，‘歇’指停止、消失。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "note": "猿鸟：猿猴与飞鸟，代表山林中的动物。"
+            },
+            {
+              "start": 7,
+              "end": 9,
+              "note": "乱鸣：杂乱地鸣叫，形容清晨生机勃勃的景象。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "note": "夕阳：落山的太阳，表明傍晚时分。"
+            },
+            {
+              "start": 12,
+              "end": 14,
+              "note": "欲颓：将要落下，‘颓’本义为下坠，此处指日落。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "note": "沉鳞：潜游在水中的鱼，‘鳞’代指鱼。"
+            },
+            {
+              "start": 17,
+              "end": 19,
+              "note": "竞跃：争相跳跃，描绘鱼儿活跃的动态美。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "实",
+              "pinyin": "shí"
+            },
+            {
+              "char": "是",
+              "pinyin": "shì"
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù"
+            },
+            {
+              "char": "界",
+              "pinyin": "jiè"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "仙",
+              "pinyin": "xiān"
+            },
+            {
+              "char": "都",
+              "pinyin": "dū"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "实是人间仙境。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "实是：确实是，起强调作用。"
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "note": "欲界：佛教用语，指充满欲望的尘世，与‘仙都’对照。"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "note": "仙都：神仙居住的地方，极言其美。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "自",
+              "pinyin": "zì"
+            },
+            {
+              "char": "康",
+              "pinyin": "kāng"
+            },
+            {
+              "char": "乐",
+              "pinyin": "lè"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "来",
+              "pinyin": "lái"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "复",
+              "pinyin": "fù"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "能",
+              "pinyin": "néng"
+            },
+            {
+              "char": "与",
+              "pinyin": "yù"
+            },
+            {
+              "char": "其",
+              "pinyin": "qí"
+            },
+            {
+              "char": "奇",
+              "pinyin": "qí"
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "自谢灵运之后，再无人能欣赏这般奇景。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "自：自从，表示时间起点。"
+            },
+            {
+              "start": 1,
+              "end": 3,
+              "note": "康乐：指谢灵运，南朝刘宋时著名山水诗人，袭封康乐公。"
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "note": "以来：从那时起，表示时间延续至今。"
+            },
+            {
+              "start": 6,
+              "end": 8,
+              "note": "未复：再也没有。‘复’意为再、又。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "能与：能够欣赏、参与其中。‘与’读yù，意为参与、领略。"
+            },
+            {
+              "start": 11,
+              "end": 13,
+              "note": "其奇：这等奇妙的景色。‘其’代指前文所述美景。"
+            },
+            {
+              "start": 13,
+              "end": 14,
+              "note": "者：……的人，构成名词性短语。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

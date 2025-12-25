@@ -49,7 +49,7 @@ export function WordNotePopover({
             </PopoverTrigger>
             <PopoverContent className="w-100 max-h-80 overflow-auto border shadow-lg rounded-lg bg-background">
                 <Section padding="p-2">
-                    <SectionContent val={note} indent />
+                    <SectionContent val={note} />
                 </Section>
                 <div className="p-4 text-right space-x-2">
                     <Button onClick={(e) => e.stopPropagation()}>

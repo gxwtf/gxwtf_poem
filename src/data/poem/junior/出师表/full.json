@@ -1,0 +1,5762 @@
+{
+  "name": "出师表",
+  "author": "诸葛亮",
+  "dynasty": "三国",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 0,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 1,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "创",
+              "pinyin": "chuàng",
+              "index": 2,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "业",
+              "pinyin": "yè",
+              "index": 3,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 4,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "半",
+              "pinyin": "bàn",
+              "index": 5,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 6,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 7,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 8,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "崩",
+              "pinyin": "bēng",
+              "index": 9,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "殂",
+              "pinyin": "cú",
+              "index": 10,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 11,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 12,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 13,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 14,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 15,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "分",
+              "pinyin": "fēn",
+              "index": 16,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 17,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "益",
+              "pinyin": "yì",
+              "index": 18,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "州",
+              "pinyin": "zhōu",
+              "index": 19,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "疲",
+              "pinyin": "pí",
+              "index": 20,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弊",
+              "pinyin": "bì",
+              "index": 21,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 22,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 23,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诚",
+              "pinyin": "chéng",
+              "index": 24,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "危",
+              "pinyin": "wēi",
+              "index": 25,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "急",
+              "pinyin": "jí",
+              "index": 26,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "存",
+              "pinyin": "cún",
+              "index": 27,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亡",
+              "pinyin": "wáng",
+              "index": 28,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 29,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "秋",
+              "pinyin": "qiū",
+              "index": 30,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 31,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 32,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "先帝开创大业未完成一半就中途去世了，如今天下分为三国，益州地区民力疲惫、经济凋敝，这确实是国家危急存亡的关键时刻啊。",
+          "pinyin": "xiān dì chuàng yè wèi bàn ér zhōng dào bēng cú ， jīn tiān xià sān fēn ， yì zhōu pí bì ， cǐ chéng wēi jí cún wáng zhī qiū yě 。",
+          "notes": [
+            {
+              "start": 7,
+              "end": 8,
+              "content": "崩殂：古代帝王死亡的专用词，崩，驾崩；殂，死亡。"
+            },
+            {
+              "start": 18,
+              "end": 19,
+              "content": "益州：汉代州名，此处指蜀汉统治的核心区域。"
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "content": "疲弊：人力物力耗尽，国家困顿。"
+            },
+            {
+              "start": 24,
+              "end": 24,
+              "content": "诚：实在、确实，用于加强判断语气。"
+            },
+            {
+              "start": 30,
+              "end": 30,
+              "content": "之：结构助词，相当于‘的’。"
+            },
+            {
+              "start": 31,
+              "end": 31,
+              "content": "秋：时节、时刻，此处指国家存亡的关键时期。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 33,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "侍",
+              "pinyin": "shì",
+              "index": 34,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卫",
+              "pinyin": "wèi",
+              "index": 35,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 36,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 37,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 38,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "懈",
+              "pinyin": "xiè",
+              "index": 39,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 40,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "内",
+              "pinyin": "nèi",
+              "index": 41,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 42,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 43,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "志",
+              "pinyin": "zhì",
+              "index": 44,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 45,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 46,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忘",
+              "pinyin": "wàng",
+              "index": 47,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 48,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 49,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "外",
+              "pinyin": "wài",
+              "index": 50,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 51,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 52,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "盖",
+              "pinyin": "gài",
+              "index": 53,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "追",
+              "pinyin": "zhuī",
+              "index": 54,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 55,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 56,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 57,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "殊",
+              "pinyin": "shū",
+              "index": 58,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遇",
+              "pinyin": "yù",
+              "index": 59,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 60,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "欲",
+              "pinyin": "yù",
+              "index": 61,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "报",
+              "pinyin": "bào",
+              "index": 62,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 63,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 64,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陛",
+              "pinyin": "bì",
+              "index": 65,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 66,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 67,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 68,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "然而侍卫大臣们在朝廷内毫不懈怠，忠诚有志的将士们在外面舍生忘死，大概是因为追念先帝对他们的特殊恩遇，想要在陛下身上报答啊。",
+          "pinyin": "rán shì wèi zhī chén bù xiè yú nèi ， zhōng zhì zhī shì wàng shēn yú wài zhě ， gài zhuī xiān dì zhī shū yù ， yù bào zhī yú bì xià yě 。",
+          "notes": [
+            {
+              "start": 21,
+              "end": 21,
+              "content": "盖：大概，表示推测原因。"
+            },
+            {
+              "start": 25,
+              "end": 26,
+              "content": "殊遇：特别的优待，指先帝对臣子的厚爱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "诚",
+              "pinyin": "chéng",
+              "index": 69,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宜",
+              "pinyin": "yí",
+              "index": 70,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "开",
+              "pinyin": "kāi",
+              "index": 71,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "张",
+              "pinyin": "zhāng",
+              "index": 72,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "圣",
+              "pinyin": "shèng",
+              "index": 73,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "听",
+              "pinyin": "tīng",
+              "index": 74,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 75,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 76,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "光",
+              "pinyin": "guāng",
+              "index": 77,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 78,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 79,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遗",
+              "pinyin": "yí",
+              "index": 80,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "德",
+              "pinyin": "dé",
+              "index": 81,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 82,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "恢",
+              "pinyin": "huī",
+              "index": 83,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "弘",
+              "pinyin": "hóng",
+              "index": 84,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "志",
+              "pinyin": "zhì",
+              "index": 85,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 86,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 87,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "气",
+              "pinyin": "qì",
+              "index": 88,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 89,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 90,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宜",
+              "pinyin": "yí",
+              "index": 91,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "妄",
+              "pinyin": "wàng",
+              "index": 92,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 93,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "菲",
+              "pinyin": "fěi",
+              "index": 94,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "薄",
+              "pinyin": "bó",
+              "index": 95,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 96,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "引",
+              "pinyin": "yǐn",
+              "index": 97,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "喻",
+              "pinyin": "yù",
+              "index": 98,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "失",
+              "pinyin": "shī",
+              "index": 99,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "义",
+              "pinyin": "yì",
+              "index": 100,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 101,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 102,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "塞",
+              "pinyin": "sè",
+              "index": 103,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 104,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谏",
+              "pinyin": "jiàn",
+              "index": 105,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 106,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "路",
+              "pinyin": "lù",
+              "index": 107,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 108,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 109,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "实在应该广泛听取意见，来发扬光大先帝遗留下来的美德，振奋鼓舞志士们的勇气，不应随便看轻自己，说话不恰当，以致堵塞了忠诚进谏的道路。",
+          "pinyin": "chéng yí kāi zhāng shèng tīng ， yǐ guāng xiān dì yí dé ， huī hóng zhì shì zhī qì ， bù yí wàng zì fěi bó ， yǐn yù shī yì ， yǐ sè zhōng jiàn zhī lù yě 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "开张：扩大，此处指广泛听取意见，古义与今义不同。"
+            },
+            {
+              "start": 8,
+              "end": 8,
+              "content": "以：用来，表目的连词。"
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "content": "光：发扬光大，使……显扬。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "content": "恢弘：发扬，振奋。恢，扩大；弘，弘扬。"
+            },
+            {
+              "start": 25,
+              "end": 26,
+              "content": "菲薄：轻视、看不起自己，妄自菲薄即过分贬低自己。"
+            },
+            {
+              "start": 29,
+              "end": 30,
+              "content": "引喻：引用比喻或典故；失义：不合道理。"
+            },
+            {
+              "start": 34,
+              "end": 34,
+              "content": "以：以致，导致。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 2,
+              "end": 3,
+              "old": "扩大"
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "new": "商店开始营业"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "宫",
+              "pinyin": "gōng",
+              "index": 110,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 111,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "府",
+              "pinyin": "fǔ",
+              "index": 112,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 113,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 114,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "俱",
+              "pinyin": "jù",
+              "index": 115,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 116,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 117,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "体",
+              "pinyin": "tǐ",
+              "index": 118,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 119,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陟",
+              "pinyin": "zhì",
+              "index": 120,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "罚",
+              "pinyin": "fá",
+              "index": 121,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "臧",
+              "pinyin": "zāng",
+              "index": 122,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "否",
+              "pinyin": "pǐ",
+              "index": 123,
+              "read": false,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 124,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 125,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宜",
+              "pinyin": "yí",
+              "index": 126,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "异",
+              "pinyin": "yì",
+              "index": 127,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "同",
+              "pinyin": "tóng",
+              "index": 128,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 129,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "皇宫中的侍臣和丞相府中的官员，都是一个整体，奖惩功过、评定好坏，不应该有所不同。",
+          "pinyin": "gōng zhōng fǔ zhōng ， jù wéi yī tǐ ， zhì fá zāng pǐ ， bù yí yì tóng 。",
+          "notes": [
+            {
+              "start": 11,
+              "end": 11,
+              "content": "陟：提拔，奖赏。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "臧：善，好，引申为有功。"
+            },
+            {
+              "start": 14,
+              "end": 14,
+              "content": "否：恶，坏，此处读pǐ，指批评或惩罚。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "若",
+              "pinyin": "ruò",
+              "index": 130,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 131,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "作",
+              "pinyin": "zuò",
+              "index": 132,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奸",
+              "pinyin": "jiān",
+              "index": 133,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "犯",
+              "pinyin": "fàn",
+              "index": 134,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "科",
+              "pinyin": "kē",
+              "index": 135,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 136,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 137,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 138,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "善",
+              "pinyin": "shàn",
+              "index": 139,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 140,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 141,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宜",
+              "pinyin": "yí",
+              "index": 142,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "付",
+              "pinyin": "fù",
+              "index": 143,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 144,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "司",
+              "pinyin": "sī",
+              "index": 145,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "论",
+              "pinyin": "lùn",
+              "index": 146,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 147,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "刑",
+              "pinyin": "xíng",
+              "index": 148,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "赏",
+              "pinyin": "shǎng",
+              "index": 149,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 150,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 151,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "昭",
+              "pinyin": "zhāo",
+              "index": 152,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陛",
+              "pinyin": "bì",
+              "index": 153,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 154,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "平",
+              "pinyin": "píng",
+              "index": 155,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 156,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 157,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "理",
+              "pinyin": "lǐ",
+              "index": 158,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 159,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 160,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宜",
+              "pinyin": "yí",
+              "index": 161,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "偏",
+              "pinyin": "piān",
+              "index": 162,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "私",
+              "pinyin": "sī",
+              "index": 163,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 164,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "使",
+              "pinyin": "shǐ",
+              "index": 165,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "内",
+              "pinyin": "nèi",
+              "index": 166,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "外",
+              "pinyin": "wài",
+              "index": 167,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "异",
+              "pinyin": "yì",
+              "index": 168,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "法",
+              "pinyin": "fǎ",
+              "index": 169,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 170,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 171,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "如果有做奸邪事情、触犯科条法令或尽忠行善的人，应该交给主管官吏判定他们受罚或受赏，来显示陛下公正严明的治理，不应偏袒徇私，使得宫内和宫外执法标准不同。",
+          "pinyin": "ruò yǒu zuò jiān fàn kē jí wéi zhōng shàn zhě ， yí fù yǒu sī lùn qí xíng shǎng ， yǐ zhāo bì xià píng míng zhī lǐ ， bù yí piān sī ， shǐ nèi wài yì fǎ yě 。",
+          "notes": [
+            {
+              "start": 16,
+              "end": 16,
+              "content": "有司：主管某部门的官员。"
+            },
+            {
+              "start": 17,
+              "end": 17,
+              "content": "论：评定，判决。"
+            },
+            {
+              "start": 18,
+              "end": 18,
+              "content": "其：他们的。"
+            },
+            {
+              "start": 19,
+              "end": 19,
+              "content": "刑：处罚。"
+            },
+            {
+              "start": 20,
+              "end": 20,
+              "content": "赏：奖赏。"
+            },
+            {
+              "start": 22,
+              "end": 22,
+              "content": "以：用来，表目的。"
+            },
+            {
+              "start": 23,
+              "end": 23,
+              "content": "昭：显示，表明。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "侍",
+              "pinyin": "shì",
+              "index": 172,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 173,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 174,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "侍",
+              "pinyin": "shì",
+              "index": 175,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郎",
+              "pinyin": "láng",
+              "index": 176,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "郭",
+              "pinyin": "guō",
+              "index": 177,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "攸",
+              "pinyin": "yōu",
+              "index": 178,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 179,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 180,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "费",
+              "pinyin": "fèi",
+              "index": 181,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "祎",
+              "pinyin": "yī",
+              "index": 182,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 183,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "董",
+              "pinyin": "dǒng",
+              "index": 184,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "允",
+              "pinyin": "yǔn",
+              "index": 185,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "等",
+              "pinyin": "děng",
+              "index": 186,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 187,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 188,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē",
+              "index": 189,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "良",
+              "pinyin": "liáng",
+              "index": 190,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "实",
+              "pinyin": "shí",
+              "index": 191,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 192,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "志",
+              "pinyin": "zhì",
+              "index": 193,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "虑",
+              "pinyin": "lǜ",
+              "index": 194,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 195,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "纯",
+              "pinyin": "chún",
+              "index": 196,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 197,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 198,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 199,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 200,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 201,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "简",
+              "pinyin": "jiǎn",
+              "index": 202,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "拔",
+              "pinyin": "bá",
+              "index": 203,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 204,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遗",
+              "pinyin": "wèi",
+              "index": 205,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陛",
+              "pinyin": "bì",
+              "index": 206,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 207,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 208,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "侍中郭攸之、费祎、董允等人，这些都是善良诚实的人，他们的志向和心思忠诚无二，因此先帝选拔出来留给陛下。",
+          "pinyin": "shì zhōng 、 shì láng guō yōu zhī 、 fèi yī 、 dǒng yǔn děng ， cǐ jiē liáng shí ， zhì lǜ zhōng chún ， shì yǐ xiān dì jiǎn bá yǐ yí bì xià 。"
+        },
+        {
+          "content": [
+            {
+              "char": "愚",
+              "pinyin": "yú",
+              "index": 209,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 210,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 211,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宫",
+              "pinyin": "gōng",
+              "index": 212,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 213,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 214,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 215,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 216,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 217,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 218,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 219,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 220,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 221,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "悉",
+              "pinyin": "xī",
+              "index": 222,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 223,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "咨",
+              "pinyin": "zī",
+              "index": 224,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 225,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 226,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 227,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 228,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "施",
+              "pinyin": "shī",
+              "index": 229,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 230,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 231,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "必",
+              "pinyin": "bì",
+              "index": 232,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 233,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "裨",
+              "pinyin": "bì",
+              "index": 234,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "补",
+              "pinyin": "bǔ",
+              "index": 235,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阙",
+              "pinyin": "quē",
+              "index": 236,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "漏",
+              "pinyin": "lòu",
+              "index": 237,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 238,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 239,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 240,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "广",
+              "pinyin": "guǎng",
+              "index": 241,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "益",
+              "pinyin": "yì",
+              "index": 242,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 243,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我认为宫廷中的事务，无论大小，都拿来问问他们，然后施行，一定能够弥补缺失疏漏，获得更多的好处。",
+          "pinyin": "yú yǐ wéi gōng zhōng zhī shì ， shì wú dà xiǎo ， xī yǐ zī zhī ， rán hòu shī xíng ， bì néng bì bǔ quē lòu ， yǒu suǒ guǎng yì 。",
+          "notes": [
+            {
+              "start": 14,
+              "end": 14,
+              "content": "悉：全部，都。"
+            },
+            {
+              "start": 15,
+              "end": 15,
+              "content": "以：拿，把。"
+            },
+            {
+              "start": 16,
+              "end": 16,
+              "content": "咨：咨询，征求意见。"
+            },
+            {
+              "start": 26,
+              "end": 27,
+              "content": "裨补：补益，弥补。裨，读bì，补益之意。"
+            },
+            {
+              "start": 28,
+              "end": 28,
+              "content": "阙：通‘缺’，缺点，缺失。"
+            },
+            {
+              "start": 29,
+              "end": 29,
+              "content": "漏：疏漏。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 244,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 245,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "向",
+              "pinyin": "xiàng",
+              "index": 246,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宠",
+              "pinyin": "chǒng",
+              "index": 247,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 248,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "性",
+              "pinyin": "xìng",
+              "index": 249,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 250,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "淑",
+              "pinyin": "shū",
+              "index": 251,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "均",
+              "pinyin": "jūn",
+              "index": 252,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 253,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "晓",
+              "pinyin": "xiǎo",
+              "index": 254,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "畅",
+              "pinyin": "chàng",
+              "index": 255,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 256,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 257,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 258,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "试",
+              "pinyin": "shì",
+              "index": 259,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng",
+              "index": 260,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 261,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "昔",
+              "pinyin": "xī",
+              "index": 262,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 263,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 264,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 265,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 266,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "称",
+              "pinyin": "chēng",
+              "index": 267,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 268,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "曰",
+              "pinyin": "yuē",
+              "index": 269,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 270,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 271,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 272,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 273,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "众",
+              "pinyin": "zhòng",
+              "index": 274,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "议",
+              "pinyin": "yì",
+              "index": 275,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "举",
+              "pinyin": "jǔ",
+              "index": 276,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宠",
+              "pinyin": "chǒng",
+              "index": 277,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 278,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "督",
+              "pinyin": "dū",
+              "index": 279,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 280,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "将军向宠，性情品德善良平正，通晓军事，在过去试用时，先帝称赞他有才能，因此大家商议推举他做中部督。",
+          "pinyin": "jiāng jūn xiàng chǒng ， xìng xíng shū jūn ， xiǎo chàng jūn shì ， shì yòng yú xī rì ， xiān dì chēng zhī yuē néng ， shì yǐ zhòng yì jǔ chǒng wéi dū 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "content": "淑均：善良公正。淑，善；均，平。"
+            },
+            {
+              "start": 11,
+              "end": 11,
+              "content": "晓畅：通晓熟练。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "愚",
+              "pinyin": "yú",
+              "index": 281,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 282,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 283,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "营",
+              "pinyin": "yíng",
+              "index": 284,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 285,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 286,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 287,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 288,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "悉",
+              "pinyin": "xī",
+              "index": 289,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 290,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "咨",
+              "pinyin": "zī",
+              "index": 291,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 292,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 293,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "必",
+              "pinyin": "bì",
+              "index": 294,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 295,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "使",
+              "pinyin": "shǐ",
+              "index": 296,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "行",
+              "pinyin": "háng",
+              "index": 297,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "阵",
+              "pinyin": "zhèn",
+              "index": 298,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "和",
+              "pinyin": "hé",
+              "index": 299,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "睦",
+              "pinyin": "mù",
+              "index": 300,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 301,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "优",
+              "pinyin": "yōu",
+              "index": 302,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "劣",
+              "pinyin": "liè",
+              "index": 303,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "得",
+              "pinyin": "dé",
+              "index": 304,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 305,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 306,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我认为军营中的事务，都拿来问问他，一定能使军队团结和睦，才能高的和才能低的都得到合理安排。",
+          "pinyin": "yú yǐ wéi yíng zhōng zhī shì ， xī yǐ zī zhī ， bì néng shǐ háng zhèn hé mù ， yōu liè dé suǒ 。",
+          "notes": [
+            {
+              "start": 16,
+              "end": 17,
+              "content": "行阵：军队的行列，即军中队伍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "index": 307,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贤",
+              "pinyin": "xián",
+              "index": 308,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 309,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 310,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 311,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 312,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 313,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 314,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 315,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 316,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汉",
+              "pinyin": "hàn",
+              "index": 317,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 318,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 319,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兴",
+              "pinyin": "xīng",
+              "index": 320,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "隆",
+              "pinyin": "lóng",
+              "index": 321,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 322,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 323,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "index": 324,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 325,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 326,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 327,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 328,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贤",
+              "pinyin": "xián",
+              "index": 329,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 330,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 331,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 332,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 333,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汉",
+              "pinyin": "hàn",
+              "index": 334,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 335,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 336,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "倾",
+              "pinyin": "qīng",
+              "index": 337,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "颓",
+              "pinyin": "tuí",
+              "index": 338,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 339,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 340,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "亲近贤臣，疏远小人，这是西汉兴盛的原因；亲近小人，疏远贤臣，这是东汉衰败的原因。",
+          "pinyin": "qīn xián chén ， yuǎn xiǎo rén ， cǐ xiān hàn suǒ yǐ xīng lóng yě ； qīn xiǎo rén ， yuǎn xián chén ， cǐ hòu hàn suǒ yǐ qīng tuí yě 。",
+          "special_sentences": [
+            {
+              "start": 8,
+              "end": 16,
+              "content": "‘所以’表原因，‘此先汉所以兴隆也’即‘这是先汉兴盛的原因’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 341,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 342,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "在",
+              "pinyin": "zài",
+              "index": 343,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 344,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 345,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "每",
+              "pinyin": "měi",
+              "index": 346,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 347,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 348,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "论",
+              "pinyin": "lùn",
+              "index": 349,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 350,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 351,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 352,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "未",
+              "pinyin": "wèi",
+              "index": 353,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尝",
+              "pinyin": "cháng",
+              "index": 354,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 355,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "叹",
+              "pinyin": "tàn",
+              "index": 356,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "息",
+              "pinyin": "xī",
+              "index": 357,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "痛",
+              "pinyin": "tòng",
+              "index": 358,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "恨",
+              "pinyin": "hèn",
+              "index": 359,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 360,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "桓",
+              "pinyin": "huán",
+              "index": 361,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 362,
+              "read": true,
+              "write": false
+            },
+            {
+              "char": "灵",
+              "pinyin": "líng",
+              "index": 363,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 364,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 365,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "先帝在世时，每次和我谈论这些事，没有一次不对桓帝、灵帝的作为感到叹息痛心遗憾。",
+          "pinyin": "xiān dì zài shí ， měi yǔ chén lùn cǐ shì ， wèi cháng bù tàn xī tòng hèn yú huán 、 líng yě 。",
+          "notes": [
+            {
+              "start": 17,
+              "end": 18,
+              "content": "痛恨：痛心遗憾，古义与今义‘强烈憎恨’不同。"
+            },
+            {
+              "start": 20,
+              "end": 21,
+              "content": "桓、灵：东汉末年昏庸之君汉桓帝、汉灵帝，象征朝政腐败。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 17,
+              "end": 18,
+              "old": "痛心遗憾"
+            },
+            {
+              "start": 17,
+              "end": 18,
+              "new": "极度憎恨"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "侍",
+              "pinyin": "shì",
+              "index": 366,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 367,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 368,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尚",
+              "pinyin": "shàng",
+              "index": 369,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "书",
+              "pinyin": "shū",
+              "index": 370,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 371,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "长",
+              "pinyin": "zhǎng",
+              "index": 372,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "史",
+              "pinyin": "shǐ",
+              "index": 373,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 374,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "参",
+              "pinyin": "cān",
+              "index": 375,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 376,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 377,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 378,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "悉",
+              "pinyin": "xī",
+              "index": 379,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贞",
+              "pinyin": "zhēn",
+              "index": 380,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "良",
+              "pinyin": "liáng",
+              "index": 381,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "死",
+              "pinyin": "sǐ",
+              "index": 382,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "节",
+              "pinyin": "jié",
+              "index": 383,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 384,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 385,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 386,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "愿",
+              "pinyin": "yuàn",
+              "index": 387,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陛",
+              "pinyin": "bì",
+              "index": 388,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 389,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亲",
+              "pinyin": "qīn",
+              "index": 390,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 391,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "信",
+              "pinyin": "xìn",
+              "index": 392,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 393,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 394,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 395,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汉",
+              "pinyin": "hàn",
+              "index": 396,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "室",
+              "pinyin": "shì",
+              "index": 397,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 398,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "隆",
+              "pinyin": "lóng",
+              "index": 399,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 400,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 401,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "计",
+              "pinyin": "jì",
+              "index": 402,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 403,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 404,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "待",
+              "pinyin": "dài",
+              "index": 405,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 406,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 407,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "侍中、尚书、长史、参军这些人，这些都是坚贞可靠、能以死报国的忠臣，希望陛下亲近他们信任他们，那么汉室的复兴，就指日可待了。",
+          "pinyin": "shì zhōng 、 shàng shū 、 zhǎng shǐ 、 cān jūn ， cǐ xī zhēn liáng sǐ jié zhī chén ， yuàn bì xià qīn zhī xìn zhī ， zé hàn shì zhī lóng ， kě jì rì ér dài yě 。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 408,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "本",
+              "pinyin": "běn",
+              "index": 409,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "布",
+              "pinyin": "bù",
+              "index": 410,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "衣",
+              "pinyin": "yī",
+              "index": 411,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 412,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "躬",
+              "pinyin": "gōng",
+              "index": 413,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "耕",
+              "pinyin": "gēng",
+              "index": 414,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 415,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 416,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "阳",
+              "pinyin": "yáng",
+              "index": 417,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 418,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "苟",
+              "pinyin": "gǒu",
+              "index": 419,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "全",
+              "pinyin": "quán",
+              "index": 420,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "性",
+              "pinyin": "xìng",
+              "index": 421,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "命",
+              "pinyin": "mìng",
+              "index": 422,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 423,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "乱",
+              "pinyin": "luàn",
+              "index": 424,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "世",
+              "pinyin": "shì",
+              "index": 425,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 426,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 427,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "求",
+              "pinyin": "qiú",
+              "index": 428,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "闻",
+              "pinyin": "wén",
+              "index": 429,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "达",
+              "pinyin": "dá",
+              "index": 430,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 431,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诸",
+              "pinyin": "zhū",
+              "index": 432,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "侯",
+              "pinyin": "hóu",
+              "index": 433,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 434,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我本是个平民，在南阳亲自耕种田地，只求在乱世中苟且保全性命，不奢求在诸侯中闻名显达。",
+          "pinyin": "chén běn bù yī ， gōng gēng yú nán yáng ， gǒu quán xìng mìng yú luàn shì ， bù qiú wén dá yú zhū hóu 。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "布衣：平民百姓，因穿麻布衣服而得名。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "躬：亲自。"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 14,
+              "end": 26,
+              "content": "状语后置句，‘苟全性命于乱世，不求闻达于诸侯’即‘于乱世苟全性命，于诸侯不求闻达’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 435,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 436,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 437,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 438,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 439,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "卑",
+              "pinyin": "bēi",
+              "index": 440,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "鄙",
+              "pinyin": "bǐ",
+              "index": 441,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 442,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "猥",
+              "pinyin": "wěi",
+              "index": 443,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 444,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "枉",
+              "pinyin": "wǎng",
+              "index": 445,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "屈",
+              "pinyin": "qū",
+              "index": 446,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 447,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 448,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "顾",
+              "pinyin": "gù",
+              "index": 449,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 450,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 451,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "草",
+              "pinyin": "cǎo",
+              "index": 452,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "庐",
+              "pinyin": "lú",
+              "index": 453,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 454,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 455,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 456,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "咨",
+              "pinyin": "zī",
+              "index": 457,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 458,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 459,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 460,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "世",
+              "pinyin": "shì",
+              "index": 461,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 462,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 463,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 464,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "由",
+              "pinyin": "yóu",
+              "index": 465,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 466,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "感",
+              "pinyin": "gǎn",
+              "index": 467,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "激",
+              "pinyin": "jī",
+              "index": 468,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 469,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遂",
+              "pinyin": "suì",
+              "index": 470,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "许",
+              "pinyin": "xǔ",
+              "index": 471,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 472,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 473,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 474,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "驱",
+              "pinyin": "qū",
+              "index": 475,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "驰",
+              "pinyin": "chí",
+              "index": 476,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 477,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "先帝不因我身份卑微见识短浅，屈尊俯就，三次到草庐中拜访我，征询我对时局大事的意见，我因此感奋激发，于是答应为先帝奔走效劳。",
+          "pinyin": "xiān dì bù yǐ chén bēi bǐ ， wěi zì wǎng qū ， sān gù chén yú cǎo lú zhī zhōng ， zī chén yǐ dāng shì zhī shì ， yóu shì gǎn jī ， suì xǔ xiān dì yǐ qū chí 。",
+          "notes": [
+            {
+              "start": 6,
+              "end": 6,
+              "content": "鄙：鄙陋，见识浅薄，非现代‘卑鄙’之意。"
+            },
+            {
+              "start": 9,
+              "end": 9,
+              "content": "猥：谦辞，犹言‘辱’，降低身份的意思。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "枉屈：屈尊降贵。"
+            },
+            {
+              "start": 14,
+              "end": 14,
+              "content": "顾：拜访，探望。三顾茅庐典故来源。"
+            },
+            {
+              "start": 40,
+              "end": 41,
+              "content": "驱驰：奔走效力，为主人效劳。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 5,
+              "end": 6,
+              "old": "出身低微，见识浅陋"
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "new": "品行恶劣"
+            }
+          ],
+          "special_sentences": [
+            {
+              "start": 23,
+              "end": 29,
+              "content": "状语后置句，‘咨臣以当世之事’即‘以当世之事咨臣’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 478,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "值",
+              "pinyin": "zhí",
+              "index": 479,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "倾",
+              "pinyin": "qīng",
+              "index": 480,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "覆",
+              "pinyin": "fù",
+              "index": 481,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 482,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "受",
+              "pinyin": "shòu",
+              "index": 483,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "任",
+              "pinyin": "rèn",
+              "index": 484,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 485,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "败",
+              "pinyin": "bài",
+              "index": 486,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 487,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 488,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "际",
+              "pinyin": "jì",
+              "index": 489,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 490,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奉",
+              "pinyin": "fèng",
+              "index": 491,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "命",
+              "pinyin": "mìng",
+              "index": 492,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 493,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "危",
+              "pinyin": "wēi",
+              "index": 494,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "难",
+              "pinyin": "nàn",
+              "index": 495,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 496,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "间",
+              "pinyin": "jiān",
+              "index": 497,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 498,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尔",
+              "pinyin": "ěr",
+              "index": 499,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 500,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 501,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 502,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "有",
+              "pinyin": "yòu",
+              "index": 503,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 504,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 505,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 506,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 507,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "后来遇到兵败，在兵败的时候接受重任，在危难的关头奉命出使，从那时以来已经有二十一年了。",
+          "pinyin": "hòu zhí qīng fù ， shòu rèn yú bài jūn zhī jì ， fèng mìng yú wēi nàn zhī jiān ， ěr lái èr shí yǒu yī nián yǐ 。",
+          "special_sentences": [
+            {
+              "start": 5,
+              "end": 20,
+              "content": "状语后置句，‘受任于败军之际，奉命于危难之间’即‘于败军之际受任，于危难之间奉命’。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 508,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 509,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "知",
+              "pinyin": "zhī",
+              "index": 510,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 511,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谨",
+              "pinyin": "jǐn",
+              "index": 512,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "慎",
+              "pinyin": "shèn",
+              "index": 513,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 514,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 515,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "临",
+              "pinyin": "lín",
+              "index": 516,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "崩",
+              "pinyin": "bēng",
+              "index": 517,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "寄",
+              "pinyin": "jì",
+              "index": 518,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 519,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 520,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 521,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 522,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 523,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 524,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "先帝知道我做事谨慎，所以临终时把国家大事托付给我。",
+          "pinyin": "xiān dì zhī chén jǐn shèn ， gù lín bēng jì chén yǐ dà shì yě 。"
+        },
+        {
+          "content": [
+            {
+              "char": "受",
+              "pinyin": "shòu",
+              "index": 525,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "命",
+              "pinyin": "mìng",
+              "index": 526,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 527,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "来",
+              "pinyin": "lái",
+              "index": 528,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 529,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "夙",
+              "pinyin": "sù",
+              "index": 530,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "夜",
+              "pinyin": "yè",
+              "index": 531,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忧",
+              "pinyin": "yōu",
+              "index": 532,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "叹",
+              "pinyin": "tàn",
+              "index": 533,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 534,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "恐",
+              "pinyin": "kǒng",
+              "index": 535,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "托",
+              "pinyin": "tuō",
+              "index": 536,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "付",
+              "pinyin": "fù",
+              "index": 537,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 538,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "效",
+              "pinyin": "xiào",
+              "index": 539,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 540,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 541,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "伤",
+              "pinyin": "shāng",
+              "index": 542,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 543,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 544,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 545,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 546,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 547,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 548,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "五",
+              "pinyin": "wǔ",
+              "index": 549,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "月",
+              "pinyin": "yuè",
+              "index": 550,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "渡",
+              "pinyin": "dù",
+              "index": 551,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "泸",
+              "pinyin": "lú",
+              "index": 552,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 553,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "深",
+              "pinyin": "shēn",
+              "index": 554,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "入",
+              "pinyin": "rù",
+              "index": 555,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 556,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "毛",
+              "pinyin": "máo",
+              "index": 557,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 558,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "接受遗命以来，我日夜忧虑叹息，唯恐托付的事不能完成，以致损伤先帝的知人之明，所以五月渡过泸水，深入荒芜之地。",
+          "pinyin": "shòu mìng yǐ lái ， sù yè yōu tàn ， kǒng tuō fù bù xiào ， yǐ shāng xiān dì zhī míng ， gù wǔ yuè dù lú ， shēn rù bù máo 。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 6,
+              "content": "夙夜：早晚，日日夜夜。夙，早。"
+            },
+            {
+              "start": 32,
+              "end": 33,
+              "content": "不毛：贫瘠荒凉之地，寸草不生的地方。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 559,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 560,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "方",
+              "pinyin": "fāng",
+              "index": 561,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 562,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "定",
+              "pinyin": "dìng",
+              "index": 563,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 564,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兵",
+              "pinyin": "bīng",
+              "index": 565,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "甲",
+              "pinyin": "jiǎ",
+              "index": 566,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 567,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "足",
+              "pinyin": "zú",
+              "index": 568,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 569,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 570,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奖",
+              "pinyin": "jiǎng",
+              "index": 571,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "率",
+              "pinyin": "shuài",
+              "index": 572,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "三",
+              "pinyin": "sān",
+              "index": 573,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 574,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 575,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "北",
+              "pinyin": "běi",
+              "index": 576,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "定",
+              "pinyin": "dìng",
+              "index": 577,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 578,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "原",
+              "pinyin": "yuán",
+              "index": 579,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 580,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "庶",
+              "pinyin": "shù",
+              "index": 581,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "竭",
+              "pinyin": "jié",
+              "index": 582,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "驽",
+              "pinyin": "nú",
+              "index": 583,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "钝",
+              "pinyin": "dùn",
+              "index": 584,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 585,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "攘",
+              "pinyin": "rǎng",
+              "index": 586,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "除",
+              "pinyin": "chú",
+              "index": 587,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "奸",
+              "pinyin": "jiān",
+              "index": 588,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "凶",
+              "pinyin": "xiōng",
+              "index": 589,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 590,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兴",
+              "pinyin": "xīng",
+              "index": 591,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 592,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "汉",
+              "pinyin": "hàn",
+              "index": 593,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "室",
+              "pinyin": "shì",
+              "index": 594,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 595,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "还",
+              "pinyin": "huán",
+              "index": 596,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 597,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "旧",
+              "pinyin": "jiù",
+              "index": 598,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "都",
+              "pinyin": "dū",
+              "index": 599,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 600,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "如今南方已经平定，兵器装备已经充足，应当激励率领全军，北上平定中原，希望竭尽我平庸的才能，铲除奸邪凶恶的敌人，复兴汉朝王室，迁回旧都洛阳。",
+          "pinyin": "jīn nán fāng yǐ dìng ， bīng jiǎ yǐ zú ， dāng jiǎng shuài sān jūn ， běi dìng zhōng yuán ， shù jié nú dùn ， rǎng chú jiān xiōng ， xīng fù hàn shì ， huán yú jiù dū 。",
+          "notes": [
+            {
+              "start": 23,
+              "end": 23,
+              "content": "庶：希望，表示愿望。"
+            },
+            {
+              "start": 24,
+              "end": 25,
+              "content": "驽钝：劣马与不锋利的刀，比喻才能平庸，自谦之词。"
+            },
+            {
+              "start": 27,
+              "end": 27,
+              "content": "攘除：铲除，清除。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 601,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 602,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "所",
+              "pinyin": "suǒ",
+              "index": 603,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 604,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "报",
+              "pinyin": "bào",
+              "index": 605,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 606,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 607,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 608,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 609,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陛",
+              "pinyin": "bì",
+              "index": 610,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 611,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 612,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "职",
+              "pinyin": "zhí",
+              "index": 613,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "分",
+              "pinyin": "fèn",
+              "index": 614,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 615,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 616,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "这是我用来报答先帝并尽忠陛下的职责本分。",
+          "pinyin": "cǐ chén suǒ yǐ bào xiān dì ér zhōng bì xià zhī zhí fèn yě 。",
+          "special_sentences": [
+            {
+              "start": 0,
+              "end": 15,
+              "content": "‘所以’表依据或目的，‘此臣所以报先帝……’即‘这是我用来报答先帝的方式’。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 617,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 618,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "斟",
+              "pinyin": "zhēn",
+              "index": 619,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "酌",
+              "pinyin": "zhuó",
+              "index": 620,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "损",
+              "pinyin": "sǔn",
+              "index": 621,
+              "read": true,
+              "write": true
+            },
+            {
+              "char": "益",
+              "pinyin": "yì",
+              "index": 622,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 623,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "进",
+              "pinyin": "jìn",
+              "index": 624,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "尽",
+              "pinyin": "jìn",
+              "index": 625,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 626,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "言",
+              "pinyin": "yán",
+              "index": 627,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 628,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 629,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "攸",
+              "pinyin": "yōu",
+              "index": 630,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 631,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 632,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "祎",
+              "pinyin": "yī",
+              "index": 633,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 634,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "允",
+              "pinyin": "yǔn",
+              "index": 635,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 636,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "任",
+              "pinyin": "rèn",
+              "index": 637,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 638,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 639,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "至于处理事务斟酌情理，毫无保留地进献忠言，那就是郭攸之、费祎、董允的责任了。",
+          "pinyin": "zhì yú zhēn zhuó sǔn yì ， jìn jìn zhōng yán ， zé yōu zhī 、 yī 、 yǔn zhī rèn yě 。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "损益：增减，兴革，指政策的调整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "愿",
+              "pinyin": "yuàn",
+              "index": 640,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陛",
+              "pinyin": "bì",
+              "index": 641,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 642,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "托",
+              "pinyin": "tuō",
+              "index": 643,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 644,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 645,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "讨",
+              "pinyin": "tǎo",
+              "index": 646,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "贼",
+              "pinyin": "zéi",
+              "index": 647,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兴",
+              "pinyin": "xīng",
+              "index": 648,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "复",
+              "pinyin": "fù",
+              "index": 649,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 650,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "效",
+              "pinyin": "xiào",
+              "index": 651,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 652,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 653,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "效",
+              "pinyin": "xiào",
+              "index": 654,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 655,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 656,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "治",
+              "pinyin": "zhì",
+              "index": 657,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 658,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 659,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "罪",
+              "pinyin": "zuì",
+              "index": 660,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 661,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 662,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "告",
+              "pinyin": "gào",
+              "index": 663,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 664,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 665,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 666,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "灵",
+              "pinyin": "líng",
+              "index": 667,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 668,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "希望陛下把讨伐奸贼复兴汉室的任务交给我，如果没有成效，就惩治我的罪过，来告慰先帝的在天之灵。",
+          "pinyin": "yuàn bì xià tuō chén yǐ tǎo zéi xīng fù zhī xiào ， bù xiào ， zé zhì chén zhī zuì ， yǐ gào xiān dì zhī líng 。"
+        },
+        {
+          "content": [
+            {
+              "char": "若",
+              "pinyin": "ruò",
+              "index": 669,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 670,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "兴",
+              "pinyin": "xīng",
+              "index": 671,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "德",
+              "pinyin": "dé",
+              "index": 672,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 673,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "言",
+              "pinyin": "yán",
+              "index": 674,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 675,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 676,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "责",
+              "pinyin": "zé",
+              "index": 677,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "攸",
+              "pinyin": "yōu",
+              "index": 678,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 679,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 680,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "祎",
+              "pinyin": "yī",
+              "index": 681,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 682,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "允",
+              "pinyin": "yǔn",
+              "index": 683,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "等",
+              "pinyin": "děng",
+              "index": 684,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 685,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "慢",
+              "pinyin": "màn",
+              "index": 686,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 687,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 688,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "彰",
+              "pinyin": "zhāng",
+              "index": 689,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 690,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "咎",
+              "pinyin": "jiù",
+              "index": 691,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 692,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "陛",
+              "pinyin": "bì",
+              "index": 693,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 694,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "亦",
+              "pinyin": "yì",
+              "index": 695,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "宜",
+              "pinyin": "yí",
+              "index": 696,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 697,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "谋",
+              "pinyin": "móu",
+              "index": 698,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 699,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 700,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "咨",
+              "pinyin": "zī",
+              "index": 701,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诹",
+              "pinyin": "zōu",
+              "index": 702,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "善",
+              "pinyin": "shàn",
+              "index": 703,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 704,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 705,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "察",
+              "pinyin": "chá",
+              "index": 706,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "纳",
+              "pinyin": "nà",
+              "index": 707,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "雅",
+              "pinyin": "yǎ",
+              "index": 708,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "言",
+              "pinyin": "yán",
+              "index": 709,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 710,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "深",
+              "pinyin": "shēn",
+              "index": 711,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "追",
+              "pinyin": "zhuī",
+              "index": 712,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 713,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 714,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "遗",
+              "pinyin": "yí",
+              "index": 715,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "诏",
+              "pinyin": "zhào",
+              "index": 716,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 717,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "如果没有发扬圣德的言论，就责备郭攸之、费祎、董允等人的怠慢，来揭示他们的过失；陛下自己也应多加考虑，询问治国的好方法，明察采纳正直的言论，深切追念先帝的遗诏。",
+          "pinyin": "ruò wú xīng dé zhī yán ， zé zé yōu zhī 、 yī 、 yǔn děng zhī màn ， yǐ zhāng qí jiù ； bì xià yì yí zì móu ， yǐ zī zōu shàn dào ， chá nà yǎ yán ， shēn zhuī xiān dì yí zhào 。"
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 718,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 719,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "胜",
+              "pinyin": "shèng",
+              "index": 720,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "受",
+              "pinyin": "shòu",
+              "index": 721,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "恩",
+              "pinyin": "ēn",
+              "index": 722,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "感",
+              "pinyin": "gǎn",
+              "index": 723,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "激",
+              "pinyin": "jī",
+              "index": 724,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 725,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "今",
+              "pinyin": "jīn",
+              "index": 726,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "当",
+              "index": 727,
+              "read": false,
+              "write": false,
+              "pinyin": "dāng"
+            },
+            {
+              "char": "远",
+              "index": 728,
+              "read": false,
+              "write": false,
+              "pinyin": "yuǎn"
+            },
+            {
+              "char": "离",
+              "index": 729,
+              "read": false,
+              "write": false,
+              "pinyin": "lí"
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 730,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "临",
+              "index": 731,
+              "read": false,
+              "write": false,
+              "pinyin": "lín"
+            },
+            {
+              "char": "表",
+              "index": 732,
+              "read": false,
+              "write": false,
+              "pinyin": "biǎo"
+            },
+            {
+              "char": "涕",
+              "index": 733,
+              "read": true,
+              "write": true,
+              "pinyin": "tì"
+            },
+            {
+              "char": "零",
+              "index": 734,
+              "read": false,
+              "write": false,
+              "pinyin": "líng"
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 735,
+              "read": false,
+              "write": false
+            },
+            {
+              "char": "不",
+              "index": 736,
+              "read": false,
+              "write": false,
+              "pinyin": "bù"
+            },
+            {
+              "char": "知",
+              "index": 737,
+              "read": false,
+              "write": false,
+              "pinyin": "zhī"
+            },
+            {
+              "char": "所",
+              "index": 738,
+              "read": false,
+              "write": false,
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "言",
+              "index": 739,
+              "read": false,
+              "write": false,
+              "pinyin": "yán"
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 740,
+              "read": false,
+              "write": false
+            }
+          ],
+          "translation": "我禁不住感激涕零。如今即将远离陛下，面对这份表文我泪流满面，不知说了些什么。",
+          "pinyin": "chén bù shèng shòu ēn gǎn jī 。 jīn dāng yuǎn lí ， lín biǎo tì líng ， bù zhī suǒ yán 。",
+          "notes": [
+            {
+              "start": 15,
+              "end": 15,
+              "content": "涕：眼泪，古义与今义‘鼻涕’不同。"
+            },
+            {
+              "start": 16,
+              "end": 16,
+              "content": "零：落下，滴落。"
+            }
+          ],
+          "different_meanings": [
+            {
+              "start": 6,
+              "end": 6,
+              "old": "感动奋发"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "new": "感谢"
+            },
+            {
+              "start": 15,
+              "end": 15,
+              "old": "眼泪"
+            },
+            {
+              "start": 15,
+              "end": 15,
+              "new": "鼻涕"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "九下",
+    "古文",
+    "表文"
+  ],
+  "background": "蜀汉公元223年（建兴元年），刘备病死，将刘禅托付给诸葛亮。诸葛亮实行了一系列政治和经济措施，使蜀汉境内呈现兴旺景象。为了实现全国统一，诸葛亮于公元227年（建兴五年）决定北上伐魏，以夺取魏的洛阳，临行之前上书后主，即这篇《出师表》。",
+  "appreciation": "《出师表》是一篇表文。全文以恳切委婉的言辞劝勉后主要广开言路、严明赏罚、亲贤远佞，以此兴复汉室，还于旧都。此表文既晓之以理，又动之以情，以议论为主，融以叙事和抒情。文章显示出诸葛亮对刘氏父子的无限忠诚，他披肝沥胆待之，并充满殷切期望之情；同时也表达了他以身许国，忠贞不二的思想。文章既不借助华丽的辞藻，又不引用古老的典故，语言率直质朴，表现恳切忠贞，析理透辟，真情充溢，感人至深。"
+}

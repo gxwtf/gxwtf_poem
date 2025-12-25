@@ -1,0 +1,3384 @@
+{
+  "preview": [
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "余",
+              "pinyin": "guī"
+            },
+            {
+              "char": "家",
+              "pinyin": "qù"
+            },
+            {
+              "char": "贫",
+              "pinyin": "lái"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "耕",
+              "pinyin": "xī"
+            },
+            {
+              "char": "植",
+              "pinyin": "cí"
+            },
+            {
+              "char": "不",
+              "pinyin": "bìng"
+            },
+            {
+              "char": "足",
+              "pinyin": "xù"
+            },
+            {
+              "char": "以",
+              "pinyin": "yú"
+            },
+            {
+              "char": "自",
+              "pinyin": "jiā"
+            },
+            {
+              "char": "给",
+              "pinyin": "pín"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我家境贫困，靠种田不能够自给。"
+          },
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "耕田种植。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "供给自己生活。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "幼",
+              "pinyin": "gēng"
+            },
+            {
+              "char": "稚",
+              "pinyin": "zhí"
+            },
+            {
+              "char": "盈",
+              "pinyin": "bù"
+            },
+            {
+              "char": "室",
+              "pinyin": "zú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "瓶",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "无",
+              "pinyin": "zì"
+            },
+            {
+              "char": "储",
+              "pinyin": "jǐ"
+            },
+            {
+              "char": "粟",
+              "pinyin": "gū"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "生",
+              "pinyin": "tóng"
+            },
+            {
+              "char": "生",
+              "pinyin": "yíng"
+            },
+            {
+              "char": "所",
+              "pinyin": "shì"
+            },
+            {
+              "char": "资",
+              "pinyin": "píng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "未",
+              "pinyin": "wú"
+            },
+            {
+              "char": "见",
+              "pinyin": "chǔ"
+            },
+            {
+              "char": "其",
+              "pinyin": "sù"
+            },
+            {
+              "char": "术",
+              "pinyin": "shēng",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "这里指营生的本领。"
+                }
+              ]
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "孩子很多，米瓮里没有存粮，维持生活所需的一切东西，找不到取得的办法。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "指孩子多。幼稚，小孩。盈室，满屋。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "指家无余粮。瓶，盛粮食的器皿。粟，谷子，脱壳后称为小米，这里泛指粮食。"
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "note": "所赖以维持生活的。生生，维持生活。资，凭借。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "亲",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "故",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "多",
+              "pinyin": "zī"
+            },
+            {
+              "char": "劝",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "余",
+              "pinyin": "jiàn"
+            },
+            {
+              "char": "为",
+              "pinyin": "qí"
+            },
+            {
+              "char": "长",
+              "pinyin": "shù"
+            },
+            {
+              "char": "吏",
+              "pinyin": "qīn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "脱",
+              "pinyin": "gù"
+            },
+            {
+              "char": "然",
+              "pinyin": "duō"
+            },
+            {
+              "char": "有",
+              "pinyin": "quàn"
+            },
+            {
+              "char": "怀",
+              "pinyin": "yú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "求",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhǎng"
+            },
+            {
+              "char": "靡",
+              "pinyin": "lì"
+            },
+            {
+              "char": "途",
+              "pinyin": "tuō"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "亲友大都劝我去做官，我心里也有这个念头，可是求取官职缺少门路。"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 7,
+              "note": "指县丞、县尉，是县吏中职位较高的官吏。"
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "note": "忧虑解除而放松的样子。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "note": "有了某种念头。"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "note": "没有门路。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "会",
+              "pinyin": "rán"
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "四",
+              "pinyin": "huái"
+            },
+            {
+              "char": "方",
+              "pinyin": "qiú"
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "事",
+              "pinyin": "mí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "诸",
+              "pinyin": "tú"
+            },
+            {
+              "char": "侯",
+              "pinyin": "huì"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "惠",
+              "pinyin": "sì"
+            },
+            {
+              "char": "爱",
+              "pinyin": "fāng"
+            },
+            {
+              "char": "为",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "德",
+              "pinyin": "shì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "家",
+              "pinyin": "zhū"
+            },
+            {
+              "char": "叔",
+              "pinyin": "hóu"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "余",
+              "pinyin": "huì"
+            },
+            {
+              "char": "贫",
+              "pinyin": "ài"
+            },
+            {
+              "char": "苦",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "遂",
+              "pinyin": "dé"
+            },
+            {
+              "char": "见",
+              "pinyin": "jiā"
+            },
+            {
+              "char": "用",
+              "pinyin": "shū"
+            },
+            {
+              "char": "于",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "小",
+              "pinyin": "yú"
+            },
+            {
+              "char": "邑",
+              "pinyin": "pín"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "恰巧遇到四方勤王的大事，诸侯大臣都以广施惠爱作为美德，叔父也因为我家境贫苦（替我设法），我就被委任到小县做官。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "指陶渊明接受建威将军江州刺史刘敬宣的任命出使的事。会，恰逢。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "note": "地方大吏以爱惜人才为美德。"
+            },
+            {
+              "start": 15,
+              "end": 16,
+              "note": "可能是作者的叔父陶夔，当时任太常卿。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "于",
+              "pinyin": "kǔ"
+            },
+            {
+              "char": "时",
+              "pinyin": "suì"
+            },
+            {
+              "char": "风",
+              "pinyin": "jiàn"
+            },
+            {
+              "char": "波",
+              "pinyin": "yòng"
+            },
+            {
+              "char": "未",
+              "pinyin": "yú"
+            },
+            {
+              "char": "静",
+              "pinyin": "xiǎo"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "心",
+              "pinyin": "yì"
+            },
+            {
+              "char": "惮",
+              "pinyin": "yú"
+            },
+            {
+              "char": "远",
+              "pinyin": "shí"
+            },
+            {
+              "char": "役",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "彭",
+              "pinyin": "bō"
+            },
+            {
+              "char": "泽",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "去",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "家",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "百",
+              "pinyin": "dàn"
+            },
+            {
+              "char": "里",
+              "pinyin": "yuǎn"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "公",
+              "pinyin": "yì"
+            },
+            {
+              "char": "田",
+              "pinyin": "péng"
+            },
+            {
+              "char": "之",
+              "pinyin": "zé"
+            },
+            {
+              "char": "利",
+              "pinyin": "qù"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "足",
+              "pinyin": "jiā"
+            },
+            {
+              "char": "以",
+              "pinyin": "bǎi"
+            },
+            {
+              "char": "为",
+              "pinyin": "lǐ"
+            },
+            {
+              "char": "酒",
+              "pinyin": "gōng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "那时社会动荡不安，心里也惧怕到远地当官。"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 5,
+              "note": "指战乱未停息。"
+            },
+            {
+              "start": 7,
+              "end": 10,
+              "note": "到远方供职。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "note": "县名，在今江西湖口东。"
+            },
+            {
+              "start": 19,
+              "end": 20,
+              "note": "即“官田”，政府控制的田地。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "故",
+              "pinyin": "tián"
+            },
+            {
+              "char": "便",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "求",
+              "pinyin": "lì"
+            },
+            {
+              "char": "之",
+              "pinyin": "zú"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "彭泽县离家只有百余里路程，公田收获的粮食，足够造酒饮用，故而就向叔父谋求这个官职。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "及",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "少",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "日",
+              "pinyin": "jiǔ"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "眷",
+              "pinyin": "gù"
+            },
+            {
+              "char": "然",
+              "pinyin": "biàn"
+            },
+            {
+              "char": "有",
+              "pinyin": "qiú"
+            },
+            {
+              "char": "归",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "欤",
+              "pinyin": "jí"
+            },
+            {
+              "char": "之",
+              "pinyin": "shǎo"
+            },
+            {
+              "char": "情",
+              "pinyin": "rì"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "等到过了一些日子，很怀念家乡，便有归去的心愿。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "何",
+              "pinyin": "juàn"
+            },
+            {
+              "char": "则",
+              "pinyin": "rán"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "那是为什么？"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "为什么呢？"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "质",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "性",
+              "pinyin": "guī"
+            },
+            {
+              "char": "自",
+              "pinyin": "yú"
+            },
+            {
+              "char": "然",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "非",
+              "pinyin": "qíng"
+            },
+            {
+              "char": "矫",
+              "pinyin": "hé"
+            },
+            {
+              "char": "厉",
+              "pinyin": "zé"
+            },
+            {
+              "char": "所",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "得",
+              "pinyin": "xìng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我本性任其自然，这是勉强不得的；"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "本性。"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "note": "造作勉强。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "饥",
+              "pinyin": "zì"
+            },
+            {
+              "char": "冻",
+              "pinyin": "rán"
+            },
+            {
+              "char": "虽",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "切",
+              "pinyin": "jiǎo"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "违",
+              "pinyin": "lì"
+            },
+            {
+              "char": "己",
+              "pinyin": "suǒ"
+            },
+            {
+              "char": "交",
+              "pinyin": "de"
+            },
+            {
+              "char": "病",
+              "pinyin": "jī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "饥寒虽然来得急迫，但是违背本意去做官，使我身心都感痛苦。"
+          },
+          "notes": [
+            {
+              "start": 5,
+              "end": 6,
+              "note": "违反自己的意志。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "note": "（身心）都感到痛苦。交，都。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "尝",
+              "pinyin": "dòng"
+            },
+            {
+              "char": "从",
+              "pinyin": "suī"
+            },
+            {
+              "char": "人",
+              "pinyin": "qiè"
+            },
+            {
+              "char": "事",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "皆",
+              "pinyin": "jǐ"
+            },
+            {
+              "char": "口",
+              "pinyin": "jiāo"
+            },
+            {
+              "char": "腹",
+              "pinyin": "bìng"
+            },
+            {
+              "char": "自",
+              "pinyin": "cháng"
+            },
+            {
+              "char": "役",
+              "pinyin": "cóng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "过去为官做事，都是为了口腹而役使自己。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "曾经出仕。从，从事。人事，指做官。"
+            },
+            {
+              "start": 5,
+              "end": 9,
+              "note": "都是为了谋生糊口而役使自己。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "于",
+              "pinyin": "rén"
+            },
+            {
+              "char": "是",
+              "pinyin": "shì"
+            },
+            {
+              "char": "怅",
+              "pinyin": "jiē"
+            },
+            {
+              "char": "然",
+              "pinyin": "kǒu"
+            },
+            {
+              "char": "慷",
+              "pinyin": "fù"
+            },
+            {
+              "char": "慨",
+              "pinyin": "zì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "深",
+              "pinyin": "yì"
+            },
+            {
+              "char": "愧",
+              "pinyin": "yú"
+            },
+            {
+              "char": "平",
+              "pinyin": "shì"
+            },
+            {
+              "char": "生",
+              "pinyin": "chàng"
+            },
+            {
+              "char": "之",
+              "pinyin": "rán"
+            },
+            {
+              "char": "志",
+              "pinyin": "kāng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "于是惆怅感慨，为平生的抱负未能实现而深感惭愧。"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 5,
+              "note": "感叹。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "犹",
+              "pinyin": "kǎi"
+            },
+            {
+              "char": "望",
+              "pinyin": "shēn"
+            },
+            {
+              "char": "一",
+              "pinyin": "kuì"
+            },
+            {
+              "char": "稔",
+              "pinyin": "píng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "当",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "敛",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "裳",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "宵",
+              "pinyin": "yóu"
+            },
+            {
+              "char": "逝",
+              "pinyin": "wàng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "只再等上一年，便收拾行装连夜离去。"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "note": "庄稼成熟一次，引申为一年。"
+            },
+            {
+              "start": 6,
+              "end": 9,
+              "note": "收拾衣装，连夜离去。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "寻",
+              "pinyin": "yī"
+            },
+            {
+              "char": "程",
+              "pinyin": "rěn"
+            },
+            {
+              "char": "氏",
+              "pinyin": "dāng"
+            },
+            {
+              "char": "妹",
+              "pinyin": "liǎn"
+            },
+            {
+              "char": "丧",
+              "pinyin": "shang"
+            },
+            {
+              "char": "于",
+              "pinyin": "xiāo"
+            },
+            {
+              "char": "武",
+              "pinyin": "shì"
+            },
+            {
+              "char": "昌",
+              "pinyin": "xún"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "情",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "在",
+              "pinyin": "shì"
+            },
+            {
+              "char": "骏",
+              "pinyin": "mèi"
+            },
+            {
+              "char": "奔",
+              "pinyin": "sàng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "自",
+              "pinyin": "yú"
+            },
+            {
+              "char": "免",
+              "pinyin": "wǔ"
+            },
+            {
+              "char": "去",
+              "pinyin": "chāng"
+            },
+            {
+              "char": "职",
+              "pinyin": "qíng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "不久，嫁到程家的妹妹在武昌去世，去吊丧的心情像骏马奔驰一样急迫，自己请求免去官职。"
+          },
+          "notes": [
+            {
+              "start": 1,
+              "end": 3,
+              "note": "嫁到程家的妹妹。"
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "note": "去吊丧的心情非常急迫。骏奔，急速奔驰。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "仲",
+              "pinyin": "zài"
+            },
+            {
+              "char": "秋",
+              "pinyin": "jùn"
+            },
+            {
+              "char": "至",
+              "pinyin": "bēn"
+            },
+            {
+              "char": "冬",
+              "pinyin": "zì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "在",
+              "pinyin": "miǎn"
+            },
+            {
+              "char": "官",
+              "pinyin": "qù"
+            },
+            {
+              "char": "八",
+              "pinyin": "zhí"
+            },
+            {
+              "char": "十",
+              "pinyin": "zhòng"
+            },
+            {
+              "char": "余",
+              "pinyin": "qiū"
+            },
+            {
+              "char": "日",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "自立秋第二个月到冬天，在职共八十多天。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "因",
+              "pinyin": "dōng"
+            },
+            {
+              "char": "事",
+              "pinyin": "zài"
+            },
+            {
+              "char": "顺",
+              "pinyin": "guān"
+            },
+            {
+              "char": "心",
+              "pinyin": "bā"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "命",
+              "pinyin": "shí"
+            },
+            {
+              "char": "篇",
+              "pinyin": "yú"
+            },
+            {
+              "char": "曰",
+              "pinyin": "rì"
+            },
+            {
+              "char": "《",
+              "pinyin": ""
+            },
+            {
+              "char": "归",
+              "pinyin": "yīn"
+            },
+            {
+              "char": "去",
+              "pinyin": "shì"
+            },
+            {
+              "char": "来",
+              "pinyin": "shùn"
+            },
+            {
+              "char": "兮",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "》",
+              "pinyin": ""
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "因辞官而顺遂了心愿，写了一篇文章，题目叫《归去来兮》。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "因辞官的事顺遂心意。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "乙",
+              "pinyin": "mìng"
+            },
+            {
+              "char": "巳",
+              "pinyin": "piān"
+            },
+            {
+              "char": "岁",
+              "pinyin": "yuē"
+            },
+            {
+              "char": "十",
+              "pinyin": "guī"
+            },
+            {
+              "char": "一",
+              "pinyin": "qù"
+            },
+            {
+              "char": "月",
+              "pinyin": "lái"
+            },
+            {
+              "char": "也",
+              "pinyin": "xī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "这时候正是乙巳年（晋安帝义熙元年）十一月。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "note": "东晋义熙元年（405）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "归",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "去",
+              "pinyin": "sì"
+            },
+            {
+              "char": "来",
+              "pinyin": "suì"
+            },
+            {
+              "char": "兮",
+              "pinyin": "shí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "田",
+              "pinyin": "yī"
+            },
+            {
+              "char": "园",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "将",
+              "pinyin": "yě"
+            },
+            {
+              "char": "芜",
+              "pinyin": "guī",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "田地荒废。"
+                }
+              ]
+            },
+            {
+              "char": "胡",
+              "pinyin": "qù"
+            },
+            {
+              "char": "不",
+              "pinyin": "lái"
+            },
+            {
+              "char": "归",
+              "pinyin": "xī"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "回家去吧！"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "既",
+              "pinyin": "tián"
+            },
+            {
+              "char": "自",
+              "pinyin": "yuán"
+            },
+            {
+              "char": "以",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "心",
+              "pinyin": "wú"
+            },
+            {
+              "char": "为",
+              "pinyin": "hú"
+            },
+            {
+              "char": "形",
+              "pinyin": "bù"
+            },
+            {
+              "char": "役",
+              "pinyin": "guī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "奚",
+              "pinyin": "jì",
+              "note": [
+                {
+                  "title": "注释",
+                  "content": "何，为什么。"
+                }
+              ]
+            },
+            {
+              "char": "惆",
+              "pinyin": "zì"
+            },
+            {
+              "char": "怅",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "而",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "独",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "悲",
+              "pinyin": "xíng"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "田园快要荒芜了，为什么不回去呢？"
+          },
+          "notes": [
+            {
+              "start": 2,
+              "end": 6,
+              "note": "使精神被形体役使。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "悟",
+              "pinyin": "yì"
+            },
+            {
+              "char": "已",
+              "pinyin": "xī"
+            },
+            {
+              "char": "往",
+              "pinyin": "chóu"
+            },
+            {
+              "char": "之",
+              "pinyin": "chàng"
+            },
+            {
+              "char": "不",
+              "pinyin": "ér"
+            },
+            {
+              "char": "谏",
+              "pinyin": "dú"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "知",
+              "pinyin": "bēi"
+            },
+            {
+              "char": "来",
+              "pinyin": "wù"
+            },
+            {
+              "char": "者",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "之",
+              "pinyin": "wǎng"
+            },
+            {
+              "char": "可",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "追",
+              "pinyin": "bù"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "既然自己使心为身所驱役，又何必怅惘而独自悲戚呢？"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 12,
+              "note": "认识到过去的错误已经不可挽回，知道未来的事还来得及补救。谏，挽回。追，补救。《论语·微子》中有“往者不可谏，来者犹可追”之语。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "实",
+              "pinyin": "jiàn"
+            },
+            {
+              "char": "迷",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "途",
+              "pinyin": "lái"
+            },
+            {
+              "char": "其",
+              "pinyin": "zhě"
+            },
+            {
+              "char": "未",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "远",
+              "pinyin": "kě"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "觉",
+              "pinyin": "zhuī"
+            },
+            {
+              "char": "今",
+              "pinyin": "shí"
+            },
+            {
+              "char": "是",
+              "pinyin": "mí"
+            },
+            {
+              "char": "而",
+              "pinyin": "tú"
+            },
+            {
+              "char": "昨",
+              "pinyin": "qí"
+            },
+            {
+              "char": "非",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我已明悟过去的错误已经不可挽回，未来的事还来得及补救。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "确实迷了路，或许走得还不太远。迷途，指出来做官。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "舟",
+              "pinyin": "yuǎn"
+            },
+            {
+              "char": "遥",
+              "pinyin": "jué"
+            },
+            {
+              "char": "遥",
+              "pinyin": "jīn"
+            },
+            {
+              "char": "以",
+              "pinyin": "shì"
+            },
+            {
+              "char": "轻",
+              "pinyin": "ér"
+            },
+            {
+              "char": "飏",
+              "pinyin": "zuó"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "风",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "飘",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "飘",
+              "pinyin": "yáo"
+            },
+            {
+              "char": "而",
+              "pinyin": "yáo"
+            },
+            {
+              "char": "吹",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "衣",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我确实走入了迷途，但还不算太远，已觉悟如今的做法是对的，而曾经的行为是错的。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "船在水面上轻轻地摇荡着前进。遥遥，漂流摇荡的样子。飏，船缓缓前进。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "问",
+              "pinyin": "yáng"
+            },
+            {
+              "char": "征",
+              "pinyin": "fēng"
+            },
+            {
+              "char": "夫",
+              "pinyin": "piāo"
+            },
+            {
+              "char": "以",
+              "pinyin": "piāo"
+            },
+            {
+              "char": "前",
+              "pinyin": "ér"
+            },
+            {
+              "char": "路",
+              "pinyin": "chuī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "恨",
+              "pinyin": "yī"
+            },
+            {
+              "char": "晨",
+              "pinyin": "wèn"
+            },
+            {
+              "char": "光",
+              "pinyin": "zhēng"
+            },
+            {
+              "char": "之",
+              "pinyin": "fū"
+            },
+            {
+              "char": "熹",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "微",
+              "pinyin": "qián"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "船在水面上轻轻地飘荡着前进，微风吹拂着衣裳，衣袂翩翩。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "向行人问前面的路程。征夫，行人。"
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "note": "怨晨光微弱（耽误行程）。熹微，光线微弱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "乃",
+              "pinyin": "lù"
+            },
+            {
+              "char": "瞻",
+              "pinyin": "hèn"
+            },
+            {
+              "char": "衡",
+              "pinyin": "chén"
+            },
+            {
+              "char": "宇",
+              "pinyin": "guāng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "载",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "欣",
+              "pinyin": "xī"
+            },
+            {
+              "char": "载",
+              "pinyin": "wēi"
+            },
+            {
+              "char": "奔",
+              "pinyin": "nǎi"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "向行人打听前面的路程，遗憾的是天刚刚放亮。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "于是看见了自家的房子。衡宇，简陋的房屋。衡，横木，横木为门，是贫者之居的布置。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "高兴地奔跑。载，语助词。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "僮",
+              "pinyin": "zhān"
+            },
+            {
+              "char": "仆",
+              "pinyin": "héng"
+            },
+            {
+              "char": "欢",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "迎",
+              "pinyin": "zài"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "稚",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "子",
+              "pinyin": "zài"
+            },
+            {
+              "char": "候",
+              "pinyin": "bēn"
+            },
+            {
+              "char": "门",
+              "pinyin": "tóng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "刚刚看到自己简陋的家门，心中欣喜，奔跑过去。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "三",
+              "pinyin": "pú"
+            },
+            {
+              "char": "径",
+              "pinyin": "huān"
+            },
+            {
+              "char": "就",
+              "pinyin": "yíng"
+            },
+            {
+              "char": "荒",
+              "pinyin": "zhì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "松",
+              "pinyin": "zǐ"
+            },
+            {
+              "char": "菊",
+              "pinyin": "hòu"
+            },
+            {
+              "char": "犹",
+              "pinyin": "mén"
+            },
+            {
+              "char": "存",
+              "pinyin": "sān"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "家中童仆欢喜地前来迎接，孩子们守候在门前。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "院子里的小路已经荒芜了。三径，西汉末，兖州刺史蒋诩隐居后，在院中开辟三径，只与求仲、羊仲来往。后以“三径”代指隐士住处。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "携",
+              "pinyin": "jìng"
+            },
+            {
+              "char": "幼",
+              "pinyin": "jiù"
+            },
+            {
+              "char": "入",
+              "pinyin": "huāng"
+            },
+            {
+              "char": "室",
+              "pinyin": "sōng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "有",
+              "pinyin": "jú"
+            },
+            {
+              "char": "酒",
+              "pinyin": "yóu"
+            },
+            {
+              "char": "盈",
+              "pinyin": "cún"
+            },
+            {
+              "char": "樽",
+              "pinyin": "xié"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "院子里的小路快要荒芜了，松菊还长在那里。"
+          },
+          "notes": []
+        },
+        {
+          "sentence": [
+            {
+              "char": "引",
+              "pinyin": "yòu"
+            },
+            {
+              "char": "壶",
+              "pinyin": "rù"
+            },
+            {
+              "char": "觞",
+              "pinyin": "shì"
+            },
+            {
+              "char": "以",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "自",
+              "pinyin": "jiǔ"
+            },
+            {
+              "char": "酌",
+              "pinyin": "yíng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "眄",
+              "pinyin": "zūn"
+            },
+            {
+              "char": "庭",
+              "pinyin": "yǐn"
+            },
+            {
+              "char": "柯",
+              "pinyin": "hú"
+            },
+            {
+              "char": "以",
+              "pinyin": "shāng"
+            },
+            {
+              "char": "怡",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "颜",
+              "pinyin": "zì"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "带着孩子们进了屋，美酒已经盛满了酒樽。"
+          },
+          "notes": [
+            {
+              "start": 7,
+              "end": 12,
+              "note": "看着院子里的树木，喜形于色。眄，看。柯，草木的枝茎，这里指树。怡，愉快，使动用法，使愉快。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "倚",
+              "pinyin": "zhuó"
+            },
+            {
+              "char": "南",
+              "pinyin": "miǎn"
+            },
+            {
+              "char": "窗",
+              "pinyin": "tíng"
+            },
+            {
+              "char": "以",
+              "pinyin": "kē"
+            },
+            {
+              "char": "寄",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "傲",
+              "pinyin": "yí"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "审",
+              "pinyin": "yán"
+            },
+            {
+              "char": "容",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "膝",
+              "pinyin": "nán"
+            },
+            {
+              "char": "之",
+              "pinyin": "chuāng"
+            },
+            {
+              "char": "易",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "安",
+              "pinyin": "jì"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "我端起酒壶酒杯自斟自饮，看看院子里的树木，觉得很愉快；"
+          },
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "note": "寄托傲世的情怀。"
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "note": "深知住在陋室中反而容易使人安适。审，深知。容膝，仅能容纳双膝，形容居处狭小。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "园",
+              "pinyin": "ào"
+            },
+            {
+              "char": "日",
+              "pinyin": "shěn"
+            },
+            {
+              "char": "涉",
+              "pinyin": "róng"
+            },
+            {
+              "char": "以",
+              "pinyin": "xī"
+            },
+            {
+              "char": "成",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "趣",
+              "pinyin": "yì"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "门",
+              "pinyin": "ān"
+            },
+            {
+              "char": "虽",
+              "pinyin": "yuán"
+            },
+            {
+              "char": "设",
+              "pinyin": "rì"
+            },
+            {
+              "char": "而",
+              "pinyin": "shè"
+            },
+            {
+              "char": "常",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "关",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "倚着南窗寄托我的傲世之情，深知这狭小之地容易使我心安。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "每天在园中游玩，成为乐趣。涉，游玩、游览。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "策",
+              "pinyin": "qù"
+            },
+            {
+              "char": "扶",
+              "pinyin": "mén"
+            },
+            {
+              "char": "老",
+              "pinyin": "suī"
+            },
+            {
+              "char": "以",
+              "pinyin": "shè"
+            },
+            {
+              "char": "流",
+              "pinyin": "ér"
+            },
+            {
+              "char": "憩",
+              "pinyin": "cháng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "时",
+              "pinyin": "guān"
+            },
+            {
+              "char": "矫",
+              "pinyin": "cè"
+            },
+            {
+              "char": "首",
+              "pinyin": "fú"
+            },
+            {
+              "char": "而",
+              "pinyin": "lǎo"
+            },
+            {
+              "char": "遐",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "观",
+              "pinyin": "liú"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "天天到园里行走，自成一种乐趣，小园的门经常地关闭着；"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "拄着拐杖出去，到处走走，随时随地休息。策，拄着。扶老，拐杖。流憩，指无目的地漫步和随时随地休息。"
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "note": "常常抬起头遥望远方。矫，举。遐观，远望。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "云",
+              "pinyin": "qì"
+            },
+            {
+              "char": "无",
+              "pinyin": "shí"
+            },
+            {
+              "char": "心",
+              "pinyin": "jiǎo"
+            },
+            {
+              "char": "以",
+              "pinyin": "shǒu"
+            },
+            {
+              "char": "出",
+              "pinyin": "ér"
+            },
+            {
+              "char": "岫",
+              "pinyin": "xiá"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "鸟",
+              "pinyin": "guān"
+            },
+            {
+              "char": "倦",
+              "pinyin": "yún"
+            },
+            {
+              "char": "飞",
+              "pinyin": "wú"
+            },
+            {
+              "char": "而",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "知",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "还",
+              "pinyin": "chū"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "拄着拐杖出去走走，随时随地休息，时时抬头望着远方（的天空）。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "云气自然而然地冒出山头。无心，无意。岫，峰峦。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "景",
+              "pinyin": "xiù"
+            },
+            {
+              "char": "翳",
+              "pinyin": "niǎo"
+            },
+            {
+              "char": "翳",
+              "pinyin": "juàn"
+            },
+            {
+              "char": "以",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "将",
+              "pinyin": "ér"
+            },
+            {
+              "char": "入",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "抚",
+              "pinyin": "huán"
+            },
+            {
+              "char": "孤",
+              "pinyin": "jǐng"
+            },
+            {
+              "char": "松",
+              "pinyin": "yì"
+            },
+            {
+              "char": "而",
+              "pinyin": "yì"
+            },
+            {
+              "char": "盘",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "桓",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "云气自然而然地从山峰飘浮而出，倦飞的鸟儿也知道飞回巢中；"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "阳光黯淡，太阳快要下山了。景，日光。翳翳，阴暗的样子。入，指太阳下山。"
+            },
+            {
+              "start": 11,
+              "end": 12,
+              "note": "徘徊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "归",
+              "pinyin": "rù"
+            },
+            {
+              "char": "去",
+              "pinyin": "fǔ"
+            },
+            {
+              "char": "来",
+              "pinyin": "gū"
+            },
+            {
+              "char": "兮",
+              "pinyin": "sōng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "请",
+              "pinyin": "ér"
+            },
+            {
+              "char": "息",
+              "pinyin": "pán"
+            },
+            {
+              "char": "交",
+              "pinyin": "huán"
+            },
+            {
+              "char": "以",
+              "pinyin": "guī"
+            },
+            {
+              "char": "绝",
+              "pinyin": "qù"
+            },
+            {
+              "char": "游",
+              "pinyin": "lái"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "日光暗淡，太阳快要落下去了，我手抚着孤松徘徊着不忍离去。"
+          },
+          "notes": [
+            {
+              "start": 5,
+              "end": 10,
+              "note": "让我同外界断绝交游。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "世",
+              "pinyin": "xī"
+            },
+            {
+              "char": "与",
+              "pinyin": "qǐng"
+            },
+            {
+              "char": "我",
+              "pinyin": "xī"
+            },
+            {
+              "char": "而",
+              "pinyin": "jiāo"
+            },
+            {
+              "char": "相",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "违",
+              "pinyin": "jué"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "复",
+              "pinyin": "yóu"
+            },
+            {
+              "char": "驾",
+              "pinyin": "shì"
+            },
+            {
+              "char": "言",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "兮",
+              "pinyin": "wǒ"
+            },
+            {
+              "char": "焉",
+              "pinyin": "ér"
+            },
+            {
+              "char": "求",
+              "pinyin": "xiāng"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "回家去吧！"
+          },
+          "notes": [
+            {
+              "start": 7,
+              "end": 12,
+              "note": "还要驾车出去追求什么？驾言，驾车出游。《诗经·邶风·泉水》有“驾言出游”之语。驾，驾车。言，助词。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "悦",
+              "pinyin": "wéi"
+            },
+            {
+              "char": "亲",
+              "pinyin": "fù"
+            },
+            {
+              "char": "戚",
+              "pinyin": "jià"
+            },
+            {
+              "char": "之",
+              "pinyin": "yán"
+            },
+            {
+              "char": "情",
+              "pinyin": "xī"
+            },
+            {
+              "char": "话",
+              "pinyin": "yān"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "乐",
+              "pinyin": "qiú"
+            },
+            {
+              "char": "琴",
+              "pinyin": "yuè"
+            },
+            {
+              "char": "书",
+              "pinyin": "qīn"
+            },
+            {
+              "char": "以",
+              "pinyin": "qi"
+            },
+            {
+              "char": "消",
+              "pinyin": "yí"
+            },
+            {
+              "char": "忧",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "请让我同外界断绝交游。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "知心话。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "农",
+              "pinyin": "qíng"
+            },
+            {
+              "char": "人",
+              "pinyin": "huà"
+            },
+            {
+              "char": "告",
+              "pinyin": "lè"
+            },
+            {
+              "char": "余",
+              "pinyin": "qín"
+            },
+            {
+              "char": "以",
+              "pinyin": "shū"
+            },
+            {
+              "char": "春",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "及",
+              "pinyin": "xiāo"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "将",
+              "pinyin": "yōu"
+            },
+            {
+              "char": "有",
+              "pinyin": "nóng"
+            },
+            {
+              "char": "事",
+              "pinyin": "rén"
+            },
+            {
+              "char": "于",
+              "pinyin": "gào"
+            },
+            {
+              "char": "西",
+              "pinyin": "yú"
+            },
+            {
+              "char": "畴",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "世事与我所想的相违背，还要驾车出去追求什么？"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "note": "春天到了。"
+            },
+            {
+              "start": 8,
+              "end": 13,
+              "note": "将要到西边的田里去春耕。事，指耕种之事。畴，田地。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "或",
+              "pinyin": "chūn"
+            },
+            {
+              "char": "命",
+              "pinyin": "jí"
+            },
+            {
+              "char": "巾",
+              "pinyin": "jiāng"
+            },
+            {
+              "char": "车",
+              "pinyin": "yǒu"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "或",
+              "pinyin": "shì"
+            },
+            {
+              "char": "棹",
+              "pinyin": "yú"
+            },
+            {
+              "char": "孤",
+              "pinyin": "xī"
+            },
+            {
+              "char": "舟",
+              "pinyin": "chóu"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "以亲人间的知心话为愉悦，以弹琴读书为乐来消除忧愁；"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "note": "有时坐着有帷幕的小车。命，命人备置。巾车，外面覆盖着帷幕的小车。"
+            },
+            {
+              "start": 5,
+              "end": 8,
+              "note": "有时划着一只小船。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "既",
+              "pinyin": "huò"
+            },
+            {
+              "char": "窈",
+              "pinyin": "mìng"
+            },
+            {
+              "char": "窕",
+              "pinyin": "jīn"
+            },
+            {
+              "char": "以",
+              "pinyin": "chē"
+            },
+            {
+              "char": "寻",
+              "pinyin": "huò"
+            },
+            {
+              "char": "壑",
+              "pinyin": "zhào"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "亦",
+              "pinyin": "gū"
+            },
+            {
+              "char": "崎",
+              "pinyin": "zhōu"
+            },
+            {
+              "char": "岖",
+              "pinyin": "jì"
+            },
+            {
+              "char": "而",
+              "pinyin": "yǎo"
+            },
+            {
+              "char": "经",
+              "pinyin": "tiǎo"
+            },
+            {
+              "char": "丘",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "农夫告诉我春天到了，西边田野里要开始耕种了。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "沿着幽深曲折的山谷。窈窕，幽深的样子。寻，循着。"
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "note": "经过道路崎岖的山丘。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "木",
+              "pinyin": "xún"
+            },
+            {
+              "char": "欣",
+              "pinyin": "hè"
+            },
+            {
+              "char": "欣",
+              "pinyin": "yì"
+            },
+            {
+              "char": "以",
+              "pinyin": "qí"
+            },
+            {
+              "char": "向",
+              "pinyin": "qū"
+            },
+            {
+              "char": "荣",
+              "pinyin": "ér"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "泉",
+              "pinyin": "jīng"
+            },
+            {
+              "char": "涓",
+              "pinyin": "qiū"
+            },
+            {
+              "char": "涓",
+              "pinyin": "mù"
+            },
+            {
+              "char": "而",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "始",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "流",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "有时驾着有布篷的小车，有时划着一条小船，有时经过幽深曲折的山谷，有时走过高低不平的山路。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "木欣欣以向荣。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "善",
+              "pinyin": "xiàng"
+            },
+            {
+              "char": "万",
+              "pinyin": "róng"
+            },
+            {
+              "char": "物",
+              "pinyin": "quán"
+            },
+            {
+              "char": "之",
+              "pinyin": "juān"
+            },
+            {
+              "char": "得",
+              "pinyin": "juān"
+            },
+            {
+              "char": "时",
+              "pinyin": "ér"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "感",
+              "pinyin": "shǐ"
+            },
+            {
+              "char": "吾",
+              "pinyin": "liú"
+            },
+            {
+              "char": "生",
+              "pinyin": "shàn"
+            },
+            {
+              "char": "之",
+              "pinyin": "wàn"
+            },
+            {
+              "char": "行",
+              "pinyin": "wù"
+            },
+            {
+              "char": "休",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "草木茂盛，细水缓流，（我）羡慕自然界的万物一到春天便及时生长茂盛，感叹自己的一生行将结束。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "羡慕万物恰逢繁荣滋长的好时节。善，羡慕。得时，顺应天时。"
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "note": "感叹我的一生将要结束。行，将要。休，终结。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph": [
+        {
+          "sentence": [
+            {
+              "char": "已",
+              "pinyin": "dé"
+            },
+            {
+              "char": "矣",
+              "pinyin": "shí"
+            },
+            {
+              "char": "乎",
+              "pinyin": "gǎn"
+            },
+            {
+              "char": "！",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "算了吧！"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 2,
+              "note": "算了吧！助词“矣”“乎”连用，加强感叹语气。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "寓",
+              "pinyin": "wú"
+            },
+            {
+              "char": "形",
+              "pinyin": "shēng"
+            },
+            {
+              "char": "宇",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "内",
+              "pinyin": "xíng"
+            },
+            {
+              "char": "复",
+              "pinyin": "xiū"
+            },
+            {
+              "char": "几",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "时",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "活在世上还能有多久？"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "note": "人寄身于天地间能有多长时间？寓形，寄托身体。宇内，天地间。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "曷",
+              "pinyin": "hū"
+            },
+            {
+              "char": "不",
+              "pinyin": "yù"
+            },
+            {
+              "char": "委",
+              "pinyin": "xíng"
+            },
+            {
+              "char": "心",
+              "pinyin": "yǔ"
+            },
+            {
+              "char": "任",
+              "pinyin": "nèi"
+            },
+            {
+              "char": "去",
+              "pinyin": "fù"
+            },
+            {
+              "char": "留",
+              "pinyin": "jǐ"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "为什么不随心所欲，听凭自然的生死？"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 6,
+              "note": "为什么不随心所欲，生与死都顺随自然？曷，相当于“何”，为什么。去留，指生死。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "胡",
+              "pinyin": "shí"
+            },
+            {
+              "char": "为",
+              "pinyin": "hé"
+            },
+            {
+              "char": "乎",
+              "pinyin": "bù"
+            },
+            {
+              "char": "遑",
+              "pinyin": "wěi"
+            },
+            {
+              "char": "遑",
+              "pinyin": "xīn"
+            },
+            {
+              "char": "欲",
+              "pinyin": "rèn"
+            },
+            {
+              "char": "何",
+              "pinyin": "qù"
+            },
+            {
+              "char": "之",
+              "pinyin": "liú"
+            },
+            {
+              "char": "？",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "为什么心神不定，想要到哪里去？"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 7,
+              "note": "为什么心神惶惶不安，到底想要到哪里去？遑遑，惊恐匆忙、心神不定。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "富",
+              "pinyin": "hú"
+            },
+            {
+              "char": "贵",
+              "pinyin": "wèi"
+            },
+            {
+              "char": "非",
+              "pinyin": "hū"
+            },
+            {
+              "char": "吾",
+              "pinyin": "huáng"
+            },
+            {
+              "char": "愿",
+              "pinyin": "huáng"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "帝",
+              "pinyin": "yù"
+            },
+            {
+              "char": "乡",
+              "pinyin": "hé"
+            },
+            {
+              "char": "不",
+              "pinyin": "zhī"
+            },
+            {
+              "char": "可",
+              "pinyin": "fù"
+            },
+            {
+              "char": "期",
+              "pinyin": "guì"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "富贵不是我所求，修成神仙是没有希望的。"
+          },
+          "notes": [
+            {
+              "start": 6,
+              "end": 10,
+              "note": "仙境不可期求。帝乡，天帝居住的地方，也就是所谓仙境。期，期求。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "怀",
+              "pinyin": "fēi"
+            },
+            {
+              "char": "良",
+              "pinyin": "wú"
+            },
+            {
+              "char": "辰",
+              "pinyin": "yuàn"
+            },
+            {
+              "char": "以",
+              "pinyin": "dì"
+            },
+            {
+              "char": "孤",
+              "pinyin": "xiāng"
+            },
+            {
+              "char": "往",
+              "pinyin": "bù"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "或",
+              "pinyin": "kě"
+            },
+            {
+              "char": "植",
+              "pinyin": "qī"
+            },
+            {
+              "char": "杖",
+              "pinyin": "huái"
+            },
+            {
+              "char": "而",
+              "pinyin": "liáng"
+            },
+            {
+              "char": "耘",
+              "pinyin": "chén"
+            },
+            {
+              "char": "耔",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "爱惜那良辰美景我独自去欣赏，有时放下手杖，拿起农具除草培土；"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "爱惜美好的时光，独自外出。怀，留恋、爱惜。良辰，美好的时光，指上文所说万物得时的春天。"
+            },
+            {
+              "start": 7,
+              "end": 12,
+              "note": "有时倚着棍杖除草培土。植杖，倚杖、扶杖。一说“植杖”是把手杖插在地上。耘，除草。耔，培土。《论语·微子》有“植其杖而芸”之语。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "登",
+              "pinyin": "gū"
+            },
+            {
+              "char": "东",
+              "pinyin": "wǎng"
+            },
+            {
+              "char": "皋",
+              "pinyin": "huò"
+            },
+            {
+              "char": "以",
+              "pinyin": "zhí"
+            },
+            {
+              "char": "舒",
+              "pinyin": "zhàng"
+            },
+            {
+              "char": "啸",
+              "pinyin": "ér"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "临",
+              "pinyin": "yún"
+            },
+            {
+              "char": "清",
+              "pinyin": "zǐ"
+            },
+            {
+              "char": "流",
+              "pinyin": "dēng"
+            },
+            {
+              "char": "而",
+              "pinyin": "dōng"
+            },
+            {
+              "char": "赋",
+              "pinyin": "gāo"
+            },
+            {
+              "char": "诗",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "。",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "登上东边的山坡我放声呼啸，傍着清清的溪流把诗歌吟唱。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "登上向阳的高地，放声长啸。东皋，水边向阳的高地。舒啸，放声长啸。"
+            }
+          ]
+        },
+        {
+          "sentence": [
+            {
+              "char": "聊",
+              "pinyin": "shū"
+            },
+            {
+              "char": "乘",
+              "pinyin": "xiào"
+            },
+            {
+              "char": "化",
+              "pinyin": "lín"
+            },
+            {
+              "char": "以",
+              "pinyin": "qīng"
+            },
+            {
+              "char": "归",
+              "pinyin": "liú"
+            },
+            {
+              "char": "尽",
+              "pinyin": "ér"
+            },
+            {
+              "char": "，",
+              "pinyin": "　"
+            },
+            {
+              "char": "乐",
+              "pinyin": "fù"
+            },
+            {
+              "char": "夫",
+              "pinyin": "shī"
+            },
+            {
+              "char": "天",
+              "pinyin": "liáo"
+            },
+            {
+              "char": "命",
+              "pinyin": "chéng"
+            },
+            {
+              "char": "复",
+              "pinyin": "huà"
+            },
+            {
+              "char": "奚",
+              "pinyin": "yǐ"
+            },
+            {
+              "char": "疑",
+              "pinyin": "guī"
+            },
+            {
+              "char": "！",
+              "pinyin": "　"
+            }
+          ],
+          "translation": {
+            "translation": "姑且顺随自然的变化，走到生命的尽头。"
+          },
+          "notes": [
+            {
+              "start": 0,
+              "end": 5,
+              "note": "姑且顺随自然的变化，走到生命的尽头。聊，姑且。乘化，顺随自然。归尽，到生命的尽头。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "note": "乐天安命，还有什么可疑虑的呢？"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mode": "paragraph"
+}

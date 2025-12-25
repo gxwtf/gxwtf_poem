@@ -1,0 +1,6122 @@
+{
+  "name": "过秦论",
+  "author": "贾谊",
+  "dynasty": "西汉",
+  "mode": "paragraph",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 0
+            },
+            {
+              "char": "孝",
+              "pinyin": "xiào",
+              "index": 1
+            },
+            {
+              "char": "公",
+              "pinyin": "gōng",
+              "index": 2
+            },
+            {
+              "char": "据",
+              "pinyin": "jù",
+              "index": 3
+            },
+            {
+              "char": "崤",
+              "pinyin": "xiáo",
+              "index": 4
+            },
+            {
+              "char": "函",
+              "pinyin": "hán",
+              "index": 5
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 6
+            },
+            {
+              "char": "固",
+              "pinyin": "gù",
+              "index": 7
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 8
+            },
+            {
+              "char": "拥",
+              "pinyin": "yōng",
+              "index": 9
+            },
+            {
+              "char": "雍",
+              "pinyin": "yōng",
+              "index": 10
+            },
+            {
+              "char": "州",
+              "pinyin": "zhōu",
+              "index": 11
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 12
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 13
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 14
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 15
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 16
+            },
+            {
+              "char": "固",
+              "pinyin": "gù",
+              "index": 17
+            },
+            {
+              "char": "守",
+              "pinyin": "shǒu",
+              "index": 18
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 19
+            },
+            {
+              "char": "窥",
+              "pinyin": "kuī",
+              "index": 20
+            },
+            {
+              "char": "周",
+              "pinyin": "zhōu",
+              "index": 21
+            },
+            {
+              "char": "室",
+              "pinyin": "shì",
+              "index": 22
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 23
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 24
+            },
+            {
+              "char": "席",
+              "pinyin": "xí",
+              "index": 25
+            },
+            {
+              "char": "卷",
+              "pinyin": "juǎn",
+              "index": 26
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 27
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 28
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 29
+            },
+            {
+              "char": "包",
+              "pinyin": "bāo",
+              "index": 30
+            },
+            {
+              "char": "举",
+              "pinyin": "jǔ",
+              "index": 31
+            },
+            {
+              "char": "宇",
+              "pinyin": "yǔ",
+              "index": 32
+            },
+            {
+              "char": "内",
+              "pinyin": "nèi",
+              "index": 33
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 34
+            },
+            {
+              "char": "囊",
+              "pinyin": "náng",
+              "index": 35
+            },
+            {
+              "char": "括",
+              "pinyin": "kuò",
+              "index": 36
+            },
+            {
+              "char": "四",
+              "pinyin": "sì",
+              "index": 37
+            },
+            {
+              "char": "海",
+              "pinyin": "hǎi",
+              "index": 38
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 39
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 40
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 41
+            },
+            {
+              "char": "并",
+              "pinyin": "bìng",
+              "index": 42
+            },
+            {
+              "char": "吞",
+              "pinyin": "tūn",
+              "index": 43
+            },
+            {
+              "char": "八",
+              "pinyin": "bā",
+              "index": 44
+            },
+            {
+              "char": "荒",
+              "pinyin": "huāng",
+              "index": 45
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 46
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 47
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 48
+            }
+          ],
+          "translation": "秦孝公占据崤山与函谷关的险固关隘，拥有雍州的土地，君臣牢固地守卫着这些地盘，以便伺机夺取衰弱的东周王朝，有席卷天下、征服列国、控制四海的意愿，有并吞八方、统一中国的雄心。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 2,
+              "content": "秦国的国君。他任用商鞅变法，富国强兵。下文的商君就是商鞅。"
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "content": "崤山和函谷关。崤山，在函谷关的东边。函谷关，在今河南灵宝。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "在今陕西中部北部、甘肃、青海的东南部和宁夏一带。"
+            },
+            {
+              "start": 24,
+              "end": 47,
+              "content": "意思是，（秦孝公）有统一天下的野心。席卷、包举、囊括，都有“并吞”的意思。宇内、四海、八荒，都是“天下”的意思。八荒，原指八方最边远的地方。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 49
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 50
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 51
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 52
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 53
+            },
+            {
+              "char": "商",
+              "pinyin": "shāng",
+              "index": 54
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 55
+            },
+            {
+              "char": "佐",
+              "pinyin": "zuǒ",
+              "index": 56
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 57
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 58
+            },
+            {
+              "char": "内",
+              "pinyin": "nèi",
+              "index": 59
+            },
+            {
+              "char": "立",
+              "pinyin": "lì",
+              "index": 60
+            },
+            {
+              "char": "法",
+              "pinyin": "fǎ",
+              "index": 61
+            },
+            {
+              "char": "度",
+              "pinyin": "dù",
+              "index": 62
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 63
+            },
+            {
+              "char": "务",
+              "pinyin": "wù",
+              "index": 64
+            },
+            {
+              "char": "耕",
+              "pinyin": "gēng",
+              "index": 65
+            },
+            {
+              "char": "织",
+              "pinyin": "zhī",
+              "index": 66
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 67
+            },
+            {
+              "char": "修",
+              "pinyin": "xiū",
+              "index": 68
+            },
+            {
+              "char": "守",
+              "pinyin": "shǒu",
+              "index": 69
+            },
+            {
+              "char": "战",
+              "pinyin": "zhàn",
+              "index": 70
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 71
+            },
+            {
+              "char": "具",
+              "pinyin": "jù",
+              "index": 72
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 73
+            },
+            {
+              "char": "外",
+              "pinyin": "wài",
+              "index": 74
+            },
+            {
+              "char": "连",
+              "pinyin": "lián",
+              "index": 75
+            },
+            {
+              "char": "衡",
+              "pinyin": "héng",
+              "index": 76
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 77
+            },
+            {
+              "char": "斗",
+              "pinyin": "dòu",
+              "index": 78
+            },
+            {
+              "char": "诸",
+              "pinyin": "zhū",
+              "index": 79
+            },
+            {
+              "char": "侯",
+              "pinyin": "hóu",
+              "index": 80
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 81
+            }
+          ],
+          "translation": "在那时候，有商鞅辅佐他，对内确立法律制度，致力农耕纺织，修缮防守与进攻用的器械，对外推行连横之策并使诸侯相互争斗。",
+          "notes": [
+            {
+              "start": 26,
+              "end": 27,
+              "content": "秦国采用的一种离间六国的策略，使它们各自同秦国联合，从而各个击破。也作“连横”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 82
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 83
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 84
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 85
+            },
+            {
+              "char": "拱",
+              "pinyin": "gǒng",
+              "index": 86
+            },
+            {
+              "char": "手",
+              "pinyin": "shǒu",
+              "index": 87
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 88
+            },
+            {
+              "char": "取",
+              "pinyin": "qǔ",
+              "index": 89
+            },
+            {
+              "char": "西",
+              "pinyin": "xī",
+              "index": 90
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 91
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 92
+            },
+            {
+              "char": "外",
+              "pinyin": "wài",
+              "index": 93
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 94
+            }
+          ],
+          "translation": "于是秦人很容易夺取了黄河以西的大片土地。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "两手合抱，形容毫不费力。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "战国时魏地。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "孝",
+              "pinyin": "xiào",
+              "index": 95
+            },
+            {
+              "char": "公",
+              "pinyin": "gōng",
+              "index": 96
+            },
+            {
+              "char": "既",
+              "pinyin": "jì",
+              "index": 97
+            },
+            {
+              "char": "没",
+              "pinyin": "mò",
+              "index": 98
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 99
+            },
+            {
+              "char": "惠",
+              "pinyin": "huì",
+              "index": 100
+            },
+            {
+              "char": "文",
+              "pinyin": "wén",
+              "index": 101
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 102
+            },
+            {
+              "char": "武",
+              "pinyin": "wǔ",
+              "index": 103
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 104
+            },
+            {
+              "char": "昭",
+              "pinyin": "zhāo",
+              "index": 105
+            },
+            {
+              "char": "襄",
+              "pinyin": "xiāng",
+              "index": 106
+            },
+            {
+              "char": "蒙",
+              "pinyin": "méng",
+              "index": 107
+            },
+            {
+              "char": "故",
+              "pinyin": "gù",
+              "index": 108
+            },
+            {
+              "char": "业",
+              "pinyin": "yè",
+              "index": 109
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 110
+            },
+            {
+              "char": "因",
+              "pinyin": "yīn",
+              "index": 111
+            },
+            {
+              "char": "遗",
+              "pinyin": "yí",
+              "index": 112
+            },
+            {
+              "char": "策",
+              "pinyin": "cè",
+              "index": 113
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 114
+            },
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 115
+            },
+            {
+              "char": "取",
+              "pinyin": "qǔ",
+              "index": 116
+            },
+            {
+              "char": "汉",
+              "pinyin": "hàn",
+              "index": 117
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 118
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 119
+            },
+            {
+              "char": "西",
+              "pinyin": "xī",
+              "index": 120
+            },
+            {
+              "char": "举",
+              "pinyin": "jǔ",
+              "index": 121
+            },
+            {
+              "char": "巴",
+              "pinyin": "bā",
+              "index": 122
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 123
+            },
+            {
+              "char": "蜀",
+              "pinyin": "shǔ",
+              "index": 124
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 125
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 126
+            },
+            {
+              "char": "割",
+              "pinyin": "gē",
+              "index": 127
+            },
+            {
+              "char": "膏",
+              "pinyin": "gāo",
+              "index": 128
+            },
+            {
+              "char": "腴",
+              "pinyin": "yú",
+              "index": 129
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 130
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 131
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 132
+            },
+            {
+              "char": "北",
+              "pinyin": "běi",
+              "index": 133
+            },
+            {
+              "char": "收",
+              "pinyin": "shōu",
+              "index": 134
+            },
+            {
+              "char": "要",
+              "pinyin": "yào",
+              "index": 135
+            },
+            {
+              "char": "害",
+              "pinyin": "hài",
+              "index": 136
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 137
+            },
+            {
+              "char": "郡",
+              "pinyin": "jùn",
+              "index": 138
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 139
+            }
+          ],
+          "translation": "孝公死后，惠文王、武王、昭襄王继承先人的基业，沿袭前代的策略，向南攻取了汉中，向西攻占了巴、蜀，向东割取了肥沃的土地，向北占据了重大的城邑。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 11,
+              "content": "惠文王、武王、昭襄王。惠文王是孝公的儿子，武王是惠文王的儿子，昭襄王是武王的异母弟。"
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "content": "继承已有的基业，沿袭前代的政策。蒙，继承。"
+            },
+            {
+              "start": 40,
+              "end": 43,
+              "content": "（政治、经济、军事上都）非常重要的地区。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "诸",
+              "pinyin": "zhū",
+              "index": 140
+            },
+            {
+              "char": "侯",
+              "pinyin": "hóu",
+              "index": 141
+            },
+            {
+              "char": "恐",
+              "pinyin": "kǒng",
+              "index": 142
+            },
+            {
+              "char": "惧",
+              "pinyin": "jù",
+              "index": 143
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 144
+            },
+            {
+              "char": "会",
+              "pinyin": "huì",
+              "index": 145
+            },
+            {
+              "char": "盟",
+              "pinyin": "méng",
+              "index": 146
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 147
+            },
+            {
+              "char": "谋",
+              "pinyin": "móu",
+              "index": 148
+            },
+            {
+              "char": "弱",
+              "pinyin": "ruò",
+              "index": 149
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 150
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 151
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 152
+            },
+            {
+              "char": "爱",
+              "pinyin": "ài",
+              "index": 153
+            },
+            {
+              "char": "珍",
+              "pinyin": "zhēn",
+              "index": 154
+            },
+            {
+              "char": "器",
+              "pinyin": "qì",
+              "index": 155
+            },
+            {
+              "char": "重",
+              "pinyin": "zhòng",
+              "index": 156
+            },
+            {
+              "char": "宝",
+              "pinyin": "bǎo",
+              "index": 157
+            },
+            {
+              "char": "肥",
+              "pinyin": "féi",
+              "index": 158
+            },
+            {
+              "char": "饶",
+              "pinyin": "ráo",
+              "index": 159
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 160
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 161
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 162
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 163
+            },
+            {
+              "char": "致",
+              "pinyin": "zhì",
+              "index": 164
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 165
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 166
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 167
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 168
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 169
+            },
+            {
+              "char": "合",
+              "pinyin": "hé",
+              "index": 170
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 171
+            },
+            {
+              "char": "缔",
+              "pinyin": "dì",
+              "index": 172
+            },
+            {
+              "char": "交",
+              "pinyin": "jiāo",
+              "index": 173
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 174
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 175
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 176
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 177
+            },
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 178
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 179
+            }
+          ],
+          "translation": "六国诸侯都很害怕，于是结盟商讨削弱秦国的办法，不惜珍贵的财宝以及肥沃富饶的土地，用来招纳天下有本领的人，采用合纵策略缔结盟约，相互援助，结为—体。",
+          "notes": [
+            {
+              "start": 9,
+              "end": 9,
+              "content": "削弱。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "吝惜。"
+            },
+            {
+              "start": 24,
+              "end": 24,
+              "content": "招致，招引。"
+            },
+            {
+              "start": 30,
+              "end": 38,
+              "content": "采用合纵的策略缔结盟约，互相援助，成为一体。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "当",
+              "pinyin": "dāng",
+              "index": 180
+            },
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 181
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 182
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 183
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 184
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 185
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 186
+            },
+            {
+              "char": "孟",
+              "pinyin": "mèng",
+              "index": 187
+            },
+            {
+              "char": "尝",
+              "pinyin": "cháng",
+              "index": 188
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 189
+            },
+            {
+              "char": "赵",
+              "pinyin": "zhào",
+              "index": 190
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 191
+            },
+            {
+              "char": "平",
+              "pinyin": "píng",
+              "index": 192
+            },
+            {
+              "char": "原",
+              "pinyin": "yuán",
+              "index": 193
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 194
+            },
+            {
+              "char": "楚",
+              "pinyin": "chǔ",
+              "index": 195
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 196
+            },
+            {
+              "char": "春",
+              "pinyin": "chūn",
+              "index": 197
+            },
+            {
+              "char": "申",
+              "pinyin": "shēn",
+              "index": 198
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 199
+            },
+            {
+              "char": "魏",
+              "pinyin": "wèi",
+              "index": 200
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 201
+            },
+            {
+              "char": "信",
+              "pinyin": "xìn",
+              "index": 202
+            },
+            {
+              "char": "陵",
+              "pinyin": "líng",
+              "index": 203
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 204
+            }
+          ],
+          "translation": "在这时，齐国有孟尝君，赵国有平原君，楚国有春申君，魏国有信陵君。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 23,
+              "content": "孟尝君，田文，齐国贵族；平原君，赵胜，赵国贵族；春申君，黄歇，楚国贵族；信陵君，魏无忌，魏国贵族。他们是战国时有名的“四公子”，皆以招揽宾客著称。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "此",
+              "pinyin": "cǐ",
+              "index": 205
+            },
+            {
+              "char": "四",
+              "pinyin": "sì",
+              "index": 206
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 207
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 208
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 209
+            },
+            {
+              "char": "皆",
+              "pinyin": "jiē",
+              "index": 210
+            },
+            {
+              "char": "明",
+              "pinyin": "cí",
+              "index": 211
+            },
+            {
+              "char": "智",
+              "pinyin": "míng",
+              "index": 212
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 213
+            },
+            {
+              "char": "忠",
+              "pinyin": "zhōng",
+              "index": 214
+            },
+            {
+              "char": "信",
+              "pinyin": "xìn",
+              "index": 215
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 216
+            },
+            {
+              "char": "宽",
+              "pinyin": "kuān",
+              "index": 217
+            },
+            {
+              "char": "厚",
+              "pinyin": "hòu",
+              "index": 218
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 219
+            },
+            {
+              "char": "爱",
+              "pinyin": "ài",
+              "index": 220
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 221
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 222
+            },
+            {
+              "char": "尊",
+              "pinyin": "zūn",
+              "index": 223
+            },
+            {
+              "char": "贤",
+              "pinyin": "xián",
+              "index": 224
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 225
+            },
+            {
+              "char": "重",
+              "pinyin": "zhòng",
+              "index": 226
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 227
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 228
+            },
+            {
+              "char": "约",
+              "pinyin": "yuē",
+              "index": 229
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 230
+            },
+            {
+              "char": "离",
+              "pinyin": "lí",
+              "index": 231
+            },
+            {
+              "char": "衡",
+              "pinyin": "héng",
+              "index": 232
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 233
+            },
+            {
+              "char": "兼",
+              "pinyin": "jiān",
+              "index": 234
+            },
+            {
+              "char": "韩",
+              "pinyin": "hán",
+              "index": 235
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 236
+            },
+            {
+              "char": "魏",
+              "pinyin": "wèi",
+              "index": 237
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 238
+            },
+            {
+              "char": "燕",
+              "pinyin": "yàn",
+              "index": 239
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 240
+            },
+            {
+              "char": "楚",
+              "pinyin": "chǔ",
+              "index": 241
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 242
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 243
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 244
+            },
+            {
+              "char": "赵",
+              "pinyin": "zhào",
+              "index": 245
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 246
+            },
+            {
+              "char": "宋",
+              "pinyin": "sòng",
+              "index": 247
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 248
+            },
+            {
+              "char": "卫",
+              "pinyin": "wèi",
+              "index": 249
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 250
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 251
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 252
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 253
+            },
+            {
+              "char": "众",
+              "pinyin": "zhòng",
+              "index": 254
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 255
+            }
+          ],
+          "translation": "这四位公子，都明达聪慧而又忠诚讲信用，宽宏厚道而又爱惜人民，尊敬贤才而又重视士人，他们相约合纵结盟，以离间秦国的连横之策，聚合了韩、魏、燕、楚、齐、赵、宋、卫、中山等国的民众。",
+          "notes": [
+            {
+              "start": 24,
+              "end": 27,
+              "content": "相约为合纵，击破秦国的连衡策略。约，结。离，离散。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 256
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 257
+            },
+            {
+              "char": "六",
+              "pinyin": "liù",
+              "index": 258
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 259
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 260
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 261
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 262
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 263
+            },
+            {
+              "char": "甯",
+              "pinyin": "níng",
+              "index": 264
+            },
+            {
+              "char": "越",
+              "pinyin": "yuè",
+              "index": 265
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 266
+            },
+            {
+              "char": "徐",
+              "pinyin": "xú",
+              "index": 267
+            },
+            {
+              "char": "尚",
+              "pinyin": "shàng",
+              "index": 268
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 269
+            },
+            {
+              "char": "苏",
+              "pinyin": "sū",
+              "index": 270
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 271
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 272
+            },
+            {
+              "char": "杜",
+              "pinyin": "dù",
+              "index": 273
+            },
+            {
+              "char": "赫",
+              "pinyin": "hè",
+              "index": 274
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 275
+            },
+            {
+              "char": "属",
+              "pinyin": "shǔ",
+              "index": 276
+            },
+            {
+              "char": "为",
+              "pinyin": "wèi",
+              "index": 277
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 278
+            },
+            {
+              "char": "谋",
+              "pinyin": "móu",
+              "index": 279
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 280
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 281
+            },
+            {
+              "char": "明",
+              "pinyin": "míng",
+              "index": 282
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 283
+            },
+            {
+              "char": "周",
+              "pinyin": "zhōu",
+              "index": 284
+            },
+            {
+              "char": "最",
+              "pinyin": "zuì",
+              "index": 285
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 286
+            },
+            {
+              "char": "陈",
+              "pinyin": "chén",
+              "index": 287
+            },
+            {
+              "char": "轸",
+              "pinyin": "zhěn",
+              "index": 288
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 289
+            },
+            {
+              "char": "召",
+              "pinyin": "zhào",
+              "index": 290
+            },
+            {
+              "char": "滑",
+              "pinyin": "huá",
+              "index": 291
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 292
+            },
+            {
+              "char": "楼",
+              "pinyin": "lóu",
+              "index": 293
+            },
+            {
+              "char": "缓",
+              "pinyin": "huǎn",
+              "index": 294
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 295
+            },
+            {
+              "char": "翟",
+              "pinyin": "zhái",
+              "index": 296
+            },
+            {
+              "char": "景",
+              "pinyin": "jǐng",
+              "index": 297
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 298
+            },
+            {
+              "char": "苏",
+              "pinyin": "sū",
+              "index": 299
+            },
+            {
+              "char": "厉",
+              "pinyin": "lì",
+              "index": 300
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 301
+            },
+            {
+              "char": "乐",
+              "pinyin": "yuè",
+              "index": 302
+            },
+            {
+              "char": "毅",
+              "pinyin": "yì",
+              "index": 303
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 304
+            },
+            {
+              "char": "徒",
+              "pinyin": "tú",
+              "index": 305
+            },
+            {
+              "char": "通",
+              "pinyin": "tōng",
+              "index": 306
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 307
+            },
+            {
+              "char": "意",
+              "pinyin": "yì",
+              "index": 308
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 309
+            },
+            {
+              "char": "吴",
+              "pinyin": "wú",
+              "index": 310
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ",
+              "index": 311
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 312
+            },
+            {
+              "char": "孙",
+              "pinyin": "sūn",
+              "index": 313
+            },
+            {
+              "char": "膑",
+              "pinyin": "bìn",
+              "index": 314
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 315
+            },
+            {
+              "char": "带",
+              "pinyin": "dài",
+              "index": 316
+            },
+            {
+              "char": "佗",
+              "pinyin": "tuó",
+              "index": 317
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 318
+            },
+            {
+              "char": "倪",
+              "pinyin": "ní",
+              "index": 319
+            },
+            {
+              "char": "良",
+              "pinyin": "liáng",
+              "index": 320
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 321
+            },
+            {
+              "char": "王",
+              "pinyin": "wáng",
+              "index": 322
+            },
+            {
+              "char": "廖",
+              "pinyin": "liào",
+              "index": 323
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 324
+            },
+            {
+              "char": "田",
+              "pinyin": "tián",
+              "index": 325
+            },
+            {
+              "char": "忌",
+              "pinyin": "jì",
+              "index": 326
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 327
+            },
+            {
+              "char": "廉",
+              "pinyin": "lián",
+              "index": 328
+            },
+            {
+              "char": "颇",
+              "pinyin": "pō",
+              "index": 329
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 330
+            },
+            {
+              "char": "赵",
+              "pinyin": "zhào",
+              "index": 331
+            },
+            {
+              "char": "奢",
+              "pinyin": "shē",
+              "index": 332
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 333
+            },
+            {
+              "char": "伦",
+              "pinyin": "lún",
+              "index": 334
+            },
+            {
+              "char": "制",
+              "pinyin": "zhì",
+              "index": 335
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 336
+            },
+            {
+              "char": "兵",
+              "pinyin": "bīng",
+              "index": 337
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 338
+            }
+          ],
+          "translation": "在这时，六国的谋士有宁越、徐尚、苏秦、杜赫这些人为他们谋划；",
+          "notes": [
+            {
+              "start": 8,
+              "end": 23,
+              "content": "甯越、徐尚这些人为他们谋划。属，与下文的“徒”“伦”都是“类、辈”的意思，指某一类人。"
+            },
+            {
+              "start": 25,
+              "end": 52,
+              "content": "齐明、周最这些人沟通他们的意图。"
+            },
+            {
+              "start": 54,
+              "end": 81,
+              "content": "吴起、孙膑这些人统率他们的军队。制，统领、统率。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "尝",
+              "pinyin": "cháng",
+              "index": 339
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 340
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 341
+            },
+            {
+              "char": "倍",
+              "pinyin": "bèi",
+              "index": 342
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 343
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 344
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 345
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 346
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 347
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 348
+            },
+            {
+              "char": "众",
+              "pinyin": "zhòng",
+              "index": 349
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 350
+            },
+            {
+              "char": "叩",
+              "pinyin": "kòu",
+              "index": 351
+            },
+            {
+              "char": "关",
+              "pinyin": "guān",
+              "index": 352
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 353
+            },
+            {
+              "char": "攻",
+              "pinyin": "gōng",
+              "index": 354
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 355
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 356
+            }
+          ],
+          "translation": "齐明、周最、陈轸、召滑、楼缓、翟景、苏厉、乐毅这些人沟通他们合纵抗秦的主张；",
+          "notes": [
+            {
+              "start": 12,
+              "end": 13,
+              "content": "攻打函谷关。叩，攻打。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 357
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 358
+            },
+            {
+              "char": "开",
+              "pinyin": "kāi",
+              "index": 359
+            },
+            {
+              "char": "关",
+              "pinyin": "guān",
+              "index": 360
+            },
+            {
+              "char": "延",
+              "pinyin": "yán",
+              "index": 361
+            },
+            {
+              "char": "敌",
+              "pinyin": "dí",
+              "index": 362
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 363
+            },
+            {
+              "char": "九",
+              "pinyin": "jiǔ",
+              "index": 364
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 365
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 366
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 367
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 368
+            },
+            {
+              "char": "逡",
+              "pinyin": "qūn",
+              "index": 369
+            },
+            {
+              "char": "巡",
+              "pinyin": "xún",
+              "index": 370
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 371
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 372
+            },
+            {
+              "char": "敢",
+              "pinyin": "gǎn",
+              "index": 373
+            },
+            {
+              "char": "进",
+              "pinyin": "jìn",
+              "index": 374
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 375
+            }
+          ],
+          "translation": "吴起、孙膑、带佗、倪良、王廖、田忌、廉颇、赵奢这些人统率他们的军队。",
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "迎击敌人。"
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "content": "就是上文的韩、魏、燕、楚、齐、赵、宋、卫、中山等国。"
+            },
+            {
+              "start": 12,
+              "end": 13,
+              "content": "有所顾虑而徘徊不敢前进。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 376
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 377
+            },
+            {
+              "char": "亡",
+              "pinyin": "wáng",
+              "index": 378
+            },
+            {
+              "char": "矢",
+              "pinyin": "shǐ",
+              "index": 379
+            },
+            {
+              "char": "遗",
+              "pinyin": "yí",
+              "index": 380
+            },
+            {
+              "char": "镞",
+              "pinyin": "zú",
+              "index": 381
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 382
+            },
+            {
+              "char": "费",
+              "pinyin": "fèi",
+              "index": 383
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 384
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 385
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 386
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 387
+            },
+            {
+              "char": "诸",
+              "pinyin": "zhū",
+              "index": 388
+            },
+            {
+              "char": "侯",
+              "pinyin": "hóu",
+              "index": 389
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 390
+            },
+            {
+              "char": "困",
+              "pinyin": "kùn",
+              "index": 391
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 392
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 393
+            }
+          ],
+          "translation": "他们曾经以十倍于秦国的土地，以百万士兵的军队，攻打函谷关而攻击秦国。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 5,
+              "content": "箭头。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 394
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 395
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 396
+            },
+            {
+              "char": "散",
+              "pinyin": "sàn",
+              "index": 397
+            },
+            {
+              "char": "约",
+              "pinyin": "yuē",
+              "index": 398
+            },
+            {
+              "char": "败",
+              "pinyin": "bài",
+              "index": 399
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 400
+            },
+            {
+              "char": "争",
+              "pinyin": "zhēng",
+              "index": 401
+            },
+            {
+              "char": "割",
+              "pinyin": "gē",
+              "index": 402
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 403
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 404
+            },
+            {
+              "char": "赂",
+              "pinyin": "lù",
+              "index": 405
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 406
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 407
+            }
+          ],
+          "translation": "秦人打开函谷关迎击敌军，然而，九国的军队犹豫、徘徊而不敢前进。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 408
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 409
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 410
+            },
+            {
+              "char": "力",
+              "pinyin": "lì",
+              "index": 411
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 412
+            },
+            {
+              "char": "制",
+              "pinyin": "zhì",
+              "index": 413
+            },
+            {
+              "char": "其",
+              "pinyin": "qí",
+              "index": 414
+            },
+            {
+              "char": "弊",
+              "pinyin": "bì",
+              "index": 415
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 416
+            },
+            {
+              "char": "追",
+              "pinyin": "zhuī",
+              "index": 417
+            },
+            {
+              "char": "亡",
+              "pinyin": "wáng",
+              "index": 418
+            },
+            {
+              "char": "逐",
+              "pinyin": "zhú",
+              "index": 419
+            },
+            {
+              "char": "北",
+              "pinyin": "běi",
+              "index": 420
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 421
+            },
+            {
+              "char": "伏",
+              "pinyin": "fú",
+              "index": 422
+            },
+            {
+              "char": "尸",
+              "pinyin": "shī",
+              "index": 423
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 424
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 425
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 426
+            },
+            {
+              "char": "流",
+              "pinyin": "liú",
+              "index": 427
+            },
+            {
+              "char": "血",
+              "pinyin": "xuè",
+              "index": 428
+            },
+            {
+              "char": "漂",
+              "pinyin": "piāo",
+              "index": 429
+            },
+            {
+              "char": "橹",
+              "pinyin": "lǔ",
+              "index": 430
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 431
+            }
+          ],
+          "translation": "秦人没有破费一支箭杆失去一支箭头，可是天下的诸侯已经疲惫不堪了。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 7,
+              "content": "利用他们的弱点制服他们。弊，弱点。"
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "content": "追逐败逃的军队。北，败逃，这里指败逃的军队。"
+            },
+            {
+              "start": 22,
+              "end": 22,
+              "content": "大盾牌。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "因",
+              "pinyin": "yīn",
+              "index": 432
+            },
+            {
+              "char": "利",
+              "pinyin": "lì",
+              "index": 433
+            },
+            {
+              "char": "乘",
+              "pinyin": "chéng",
+              "index": 434
+            },
+            {
+              "char": "便",
+              "pinyin": "biàn",
+              "index": 435
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 436
+            },
+            {
+              "char": "宰",
+              "pinyin": "zǎi",
+              "index": 437
+            },
+            {
+              "char": "割",
+              "pinyin": "gē",
+              "index": 438
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 439
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 440
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 441
+            },
+            {
+              "char": "分",
+              "pinyin": "fēn",
+              "index": 442
+            },
+            {
+              "char": "裂",
+              "pinyin": "liè",
+              "index": 443
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 444
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 445
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 446
+            }
+          ],
+          "translation": "于是合纵离散，盟约失败，六国诸侯们争着割让土地去贿赂秦国。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "强",
+              "pinyin": "qiáng",
+              "index": 447
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 448
+            },
+            {
+              "char": "请",
+              "pinyin": "qǐng",
+              "index": 449
+            },
+            {
+              "char": "服",
+              "pinyin": "fú",
+              "index": 450
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 451
+            },
+            {
+              "char": "弱",
+              "pinyin": "ruò",
+              "index": 452
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 453
+            },
+            {
+              "char": "入",
+              "pinyin": "rù",
+              "index": 454
+            },
+            {
+              "char": "朝",
+              "pinyin": "cháo",
+              "index": 455
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 456
+            }
+          ],
+          "translation": "秦国也就有了富余的力量制服他们，追击逃走的败兵，杀得败军横尸百万，流的血水竟能漂浮起盾牌来：秦国趁着有利的条件，乘着好的形势，宰割诸侯的国家，占有诸侯的山河。",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "延",
+              "pinyin": "yán",
+              "index": 457
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 458
+            },
+            {
+              "char": "孝",
+              "pinyin": "xiào",
+              "index": 459
+            },
+            {
+              "char": "文",
+              "pinyin": "wén",
+              "index": 460
+            },
+            {
+              "char": "王",
+              "pinyin": "wáng",
+              "index": 461
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 462
+            },
+            {
+              "char": "庄",
+              "pinyin": "zhuāng",
+              "index": 463
+            },
+            {
+              "char": "襄",
+              "pinyin": "xiāng",
+              "index": 464
+            },
+            {
+              "char": "王",
+              "pinyin": "wáng",
+              "index": 465
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 466
+            },
+            {
+              "char": "享",
+              "pinyin": "xiǎng",
+              "index": 467
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 468
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 469
+            },
+            {
+              "char": "日",
+              "pinyin": "rì",
+              "index": 470
+            },
+            {
+              "char": "浅",
+              "pinyin": "qiǎn",
+              "index": 471
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 472
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 473
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 474
+            },
+            {
+              "char": "无",
+              "pinyin": "wú",
+              "index": 475
+            },
+            {
+              "char": "事",
+              "pinyin": "shì",
+              "index": 476
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 477
+            }
+          ],
+          "translation": "强大一些的国家请求接受归顺，弱小一些的国家则前去朝拜称臣。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 8,
+              "content": "孝文王，昭襄王的儿子，在位三天死去。庄襄王，孝文王的儿子，在位三年。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 478
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 479
+            },
+            {
+              "char": "始",
+              "pinyin": "shǐ",
+              "index": 480
+            },
+            {
+              "char": "皇",
+              "pinyin": "huáng",
+              "index": 481
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 482
+            },
+            {
+              "char": "奋",
+              "pinyin": "fèn",
+              "index": 483
+            },
+            {
+              "char": "六",
+              "pinyin": "liù",
+              "index": 484
+            },
+            {
+              "char": "世",
+              "pinyin": "shì",
+              "index": 485
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 486
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 487
+            },
+            {
+              "char": "烈",
+              "pinyin": "liè",
+              "index": 488
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 489
+            },
+            {
+              "char": "振",
+              "pinyin": "zhèn",
+              "index": 490
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 491
+            },
+            {
+              "char": "策",
+              "pinyin": "cè",
+              "index": 492
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 493
+            },
+            {
+              "char": "御",
+              "pinyin": "yù",
+              "index": 494
+            },
+            {
+              "char": "宇",
+              "pinyin": "yǔ",
+              "index": 495
+            },
+            {
+              "char": "内",
+              "pinyin": "nèi",
+              "index": 496
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 497
+            },
+            {
+              "char": "吞",
+              "pinyin": "tūn",
+              "index": 498
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 499
+            },
+            {
+              "char": "周",
+              "pinyin": "zhōu",
+              "index": 500
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 501
+            },
+            {
+              "char": "亡",
+              "pinyin": "wàng",
+              "index": 502
+            },
+            {
+              "char": "诸",
+              "pinyin": "zhū",
+              "index": 503
+            },
+            {
+              "char": "侯",
+              "pinyin": "hóu",
+              "index": 504
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 505
+            },
+            {
+              "char": "履",
+              "pinyin": "lǚ",
+              "index": 506
+            },
+            {
+              "char": "至",
+              "pinyin": "zhì",
+              "index": 507
+            },
+            {
+              "char": "尊",
+              "pinyin": "zūn",
+              "index": 508
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 509
+            },
+            {
+              "char": "制",
+              "pinyin": "zhì",
+              "index": 510
+            },
+            {
+              "char": "六",
+              "pinyin": "liù",
+              "index": 511
+            },
+            {
+              "char": "合",
+              "pinyin": "hé",
+              "index": 512
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 513
+            },
+            {
+              "char": "执",
+              "pinyin": "zhí",
+              "index": 514
+            },
+            {
+              "char": "敲",
+              "pinyin": "qiāo",
+              "index": 515
+            },
+            {
+              "char": "扑",
+              "pinyin": "pū",
+              "index": 516
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 517
+            },
+            {
+              "char": "鞭",
+              "pinyin": "biān",
+              "index": 518
+            },
+            {
+              "char": "笞",
+              "pinyin": "chī",
+              "index": 519
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 520
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 521
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 522
+            },
+            {
+              "char": "威",
+              "pinyin": "wēi",
+              "index": 523
+            },
+            {
+              "char": "振",
+              "pinyin": "zhèn",
+              "index": 524
+            },
+            {
+              "char": "四",
+              "pinyin": "sì",
+              "index": 525
+            },
+            {
+              "char": "海",
+              "pinyin": "hǎi",
+              "index": 526
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 527
+            }
+          ],
+          "translation": "延续到孝文王、庄襄王，他们统治的日子很短，国家没有发生什么战争。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 10,
+              "content": "奋力发展六世遗留下来的功业。奋，振兴。六世，指孝公、惠文王、武王、昭襄王、孝文王、庄襄王。"
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "content": "意思是用武力来统治各国。振，举起。策，马鞭子。御，驾驭、统治。"
+            },
+            {
+              "start": 21,
+              "end": 22,
+              "content": "在东周王朝最后在位的周赧王时，东西周分治。西周都于河南西部旧王城，东周则都巩，史称“东西二周”。二周灭于秦始皇继位前，作者只是为了行文方便，才这样写的。"
+            },
+            {
+              "start": 28,
+              "end": 34,
+              "content": "登上皇帝的宝座控制天下。至尊，至高无上的地位，指帝位。六合，天地四方。"
+            },
+            {
+              "start": 36,
+              "end": 43,
+              "content": "用严酷的刑罚来奴役天下的百姓。敲扑，行刑用的棍杖，短的叫“敲”，长的叫“扑”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 528
+            },
+            {
+              "char": "取",
+              "pinyin": "qǔ",
+              "index": 529
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 530
+            },
+            {
+              "char": "越",
+              "pinyin": "yuè",
+              "index": 531
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 532
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 533
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 534
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 535
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 536
+            },
+            {
+              "char": "桂",
+              "pinyin": "guì",
+              "index": 537
+            },
+            {
+              "char": "林",
+              "pinyin": "lín",
+              "index": 538
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 539
+            },
+            {
+              "char": "象",
+              "pinyin": "xiàng",
+              "index": 540
+            },
+            {
+              "char": "郡",
+              "pinyin": "jùn",
+              "index": 541
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 542
+            }
+          ],
+          "translation": "等到秦始皇即位，他发扬了六代君王遗留的功业，挥鞭用武力来征服各国，终于吞并了西周、东周而且灭亡了诸侯各国，登上了至高无上的皇帝宝座而制服了天下，掌握各种刑具来奴役天下的百姓，威风震撼四海。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "古代越族居住在桂、浙、闽、粤等地，每个部落都有名称，统称“百越”。也叫“百粤”。"
+            },
+            {
+              "start": 7,
+              "end": 13,
+              "content": "设置了桂林郡、象郡（在今广西一带）。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 543
+            },
+            {
+              "char": "越",
+              "pinyin": "yuè",
+              "index": 544
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 545
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 546
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 547
+            },
+            {
+              "char": "俯",
+              "pinyin": "fǔ",
+              "index": 548
+            },
+            {
+              "char": "首",
+              "pinyin": "shǒu",
+              "index": 549
+            },
+            {
+              "char": "系",
+              "pinyin": "xì",
+              "index": 550
+            },
+            {
+              "char": "颈",
+              "pinyin": "jǐng",
+              "index": 551
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 552
+            },
+            {
+              "char": "委",
+              "pinyin": "wěi",
+              "index": 553
+            },
+            {
+              "char": "命",
+              "pinyin": "mìng",
+              "index": 554
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 555
+            },
+            {
+              "char": "吏",
+              "pinyin": "lì",
+              "index": 556
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 557
+            }
+          ],
+          "translation": "他向南攻取了百越的土地，把它划为桂林郡和象郡；",
+          "notes": [
+            {
+              "start": 5,
+              "end": 8,
+              "content": "意思是愿意降服。系颈，颈上系绳，表示投降。"
+            },
+            {
+              "start": 10,
+              "end": 13,
+              "content": "（百越之君）把自己的性命交给狱官。下吏，下级官吏，这里指狱官。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "乃",
+              "pinyin": "nǎi",
+              "index": 558
+            },
+            {
+              "char": "使",
+              "pinyin": "shǐ",
+              "index": 559
+            },
+            {
+              "char": "蒙",
+              "pinyin": "méng",
+              "index": 560
+            },
+            {
+              "char": "恬",
+              "pinyin": "tián",
+              "index": 561
+            },
+            {
+              "char": "北",
+              "pinyin": "běi",
+              "index": 562
+            },
+            {
+              "char": "筑",
+              "pinyin": "zhù",
+              "index": 563
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 564
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 565
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 566
+            },
+            {
+              "char": "守",
+              "pinyin": "shǒu",
+              "index": 567
+            },
+            {
+              "char": "藩",
+              "pinyin": "fān",
+              "index": 568
+            },
+            {
+              "char": "篱",
+              "pinyin": "lí",
+              "index": 569
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 570
+            },
+            {
+              "char": "却",
+              "pinyin": "què",
+              "index": 571
+            },
+            {
+              "char": "匈",
+              "pinyin": "xiōng",
+              "index": 572
+            },
+            {
+              "char": "奴",
+              "pinyin": "nú",
+              "index": 573
+            },
+            {
+              "char": "七",
+              "pinyin": "qī",
+              "index": 574
+            },
+            {
+              "char": "百",
+              "pinyin": "yú",
+              "index": 575
+            },
+            {
+              "char": "余",
+              "pinyin": "bǎi",
+              "index": 576
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ",
+              "index": 577
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 578
+            }
+          ],
+          "translation": "百越的部落首领，只得低着头用绳子捆住脖子表示投降，把自己的生命交给狱吏掌握。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 3,
+              "content": "秦将领。秦始皇时领兵三十万北逐匈奴，修筑长城。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "比喻边疆上的屏障。藩，篱笆。"
+            },
+            {
+              "start": 13,
+              "end": 13,
+              "content": "使退却。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "胡",
+              "pinyin": "hú",
+              "index": 579
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 580
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 581
+            },
+            {
+              "char": "敢",
+              "pinyin": "gǎn",
+              "index": 582
+            },
+            {
+              "char": "南",
+              "pinyin": "nán",
+              "index": 583
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 584
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 585
+            },
+            {
+              "char": "牧",
+              "pinyin": "mù",
+              "index": 586
+            },
+            {
+              "char": "马",
+              "pinyin": "mǎ",
+              "index": 587
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 588
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 589
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 590
+            },
+            {
+              "char": "敢",
+              "pinyin": "gǎn",
+              "index": 591
+            },
+            {
+              "char": "弯",
+              "pinyin": "wān",
+              "index": 592
+            },
+            {
+              "char": "弓",
+              "pinyin": "gōng",
+              "index": 593
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 594
+            },
+            {
+              "char": "报",
+              "pinyin": "bào",
+              "index": 595
+            },
+            {
+              "char": "怨",
+              "pinyin": "yuàn",
+              "index": 596
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 597
+            }
+          ],
+          "translation": "于是又派蒙恬到北方去修筑长城并固守边境，把匈奴赶退七百余里；",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 598
+            },
+            {
+              "char": "是",
+              "pinyin": "shì",
+              "index": 599
+            },
+            {
+              "char": "废",
+              "pinyin": "fèi",
+              "index": 600
+            },
+            {
+              "char": "先",
+              "pinyin": "xiān",
+              "index": 601
+            },
+            {
+              "char": "王",
+              "pinyin": "wáng",
+              "index": 602
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 603
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 604
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 605
+            },
+            {
+              "char": "焚",
+              "pinyin": "fén",
+              "index": 606
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 607
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 608
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 609
+            },
+            {
+              "char": "言",
+              "pinyin": "yán",
+              "index": 610
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 611
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 612
+            },
+            {
+              "char": "愚",
+              "pinyin": "yú",
+              "index": 613
+            },
+            {
+              "char": "黔",
+              "pinyin": "qián",
+              "index": 614
+            },
+            {
+              "char": "首",
+              "pinyin": "shǒu",
+              "index": 615
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 616
+            }
+          ],
+          "translation": "匈奴人不再敢南下放马，六国的勇士再也不敢拿起弓箭来复仇。",
+          "notes": [
+            {
+              "start": 9,
+              "end": 12,
+              "content": "各学派的著作。"
+            },
+            {
+              "start": 16,
+              "end": 17,
+              "content": "秦朝对百姓的称呼。黔，黑色。秦朝百姓用黑色头巾包头，故称“黔首”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "隳",
+              "pinyin": "huī",
+              "index": 617
+            },
+            {
+              "char": "名",
+              "pinyin": "míng",
+              "index": 618
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 619
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 620
+            },
+            {
+              "char": "杀",
+              "pinyin": "shā",
+              "index": 621
+            },
+            {
+              "char": "豪",
+              "pinyin": "hāo",
+              "index": 622
+            },
+            {
+              "char": "杰",
+              "pinyin": "jié",
+              "index": 623
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 624
+            }
+          ],
+          "translation": "于是，秦始皇废除了先王的治国之道，焚毁了诸子百家的著作，用这种办法来愚化百姓；",
+          "notes": [
+            {
+              "start": 0,
+              "end": 0,
+              "content": "毁坏。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "收",
+              "pinyin": "shōu",
+              "index": 625
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 626
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 627
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 628
+            },
+            {
+              "char": "兵",
+              "pinyin": "bīng",
+              "index": 629
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 630
+            },
+            {
+              "char": "聚",
+              "pinyin": "jù",
+              "index": 631
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 632
+            },
+            {
+              "char": "咸",
+              "pinyin": "xiāng",
+              "index": 633
+            },
+            {
+              "char": "阳",
+              "pinyin": "yáng",
+              "index": 634
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 635
+            },
+            {
+              "char": "销",
+              "pinyin": "xiāo",
+              "index": 636
+            },
+            {
+              "char": "锋",
+              "pinyin": "fēng",
+              "index": 637
+            },
+            {
+              "char": "镝",
+              "pinyin": "dí",
+              "index": 638
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 639
+            },
+            {
+              "char": "铸",
+              "pinyin": "zhù",
+              "index": 640
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 641
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 642
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 643
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 644
+            },
+            {
+              "char": "十",
+              "pinyin": "shí",
+              "index": 645
+            },
+            {
+              "char": "二",
+              "pinyin": "èr",
+              "index": 646
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 647
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 648
+            },
+            {
+              "char": "弱",
+              "pinyin": "ruò",
+              "index": 649
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 650
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 651
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 652
+            },
+            {
+              "char": "民",
+              "pinyin": "mín",
+              "index": 653
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 654
+            }
+          ],
+          "translation": "毁掉著名的城池，杀掉了许多英雄豪杰；",
+          "notes": [
+            {
+              "start": 11,
+              "end": 13,
+              "content": "销毁兵器。锋，兵刃。镝，箭头。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "然",
+              "pinyin": "róu",
+              "index": 655
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 656
+            },
+            {
+              "char": "践",
+              "pinyin": "jiàn",
+              "index": 657
+            },
+            {
+              "char": "华",
+              "pinyin": "huá",
+              "index": 658
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 659
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 660
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 661
+            },
+            {
+              "char": "因",
+              "pinyin": "yīn",
+              "index": 662
+            },
+            {
+              "char": "河",
+              "pinyin": "hé",
+              "index": 663
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 664
+            },
+            {
+              "char": "池",
+              "pinyin": "chí",
+              "index": 665
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 666
+            },
+            {
+              "char": "据",
+              "pinyin": "jù",
+              "index": 667
+            },
+            {
+              "char": "亿",
+              "pinyin": "yì",
+              "index": 668
+            },
+            {
+              "char": "丈",
+              "pinyin": "zhàng",
+              "index": 669
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 670
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 671
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 672
+            },
+            {
+              "char": "临",
+              "pinyin": "lín",
+              "index": 673
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 674
+            },
+            {
+              "char": "测",
+              "pinyin": "cè",
+              "index": 675
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 676
+            },
+            {
+              "char": "渊",
+              "pinyin": "yuān",
+              "index": 677
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 678
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 679
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 680
+            },
+            {
+              "char": "固",
+              "pinyin": "gù",
+              "index": 681
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 682
+            }
+          ],
+          "translation": "收缴天下的兵器，集聚到咸阳，销熔兵刀箭头，铸成了十二尊铜人，用这种办法来削弱天下百姓的反抗力量。",
+          "notes": [
+            {
+              "start": 2,
+              "end": 10,
+              "content": "意思是，据守华山作为帝都城墙，凭借黄河作为帝都的护城河。践，踏。"
+            },
+            {
+              "start": 13,
+              "end": 16,
+              "content": "指华山。"
+            },
+            {
+              "start": 19,
+              "end": 22,
+              "content": "指黄河。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "良",
+              "pinyin": "liáng",
+              "index": 683
+            },
+            {
+              "char": "将",
+              "pinyin": "jiàng",
+              "index": 684
+            },
+            {
+              "char": "劲",
+              "pinyin": "jìn",
+              "index": 685
+            },
+            {
+              "char": "弩",
+              "pinyin": "nǔ",
+              "index": 686
+            },
+            {
+              "char": "守",
+              "pinyin": "shǒu",
+              "index": 687
+            },
+            {
+              "char": "要",
+              "pinyin": "yào",
+              "index": 688
+            },
+            {
+              "char": "害",
+              "pinyin": "hài",
+              "index": 689
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 690
+            },
+            {
+              "char": "处",
+              "pinyin": "chù",
+              "index": 691
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 692
+            },
+            {
+              "char": "信",
+              "pinyin": "xìn",
+              "index": 693
+            },
+            {
+              "char": "臣",
+              "pinyin": "chén",
+              "index": 694
+            },
+            {
+              "char": "精",
+              "pinyin": "jīng",
+              "index": 695
+            },
+            {
+              "char": "卒",
+              "pinyin": "zú",
+              "index": 696
+            },
+            {
+              "char": "陈",
+              "pinyin": "chén",
+              "index": 697
+            },
+            {
+              "char": "利",
+              "pinyin": "lì",
+              "index": 698
+            },
+            {
+              "char": "兵",
+              "pinyin": "bīng",
+              "index": 699
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 700
+            },
+            {
+              "char": "谁",
+              "pinyin": "shéi",
+              "index": 701
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 702
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 703
+            }
+          ],
+          "translation": "此后，依仗华山作为城墙，凭借黄河作为护城河，占据高达万丈的华山，又面对深不见底的黄河，把它作为固守的据点。",
+          "notes": [
+            {
+              "start": 10,
+              "end": 11,
+              "content": "可靠的大臣。"
+            },
+            {
+              "start": 18,
+              "end": 19,
+              "content": "盘诘查问。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 704
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 705
+            },
+            {
+              "char": "已",
+              "pinyin": "yǐ",
+              "index": 706
+            },
+            {
+              "char": "定",
+              "pinyin": "dìng",
+              "index": 707
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 708
+            },
+            {
+              "char": "始",
+              "pinyin": "shǐ",
+              "index": 709
+            },
+            {
+              "char": "皇",
+              "pinyin": "huáng",
+              "index": 710
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 711
+            },
+            {
+              "char": "心",
+              "pinyin": "xīn",
+              "index": 712
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 713
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 714
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 715
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 716
+            },
+            {
+              "char": "关",
+              "pinyin": "guān",
+              "index": 717
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 718
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 719
+            },
+            {
+              "char": "固",
+              "pinyin": "gù",
+              "index": 720
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 721
+            },
+            {
+              "char": "金",
+              "pinyin": "jīn",
+              "index": 722
+            },
+            {
+              "char": "城",
+              "pinyin": "chéng",
+              "index": 723
+            },
+            {
+              "char": "千",
+              "pinyin": "qiān",
+              "index": 724
+            },
+            {
+              "char": "里",
+              "pinyin": "lǐ",
+              "index": 725
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 726
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 727
+            },
+            {
+              "char": "孙",
+              "pinyin": "sūn",
+              "index": 728
+            },
+            {
+              "char": "帝",
+              "pinyin": "dì",
+              "index": 729
+            },
+            {
+              "char": "王",
+              "pinyin": "wáng",
+              "index": 730
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 731
+            },
+            {
+              "char": "世",
+              "pinyin": "shì",
+              "index": 732
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 733
+            },
+            {
+              "char": "业",
+              "pinyin": "yè",
+              "index": 734
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 735
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 736
+            }
+          ],
+          "translation": "又派优秀的将领拿着强劲的弓弩守卫着战略要地，派可靠的臣子和精锐的士卒拿着锋利的兵器，盘问来往行人。",
+          "notes": [
+            {
+              "start": 18,
+              "end": 19,
+              "content": "坚固的城池。金，比喻坚固。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "始",
+              "pinyin": "shǐ",
+              "index": 737
+            },
+            {
+              "char": "皇",
+              "pinyin": "huáng",
+              "index": 738
+            },
+            {
+              "char": "既",
+              "pinyin": "jì",
+              "index": 739
+            },
+            {
+              "char": "没",
+              "pinyin": "mò",
+              "index": 740
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 741
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 742
+            },
+            {
+              "char": "威",
+              "pinyin": "wēi",
+              "index": 743
+            },
+            {
+              "char": "震",
+              "pinyin": "zhèn",
+              "index": 744
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 745
+            },
+            {
+              "char": "殊",
+              "pinyin": "shū",
+              "index": 746
+            },
+            {
+              "char": "俗",
+              "pinyin": "sú",
+              "index": 747
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 748
+            }
+          ],
+          "translation": "天下已经平定，秦始皇的心意，自以为关中的险固地势，像是千里长的铜铁铸成的城垣，正是子孙称帝称王万代的基业。",
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "content": "不同的风俗，指边远的地方。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 749
+            },
+            {
+              "char": "陈",
+              "pinyin": "chén",
+              "index": 750
+            },
+            {
+              "char": "涉",
+              "pinyin": "shè",
+              "index": 751
+            },
+            {
+              "char": "瓮",
+              "pinyin": "wèng",
+              "index": 752
+            },
+            {
+              "char": "牖",
+              "pinyin": "yǒu",
+              "index": 753
+            },
+            {
+              "char": "绳",
+              "pinyin": "shéng",
+              "index": 754
+            },
+            {
+              "char": "枢",
+              "pinyin": "shū",
+              "index": 755
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 756
+            },
+            {
+              "char": "子",
+              "pinyin": "zǐ",
+              "index": 757
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 758
+            },
+            {
+              "char": "氓",
+              "pinyin": "méng",
+              "index": 759
+            },
+            {
+              "char": "隶",
+              "pinyin": "lì",
+              "index": 760
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 761
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 762
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 763
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 764
+            },
+            {
+              "char": "迁",
+              "pinyin": "qiān",
+              "index": 765
+            },
+            {
+              "char": "徙",
+              "pinyin": "xǐ",
+              "index": 766
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 767
+            },
+            {
+              "char": "徒",
+              "pinyin": "tú",
+              "index": 768
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 769
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 770
+            }
+          ],
+          "translation": "始皇去世之后，他的余威依然震慑着边远地区。",
+          "notes": [
+            {
+              "start": 3,
+              "end": 6,
+              "content": "用瓮做窗户，用草绳系门扇，形容家里穷。牖，窗户。枢，门扇开关的枢轴。"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "content": "指下层百姓。氓，民。隶，低贱的人。"
+            },
+            {
+              "start": 16,
+              "end": 19,
+              "content": "被征发的人。指陈涉被征发戍守渔阳。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "才",
+              "pinyin": "cái",
+              "index": 771
+            },
+            {
+              "char": "能",
+              "pinyin": "néng",
+              "index": 772
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 773
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 774
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 775
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 776
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 777
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 778
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 779
+            },
+            {
+              "char": "仲",
+              "pinyin": "zhòng",
+              "index": 780
+            },
+            {
+              "char": "尼",
+              "pinyin": "ní",
+              "index": 781
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 782
+            },
+            {
+              "char": "墨",
+              "pinyin": "mò",
+              "index": 783
+            },
+            {
+              "char": "翟",
+              "pinyin": "dí",
+              "index": 784
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 785
+            },
+            {
+              "char": "贤",
+              "pinyin": "xián",
+              "index": 786
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 787
+            },
+            {
+              "char": "陶",
+              "pinyin": "táo",
+              "index": 788
+            },
+            {
+              "char": "朱",
+              "pinyin": "zhū",
+              "index": 789
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 790
+            },
+            {
+              "char": "猗",
+              "pinyin": "yī",
+              "index": 791
+            },
+            {
+              "char": "顿",
+              "pinyin": "dùn",
+              "index": 792
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 793
+            },
+            {
+              "char": "富",
+              "pinyin": "fù",
+              "index": 794
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 795
+            }
+          ],
+          "translation": "可是，陈涉不过是个破瓮做窗户、草绳做户枢的贫家子弟，是氓、隶一类的人，（后来）做了被迁谪戍边的卒子；",
+          "notes": [
+            {
+              "start": 4,
+              "end": 5,
+              "content": "平常的人。"
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "content": "陶朱，就是春秋时期越国的范蠡。他帮助越王勾践灭吴后，离开越国到陶（今山东定陶西北），自称“陶朱公”。他因善于做生意而致富，所以后人常以“陶朱”为富人的代称。猗顿，春秋时鲁国人。他向陶朱公学致富之术，大畜牛羊于猗氏（今山西临猗）南部，积累了很多财物。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "蹑",
+              "pinyin": "niè",
+              "index": 796
+            },
+            {
+              "char": "足",
+              "pinyin": "zú",
+              "index": 797
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 798
+            },
+            {
+              "char": "伍",
+              "pinyin": "wǔ",
+              "index": 799
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 800
+            },
+            {
+              "char": "间",
+              "pinyin": "jiān",
+              "index": 801
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 802
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 803
+            },
+            {
+              "char": "倔",
+              "pinyin": "jué",
+              "index": 804
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ",
+              "index": 805
+            },
+            {
+              "char": "阡",
+              "pinyin": "qiān",
+              "index": 806
+            },
+            {
+              "char": "陌",
+              "pinyin": "mò",
+              "index": 807
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 808
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 809
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 810
+            },
+            {
+              "char": "率",
+              "pinyin": "shuài",
+              "index": 811
+            },
+            {
+              "char": "疲",
+              "pinyin": "pí",
+              "index": 812
+            },
+            {
+              "char": "弊",
+              "pinyin": "bì",
+              "index": 813
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 814
+            },
+            {
+              "char": "卒",
+              "pinyin": "zú",
+              "index": 815
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 816
+            },
+            {
+              "char": "将",
+              "pinyin": "jiāng",
+              "index": 817
+            },
+            {
+              "char": "数",
+              "pinyin": "shǔ",
+              "index": 818
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 819
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 820
+            },
+            {
+              "char": "众",
+              "pinyin": "zhòng",
+              "index": 821
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 822
+            },
+            {
+              "char": "转",
+              "pinyin": "zhuǎn",
+              "index": 823
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 824
+            },
+            {
+              "char": "攻",
+              "pinyin": "gōng",
+              "index": 825
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 826
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 827
+            }
+          ],
+          "translation": "才能不如普通人，并没有孔丘、墨翟那样的贤德，也不像陶朱、猗顿那样富有。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "置身，参与。"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "content": "兴起。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "斩",
+              "pinyin": "zhǎn",
+              "index": 828
+            },
+            {
+              "char": "木",
+              "pinyin": "mù",
+              "index": 829
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 830
+            },
+            {
+              "char": "兵",
+              "pinyin": "bīng",
+              "index": 831
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 832
+            },
+            {
+              "char": "揭",
+              "pinyin": "jiē",
+              "index": 833
+            },
+            {
+              "char": "竿",
+              "pinyin": "gān",
+              "index": 834
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 835
+            },
+            {
+              "char": "旗",
+              "pinyin": "qí",
+              "index": 836
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 837
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 838
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 839
+            },
+            {
+              "char": "云",
+              "pinyin": "yún",
+              "index": 840
+            },
+            {
+              "char": "集",
+              "pinyin": "jí",
+              "index": 841
+            },
+            {
+              "char": "响",
+              "pinyin": "yìng",
+              "index": 842
+            },
+            {
+              "char": "应",
+              "pinyin": "dá",
+              "index": 843
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 844
+            },
+            {
+              "char": "赢",
+              "pinyin": "yíng",
+              "index": 845
+            },
+            {
+              "char": "粮",
+              "pinyin": "liáng",
+              "index": 846
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 847
+            },
+            {
+              "char": "景",
+              "pinyin": "jǐng",
+              "index": 848
+            },
+            {
+              "char": "从",
+              "pinyin": "cóng",
+              "index": 849
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 850
+            }
+          ],
+          "translation": "（他）跻身于戍卒的队伍中，从田野间突然奋起发难，率领着疲惫无力的士兵，指挥着几百人的队伍，掉转头来进攻秦国，砍下树木作武器，举起竹竿当旗帜，天下豪杰像云一样聚集，回声似的应和他，许多人都背着粮食，如影随形地跟着。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 5,
+              "content": "举。"
+            },
+            {
+              "start": 17,
+              "end": 21,
+              "content": "（许多人）担着粮食如影随形地跟着（陈涉）。赢，担负。景，同“影”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 851
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 852
+            },
+            {
+              "char": "豪",
+              "pinyin": "hāo",
+              "index": 853
+            },
+            {
+              "char": "俊",
+              "pinyin": "jùn",
+              "index": 854
+            },
+            {
+              "char": "遂",
+              "pinyin": "suì",
+              "index": 855
+            },
+            {
+              "char": "并",
+              "pinyin": "bìng",
+              "index": 856
+            },
+            {
+              "char": "起",
+              "pinyin": "qǐ",
+              "index": 857
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 858
+            },
+            {
+              "char": "亡",
+              "pinyin": "wáng",
+              "index": 859
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 860
+            },
+            {
+              "char": "族",
+              "pinyin": "zú",
+              "index": 861
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 862
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 863
+            }
+          ],
+          "translation": "崤山以东的英雄豪杰于是一齐起事，消灭了秦的家族。",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "崤山以东，代指东方诸国。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "content": [
+            {
+              "char": "且",
+              "pinyin": "qiě",
+              "index": 864
+            },
+            {
+              "char": "夫",
+              "pinyin": "fū",
+              "index": 865
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 866
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 867
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 868
+            },
+            {
+              "char": "小",
+              "pinyin": "xiǎo",
+              "index": 869
+            },
+            {
+              "char": "弱",
+              "pinyin": "ruò",
+              "index": 870
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 871
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 872
+            },
+            {
+              "char": "雍",
+              "pinyin": "yōng",
+              "index": 873
+            },
+            {
+              "char": "州",
+              "pinyin": "zhōu",
+              "index": 874
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 875
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 876
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 877
+            },
+            {
+              "char": "崤",
+              "pinyin": "xiáo",
+              "index": 878
+            },
+            {
+              "char": "函",
+              "pinyin": "hán",
+              "index": 879
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 880
+            },
+            {
+              "char": "固",
+              "pinyin": "gù",
+              "index": 881
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 882
+            },
+            {
+              "char": "自",
+              "pinyin": "zì",
+              "index": 883
+            },
+            {
+              "char": "若",
+              "pinyin": "ruò",
+              "index": 884
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 885
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 886
+            }
+          ],
+          "translation": "况且那天下并没有缩小削弱，雍州的地势，崤山和函谷关的险固，是保持原来的样子。",
+          "notes": [
+            {
+              "start": 19,
+              "end": 20,
+              "content": "意思是像是原来的样子。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "陈",
+              "pinyin": "chén",
+              "index": 887
+            },
+            {
+              "char": "涉",
+              "pinyin": "shè",
+              "index": 888
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 889
+            },
+            {
+              "char": "位",
+              "pinyin": "wèi",
+              "index": 890
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 891
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 892
+            },
+            {
+              "char": "尊",
+              "pinyin": "zūn",
+              "index": 893
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 894
+            },
+            {
+              "char": "齐",
+              "pinyin": "qí",
+              "index": 895
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 896
+            },
+            {
+              "char": "楚",
+              "pinyin": "chǔ",
+              "index": 897
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 898
+            },
+            {
+              "char": "燕",
+              "pinyin": "yàn",
+              "index": 899
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 900
+            },
+            {
+              "char": "赵",
+              "pinyin": "zhào",
+              "index": 901
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 902
+            },
+            {
+              "char": "韩",
+              "pinyin": "hán",
+              "index": 903
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 904
+            },
+            {
+              "char": "魏",
+              "pinyin": "wèi",
+              "index": 905
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 906
+            },
+            {
+              "char": "宋",
+              "pinyin": "sòng",
+              "index": 907
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 908
+            },
+            {
+              "char": "卫",
+              "pinyin": "wèi",
+              "index": 909
+            },
+            {
+              "char": "、",
+              "pinyin": "",
+              "index": 910
+            },
+            {
+              "char": "中",
+              "pinyin": "zhōng",
+              "index": 911
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 912
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 913
+            },
+            {
+              "char": "君",
+              "pinyin": "jūn",
+              "index": 914
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 915
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 916
+            }
+          ],
+          "translation": "陈涉的地位，没有比齐、楚、燕、赵、韩、魏、宋、卫、中山的国君更加尊贵；",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "锄",
+              "pinyin": "chú",
+              "index": 917
+            },
+            {
+              "char": "櫌",
+              "pinyin": "yōu",
+              "index": 918
+            },
+            {
+              "char": "棘",
+              "pinyin": "jí",
+              "index": 919
+            },
+            {
+              "char": "矜",
+              "pinyin": "qín",
+              "index": 920
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 921
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 922
+            },
+            {
+              "char": "铦",
+              "pinyin": "xiān",
+              "index": 923
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 924
+            },
+            {
+              "char": "钩",
+              "pinyin": "gōu",
+              "index": 925
+            },
+            {
+              "char": "戟",
+              "pinyin": "jǐ",
+              "index": 926
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 927
+            },
+            {
+              "char": "铩",
+              "pinyin": "shā",
+              "index": 928
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 929
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 930
+            }
+          ],
+          "translation": "锄头木棍也不比钩戟长矛更锋利；",
+          "notes": [
+            {
+              "start": 0,
+              "end": 12,
+              "content": "农具木棍不如钩戟长矛锋利。櫌，同“耰”，碎土平田用的农具。棘矜，用酸枣木做的棍子。棘，酸枣木。这里的意思是农民军的武器，只有农具和木棍。铦，锋利。钩戟，带钩的戟。长铩，长矛。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "谪",
+              "pinyin": "zhé",
+              "index": 931
+            },
+            {
+              "char": "戍",
+              "pinyin": "shù",
+              "index": 932
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 933
+            },
+            {
+              "char": "众",
+              "pinyin": "zhòng",
+              "index": 934
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 935
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 936
+            },
+            {
+              "char": "抗",
+              "pinyin": "kàng",
+              "index": 937
+            },
+            {
+              "char": "于",
+              "pinyin": "yú",
+              "index": 938
+            },
+            {
+              "char": "九",
+              "pinyin": "jiǔ",
+              "index": 939
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 940
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 941
+            },
+            {
+              "char": "师",
+              "pinyin": "shī",
+              "index": 942
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 943
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 944
+            }
+          ],
+          "translation": "那迁谪戍边的士兵也不能和九国部队抗衡；",
+          "notes": [
+            {
+              "start": 0,
+              "end": 1,
+              "content": "因有罪而被征调去守边。"
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "content": "匹敌，相当。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "深",
+              "pinyin": "shēn",
+              "index": 945
+            },
+            {
+              "char": "谋",
+              "pinyin": "móu",
+              "index": 946
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "index": 947
+            },
+            {
+              "char": "虑",
+              "pinyin": "lǜ",
+              "index": 948
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 949
+            },
+            {
+              "char": "行",
+              "pinyin": "xíng",
+              "index": 950
+            },
+            {
+              "char": "军",
+              "pinyin": "jūn",
+              "index": 951
+            },
+            {
+              "char": "用",
+              "pinyin": "yòng",
+              "index": 952
+            },
+            {
+              "char": "兵",
+              "pinyin": "bīng",
+              "index": 953
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 954
+            },
+            {
+              "char": "道",
+              "pinyin": "dào",
+              "index": 955
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 956
+            },
+            {
+              "char": "非",
+              "pinyin": "fēi",
+              "index": 957
+            },
+            {
+              "char": "及",
+              "pinyin": "jí",
+              "index": 958
+            },
+            {
+              "char": "乡",
+              "pinyin": "xiāng",
+              "index": 959
+            },
+            {
+              "char": "时",
+              "pinyin": "shí",
+              "index": 960
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 961
+            },
+            {
+              "char": "士",
+              "pinyin": "shì",
+              "index": 962
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 963
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 964
+            }
+          ],
+          "translation": "深谋远虑，行军用兵的方法，也比不上先前九国的武将谋臣。",
+          "notes": [
+            {
+              "start": 14,
+              "end": 15,
+              "content": "先前。乡，同“向”。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 965
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 966
+            },
+            {
+              "char": "成",
+              "pinyin": "chéng",
+              "index": 967
+            },
+            {
+              "char": "败",
+              "pinyin": "bài",
+              "index": 968
+            },
+            {
+              "char": "异",
+              "pinyin": "yì",
+              "index": 969
+            },
+            {
+              "char": "变",
+              "pinyin": "biàn",
+              "index": 970
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 971
+            },
+            {
+              "char": "功",
+              "pinyin": "gōng",
+              "index": 972
+            },
+            {
+              "char": "业",
+              "pinyin": "yè",
+              "index": 973
+            },
+            {
+              "char": "相",
+              "pinyin": "xiāng",
+              "index": 974
+            },
+            {
+              "char": "反",
+              "pinyin": "fǎn",
+              "index": 975
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 976
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 977
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 978
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 979
+            }
+          ],
+          "translation": "可是条件好者失败而条件差者成功，功业完全相反，为什么呢？",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "试",
+              "pinyin": "shì",
+              "index": 980
+            },
+            {
+              "char": "使",
+              "pinyin": "shǐ",
+              "index": 981
+            },
+            {
+              "char": "山",
+              "pinyin": "shān",
+              "index": 982
+            },
+            {
+              "char": "东",
+              "pinyin": "dōng",
+              "index": 983
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 984
+            },
+            {
+              "char": "国",
+              "pinyin": "guó",
+              "index": 985
+            },
+            {
+              "char": "与",
+              "pinyin": "yǔ",
+              "index": 986
+            },
+            {
+              "char": "陈",
+              "pinyin": "chén",
+              "index": 987
+            },
+            {
+              "char": "涉",
+              "pinyin": "shè",
+              "index": 988
+            },
+            {
+              "char": "度",
+              "pinyin": "dù",
+              "index": 989
+            },
+            {
+              "char": "长",
+              "pinyin": "cháng",
+              "index": 990
+            },
+            {
+              "char": "絜",
+              "pinyin": "xié",
+              "index": 991
+            },
+            {
+              "char": "大",
+              "pinyin": "dà",
+              "index": 992
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 993
+            },
+            {
+              "char": "比",
+              "pinyin": "bǐ",
+              "index": 994
+            },
+            {
+              "char": "权",
+              "pinyin": "quán",
+              "index": 995
+            },
+            {
+              "char": "量",
+              "pinyin": "liàng",
+              "index": 996
+            },
+            {
+              "char": "力",
+              "pinyin": "lì",
+              "index": 997
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 998
+            },
+            {
+              "char": "则",
+              "pinyin": "zé",
+              "index": 999
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 1000
+            },
+            {
+              "char": "可",
+              "pinyin": "kě",
+              "index": 1001
+            },
+            {
+              "char": "同",
+              "pinyin": "tóng",
+              "index": 1002
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 1003
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 1004
+            },
+            {
+              "char": "语",
+              "pinyin": "yǔ",
+              "index": 1005
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 1006
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 1007
+            }
+          ],
+          "translation": "假使拿东方诸侯国跟陈涉比一比长短大小，量一量权势力量，就更不能相提并论了。",
+          "notes": [
+            {
+              "start": 9,
+              "end": 12,
+              "content": "量量长短，比比大小。絜，衡量。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 1008
+            },
+            {
+              "char": "秦",
+              "pinyin": "qín",
+              "index": 1009
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 1010
+            },
+            {
+              "char": "区",
+              "pinyin": "qū",
+              "index": 1011
+            },
+            {
+              "char": "区",
+              "pinyin": "qū",
+              "index": 1012
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 1013
+            },
+            {
+              "char": "地",
+              "pinyin": "dì",
+              "index": 1014
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 1015
+            },
+            {
+              "char": "致",
+              "pinyin": "zhì",
+              "index": 1016
+            },
+            {
+              "char": "万",
+              "pinyin": "wàn",
+              "index": 1017
+            },
+            {
+              "char": "乘",
+              "pinyin": "shèng",
+              "index": 1018
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 1019
+            },
+            {
+              "char": "势",
+              "pinyin": "shì",
+              "index": 1020
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 1021
+            },
+            {
+              "char": "序",
+              "pinyin": "xù",
+              "index": 1022
+            },
+            {
+              "char": "八",
+              "pinyin": "bā",
+              "index": 1023
+            },
+            {
+              "char": "州",
+              "pinyin": "zhōu",
+              "index": 1024
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 1025
+            },
+            {
+              "char": "朝",
+              "pinyin": "cháo",
+              "index": 1026
+            },
+            {
+              "char": "同",
+              "pinyin": "tóng",
+              "index": 1027
+            },
+            {
+              "char": "列",
+              "pinyin": "liè",
+              "index": 1028
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 1029
+            },
+            {
+              "char": "百",
+              "pinyin": "bǎi",
+              "index": 1030
+            },
+            {
+              "char": "有",
+              "pinyin": "yǒu",
+              "index": 1031
+            },
+            {
+              "char": "余",
+              "pinyin": "yú",
+              "index": 1032
+            },
+            {
+              "char": "年",
+              "pinyin": "nián",
+              "index": 1033
+            },
+            {
+              "char": "矣",
+              "pinyin": "yǐ",
+              "index": 1034
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 1035
+            }
+          ],
+          "translation": "然而秦凭借着它的小小的地方，发展到兵车万乘的国势，管辖全国，使六国诸侯都来朝见，已经一百多年了；",
+          "notes": [
+            {
+              "start": 9,
+              "end": 10,
+              "content": "兵车万辆。表示军事力量强大。"
+            },
+            {
+              "start": 14,
+              "end": 20,
+              "content": "统理八州，使六国诸侯都来朝见。序，安置使有序。八州，兖州、冀州、青州、徐州、豫州、荆州、扬州、梁州。古时天下分九州，秦居雍州，六国分居其他八州。同列，指六国诸侯。秦与六国本来是同列诸侯。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "然",
+              "pinyin": "rán",
+              "index": 1036
+            },
+            {
+              "char": "后",
+              "pinyin": "hòu",
+              "index": 1037
+            },
+            {
+              "char": "以",
+              "pinyin": "yǐ",
+              "index": 1038
+            },
+            {
+              "char": "六",
+              "pinyin": "liù",
+              "index": 1039
+            },
+            {
+              "char": "合",
+              "pinyin": "hé",
+              "index": 1040
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 1041
+            },
+            {
+              "char": "家",
+              "pinyin": "jiā",
+              "index": 1042
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 1043
+            },
+            {
+              "char": "崤",
+              "pinyin": "xiáo",
+              "index": 1044
+            },
+            {
+              "char": "函",
+              "pinyin": "hán",
+              "index": 1045
+            },
+            {
+              "char": "为",
+              "pinyin": "wéi",
+              "index": 1046
+            },
+            {
+              "char": "宫",
+              "pinyin": "gōng",
+              "index": 1047
+            },
+            {
+              "char": "；",
+              "pinyin": "",
+              "index": 1048
+            }
+          ],
+          "translation": "这之后把天下作为家业，用崤山、函谷关作为自己的内宫；",
+          "notes": []
+        },
+        {
+          "content": [
+            {
+              "char": "一",
+              "pinyin": "yī",
+              "index": 1049
+            },
+            {
+              "char": "夫",
+              "pinyin": "fū",
+              "index": 1050
+            },
+            {
+              "char": "作",
+              "pinyin": "zuò",
+              "index": 1051
+            },
+            {
+              "char": "难",
+              "pinyin": "nán",
+              "index": 1052
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 1053
+            },
+            {
+              "char": "七",
+              "pinyin": "qī",
+              "index": 1054
+            },
+            {
+              "char": "庙",
+              "pinyin": "miào",
+              "index": 1055
+            },
+            {
+              "char": "隳",
+              "pinyin": "huī",
+              "index": 1056
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 1057
+            },
+            {
+              "char": "身",
+              "pinyin": "shēn",
+              "index": 1058
+            },
+            {
+              "char": "死",
+              "pinyin": "sǐ",
+              "index": 1059
+            },
+            {
+              "char": "人",
+              "pinyin": "rén",
+              "index": 1060
+            },
+            {
+              "char": "手",
+              "pinyin": "shǒu",
+              "index": 1061
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 1062
+            },
+            {
+              "char": "为",
+              "pinyin": "wèi",
+              "index": 1063
+            },
+            {
+              "char": "天",
+              "pinyin": "tiān",
+              "index": 1064
+            },
+            {
+              "char": "下",
+              "pinyin": "xià",
+              "index": 1065
+            },
+            {
+              "char": "笑",
+              "pinyin": "xiào",
+              "index": 1066
+            },
+            {
+              "char": "者",
+              "pinyin": "zhě",
+              "index": 1067
+            },
+            {
+              "char": "，",
+              "pinyin": "",
+              "index": 1068
+            },
+            {
+              "char": "何",
+              "pinyin": "hé",
+              "index": 1069
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 1070
+            },
+            {
+              "char": "？",
+              "pinyin": "",
+              "index": 1071
+            }
+          ],
+          "translation": "陈涉一人起义国家就灭亡了，秦王子婴死在别人手里，被天下人耻笑，这是为什么呢？",
+          "notes": [
+            {
+              "start": 0,
+              "end": 3,
+              "content": "指陈涉起义。作难，起事。"
+            },
+            {
+              "start": 5,
+              "end": 7,
+              "content": "宗庙毁灭，就是国家灭亡的意思。七庙，古代天子的宗庙。"
+            },
+            {
+              "start": 9,
+              "end": 12,
+              "content": "指秦王子婴为项羽所杀。"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "char": "仁",
+              "pinyin": "rén",
+              "index": 1072
+            },
+            {
+              "char": "义",
+              "pinyin": "yì",
+              "index": 1073
+            },
+            {
+              "char": "不",
+              "pinyin": "bù",
+              "index": 1074
+            },
+            {
+              "char": "施",
+              "pinyin": "shī",
+              "index": 1075
+            },
+            {
+              "char": "而",
+              "pinyin": "ér",
+              "index": 1076
+            },
+            {
+              "char": "攻",
+              "pinyin": "gōng",
+              "index": 1077
+            },
+            {
+              "char": "守",
+              "pinyin": "shǒu",
+              "index": 1078
+            },
+            {
+              "char": "之",
+              "pinyin": "zhī",
+              "index": 1079
+            },
+            {
+              "char": "势",
+              "pinyin": "shì",
+              "index": 1080
+            },
+            {
+              "char": "异",
+              "pinyin": "yì",
+              "index": 1081
+            },
+            {
+              "char": "也",
+              "pinyin": "yě",
+              "index": 1082
+            },
+            {
+              "char": "。",
+              "pinyin": "",
+              "index": 1083
+            }
+          ],
+          "translation": "就因为不施行仁政而使攻守的形势发生了变化啊。",
+          "notes": [
+            {
+              "start": 5,
+              "end": 10,
+              "content": "攻和守的形势不同了。攻，指秦兼并六国时处于攻势。守，指秦统一天下后处于守势。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "选必中",
+    "文言文"
+  ],
+  "background": "西汉文帝时代，国内封建割据与中央集权的矛盾、统治阶级与劳动人民的矛盾以及民族之间的矛盾都日益加剧，统治者的地位有动摇的危险。为了调和各种矛盾，使西汉王朝长治久安，贾谊在《陈政事疏》《论积贮疏》以及《过秦论》等著名的政论文中向汉室提出了不少改革时弊的政治主张。《过秦论》一文总结秦朝兴亡的教训，实为昭汉之过，此文章便节选自《过秦论》。",
+  "appreciation": "《过秦论·上篇》是一篇政论文。此文先讲述秦自孝公以迄始皇逐渐强大的原因：具有地理的优势、实行变法图强的主张、正确的战争策略、几世秦王的苦心经营等，行文中采用了排比式的句子和铺陈式的描写方法，富有气势；之后则写陈涉虽然本身力量微小，却能使强大的秦国覆灭，在对比中得出秦亡在于“仁义不施”的结论。全文旨在总结秦速亡的历史教训，以作为汉王朝建立制度、巩固统治的借鉴，是一篇见解深刻而又极富艺术感染力的文章。",
+  "annotation": "秦孝公：生于公元前381年，死于公元前338年，战国时秦国的国君，名渠梁。穆公十五世孙。他任用商鞅变法，使秦富国强兵。崤函(xiáohán)：崤山和函谷关。崤山，在函谷关的东边。函谷关，在河南省灵宝县。固，险要的地理位置。雍州：包括今陕西省中部和北部、甘肃省除去东南部的大部分地区、青海省的东南部和宁夏回族自治区一带地方。周室：这里指代天子之位的权势，并非实指周王室。战国初期，周王室已经十分衰弱，所统治的地盘只有三四十座城池，三万多人口。席卷天下：与下文“包举宇内、囊括四海、并吞八荒”是同义铺排。席，像用席子一样，名词作状语。下文的“包”“囊”同此。八荒：原指八方荒远的偏僻地方，此指代“天下”。商君：即商鞅，约生于公元前390年，死于前338年。战国时卫人。姓公孙，名鞅。因封于商，号曰商君。先仕魏，为魏相公叔痤家臣。痤死后入秦，相秦十九年，辅助秦孝公变法，使秦国富强。孝公死，公子虔等诬陷鞅谋反，车裂死。外：对国外。连衡：也作“连横”，是一种离间六国，使它们各自同秦国联合，从而实施各个击破的策略。“连衡”一句为虚笔，张仪相秦始于惠文王十年，即公元前年，是商鞅死后十年的事。斗诸侯：使诸侯自相争斗。斗，使动用法。拱手：两手合抱，形容毫不费力。西河：又称河西，今陕西东部黄河西岸地区。秦孝公二十二年（公元前年），商鞅伐魏，魏使公子为将而击之。商鞅遗书公子，愿与为好会而罢兵。会盟既已，商鞅虏公子而袭夺其军。其后十年间，魏屡败于秦，魏王恐，乃使使割西河之地献于秦以和。没：通“殁”，死。惠文、武、昭襄：即惠文王、武王、昭襄王。惠文王是孝公的儿子，武王是惠文王的儿子，昭襄王是武王的异母弟。因：动词，沿袭。膏腴（gāoyú）：指土地肥沃。要害之郡：指政治、经济、军事上都非常重要的地区。爱：吝惜，吝啬。致：招致，招纳。合从：与秦“连横”之策相对，是联合六国共同对付秦国的策略。从，通“纵”。四君：指齐孟尝君田文、赵平原君赵胜、楚春申君黄歇、魏信陵君魏无忌。他们都是当时仅次于国君的当政者，皆以招揽宾客著称。约：结。离：使离散。衡，通“横”。兼：兼并、统一。徐尚：宋人。苏秦：洛阳人，是当时的“合纵长”。杜赫：周人。齐明：东周臣。周最：东周君儿子。陈轸：楚人。召滑(shào)：楚臣。楼缓：魏相。翟景：魏人。苏厉：苏秦的弟弟。乐毅：燕将。吴起：魏将，后入楚。孙膑：齐将。带佗：楚将。倪良、王廖：都是当时的兵家。田忌：齐将。廉颇、赵奢：赵将。制：统领、统帅。叩关：攻打函谷关。叩，击。九国之师，逡巡而不敢进：九国，就是上文的韩、魏、燕、楚、齐、赵、宋、卫、中山。逡巡(qūnxún)，有所顾虑而徘徊或不敢前进。据《史记·六国表》载，并没有“九国之师”齐出动的情况，“秦人开关延敌，九国之师，逡巡而不敢进”不尽合历史事实。亡：丢失，丢掉。镞：箭头。制：制裁，制服。弊：弱点，毛病。亡：逃亡的军队，在此用作名词。北：败北的军队，名词。伏尸百万：这说的不是一次战役的死亡人数。秦击六国杀伤人数史书皆有记载，如前年击韩伊阙，斩首万；前年，破赵长平军，杀卒万。因：趁着，介词。利：有利的形势，用作名词。享国：帝王在位的年数。六世：指秦孝公、惠文王、武王、昭襄王、孝文王、庄襄王。御：驾御，统治。二周：在东周王朝最后的周赧王时，东西周分治。西周都于河南东部旧王城，东周则都巩，史称东西二周。西周灭于秦昭襄王五十一年，东周灭于秦庄襄王元年，不是始皇时事，作者只是为了行文方便才这样写的。履至尊：登帝位。制：控制。振：通“震”，震惊（粤教版已直接用所通假的字）。南：向南。百越：古代越族居住在江、浙、闽、粤各地，每个部落都有名称，而统称百越，也叫百粤。俯首系颈：意思是愿意顺从投降。系颈，颈上系绳，表示投降。下吏：交付司法官吏审讯。北：在北方，方位名词作状语。藩篱：比喻边疆上的屏障。藩，篱笆。先王：本文指的是秦自孝公以来六代君王。先，已死去的长辈。焚百家之言：指秦始皇焚书坑儒。百家之言，诸子百家各学派的著作。言，言论，这里指著作。隳名城：毁坏高大的城墙。销锋镝：销毁兵器。销，熔化金属。锋，兵刃。镝，箭头。金人：《史记·秦始皇本纪》：“收天下兵，聚之咸阳，销以为钟鐻，金人十二，重各千斤，置廷宫中。”弱：使（天下百姓）衰弱。亿丈之城：指华山。不测之渊，指黄河。良将劲弩守要害之处，信臣精卒陈利兵而谁何：这两个句子用了互文的手法，应当理解为，“良将劲弩、信臣精卒，守要害之处，陈利兵而谁何”。信臣，可靠的大臣。谁何，盘诘查问。。关中：秦以函谷关为门户，关中即指秦雍州地。金城：坚固的城池。金，比喻坚固。子孙帝王：子子孙孙称帝称王。帝王，名词活用动词殊俗：不同的风俗，指边远的地方。瓮牖绳枢：以破瓮作窗户，用草绳替代户枢系门板，形容家里贫穷。瓮，用瓮做。牖，窗户。绳，用绳子系。枢，门扇开关的枢轴。氓隶：农村中地位低下的人。陈涉少时为人佣耕，所以称他为“氓隶”。氓，古时指农村居民。隶，奴隶。迁徙之徒：被征发戍边的人，指陈涉在秦二世元年被征发戍守渔阳。中人：一般人。蹑足行伍（hángwǔ）：置身于戍卒的队伍中。蹑足，蹈，用脚踏地，这里有“置身于……”的意思。行伍，古代军队编制，以五人为伍，二十五人为行，故以“行伍”代指军队。倔：通“崛”，突起（粤教版已直接用所通假的字）。阡陌（qiānmò）：本是田间小道，这里代指民间。赢粮而景从：担着干粮如影随形地跟着。赢，担负。景，同“影”。且夫：复合虚词，表递进，相当“再说”“而且”。小弱，变小变弱。耰：通“耰”（粤教版已直接用所通假的字），古时的一种碎土平田用的农具，似耙而无齿。棘：酸枣木。矜：矛柄，这里指木棍。铦：锋利。钩：短兵器，似剑而曲。戟：以戈和矛合为一体的长柄兵器。铩：长矛。及：动词，赶得上，追得上。絜：衡量。万乘：兵车万辆，表示军事力量强大。周制，天子地方千里，出兵车万乘，故又以万乘代指天子。乘（shèng），古时车辆叫乘。序八州：给八州按次第排列座次。序，座次、次序，这里是排列次序的意思。八州，指兖州、冀州、青州、徐州、豫州、荆州、扬州、梁州。古时天下分九州，秦居雍州，六国分别居于其他八州。朝同列：使六国诸侯都来朝见。朝，使……来朝拜。同列，同在朝班，此指六国诸侯，秦与六国本来都是周王朝的同列诸侯。有：通“又”，用于连接整数和零数。",
+  "comprehensive_appreciation": "赏析：这篇先讲述秦自孝公以迄始皇逐渐强大的原因：具有地理的优势、实行变法图强的主张、正确的战争策略、几世秦王的苦心经营等。行文中采用了排比式的句子和铺陈式的描写方法，富有气势；之后则写陈涉虽然本身力量微小，却能使强大的秦国覆灭，在对比中得出秦亡在于“仁义不施”的结论。主要说这篇文章气势充沛，一气呵成。多用排比句或对偶句，本篇固不例外（如第2段中从“于是六国之士”以下，先用一“有”字领起，贯穿下面三句，罗列了大量历史人物，就是排比句式；如“蒙故业”以下四句，每两句一对仗，就是对偶句式。也有排比兼对偶的句式，如开头说秦孝公“有席卷天下，包举宇内，囊括四海之意，并吞八荒之心”即是）。但这只是从表面现象去理解，在古典散文名篇中，用排比句或对偶句的文章并不少，却不一定篇篇气盛。如孔稚圭的《北山移文》，造句或排或偶，然而读起来并不感到气势磅礴。可见用排比句和对偶句只是增强文章气势的因素之一，属于外在的艺术技巧，而不是主要因素。该篇之所以气盛而传诵不朽，之所以使人觉得有说服力，有三个原因。第一个是最主要的，即这篇文章虽是议论文，其中却用了十之七八的篇幅来叙事。用叙事来议论，是本篇最大的特点。作者用千余字的篇幅叙述了从秦孝公到秦亡国这一百多年来的历史，概括地说明了秦由盛而衰的全过程和主要现象，同时还贯穿了作者本人的观点来说明其兴衰的关键所在，这就帮助我们对这一段历史有比较清楚的认识。这个特点为什么能使文章读起来有气势呢？关键在于：一、作者既能用概括扼要的笔墨来表达丰富的内容，让读者感到短短一篇文章竟然内容丰富，自然觉得它饱满充沛，思路自然而然地跟随着作者的笔锋，因此会显得气“盛”；二、贾谊对秦国由盛而衰、由兴而亡的叙述条理清晰，他抓住一条纵的线，即从秦孝公之兴到秦王朝之亡，始终是按照时间的顺序来安排文章的层次先后的；而对某一特定时间内的某一点，又突出地加以铺陈发挥，使人不仅看到“线”，还看到“线”上的一个个用浓墨重彩着重描述的“点”。于是读者会不由自主地顺着作者所安排的次序往下推，往下读，作者不中断，读者便不能中断，作者不节外生枝，读者就不能旁及其余。因此，这也给人带来了气盛的感觉。第二个使读者感到文章气盛的原因，亦即该篇所具有的另一特点：贾谊在用写赋的手法来写说议论文。写赋是需要铺张和夸大的，这篇文章通篇都采用了这种手法。比如第1段“有席卷天下”四句，“席卷”“包举”“囊括”“并吞”等词，基本同义；“天下”“宇内”“四海”和“八荒”，也是同一个意思。同一个意思而一连写上好几句，既有排比又有对仗，这就是写赋的夸张手法。下面第2、第4、第5等段中，都有类似的句子，不胜枚举。所谓“铺张扬厉”，主要就是指的这一类句子。这样，气势自然就充沛了，自然让读者感受到作者的笔锋锐不可当，咄咄逼人，读起来有劲头，有说服力，而且有欲罢不能之感。这是由于作者本人原是一位辞赋作家。作为作家，贾谊不仅是政治家，也是文学家；作为作品，《过秦论》同样具有文学作品的艺术特色。第三个原因，也是这篇文章所具有的第三个特点，即作者用全篇对比的手法写出了他的论点。对比手法并不稀奇，而本篇精彩处却在于作者用了四个方面的对比：即秦国本身先强后弱、先盛后衰、先兴旺后灭亡的对比；秦与六国的对比；秦与陈涉的对比；陈涉与六国的对比。几种对比交织在一起，结构自然宏伟，气势也自然磅礴，话也显得更有分量了。主客观形势的不同，强弱盛衰难易的不同，都从几方面的对比中显现出来。而文章气盛的道理，便不难理解了。前三段，主要写三个方面：一、秦国世世代代有野心；二、秦国实力愈来愈强大；三、由于靠实力，秦国统一天下并不很难。第1段着重写秦有野心，第2段着重写有实力，第3段兼而写之。全篇的铺排和对比都从这三方面入手，把具体史实贯穿进去，用概括的语言勾画出大的轮廓来，使叙述的内容有了倾向性，有了作者自己的观点。如说“秦人拱手而取西河之外”“秦无亡矢遗镞之费”和第3段结束处写“始皇之心，自以为关中之固，金城千里，子孙帝王万世之业也”等，都是极写秦之野心和实力，极写其得天下并不难。与此同时，作者也写了另一方面，如“四君”“九国之师”“六国之士”等，愈写对方强大也就愈衬托秦之强大，这是烘云托月的手法。但我们却感到：愈写秦之强大，就愈见秦之骄横愚昧；愈写秦之过度自信 ，就愈见秦之主观片面；愈写秦之野心极大，就愈见秦之眼光短浅。作者虽处处叙而不论，却处处为最后一段的议论在“蓄势”。这样的文章，读起来自然感到饱满酣畅了。第二段结尾只说了九个字：“享国之日浅，国家无事”。这当然是事实，但也并非一点可写的事件都没有。然而，作者不准备在这里多费笔墨，只把那一条贯穿于秦各个时期的纵线画出来便止。从行文方面来说，一篇气盛的文章也不能毫不喘息。第3段开头的十几个字，就给全篇形成一个短暂的停顿。明代古文家归有光就说过，这是“如人吐气”（见归有光《评点史记》）。我们固然不能形式主义地看问题，硬要在一气呵成的文章里安插一个“气口”；但文章写到这里，自然有了一个喘息的机会，“如人吐气”还是有必要的。第三段写秦始皇：野心与实力，兼而写之。但第3段与第2段不一样。第2段是用正反对比手法两面写，第3段却全从正面写，把秦始皇的实力与野心描绘得淋漓尽致，愈写愈足。甚至到了第4段开头处，还要找补两句：“始皇既没，余威震于殊俗”。吴闿生夹批：“再加二句，十分酣恣。”然而，作者笔锋一转 ，又改从陈涉写起，却处处对陈涉寓褒于贬，这就更加体现出秦之灭亡实有自取其祸之道了。最末一段是“论”和“断”，仍用对比手法把几个方面综合到一起，然后得出结论，即所谓“断”。为了使结论下得郑重，便又把秦重新提起总说一遍，才以“仁义不施而攻守之势异也”收尾。文章须能放能收，能开能合，始见本领。这篇文章在当时确实起了积极的影响。贾谊作为士大夫，固然站在封建统治阶级立场为汉王朝出谋划策。但他却能认识到农民起义的力量，认识到秦王朝灭亡的关键在于失掉民心和过分迷信武力，封建统治者野心大而虐待人民，终于被人民灭亡。有了这个认识，统治阶级才开始考虑如何缓和社会矛盾，以巩固自己的统治政权。这才说明农民起义真正推动了历史前进的车轮。有了贾谊这一番描绘，汉朝的皇帝才能真正总结秦代由盛而衰、由强而弱的经验教训。"
+}

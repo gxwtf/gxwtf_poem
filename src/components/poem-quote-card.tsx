@@ -40,6 +40,31 @@ export function PoemQuoteCard({
     )
 }
 
+export function PoemQuoteCards({ poems }: { poems: Array<PoemQuoteCardProps> }) {
+  if (!poems || poems.length === 0) {
+    return (
+      <div className="text-center py-8 text-gray-500">
+        暂无推荐内容
+      </div>
+    );
+  }
+
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {poems.map((poem, index) => (
+        <PoemQuoteCard
+          key={index}
+          title={poem.title}
+          version={poem.version}
+          author={poem.author}
+          dynasty={poem.dynasty}
+          quote={poem.quote}
+        />
+      ))}
+    </div>
+  );
+}
+
 export function SkeletonPoemQuoteCard() {
     return (
         <Card className="border-l-4 border-l-[var(--theme-color)]">

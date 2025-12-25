@@ -1,0 +1,25 @@
+import { Meta } from '@/components/poem-meta';
+import { PoemPreview } from '@/components/poem-preview/poem-preview';
+import previewData from './preview.json';
+import { MemorizeContextProvider } from "@/components/poem-preview/memorize-context";
+import { Tags } from "@/components/tag"
+import { BilibiliVideos } from "@/components/video"
+import { PoemQuoteCard, PoemQuoteCards } from "@/components/poem-quote-card"
+
+<Meta 
+  title="湖心亭看雪"
+  author="张岱"
+  dynasty="明末清初"
+/>
+
+<MemorizeContextProvider>
+  <PoemPreview data={{ mode: "paragraph", preview: previewData.preview }} />
+</MemorizeContextProvider>
+
+## 写作背景
+
+　　《湖心亭看雪》是张岱收录在回忆录《陶庵梦忆》中的一篇，写于明王朝灭亡以后。张岱在明亡以后，消极避居浙江剡溪山中，专心从事著述，穷困以终。《陶庵梦忆》即写于他避居剡溪山后。
+
+## 作品赏析
+
+　　《湖心亭看雪》是一篇散文。此文记叙了作者自己湖心亭看雪的经过，描绘了所看到的幽静深远、洁白广阔的雪景图，体现了作者深沉的故国之思，也反映了作者不与世俗同流合污、不随波逐流的品质以及远离世俗、孤芳自赏的情怀，并寄托了人生渺茫的慨叹。全文融叙事、写景、抒情于一体，笔墨精炼，文笔清秀，表现力强，意境阔大，情致虚渺。
