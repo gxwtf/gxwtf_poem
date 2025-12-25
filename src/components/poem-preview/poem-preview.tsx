@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button"
 import { Paragraph, ParagraphData } from "./paragraph";
 import { Memorize } from "./memorize";
 import { MemorizeContext } from "./memorize-context";
+import { StarButton } from "../star";
+import { usePathname } from "next/navigation";
 
 function ControlButtons({
     showTranslation,
@@ -24,6 +26,11 @@ function ControlButtons({
     setShowNotes: React.Dispatch<React.SetStateAction<boolean>>
 }) {
     const { memorize } = useContext(MemorizeContext);
+    const url = decodeURI(usePathname());
+
+    const poemParams = url.substring(url.indexOf('poem') + 5);
+    const version = poemParams.substring(0,poemParams.indexOf('/'));
+    const title = poemParams.substring(poemParams.indexOf('/')+1);
 
     return (
         <div className="flex justify-center gap-4 my-4">
@@ -41,6 +48,7 @@ function ControlButtons({
                 </Button>
             ) : null}
             <Memorize></Memorize>
+            <StarButton version={version} title={title}></StarButton>
         </div>
     )
 }
