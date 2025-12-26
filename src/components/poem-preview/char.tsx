@@ -113,7 +113,7 @@ export function Char({
 
     return (
         <div
-            className={`inline-block justify-center text-primary pr-1 ${highlight ? "bg-yellow-100" : ""} relative select-none`}
+            className={`inline-block justify-center text-primary ${highlight ? "bg-yellow-100" : ""} relative select-none`}
             onMouseOver={handleMouseOver}
             onClick={handleClick}
         >
