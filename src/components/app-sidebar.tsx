@@ -9,7 +9,8 @@ import {
     Tag,
     UserPen,
 	BookOpenText,
-    Info
+    Info,
+    Star
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
@@ -52,19 +53,11 @@ const data = {
         {
             title: "收藏",
             url: "/star/poem",
-            icon: Icon,
+            icon: Star,
             items: [
                 {
-                    title: "概览",
-                    url: "/overview",
-                },
-                {
-                    title: "知识梳理[Demo]",
-                    url: "/comb/junior/次北固山下",
-                },
-                {
-                    title: "标签",
-                    url: "/tag/poem",
+                    title: "古诗文",
+                    url: "/star/poem",
                 },
             ],
         },
