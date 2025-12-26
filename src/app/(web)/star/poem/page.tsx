@@ -30,8 +30,9 @@ export default function OverviewPage() {
             setLoading(true)
             try {
                 const res = await queryStars(userId);
-                console.log(res);
-                setPoems(res);
+                // console.log(res);
+                const validPoems = res.filter((poem): poem is PoemMeta => poem.id !== undefined);
+                setPoems(validPoems);
             } catch (error) {
                 console.error('Error fetching poems:', error)
             } finally {
