@@ -44,11 +44,11 @@ export function StarButton({
         >
             <Star
                 className="w-4 h-4"
-                fill={starStat?"#eac54f":"var(--muted-foreground)"}
+                fill={starStat?"#eac54f":"none"}
                 color={starStat?"#eac54f":"var(--muted-foreground)"}
                 strokeWidth={2}
             />
-            <span className="text-primary">{starStat ? "Starred" : "Star"}</span>
+            <span className="text-primary">{starStat ? "已收藏" : "收藏"}</span>
             <Badge variant="secondary">{starNum}</Badge>
         </Button>
 

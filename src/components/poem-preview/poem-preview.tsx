@@ -34,16 +34,16 @@ function ControlButtons({
 
     return (
         <div className="flex justify-center gap-4 my-4">
-            <Button variant="outline" onClick={() => setShowTranslation(v => !v)}>
+            <Button variant="outline" className="text-primary" onClick={() => setShowTranslation(v => !v)}>
                 {showTranslation ? "隐藏翻译" : "显示翻译"}
             </Button>
             {isNaN(memorize) ? (
-                <Button variant="outline" onClick={() => setShowPinyin(v => !v)}>
+                <Button variant="outline" className="text-primary" onClick={() => setShowPinyin(v => !v)}>
                     {showPinyin ? "隐藏拼音" : "显示拼音"}
                 </Button>
             ) : null}
             {isNaN(memorize) ? (
-                <Button variant="outline" onClick={() => setShowNotes(v => !v)}>
+                <Button variant="outline" className="text-primary" onClick={() => setShowNotes(v => !v)}>
                     {showNotes ? "隐藏注释" : "显示注释"}
                 </Button>
             ) : null}

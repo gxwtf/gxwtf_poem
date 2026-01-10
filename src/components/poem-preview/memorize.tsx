@@ -32,7 +32,7 @@ export function Memorize() {
             <>
                 <Popover>
                     <PopoverTrigger asChild>
-                        <Button variant="outline">背诵</Button>
+                        <Button variant="outline" className="text-primary">背诵</Button>
                     </PopoverTrigger>
                     <PopoverContent>
                         <h4 className="bold">背诵古诗文</h4>
