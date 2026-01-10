@@ -32,7 +32,7 @@ import { PoemQuoteCard, PoemQuoteCards } from "@/components/poem-quote-card"
     mdxContent += `
 ## 写作背景
 
-${data.background}
+　　${data.background}
 `}
 
   // 检查是否有推荐数据
@@ -40,7 +40,7 @@ ${data.background}
     mdxContent += `
 ## 作品赏析
 
-${data.appreciation}
+　　${data.appreciation}
 `}
 
   // 检查是否有推荐数据
