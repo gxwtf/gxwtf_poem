@@ -41,12 +41,12 @@ const data = {
                     url: "/overview",
                 },
                 {
-                    title: "知识梳理[Demo]",
-                    url: "/comb/junior/次北固山下",
-                },
-                {
                     title: "标签",
                     url: "/tag/poem",
+                },
+                {
+                    title: "收藏",
+                    url: "/star/poem",
                 },
             ],
         },
