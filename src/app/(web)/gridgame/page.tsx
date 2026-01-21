@@ -251,10 +251,10 @@ const GamePage: React.FC = () => {
                                 {/* 答案对比 */}
                                 {showCorrectAnswer && correctAnswer && (
                                     <>
-                                        <div className="w-full mt-8">
+                                        <div className="w-full">
                                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                                 {/* 用户答案 */}
-                                                <Alert className="bg-secondary/50">
+                                                <Alert className="hidden md:block bg-secondary/50">
                                                     <AlertTitle className="text-xl font-semibold text-foreground">
                                                         你的答案
                                                     </AlertTitle>
