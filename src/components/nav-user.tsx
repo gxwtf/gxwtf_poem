@@ -102,10 +102,12 @@ export function NavUser({
                     账号中心
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <CreditCard />
-                  会员中心
-                </DropdownMenuItem>
+                { user.vip ? <DropdownMenuItem asChild>
+                  <Link href="https://gxwtf.cn/admin">
+                    <CreditCard />
+                    会员中心
+                  </Link>
+                </DropdownMenuItem> : null}
               </DropdownMenuGroup>
               <DropdownMenuSeparator />
               <DropdownMenuItem onClick={(e) => {
