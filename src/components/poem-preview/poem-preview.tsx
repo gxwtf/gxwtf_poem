@@ -8,8 +8,9 @@ import { Paragraph, ParagraphData } from "./paragraph";
 import { Memorize } from "./memorize";
 import { MemorizeContext } from "./memorize-context";
 import { StarButton } from "../star";
-import { Book, BookOpen, Music, Music3, FileText, FileCheck } from "lucide-react";
+import { Book, BookOpen, Music, Music3, FileText, FileCheck, Scissors } from "lucide-react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 function ControlButtons({
     showTranslation,
@@ -51,6 +52,12 @@ function ControlButtons({
                     <span className="hidden sm:inline">{showNotes ? "隐藏注释" : "显示注释"}</span>
                 </Button>
             ) : null}
+            <Button asChild variant="outline" className="text-primary flex items-center gap-2">
+                <Link href={`/breaksentence/${version}/${title}`}>
+                    <Scissors className="w-4 h-4" />
+                    <span className="hidden sm:inline">断句</span>
+                </Link>
+            </Button>
             <Memorize></Memorize>
             <StarButton version={version} title={title}></StarButton>
         </div>

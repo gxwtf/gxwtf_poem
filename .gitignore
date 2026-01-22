@@ -50,3 +50,6 @@ next-env.d.ts
 # generated files
 /src/app/generated
 package-lock.json
+
+# trae
+.trae
