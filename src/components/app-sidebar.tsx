@@ -128,16 +128,21 @@ const data = {
         },
     ],
     navSecondary: [
+        // {
+        //     title: "帮助",
+        //     url: "https://docs.gxwtf.cn/",
+        //     icon: LifeBuoy,
+        // },
+        // {
+        //     title: "反馈",
+        //     url: "https://docs.gxwtf.cn/#/community/",
+        //     icon: Send,
+        // },
         {
-            title: "帮助",
-            url: "https://docs.gxwtf.cn/",
-            icon: LifeBuoy,
-        },
-        {
-            title: "反馈",
-            url: "https://docs.gxwtf.cn/#/community/",
-            icon: Send,
-        },
+            title: "广学五题坊",
+            url: "https://gxwtf.cn/",
+            icon: Star,
+        }
     ],
 	projects: []
 }
@@ -179,10 +184,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             </SidebarContent>
             <SidebarFooter>
                 {session?.isLoggedIn && (
-                    <NavUser user={{ name: session?.username, email: session?.email, avatar: `https://gxwtf.cn/avatar?userId=${session?.userid}` }} />
+                    <NavUser user={{ name: session?.username, email: session?.email, avatar: `https://gxwtf.cn/avatar?userId=${session?.userid}`, vip: session?.admin }} />
                 )}
                 {!session?.isLoggedIn && (
-                    <NavUser user={{ name: "游客", email: "", avatar: "#" }} />
+                    <NavUser user={{ name: "游客", email: "", avatar: "#", vip: false }} />
                 )}
             </SidebarFooter>
         </Sidebar>
